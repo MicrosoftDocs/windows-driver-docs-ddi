@@ -7,8 +7,8 @@ old-location: netvista\providersetdmachannelcpuaffinity.htm
 old-project: netvista
 ms.assetid: a53d8798-63fa-4b16-bda2-880ca3521d03
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DMA_CHANNELS_CPU_AFFINITY_HANDLER, ProviderSetDmaChannelCpuAffinity, ProviderSetDmaChannelCpuAffinity callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSetDmaChannelCpuAffinity, netdma_ref_bda3a4d0-7039-4f29-b75c-1e7e4a8f2131.xml, netvista.providersetdmachannelcpuaffinity
+ms.date: 4/25/2018
+ms.keywords: DMA_CHANNELS_CPU_AFFINITY_HANDLER, DMA_CHANNELS_CPU_AFFINITY_HANDLER callback, ProviderSetDmaChannelCpuAffinity, ProviderSetDmaChannelCpuAffinity callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSetDmaChannelCpuAffinity, netdma_ref_bda3a4d0-7039-4f29-b75c-1e7e4a8f2131.xml, netvista.providersetdmachannelcpuaffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProviderSetDmaChannelCpuAffinity
 product: Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_CHANNELS_CPU_AFFINITY_HANDLER callback
+# DMA_CHANNELS_CPU_AFFINITY_HANDLER callback function
 
 
 ## -description

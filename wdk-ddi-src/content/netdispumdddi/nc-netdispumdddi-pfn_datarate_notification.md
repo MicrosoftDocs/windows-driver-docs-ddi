@@ -7,8 +7,8 @@ old-location: display\pfndataratenotify.htm
 old-project: display
 ms.assetid: 5eb004d1-7cf8-45a3-aad5-2932b1a83bb8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFN_DATARATE_NOTIFICATION, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFN_DATARATE_NOTIFICATION, PFN_DATARATE_NOTIFICATION callback, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnDataRateNotify
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_DATARATE_NOTIFICATION callback
+# PFN_DATARATE_NOTIFICATION callback function
 
 
 ## -description

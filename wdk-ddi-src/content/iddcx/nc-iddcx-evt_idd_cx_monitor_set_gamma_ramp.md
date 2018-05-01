@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_set_gamma_ramp.htm
 old-project: display
 ms.assetid: 3e0828ee-307a-48fd-a8ea-b469ac6214d0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EvtIddCxMonitorSetGammaRamp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], display.evt_idd_cx_monitor_set_gamma_ramp, iddcx/EvtIddCxMonitorSetGammaRamp
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback, EvtIddCxMonitorSetGammaRamp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], display.evt_idd_cx_monitor_set_gamma_ramp, iddcx/EvtIddCxMonitorSetGammaRamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP
 product: Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback
+# EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function
 
 
 ## -description

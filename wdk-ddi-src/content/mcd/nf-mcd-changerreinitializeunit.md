@@ -40,7 +40,7 @@ api_name:
 -	ChangerReinitializeUnit
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerReinitializeUnit function

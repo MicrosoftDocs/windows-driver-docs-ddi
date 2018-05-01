@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetThreadContext
-title: IDebugAdvanced3::GetThreadContext method
+title: IDebugAdvanced3::GetThreadContext
 author: windows-driver-content
 description: The GetThreadContext method returns the current thread context.
 old-location: debugger\getthreadcontext.htm
 old-project: debugger
 ms.assetid: 6fe12f3b-b241-42e4-b35d-c8a485a5cfa8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetThreadContext method [Windows Debugging], GetThreadContext method [Windows Debugging], IDebugAdvanced interface, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, GetThreadContext,IDebugAdvanced3.GetThreadContext, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2::GetThreadContext, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced3::GetThreadContext, IDebugAdvanced::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, dbgeng/IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced3::GetThreadContext, dbgeng/IDebugAdvanced::GetThreadContext, debugger.getthreadcontext
+ms.date: 4/24/2018
+ms.keywords: GetThreadContext, GetThreadContext method [Windows Debugging], GetThreadContext method [Windows Debugging],IDebugAdvanced interface, GetThreadContext method [Windows Debugging],IDebugAdvanced2 interface, GetThreadContext method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced interface [Windows Debugging],GetThreadContext method, IDebugAdvanced2 interface [Windows Debugging],GetThreadContext method, IDebugAdvanced2::GetThreadContext, IDebugAdvanced3 interface [Windows Debugging],GetThreadContext method, IDebugAdvanced3.GetThreadContext, IDebugAdvanced3::GetThreadContext, IDebugAdvanced::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, dbgeng/IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced3::GetThreadContext, dbgeng/IDebugAdvanced::GetThreadContext, debugger.getthreadcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugAdvanced3.GetThreadContext
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugAdvanced3::GetThreadContext method
+# IDebugAdvanced3::GetThreadContext
 
 
 ## -description

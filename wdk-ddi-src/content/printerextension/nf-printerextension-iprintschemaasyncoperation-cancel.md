@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperation.Cancel
-title: IPrintSchemaAsyncOperation::Cancel method
+title: IPrintSchemaAsyncOperation::Cancel
 author: windows-driver-content
 description: Cancels the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_cancel.htm
 old-project: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Cancel method [Print Devices], Cancel method [Print Devices], IPrintSchemaAsyncOperation interface, Cancel,IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], Cancel method, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
+ms.date: 4/20/2018
+ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaAsyncOperation.Cancel
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaAsyncOperation::Cancel method
+# IPrintSchemaAsyncOperation::Cancel
 
 
 ## -description

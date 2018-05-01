@@ -7,8 +7,8 @@ old-location: netvista\protocolclincomingclosecall.htm
 old-project: netvista
 ms.assetid: 01c7d887-eb54-47c3-98f0-bc567b60fb4b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CL_INCOMING_CLOSE_CALL, ProtocolClIncomingCloseCall, ProtocolClIncomingCloseCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_3c97fa3b-d9ae-4748-8812-9abc896a509a.xml, ndis/ProtocolClIncomingCloseCall, netvista.protocolclincomingclosecall
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_INCOMING_CLOSE_CALL, PROTOCOL_CL_INCOMING_CLOSE_CALL callback, ProtocolClIncomingCloseCall, ProtocolClIncomingCloseCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_3c97fa3b-d9ae-4748-8812-9abc896a509a.xml, ndis/ProtocolClIncomingCloseCall, netvista.protocolclincomingclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolClIncomingCloseCall
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_INCOMING_CLOSE_CALL callback
+# PROTOCOL_CL_INCOMING_CLOSE_CALL callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.RawDeviceControl
-title: IStiDeviceControl::RawDeviceControl method
+title: IStiDeviceControl::RawDeviceControl
 author: windows-driver-content
 description: This topic describes the RawDeviceControl method.
 old-location: image\istidevicecontrol_rawdevicecontrol.htm
 old-project: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, IStiDeviceControl::RawDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, RawDeviceControl,IStiDeviceControl.RawDeviceControl, image.istidevicecontrol_rawdevicecontrol, stiusd/IStiDeviceControl::RawDeviceControl
+ms.date: 4/23/2018
+ms.keywords: IStiDeviceControl interface [Imaging Devices],RawDeviceControl method, IStiDeviceControl.RawDeviceControl, IStiDeviceControl::RawDeviceControl, RawDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, stiusd/IStiDeviceControl::RawDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiDeviceControl.RawDeviceControl
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDeviceControl::RawDeviceControl method
+# IStiDeviceControl::RawDeviceControl
 
 
 ## -description

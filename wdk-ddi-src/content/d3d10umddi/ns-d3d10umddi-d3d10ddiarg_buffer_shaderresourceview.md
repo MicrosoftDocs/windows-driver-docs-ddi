@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_buffer_shaderresourceview.htm
 old-project: display
 ms.assetid: 9144b167-7fa4-4854-bf0c-e98192f07db8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, display.d3d10ddiarg_buffer_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,22 +57,20 @@ The D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure describes a buffer that is u
 
 
 
+### -field FirstElement
 
 
-#### - ElementOffset
+### -field ElementOffset
 
 [in] The offset (that is, the number of elements) between the beginning of the buffer and the first element that is to be used in the view, starting at 0. 
 
 
-#### - ElementWidth
+### -field NumElements
+
+
+### -field ElementWidth
 
 [in] The number of elements in the view. 
-
-
-#### - FirstElement
-
-
-#### - NumElements
 
 
 ## -see-also

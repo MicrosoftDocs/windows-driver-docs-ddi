@@ -7,7 +7,7 @@ old-location: stream\ksaddevent.htm
 old-project: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAddEvent, KsAddEvent function [Streaming Media Devices], avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

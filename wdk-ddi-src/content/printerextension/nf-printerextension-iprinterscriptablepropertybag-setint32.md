@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetInt32
-title: IPrinterScriptablePropertyBag::SetInt32 method
+title: IPrinterScriptablePropertyBag::SetInt32
 author: windows-driver-content
 description: Writes an integer property.
 old-location: print\iprinterscriptablepropertybag_setint32.htm
 old-project: print
 ms.assetid: 40A057F7-AC9B-4F16-8FE2-490CEECAB523
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetInt32 method, IPrinterScriptablePropertyBag::SetInt32, SetInt32 method [Print Devices], SetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, SetInt32,IPrinterScriptablePropertyBag.SetInt32, print.iprinterscriptablepropertybag_setint32, printerextension/IPrinterScriptablePropertyBag::SetInt32
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetInt32 method, IPrinterScriptablePropertyBag.SetInt32, IPrinterScriptablePropertyBag::SetInt32, SetInt32, SetInt32 method [Print Devices], SetInt32 method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setint32, printerextension/IPrinterScriptablePropertyBag::SetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterScriptablePropertyBag.SetInt32
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::SetInt32 method
+# IPrinterScriptablePropertyBag::SetInt32
 
 
 ## -description

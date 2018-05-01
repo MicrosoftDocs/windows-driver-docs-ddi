@@ -7,7 +7,7 @@ old-location: kernel\exinitializesettimerparameters.htm
 old-project: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	ExInitializeSetTimerParameters
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExInitializeSetTimerParameters function

@@ -7,8 +7,8 @@ old-location: print\iprintpipelinepropertybag.htm
 old-project: print
 ms.assetid: 3997291f-0af3-4fa8-8d36-20ff36551f42
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices], described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag
+ms.date: 4/20/2018
+ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices],described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IPrintPipelinePropertyBag
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IPrintPipelinePropertyBag interface

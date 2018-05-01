@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentSystemServerNameWide
-title: IDebugSystemObjects4::GetCurrentSystemServerNameWide method
+title: IDebugSystemObjects4::GetCurrentSystemServerNameWide
 author: windows-driver-content
 description: Gets the server name for the current process.
 old-location: debugger\idebugsystemobjects4_getcurrentsystemservernamewide.htm
 old-project: debugger
 ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemServerNameWide,IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
+ms.date: 4/24/2018
+ms.keywords: GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemServerNameWide method, IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSystemObjects4.GetCurrentSystemServerNameWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects4::GetCurrentSystemServerNameWide method
+# IDebugSystemObjects4::GetCurrentSystemServerNameWide
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\protocolsetoptions.htm
 old-project: netvista
 ms.assetid: 342e23ad-d38b-4100-949a-220b8fbdcf6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: SET_OPTIONS, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
+ms.date: 4/25/2018
+ms.keywords: SET_OPTIONS, SET_OPTIONS callback, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetOptions
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# SET_OPTIONS callback
+# SET_OPTIONS callback function
 
 
 ## -description

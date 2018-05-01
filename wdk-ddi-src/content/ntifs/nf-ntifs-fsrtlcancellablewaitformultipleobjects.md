@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm
 old-project: ifsk
 ms.assetid: 9fb5805c-bb12-41ba-8c72-526b4193b6b5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlCancellableWaitForMultipleObjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, ntifs/FsRtlCancellableWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlCancellableWaitForMultipleObjects
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlCancellableWaitForMultipleObjects function

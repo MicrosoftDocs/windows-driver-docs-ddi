@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_interface.htm
 old-project: print
 ms.assetid: e581d190-8185-45c1-80c7-ff8eb305360e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], IPrintCoreHelperUni interface [Print Devices], described, prcomoem/IPrintCoreHelperUni, print.iprintcorehelperuni_interface, print_unidrv-pscript_allplugins_ca505d1f-1b52-4a61-a2d8-d8fea10cda76.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], IPrintCoreHelperUni interface [Print Devices],described, prcomoem/IPrintCoreHelperUni, print.iprintcorehelperuni_interface, print_unidrv-pscript_allplugins_ca505d1f-1b52-4a61-a2d8-d8fea10cda76.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintCoreHelperUni
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintCoreHelperUni interface

@@ -7,7 +7,7 @@ old-location: display\dxvaddi_queryextensioncapsinput.htm
 old-project: display
 ms.assetid: 6907eb45-8d29-4cdc-80eb-2d8cafbbd9bd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml, DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices], _DXVADDI_QUERYEXTENSIONCAPSINPUT, d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, display.dxvaddi_queryextensioncapsinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

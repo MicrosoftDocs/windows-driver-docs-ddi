@@ -7,7 +7,7 @@ old-location: buses\ursreporthardwareevent.htm
 old-project: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	UrsReportHardwareEvent
 product: Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UrsReportHardwareEvent function

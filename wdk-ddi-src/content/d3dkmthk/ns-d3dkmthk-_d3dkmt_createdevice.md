@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createdevice.htm
 old-project: display
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATEDEVICE, D3DKMT_CREATEDEVICE structure [Display Devices], OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml, _D3DKMT_CREATEDEVICE, d3dkmthk/D3DKMT_CREATEDEVICE, display.d3dkmt_createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,16 @@ The D3DKMT_CREATEDEVICE structure describes a kernel-mode device context.
 
 
 
+### -field hAdapter
+
+[in] A handle to the graphics adapter that the device context is created on. This handle identifies the adapter for user-mode creation. 
+
+
+### -field pAdapter
+
+[in] A pointer to a block of memory for the graphics adapter that the device context is created on. This pointer identifies the adapter for kernel-mode creation. 
+
+
 ### -field Flags
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547828">D3DKMT_CREATEDEVICEFLAGS</a> structure that indicates, in bit-field flags, the type of device context to be created.
@@ -103,16 +113,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKM
 [out] The number of elements in the patch-location list that is pointed to by <b>pPatchLocationList</b>. This quantity of patch locations is available when submitting the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this value. 
-
-
-#### - hAdapter
-
-[in] A handle to the graphics adapter that the device context is created on. This handle identifies the adapter for user-mode creation. 
-
-
-#### - pAdapter
-
-[in] A pointer to a block of memory for the graphics adapter that the device context is created on. This pointer identifies the adapter for kernel-mode creation. 
 
 
 ## -see-also

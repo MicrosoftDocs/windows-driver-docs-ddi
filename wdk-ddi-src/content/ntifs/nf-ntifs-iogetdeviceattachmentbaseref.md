@@ -7,7 +7,7 @@ old-location: ifsk\iogetdeviceattachmentbaseref.htm
 old-project: ifsk
 ms.assetid: e1d31fdd-de4f-4e57-a8e8-0468ab4242f8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ifsk.iogetdeviceattachmentbaseref, ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ntifs/IoGetDeviceAttachmentBaseRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoGetDeviceAttachmentBaseRef
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoGetDeviceAttachmentBaseRef function

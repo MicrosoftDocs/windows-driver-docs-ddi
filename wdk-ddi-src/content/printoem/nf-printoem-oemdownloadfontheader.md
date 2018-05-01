@@ -7,7 +7,7 @@ old-location: print\oemdownloadfontheader.htm
 old-project: print
 ms.assetid: 3865a206-840c-4acf-97be-86764cf522db
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMDownloadFontHeader, OEMDownloadFontHeader function [Print Devices], print.oemdownloadfontheader, print_obsoletefunctions_733001dd-14a7-43a6-b386-5be4b514ae0b.xml, printoem/OEMDownloadFontHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	OEMDownloadFontHeader
 product: Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMDownloadFontHeader function

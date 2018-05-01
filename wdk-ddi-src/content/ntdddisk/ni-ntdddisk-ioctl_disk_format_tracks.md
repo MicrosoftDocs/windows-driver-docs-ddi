@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f27f962f-badc-4e6f-ad3b-ce2a0c8ce825
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control code [Storage Devices], k307_c50ddad4-851d-474e-92c1-13520556173b.xml, ntdddisk/IOCTL_DISK_FORMAT_TRACKS, storage.ioctl_disk_format_tracks
+ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control, IOCTL_DISK_FORMAT_TRACKS control code [Storage Devices], k307_c50ddad4-851d-474e-92c1-13520556173b.xml, ntdddisk/IOCTL_DISK_FORMAT_TRACKS, storage.ioctl_disk_format_tracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_DISK_FORMAT_TRACKS
 product: Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_FORMAT_TRACKS IOCTL

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_COMPLETION_PARAMS, *PWDF_REQUEST_COMPLETION_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REQUEST_COMPLETION_PARAMS structure
@@ -127,14 +126,12 @@ Beginning address within the buffer for the data transfer.
 ### -field Parameters.Ioctl.Input
 
 
-
-###### Ioctl.Input.Buffer
+### -field Parameters.Ioctl.Input.Buffer
 
 A handle to a framework memory object. This object identifies the input buffer that the driver specified when it formatted the request and sent it to an I/O target.
 
 
-
-###### Ioctl.Input.Offset
+### -field Parameters.Ioctl.Input.Offset
 
 Beginning address within the buffer for the data transfer.
 
@@ -142,20 +139,17 @@ Beginning address within the buffer for the data transfer.
 ### -field Parameters.Ioctl.Output
 
 
-
-###### Ioctl.Output.Buffer
+### -field Parameters.Ioctl.Output.Buffer
 
 A handle to a framework memory object. This object identifies the output buffers that the driver specified when it formatted the request and sent it to an I/O target.
 
 
-
-###### Ioctl.Output.Offset
+### -field Parameters.Ioctl.Output.Offset
 
 Beginning address within the buffer for the data transfer.
 
 
-
-###### Ioctl.Output.Length
+### -field Parameters.Ioctl.Output.Length
 
 Length, in bytes, of the transfer.
 
@@ -168,9 +162,29 @@ Length, in bytes, of the transfer.
 Use of this member is defined by the driver stack.  See Remarks.
 
 
+### -field Parameters.Others.Argument1.Ptr
+
+ 
+
+
+### -field Parameters.Others.Argument1.Value
+
+ 
+
+
 ### -field Parameters.Others.Argument2
 
 Use of this member is defined by the driver stack.
+
+
+### -field Parameters.Others.Argument2.Ptr
+
+ 
+
+
+### -field Parameters.Others.Argument2.Value
+
+ 
 
 
 ### -field Parameters.Others.Argument3
@@ -178,9 +192,29 @@ Use of this member is defined by the driver stack.
 Use of this member is defined by the driver stack.
 
 
+### -field Parameters.Others.Argument3.Ptr
+
+ 
+
+
+### -field Parameters.Others.Argument3.Value
+
+ 
+
+
 ### -field Parameters.Others.Argument4
 
 Use of this member is defined by the driver stack.
+
+
+### -field Parameters.Others.Argument4.Ptr
+
+ 
+
+
+### -field Parameters.Others.Argument4.Value
+
+ 
 
 
 ### -field Parameters.Usb

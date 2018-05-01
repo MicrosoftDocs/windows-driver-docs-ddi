@@ -7,7 +7,7 @@ old-location: ifsk\rtldecompressfragmentex.htm
 old-project: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, ntifs/RtlDecompressFragmentEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlDecompressFragmentEx
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlDecompressFragmentEx function

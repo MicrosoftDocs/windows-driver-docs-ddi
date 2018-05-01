@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c8eff87f-b8af-4876-9327-545eeff958c3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_PMI_SET_CONFIGURATION, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml, pmi/IOCTL_PMI_SET_CONFIGURATION, powermeter.ioctl_pmi_set_configuration
+ms.keywords: IOCTL_PMI_SET_CONFIGURATION, IOCTL_PMI_SET_CONFIGURATION control, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml, pmi/IOCTL_PMI_SET_CONFIGURATION, powermeter.ioctl_pmi_set_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_PMI_SET_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: PMI_MEASUREMENT_UNIT
+req.typenames: 
 ---
 
 # IOCTL_PMI_SET_CONFIGURATION IOCTL

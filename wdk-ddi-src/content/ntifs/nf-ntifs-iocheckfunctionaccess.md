@@ -7,7 +7,7 @@ old-location: ifsk\iocheckfunctionaccess.htm
 old-project: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ifsk.iocheckfunctionaccess, ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoCheckFunctionAccess
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoCheckFunctionAccess function

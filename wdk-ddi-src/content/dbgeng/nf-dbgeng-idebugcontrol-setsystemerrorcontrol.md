@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetSystemErrorControl
-title: IDebugControl::SetSystemErrorControl method
+title: IDebugControl::SetSystemErrorControl
 author: windows-driver-content
 description: The SetSystemErrorControl method sets the control values for handling system errors.
 old-location: debugger\setsystemerrorcontrol.htm
 old-project: debugger
 ms.assetid: 0ff15743-29df-44dc-a18b-ba8f7e49058e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, IDebugControl2::SetSystemErrorControl, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, IDebugControl3::SetSystemErrorControl, IDebugControl::SetSystemErrorControl, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, SetSystemErrorControl method [Windows Debugging], SetSystemErrorControl method [Windows Debugging], IDebugControl interface, SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, SetSystemErrorControl,IDebugControl.SetSystemErrorControl, dbgeng/IDebugControl2::SetSystemErrorControl, dbgeng/IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl::SetSystemErrorControl, debugger.setsystemerrorcontrol
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetSystemErrorControl method, IDebugControl.SetSystemErrorControl, IDebugControl2 interface [Windows Debugging],SetSystemErrorControl method, IDebugControl2::SetSystemErrorControl, IDebugControl3 interface [Windows Debugging],SetSystemErrorControl method, IDebugControl3::SetSystemErrorControl, IDebugControl::SetSystemErrorControl, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], SetSystemErrorControl method [Windows Debugging],IDebugControl interface, SetSystemErrorControl method [Windows Debugging],IDebugControl2 interface, SetSystemErrorControl method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetSystemErrorControl, dbgeng/IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl::SetSystemErrorControl, debugger.setsystemerrorcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.SetSystemErrorControl
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::SetSystemErrorControl method
+# IDebugControl::SetSystemErrorControl
 
 
 ## -description

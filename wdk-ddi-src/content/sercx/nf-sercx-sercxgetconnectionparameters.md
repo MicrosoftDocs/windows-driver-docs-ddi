@@ -7,7 +7,7 @@ old-location: serports\sercxgetconnectionparameters.htm
 old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SerCxGetConnectionParameters
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxGetConnectionParameters function

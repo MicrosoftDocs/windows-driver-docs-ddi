@@ -7,8 +7,8 @@ old-location: display\displayid_detailed_timing_type_i_scanning_mode.htm
 old-project: display
 ms.assetid: 8a5d3fba-ffd5-4fbc-973a-d5bfec6bb6e3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DIDDT1_Interlaced, DIDDT1_Progressive, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Interlaced, d3dkmdt/DIDDT1_Progressive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, display.displayid_detailed_timing_type_i_scanning_mode
+ms.date: 4/16/2018
+ms.keywords: DIDDT1_Interlaced, DIDDT1_Progressive, DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Interlaced, d3dkmdt/DIDDT1_Progressive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, display.displayid_detailed_timing_type_i_scanning_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

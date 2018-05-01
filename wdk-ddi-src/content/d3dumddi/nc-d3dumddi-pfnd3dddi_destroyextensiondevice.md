@@ -7,8 +7,8 @@ old-location: display\destroyextensiondevice.htm
 old-project: display
 ms.assetid: 8c4bcab3-b903-4f39-aab0-7efb3b18d068
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
+ms.date: 4/16/2018
+ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, PFND3DDDI_DESTROYEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DestroyExtensionDevice
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYEXTENSIONDEVICE callback
+# PFND3DDDI_DESTROYEXTENSIONDEVICE callback function
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4D3DA81A-D79A-4299-A743-AFB0118DDF3F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, storage.ioctl_ehstor_tcgdrv_relinquish_silo
+ms.keywords: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, storage.ioctl_ehstor_tcgdrv_relinquish_silo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO IOCTL

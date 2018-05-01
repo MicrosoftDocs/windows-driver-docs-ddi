@@ -7,7 +7,7 @@ old-location: kernel\rtlprefetchmemorynontemporal.htm
 old-project: kernel
 ms.assetid: d11c3414-86c8-4b68-829e-4523519c5299
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RtlPrefetchMemoryNonTemporal
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlPrefetchMemoryNonTemporal function

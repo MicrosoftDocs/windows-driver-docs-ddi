@@ -7,8 +7,8 @@ old-location: dtf\iwdtftargets2.htm
 old-project: dtf
 ms.assetid: b8d091e1-464c-43a7-b8fe-a9fa79be31c3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], IWDTFTargets2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFTargets2, dtf.iwdtftargets2, wdtf/IWDTFTargets2
+ms.date: 4/4/2018
+ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], IWDTFTargets2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFTargets2, dtf.iwdtftargets2, wdtf/IWDTFTargets2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IWDTFTargets2
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDTFTargets2 interface

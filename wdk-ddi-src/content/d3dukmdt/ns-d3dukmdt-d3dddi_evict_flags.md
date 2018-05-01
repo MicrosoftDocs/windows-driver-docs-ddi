@@ -7,7 +7,7 @@ old-location: display\d3dddi_evict_flags.htm
 old-project: display
 ms.assetid: 443671F1-98F5-4F9F-900B-37E3E50770CE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_EVICT_FLAGS, display.d3dddi_evict_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ When set, this indicates that the resource has not been written to by the GPU si
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the flags in the structure.
 

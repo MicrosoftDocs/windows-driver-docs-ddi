@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetSpecificFilterArgument
-title: IDebugControl2::GetSpecificFilterArgument method
+title: IDebugControl2::GetSpecificFilterArgument
 author: windows-driver-content
 description: The GetSpecificFilterArgument method returns the value of filter argument for thespecific filters that have an argument.
 old-location: debugger\getspecificfilterargument.htm
 old-project: debugger
 ms.assetid: a6e32ca9-ebae-482c-808c-6302ccd48db0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSpecificFilterArgument method [Windows Debugging], GetSpecificFilterArgument method [Windows Debugging], IDebugControl interface, GetSpecificFilterArgument method [Windows Debugging], IDebugControl2 interface, GetSpecificFilterArgument method [Windows Debugging], IDebugControl3 interface, GetSpecificFilterArgument,IDebugControl2.GetSpecificFilterArgument, IDebugControl interface [Windows Debugging], GetSpecificFilterArgument method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetSpecificFilterArgument method, IDebugControl2::GetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging], GetSpecificFilterArgument method, IDebugControl3::GetSpecificFilterArgument, IDebugControl::GetSpecificFilterArgument, IDebugControl_ab3a5161-b3e1-47fe-bc97-1f75af363cff.xml, dbgeng/IDebugControl2::GetSpecificFilterArgument, dbgeng/IDebugControl3::GetSpecificFilterArgument, dbgeng/IDebugControl::GetSpecificFilterArgument, debugger.getspecificfilterargument
+ms.date: 4/24/2018
+ms.keywords: GetSpecificFilterArgument, GetSpecificFilterArgument method [Windows Debugging], GetSpecificFilterArgument method [Windows Debugging],IDebugControl interface, GetSpecificFilterArgument method [Windows Debugging],IDebugControl2 interface, GetSpecificFilterArgument method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl2 interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl2.GetSpecificFilterArgument, IDebugControl2::GetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl3::GetSpecificFilterArgument, IDebugControl::GetSpecificFilterArgument, IDebugControl_ab3a5161-b3e1-47fe-bc97-1f75af363cff.xml, dbgeng/IDebugControl2::GetSpecificFilterArgument, dbgeng/IDebugControl3::GetSpecificFilterArgument, dbgeng/IDebugControl::GetSpecificFilterArgument, debugger.getspecificfilterargument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetSpecificFilterArgument
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetSpecificFilterArgument method
+# IDebugControl2::GetSpecificFilterArgument
 
 
 ## -description

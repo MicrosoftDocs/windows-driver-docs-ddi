@@ -7,7 +7,7 @@ old-location: buses\_ucx_endpoint_event_callbacks_init.htm
 old-project: usbref
 ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_endpoint_event_callbacks_init, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UCX_ENDPOINT_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCX_ENDPOINT_EVENT_CALLBACKS_INIT function

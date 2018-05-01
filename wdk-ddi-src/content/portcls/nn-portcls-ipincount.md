@@ -7,8 +7,8 @@ old-location: audio\ipincount.htm
 old-project: audio
 ms.assetid: 9e02584a-4c65-4400-b06e-58ba095c8dd0
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPinCount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices], described, audio.ipincount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml, portcls/IPinCount
+ms.date: 4/16/2018
+ms.keywords: IPinCount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices],described, audio.ipincount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml, portcls/IPinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	IPinCount
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPinCount interface

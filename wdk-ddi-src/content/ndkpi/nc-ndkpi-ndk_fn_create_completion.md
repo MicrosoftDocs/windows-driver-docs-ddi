@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_completion.htm
 old-project: netvista
 ms.assetid: C7A2792C-FDAE-4525-A8B1-7F8F6BA8249A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CREATE_COMPLETION, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_COMPLETION, NDK_FN_CREATE_COMPLETION callback, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkCreateCompletion
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_COMPLETION callback
+# NDK_FN_CREATE_COMPLETION callback function
 
 
 ## -description

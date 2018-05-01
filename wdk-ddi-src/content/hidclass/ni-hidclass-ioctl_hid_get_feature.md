@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: c77b4899-b76a-486c-aecd-7e052a1d9256
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_FEATURE, IOCTL_HID_GET_FEATURE control code [Human Input Devices], hid.ioctl_hid_get_feature, hidclass/IOCTL_HID_GET_FEATURE, hidioreq_2933a93c-ff74-41b8-9b0a-d1a8ae32b1cb.xml
+ms.keywords: IOCTL_HID_GET_FEATURE, IOCTL_HID_GET_FEATURE control, IOCTL_HID_GET_FEATURE control code [Human Input Devices], hid.ioctl_hid_get_feature, hidclass/IOCTL_HID_GET_FEATURE, hidioreq_2933a93c-ff74-41b8-9b0a-d1a8ae32b1cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_HID_GET_FEATURE
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_FEATURE IOCTL

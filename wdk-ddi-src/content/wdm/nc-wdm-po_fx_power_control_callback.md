@@ -7,7 +7,7 @@ old-location: kernel\powercontrolcallback.htm
 old-project: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	PowerControlCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PO_FX_POWER_CONTROL_CALLBACK callback
+# PO_FX_POWER_CONTROL_CALLBACK callback function
 
 
 ## -description

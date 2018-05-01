@@ -7,7 +7,7 @@ old-location: netvista\ndk_pd_dispatch.htm
 old-project: netvista
 ms.assetid: 3BAD6CF9-8DCD-470F-9C2E-C7C9C0B29ADA
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_PD_DISPATCH, NDK_PD_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_PD_DISPATCH, ndkpi/NDK_PD_DISPATCH, netvista.ndk_pd_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

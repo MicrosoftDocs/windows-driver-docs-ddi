@@ -40,10 +40,10 @@ api_name:
 -	AtaControllerTransferModeSelect
 product: Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: 
 ---
 
-# IDE_TRANSFER_MODE_SELECT callback
+# IDE_TRANSFER_MODE_SELECT callback function
 
 
 ## -description

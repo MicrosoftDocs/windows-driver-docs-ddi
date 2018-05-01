@@ -7,8 +7,8 @@ old-location: netvista\wskdisconnect.htm
 old-project: netvista
 ms.assetid: 499ff5d0-2030-472c-8de2-44dcd253d7b9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_DISCONNECT, WskDisconnect, WskDisconnect callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnect, wsk/WskDisconnect, wskref_0c0dd54e-03d9-4bb6-9040-68f352cfb6ae.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_DISCONNECT, PFN_WSK_DISCONNECT callback, WskDisconnect, WskDisconnect callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnect, wsk/WskDisconnect, wskref_0c0dd54e-03d9-4bb6-9040-68f352cfb6ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	WskDisconnect
 product: Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_DISCONNECT callback
+# PFN_WSK_DISCONNECT callback function
 
 
 ## -description

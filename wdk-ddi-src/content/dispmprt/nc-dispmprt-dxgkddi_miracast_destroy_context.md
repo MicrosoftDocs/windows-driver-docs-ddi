@@ -7,8 +7,8 @@ old-location: display\dxgkddimiracastdestroycontext.htm
 old-project: display
 ms.assetid: 2DEEB379-C9E8-45E4-920D-D94F8C27A4EF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_MIRACAST_DESTROY_CONTEXT, DxgkDdiMiracastDestroyContext, DxgkDdiMiracastDestroyContext callback function [Display Devices], display.dxgkddimiracastdestroycontext, dispmprt/DxgkDdiMiracastDestroyContext
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MIRACAST_DESTROY_CONTEXT, DXGKDDI_MIRACAST_DESTROY_CONTEXT callback, DxgkDdiMiracastDestroyContext, DxgkDdiMiracastDestroyContext callback function [Display Devices], display.dxgkddimiracastdestroycontext, dispmprt/DxgkDdiMiracastDestroyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiMiracastDestroyContext
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_MIRACAST_DESTROY_CONTEXT callback
+# DXGKDDI_MIRACAST_DESTROY_CONTEXT callback function
 
 
 ## -description

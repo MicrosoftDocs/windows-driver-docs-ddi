@@ -7,7 +7,7 @@ old-location: stream\ksfiltergetnextsiblingfilter.htm
 old-project: stream
 ms.assetid: 0b0a306a-6066-4a7d-ae2d-12eb8bb3adc0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterGetNextSiblingFilter, KsFilterGetNextSiblingFilter function [Streaming Media Devices], avfunc_bda9f36a-10d4-4de3-88b2-a358aad4fd04.xml, ks/KsFilterGetNextSiblingFilter, stream.ksfiltergetnextsiblingfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

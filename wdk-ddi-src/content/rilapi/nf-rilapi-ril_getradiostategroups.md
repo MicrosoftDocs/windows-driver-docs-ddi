@@ -7,7 +7,7 @@ old-location: netvista\ril_getradiostategroups.htm
 old-project: netvista
 ms.assetid: 7143e3a1-f383-4ea8-8e97-d9d7a9089db4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_GetRadioStateGroups
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetRadioStateGroups function

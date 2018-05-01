@@ -7,7 +7,7 @@ old-location: netvista\tcp_offload_state_cached.htm
 old-project: netvista
 ms.assetid: 953154eb-e6f3-4013-a68f-1a358953c7ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, ndischimney/TCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

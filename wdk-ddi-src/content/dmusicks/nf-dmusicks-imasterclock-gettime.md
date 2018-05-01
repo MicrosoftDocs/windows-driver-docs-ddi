@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusicks.IMasterClock.GetTime
-title: IMasterClock::GetTime method
+title: IMasterClock::GetTime
 author: windows-driver-content
 description: The GetTime method retrieves the current reference time read from the master clock.
 old-location: audio\imasterclock_gettime.htm
 old-project: audio
 ms.assetid: 9e88a94d-ce25-43ee-8187-30b406e8d9e4
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetTime method [Audio Devices], GetTime method [Audio Devices], IMasterClock interface, GetTime,IMasterClock.GetTime, IMasterClock, IMasterClock interface [Audio Devices], GetTime method, IMasterClock::GetTime, audio.imasterclock_gettime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, dmusicks/IMasterClock::GetTime
+ms.date: 4/16/2018
+ms.keywords: GetTime, GetTime method [Audio Devices], GetTime method [Audio Devices],IMasterClock interface, IMasterClock interface [Audio Devices],GetTime method, IMasterClock.GetTime, IMasterClock::GetTime, audio.imasterclock_gettime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, dmusicks/IMasterClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMasterClock.GetTime
 product: Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
-# IMasterClock::GetTime method
+# IMasterClock::GetTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.GetTypedNode
-title: ExtRemoteTypedList::GetTypedNode method
+title: ExtRemoteTypedList::GetTypedNode
 author: windows-driver-content
 description: The GetTypedNode method returns the current list item.
 old-location: debugger\extremotetypedlist_gettypednode.htm
 old-project: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, ExtRemoteTypedList::GetTypedNode, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, GetTypedNode,ExtRemoteTypedList.GetTypedNode, debugger.extremotetypedlist_gettypednode
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNode method, ExtRemoteTypedList.GetTypedNode, ExtRemoteTypedList::GetTypedNode, GetTypedNode, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteTypedList.GetTypedNode
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTypedList::GetTypedNode method
+# ExtRemoteTypedList::GetTypedNode
 
 
 ## -description

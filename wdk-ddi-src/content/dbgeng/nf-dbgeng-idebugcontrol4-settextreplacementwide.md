@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextReplacementWide
-title: IDebugControl4::SetTextReplacementWide method
+title: IDebugControl4::SetTextReplacementWide
 author: windows-driver-content
 description: The SetTextReplacementWide method sets the value of a user-named alias.
 old-location: debugger\settextreplacementwide.htm
 old-project: debugger
 ms.assetid: bbd3fbc0-6dbe-4200-8fe8-e7ca9e4c9478
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, IDebugControl4::SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, SetTextReplacementWide,IDebugControl4.SetTextReplacementWide, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],SetTextReplacementWide method, IDebugControl4.SetTextReplacementWide, IDebugControl4::SetTextReplacementWide, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], SetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.SetTextReplacementWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::SetTextReplacementWide method
+# IDebugControl4::SetTextReplacementWide
 
 
 ## -description

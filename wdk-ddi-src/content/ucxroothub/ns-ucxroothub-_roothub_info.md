@@ -7,7 +7,7 @@ old-location: buses\_roothub_info.htm
 old-project: usbref
 ms.assetid: 634398E9-7AAA-424C-8C81-287F70CE3578
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PROOTHUB_INFO, P_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], _ROOTHUB_INFO, buses._roothub_info, ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: ROOTHUB_INFO, *PROOTHUB_INFO
-req.product: Windows 10 or later.
 ---
 
 # _ROOTHUB_INFO structure

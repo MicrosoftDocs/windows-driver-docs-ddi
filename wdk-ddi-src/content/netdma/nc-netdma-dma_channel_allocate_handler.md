@@ -7,8 +7,8 @@ old-location: netvista\providerallocatedmachannel.htm
 old-project: netvista
 ms.assetid: 42bc0e08-3d85-424f-aaa4-4df788d3706a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
+ms.date: 4/25/2018
+ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, DMA_CHANNEL_ALLOCATE_HANDLER callback, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProviderAllocateDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_CHANNEL_ALLOCATE_HANDLER callback
+# DMA_CHANNEL_ALLOCATE_HANDLER callback function
 
 
 ## -description

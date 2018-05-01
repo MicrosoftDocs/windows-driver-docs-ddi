@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Reopen
-title: IWDFRemoteTarget::Reopen method
+title: IWDFRemoteTarget::Reopen
 author: windows-driver-content
 description: The Reopen method reopens a remote I/O target after it has been temporarily closed.
 old-location: wdf\iwdfremotetarget_reopen.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, Reopen method, IWDFRemoteTarget::Reopen, Reopen method, Reopen method, IWDFRemoteTarget interface, Reopen,IWDFRemoteTarget.Reopen, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen
+ms.keywords: IWDFRemoteTarget interface,Reopen method, IWDFRemoteTarget.Reopen, IWDFRemoteTarget::Reopen, Reopen, Reopen method, Reopen method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFRemoteTarget.Reopen
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::Reopen method
+# IWDFRemoteTarget::Reopen
 
 
 ## -description

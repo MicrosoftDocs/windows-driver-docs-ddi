@@ -7,7 +7,7 @@ old-location: audio\pcgetphysicaldeviceobject.htm
 old-project: audio
 ms.assetid: A7917082-4C3F-445A-AD26-32DE670754E5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	PcGetPhysicalDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcGetPhysicalDeviceObject function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetTypeId
-title: IDebugSymbols3::GetOffsetTypeId method
+title: IDebugSymbols3::GetOffsetTypeId
 author: windows-driver-content
 description: The GetOffsetTypeId method returns the type ID of the symbol closest to the specified memory location.
 old-location: debugger\getoffsettypeid.htm
 old-project: debugger
 ms.assetid: cf533f21-90eb-46ec-860f-d12a8d40c430
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOffsetTypeId method [Windows Debugging], GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface, GetOffsetTypeId method [Windows Debugging], IDebugSymbols2 interface, GetOffsetTypeId method [Windows Debugging], IDebugSymbols3 interface, GetOffsetTypeId,IDebugSymbols3.GetOffsetTypeId, IDebugSymbols interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols2 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols3::GetOffsetTypeId, IDebugSymbols::GetOffsetTypeId, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, dbgeng/IDebugSymbols2::GetOffsetTypeId, dbgeng/IDebugSymbols3::GetOffsetTypeId, dbgeng/IDebugSymbols::GetOffsetTypeId, debugger.getoffsettypeid
+ms.date: 4/24/2018
+ms.keywords: GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], GetOffsetTypeId method [Windows Debugging],IDebugSymbols interface, GetOffsetTypeId method [Windows Debugging],IDebugSymbols2 interface, GetOffsetTypeId method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetOffsetTypeId method, IDebugSymbols2 interface [Windows Debugging],GetOffsetTypeId method, IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3 interface [Windows Debugging],GetOffsetTypeId method, IDebugSymbols3.GetOffsetTypeId, IDebugSymbols3::GetOffsetTypeId, IDebugSymbols::GetOffsetTypeId, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, dbgeng/IDebugSymbols2::GetOffsetTypeId, dbgeng/IDebugSymbols3::GetOffsetTypeId, dbgeng/IDebugSymbols::GetOffsetTypeId, debugger.getoffsettypeid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.GetOffsetTypeId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetOffsetTypeId method
+# IDebugSymbols3::GetOffsetTypeId
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\wmifireevent.htm
 old-project: kernel
 ms.assetid: 600391ef-f4bb-479b-ad73-305e365ed70d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WmiFireEvent, WmiFireEvent routine [Kernel-Mode Driver Architecture], k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, kernel.wmifireevent, wmilib/WmiFireEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	WmiFireEvent
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WmiFireEvent function

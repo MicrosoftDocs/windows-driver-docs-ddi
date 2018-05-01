@@ -7,8 +7,8 @@ old-location: netvista\protocolcmderegistersap.htm
 old-project: netvista
 ms.assetid: 738c426e-aa4f-4f59-b955-fbf67071303f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_DEREGISTER_SAP, ProtocolCmDeregisterSap, ProtocolCmDeregisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_fce09df2-cd92-4c6e-8596-91ecdb5f0c2c.xml, ndis/ProtocolCmDeregisterSap, netvista.protocolcmderegistersap
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_DEREGISTER_SAP, PROTOCOL_CM_DEREGISTER_SAP callback, ProtocolCmDeregisterSap, ProtocolCmDeregisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_fce09df2-cd92-4c6e-8596-91ecdb5f0c2c.xml, ndis/ProtocolCmDeregisterSap, netvista.protocolcmderegistersap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolCmDeregisterSap
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_DEREGISTER_SAP callback
+# PROTOCOL_CM_DEREGISTER_SAP callback function
 
 
 ## -description

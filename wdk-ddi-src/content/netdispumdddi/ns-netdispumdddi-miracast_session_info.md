@@ -7,7 +7,7 @@ old-location: display\miracast_session_info.htm
 old-project: display
 ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,22 +57,22 @@ Contains info on a wireless display (Miracast) connected session.
 
 
 
-### -field Value
-
-Holds a 32-bit value that identifies the Miracast connected session.
-
-
-#### - MonitorConnected
+### -field MonitorConnected
 
 If set, the monitor (the source) is connected to a Miracast sink.
 
 
-#### - ReducedModeListDueToBandwidth
+### -field ReducedModeListDueToBandwidth
 
 If set, the user-mode driver has reduced the modes exposed to the operating system based on the current suggested encode rate.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use and should be set to zero.
+
+
+### -field Value
+
+Holds a 32-bit value that identifies the Miracast connected session.
 

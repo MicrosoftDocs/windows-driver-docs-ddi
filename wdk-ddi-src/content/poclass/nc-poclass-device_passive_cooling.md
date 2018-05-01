@@ -7,7 +7,7 @@ old-location: kernel\passivecooling.htm
 old-project: kernel
 ms.assetid: 17ADC83B-53C8-43BD-9FFB-1197501FE275
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: DEVICE_PASSIVE_COOLING, PassiveCooling, PassiveCooling routine [Kernel-Mode Driver Architecture], kernel.passivecooling, poclass/PassiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	PassiveCooling
 product: Windows
 targetos: Windows
-req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
+req.typenames: 
 ---
 
-# DEVICE_PASSIVE_COOLING callback
+# DEVICE_PASSIVE_COOLING callback function
 
 
 ## -description

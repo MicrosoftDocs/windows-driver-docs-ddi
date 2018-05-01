@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloadeventhandler.htm
 old-project: netvista
 ms.assetid: b62e8a07-fe7b-4c52-8795-19e4bb889b6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_TCP_OFFLOAD_EVENT_INDICATE, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml
+ms.date: 4/25/2018
+ms.keywords: NDIS_TCP_OFFLOAD_EVENT_INDICATE, NDIS_TCP_OFFLOAD_EVENT_INDICATE callback, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdisTcpOffloadEventHandler
 product: Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# NDIS_TCP_OFFLOAD_EVENT_INDICATE callback
+# NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function
 
 
 ## -description

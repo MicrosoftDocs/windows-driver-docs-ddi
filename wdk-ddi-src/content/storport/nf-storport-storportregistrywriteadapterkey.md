@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 85D43276-53A1-4CEE-99FE-23ED8BECB316
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
+ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,8 +41,7 @@ api_name:
 -	StorPortRegistryWriteAdapterKey
 product: Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortRegistryWriteAdapterKey function

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.GetType
-title: IWDFUsbTargetPipe::GetType method
+title: IWDFUsbTargetPipe::GetType
 author: windows-driver-content
 description: The GetType method retrieves the type of a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_gettype.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c8d76d5b-f388-4e22-ba57-d299ab3dee80
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetType method, GetType method, IWDFUsbTargetPipe interface, GetType,IWDFUsbTargetPipe.GetType, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, GetType method, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType
+ms.keywords: GetType, GetType method, GetType method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetType method, IWDFUsbTargetPipe.GetType, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUsbTargetPipe.GetType
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::GetType method
+# IWDFUsbTargetPipe::GetType
 
 
 ## -description

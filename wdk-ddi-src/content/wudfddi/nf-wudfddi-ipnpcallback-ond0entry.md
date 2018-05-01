@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnD0Entry
-title: IPnpCallback::OnD0Entry method
+title: IPnpCallback::OnD0Entry
 author: windows-driver-content
 description: The OnD0Entry method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device.
 old-location: wdf\ipnpcallback_ond0entry.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, OnD0Entry method, IPnpCallback::OnD0Entry, OnD0Entry method, OnD0Entry method, IPnpCallback interface, OnD0Entry,IPnpCallback.OnD0Entry, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry
+ms.keywords: IPnpCallback interface,OnD0Entry method, IPnpCallback.OnD0Entry, IPnpCallback::OnD0Entry, OnD0Entry, OnD0Entry method, OnD0Entry method,IPnpCallback interface, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPnpCallback.OnD0Entry
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallback::OnD0Entry method
+# IPnpCallback::OnD0Entry
 
 
 ## -description

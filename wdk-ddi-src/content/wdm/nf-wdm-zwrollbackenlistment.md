@@ -7,7 +7,7 @@ old-location: kernel\zwrollbackenlistment.htm
 old-project: kernel
 ms.assetid: 30989717-bbf4-44e6-9f1b-4818a8314714
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtRollbackEnlistment, ZwRollbackEnlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrollbackenlistment, ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, wdm/NtRollbackEnlistment, wdm/ZwRollbackEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	NtRollbackEnlistment
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwRollbackEnlistment function

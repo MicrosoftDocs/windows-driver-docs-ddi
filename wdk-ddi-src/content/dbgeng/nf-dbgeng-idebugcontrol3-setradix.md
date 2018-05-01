@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetRadix
-title: IDebugControl3::SetRadix method
+title: IDebugControl3::SetRadix
 author: windows-driver-content
 description: The SetRadix method sets the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
 old-location: debugger\setradix.htm
 old-project: debugger
 ms.assetid: 7346733d-2ac7-4eee-9f9c-ea6e1ee2ce5d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetRadix method, IDebugControl2 interface [Windows Debugging], SetRadix method, IDebugControl2::SetRadix, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetRadix method, IDebugControl3::SetRadix, IDebugControl::SetRadix, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, SetRadix method [Windows Debugging], SetRadix method [Windows Debugging], IDebugControl interface, SetRadix method [Windows Debugging], IDebugControl2 interface, SetRadix method [Windows Debugging], IDebugControl3 interface, SetRadix,IDebugControl3.SetRadix, dbgeng/IDebugControl2::SetRadix, dbgeng/IDebugControl3::SetRadix, dbgeng/IDebugControl::SetRadix, debugger.setradix
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetRadix method, IDebugControl2 interface [Windows Debugging],SetRadix method, IDebugControl2::SetRadix, IDebugControl3 interface [Windows Debugging],SetRadix method, IDebugControl3.SetRadix, IDebugControl3::SetRadix, IDebugControl::SetRadix, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, SetRadix, SetRadix method [Windows Debugging], SetRadix method [Windows Debugging],IDebugControl interface, SetRadix method [Windows Debugging],IDebugControl2 interface, SetRadix method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetRadix, dbgeng/IDebugControl3::SetRadix, dbgeng/IDebugControl::SetRadix, debugger.setradix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.SetRadix
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::SetRadix method
+# IDebugControl3::SetRadix
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_internal_basic_settings.htm
 old-project: serports
 ms.assetid: 248b8682-b396-42b4-98f7-67191d98be1a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, serports.ioctl_serial_internal_basic_settings, serref_86bdc0cd-4cfc-40de-82ac-81a088620e4c.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, serports.ioctl_serial_internal_basic_settings, serref_86bdc0cd-4cfc-40de-82ac-81a088620e4c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
 product: Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS IOCTL

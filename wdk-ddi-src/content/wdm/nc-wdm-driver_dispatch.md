@@ -7,7 +7,7 @@ old-location: kernel\dispatchcleanup.htm
 old-project: kernel
 ms.assetid: 86634953-9c1b-49e6-be44-edb9be911148
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: DRIVER_DISPATCH, DispatchCleanup, DispatchClose, DispatchCreate, DispatchCreateClose, DispatchDeviceControl, DispatchFlushBuffers, DispatchInternalDeviceControl, DispatchPnP, DispatchPower, DispatchQueryInformation, DispatchRead, DispatchReadWrite, DispatchSetInformation, DispatchShutdown, DispatchSystemControl, DispatchWrite, DrvrRtns_157dfedc-63c2-4924-ad5c-04ff9f746a94.xml, MyDispatch, MyDispatch routine [Kernel-Mode Driver Architecture], kernel.dispatchcleanup, wdm/MyDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	MyDispatch
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# DRIVER_DISPATCH callback
+# DRIVER_DISPATCH callback function
 
 
 ## -description

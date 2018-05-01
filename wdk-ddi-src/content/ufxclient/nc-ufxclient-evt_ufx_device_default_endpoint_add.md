@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_default_endpoint_add.htm
 old-project: usbref
 ms.assetid: 37AF38A2-F761-4DBC-A7E7-FC4BDA544A31
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, EvtUfxDeviceDefaultEndpointAdd, EvtUfxDeviceDefaultEndpointAdd callback function [Buses], PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_default_endpoint_add, ufxclient/EvtUfxDeviceDefaultEndpointAdd
+ms.date: 4/25/2018
+ms.keywords: EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUfxDeviceDefaultEndpointAdd, EvtUfxDeviceDefaultEndpointAdd callback function [Buses], PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_default_endpoint_add, ufxclient/EvtUfxDeviceDefaultEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback
+# EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function
 
 
 ## -description

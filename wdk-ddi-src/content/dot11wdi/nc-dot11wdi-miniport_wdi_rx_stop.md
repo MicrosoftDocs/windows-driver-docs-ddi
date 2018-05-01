@@ -7,8 +7,8 @@ old-location: netvista\miniportwdirxstop.htm
 old-project: netvista
 ms.assetid: AAFECA64-07D7-43E6-ABFB-C0C85A9C03CD
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_RX_STOP, MiniportWdiRxStop, MiniportWdiRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxStop, netvista.miniportwdirxstop
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_RX_STOP, MINIPORT_WDI_RX_STOP callback, MiniportWdiRxStop, MiniportWdiRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxStop, netvista.miniportwdirxstop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiRxStop
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_RX_STOP callback
+# MINIPORT_WDI_RX_STOP callback function
 
 
 ## -description

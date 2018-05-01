@@ -7,8 +7,8 @@ old-location: display\setvideoprocessstreamstate.htm
 old-project: display
 ms.assetid: b48fbe58-056a-4c3b-8e1e-c65515c21ee4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, SetVideoProcessStreamState, SetVideoProcessStreamState callback function [Display Devices], UserModeDisplayDriver_Functions_3860b09d-ba06-4b9e-bf6d-65e7b90135fd.xml, d3dumddi/SetVideoProcessStreamState, display.setvideoprocessstreamstate
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback, SetVideoProcessStreamState, SetVideoProcessStreamState callback function [Display Devices], UserModeDisplayDriver_Functions_3860b09d-ba06-4b9e-bf6d-65e7b90135fd.xml, d3dumddi/SetVideoProcessStreamState, display.setvideoprocessstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetVideoProcessStreamState
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback
+# PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback function
 
 
 ## -description

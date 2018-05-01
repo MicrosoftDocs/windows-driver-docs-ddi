@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackWrite.OnWrite
-title: IQueueCallbackWrite::OnWrite method
+title: IQueueCallbackWrite::OnWrite
 author: windows-driver-content
 description: The OnWrite method is called to handle a write request when an application writes information to a device through the Microsoft Win32 WriteFile or WriteFileEx function.
 old-location: wdf\iqueuecallbackwrite_onwrite.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a87a9976-f844-4e69-82d3-2d426e359763
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackWrite, IQueueCallbackWrite interface, OnWrite method, IQueueCallbackWrite::OnWrite, OnWrite method, OnWrite method, IQueueCallbackWrite interface, OnWrite,IQueueCallbackWrite.OnWrite, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, umdf.iqueuecallbackwrite_onwrite, wdf.iqueuecallbackwrite_onwrite, wudfddi/IQueueCallbackWrite::OnWrite
+ms.keywords: IQueueCallbackWrite interface,OnWrite method, IQueueCallbackWrite.OnWrite, IQueueCallbackWrite::OnWrite, OnWrite, OnWrite method, OnWrite method,IQueueCallbackWrite interface, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, umdf.iqueuecallbackwrite_onwrite, wdf.iqueuecallbackwrite_onwrite, wudfddi/IQueueCallbackWrite::OnWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IQueueCallbackWrite.OnWrite
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackWrite::OnWrite method
+# IQueueCallbackWrite::OnWrite
 
 
 ## -description

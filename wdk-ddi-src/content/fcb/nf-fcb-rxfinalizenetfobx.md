@@ -7,8 +7,8 @@ old-location: ifsk\rxfinalizenetfobx.htm
 old-project: ifsk
 ms.assetid: 052e7995-fab8-4863-a3a2-8b9bd6f21ec9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: RxFinalizeNetFobx, RxFinalizeNetFobx function [Installable File System Drivers], fcb/RxFinalizeNetFobx, ifsk.rxfinalizenetfobx, rxref_72a759e2-f9e6-44ce-b561-cb968b668a6f.xml
+ms.date: 4/16/2018
+ms.keywords: RxFinalizeNetFOBX, RxFinalizeNetFobx, RxFinalizeNetFobx function [Installable File System Drivers], fcb/RxFinalizeNetFobx, ifsk.rxfinalizenetfobx, rxref_72a759e2-f9e6-44ce-b561-cb968b668a6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ api_name:
 -	RxFinalizeNetFobx
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: 
 ---
 
 # RxFinalizeNetFobx function

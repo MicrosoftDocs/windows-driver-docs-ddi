@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_EVENT_CALLBACKS, *PWDF_POWER_POLICY_EVENT_CALLBACKS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_POWER_POLICY_EVENT_CALLBACKS structure

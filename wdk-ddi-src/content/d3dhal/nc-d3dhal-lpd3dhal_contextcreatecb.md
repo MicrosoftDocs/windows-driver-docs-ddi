@@ -7,8 +7,8 @@ old-location: display\d3dcontextcreate.htm
 old-project: display
 ms.assetid: c960c3f4-7565-4163-b8c2-a13643110c8c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3dContextCreate, D3dContextCreate callback function [Display Devices], LPD3DHAL_CONTEXTCREATECB, d3dfncs_d126e9ed-3783-4cc1-8fd6-34592b95bec7.xml, d3dhal/D3dContextCreate, display.d3dcontextcreate
+ms.date: 4/16/2018
+ms.keywords: D3dContextCreate, D3dContextCreate callback function [Display Devices], LPD3DHAL_CONTEXTCREATECB, LPD3DHAL_CONTEXTCREATECB callback, d3dfncs_d126e9ed-3783-4cc1-8fd6-34592b95bec7.xml, d3dhal/D3dContextCreate, display.d3dcontextcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	D3dContextCreate
 product: Windows
 targetos: Windows
-req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
+req.typenames: 
 ---
 
-# LPD3DHAL_CONTEXTCREATECB callback
+# LPD3DHAL_CONTEXTCREATECB callback function
 
 
 ## -description

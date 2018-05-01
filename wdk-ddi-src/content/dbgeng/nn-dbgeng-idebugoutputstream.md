@@ -7,8 +7,8 @@ old-location: debugger\idebugoutputstream.htm
 old-project: debugger
 ms.assetid: 7A9AB25B-2B8B-4E8A-9E67-79C56181E5D9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging], described, dbgeng/IDebugOutputStream, debugger.idebugoutputstream
+ms.date: 4/24/2018
+ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging],described, dbgeng/IDebugOutputStream, debugger.idebugoutputstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugOutputStream
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugOutputStream interface

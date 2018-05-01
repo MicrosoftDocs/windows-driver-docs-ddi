@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetLfxState
-title: IMiniportStreamAudioEngineNode::SetLfxState method
+title: IMiniportStreamAudioEngineNode::SetLfxState
 author: windows-driver-content
 description: Sets the state of the local effects (LFX) node that is in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setlfxstate.htm
 old-project: audio
 ms.assetid: 90EED6A9-F25D-4EF9-8523-CFFC90185588
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method, IMiniportStreamAudioEngineNode::SetLfxState, SetLfxState method [Audio Devices], SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetLfxState,IMiniportStreamAudioEngineNode.SetLfxState, audio.iminiportstreamaudioenginenode_setlfxstate, portcls/IMiniportStreamAudioEngineNode::SetLfxState
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetLfxState method, IMiniportStreamAudioEngineNode.SetLfxState, IMiniportStreamAudioEngineNode::SetLfxState, SetLfxState, SetLfxState method [Audio Devices], SetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setlfxstate, portcls/IMiniportStreamAudioEngineNode::SetLfxState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportStreamAudioEngineNode.SetLfxState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::SetLfxState method
+# IMiniportStreamAudioEngineNode::SetLfxState
 
 
 ## -description

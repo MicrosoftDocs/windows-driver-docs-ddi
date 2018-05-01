@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired
-title: IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired method
+title: IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
 author: windows-driver-content
 description: Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_isrebootrequired.htm
 old-project: dtf
 ms.assetid: 598c4e54-74e1-4e95-bdf9-23bc70f4b530
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsRebootRequired method, IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IsRebootRequired,IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, dtf.iwdtfenhanceddevicetestsupportaction2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
+ms.date: 4/4/2018
+ms.keywords: IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],IsRebootRequired method, IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, dtf.iwdtfenhanceddevicetestsupportaction2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired method
+# IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
 
 
 ## -description

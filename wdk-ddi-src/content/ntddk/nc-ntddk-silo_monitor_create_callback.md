@@ -7,8 +7,8 @@ old-location: kernel\silo_monitor_create_callback.htm
 old-project: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, kernel.silo_monitor_create_callback, ntddk/CreateCallback
+ms.date: 4/5/2018
+ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK callback, kernel.silo_monitor_create_callback, ntddk/CreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateCallback
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# SILO_MONITOR_CREATE_CALLBACK callback
+# SILO_MONITOR_CREATE_CALLBACK callback function
 
 
 ## -description

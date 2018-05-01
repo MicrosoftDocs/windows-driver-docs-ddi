@@ -7,7 +7,7 @@ old-location: kernel\kequeryactivegroupcount.htm
 old-project: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	KeQueryActiveGroupCount
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # KeQueryActiveGroupCount function

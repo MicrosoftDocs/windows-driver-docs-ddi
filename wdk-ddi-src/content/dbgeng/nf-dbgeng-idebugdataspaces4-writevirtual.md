@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteVirtual
-title: IDebugDataSpaces4::WriteVirtual method
+title: IDebugDataSpaces4::WriteVirtual
 author: windows-driver-content
 description: The WriteVirtual method writes data to the target's virtual address space.
 old-location: debugger\writevirtual.htm
 old-project: debugger
 ms.assetid: 52813320-90a4-4dca-9b9c-44aa22fc49de
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces2::WriteVirtual, IDebugDataSpaces3 interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces3::WriteVirtual, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces4::WriteVirtual, IDebugDataSpaces::WriteVirtual, IDebugDataSpaces_2f8783ea-c7e4-438f-ad5b-898d0072a2f4.xml, WriteVirtual method [Windows Debugging], WriteVirtual method [Windows Debugging], IDebugDataSpaces interface, WriteVirtual method [Windows Debugging], IDebugDataSpaces2 interface, WriteVirtual method [Windows Debugging], IDebugDataSpaces3 interface, WriteVirtual method [Windows Debugging], IDebugDataSpaces4 interface, WriteVirtual,IDebugDataSpaces4.WriteVirtual, dbgeng/IDebugDataSpaces2::WriteVirtual, dbgeng/IDebugDataSpaces3::WriteVirtual, dbgeng/IDebugDataSpaces4::WriteVirtual, dbgeng/IDebugDataSpaces::WriteVirtual, debugger.writevirtual
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces2 interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces2::WriteVirtual, IDebugDataSpaces3 interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces3::WriteVirtual, IDebugDataSpaces4 interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces4.WriteVirtual, IDebugDataSpaces4::WriteVirtual, IDebugDataSpaces::WriteVirtual, IDebugDataSpaces_2f8783ea-c7e4-438f-ad5b-898d0072a2f4.xml, WriteVirtual, WriteVirtual method [Windows Debugging], WriteVirtual method [Windows Debugging],IDebugDataSpaces interface, WriteVirtual method [Windows Debugging],IDebugDataSpaces2 interface, WriteVirtual method [Windows Debugging],IDebugDataSpaces3 interface, WriteVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteVirtual, dbgeng/IDebugDataSpaces3::WriteVirtual, dbgeng/IDebugDataSpaces4::WriteVirtual, dbgeng/IDebugDataSpaces::WriteVirtual, debugger.writevirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 -	IDebugDataSpaces4.WriteVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::WriteVirtual method
+# IDebugDataSpaces4::WriteVirtual
 
 
 ## -description

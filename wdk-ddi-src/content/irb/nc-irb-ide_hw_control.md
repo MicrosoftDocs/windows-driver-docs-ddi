@@ -40,10 +40,10 @@ api_name:
 -	IdeHwControl
 product: Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: 
 ---
 
-# IDE_HW_CONTROL callback
+# IDE_HW_CONTROL callback function
 
 
 ## -description

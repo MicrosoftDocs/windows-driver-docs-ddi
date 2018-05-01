@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_sms_send.htm
 old-project: netvista
 ms.assetid: d92c0ebe-4a11-49d9-95aa-182e99ca8dcf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, _NDIS_WWAN_SMS_SEND, ndiswwan/NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, netvista.ndis_wwan_sms_send"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

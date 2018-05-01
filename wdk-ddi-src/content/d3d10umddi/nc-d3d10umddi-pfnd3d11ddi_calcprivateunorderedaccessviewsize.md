@@ -7,8 +7,8 @@ old-location: display\calcprivateunorderedaccessviewsize.htm
 old-project: display
 ms.assetid: 6aca5d33-c8c6-4c6b-a66a-e28a958cbc2e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CalcPrivateUnorderedAccessViewSize, CalcPrivateUnorderedAccessViewSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE, UserModeDisplayDriverDx11_Functions_bc7bfd55-2032-4df8-8a68-32672fe72b4b.xml, d3d10umddi/CalcPrivateUnorderedAccessViewSize, display.calcprivateunorderedaccessviewsize
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateUnorderedAccessViewSize, CalcPrivateUnorderedAccessViewSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE, PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE callback, UserModeDisplayDriverDx11_Functions_bc7bfd55-2032-4df8-8a68-32672fe72b4b.xml, d3d10umddi/CalcPrivateUnorderedAccessViewSize, display.calcprivateunorderedaccessviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CalcPrivateUnorderedAccessViewSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE callback
+# PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE callback function
 
 
 ## -description

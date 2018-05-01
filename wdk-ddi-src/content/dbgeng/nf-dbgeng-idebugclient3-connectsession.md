@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.ConnectSession
-title: IDebugClient3::ConnectSession method
+title: IDebugClient3::ConnectSession
 author: windows-driver-content
 description: The ConnectSession method joins the client to an existing debugger session.
 old-location: debugger\connectsession.htm
 old-project: debugger
 ms.assetid: 4531bf2f-ef3b-4d4f-b922-3a01a9468ac9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging], IDebugClient interface, ConnectSession method [Windows Debugging], IDebugClient2 interface, ConnectSession method [Windows Debugging], IDebugClient3 interface, ConnectSession method [Windows Debugging], IDebugClient4 interface, ConnectSession method [Windows Debugging], IDebugClient5 interface, ConnectSession,IDebugClient3.ConnectSession, IDebugClient interface [Windows Debugging], ConnectSession method, IDebugClient2 interface [Windows Debugging], ConnectSession method, IDebugClient2::ConnectSession, IDebugClient3, IDebugClient3 interface [Windows Debugging], ConnectSession method, IDebugClient3::ConnectSession, IDebugClient4 interface [Windows Debugging], ConnectSession method, IDebugClient4::ConnectSession, IDebugClient5 interface [Windows Debugging], ConnectSession method, IDebugClient5::ConnectSession, IDebugClient::ConnectSession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, dbgeng/IDebugClient2::ConnectSession, dbgeng/IDebugClient3::ConnectSession, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient5::ConnectSession, dbgeng/IDebugClient::ConnectSession, debugger.connectsession
+ms.date: 4/24/2018
+ms.keywords: ConnectSession, ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging],IDebugClient interface, ConnectSession method [Windows Debugging],IDebugClient2 interface, ConnectSession method [Windows Debugging],IDebugClient3 interface, ConnectSession method [Windows Debugging],IDebugClient4 interface, ConnectSession method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ConnectSession method, IDebugClient2 interface [Windows Debugging],ConnectSession method, IDebugClient2::ConnectSession, IDebugClient3 interface [Windows Debugging],ConnectSession method, IDebugClient3.ConnectSession, IDebugClient3::ConnectSession, IDebugClient4 interface [Windows Debugging],ConnectSession method, IDebugClient4::ConnectSession, IDebugClient5 interface [Windows Debugging],ConnectSession method, IDebugClient5::ConnectSession, IDebugClient::ConnectSession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, dbgeng/IDebugClient2::ConnectSession, dbgeng/IDebugClient3::ConnectSession, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient5::ConnectSession, dbgeng/IDebugClient::ConnectSession, debugger.connectsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.ConnectSession
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::ConnectSession method
+# IDebugClient3::ConnectSession
 
 
 ## -description

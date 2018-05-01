@@ -43,8 +43,7 @@ api_name:
 -	WdfWorkItemEnqueue
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfWorkItemEnqueue function

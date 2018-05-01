@@ -7,7 +7,7 @@ old-location: kernel\sefreeprivileges.htm
 old-project: kernel
 ms.assetid: 5b8ba64e-3147-45b4-9861-da2186c2ba10
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: SeFreePrivileges, SeFreePrivileges routine [Kernel-Mode Driver Architecture], kernel.sefreeprivileges, ntifs/SeFreePrivileges, seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	SeFreePrivileges
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # SeFreePrivileges function

@@ -7,7 +7,7 @@ old-location: kernel\insertheadlist.htm
 old-project: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/5/2018
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
@@ -40,8 +40,7 @@ api_name:
 -	InsertHeadList
 product: Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # InsertHeadList function
@@ -51,17 +50,6 @@ req.product: Windows 10 or later.
 
 
 The <b>InsertHeadList</b> routine inserts an entry at the head of a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures.
-
-
-## -syntax
-
-
-````
-VOID InsertHeadList(
-  _Inout_ PLIST_ENTRY ListHead,
-  _Inout_ PLIST_ENTRY Entry
-);
-````
 
 
 ## -parameters
@@ -103,33 +91,31 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545397">ExInterlockedInsertHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InsertHeadList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

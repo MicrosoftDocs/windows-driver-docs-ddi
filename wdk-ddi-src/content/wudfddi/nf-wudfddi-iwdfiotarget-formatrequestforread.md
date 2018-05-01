@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForRead
-title: IWDFIoTarget::FormatRequestForRead method
+title: IWDFIoTarget::FormatRequestForRead
 author: windows-driver-content
 description: The FormatRequestForRead method formats an I/O request object for a read operation.
 old-location: wdf\iwdfiotarget_formatrequestforread.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8a1b61c8-8b85-4224-ae20-3788eb0babe4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: FormatRequestForRead method, FormatRequestForRead method, IWDFIoTarget interface, FormatRequestForRead,IWDFIoTarget.FormatRequestForRead, IWDFIoTarget, IWDFIoTarget interface, FormatRequestForRead method, IWDFIoTarget::FormatRequestForRead, UMDFIoTargetObjectRef_49d4b6d7-0cd7-4d8a-9b16-7ecc89f82f1e.xml, umdf.iwdfiotarget_formatrequestforread, wdf.iwdfiotarget_formatrequestforread, wudfddi/IWDFIoTarget::FormatRequestForRead
+ms.keywords: FormatRequestForRead, FormatRequestForRead method, FormatRequestForRead method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForRead method, IWDFIoTarget.FormatRequestForRead, IWDFIoTarget::FormatRequestForRead, UMDFIoTargetObjectRef_49d4b6d7-0cd7-4d8a-9b16-7ecc89f82f1e.xml, umdf.iwdfiotarget_formatrequestforread, wdf.iwdfiotarget_formatrequestforread, wudfddi/IWDFIoTarget::FormatRequestForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoTarget.FormatRequestForRead
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget::FormatRequestForRead method
+# IWDFIoTarget::FormatRequestForRead
 
 
 ## -description

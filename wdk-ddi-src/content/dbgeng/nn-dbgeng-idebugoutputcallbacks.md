@@ -7,8 +7,8 @@ old-location: debugger\idebugoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 6b29e15c-3a9d-4d96-8b72-22064526ca75
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComCallbacks_ed6ca0bd-5599-426d-b089-18a12311eba0.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], IDebugOutputCallbacks interface [Windows Debugging], described, dbgeng/IDebugOutputCallbacks, debugger.idebugoutputcallbacks
+ms.date: 4/24/2018
+ms.keywords: ComCallbacks_ed6ca0bd-5599-426d-b089-18a12311eba0.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], IDebugOutputCallbacks interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacks, debugger.idebugoutputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugOutputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugOutputCallbacks interface

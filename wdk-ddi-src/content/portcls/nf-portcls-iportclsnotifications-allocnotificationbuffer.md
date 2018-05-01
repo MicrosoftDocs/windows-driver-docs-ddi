@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsNotifications.AllocNotificationBuffer
-title: IPortClsNotifications::AllocNotificationBuffer method
+title: IPortClsNotifications::AllocNotificationBuffer
 author: windows-driver-content
 description: Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_allocnotification.htm
 old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, AllocNotificationBuffer,IPortClsNotifications.AllocNotificationBuffer, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, portcls/IPortClsNotifications::AllocNotificationBuffer
+ms.date: 4/16/2018
+ms.keywords: AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],AllocNotificationBuffer method, IPortClsNotifications.AllocNotificationBuffer, IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, portcls/IPortClsNotifications::AllocNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IPortClsNotifications.AllocNotificationBuffer
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsNotifications::AllocNotificationBuffer method
+# IPortClsNotifications::AllocNotificationBuffer
 
 
 ## -description

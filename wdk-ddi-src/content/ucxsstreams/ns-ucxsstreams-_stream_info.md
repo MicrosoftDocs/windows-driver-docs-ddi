@@ -7,7 +7,7 @@ old-location: buses\_stream_info.htm
 old-project: usbref
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PSTREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
 ---
 
 # _STREAM_INFO structure

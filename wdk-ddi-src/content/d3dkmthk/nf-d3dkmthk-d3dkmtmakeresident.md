@@ -7,7 +7,7 @@ old-location: display\d3dkmtmakeresident.htm
 old-project: display
 ms.assetid: 5F4E17CB-3B8B-4BBA-A819-B8E28183F1CB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ api_name:
 -	D3DKMTMakeResident
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTMakeResident function

@@ -7,8 +7,8 @@ old-location: netvista\fwps_vswitch_policy_event_callback0.htm
 old-project: netvista
 ms.assetid: 8D0F61E2-A891-4D51-9E33-BFA491B95505
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
+ms.date: 4/25/2018
+ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	vSwitchPolicyEventNotifyFn
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback
+# FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback function
 
 
 ## -description

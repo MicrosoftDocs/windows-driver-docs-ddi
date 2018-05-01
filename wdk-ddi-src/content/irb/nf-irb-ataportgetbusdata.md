@@ -41,7 +41,7 @@ api_name:
 -	AtaPortGetBusData
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortGetBusData function

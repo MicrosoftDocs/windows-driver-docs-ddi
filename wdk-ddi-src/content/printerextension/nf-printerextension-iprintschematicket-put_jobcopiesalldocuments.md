@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.put_JobCopiesAllDocuments
-title: IPrintSchemaTicket::put_JobCopiesAllDocuments method
+title: IPrintSchemaTicket::put_JobCopiesAllDocuments
 author: windows-driver-content
 description: Sets the copy count.
 old-location: print\iprintschematicket_put_jobcopiesalldocuments.htm
 old-project: print
 ms.assetid: DF788C8F-DA60-47F1-83DB-2E1947E41142
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket::put_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices], IPrintSchemaTicket interface, print.iprintschematicket_put_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::put_JobCopiesAllDocuments, put_JobCopiesAllDocuments,IPrintSchemaTicket.put_JobCopiesAllDocuments
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.put_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::put_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_put_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::put_JobCopiesAllDocuments, put_JobCopiesAllDocuments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaTicket.put_JobCopiesAllDocuments
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::put_JobCopiesAllDocuments method
+# IPrintSchemaTicket::put_JobCopiesAllDocuments
 
 
 ## -description

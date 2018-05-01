@@ -40,8 +40,7 @@ api_name:
 -	SensorsCxStateChange
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxStateChange function

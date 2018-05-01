@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
+ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtDmaTransactionDmaTransferComplete
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback
+# EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback function
 
 
 ## -description

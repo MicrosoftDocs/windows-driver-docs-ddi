@@ -7,7 +7,7 @@ old-location: kernel\kinterrupt_mode.htm
 old-project: kernel
 ms.assetid: 2f00fe3f-d73d-4f0f-a1dd-ae72fa57e55d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KINTERRUPT_MODE, KINTERRUPT_MODE enumeration [Kernel-Mode Driver Architecture], Latched, LevelSensitive, _KINTERRUPT_MODE, kernel.kinterrupt_mode, sysenum_35275927-b863-496a-8193-579f9d1d3a22.xml, wdm/KINTERRUPT_MODE, wdm/Latched, wdm/LevelSensitive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: KINTERRUPT_MODE
-req.product: Windows 10 or later.
 ---
 
 # _KINTERRUPT_MODE enumeration

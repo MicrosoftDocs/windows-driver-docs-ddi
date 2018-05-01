@@ -7,7 +7,7 @@ old-location: display\d3dddicb_escape.htm
 old-project: display
 ms.assetid: 37e111be-5175-40d0-b862-0cc79d77d2bc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_ESCAPE, D3DDDICB_ESCAPE structure [Display Devices], D3D_param_Structs_3981c7f8-973d-42c4-abfa-29613731df50.xml, _D3DDDICB_ESCAPE, d3dumddi/D3DDDICB_ESCAPE, display.d3dddicb_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices

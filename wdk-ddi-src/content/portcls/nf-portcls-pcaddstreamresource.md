@@ -7,7 +7,7 @@ old-location: audio\pcaddstreamresource.htm
 old-project: audio
 ms.assetid: CADB17C6-07EA-4497-AA73-4AECCC1D0A45
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	PcAddStreamResource
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcAddStreamResource function

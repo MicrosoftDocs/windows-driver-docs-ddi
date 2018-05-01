@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsRuntimePower.RegisterPowerControlCallback
-title: IPortClsRuntimePower::RegisterPowerControlCallback method
+title: IPortClsRuntimePower::RegisterPowerControlCallback
 author: windows-driver-content
 description: The port class driver (PortCls) uses the RegisterPowerControlCallback method to register a power control callback.
 old-location: audio\iportclsruntimepower_registerpowercontrolcallback.htm
 old-project: audio
 ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, RegisterPowerControlCallback,IPortClsRuntimePower.RegisterPowerControlCallback, audio.iportclsruntimepower_registerpowercontrolcallback, portcls/IPortClsRuntimePower::RegisterPowerControlCallback
+ms.date: 4/16/2018
+ms.keywords: IPortClsRuntimePower interface [Audio Devices],RegisterPowerControlCallback method, IPortClsRuntimePower.RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_registerpowercontrolcallback, portcls/IPortClsRuntimePower::RegisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPortClsRuntimePower.RegisterPowerControlCallback
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsRuntimePower::RegisterPowerControlCallback method
+# IPortClsRuntimePower::RegisterPowerControlCallback
 
 
 ## -description

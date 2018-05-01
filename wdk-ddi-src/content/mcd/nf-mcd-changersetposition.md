@@ -40,7 +40,7 @@ api_name:
 -	ChangerSetPosition
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerSetPosition function

@@ -7,7 +7,7 @@ old-location: display\dxgk_interrupt_state.htm
 old-project: display
 ms.assetid: C72DF96B-5D12-4AC0-8FBB-904E087807DB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_INTERRUPT_DISABLE, DXGK_INTERRUPT_ENABLE, DXGK_INTERRUPT_STATE, DXGK_INTERRUPT_STATE enumeration [Display Devices], _DXGK_INTERRUPT_STATE, d3dkmddi/DXGK_INTERRUPT_DISABLE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_INTERRUPT_STATE, display.dxgk_interrupt_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

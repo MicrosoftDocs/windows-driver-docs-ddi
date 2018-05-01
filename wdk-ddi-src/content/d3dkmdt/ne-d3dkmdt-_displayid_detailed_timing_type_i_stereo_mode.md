@@ -7,8 +7,8 @@ old-location: display\displayid_detailed_timing_type_i_stereo_mode.htm
 old-project: display
 ms.assetid: 7e40ddf4-0098-4ea6-ab93-17515849b6cd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DIDDT1_Dependent, DIDDT1_Monoscopic, DIDDT1_Stereo, DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Dependent, d3dkmdt/DIDDT1_Monoscopic, d3dkmdt/DIDDT1_Stereo, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, display.displayid_detailed_timing_type_i_stereo_mode
+ms.date: 4/16/2018
+ms.keywords: DIDDT1_Dependent, DIDDT1_Monoscopic, DIDDT1_Stereo, DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Dependent, d3dkmdt/DIDDT1_Monoscopic, d3dkmdt/DIDDT1_Stereo, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, display.displayid_detailed_timing_type_i_stereo_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

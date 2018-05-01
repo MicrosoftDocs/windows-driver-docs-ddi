@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: OnInterruptDisable, OnInterruptDisable callback function, WUDF_INTERRUPT_DISABLE, umdf.oninterruptdisable, wdf.oninterruptdisable, wudfinterrupt/OnInterruptDisable
+ms.keywords: OnInterruptDisable, OnInterruptDisable callback function, WUDF_INTERRUPT_DISABLE, WUDF_INTERRUPT_DISABLE callback, umdf.oninterruptdisable, wdf.oninterruptdisable, wudfinterrupt/OnInterruptDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	OnInterruptDisable
 product: Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WUDF_INTERRUPT_DISABLE callback
+# WUDF_INTERRUPT_DISABLE callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: image\scan.htm
 old-project: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, Scan, Scan function [Imaging Devices], image.scan, wiamicro/Scan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	Scan
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # Scan function

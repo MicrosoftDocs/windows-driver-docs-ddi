@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetOutputMemory
-title: IWDFIoRequest::GetOutputMemory method
+title: IWDFIoRequest::GetOutputMemory
 author: windows-driver-content
 description: The GetOutputMemory method retrieves the memory object that represents the output buffer for an I/O request.
 old-location: wdf\iwdfiorequest_getoutputmemory.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetOutputMemory method, GetOutputMemory method, IWDFIoRequest interface, GetOutputMemory,IWDFIoRequest.GetOutputMemory, IWDFIoRequest, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory
+ms.keywords: GetOutputMemory, GetOutputMemory method, GetOutputMemory method,IWDFIoRequest interface, IWDFIoRequest interface,GetOutputMemory method, IWDFIoRequest.GetOutputMemory, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest.GetOutputMemory
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::GetOutputMemory method
+# IWDFIoRequest::GetOutputMemory
 
 
 ## -description

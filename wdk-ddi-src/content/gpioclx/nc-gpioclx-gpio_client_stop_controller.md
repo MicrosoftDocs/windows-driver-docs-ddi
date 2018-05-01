@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 4B1A33AC-E341-478E-8C1E-94F4473A191C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_StopController, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
+ms.keywords: CLIENT_StopController, CLIENT_StopController callback, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CLIENT_StopController
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_STOP_CONTROLLER callback
+# GPIO_CLIENT_STOP_CONTROLLER callback function
 
 
 ## -description

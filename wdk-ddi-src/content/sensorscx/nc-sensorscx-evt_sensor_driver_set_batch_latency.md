@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 11C90E96-2A5D-4CD8-AC96-115CFEF3CE12
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EvtSensorSetBatchLatency, EvtSensorSetBatchLatency callback function [Sensor Devices], sensors.evtsensorsetbatchlatency, sensorscx/EvtSensorSetBatchLatency
+ms.keywords: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback, EvtSensorSetBatchLatency, EvtSensorSetBatchLatency callback function [Sensor Devices], sensors.evtsensorsetbatchlatency, sensorscx/EvtSensorSetBatchLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSensorSetBatchLatency
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback
+# EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback function
 
 
 ## -description

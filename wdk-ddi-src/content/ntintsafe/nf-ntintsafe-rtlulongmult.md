@@ -7,7 +7,7 @@ old-location: kernel\rtlulongmult.htm
 old-project: kernel
 ms.assetid: 2D5DA884-1746-4DBC-8ABC-2D307181CCAE
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlULongMult, RtlULongMult function [Kernel-Mode Driver Architecture], kernel.rtlulongmult, ntintsafe/RtlULongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlULongMult
 product: Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongMult function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolTypeId
-title: IDebugSymbols3::GetSymbolTypeId method
+title: IDebugSymbols3::GetSymbolTypeId
 author: windows-driver-content
 description: The GetSymbolTypeId method returns the type ID and module of the specified symbol.
 old-location: debugger\getsymboltypeid.htm
 old-project: debugger
 ms.assetid: 0c77ad1a-218d-4857-a07c-f5d542d070d7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolTypeId method [Windows Debugging], GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, GetSymbolTypeId,IDebugSymbols3.GetSymbolTypeId, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols3::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, dbgeng/IDebugSymbols2::GetSymbolTypeId, dbgeng/IDebugSymbols3::GetSymbolTypeId, dbgeng/IDebugSymbols::GetSymbolTypeId, debugger.getsymboltypeid
+ms.date: 4/24/2018
+ms.keywords: GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], GetSymbolTypeId method [Windows Debugging],IDebugSymbols interface, GetSymbolTypeId method [Windows Debugging],IDebugSymbols2 interface, GetSymbolTypeId method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolTypeId method, IDebugSymbols2 interface [Windows Debugging],GetSymbolTypeId method, IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3 interface [Windows Debugging],GetSymbolTypeId method, IDebugSymbols3.GetSymbolTypeId, IDebugSymbols3::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, dbgeng/IDebugSymbols2::GetSymbolTypeId, dbgeng/IDebugSymbols3::GetSymbolTypeId, dbgeng/IDebugSymbols::GetSymbolTypeId, debugger.getsymboltypeid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.GetSymbolTypeId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolTypeId method
+# IDebugSymbols3::GetSymbolTypeId
 
 
 ## -description

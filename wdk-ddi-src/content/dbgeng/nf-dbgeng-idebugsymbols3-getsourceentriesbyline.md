@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntriesByLine
-title: IDebugSymbols3::GetSourceEntriesByLine method
+title: IDebugSymbols3::GetSourceEntriesByLine
 author: windows-driver-content
 description: The GetSourceEntriesByLine method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
 old-location: debugger\getsourceentriesbyline.htm
 old-project: debugger
 ms.assetid: 02ab63fe-0c59-480c-a333-a9b14d83ad68
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByLine,IDebugSymbols3.GetSourceEntriesByLine, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, debugger.getsourceentriesbyline
+ms.date: 4/24/2018
+ms.keywords: GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLine method, IDebugSymbols3.GetSourceEntriesByLine, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, debugger.getsourceentriesbyline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.GetSourceEntriesByLine
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSourceEntriesByLine method
+# IDebugSymbols3::GetSourceEntriesByLine
 
 
 ## -description

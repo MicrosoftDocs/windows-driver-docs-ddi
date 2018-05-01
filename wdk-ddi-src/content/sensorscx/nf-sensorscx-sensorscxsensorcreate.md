@@ -40,8 +40,7 @@ api_name:
 -	SensorsCxSensorCreate
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxSensorCreate function

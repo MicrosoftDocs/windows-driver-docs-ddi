@@ -7,7 +7,7 @@ old-location: kernel\adaptercontrol.htm
 old-project: kernel
 ms.assetid: b75b8937-793d-4d75-9bb7-2226096044f0
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: AdapterControl, ControllerControl, DRIVER_CONTROL, DrvrRtns_1e3fb66d-8977-4894-a3ac-d310fdfa6515.xml, MyControl, MyControl routine [Kernel-Mode Driver Architecture], kernel.adaptercontrol, wdm/MyControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	MyControl
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# DRIVER_CONTROL callback
+# DRIVER_CONTROL callback function
 
 
 ## -description

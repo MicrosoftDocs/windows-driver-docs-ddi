@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.CreateSymbolGroup2
-title: IDebugSymbols3::CreateSymbolGroup2 method
+title: IDebugSymbols3::CreateSymbolGroup2
 author: windows-driver-content
 description: The CreateSymbolGroup2 method creates a new symbol group.
 old-location: debugger\createsymbolgroup2.htm
 old-project: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup2,IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
+ms.date: 4/24/2018
+ms.keywords: CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup2 method, IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.CreateSymbolGroup2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::CreateSymbolGroup2 method
+# IDebugSymbols3::CreateSymbolGroup2
 
 
 ## -description

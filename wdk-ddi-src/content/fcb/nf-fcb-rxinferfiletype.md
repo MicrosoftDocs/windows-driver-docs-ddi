@@ -7,7 +7,7 @@ old-location: ifsk\rxinferfiletype.htm
 old-project: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxInferFileType, RxInferFileType function [Installable File System Drivers], fcb/RxInferFileType, ifsk.rxinferfiletype, rxref_e020604c-fa08-40f3-895d-425347c73307.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RxInferFileType
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: 
 ---
 
 # RxInferFileType function

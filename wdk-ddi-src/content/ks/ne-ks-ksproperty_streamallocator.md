@@ -7,7 +7,7 @@ old-location: stream\ksproperty_streamallocator.htm
 old-project: stream
 ms.assetid: 4731864F-01B3-42CB-A1D4-C82FDD1DCBBE
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR enumeration [Streaming Media Devices], KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, KSPROPERTY_STREAMALLOCATOR_STATUS, ks/KSPROPERTY_STREAMALLOCATOR, ks/KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, ks/KSPROPERTY_STREAMALLOCATOR_STATUS, stream.ksproperty_streamallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.CreateDevice
-title: IStillImageW::CreateDevice method
+title: IStillImageW::CreateDevice
 author: windows-driver-content
 description: The IStillImage::CreateDevice method creates an instance of the COM object that defines the IStiDevice COM Interface, and returns a pointer to the interface.
 old-location: image\istillimage_createdevice.htm
 old-project: image
 ms.assetid: 24491434-1ad2-48fa-85e6-516efbe0550d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices], IStillImageW interface, CreateDevice,IStillImageW.CreateDevice, IStillImageW, IStillImageW interface [Imaging Devices], CreateDevice method, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
+ms.date: 4/23/2018
+ms.keywords: CreateDevice, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],CreateDevice method, IStillImageW.CreateDevice, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStillImageW.CreateDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::CreateDevice method
+# IStillImageW::CreateDevice
 
 
 ## -description

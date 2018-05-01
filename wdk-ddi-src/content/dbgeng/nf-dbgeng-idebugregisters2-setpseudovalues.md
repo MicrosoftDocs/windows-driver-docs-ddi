@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.SetPseudoValues
-title: IDebugRegisters2::SetPseudoValues method
+title: IDebugRegisters2::SetPseudoValues
 author: windows-driver-content
 description: The SetPseudoValues method sets the value of several pseudo-registers.
 old-location: debugger\setpseudovalues.htm
 old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues,IDebugRegisters2.SetPseudoValues, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters2 interface [Windows Debugging],SetPseudoValues method, IDebugRegisters2.SetPseudoValues, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugRegisters2.SetPseudoValues
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::SetPseudoValues method
+# IDebugRegisters2::SetPseudoValues
 
 
 ## -description

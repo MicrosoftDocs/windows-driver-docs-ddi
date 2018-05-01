@@ -7,7 +7,7 @@ old-location: bltooth\sdpcreatenodeuint16.htm
 old-project: bltooth
 ms.assetid: 8a864cfa-fa0b-4a8f-a229-2a28e1b33f4a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpCreateNodeUInt16, SdpCreateNodeUInt16 function [Bluetooth Devices], bltooth.sdpcreatenodeuint16, bth_funcs_9cc3e81b-f444-4a54-810e-5b779c597e82.xml, sdplib/SdpCreateNodeUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SdpCreateNodeUInt16
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpCreateNodeUInt16 function

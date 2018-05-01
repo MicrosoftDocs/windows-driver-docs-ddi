@@ -7,7 +7,7 @@ old-location: buses\usbd_register.htm
 old-project: usbref
 ms.assetid: 97757CBA-8291-40A3-B247-D41E7FEB1D7C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 -	USBD_CreateHandle
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_CreateHandle function

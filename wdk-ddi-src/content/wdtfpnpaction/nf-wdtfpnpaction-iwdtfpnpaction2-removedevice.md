@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RemoveDevice
-title: IWDTFPNPAction2::RemoveDevice method
+title: IWDTFPNPAction2::RemoveDevice
 author: windows-driver-content
 description: Removes the device.
 old-location: dtf\iwdtfpnpaction2_removedevice.htm
 old-project: dtf
 ms.assetid: 68e15b98-e58a-4789-80d0-fc31f936345e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RemoveDevice method, IWDTFPNPAction2::RemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.RemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RemoveDevice,IWDTFPNPAction2.RemoveDevice, dtf.iwdtfpnpaction2_removedevice, wdtfpnpaction/IWDTFPNPAction2::RemoveDevice
+ms.date: 4/4/2018
+ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RemoveDevice method, IWDTFPNPAction2.RemoveDevice, IWDTFPNPAction2::RemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.RemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::RemoveDevice, RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_removedevice, wdtfpnpaction/IWDTFPNPAction2::RemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFPNPAction2.RemoveDevice
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPAction2::RemoveDevice method
+# IWDTFPNPAction2::RemoveDevice
 
 
 ## -description

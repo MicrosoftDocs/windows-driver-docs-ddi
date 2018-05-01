@@ -7,8 +7,8 @@ old-location: kernel\getdmatransferinfo.htm
 old-project: kernel
 ms.assetid: 27D1FAAE-6DEF-4485-AA29-32CC85A01000
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: GetDmaTransferInfo, GetDmaTransferInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_TRANSFER_INFO, kernel.getdmatransferinfo, wdm/GetDmaTransferInfo
+ms.date: 4/5/2018
+ms.keywords: GetDmaTransferInfo, GetDmaTransferInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_TRANSFER_INFO, PGET_DMA_TRANSFER_INFO callback, kernel.getdmatransferinfo, wdm/GetDmaTransferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	GetDmaTransferInfo
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PGET_DMA_TRANSFER_INFO callback
+# PGET_DMA_TRANSFER_INFO callback function
 
 
 ## -description

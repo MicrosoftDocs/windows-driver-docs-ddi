@@ -7,7 +7,7 @@ old-location: stream\strminiclock.htm
 old-project: stream
 ms.assetid: ea230363-e2e8-48fb-982b-025615753e83
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PHW_QUERY_CLOCK_ROUTINE, StrMiniClock, StrMiniClock routine [Streaming Media Devices], stream.strminiclock, strmini-routines_d53b0cf1-3c0c-435f-bc44-732f6418ebb8.xml, strmini/StrMiniClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	StrMiniClock
 product: Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PHW_QUERY_CLOCK_ROUTINE callback
+# PHW_QUERY_CLOCK_ROUTINE callback function
 
 
 ## -description

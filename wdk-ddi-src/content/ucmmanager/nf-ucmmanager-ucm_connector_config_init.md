@@ -7,7 +7,7 @@ old-location: buses\ucm_connector_config_init.htm
 old-project: usbref
 ms.assetid: F9076ED0-A9D2-441A-A084-941C05EF9CCA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses], buses.ucm_connector_config_init, ucmmanager/UCM_CONNECTOR_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UCM_CONNECTOR_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCM_CONNECTOR_CONFIG_INIT function

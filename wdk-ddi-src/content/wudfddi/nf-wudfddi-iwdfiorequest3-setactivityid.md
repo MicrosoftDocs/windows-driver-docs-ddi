@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.SetActivityId
-title: IWDFIoRequest3::SetActivityId method
+title: IWDFIoRequest3::SetActivityId
 author: windows-driver-content
 description: The SetActivityId method associates an activity identifier with an I/O request.
 old-location: wdf\iwdfiorequest3_setactivityid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57CB3CED-FE46-4A74-9E23-82640B7EF1DC
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, SetActivityId method, IWDFIoRequest3::SetActivityId, SetActivityId method, SetActivityId method, IWDFIoRequest3 interface, SetActivityId,IWDFIoRequest3.SetActivityId, umdf.iwdfiorequest3_setactivityid, wdf.iwdfiorequest3_setactivityid, wudfddi/IWDFIoRequest3::SetActivityId
+ms.keywords: IWDFIoRequest3 interface,SetActivityId method, IWDFIoRequest3.SetActivityId, IWDFIoRequest3::SetActivityId, SetActivityId, SetActivityId method, SetActivityId method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_setactivityid, wdf.iwdfiorequest3_setactivityid, wudfddi/IWDFIoRequest3::SetActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest3.SetActivityId
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest3::SetActivityId method
+# IWDFIoRequest3::SetActivityId
 
 
 ## -description

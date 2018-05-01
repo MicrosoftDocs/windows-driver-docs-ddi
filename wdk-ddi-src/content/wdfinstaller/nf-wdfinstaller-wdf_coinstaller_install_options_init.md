@@ -40,8 +40,7 @@ api_name:
 -	WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_COINSTALLER_INSTALL_OPTIONS_INIT function

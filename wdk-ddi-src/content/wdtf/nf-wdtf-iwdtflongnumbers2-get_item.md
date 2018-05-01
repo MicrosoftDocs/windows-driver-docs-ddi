@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get_Item
-title: IWDTFLongNumbers2::get_Item method
+title: IWDTFLongNumbers2::get_Item
 author: windows-driver-content
 description: Gets an individual long number in the collection.
 old-location: dtf\iwdtflongnumbers2_item.htm
 old-project: dtf
 ms.assetid: 52c2a15c-13ec-43a1-ad8e-fc55ef681a60
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Item property, IWDTFLongNumbers2.Item, IWDTFLongNumbers2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Microsoft.WDTF.IWDTFLongNumbers2.Item, Microsoft::WDTF::IWDTFLongNumbers2::Item, dtf.iwdtflongnumbers2_item, get_Item,IWDTFLongNumbers2.get_Item, wdtf/IWDTFLongNumbers2::Item, wdtf/IWDTFLongNumbers2::get_Item
+ms.date: 4/4/2018
+ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],Item property, IWDTFLongNumbers2.Item, IWDTFLongNumbers2.get_Item, IWDTFLongNumbers2::Item, IWDTFLongNumbers2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFLongNumbers2 interface, Microsoft.WDTF.IWDTFLongNumbers2.Item, Microsoft::WDTF::IWDTFLongNumbers2::Item, dtf.iwdtflongnumbers2_item, get_Item, wdtf/IWDTFLongNumbers2::Item, wdtf/IWDTFLongNumbers2::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTFLongNumbers2.get_Item
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFLongNumbers2::get_Item method
+# IWDTFLongNumbers2::get_Item
 
 
 ## -description

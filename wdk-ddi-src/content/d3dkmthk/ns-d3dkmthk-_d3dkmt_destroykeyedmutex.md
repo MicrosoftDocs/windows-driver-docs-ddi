@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroykeyedmutex.htm
 old-project: display
 ms.assetid: b7903bf8-ef62-4224-a81d-4b41f36e2061
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DESTROYKEYEDMUTEX, D3DKMT_DESTROYKEYEDMUTEX structure [Display Devices], OpenGL_Structs_4eb8a9cb-d2b1-445b-b545-5ec0a017a61c.xml, _D3DKMT_DESTROYKEYEDMUTEX, d3dkmthk/D3DKMT_DESTROYKEYEDMUTEX, display.d3dkmt_destroykeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

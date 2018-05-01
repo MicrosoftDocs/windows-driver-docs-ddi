@@ -7,8 +7,8 @@ old-location: display\dxgkddicancelcommand.htm
 old-project: display
 ms.assetid: c290c313-14ee-4554-9bb1-8adec1892426
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_CANCELCOMMAND, DxgkDdiCancelCommand, DxgkDdiCancelCommand callback function [Display Devices], d3dkmddi/DxgkDdiCancelCommand, display.dxgkddicancelcommand
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_CANCELCOMMAND, DXGKDDI_CANCELCOMMAND callback, DxgkDdiCancelCommand, DxgkDdiCancelCommand callback function [Display Devices], d3dkmddi/DxgkDdiCancelCommand, display.dxgkddicancelcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiCancelCommand
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_CANCELCOMMAND callback
+# DXGKDDI_CANCELCOMMAND callback function
 
 
 ## -description

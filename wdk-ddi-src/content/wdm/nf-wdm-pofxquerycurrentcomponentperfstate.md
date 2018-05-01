@@ -7,7 +7,7 @@ old-location: kernel\pofxquerycurrentcomponentperfstate.htm
 old-project: kernel
 ms.assetid: DFB59020-1F4A-4ABB-8BBE-85F9C8615249
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: PoFxQueryCurrentComponentPerfState, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], kernel.pofxquerycurrentcomponentperfstate, wdm/PoFxQueryCurrentComponentPerfState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	PoFxQueryCurrentComponentPerfState
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PoFxQueryCurrentComponentPerfState function

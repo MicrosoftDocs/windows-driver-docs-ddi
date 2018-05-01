@@ -7,7 +7,7 @@ old-location: stream\kspinregisterirpcompletioncallback.htm
 old-project: stream
 ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, ks/KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\wdi_bss_selection_flags.htm
 old-project: netvista
 ms.assetid: 9C2F862B-8BA8-4947-9C3D-538715C99F26
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_BSS_SELECTION_FLAGS, WDI_BSS_SELECTION_FLAGS enumeration [Network Drivers Starting with Windows Vista], WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, WDI_BSS_SELECTION_HOST_PREFERRED, WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, _WDI_BSS_SELECTION_FLAGS, netvista.wdi_bss_selection_flags, wditypes/WDI_BSS_SELECTION_FLAGS, wditypes/WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, wditypes/WDI_BSS_SELECTION_HOST_PREFERRED, wditypes/WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_BSS_SELECTION_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _WDI_BSS_SELECTION_FLAGS enumeration

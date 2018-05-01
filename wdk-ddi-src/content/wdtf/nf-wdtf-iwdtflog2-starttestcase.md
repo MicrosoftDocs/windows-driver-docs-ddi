@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.StartTestCase
-title: IWDTFLOG2::StartTestCase method
+title: IWDTFLOG2::StartTestCase
 author: windows-driver-content
 description: Marks the start of a test case.
 old-location: dtf\iwdtflog2_starttestcase.htm
 old-project: dtf
 ms.assetid: d72bff68-d1c0-4ce4-bc2d-abe350036eec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], StartTestCase method, IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase method [Windows Device Testing Framework], StartTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, StartTestCase,IWDTFLOG2.StartTestCase, dtf.iwdtflog2_starttestcase, wdtf/IWDTFLOG2::StartTestCase
+ms.date: 4/4/2018
+ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],StartTestCase method, IWDTFLOG2.StartTestCase, IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase, StartTestCase method [Windows Device Testing Framework], StartTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_starttestcase, wdtf/IWDTFLOG2::StartTestCase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFLOG2.StartTestCase
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFLOG2::StartTestCase method
+# IWDTFLOG2::StartTestCase
 
 
 ## -description

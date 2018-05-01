@@ -7,8 +7,8 @@ old-location: stream\ikspinex.htm
 old-project: stream
 ms.assetid: 9e6fd96d-c78e-44f3-ae4c-3688da48a494
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices], described, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml, stream.ikspinex
+ms.date: 4/23/2018
+ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices],described, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml, stream.ikspinex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Ksproxy.lib
-req.dll: 
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ api_name:
 -	IKsPinEx
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsPinEx interface

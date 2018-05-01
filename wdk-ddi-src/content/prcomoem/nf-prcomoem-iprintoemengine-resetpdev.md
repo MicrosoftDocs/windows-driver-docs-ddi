@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.ResetPDEV
-title: IPrintOemEngine::ResetPDEV method
+title: IPrintOemEngine::ResetPDEV
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_resetpdev.htm
 old-project: print
 ms.assetid: DD8E4DAC-A4CA-4F1A-A898-E4A68A2D6715
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], ResetPDEV method, IPrintOemEngine::ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemEngine interface, ResetPDEV,IPrintOemEngine.ResetPDEV, prcomoem/IPrintOemEngine::ResetPDEV, print.iprintoemengine_resetpdev
+ms.date: 4/20/2018
+ms.keywords: IPrintOemEngine interface [Print Devices],ResetPDEV method, IPrintOemEngine.ResetPDEV, IPrintOemEngine::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemEngine interface, prcomoem/IPrintOemEngine::ResetPDEV, print.iprintoemengine_resetpdev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemEngine.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemEngine::ResetPDEV method
+# IPrintOemEngine::ResetPDEV
 
 
 ## -description

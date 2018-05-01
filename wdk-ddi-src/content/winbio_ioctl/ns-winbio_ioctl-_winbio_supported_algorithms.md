@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_SUPPORTED_ALGORITHMS, *PWINBIO_SUPPORTED_ALGORITHMS
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_SUPPORTED_ALGORITHMS structure

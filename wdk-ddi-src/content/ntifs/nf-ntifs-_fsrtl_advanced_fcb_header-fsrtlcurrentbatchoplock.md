@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcurrentbatchoplock.htm
 old-project: ifsk
 ms.assetid: cfa02246-12ac-4229-bcdb-4792eb5cb0e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlCurrentBatchOplock, FsRtlCurrentBatchOplock function [Installable File System Drivers], fsrtlref_d5d16133-2531-4e50-85b7-381740d45d9a.xml, ifsk.fsrtlcurrentbatchoplock, ntifs/FsRtlCurrentBatchOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlCurrentBatchOplock
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlCurrentBatchOplock function

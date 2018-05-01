@@ -7,7 +7,7 @@ old-location: netvista\wdi_action_frame_category.htm
 old-project: netvista
 ms.assetid: F2A3D1F0-E6E7-46DC-875A-7F36E6ACBC6D
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_ACTION_FRAME_CATEGORY, WDI_ACTION_FRAME_CATEGORY enumeration [Device and Driver Installation], WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, WDI_ACTION_FRAME_CATEGORY_PUBLIC, WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, WDI_ACTION_FRAME_CATEGORY_WNM, _WDI_ACTION_FRAME_CATEGORY, netvista.wdi_action_frame_category, netvista.wifi_action_frame_category, wditypes/WDI_ACTION_FRAME_CATEGORY, wditypes/WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, wditypes/WDI_ACTION_FRAME_CATEGORY_PUBLIC, wditypes/WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY_WNM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_ACTION_FRAME_CATEGORY
-req.product: Windows 10 or later.
 ---
 
 # _WDI_ACTION_FRAME_CATEGORY enumeration

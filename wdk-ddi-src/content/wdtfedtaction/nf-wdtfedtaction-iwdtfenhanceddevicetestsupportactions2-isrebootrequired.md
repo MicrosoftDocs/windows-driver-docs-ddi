@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired
-title: IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired method
+title: IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
 author: windows-driver-content
 description: Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2_isrebootrequired.htm
 old-project: dtf
 ms.assetid: 76d4f209-e38d-4ab3-94bf-3cc7fdff950c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], IsRebootRequired method, IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface, IsRebootRequired,IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired, dtf.iwdtfenhanceddevicetestsupportactions2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
+ms.date: 4/4/2018
+ms.keywords: IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],IsRebootRequired method, IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired, IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired, IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, dtf.iwdtfenhanceddevicetestsupportactions2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired method
+# IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
 
 
 ## -description

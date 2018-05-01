@@ -7,8 +7,8 @@ old-location: display\decodebeginframe.htm
 old-project: display
 ms.assetid: 3e6153aa-7b21-429d-8908-1ff3a4d25e17
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DecodeBeginFrame, DecodeBeginFrame callback function [Display Devices], PFND3DDDI_DECODEBEGINFRAME, UserModeDisplayDriver_Functions_3fab4933-b0fb-4a3f-8316-2c698775dda5.xml, d3dumddi/DecodeBeginFrame, display.decodebeginframe
+ms.date: 4/16/2018
+ms.keywords: DecodeBeginFrame, DecodeBeginFrame callback function [Display Devices], PFND3DDDI_DECODEBEGINFRAME, PFND3DDDI_DECODEBEGINFRAME callback, UserModeDisplayDriver_Functions_3fab4933-b0fb-4a3f-8316-2c698775dda5.xml, d3dumddi/DecodeBeginFrame, display.decodebeginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DecodeBeginFrame
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DECODEBEGINFRAME callback
+# PFND3DDDI_DECODEBEGINFRAME callback function
 
 
 ## -description

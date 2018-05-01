@@ -7,8 +7,8 @@ old-location: display\openresource_d3d10_.htm
 old-project: display
 ms.assetid: 95f6d1e5-0c85-41ce-ad6d-f10d5103e2eb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: OpenResource, OpenResource callback function [Display Devices], PFND3D10DDI_OPENRESOURCE, UserModeDisplayDriverDx10_Functions_ea9696b9-fb0f-4feb-be35-db3e59c74b4e.xml, d3d10umddi/OpenResource, display.openresource_d3d10_
+ms.date: 4/16/2018
+ms.keywords: OpenResource, OpenResource callback function [Display Devices], PFND3D10DDI_OPENRESOURCE, PFND3D10DDI_OPENRESOURCE callback, UserModeDisplayDriverDx10_Functions_ea9696b9-fb0f-4feb-be35-db3e59c74b4e.xml, d3d10umddi/OpenResource, display.openresource_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	OpenResource
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_OPENRESOURCE callback
+# PFND3D10DDI_OPENRESOURCE callback function
 
 
 ## -description

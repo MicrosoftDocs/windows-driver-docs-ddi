@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_input_element_desc.htm
 old-project: display
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

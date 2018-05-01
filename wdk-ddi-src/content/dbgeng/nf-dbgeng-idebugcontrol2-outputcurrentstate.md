@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputCurrentState
-title: IDebugControl2::OutputCurrentState method
+title: IDebugControl2::OutputCurrentState
 author: windows-driver-content
 description: The OutputCurrentState method prints the current state of the current target to the debugger console.
 old-location: debugger\outputcurrentstate.htm
 old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, IDebugControl2::OutputCurrentState, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, IDebugControl3::OutputCurrentState, IDebugControl::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, OutputCurrentState method [Windows Debugging], OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, OutputCurrentState,IDebugControl2.OutputCurrentState, dbgeng/IDebugControl2::OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, dbgeng/IDebugControl::OutputCurrentState, debugger.outputcurrentstate
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OutputCurrentState method, IDebugControl2 interface [Windows Debugging],OutputCurrentState method, IDebugControl2.OutputCurrentState, IDebugControl2::OutputCurrentState, IDebugControl3 interface [Windows Debugging],OutputCurrentState method, IDebugControl3::OutputCurrentState, IDebugControl::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, OutputCurrentState, OutputCurrentState method [Windows Debugging], OutputCurrentState method [Windows Debugging],IDebugControl interface, OutputCurrentState method [Windows Debugging],IDebugControl2 interface, OutputCurrentState method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, dbgeng/IDebugControl::OutputCurrentState, debugger.outputcurrentstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.OutputCurrentState
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::OutputCurrentState method
+# IDebugControl2::OutputCurrentState
 
 
 ## -description

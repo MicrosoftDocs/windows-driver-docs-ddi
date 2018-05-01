@@ -7,7 +7,7 @@ old-location: print\data_header.htm
 old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDATA_HEADER, DATA_HEADER, DATA_HEADER structure [Print Devices], PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], _DATA_HEADER, print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, prntfont/DATA_HEADER, prntfont/PDATA_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: DATA_HEADER, *PDATA_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _DATA_HEADER structure

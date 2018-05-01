@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.ReadHandleData
-title: IDebugDataSpaces2::ReadHandleData method
+title: IDebugDataSpaces2::ReadHandleData
 author: windows-driver-content
 description: The ReadHandleData method retrieves information about a system object specified by a system handle.
 old-location: debugger\readhandledata.htm
 old-project: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, ReadHandleData,IDebugDataSpaces2.ReadHandleData, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces2.ReadHandleData, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging],IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging],IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugDataSpaces4.ReadHandleData
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces2::ReadHandleData method
+# IDebugDataSpaces2::ReadHandleData
 
 
 ## -description

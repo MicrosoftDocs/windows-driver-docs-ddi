@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_reset_device.htm
 old-project: serports
 ms.assetid: af7482b4-4622-40b7-af7a-c952813e7095
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_RESET_DEVICE, IOCTL_SERIAL_RESET_DEVICE control code [Serial Ports], ntddser/IOCTL_SERIAL_RESET_DEVICE, serports.ioctl_serial_reset_device, serref_8c489e42-94d9-4a10-9336-dae4adea904a.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_RESET_DEVICE, IOCTL_SERIAL_RESET_DEVICE control, IOCTL_SERIAL_RESET_DEVICE control code [Serial Ports], ntddser/IOCTL_SERIAL_RESET_DEVICE, serports.ioctl_serial_reset_device, serref_8c489e42-94d9-4a10-9336-dae4adea904a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SERIAL_RESET_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_RESET_DEVICE IOCTL

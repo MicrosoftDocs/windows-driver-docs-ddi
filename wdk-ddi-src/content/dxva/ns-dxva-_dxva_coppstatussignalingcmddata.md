@@ -7,7 +7,7 @@ old-location: display\dxva_coppstatussignalingcmddata.htm
 old-project: display
 ms.assetid: 3065dddc-e084-4273-93eb-62a51763e213
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [Display Devices], _DXVA_COPPStatusSignalingCmdData, display.dxva_coppstatussignalingcmddata, dxva/DXVA_COPPStatusSignalingCmdData, dxvaref_6a90a0a1-2173-4698-9e3d-83db1d5062f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

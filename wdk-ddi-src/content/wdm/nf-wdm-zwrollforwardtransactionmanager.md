@@ -7,7 +7,7 @@ old-location: kernel\zwrollforwardtransactionmanager.htm
 old-project: kernel
 ms.assetid: c2d775b1-364a-4c50-bd5e-dab9d9e07b83
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtRollforwardTransactionManager, ZwRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrollforwardtransactionmanager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, wdm/NtRollforwardTransactionManager, wdm/ZwRollforwardTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	NtRollforwardTransactionManager
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwRollforwardTransactionManager function

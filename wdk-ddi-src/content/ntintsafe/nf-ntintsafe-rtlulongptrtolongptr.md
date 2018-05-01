@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtolongptr.htm
 old-project: kernel
 ms.assetid: 5231A8BC-2F7A-4A2C-931C-D3A81563754A
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlULongPtrToLongPtr, RtlULongPtrToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtolongptr, ntintsafe/RtlULongPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlULongPtrToLongPtr
 product: Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongPtrToLongPtr function

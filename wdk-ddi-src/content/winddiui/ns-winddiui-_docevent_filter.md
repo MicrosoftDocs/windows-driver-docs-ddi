@@ -7,7 +7,7 @@ old-location: print\docevent_filter.htm
 old-project: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDOCEVENT_FILTER, DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
-req.product: Windows 10 or later.
 ---
 
 # _DOCEVENT_FILTER structure

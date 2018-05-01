@@ -7,7 +7,7 @@ old-location: kernel\zwduplicatetoken.htm
 old-project: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtDuplicateToken, ZwDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NtDuplicateToken
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # NtDuplicateToken function

@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.GetLastError
-title: IStiUSD::GetLastError method
+title: IStiUSD::GetLastError
 author: windows-driver-content
 description: The IStiUSD::GetLastError method returns the last known error associated with a still image device.
 old-location: image\istiusd_getlasterror.htm
 old-project: image
 ms.assetid: a7f265b8-c8a9-4a79-85e2-e3f52bf25f31
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetLastError method [Imaging Devices], GetLastError method [Imaging Devices], IStiUSD interface, GetLastError,IStiUSD.GetLastError, IStiUSD, IStiUSD interface [Imaging Devices], GetLastError method, IStiUSD::GetLastError, image.istiusd_getlasterror, stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, stiusd/IStiUSD::GetLastError
+ms.date: 4/23/2018
+ms.keywords: GetLastError, GetLastError method [Imaging Devices], GetLastError method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetLastError method, IStiUSD.GetLastError, IStiUSD::GetLastError, image.istiusd_getlasterror, stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, stiusd/IStiUSD::GetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiUSD.GetLastError
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::GetLastError method
+# IStiUSD::GetLastError
 
 
 ## -description

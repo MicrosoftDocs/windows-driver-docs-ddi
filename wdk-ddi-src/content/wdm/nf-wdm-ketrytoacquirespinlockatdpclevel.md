@@ -7,7 +7,7 @@ old-location: kernel\ketrytoacquirespinlockatdpclevel.htm
 old-project: kernel
 ms.assetid: b7791969-027e-4df7-b720-1eb612597c56
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, kernel.ketrytoacquirespinlockatdpclevel, wdm/KeTryToAcquireSpinLockAtDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeTryToAcquireSpinLockAtDpcLevel
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeTryToAcquireSpinLockAtDpcLevel function

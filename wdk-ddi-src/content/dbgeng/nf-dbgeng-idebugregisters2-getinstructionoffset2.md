@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetInstructionOffset2
-title: IDebugRegisters2::GetInstructionOffset2 method
+title: IDebugRegisters2::GetInstructionOffset2
 author: windows-driver-content
 description: The GetInstructionOffset2 method returns the location of the current thread's current instruction.
 old-location: debugger\getinstructionoffset2.htm
 old-project: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset2,IDebugRegisters2.GetInstructionOffset2, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2
+ms.date: 4/24/2018
+ms.keywords: GetInstructionOffset2, GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetInstructionOffset2 method, IDebugRegisters2.GetInstructionOffset2, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugRegisters2.GetInstructionOffset2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetInstructionOffset2 method
+# IDebugRegisters2::GetInstructionOffset2
 
 
 ## -description

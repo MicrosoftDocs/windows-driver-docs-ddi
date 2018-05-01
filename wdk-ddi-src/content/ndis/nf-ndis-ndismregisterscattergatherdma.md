@@ -7,7 +7,7 @@ old-location: netvista\ndismregisterscattergatherdma.htm
 old-project: netvista
 ms.assetid: 90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMRegisterScatterGatherDma, NdisMRegisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterScatterGatherDma, ndis_sgdma_ref_4c89dae9-d6bc-44a5-9b8b-8efcb69ecc75.xml, netvista.ndismregisterscattergatherdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisMRegisterScatterGatherDma
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMRegisterScatterGatherDma function

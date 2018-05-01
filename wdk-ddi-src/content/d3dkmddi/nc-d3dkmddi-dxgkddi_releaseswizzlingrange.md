@@ -7,8 +7,8 @@ old-location: display\dxgkddireleaseswizzlingrange.htm
 old-project: display
 ms.assetid: 6c583a48-baa4-429f-b2fc-5f86859617cc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_RELEASESWIZZLINGRANGE, DmFunctions_7dab2ff4-4f37-4b56-a15c-29dcf54f8b8d.xml, DxgkDdiReleaseSwizzlingRange, DxgkDdiReleaseSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiReleaseSwizzlingRange, display.dxgkddireleaseswizzlingrange
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_RELEASESWIZZLINGRANGE, DXGKDDI_RELEASESWIZZLINGRANGE callback, DmFunctions_7dab2ff4-4f37-4b56-a15c-29dcf54f8b8d.xml, DxgkDdiReleaseSwizzlingRange, DxgkDdiReleaseSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiReleaseSwizzlingRange, display.dxgkddireleaseswizzlingrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiReleaseSwizzlingRange
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_RELEASESWIZZLINGRANGE callback
+# DXGKDDI_RELEASESWIZZLINGRANGE callback function
 
 
 ## -description

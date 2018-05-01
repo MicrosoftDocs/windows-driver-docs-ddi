@@ -7,7 +7,7 @@ old-location: kernel\wnode_event_reference.htm
 old-project: kernel
 ms.assetid: 9dfe75e5-301e-4378-a2ad-f43676d8c208
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture], WNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture], kernel.wnode_event_reference, kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, tagWNODE_EVENT_REFERENCE, wmistr/PWNODE_EVENT_REFERENCE, wmistr/WNODE_EVENT_REFERENCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE
-req.product: Windows 10 or later.
 ---
 
 # tagWNODE_EVENT_REFERENCE structure
@@ -78,14 +77,12 @@ Indicates the size of the event.
  
 
 
-
-
-#### - TargetInstanceIndex
+### -field DUMMYUNIONNAME.TargetInstanceIndex
 
 Indicates the index into the driver's list of static instance names for the event. This member is valid only if the event block was registered with static instance names and WNODE_FLAGS_STATIC_INSTANCE_NAMES is set in <b>WnodeHeader.Flags</b>.
 
 
-#### - TargetInstanceName
+### -field DUMMYUNIONNAME.TargetInstanceName
 
 Indicates the dynamic instance name of the event as a counted Unicode string. This member is valid only if WNODE_FLAGS_STATIC_INSTANCE_NAMES is clear in <b>WnodeHeader.Flags</b> and the event block was registered with dynamic instance names.
 

@@ -40,10 +40,10 @@ api_name:
 -	IdeHwBuildIo
 product: Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: 
 ---
 
-# IDE_HW_BUILDIO callback
+# IDE_HW_BUILDIO callback function
 
 
 ## -description

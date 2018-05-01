@@ -7,8 +7,8 @@ old-location: display\agpallocatepool.htm
 old-project: display
 ms.assetid: abac76e0-eb8a-450a-a797-3733a8f71990
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
+ms.date: 4/16/2018
+ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DXGKCB_AGP_ALLOCATE_POOL callback, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	AgpAllocatePool
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_AGP_ALLOCATE_POOL callback
+# DXGKCB_AGP_ALLOCATE_POOL callback function
 
 
 ## -description

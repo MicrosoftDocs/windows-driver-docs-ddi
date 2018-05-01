@@ -7,7 +7,7 @@ old-location: kernel\exinterlockedaddulong.htm
 old-project: kernel
 ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, kernel.exinterlockedaddulong, wdm/ExInterlockedAddUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	ExInterlockedAddUlong
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExInterlockedAddUlong function

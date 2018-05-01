@@ -7,8 +7,8 @@ old-location: display\cleardepthstencilview.htm
 old-project: display
 ms.assetid: 0474c154-1bec-4602-880c-ffdc48c738f0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: ClearDepthStencilView, ClearDepthStencilView callback function [Display Devices], PFND3D10DDI_CLEARDEPTHSTENCILVIEW, UserModeDisplayDriverDx10_Functions_580c85a3-3ad9-415c-925c-2ca103d10237.xml, d3d10umddi/ClearDepthStencilView, display.cleardepthstencilview
+ms.date: 4/16/2018
+ms.keywords: ClearDepthStencilView, ClearDepthStencilView callback function [Display Devices], PFND3D10DDI_CLEARDEPTHSTENCILVIEW, PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_580c85a3-3ad9-415c-925c-2ca103d10237.xml, d3d10umddi/ClearDepthStencilView, display.cleardepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ClearDepthStencilView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback
+# PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback function
 
 
 ## -description

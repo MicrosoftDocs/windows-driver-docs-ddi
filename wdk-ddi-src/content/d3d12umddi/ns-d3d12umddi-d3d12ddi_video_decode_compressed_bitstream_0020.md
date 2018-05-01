@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_compressed_bitstream.htm
 old-project: display
 ms.assetid: 24A1D8C7-E432-45CB-8DEA-C1137159E319
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, display.d3d12ddi_video_decode_compressed_bitstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

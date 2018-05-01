@@ -7,7 +7,7 @@ old-location: buses\_endpoints_configure.htm
 old-project: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
-req.product: Windows 10 or later.
 ---
 
 # _ENDPOINTS_CONFIGURE structure

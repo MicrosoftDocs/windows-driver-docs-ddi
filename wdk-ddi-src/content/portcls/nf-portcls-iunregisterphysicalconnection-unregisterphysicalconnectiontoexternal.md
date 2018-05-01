@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal
-title: IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal method
+title: IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
 author: windows-driver-content
 description: The UnregisterPhysicalConnectionToExternal method deletes the registration of a physical connection that was registered by a previous call to PcRegisterPhysicalConnectionToExternal.
 old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal.htm
 old-project: audio
 ms.assetid: 250bf99c-d5fa-459b-bd94-d438368379f1
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionToExternal method, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnectionToExternal,IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal, audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
+ms.date: 4/16/2018
+ms.keywords: IUnregisterPhysicalConnection interface [Audio Devices],UnregisterPhysicalConnectionToExternal method, IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], UnregisterPhysicalConnectionToExternal method [Audio Devices],IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal, audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal method
+# IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
 
 
 ## -description

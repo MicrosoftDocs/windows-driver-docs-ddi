@@ -7,7 +7,7 @@ old-location: audio\ksaudio_presentation_position.htm
 old-project: audio
 ms.assetid: 6C9F2E99-17B4-49AD-A94F-E3EF9282B649
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices], PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], audio.ksaudio_presentation_position, ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

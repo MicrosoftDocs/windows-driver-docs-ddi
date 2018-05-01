@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.CancelSentRequest
-title: IWDFIoRequest::CancelSentRequest method
+title: IWDFIoRequest::CancelSentRequest
 author: windows-driver-content
 description: The CancelSentRequest method attempts to cancel the I/O request that the driver previously submitted to an I/O target.
 old-location: wdf\iwdfiorequest_cancelsentrequest.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1951a2e8-c2f0-42bc-9deb-8d2a049817c4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CancelSentRequest method, CancelSentRequest method, IWDFIoRequest interface, CancelSentRequest,IWDFIoRequest.CancelSentRequest, IWDFIoRequest, IWDFIoRequest interface, CancelSentRequest method, IWDFIoRequest::CancelSentRequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, umdf.iwdfiorequest_cancelsentrequest, wdf.iwdfiorequest_cancelsentrequest, wudfddi/IWDFIoRequest::CancelSentRequest
+ms.keywords: CancelSentRequest, CancelSentRequest method, CancelSentRequest method,IWDFIoRequest interface, IWDFIoRequest interface,CancelSentRequest method, IWDFIoRequest.CancelSentRequest, IWDFIoRequest::CancelSentRequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, umdf.iwdfiorequest_cancelsentrequest, wdf.iwdfiorequest_cancelsentrequest, wudfddi/IWDFIoRequest::CancelSentRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest.CancelSentRequest
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::CancelSentRequest method
+# IWDFIoRequest::CancelSentRequest
 
 
 ## -description

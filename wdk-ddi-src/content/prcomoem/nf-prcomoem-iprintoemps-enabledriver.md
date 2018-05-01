@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.EnableDriver
-title: IPrintOemPS::EnableDriver method
+title: IPrintOemPS::EnableDriver
 author: windows-driver-content
 description: The IPrintOemPS::EnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.
 old-location: print\iprintoemps_enabledriver.htm
 old-project: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnableDriver method [Print Devices], EnableDriver method [Print Devices], IPrintOemPS interface, EnableDriver,IPrintOemPS.EnableDriver, IPrintOemPS, IPrintOemPS interface [Print Devices], EnableDriver method, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
+ms.date: 4/20/2018
+ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemPS.EnableDriver
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPS::EnableDriver method
+# IPrintOemPS::EnableDriver
 
 
 ## -description

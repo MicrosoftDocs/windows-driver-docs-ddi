@@ -7,7 +7,7 @@ old-location: display\dxvaddi_procampvalues.htm
 old-project: display
 ms.assetid: bce6931d-af45-42aa-9be2-ded07f98c300
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES structure [Display Devices], _DXVADDI_PROCAMPVALUES, d3dumddi/DXVADDI_PROCAMPVALUES, display.dxvaddi_procampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\ndiscmdroppartycomplete.htm
 old-project: netvista
 ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, ndis/NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisCmDropPartyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmDropPartyComplete function

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_STATE, *PWDF_DEVICE_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_STATE structure

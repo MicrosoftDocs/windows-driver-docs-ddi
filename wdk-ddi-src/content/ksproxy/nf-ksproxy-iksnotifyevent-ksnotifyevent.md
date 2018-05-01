@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsNotifyEvent.KsNotifyEvent
-title: IKsNotifyEvent::KsNotifyEvent method
+title: IKsNotifyEvent::KsNotifyEvent
 author: windows-driver-content
 description: The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs.
 old-location: stream\iksnotifyevent_ksnotifyevent.htm
 old-project: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface, KsNotifyEvent,IKsNotifyEvent.KsNotifyEvent, ksproxy/IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, stream.iksnotifyevent_ksnotifyevent
+ms.date: 4/23/2018
+ms.keywords: IKsNotifyEvent interface [Streaming Media Devices],KsNotifyEvent method, IKsNotifyEvent.KsNotifyEvent, IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices],IKsNotifyEvent interface, ksproxy/IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, stream.iksnotifyevent_ksnotifyevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsNotifyEvent.KsNotifyEvent
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsNotifyEvent::KsNotifyEvent method
+# IKsNotifyEvent::KsNotifyEvent
 
 
 ## -description

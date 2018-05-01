@@ -7,7 +7,7 @@ old-location: display\dxgk_miracast_caps.htm
 old-project: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], _DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, dispmprt/DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -65,12 +65,6 @@ The maximum size, in bytes, of the private data that the display miniport driver
 ### -field Flags
 
 
-
-#### Value
-
-Holds a 32-bit value that identifies the capabilities of the Miracast device.
-
-
 ### -field Flags.HdcpSupport
 
 Indicates whether the display adapter supports the Miracast High-bandwidth Digital Content Protection (HDCP) feature.
@@ -79,6 +73,11 @@ Indicates whether the display adapter supports the Miracast High-bandwidth Digit
 ### -field Flags.Reserved
 
 Reserved for system use. The display miniport driver must set this value to zero.
+
+
+### -field Flags.Value
+
+Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetmultisamplemethodlist.htm
 old-project: display
 ms.assetid: 10084238-dfeb-42a5-9bf0-06cb9b4f440c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTGetMultisampleMethodList, D3DKMTGetMultisampleMethodList function [Display Devices], OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml, d3dkmthk/D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ api_name:
 -	D3DKMTGetMultisampleMethodList
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetMultisampleMethodList function

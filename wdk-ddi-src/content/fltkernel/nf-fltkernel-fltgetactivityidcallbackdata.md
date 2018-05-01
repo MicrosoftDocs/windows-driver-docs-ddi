@@ -7,7 +7,7 @@ old-location: ifsk\fltgetactivityidcallbackdata.htm
 old-project: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltGetActivityIdCallbackData
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetActivityIdCallbackData function

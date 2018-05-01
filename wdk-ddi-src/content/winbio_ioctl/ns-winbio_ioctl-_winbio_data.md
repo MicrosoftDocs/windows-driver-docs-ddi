@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_DATA, *PWINBIO_DATA
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_DATA structure

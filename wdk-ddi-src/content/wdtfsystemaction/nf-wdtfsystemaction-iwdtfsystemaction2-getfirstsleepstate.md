@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.GetFirstSleepState
-title: IWDTFSystemAction2::GetFirstSleepState method
+title: IWDTFSystemAction2::GetFirstSleepState
 author: windows-driver-content
 description: Returns the first supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getfirstsleepstate.htm
 old-project: dtf
 ms.assetid: EE298195-5EAA-40E4-84F5-9B169F55DBF1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetFirstSleepState method [Windows Device Testing Framework], GetFirstSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, GetFirstSleepState,IWDTFSystemAction2.GetFirstSleepState, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetFirstSleepState method, IWDTFSystemAction2::GetFirstSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState
+ms.date: 4/4/2018
+ms.keywords: GetFirstSleepState, GetFirstSleepState method [Windows Device Testing Framework], GetFirstSleepState method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],GetFirstSleepState method, IWDTFSystemAction2.GetFirstSleepState, IWDTFSystemAction2::GetFirstSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFSystemAction2.GetFirstSleepState
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::GetFirstSleepState method
+# IWDTFSystemAction2::GetFirstSleepState
 
 
 ## -description

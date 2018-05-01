@@ -7,8 +7,8 @@ old-location: debugger\idebugplmclient3.htm
 old-project: debugger
 ms.assetid: 5B0580FF-0829-406A-B511-C0CD91A08D5F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], described, dbgeng/IDebugPlmClient3, debugger.idebugplmclient3
+ms.date: 4/24/2018
+ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging],described, dbgeng/IDebugPlmClient3, debugger.idebugplmclient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugPlmClient3
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugPlmClient3 interface

@@ -7,7 +7,7 @@ old-location: audio\hdaudio_codec_command.htm
 old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], _HDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, audio.hdaudio_codec_command, hdaudio/HDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -111,7 +111,7 @@ Specifies an 8-bit node identifier for the 16-bit payload command format.
 Specifies a 4-bit codec address for the 16-bit payload command format.
 
 
-#### - Command
+### -field Command
 
 Specifies a 32-bit codec command that contains payload data, a verb identifier, a node identifier, and a codec address.
 

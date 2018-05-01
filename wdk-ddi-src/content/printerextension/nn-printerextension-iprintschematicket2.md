@@ -7,8 +7,8 @@ old-location: print\iprintschematicket2.htm
 old-project: print
 ms.assetid: 52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices], described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices],described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintSchemaTicket2
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaTicket2 interface

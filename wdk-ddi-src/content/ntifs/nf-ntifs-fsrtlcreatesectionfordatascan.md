@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcreatesectionfordatascan.htm
 old-project: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlCreateSectionForDataScan
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlCreateSectionForDataScan function

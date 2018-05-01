@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_NI_NOTIFICATION_TYPE
 title: GNSS_NI_NOTIFICATION_TYPE
 author: windows-driver-content
 description: GNSS_NI_NOTIFICATION_TYPE enumerates network-initialized (NI) notification types.
-old-location: sensors\gnss_ni_notification_type.htm
-old-project: sensors
+old-location: gnss\gnss_ni_notification_type.htm
+old-project: gnss
 ms.assetid: EC5FB722-F182-44A5-944C-ED81E43492AE
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: GNSS_NI_NOTIFICATION_TYPE, GNSS_NI_NOTIFICATION_TYPE enumeration [Sensor Devices], GNSS_NI_NoNotifyNoVerify, GNSS_NI_NotifyOnly, GNSS_NI_NotifyVerifyDefaultAllow, GNSS_NI_NotifyVerifyDefaultNotAllow, GNSS_NI_PrivacyOverride, gnssdriver/GNSS_NI_NOTIFICATION_TYPE, gnssdriver/GNSS_NI_NoNotifyNoVerify, gnssdriver/GNSS_NI_NotifyOnly, gnssdriver/GNSS_NI_NotifyVerifyDefaultAllow, gnssdriver/GNSS_NI_NotifyVerifyDefaultNotAllow, gnssdriver/GNSS_NI_PrivacyOverride, sensors.gnss_ni_notification_type
+ms.date: 2/15/2018
+ms.keywords: GNSS_NI_NOTIFICATION_TYPE, GNSS_NI_NOTIFICATION_TYPE enumeration [Sensor Devices], GNSS_NI_NoNotifyNoVerify, GNSS_NI_NotifyOnly, GNSS_NI_NotifyVerifyDefaultAllow, GNSS_NI_NotifyVerifyDefaultNotAllow, GNSS_NI_PrivacyOverride, gnss.gnss_ni_notification_type, gnssdriver/GNSS_NI_NOTIFICATION_TYPE, gnssdriver/GNSS_NI_NoNotifyNoVerify, gnssdriver/GNSS_NI_NotifyOnly, gnssdriver/GNSS_NI_NotifyVerifyDefaultAllow, gnssdriver/GNSS_NI_NotifyVerifyDefaultNotAllow, gnssdriver/GNSS_NI_PrivacyOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

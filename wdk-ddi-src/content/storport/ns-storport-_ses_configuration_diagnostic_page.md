@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE
-req.product: Windows 10 or later.
 ---
 
 # _SES_CONFIGURATION_DIAGNOSTIC_PAGE structure

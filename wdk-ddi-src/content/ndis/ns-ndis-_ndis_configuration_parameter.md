@@ -7,7 +7,7 @@ old-location: netvista\ndis_configuration_parameter.htm
 old-project: netvista
 ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, netvista.ndis_configuration_parameter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -86,8 +86,7 @@ A union that contains the value of the given named entry. If ParameterType is a 
 This union contains the following members:
 
 
-
-#### IntegerData
+### -field ParameterData.IntegerData
 
 A ULONG value that is used when the 
       <b>ParameterType</b> member is set to 
@@ -95,8 +94,7 @@ A ULONG value that is used when the
       <b>NdisParameterHexInteger</b>.
 
 
-
-#### StringData
+### -field ParameterData.StringData
 
 An NDIS_STRING value that is used when the 
       <b>ParameterType</b> member is set to 
@@ -104,8 +102,7 @@ An NDIS_STRING value that is used when the
       <b>NdisParameterMultiString</b>.
 
 
-
-#### BinaryData
+### -field ParameterData.BinaryData
 
 A 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff543838">BINARY_DATA</a> structure that is used when the 

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION
-req.product: Windows 10 or later.
 ---
 
 # _CLOCK_RATE_CONVERSION structure

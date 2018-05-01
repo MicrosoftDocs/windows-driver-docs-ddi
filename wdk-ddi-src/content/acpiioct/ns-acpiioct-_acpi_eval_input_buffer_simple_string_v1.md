@@ -67,6 +67,16 @@ The signature of a string input buffer, which must be set to ACPI_EVAL_INPUT_BUF
  
 
 
+### -field DUMMYUNIONNAME.MethodName
+
+This union member is a four-element ASCII character array that contains the name of the method. For example, 'ABCD.'
+
+
+### -field DUMMYUNIONNAME.MethodNameAsUlong
+
+This union member is a ULONG-typed variable that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
+
+
 ### -field StringLength
 
 The number of ASCII characters in the array of characters that is supplied by <b>String</b>.
@@ -75,16 +85,6 @@ The number of ASCII characters in the array of characters that is supplied by <b
 ### -field String
 
 An ASCII character string that contains the number of characters that is specified by <b>StringLength</b>. The string does not include a NULL terminator. 
-
-
-#### - MethodName
-
-This union member is a four-element ASCII character array that contains the name of the method. For example, 'ABCD.'
-
-
-#### - MethodNameAsUlong
-
-This union member is a ULONG-typed variable that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
 
 
 ## -remarks

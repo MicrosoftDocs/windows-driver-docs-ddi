@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsDecrementPendingIoCount
-title: IKsPin::KsDecrementPendingIoCount method
+title: IKsPin::KsDecrementPendingIoCount
 author: windows-driver-content
 description: The KsDecrementPendingIoCount method decrements the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksdecrementpendingiocount.htm
 old-project: stream
 ms.assetid: 92e0355c-b89f-46c2-b406-e3c73fc37000
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsDecrementPendingIoCount method, IKsPin::KsDecrementPendingIoCount, KsDecrementPendingIoCount method [Streaming Media Devices], KsDecrementPendingIoCount method [Streaming Media Devices], IKsPin interface, KsDecrementPendingIoCount,IKsPin.KsDecrementPendingIoCount, ksproxy/IKsPin::KsDecrementPendingIoCount, ksproxy_4b423ae2-1256-4ccc-9c8d-4bd6cdb99e42.xml, stream.ikspin_ksdecrementpendingiocount
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsDecrementPendingIoCount method, IKsPin.KsDecrementPendingIoCount, IKsPin::KsDecrementPendingIoCount, KsDecrementPendingIoCount, KsDecrementPendingIoCount method [Streaming Media Devices], KsDecrementPendingIoCount method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsDecrementPendingIoCount, ksproxy_4b423ae2-1256-4ccc-9c8d-4bd6cdb99e42.xml, stream.ikspin_ksdecrementpendingiocount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsPin.KsDecrementPendingIoCount
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsDecrementPendingIoCount method
+# IKsPin::KsDecrementPendingIoCount
 
 
 ## -description

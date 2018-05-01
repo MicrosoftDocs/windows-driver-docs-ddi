@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
-req.product: Windows 10 or later.
 ---
 
 # _HW_INITIALIZATION_DATA structure
@@ -172,6 +171,16 @@ Pointer to an ASCII byte string identifying the manufacturer of the HBA. This me
 If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, the vendor ID is a USHORT value allocated by the PCI SIG, which must be converted into a byte string by the miniport driver. For example, if the assigned PCI vendor ID value is 1001, the miniport driver-supplied <b>VendorId</b> string would be ('1', '0', '0', '1').
 
 
+### -field ReservedUshort
+
+Reserved for system use and is not available for use by miniport drivers.
+
+
+### -field PortVersionFlags
+
+ 
+
+
 ### -field DeviceIdLength
 
 Specifies the size in bytes of the <b>DeviceId</b> string, described next.
@@ -187,11 +196,6 @@ If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, a device ID is a USHO
 ### -field HwAdapterControl
 
 Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a> routine, which is a required entry point for all PnP miniport drivers. Set this to <b>NULL</b> if the miniport driver does not support Plug and Play.
-
-
-#### - ReservedUshort
-
-Reserved for system use and is not available for use by miniport drivers.
 
 
 ## -remarks

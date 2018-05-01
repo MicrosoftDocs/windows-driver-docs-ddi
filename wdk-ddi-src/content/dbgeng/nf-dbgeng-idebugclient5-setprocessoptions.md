@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetProcessOptions
-title: IDebugClient5::SetProcessOptions method
+title: IDebugClient5::SetProcessOptions
 author: windows-driver-content
 description: The SetProcessOptions method sets the process options affecting the current process.
 old-location: debugger\setprocessoptions.htm
 old-project: debugger
 ms.assetid: c077e2cc-b234-4393-ab8c-d0b8199515e3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient interface [Windows Debugging], SetProcessOptions method, IDebugClient2 interface [Windows Debugging], SetProcessOptions method, IDebugClient2::SetProcessOptions, IDebugClient3 interface [Windows Debugging], SetProcessOptions method, IDebugClient3::SetProcessOptions, IDebugClient4 interface [Windows Debugging], SetProcessOptions method, IDebugClient4::SetProcessOptions, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetProcessOptions method, IDebugClient5::SetProcessOptions, IDebugClient::SetProcessOptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, SetProcessOptions method [Windows Debugging], SetProcessOptions method [Windows Debugging], IDebugClient interface, SetProcessOptions method [Windows Debugging], IDebugClient2 interface, SetProcessOptions method [Windows Debugging], IDebugClient3 interface, SetProcessOptions method [Windows Debugging], IDebugClient4 interface, SetProcessOptions method [Windows Debugging], IDebugClient5 interface, SetProcessOptions,IDebugClient5.SetProcessOptions, dbgeng/IDebugClient2::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, debugger.setprocessoptions
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],SetProcessOptions method, IDebugClient2 interface [Windows Debugging],SetProcessOptions method, IDebugClient2::SetProcessOptions, IDebugClient3 interface [Windows Debugging],SetProcessOptions method, IDebugClient3::SetProcessOptions, IDebugClient4 interface [Windows Debugging],SetProcessOptions method, IDebugClient4::SetProcessOptions, IDebugClient5 interface [Windows Debugging],SetProcessOptions method, IDebugClient5.SetProcessOptions, IDebugClient5::SetProcessOptions, IDebugClient::SetProcessOptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, SetProcessOptions, SetProcessOptions method [Windows Debugging], SetProcessOptions method [Windows Debugging],IDebugClient interface, SetProcessOptions method [Windows Debugging],IDebugClient2 interface, SetProcessOptions method [Windows Debugging],IDebugClient3 interface, SetProcessOptions method [Windows Debugging],IDebugClient4 interface, SetProcessOptions method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, debugger.setprocessoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.SetProcessOptions
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::SetProcessOptions method
+# IDebugClient5::SetProcessOptions
 
 
 ## -description

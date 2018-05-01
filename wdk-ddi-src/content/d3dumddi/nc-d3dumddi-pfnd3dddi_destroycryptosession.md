@@ -7,8 +7,8 @@ old-location: display\destroycryptosession.htm
 old-project: display
 ms.assetid: 4035ef73-e1a2-49e4-808d-c40c980393a4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DestroyCryptoSession, DestroyCryptoSession callback function [Display Devices], PFND3DDDI_DESTROYCRYPTOSESSION, UserModeDisplayDriver_Functions_c1fa988d-a8b7-4538-94cd-d364873f4216.xml, d3dumddi/DestroyCryptoSession, display.destroycryptosession
+ms.date: 4/16/2018
+ms.keywords: DestroyCryptoSession, DestroyCryptoSession callback function [Display Devices], PFND3DDDI_DESTROYCRYPTOSESSION, PFND3DDDI_DESTROYCRYPTOSESSION callback, UserModeDisplayDriver_Functions_c1fa988d-a8b7-4538-94cd-d364873f4216.xml, d3dumddi/DestroyCryptoSession, display.destroycryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DestroyCryptoSession
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYCRYPTOSESSION callback
+# PFND3DDDI_DESTROYCRYPTOSESSION callback function
 
 
 ## -description

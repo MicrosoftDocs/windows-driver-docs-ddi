@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6344a06-98ee-48c0-8fd5-76edfc71af2b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDmaObjectRef_ca81d643-d2a6-4f88-9c6e-80c5681b76d1.xml, EVT_WDF_DMA_ENABLER_ENABLE, EvtDmaEnablerEnable, EvtDmaEnablerEnable callback function, kmdf.evtdmaenablerenable, wdf.evtdmaenablerenable, wdfdmaenabler/EvtDmaEnablerEnable
+ms.keywords: DFDmaObjectRef_ca81d643-d2a6-4f88-9c6e-80c5681b76d1.xml, EVT_WDF_DMA_ENABLER_ENABLE, EVT_WDF_DMA_ENABLER_ENABLE callback, EvtDmaEnablerEnable, EvtDmaEnablerEnable callback function, kmdf.evtdmaenablerenable, wdf.evtdmaenablerenable, wdfdmaenabler/EvtDmaEnablerEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtDmaEnablerEnable
 product: Windows
 targetos: Windows
-req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DMA_ENABLER_ENABLE callback
+# EVT_WDF_DMA_ENABLER_ENABLE callback function
 
 
 ## -description

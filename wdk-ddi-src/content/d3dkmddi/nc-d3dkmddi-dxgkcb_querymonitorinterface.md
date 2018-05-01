@@ -7,8 +7,8 @@ old-location: display\dxgkcbquerymonitorinterface.htm
 old-project: display
 ms.assetid: 0c23e72d-3eb9-4511-a386-1dcc2f4910b7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_QUERYMONITORINTERFACE, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml, DxgkCbQueryMonitorInterface, DxgkCbQueryMonitorInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryMonitorInterface, display.dxgkcbquerymonitorinterface
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_QUERYMONITORINTERFACE, DXGKCB_QUERYMONITORINTERFACE callback, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml, DxgkCbQueryMonitorInterface, DxgkCbQueryMonitorInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryMonitorInterface, display.dxgkcbquerymonitorinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkCbQueryMonitorInterface
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_QUERYMONITORINTERFACE callback
+# DXGKCB_QUERYMONITORINTERFACE callback function
 
 
 ## -description

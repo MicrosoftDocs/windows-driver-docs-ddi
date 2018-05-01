@@ -7,7 +7,7 @@ old-location: stream\ksgateterminateor.htm
 old-project: stream
 ms.assetid: 6d73ce17-1fbc-4d12-87f0-ac10889b85be
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateTerminateOr, KsGateTerminateOr function [Streaming Media Devices], avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, ks/KsGateTerminateOr, stream.ksgateterminateor
 ms.prod: windows-hardware
 ms.technology: windows-devices

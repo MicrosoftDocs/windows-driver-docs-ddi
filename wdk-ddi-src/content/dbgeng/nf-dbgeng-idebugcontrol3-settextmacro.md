@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetTextMacro
-title: IDebugControl3::SetTextMacro method
+title: IDebugControl3::SetTextMacro
 author: windows-driver-content
 description: The SetTextMacro method sets the value of a fixed-name alias.
 old-location: debugger\settextmacro.htm
 old-project: debugger
 ms.assetid: 8319ab12-bb23-4de4-b3dc-afd3cd13d03e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetTextMacro method, IDebugControl2 interface [Windows Debugging], SetTextMacro method, IDebugControl2::SetTextMacro, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetTextMacro method, IDebugControl3::SetTextMacro, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging], IDebugControl interface, SetTextMacro method [Windows Debugging], IDebugControl2 interface, SetTextMacro method [Windows Debugging], IDebugControl3 interface, SetTextMacro,IDebugControl3.SetTextMacro, dbgeng/IDebugControl2::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl::SetTextMacro, debugger.settextmacro
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetTextMacro method, IDebugControl2 interface [Windows Debugging],SetTextMacro method, IDebugControl2::SetTextMacro, IDebugControl3 interface [Windows Debugging],SetTextMacro method, IDebugControl3.SetTextMacro, IDebugControl3::SetTextMacro, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, SetTextMacro, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging],IDebugControl interface, SetTextMacro method [Windows Debugging],IDebugControl2 interface, SetTextMacro method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl::SetTextMacro, debugger.settextmacro
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.SetTextMacro
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::SetTextMacro method
+# IDebugControl3::SetTextMacro
 
 
 ## -description

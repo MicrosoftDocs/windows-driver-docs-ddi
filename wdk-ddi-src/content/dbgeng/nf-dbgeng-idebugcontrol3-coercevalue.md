@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.CoerceValue
-title: IDebugControl3::CoerceValue method
+title: IDebugControl3::CoerceValue
 author: windows-driver-content
 description: The CoerceValue method converts a value of one type into a value of another type.
 old-location: debugger\coercevalue.htm
 old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl2 interface, CoerceValue method [Windows Debugging], IDebugControl3 interface, CoerceValue,IDebugControl3.CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl2 interface [Windows Debugging], CoerceValue method, IDebugControl2::CoerceValue, IDebugControl3, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl3::CoerceValue, IDebugControl::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, dbgeng/IDebugControl2::CoerceValue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, debugger.coercevalue
+ms.date: 4/24/2018
+ms.keywords: CoerceValue, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging],IDebugControl interface, CoerceValue method [Windows Debugging],IDebugControl2 interface, CoerceValue method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],CoerceValue method, IDebugControl2 interface [Windows Debugging],CoerceValue method, IDebugControl2::CoerceValue, IDebugControl3 interface [Windows Debugging],CoerceValue method, IDebugControl3.CoerceValue, IDebugControl3::CoerceValue, IDebugControl::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, dbgeng/IDebugControl2::CoerceValue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, debugger.coercevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.CoerceValue
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::CoerceValue method
+# IDebugControl3::CoerceValue
 
 
 ## -description

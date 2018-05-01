@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_Item
-title: IWDTFDeviceDepot2::get_Item method
+title: IWDTFDeviceDepot2::get_Item
 author: windows-driver-content
 description: Gets an individual device in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_item.htm
 old-project: dtf
 ms.assetid: 9411437c-60d8-424e-b54c-7750f1c4dd9e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Item property, IWDTFDeviceDepot2.Item, IWDTFDeviceDepot2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, dtf.iwdtfdevicedepot2_item, get_Item,IWDTFDeviceDepot2.get_Item, wdtf/IWDTFDeviceDepot2::Item, wdtf/IWDTFDeviceDepot2::get_Item
+ms.date: 4/4/2018
+ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Item property, IWDTFDeviceDepot2.Item, IWDTFDeviceDepot2.get_Item, IWDTFDeviceDepot2::Item, IWDTFDeviceDepot2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, dtf.iwdtfdevicedepot2_item, get_Item, wdtf/IWDTFDeviceDepot2::Item, wdtf/IWDTFDeviceDepot2::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTFDeviceDepot2.get_Item
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDeviceDepot2::get_Item method
+# IWDTFDeviceDepot2::get_Item
 
 
 ## -description

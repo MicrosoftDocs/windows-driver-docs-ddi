@@ -7,7 +7,7 @@ old-location: ifsk\fltdeletestreamcontext.htm
 old-project: ifsk
 ms.assetid: 49f7d633-3e8b-4c9c-b14a-7ae8f997ad2f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_8339a254-56eb-4f75-b294-006286f3ff10.xml, FltDeleteStreamContext, FltDeleteStreamContext function [Installable File System Drivers], fltkernel/FltDeleteStreamContext, ifsk.fltdeletestreamcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	FltDeleteStreamContext
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltDeleteStreamContext function

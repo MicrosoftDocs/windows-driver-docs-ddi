@@ -7,8 +7,8 @@ old-location: display\setvideoprocessbltstate.htm
 old-project: display
 ms.assetid: 6796372c-279d-427c-a2a4-9b7c99494f53
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, SetVideoProcessBltState, SetVideoProcessBltState callback function [Display Devices], UserModeDisplayDriver_Functions_58620a09-f079-4bd2-8eb9-ac619d83f20d.xml, d3dumddi/SetVideoProcessBltState, display.setvideoprocessbltstate
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback, SetVideoProcessBltState, SetVideoProcessBltState callback function [Display Devices], UserModeDisplayDriver_Functions_58620a09-f079-4bd2-8eb9-ac619d83f20d.xml, d3dumddi/SetVideoProcessBltState, display.setvideoprocessbltstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetVideoProcessBltState
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback
+# PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback function
 
 
 ## -description

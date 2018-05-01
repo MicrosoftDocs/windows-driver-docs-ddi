@@ -1,14 +1,14 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetTime
-title: IKsReferenceClock::GetTime method
+title: IKsReferenceClock::GetTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetTime method queries the associated reference clock for the current time.
 old-location: stream\iksreferenceclock_gettime.htm
 old-project: stream
 ms.assetid: 3e5ff621-47ec-4ab7-bf8e-26bff57588f8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices], IKsReferenceClock interface, GetTime,IKsReferenceClock.GetTime, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetTime method, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime
+ms.date: 4/23/2018
+ms.keywords: GetTime, GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetTime method, IKsReferenceClock.GetTime, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ targetos: Windows
 req.typenames: 
 ---
 
-# IKsReferenceClock::GetTime method
+# IKsReferenceClock::GetTime
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\wwan_list_header.htm
 old-project: netvista
 ms.assetid: ef5c94e9-641c-41ea-baf1-343b876c92a4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_LIST_HEADER, PWWAN_LIST_HEADER, PWWAN_LIST_HEADER structure pointer [Network Drivers Starting with Windows Vista], WWAN_LIST_HEADER, WWAN_LIST_HEADER structure [Network Drivers Starting with Windows Vista], WwanRef_78070f1a-5913-41b6-9be2-0b26c19dd149.xml, _WWAN_LIST_HEADER, netvista.wwan_list_header, wwan/PWWAN_LIST_HEADER, wwan/WWAN_LIST_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_LIST_HEADER, *PWWAN_LIST_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_LIST_HEADER structure

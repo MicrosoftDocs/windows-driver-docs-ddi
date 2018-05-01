@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.WhyConstrained
-title: IPrintCoreUI2::WhyConstrained method
+title: IPrintCoreUI2::WhyConstrained
 author: windows-driver-content
 description: The IPrintCoreUI2::WhyConstrained method determines why the specified feature/option selection is constrained.
 old-location: print\iprintcoreui2_whyconstrained.htm
 old-project: print
 ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], WhyConstrained method, IPrintCoreUI2::WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices], IPrintCoreUI2 interface, WhyConstrained,IPrintCoreUI2.WhyConstrained, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreUI2 interface [Print Devices],WhyConstrained method, IPrintCoreUI2.WhyConstrained, IPrintCoreUI2::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreUI2.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::WhyConstrained method
+# IPrintCoreUI2::WhyConstrained
 
 
 ## -description

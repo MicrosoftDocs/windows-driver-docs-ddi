@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.GetInfo
-title: IPrintOemPS::GetInfo method
+title: IPrintOemPS::GetInfo
 author: windows-driver-content
 description: A rendering plug-in's IPrintOemPS::GetInfo method returns identification information.
 old-location: print\iprintoemps_getinfo.htm
 old-project: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetInfo method [Print Devices], GetInfo method [Print Devices], IPrintOemPS interface, GetInfo,IPrintOemPS.GetInfo, IPrintOemPS, IPrintOemPS interface [Print Devices], GetInfo method, IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml
+ms.date: 4/20/2018
+ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],GetInfo method, IPrintOemPS.GetInfo, IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemPS.GetInfo
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPS::GetInfo method
+# IPrintOemPS::GetInfo
 
 
 ## -description

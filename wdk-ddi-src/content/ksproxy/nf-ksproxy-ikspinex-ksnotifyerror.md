@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinEx.KsNotifyError
-title: IKsPinEx::KsNotifyError method
+title: IKsPinEx::KsNotifyError
 author: windows-driver-content
 description: The KsNotifyError method notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex_ksnotifyerror.htm
 old-project: stream
 ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], KsNotifyError method, IKsPinEx::KsNotifyError, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices], IKsPinEx interface, KsNotifyError,IKsPinEx.KsNotifyError, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, stream.ikspinex_ksnotifyerror
+ms.date: 4/23/2018
+ms.keywords: IKsPinEx interface [Streaming Media Devices],KsNotifyError method, IKsPinEx.KsNotifyError, IKsPinEx::KsNotifyError, KsNotifyError, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices],IKsPinEx interface, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, stream.ikspinex_ksnotifyerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsPinEx.KsNotifyError
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinEx::KsNotifyError method
+# IKsPinEx::KsNotifyError
 
 
 ## -description

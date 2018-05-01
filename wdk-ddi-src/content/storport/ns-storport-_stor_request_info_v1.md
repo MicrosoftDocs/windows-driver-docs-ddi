@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1
-req.product: Windows 10 or later.
 ---
 
 # _STOR_REQUEST_INFO_V1 structure

@@ -7,7 +7,7 @@ old-location: kernel\driverentry.htm
 old-project: kernel
 ms.assetid: b8c14a2d-a2e6-4ed1-9445-3259ec570076
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/5/2018
 ms.keywords: DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,31 +40,16 @@ api_name:
 -	DriverEntry
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# DRIVER_INITIALIZE callback
+# DRIVER_INITIALIZE callback function
 
 
 ## -description
 
 
 <b>DriverEntry</b> is the first routine called after a driver is loaded, and is responsible for initializing the driver.
-
-
-## -prototype
-
-
-````
-DRIVER_INITIALIZE DriverEntry;
-
-NTSTATUS DriverEntry(
-  _In_ struct _DRIVER_OBJECT *DriverObject,
-  _In_ PUNICODE_STRING       RegistryPath
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,7 +59,7 @@ NTSTATUS DriverEntry(
 
 ### -param *DriverObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
 ### -param RegistryPath [in]
@@ -151,13 +136,11 @@ The DRIVER_INITIALIZE function type is defined in the Wdm.h header file. To more
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DRIVER_INITIALIZE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

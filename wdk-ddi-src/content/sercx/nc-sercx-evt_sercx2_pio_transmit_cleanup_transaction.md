@@ -7,8 +7,8 @@ old-location: serports\evtsercx2piotransmitcleanuptransaction.htm
 old-project: serports
 ms.assetid: 48300C50-47B7-47DC-BDE5-3847E1EAE820
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioTransmitCleanupTransaction, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, EvtSerCx2PioTransmitCleanupTransaction, EvtSerCx2PioTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2piotransmitcleanuptransaction
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioTransmitCleanupTransaction, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2PioTransmitCleanupTransaction, EvtSerCx2PioTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2piotransmitcleanuptransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCx2PioTransmitCleanupTransaction
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION callback
+# EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION callback function
 
 
 ## -description

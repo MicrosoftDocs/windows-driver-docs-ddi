@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.UnSubscribe
-title: IStiDevice::UnSubscribe method
+title: IStiDevice::UnSubscribe
 author: windows-driver-content
 description: The IStiDevice::UnSubscribe method removes the caller from the list of applications registered to receive notification of device events.
 old-location: image\istidevice_unsubscribe.htm
 old-project: image
 ms.assetid: ee0bfafa-9f4b-4b4a-8b26-4bab81253500
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], UnSubscribe method, IStiDevice::UnSubscribe, UnSubscribe method [Imaging Devices], UnSubscribe method [Imaging Devices], IStiDevice interface, UnSubscribe,IStiDevice.UnSubscribe, image.istidevice_unsubscribe, sti/IStiDevice::UnSubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],UnSubscribe method, IStiDevice.UnSubscribe, IStiDevice::UnSubscribe, UnSubscribe, UnSubscribe method [Imaging Devices], UnSubscribe method [Imaging Devices],IStiDevice interface, image.istidevice_unsubscribe, sti/IStiDevice::UnSubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiDevice.UnSubscribe
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::UnSubscribe method
+# IStiDevice::UnSubscribe
 
 
 ## -description

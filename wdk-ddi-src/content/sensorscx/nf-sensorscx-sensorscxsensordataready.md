@@ -40,8 +40,7 @@ api_name:
 -	SensorsCxSensorDataReady
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxSensorDataReady function

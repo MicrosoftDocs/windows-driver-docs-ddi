@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,39 +62,39 @@ The WHEA_GENERIC_ERROR_BLOCKSTATUS union indicates what kind of error data is re
  
 
 
-### -field AsULONG
+### -field DUMMYSTRUCTNAME.UncorrectableError
 
-A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS union.
+The generic error status block is reporting uncorrectable error data.
 
 
-#### - CorrectableError
+### -field DUMMYSTRUCTNAME.CorrectableError
 
 The generic error status block is reporting correctable error data.
 
 
-#### - ErrorDataEntryCount
-
-The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560529">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
-
-
-#### - MultipleCorrectableErrors
-
-The generic error status block is reporting multiple correctable errors.
-
-
-#### - MultipleUncorrectableErrors
+### -field DUMMYSTRUCTNAME.MultipleUncorrectableErrors
 
 The generic error status block is reporting multiple uncorrectable errors.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.MultipleCorrectableErrors
+
+The generic error status block is reporting multiple correctable errors.
+
+
+### -field DUMMYSTRUCTNAME.ErrorDataEntryCount
+
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560529">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - UncorrectableError
+### -field AsULONG
 
-The generic error status block is reporting uncorrectable error data.
+A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS union.
 
 
 ## -remarks

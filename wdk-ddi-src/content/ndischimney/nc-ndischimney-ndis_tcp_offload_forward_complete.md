@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloadforwardcomplete.htm
 old-project: netvista
 ms.assetid: 080949ab-8a27-4d13-992e-597210d4882c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
+ms.date: 4/25/2018
+ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdisTcpOffloadForwardComplete
 product: Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback
+# NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
-title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification method
+title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 author: windows-driver-content
 description: "."
 old-location: print\iprintunidiasyncnotifyregistration_asyncgetnotification.htm
 old-project: print
 ms.assetid: 48C444CD-4D8B-491A-98EB-27B8796FD3A7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices], IPrintUnidiAsyncNotifyRegistration interface, AsyncGetNotification,IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
+ms.date: 4/20/2018
+ms.keywords: AsyncGetNotification, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices],IPrintUnidiAsyncNotifyRegistration interface, IPrintUnidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification method
+# IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 
 
 ## -description

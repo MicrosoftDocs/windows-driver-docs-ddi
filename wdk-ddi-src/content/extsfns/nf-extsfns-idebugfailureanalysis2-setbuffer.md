@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetBuffer
-title: IDebugFailureAnalysis2::SetBuffer method
+title: IDebugFailureAnalysis2::SetBuffer
 author: windows-driver-content
 description: The SetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it overwrites the data block of the FA entry with the bytes in a specified buffer.
 old-location: debugger\idebugfailureanalysis2_setbuffer.htm
 old-project: debugger
 ms.assetid: 366EE066-AD47-4A75-87B4-17279C66C741
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetBuffer method, IDebugFailureAnalysis2::SetBuffer, SetBuffer method [Windows Debugging], SetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, SetBuffer,IDebugFailureAnalysis2.SetBuffer, debugger.idebugfailureanalysis2_setbuffer, extsfns/IDebugFailureAnalysis2::SetBuffer
+ms.date: 4/24/2018
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetBuffer method, IDebugFailureAnalysis2.SetBuffer, IDebugFailureAnalysis2::SetBuffer, SetBuffer, SetBuffer method [Windows Debugging], SetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setbuffer, extsfns/IDebugFailureAnalysis2::SetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.SetBuffer
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::SetBuffer method
+# IDebugFailureAnalysis2::SetBuffer
 
 
 ## -description

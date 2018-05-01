@@ -7,7 +7,7 @@ old-location: netvista\rilemergencynumberparammask.htm
 old-project: netvista
 ms.assetid: e8365373-130b-485c-9117-89be6153be52
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILEMERGENCYNUMBERPARAMMASK, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_NUMBER, RIL_PARAM_ENUM_UICC, netvista.rilemergencynumberparammask, ntddrilapitypes/RILEMERGENCYNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_ENUM_ALL, ntddrilapitypes/RIL_PARAM_ENUM_CATEGORY, ntddrilapitypes/RIL_PARAM_ENUM_NUMBER, ntddrilapitypes/RIL_PARAM_ENUM_UICC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBERPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILEMERGENCYNUMBERPARAMMASK enumeration

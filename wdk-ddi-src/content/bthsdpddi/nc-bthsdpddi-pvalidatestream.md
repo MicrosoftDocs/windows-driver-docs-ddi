@@ -7,8 +7,8 @@ old-location: bltooth\sdpvalidatestream.htm
 old-project: bltooth
 ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PVALIDATESTREAM, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
+ms.date: 4/27/2018
+ms.keywords: PVALIDATESTREAM, PVALIDATESTREAM callback, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SdpValidateStream
 product: Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PVALIDATESTREAM callback
+# PVALIDATESTREAM callback function
 
 
 ## -description

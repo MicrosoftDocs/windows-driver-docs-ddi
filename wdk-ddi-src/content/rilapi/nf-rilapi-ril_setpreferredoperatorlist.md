@@ -7,7 +7,7 @@ old-location: netvista\ril_setpreferredoperatorlist.htm
 old-project: netvista
 ms.assetid: e61e9e3f-b70f-4b0a-8e64-4c7c4c086130
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_setpreferredoperatorlist, rilapi/RIL_SetPreferredOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_SetPreferredOperatorList
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetPreferredOperatorList function

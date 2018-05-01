@@ -40,8 +40,7 @@ api_name:
 -	WDF_POWER_POLICY_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function

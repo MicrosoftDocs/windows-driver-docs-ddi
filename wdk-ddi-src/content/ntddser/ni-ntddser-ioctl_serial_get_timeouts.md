@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_timeouts.htm
 old-project: serports
 ms.assetid: b3cff263-6393-4217-a86a-43f9a0bff926
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_GET_TIMEOUTS, IOCTL_SERIAL_GET_TIMEOUTS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_TIMEOUTS, serports.ioctl_serial_get_timeouts, serref_7e3bc962-fbe3-4474-bf7b-1fc035a39a29.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_GET_TIMEOUTS, IOCTL_SERIAL_GET_TIMEOUTS control, IOCTL_SERIAL_GET_TIMEOUTS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_TIMEOUTS, serports.ioctl_serial_get_timeouts, serref_7e3bc962-fbe3-4474-bf7b-1fc035a39a29.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SERIAL_GET_TIMEOUTS
 product: Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_GET_TIMEOUTS IOCTL

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrievePowerPolicy
-title: IWDFUsbTargetDevice::RetrievePowerPolicy method
+title: IWDFUsbTargetDevice::RetrievePowerPolicy
 author: windows-driver-content
 description: The RetrievePowerPolicy method retrieves a WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_retrievepowerpolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrievePowerPolicy method, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, RetrievePowerPolicy,IWDFUsbTargetDevice.RetrievePowerPolicy, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
+ms.keywords: IWDFUsbTargetDevice interface,RetrievePowerPolicy method, IWDFUsbTargetDevice.RetrievePowerPolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUsbTargetDevice.RetrievePowerPolicy
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::RetrievePowerPolicy method
+# IWDFUsbTargetDevice::RetrievePowerPolicy
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxgk_brightness_state.htm
 old-project: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros.
 
 
-#### - Value
+### -field Value
 
 [in] A member in the union that <b>DXGK_BRIGHTNESS_STATE</b> contains that can hold one 32-bit value that identifies information about whether the display miniport driver must support smooth brightness control.
 

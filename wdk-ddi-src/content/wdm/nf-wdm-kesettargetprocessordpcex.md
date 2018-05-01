@@ -7,7 +7,7 @@ old-location: kernel\kesettargetprocessordpcex.htm
 old-project: kernel
 ms.assetid: a21f3304-9181-4027-9a7e-d590037b4b0f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture], k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml, kernel.kesettargetprocessordpcex, wdm/KeSetTargetProcessorDpcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeSetTargetProcessorDpcEx
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeSetTargetProcessorDpcEx function

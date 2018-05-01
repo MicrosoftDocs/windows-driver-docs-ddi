@@ -7,7 +7,7 @@ old-location: kernel\po_fx_perf_state_change.htm
 old-project: kernel
 ms.assetid: AE7A79DE-0202-4816-A36C-5A15C4539392
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_CHANGE, kernel.po_fx_perf_state_change, wdm/PO_FX_PERF_STATE_CHANGE, wdm/PPO_FX_PERF_STATE_CHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
-req.product: Windows 10 or later.
 ---
 
 # _PO_FX_PERF_STATE_CHANGE structure
@@ -63,12 +62,12 @@ The <b>PO_FX_PERF_STATE_CHANGE</b> structure contains information about a change
 The index of the performance state set that is being changed within the collection of performance state sets for the component.
 
 
-#### - StateIndex
+### -field StateIndex
 
 For sets that represent a discrete number of performance states (that is, where the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939833">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeDiscrete</b>), this member is the index of the performance state to use for the new performance level.
 
 
-#### - StateValue
+### -field StateValue
 
 For sets that represent a continuous distribution of performance states (that is, where the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939833">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeRange</b>), this member is the value of the performance state to use for the new performance level.
 

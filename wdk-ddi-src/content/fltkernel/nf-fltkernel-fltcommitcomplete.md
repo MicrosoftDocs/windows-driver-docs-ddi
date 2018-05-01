@@ -7,7 +7,7 @@ old-location: ifsk\fltcommitcomplete.htm
 old-project: ifsk
 ms.assetid: 26c553d1-5a71-4e96-a5ef-56e8e364faca
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_fc4b72a5-52df-47f9-b119-68ccb02b14bc.xml, FltCommitComplete, FltCommitComplete routine [Installable File System Drivers], fltkernel/FltCommitComplete, ifsk.fltcommitcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	FltCommitComplete
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCommitComplete function

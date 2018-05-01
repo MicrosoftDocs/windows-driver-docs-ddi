@@ -7,7 +7,7 @@ old-location: ifsk\ioqueryvolumeinformation.htm
 old-project: ifsk
 ms.assetid: f8226351-4a40-4c71-9ab4-4609ae7e0470
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoQueryVolumeInformation, IoQueryVolumeInformation function [Installable File System Drivers], ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, ntifs/IoQueryVolumeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoQueryVolumeInformation
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoQueryVolumeInformation function

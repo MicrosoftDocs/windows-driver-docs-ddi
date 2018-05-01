@@ -7,8 +7,8 @@ old-location: display\setrendertarget.htm
 old-project: display
 ms.assetid: 067378bd-a2d8-4c83-9436-531519eadaa3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SETRENDERTARGET, SetRenderTarget, SetRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_c6c2e714-ac5c-4106-98da-1d87a322c652.xml, d3dumddi/SetRenderTarget, display.setrendertarget
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETRENDERTARGET, PFND3DDDI_SETRENDERTARGET callback, SetRenderTarget, SetRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_c6c2e714-ac5c-4106-98da-1d87a322c652.xml, d3dumddi/SetRenderTarget, display.setrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetRenderTarget
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETRENDERTARGET callback
+# PFND3DDDI_SETRENDERTARGET callback function
 
 
 ## -description

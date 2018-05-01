@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.QueueWorkItemForIsr
-title: IWDFInterrupt::QueueWorkItemForIsr method
+title: IWDFInterrupt::QueueWorkItemForIsr
 author: windows-driver-content
 description: The QueueWorkItemForIsr method queues a work item to process interrupt-related work outside of the interrupt service routine.
 old-location: wdf\iwdfinterrupt_queueworkitemforisr.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, QueueWorkItemForIsr method, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr method, IWDFInterrupt interface, QueueWorkItemForIsr,IWDFInterrupt.QueueWorkItemForIsr, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr
+ms.keywords: IWDFInterrupt interface,QueueWorkItemForIsr method, IWDFInterrupt.QueueWorkItemForIsr, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr method,IWDFInterrupt interface, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFInterrupt.QueueWorkItemForIsr
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::QueueWorkItemForIsr method
+# IWDFInterrupt::QueueWorkItemForIsr
 
 
 ## -description

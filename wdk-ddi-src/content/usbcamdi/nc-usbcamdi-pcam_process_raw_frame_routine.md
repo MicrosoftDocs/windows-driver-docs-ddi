@@ -7,8 +7,8 @@ old-location: stream\camprocessrawvideoframe.htm
 old-project: stream
 ms.assetid: 98dd7262-e8f7-4e22-b19e-1a7fc56c8fe1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamProcessRawVideoFrame, CamProcessRawVideoFrame callback function [Streaming Media Devices], PCAM_PROCESS_RAW_FRAME_ROUTINE, stream.camprocessrawvideoframe, usbcamdi/CamProcessRawVideoFrame, usbcmdpr_68fb4b0e-0f04-4af5-b0a6-38279f84f31a.xml
+ms.date: 4/23/2018
+ms.keywords: CamProcessRawVideoFrame, CamProcessRawVideoFrame callback function [Streaming Media Devices], PCAM_PROCESS_RAW_FRAME_ROUTINE, PCAM_PROCESS_RAW_FRAME_ROUTINE callback, stream.camprocessrawvideoframe, usbcamdi/CamProcessRawVideoFrame, usbcmdpr_68fb4b0e-0f04-4af5-b0a6-38279f84f31a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	CamProcessRawVideoFrame
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_PROCESS_RAW_FRAME_ROUTINE callback
+# PCAM_PROCESS_RAW_FRAME_ROUTINE callback function
 
 
 ## -description

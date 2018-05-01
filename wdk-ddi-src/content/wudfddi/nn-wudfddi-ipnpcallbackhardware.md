@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2746e7ab-690c-4382-be9a-124a7d68cf72
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardware, IPnpCallbackHardware interface, IPnpCallbackHardware interface, described, UMDFDeviceObjectRef_4b39ad3c-6fa6-4c47-aba8-676a6f628f1b.xml, umdf.ipnpcallbackhardware, wdf.ipnpcallbackhardware, wudfddi/IPnpCallbackHardware
+ms.keywords: IPnpCallbackHardware, IPnpCallbackHardware interface, IPnpCallbackHardware interface,described, UMDFDeviceObjectRef_4b39ad3c-6fa6-4c47-aba8-676a6f628f1b.xml, umdf.ipnpcallbackhardware, wdf.ipnpcallbackhardware, wudfddi/IPnpCallbackHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: WUDFx.dll
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPnpCallbackHardware
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPnpCallbackHardware interface

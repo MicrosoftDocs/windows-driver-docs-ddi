@@ -7,7 +7,7 @@ old-location: kernel\read_port_buffer_uchar.htm
 old-project: kernel
 ms.assetid: a32a7c6a-16dd-4d12-aa32-6bdb60990568
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml, kernel.read_port_buffer_uchar, wdm/READ_PORT_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	READ_PORT_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: MEMORY_CACHING_TYPE
+req.typenames: 
 ---
 
 # READ_PORT_BUFFER_UCHAR function

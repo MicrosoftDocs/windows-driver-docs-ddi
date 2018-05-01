@@ -43,8 +43,7 @@ api_name:
 -	WdfIoQueueFindRequest
 product: Windows
 targetos: Windows
-req.typenames: WDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoQueueFindRequest function

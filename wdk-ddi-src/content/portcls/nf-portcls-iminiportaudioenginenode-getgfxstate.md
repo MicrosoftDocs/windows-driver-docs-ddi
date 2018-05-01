@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetGfxState
-title: IMiniportAudioEngineNode::GetGfxState method
+title: IMiniportAudioEngineNode::GetGfxState
 author: windows-driver-content
 description: Gets the state of the global effects (GFX) node in the audio engine.
 old-location: audio\iminiportaudioenginenode_getgfxstate.htm
 old-project: audio
 ms.assetid: C2D4EB3E-0A39-4458-B0E7-C6D943AB4203
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetGfxState method [Audio Devices], GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, GetGfxState,IMiniportAudioEngineNode.GetGfxState, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method, IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, portcls/IMiniportAudioEngineNode::GetGfxState
+ms.date: 4/16/2018
+ms.keywords: GetGfxState, GetGfxState method [Audio Devices], GetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetGfxState method, IMiniportAudioEngineNode.GetGfxState, IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, portcls/IMiniportAudioEngineNode::GetGfxState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportAudioEngineNode.GetGfxState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetGfxState method
+# IMiniportAudioEngineNode::GetGfxState
 
 
 ## -description

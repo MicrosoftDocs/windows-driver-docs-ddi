@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_presentmultiplaneoverlay.htm
 old-project: display
 ms.assetid: 3d965c9b-1d71-4ef5-9b76-391b36b1d8c7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, display.dxgi_ddi_arg_presentmultiplaneoverlay, dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices

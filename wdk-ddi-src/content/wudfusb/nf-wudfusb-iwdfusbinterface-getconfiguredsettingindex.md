@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetConfiguredSettingIndex
-title: IWDFUsbInterface::GetConfiguredSettingIndex method
+title: IWDFUsbInterface::GetConfiguredSettingIndex
 author: windows-driver-content
 description: The GetConfiguredSettingIndex method retrieves the current setting index for a USB interface.
 old-location: wdf\iwdfusbinterface_getconfiguredsettingindex.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetConfiguredSettingIndex method, GetConfiguredSettingIndex method, IWDFUsbInterface interface, GetConfiguredSettingIndex,IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface, IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
+ms.keywords: GetConfiguredSettingIndex, GetConfiguredSettingIndex method, GetConfiguredSettingIndex method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetConfiguredSettingIndex method, IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUsbInterface.GetConfiguredSettingIndex
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbInterface::GetConfiguredSettingIndex method
+# IWDFUsbInterface::GetConfiguredSettingIndex
 
 
 ## -description

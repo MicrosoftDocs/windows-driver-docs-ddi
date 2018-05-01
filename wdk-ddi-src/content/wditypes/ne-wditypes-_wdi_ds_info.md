@@ -7,7 +7,7 @@ old-location: netvista\wdi_ds_info.htm
 old-project: netvista
 ms.assetid: 4375FF5C-8772-43AB-844B-4AD5E044AF55
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_DS_CHANGED, WDI_DS_INFO, WDI_DS_INFO enumeration [Device and Driver Installation], WDI_DS_UNCHANGED, WDI_DS_UNKNOWN, _WDI_DS_INFO, netvista.wdi_ds_info, netvista.wifi_ds_info, wditypes/WDI_DS_CHANGED, wditypes/WDI_DS_INFO, wditypes/WDI_DS_UNCHANGED, wditypes/WDI_DS_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_DS_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WDI_DS_INFO enumeration

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetCurrentEventIndex
-title: IDebugControl3::GetCurrentEventIndex method
+title: IDebugControl3::GetCurrentEventIndex
 author: windows-driver-content
 description: The GetCurrentEventIndex method returns the index of the current event within the current list of events for the current target, if such a list exists.
 old-location: debugger\getcurrenteventindex.htm
 old-project: debugger
 ms.assetid: 148cf294-0410-4704-93ce-338529a214ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface, GetCurrentEventIndex,IDebugControl3.GetCurrentEventIndex, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, IDebugControl3::GetCurrentEventIndex, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, dbgeng/IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex
+ms.date: 4/24/2018
+ms.keywords: GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetCurrentEventIndex method, IDebugControl3.GetCurrentEventIndex, IDebugControl3::GetCurrentEventIndex, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, dbgeng/IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl3.GetCurrentEventIndex
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetCurrentEventIndex method
+# IDebugControl3::GetCurrentEventIndex
 
 
 ## -description

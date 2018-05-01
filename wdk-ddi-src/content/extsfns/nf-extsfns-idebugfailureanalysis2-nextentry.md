@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.NextEntry
-title: IDebugFailureAnalysis2::NextEntry method
+title: IDebugFailureAnalysis2::NextEntry
 author: windows-driver-content
 description: The NextEntry method gets the next FA entry, after a given FA entry, in a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_nextentry.htm
 old-project: debugger
 ms.assetid: B5640B86-D931-4A26-85F2-BBE18620668C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], NextEntry method, IDebugFailureAnalysis2::NextEntry, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging], IDebugFailureAnalysis2 interface, NextEntry,IDebugFailureAnalysis2.NextEntry, debugger.idebugfailureanalysis2_nextentry, extsfns/IDebugFailureAnalysis2::NextEntry
+ms.date: 4/24/2018
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],NextEntry method, IDebugFailureAnalysis2.NextEntry, IDebugFailureAnalysis2::NextEntry, NextEntry, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_nextentry, extsfns/IDebugFailureAnalysis2::NextEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.NextEntry
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::NextEntry method
+# IDebugFailureAnalysis2::NextEntry
 
 
 ## -description

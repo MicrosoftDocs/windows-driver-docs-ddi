@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_descriptor_update.htm
 old-project: usbref
 ms.assetid: 9BA9BC9E-C04C-48F8-B76A-2D6F779BBE05
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: USBFN_ACTION, *PUSBFN_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL

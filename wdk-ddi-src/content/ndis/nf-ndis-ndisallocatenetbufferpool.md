@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatenetbufferpool.htm
 old-project: netvista
 ms.assetid: bc27758a-a793-48a1-a6ab-bd193aa9c61a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateNetBufferPool, NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferPool, ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, netvista.ndisallocatenetbufferpool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisAllocateNetBufferPool
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateNetBufferPool function

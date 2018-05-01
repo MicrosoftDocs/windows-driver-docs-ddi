@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_assign_swapchain.htm
 old-project: display
 ms.assetid: ae3b4101-d006-48ad-91c9-d9b3ee9a4674
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, EvtIddCxMonitorAssignSwapchain, EvtIddCxMonitorAssignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_assign_swapchain, iddcx/EvtIddCxMonitorAssignSwapchain
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback, EvtIddCxMonitorAssignSwapchain, EvtIddCxMonitorAssignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_assign_swapchain, iddcx/EvtIddCxMonitorAssignSwapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
 product: Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback
+# EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function
 
 
 ## -description

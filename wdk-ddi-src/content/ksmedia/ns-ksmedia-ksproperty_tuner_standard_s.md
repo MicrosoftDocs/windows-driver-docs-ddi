@@ -7,7 +7,7 @@ old-location: stream\ksproperty_tuner_standard_s.htm
 old-project: stream
 ms.assetid: 3eea8ee2-1ad5-4e00-b0c3-0710b58a2518
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TUNER_STANDARD_S, KSPROPERTY_TUNER_STANDARD_S, KSPROPERTY_TUNER_STANDARD_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_S, PKSPROPERTY_TUNER_STANDARD_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STANDARD_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_S, stream.ksproperty_tuner_standard_s, vidcapstruct_b7568a5f-0825-495b-97ff-c8cee17ab8d3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

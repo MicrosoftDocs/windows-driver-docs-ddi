@@ -7,7 +7,7 @@ old-location: kernel\dma_adapter.htm
 old-project: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PADAPTER_OBJECT, *PDMA_ADAPTER, DMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER, kernel.dma_adapter, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml, wdm/DMA_ADAPTER, wdm/PDMA_ADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,8 +40,7 @@ api_name:
 -	DMA_ADAPTER
 product: Windows
 targetos: Windows
-req.typenames: "*PADAPTER_OBJECT, *PADAPTER_OBJECT, DMA_ADAPTER, *PDMA_ADAPTER"
-req.product: Windows 10 or later.
+req.typenames: "*PADAPTER_OBJECT, DMA_ADAPTER, *PDMA_ADAPTER"
 ---
 
 # _DMA_ADAPTER structure

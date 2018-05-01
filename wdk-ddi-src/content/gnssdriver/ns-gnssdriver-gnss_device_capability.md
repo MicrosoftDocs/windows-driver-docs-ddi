@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_DEVICE_CAPABILITY
 title: GNSS_DEVICE_CAPABILITY
 author: windows-driver-content
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.
-old-location: sensors\gnss_device_capability.htm
-old-project: sensors
+old-location: gnss\gnss_device_capability.htm
+old-project: gnss
 ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY, sensors.gnss_device_capability"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

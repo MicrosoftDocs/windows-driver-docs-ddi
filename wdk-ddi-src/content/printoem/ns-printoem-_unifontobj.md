@@ -7,7 +7,7 @@ old-location: print\unifontobj.htm
 old-project: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUNIFONTOBJ, PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], _UNIFONTOBJ, print.unifontobj, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, printoem/PUNIFONTOBJ, printoem/UNIFONTOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
-req.product: Windows 10 or later.
 ---
 
 # _UNIFONTOBJ structure

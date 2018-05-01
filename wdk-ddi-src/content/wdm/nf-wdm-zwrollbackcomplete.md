@@ -7,7 +7,7 @@ old-location: kernel\zwrollbackcomplete.htm
 old-project: kernel
 ms.assetid: 4b6d6791-6c13-49ee-a588-a0ed514279b2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtRollbackComplete, ZwRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.zwrollbackcomplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, wdm/NtRollbackComplete, wdm/ZwRollbackComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	NtRollbackComplete
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwRollbackComplete function

@@ -7,8 +7,8 @@ old-location: display\pfnsignalsynchronizationobjectfromcpucb.htm
 old-project: display
 ms.assetid: E6FD5215-09CE-4DC8-B5AB-F65E68E2A884
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB, d3dumddi/pfnSignalSynchronizationObjectFromCpuCb, display.pfnsignalsynchronizationobjectfromcpucb, pfnSignalSynchronizationObjectFromCpuCb, pfnSignalSynchronizationObjectFromCpuCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB callback, d3dumddi/pfnSignalSynchronizationObjectFromCpuCb, display.pfnsignalsynchronizationobjectfromcpucb, pfnSignalSynchronizationObjectFromCpuCb, pfnSignalSynchronizationObjectFromCpuCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnSignalSynchronizationObjectFromCpuCb
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB callback
+# PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB callback function
 
 
 ## -description

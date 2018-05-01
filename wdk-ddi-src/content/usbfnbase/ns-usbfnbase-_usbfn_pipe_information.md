@@ -7,7 +7,7 @@ old-location: buses\usbfn_pipe_information.htm
 old-project: usbref
 ms.assetid: F8BBD279-3694-4559-83B3-9312EF4153C0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION structure pointer [Buses], USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses], _USBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, usbfnbase/PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBFN_PIPE_INFORMATION, *PUSBFN_PIPE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_PIPE_INFORMATION structure

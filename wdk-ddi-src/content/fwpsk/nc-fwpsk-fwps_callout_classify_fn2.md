@@ -7,8 +7,8 @@ old-location: netvista\classifyfn2.htm
 old-project: netvista
 ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
+ms.date: 4/25/2018
+ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	classifyFn2
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_CALLOUT_CLASSIFY_FN2 callback
+# FWPS_CALLOUT_CLASSIFY_FN2 callback function
 
 
 ## -description

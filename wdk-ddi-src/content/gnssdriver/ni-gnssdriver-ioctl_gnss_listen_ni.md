@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_NI
 title: IOCTL_GNSS_LISTEN_NI
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_NI control code is used to start listening for a SUPL NI request.
-old-location: sensors\ioctl_gnss_listen_ni.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_listen_ni.htm
+old-project: gnss
 ms.assetid: DDC85717-7CF7-421D-9521-09E272FFFCF0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_LISTEN_NI, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_NI, sensors.ioctl_gnss_listen_ni
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_LISTEN_NI, IOCTL_GNSS_LISTEN_NI control, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], gnss.ioctl_gnss_listen_ni, gnssdriver/IOCTL_GNSS_LISTEN_NI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GNSS_LISTEN_NI
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_LISTEN_NI IOCTL

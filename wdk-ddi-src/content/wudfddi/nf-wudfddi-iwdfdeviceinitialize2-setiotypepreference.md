@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize2.SetIoTypePreference
-title: IWDFDeviceInitialize2::SetIoTypePreference method
+title: IWDFDeviceInitialize2::SetIoTypePreference
 author: windows-driver-content
 description: The SetIoTypePreference method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests.
 old-location: wdf\iwdfdeviceinitialize2_setiotypepreference.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDeviceInitialize2, IWDFDeviceInitialize2 interface, SetIoTypePreference method, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method, IWDFDeviceInitialize2 interface, SetIoTypePreference,IWDFDeviceInitialize2.SetIoTypePreference, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
+ms.keywords: IWDFDeviceInitialize2 interface,SetIoTypePreference method, IWDFDeviceInitialize2.SetIoTypePreference, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method,IWDFDeviceInitialize2 interface, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDeviceInitialize2.SetIoTypePreference
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDeviceInitialize2::SetIoTypePreference method
+# IWDFDeviceInitialize2::SetIoTypePreference
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_video_get_decode_format_count.htm
 old-project: display
 ms.assetid: 84503E38-E141-4DAC-B305-6C7E6157A3E9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020, d3d12umddi/pfnGetDecodeFormatCount, display.pfnd3d12ddi_video_get_decode_format_count, pfnGetDecodeFormatCount, pfnGetDecodeFormatCount callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020, PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback, d3d12umddi/pfnGetDecodeFormatCount, display.pfnd3d12ddi_video_get_decode_format_count, pfnGetDecodeFormatCount, pfnGetDecodeFormatCount callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnGetDecodeFormatCount
 product: Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback
+# PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback function
 
 
 ## -description

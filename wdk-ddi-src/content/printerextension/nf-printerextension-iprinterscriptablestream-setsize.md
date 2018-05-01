@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.SetSize
-title: IPrinterScriptableStream::SetSize method
+title: IPrinterScriptableStream::SetSize
 author: windows-driver-content
 description: Sets the size of the scriptable stream, in bytes.
 old-location: print\iprinterscriptablestream__setsize.htm
 old-project: print
 ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], SetSize method, IPrinterScriptableStream::SetSize, SetSize method [Print Devices], SetSize method [Print Devices], IPrinterScriptableStream interface, SetSize,IPrinterScriptableStream.SetSize, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableStream interface [Print Devices],SetSize method, IPrinterScriptableStream.SetSize, IPrinterScriptableStream::SetSize, SetSize, SetSize method [Print Devices], SetSize method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterScriptableStream.SetSize
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptableStream::SetSize method
+# IPrinterScriptableStream::SetSize
 
 
 ## -description

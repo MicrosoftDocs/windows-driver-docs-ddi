@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient6.SetEventContextCallbacks
-title: IDebugClient6::SetEventContextCallbacks method
+title: IDebugClient6::SetEventContextCallbacks
 author: windows-driver-content
 description: Registers an event callbacks object with this client.
 old-location: debugger\idebugclient6_seteventcontextcallbacks.htm
 old-project: debugger
 ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient6, IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, SetEventContextCallbacks,IDebugClient6.SetEventContextCallbacks, dbgeng/IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks
+ms.date: 4/24/2018
+ms.keywords: IDebugClient6 interface [Windows Debugging],SetEventContextCallbacks method, IDebugClient6.SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging],IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient6.SetEventContextCallbacks
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient6::SetEventContextCallbacks method
+# IDebugClient6::SetEventContextCallbacks
 
 
 ## -description

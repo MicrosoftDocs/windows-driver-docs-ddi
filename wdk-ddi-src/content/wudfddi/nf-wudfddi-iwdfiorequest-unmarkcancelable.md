@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.UnmarkCancelable
-title: IWDFIoRequest::UnmarkCancelable method
+title: IWDFIoRequest::UnmarkCancelable
 author: windows-driver-content
 description: The UnmarkCancelable method disables the canceling of an I/O request.
 old-location: wdf\iwdfiorequest_unmarkcancelable.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5a3fa72c-241e-4270-92eb-70f135d79871
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, UnmarkCancelable method, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable method, UnmarkCancelable method, IWDFIoRequest interface, UnmarkCancelable,IWDFIoRequest.UnmarkCancelable, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable
+ms.keywords: IWDFIoRequest interface,UnmarkCancelable method, IWDFIoRequest.UnmarkCancelable, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable, UnmarkCancelable method, UnmarkCancelable method,IWDFIoRequest interface, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest.UnmarkCancelable
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::UnmarkCancelable method
+# IWDFIoRequest::UnmarkCancelable
 
 
 ## -description

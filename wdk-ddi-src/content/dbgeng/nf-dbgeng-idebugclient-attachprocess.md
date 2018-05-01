@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.AttachProcess
-title: IDebugClient::AttachProcess method
+title: IDebugClient::AttachProcess
 author: windows-driver-content
 description: The AttachProcess method connects the debugger engine to a user-modeprocess.
 old-location: debugger\attachprocess.htm
 old-project: debugger
 ms.assetid: 0787da49-23e0-43e3-bb32-1221db32a449
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging], IDebugClient interface, AttachProcess method [Windows Debugging], IDebugClient2 interface, AttachProcess method [Windows Debugging], IDebugClient3 interface, AttachProcess method [Windows Debugging], IDebugClient4 interface, AttachProcess method [Windows Debugging], IDebugClient5 interface, AttachProcess,IDebugClient.AttachProcess, IDebugClient, IDebugClient interface [Windows Debugging], AttachProcess method, IDebugClient2 interface [Windows Debugging], AttachProcess method, IDebugClient2::AttachProcess, IDebugClient3 interface [Windows Debugging], AttachProcess method, IDebugClient3::AttachProcess, IDebugClient4 interface [Windows Debugging], AttachProcess method, IDebugClient4::AttachProcess, IDebugClient5 interface [Windows Debugging], AttachProcess method, IDebugClient5::AttachProcess, IDebugClient::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient3::AttachProcess, dbgeng/IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, debugger.attachprocess
+ms.date: 4/24/2018
+ms.keywords: AttachProcess, AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging],IDebugClient interface, AttachProcess method [Windows Debugging],IDebugClient2 interface, AttachProcess method [Windows Debugging],IDebugClient3 interface, AttachProcess method [Windows Debugging],IDebugClient4 interface, AttachProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AttachProcess method, IDebugClient.AttachProcess, IDebugClient2 interface [Windows Debugging],AttachProcess method, IDebugClient2::AttachProcess, IDebugClient3 interface [Windows Debugging],AttachProcess method, IDebugClient3::AttachProcess, IDebugClient4 interface [Windows Debugging],AttachProcess method, IDebugClient4::AttachProcess, IDebugClient5 interface [Windows Debugging],AttachProcess method, IDebugClient5::AttachProcess, IDebugClient::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient3::AttachProcess, dbgeng/IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, debugger.attachprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.AttachProcess
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::AttachProcess method
+# IDebugClient::AttachProcess
 
 
 ## -description

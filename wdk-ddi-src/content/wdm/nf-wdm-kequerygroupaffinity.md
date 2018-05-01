@@ -7,7 +7,7 @@ old-location: kernel\kequerygroupaffinity.htm
 old-project: kernel
 ms.assetid: 235ec93e-5b3c-4a19-876f-f668271a56a5
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeQueryGroupAffinity, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture], k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, kernel.kequerygroupaffinity, wdm/KeQueryGroupAffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeQueryGroupAffinity
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryGroupAffinity function

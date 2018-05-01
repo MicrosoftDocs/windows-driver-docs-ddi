@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.RemoveBreakpoint2
-title: IDebugControl4::RemoveBreakpoint2 method
+title: IDebugControl4::RemoveBreakpoint2
 author: windows-driver-content
 description: The RemoveBreakpoint2 method removes a breakpoint.
 old-location: debugger\removebreakpoint2.htm
 old-project: debugger
 ms.assetid: e1c77758-0249-4ec6-9244-329c0b823e44
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface, RemoveBreakpoint2,IDebugControl4.RemoveBreakpoint2, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],RemoveBreakpoint2 method, IDebugControl4.RemoveBreakpoint2, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.RemoveBreakpoint2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::RemoveBreakpoint2 method
+# IDebugControl4::RemoveBreakpoint2
 
 
 ## -description

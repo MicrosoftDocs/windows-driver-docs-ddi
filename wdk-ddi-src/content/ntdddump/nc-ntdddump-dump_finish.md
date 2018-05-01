@@ -40,10 +40,10 @@ api_name:
 -	Dump_Finish
 product: Windows
 targetos: Windows
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.typenames: 
 ---
 
-# DUMP_FINISH callback
+# DUMP_FINISH callback function
 
 
 ## -description

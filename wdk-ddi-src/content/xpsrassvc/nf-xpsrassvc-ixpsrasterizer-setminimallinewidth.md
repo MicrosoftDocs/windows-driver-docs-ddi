@@ -1,14 +1,14 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizer.SetMinimalLineWidth
-title: IXpsRasterizer::SetMinimalLineWidth method
+title: IXpsRasterizer::SetMinimalLineWidth
 author: windows-driver-content
 description: The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render.
 old-location: print\ixpsrasterizer_setminimallinewidth.htm
 old-project: print
 ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, SetMinimalLineWidth,IXpsRasterizer.SetMinimalLineWidth, print.ixpsrasterizer_setminimallinewidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth
+ms.date: 4/20/2018
+ms.keywords: IXpsRasterizer interface [Print Devices],SetMinimalLineWidth method, IXpsRasterizer.SetMinimalLineWidth, IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], SetMinimalLineWidth method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_setminimallinewidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IXpsRasterizer.SetMinimalLineWidth
 product: Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IXpsRasterizer::SetMinimalLineWidth method
+# IXpsRasterizer::SetMinimalLineWidth
 
 
 ## -description

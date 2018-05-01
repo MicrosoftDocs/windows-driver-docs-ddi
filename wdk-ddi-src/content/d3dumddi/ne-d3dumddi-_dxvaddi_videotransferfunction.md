@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videotransferfunction.htm
 old-project: display
 ms.assetid: 8d798afe-dc75-4cd0-aad7-1f9824bdcf00
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_a6fcb795-da10-4824-99b3-5f75a50a17ce.xml, DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VIDEOTRANSFERFUNCTION enumeration [Display Devices], DXVADDI_VideoTransFuncMask, DXVADDI_VideoTransFunc_10, DXVADDI_VideoTransFunc_18, DXVADDI_VideoTransFunc_20, DXVADDI_VideoTransFunc_22, DXVADDI_VideoTransFunc_240M, DXVADDI_VideoTransFunc_28, DXVADDI_VideoTransFunc_709, DXVADDI_VideoTransFunc_Unknown, DXVADDI_VideoTransFunc_sRGB, _DXVADDI_VIDEOTRANSFERFUNCTION, d3dumddi/DXVADDI_VIDEOTRANSFERFUNCTION, d3dumddi/DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VideoTransFunc_10, d3dumddi/DXVADDI_VideoTransFunc_18, d3dumddi/DXVADDI_VideoTransFunc_20, d3dumddi/DXVADDI_VideoTransFunc_22, d3dumddi/DXVADDI_VideoTransFunc_240M, d3dumddi/DXVADDI_VideoTransFunc_28, d3dumddi/DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_Unknown, d3dumddi/DXVADDI_VideoTransFunc_sRGB, display.dxvaddi_videotransferfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

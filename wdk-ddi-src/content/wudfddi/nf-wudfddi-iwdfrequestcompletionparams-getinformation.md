@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRequestCompletionParams.GetInformation
-title: IWDFRequestCompletionParams::GetInformation method
+title: IWDFRequestCompletionParams::GetInformation
 author: windows-driver-content
 description: The GetInformation method retrieves information that is associated with the completion of an I/O request.
 old-location: wdf\iwdfrequestcompletionparams_getinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInformation method, GetInformation method, IWDFRequestCompletionParams interface, GetInformation,IWDFRequestCompletionParams.GetInformation, IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, GetInformation method, IWDFRequestCompletionParams::GetInformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, umdf.iwdfrequestcompletionparams_getinformation, wdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation
+ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetInformation method, IWDFRequestCompletionParams.GetInformation, IWDFRequestCompletionParams::GetInformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, umdf.iwdfrequestcompletionparams_getinformation, wdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFRequestCompletionParams.GetInformation
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRequestCompletionParams::GetInformation method
+# IWDFRequestCompletionParams::GetInformation
 
 
 ## -description

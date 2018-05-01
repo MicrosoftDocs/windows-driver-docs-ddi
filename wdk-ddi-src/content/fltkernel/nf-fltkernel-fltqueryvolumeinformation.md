@@ -7,7 +7,7 @@ old-location: ifsk\fltqueryvolumeinformation.htm
 old-project: ifsk
 ms.assetid: 57b65e87-7f2d-44fc-84b9-e029c8075be3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_1b2db9a1-36d0-4503-bd97-7f24b68ad513.xml, FltQueryVolumeInformation, FltQueryVolumeInformation routine [Installable File System Drivers], fltkernel/FltQueryVolumeInformation, ifsk.fltqueryvolumeinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltQueryVolumeInformation
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltQueryVolumeInformation function

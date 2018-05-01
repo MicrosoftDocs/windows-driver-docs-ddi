@@ -7,8 +7,8 @@ old-location: display\pfnlockcb.htm
 old-project: display
 ms.assetid: 69022797-432a-410b-8cbf-e1ef7111e7ea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, PFND3DDDI_LOCKCB callback, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnLockCb
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_LOCKCB callback
+# PFND3DDDI_LOCKCB callback function
 
 
 ## -description

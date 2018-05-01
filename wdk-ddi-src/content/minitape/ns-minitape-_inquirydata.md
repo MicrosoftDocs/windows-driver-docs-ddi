@@ -40,7 +40,7 @@ api_name:
 -	INQUIRYDATA
 product: Windows
 targetos: Windows
-req.typenames: INQUIRYDATA, *PINQUIRYDATA, INQUIRYDATA, *PINQUIRYDATA
+req.typenames: INQUIRYDATA, *PINQUIRYDATA
 ---
 
 # _INQUIRYDATA structure

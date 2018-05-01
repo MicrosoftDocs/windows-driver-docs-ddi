@@ -7,7 +7,7 @@ old-location: stream\avstrminiremoveevent.htm
 old-project: stream
 ms.assetid: dee4ce19-9dc8-4728-855b-eadb5bca0fc2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], PFNKSREMOVEEVENT, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml, ks/AVStrMiniRemoveEvent, stream.avstrminiremoveevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniRemoveEvent
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSREMOVEEVENT callback
+# PFNKSREMOVEEVENT callback function
 
 
 ## -description

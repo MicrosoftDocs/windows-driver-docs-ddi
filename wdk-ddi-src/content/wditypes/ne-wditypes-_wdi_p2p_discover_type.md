@@ -7,7 +7,7 @@ old-location: netvista\wdi_p2p_discover_type.htm
 old-project: netvista
 ms.assetid: AE9910F7-A3B8-4C13-A5DC-7B9600C8C873
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_P2P_DISCOVER_TYPE, WDI_P2P_DISCOVER_TYPE enumeration [Device and Driver Installation], WDI_P2P_DISCOVER_TYPE_AUTO, WDI_P2P_DISCOVER_TYPE_FIND_ONLY, WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS, _WDI_P2P_DISCOVER_TYPE, netvista.wdi_p2p_discover_type, netvista.wifi_p2p_discover_type, wditypes/WDI_P2P_DISCOVER_TYPE, wditypes/WDI_P2P_DISCOVER_TYPE_AUTO, wditypes/WDI_P2P_DISCOVER_TYPE_FIND_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_P2P_DISCOVER_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDI_P2P_DISCOVER_TYPE enumeration

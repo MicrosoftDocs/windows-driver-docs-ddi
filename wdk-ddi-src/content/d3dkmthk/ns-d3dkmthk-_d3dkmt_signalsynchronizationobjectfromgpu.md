@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: 09190DCC-5F88-4C49-89B3-9063707E3F15
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_signalsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,12 +72,12 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 
 
-#### - MonitoredFenceValueArray
+### -field MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 

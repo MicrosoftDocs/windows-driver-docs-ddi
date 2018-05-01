@@ -7,7 +7,7 @@ old-location: buses\ucminitializedevice.htm
 old-project: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	UcmInitializeDevice
 product: Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmInitializeDevice function

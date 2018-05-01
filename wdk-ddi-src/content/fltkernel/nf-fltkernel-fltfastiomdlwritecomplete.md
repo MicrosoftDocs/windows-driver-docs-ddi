@@ -7,7 +7,7 @@ old-location: ifsk\fltfastiomdlwritecomplete.htm
 old-project: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlMdlWriteCompleteDev
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltFastIoMdlWriteComplete function

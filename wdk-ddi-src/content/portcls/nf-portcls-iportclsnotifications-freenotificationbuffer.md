@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsNotifications.FreeNotificationBuffer
-title: IPortClsNotifications::FreeNotificationBuffer method
+title: IPortClsNotifications::FreeNotificationBuffer
 author: windows-driver-content
 description: Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_freenotification.htm
 old-project: audio
 ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface, FreeNotificationBuffer,IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
+ms.date: 4/16/2018
+ms.keywords: FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],FreeNotificationBuffer method, IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IPortClsNotifications.FreeNotificationBuffer
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsNotifications::FreeNotificationBuffer method
+# IPortClsNotifications::FreeNotificationBuffer
 
 
 ## -description

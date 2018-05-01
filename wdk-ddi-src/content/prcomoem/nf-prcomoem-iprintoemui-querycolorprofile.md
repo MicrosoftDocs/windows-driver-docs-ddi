@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.QueryColorProfile
-title: IPrintOemUI::QueryColorProfile method
+title: IPrintOemUI::QueryColorProfile
 author: windows-driver-content
 description: The IPrintOemUI::QueryColorProfile method allows a user interface plug-in to specify an ICC profile to use for color management.
 old-location: print\iprintoemui_querycolorprofile.htm
 old-project: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], QueryColorProfile method, IPrintOemUI::QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices], IPrintOemUI interface, QueryColorProfile,IPrintOemUI.QueryColorProfile, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI interface [Print Devices],QueryColorProfile method, IPrintOemUI.QueryColorProfile, IPrintOemUI::QueryColorProfile, QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.QueryColorProfile
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::QueryColorProfile method
+# IPrintOemUI::QueryColorProfile
 
 
 ## -description

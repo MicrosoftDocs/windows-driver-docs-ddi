@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_CAPABILITIES_DATA, *PSTOR_CRYPTO_CAPABILITIES_DATA
-req.product: Windows 10 or later.
 ---
 
 # _STOR_CRYPTO_CAPABILITIES_DATA structure

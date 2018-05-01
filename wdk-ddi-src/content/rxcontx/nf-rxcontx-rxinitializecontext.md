@@ -7,7 +7,7 @@ old-location: ifsk\rxinitializecontext.htm
 old-project: ifsk
 ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxInitializeContext, RxInitializeContext function [Installable File System Drivers], ifsk.rxinitializecontext, rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RxInitializeContext
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxInitializeContext function

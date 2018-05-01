@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFWorkItem.GetParentObject
-title: IWDFWorkItem::GetParentObject method
+title: IWDFWorkItem::GetParentObject
 author: windows-driver-content
 description: The GetParentObject method returns the parent framework object of this interface's work item.
 old-location: wdf\iwdfworkitem_getparentobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D965D8D3-B78C-4126-A675-D6D8A85AA158
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetParentObject method, GetParentObject method, IWDFWorkItem interface, GetParentObject,IWDFWorkItem.GetParentObject, IWDFWorkItem, IWDFWorkItem interface, GetParentObject method, IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject, wdf.iwdfworkitem_getparentobject, wudfddi/IWDFWorkItem::GetParentObject
+ms.keywords: GetParentObject, GetParentObject method, GetParentObject method,IWDFWorkItem interface, IWDFWorkItem interface,GetParentObject method, IWDFWorkItem.GetParentObject, IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject, wdf.iwdfworkitem_getparentobject, wudfddi/IWDFWorkItem::GetParentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFWorkItem.GetParentObject
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFWorkItem::GetParentObject method
+# IWDFWorkItem::GetParentObject
 
 
 ## -description

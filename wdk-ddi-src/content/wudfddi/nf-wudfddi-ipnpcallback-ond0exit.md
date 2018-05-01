@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnD0Exit
-title: IPnpCallback::OnD0Exit method
+title: IPnpCallback::OnD0Exit
 author: windows-driver-content
 description: The OnD0Exit method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations, such as disabling the device.
 old-location: wdf\ipnpcallback_ond0exit.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, OnD0Exit method, IPnpCallback::OnD0Exit, OnD0Exit method, OnD0Exit method, IPnpCallback interface, OnD0Exit,IPnpCallback.OnD0Exit, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
+ms.keywords: IPnpCallback interface,OnD0Exit method, IPnpCallback.OnD0Exit, IPnpCallback::OnD0Exit, OnD0Exit, OnD0Exit method, OnD0Exit method,IPnpCallback interface, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPnpCallback.OnD0Exit
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallback::OnD0Exit method
+# IPnpCallback::OnD0Exit
 
 
 ## -description

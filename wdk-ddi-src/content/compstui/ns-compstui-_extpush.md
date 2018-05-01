@@ -7,7 +7,7 @@ old-location: print\extpush.htm
 old-project: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,6 +142,20 @@ If not set, <b>DlgTemplateID</b> contains a template resource identifier.
 String identifier, representing the push button title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
 
 
+### -field DUMMYUNIONNAME.DlgProc
+
+DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the following Remarks section.
+
+If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
+
+
+### -field DUMMYUNIONNAME.pfnCallBack
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
+
+If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
+
+
 ### -field IconID
 
 One of the following icon identifiers:
@@ -164,37 +178,23 @@ CPSUI displays the icon next to the push button. If this value is zero, an icon 
  
 
 
-### -field dwReserved
-
-Reserved, must be initialized to zero.
-
-
-#### - DlgProc
-
-DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the following Remarks section.
-
-If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
-
-
-#### - DlgTemplateID
+### -field DUMMYUNIONNAME.DlgTemplateID
 
 DIALOG resource identifier, describing a dialog box template.
 
 Not used if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 
-#### - hDlgTemplate
+### -field DUMMYUNIONNAME.hDlgTemplate
 
 Handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
 
 Used only if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 
-#### - pfnCallBack
+### -field dwReserved
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
-
-If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
+Reserved, must be initialized to zero.
 
 
 ## -remarks

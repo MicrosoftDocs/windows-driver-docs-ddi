@@ -7,7 +7,7 @@ old-location: kernel\platformidleveto.htm
 old-project: kernel
 ms.assetid: 61D637E6-316D-49A5-B1B1-C89415C7D0B8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: POFXCALLBACKPLATFORMIDLEVETO, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], kernel.platformidleveto, pepfx/PlatformIdleVeto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	PlatformIdleVeto
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
-# POFXCALLBACKPLATFORMIDLEVETO callback
+# POFXCALLBACKPLATFORMIDLEVETO callback function
 
 
 ## -description

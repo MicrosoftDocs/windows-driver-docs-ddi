@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByLineWide
-title: IDebugSymbols3::GetOffsetByLineWide method
+title: IDebugSymbols3::GetOffsetByLineWide
 author: windows-driver-content
 description: The GetOffsetByLineWide method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbylinewide.htm
 old-project: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByLineWide,IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
+ms.date: 4/24/2018
+ms.keywords: GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLineWide method, IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.GetOffsetByLineWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetOffsetByLineWide method
+# IDebugSymbols3::GetOffsetByLineWide
 
 
 ## -description

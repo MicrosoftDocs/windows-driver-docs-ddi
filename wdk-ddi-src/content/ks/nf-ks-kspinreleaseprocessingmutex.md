@@ -7,7 +7,7 @@ old-location: stream\kspinreleaseprocessingmutex.htm
 old-project: stream
 ms.assetid: 9a117c5b-26a4-4fdb-b51e-933b8f105a81
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinReleaseProcessingMutex, KsPinReleaseProcessingMutex function [Streaming Media Devices], avfunc_22421ea0-8973-4921-a0cb-f1d824f76357.xml, ks/KsPinReleaseProcessingMutex, stream.kspinreleaseprocessingmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

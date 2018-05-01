@@ -7,8 +7,8 @@ old-location: display\agpreleasevirtual.htm
 old-project: display
 ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual
+ms.date: 4/16/2018
+ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, PAGP_RELEASE_VIRTUAL callback, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	AgpReleaseVirtual
 product: Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PAGP_RELEASE_VIRTUAL callback
+# PAGP_RELEASE_VIRTUAL callback function
 
 
 ## -description

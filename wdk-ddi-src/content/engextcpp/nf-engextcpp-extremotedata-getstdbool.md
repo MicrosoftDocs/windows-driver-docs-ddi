@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetStdBool
-title: ExtRemoteData::GetStdBool method
+title: ExtRemoteData::GetStdBool
 author: windows-driver-content
 description: The GetStdBool method returns a bool version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getstdbool.htm
 old-project: debugger
 ms.assetid: f6a55181-7e1a-4af0-ac45-1991c42cdc87
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_65fe8202-99dc-45b3-9b38-5fca10341b1b.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetStdBool method, ExtRemoteData::GetStdBool, GetStdBool method [Windows Debugging], GetStdBool method [Windows Debugging], ExtRemoteData class, GetStdBool,ExtRemoteData.GetStdBool, debugger.extremotedata_getstdbool
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_65fe8202-99dc-45b3-9b38-5fca10341b1b.xml, ExtRemoteData class [Windows Debugging],GetStdBool method, ExtRemoteData.GetStdBool, ExtRemoteData::GetStdBool, GetStdBool, GetStdBool method [Windows Debugging], GetStdBool method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getstdbool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteData.GetStdBool
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetStdBool method
+# ExtRemoteData::GetStdBool
 
 
 ## -description

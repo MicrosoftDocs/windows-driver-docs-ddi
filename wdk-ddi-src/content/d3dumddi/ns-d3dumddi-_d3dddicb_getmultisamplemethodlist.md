@@ -7,7 +7,7 @@ old-location: display\d3dddicb_getmultisamplemethodlist.htm
 old-project: display
 ms.assetid: 07cabd0e-5b5c-42ff-9b2a-57bec527d690
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

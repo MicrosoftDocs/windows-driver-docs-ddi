@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4800a0f9-29ee-4631-aee8-5a4924a08f55
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PSHED_PI_WRITE_ERROR_RECORD, WriteErrorRecord, WriteErrorRecord callback function [WHEA Drivers and Applications], ntddk/WriteErrorRecord, whea.writeerrorrecord, whearef_3a405d7d-3427-4c22-919e-7cbab5ea4f19.xml
+ms.keywords: PSHED_PI_WRITE_ERROR_RECORD, PSHED_PI_WRITE_ERROR_RECORD callback, WriteErrorRecord, WriteErrorRecord callback function [WHEA Drivers and Applications], ntddk/WriteErrorRecord, whea.writeerrorrecord, whearef_3a405d7d-3427-4c22-919e-7cbab5ea4f19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	WriteErrorRecord
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_WRITE_ERROR_RECORD callback
+# PSHED_PI_WRITE_ERROR_RECORD callback function
 
 
 ## -description

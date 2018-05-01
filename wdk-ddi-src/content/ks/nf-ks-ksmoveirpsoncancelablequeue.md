@@ -7,7 +7,7 @@ old-location: stream\ksmoveirpsoncancelablequeue.htm
 old-project: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, stream.ksmoveirpsoncancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices

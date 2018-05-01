@@ -7,7 +7,7 @@ old-location: display\d3dkmt_opensynchronizationobject.htm
 old-project: display
 ms.assetid: 58e71ce5-29d0-4ee2-8d91-02230021110d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENSYNCHRONIZATIONOBJECT, D3DKMT_OPENSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_61f9f676-2b21-4cb3-8c6a-9f25ce3ac2bc.xml, _D3DKMT_OPENSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_OPENSYNCHRONIZATIONOBJECT, display.d3dkmt_opensynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

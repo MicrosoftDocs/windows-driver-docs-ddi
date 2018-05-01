@@ -7,7 +7,7 @@ old-location: display\dxgk_submitcommandflags.htm
 old-project: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -141,7 +141,7 @@ Setting this is equivalent to setting the remaining 25 bits of the 32-bit <b>Val
 Setting this member to zero is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 [in] A member in the union that DXGK_SUBMITCOMMANDFLAGS contains that can hold one 32-bit value that identifies information about the DMA buffer.
 

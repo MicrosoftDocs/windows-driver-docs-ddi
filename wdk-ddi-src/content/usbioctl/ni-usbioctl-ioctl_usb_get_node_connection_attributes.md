@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_node_connection_attributes.htm
 old-project: usbref
 ms.assetid: a28613f4-52ba-40f0-9d40-19f1a5d8124a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES, IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES control code [Buses], buses.ioctl_usb_get_node_connection_attributes, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES, usbirp_7240de27-e12b-4c72-94c3-5913a217c0c3.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES, IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES control, IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES control code [Buses], buses.ioctl_usb_get_node_connection_attributes, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES, usbirp_7240de27-e12b-4c72-94c3-5913a217c0c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES IOCTL

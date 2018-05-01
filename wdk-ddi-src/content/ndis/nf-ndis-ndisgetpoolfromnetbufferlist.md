@@ -7,7 +7,7 @@ old-location: netvista\ndisgetpoolfromnetbufferlist.htm
 old-project: netvista
 ms.assetid: 645fd5f6-32b5-4ef6-9583-1418291d55d3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisGetPoolFromNetBufferList, NdisGetPoolFromNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBufferList, ndis_netbuf_functions_ref_c93c9420-04fb-42f7-9844-29c3b2052b82.xml, netvista.ndisgetpoolfromnetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisGetPoolFromNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisGetPoolFromNetBufferList function

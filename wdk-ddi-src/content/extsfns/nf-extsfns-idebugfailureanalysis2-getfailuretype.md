@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetFailureType
-title: IDebugFailureAnalysis2::GetFailureType method
+title: IDebugFailureAnalysis2::GetFailureType
 author: windows-driver-content
 description: The GetFailureType method gets the failure type of a DebugFailureAnalysis object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 old-location: debugger\idebugfailureanalysis2_getfailuretype.htm
 old-project: debugger
 ms.assetid: 3BE85B65-DAE0-41E7-AB24-B5E8E7073E1A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetFailureType method [Windows Debugging], GetFailureType method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureType,IDebugFailureAnalysis2.GetFailureType, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureType method, IDebugFailureAnalysis2::GetFailureType, debugger.idebugfailureanalysis2_getfailuretype, extsfns/IDebugFailureAnalysis2::GetFailureType
+ms.date: 4/24/2018
+ms.keywords: GetFailureType, GetFailureType method [Windows Debugging], GetFailureType method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureType method, IDebugFailureAnalysis2.GetFailureType, IDebugFailureAnalysis2::GetFailureType, debugger.idebugfailureanalysis2_getfailuretype, extsfns/IDebugFailureAnalysis2::GetFailureType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.GetFailureType
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::GetFailureType method
+# IDebugFailureAnalysis2::GetFailureType
 
 
 ## -description

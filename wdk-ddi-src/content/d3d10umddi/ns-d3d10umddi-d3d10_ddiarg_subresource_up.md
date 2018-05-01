@@ -7,7 +7,7 @@ old-location: display\d3d10_ddiarg_subresource_up.htm
 old-project: display
 ms.assetid: 035ce56c-b2a0-4ee0-83ce-4a45f05e5ff4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10_DDIARG_SUBRESOURCE_UP, D3D10_DDIARG_SUBRESOURCE_UP structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4bc98700-ad44-4b40-9fc2-b40eeae79626.xml, d3d10umddi/D3D10_DDIARG_SUBRESOURCE_UP, display.d3d10_ddiarg_subresource_up
 ms.prod: windows-hardware
 ms.technology: windows-devices

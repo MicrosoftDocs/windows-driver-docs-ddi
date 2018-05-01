@@ -7,8 +7,8 @@ old-location: debugger\extremotedata.htm
 old-project: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ExtRemoteData class [Windows Debugging], described, debugger.extremotedata, engextcpp/ExtRemoteData
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ExtRemoteData class [Windows Debugging],described, debugger.extremotedata, engextcpp/ExtRemoteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	ExtRemoteData
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
 # ExtRemoteData class

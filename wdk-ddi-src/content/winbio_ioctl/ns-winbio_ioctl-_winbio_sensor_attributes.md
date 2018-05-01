@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_SENSOR_ATTRIBUTES structure

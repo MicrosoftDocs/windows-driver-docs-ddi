@@ -7,7 +7,7 @@ old-location: serports\sercx2customreceivetransactionreportprogress.htm
 old-project: serports
 ms.assetid: FBC776FE-1056-4D3B-BECB-124FC41DD68F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], serports.sercx2customreceivetransactionreportprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SerCx2CustomReceiveTransactionReportProgress
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2CustomReceiveTransactionReportProgress function

@@ -7,8 +7,8 @@ old-location: debugger\ioctl.htm
 old-project: debugger
 ms.assetid: fe35d032-fa34-44a7-9e61-dcb1ca2a2e85
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
+ms.date: 4/24/2018
+ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, PWINDBG_IOCTL_ROUTINE callback, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	Ioctl
 product: Windows
 targetos: Windows
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PWINDBG_IOCTL_ROUTINE callback
+# PWINDBG_IOCTL_ROUTINE callback function
 
 
 ## -description

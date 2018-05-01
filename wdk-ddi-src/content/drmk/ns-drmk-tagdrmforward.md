@@ -7,7 +7,7 @@ old-location: audio\drmforward.htm
 old-project: audio
 ms.assetid: 30e2e62a-3ae4-4efe-a6e9-6aece6bfbb46
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDRMFORWARD, DRMFORWARD, DRMFORWARD structure [Audio Devices], PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, audio.drmforward, drmk/DRMFORWARD, drmk/PDRMFORWARD, tagDRMFORWARD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

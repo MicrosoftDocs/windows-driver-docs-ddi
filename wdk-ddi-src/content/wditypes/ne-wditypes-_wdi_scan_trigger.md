@@ -7,7 +7,7 @@ old-location: netvista\wdi_scan_trigger.htm
 old-project: netvista
 ms.assetid: 3E201A6D-3A5B-4A6B-8AED-258A96BBF869
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER enumeration [Device and Driver Installation], WDI_SCAN_TRIGGER_ANQP_QUERY, WDI_SCAN_TRIGGER_BACKGROUND, WDI_SCAN_TRIGGER_CONNECT, WDI_SCAN_TRIGGER_FAST_ROAM, WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_ROAM, _WDI_SCAN_TRIGGER, netvista.wdi_scan_trigger, netvista.wifi_scan_trigger, wditypes/WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_BACKGROUND, wditypes/WDI_SCAN_TRIGGER_CONNECT, wditypes/WDI_SCAN_TRIGGER_FAST_ROAM, wditypes/WDI_SCAN_TRIGGER_MANUAL, wditypes/WDI_SCAN_TRIGGER_ROAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_SCAN_TRIGGER
-req.product: Windows 10 or later.
 ---
 
 # _WDI_SCAN_TRIGGER enumeration

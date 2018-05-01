@@ -7,8 +7,8 @@ old-location: netvista\ndispdfreecounter.htm
 old-project: netvista
 ms.assetid: 60C47437-A999-4F82-B144-6F77410E5C07
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_PD_FREE_COUNTER, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
+ms.date: 4/25/2018
+ms.keywords: NDIS_PD_FREE_COUNTER, NDIS_PD_FREE_COUNTER callback, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdisPDFreeCounter
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PD_FREE_COUNTER callback
+# NDIS_PD_FREE_COUNTER callback function
 
 
 ## -description

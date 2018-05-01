@@ -7,7 +7,7 @@ old-location: bltooth\sdp_node_data.htm
 old-project: bltooth
 ms.assetid: ce1f9f1b-2215-4b39-b5e6-a5076f02af64
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PSDP_NODE_DATA, PSDP_NODE_DATA, PSDP_NODE_DATA union pointer [Bluetooth Devices], SDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], _SDP_NODE_DATA, bltooth.sdp_node_data, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, sdpnode/PSDP_NODE_DATA, sdpnode/SDP_NODE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SDP_NODE_DATA, *PSDP_NODE_DATA
-req.product: Windows 10 or later.
 ---
 
 # _SDP_NODE_DATA structure
@@ -160,6 +159,18 @@ An SDP_NODE_HEADER structure that references the elements of an alternate list s
 ### -field container
 
 A list of pointers to user-mode specific interfaces.
+
+
+### -field stream
+
+ 
+
+
+### -field streamLength
+
+ 
+
+
 
 
 #### - ( unnamed struct )

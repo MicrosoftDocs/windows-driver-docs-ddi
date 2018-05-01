@@ -7,7 +7,7 @@ old-location: buses\udecxurbcompletewithntstatus.htm
 old-project: usbref
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	UdecxUrbCompleteWithNtStatus
 product: Windows
 targetos: Windows
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUrbCompleteWithNtStatus function

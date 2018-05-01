@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_SET_INDICATOR structure

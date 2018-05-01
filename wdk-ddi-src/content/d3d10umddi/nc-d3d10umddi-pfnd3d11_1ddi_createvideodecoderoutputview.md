@@ -7,8 +7,8 @@ old-location: display\createvideodecoderoutputview.htm
 old-project: display
 ms.assetid: a5a32b4e-799c-4d18-995d-f804e6dff85c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, d3d10umddi/CreateVideoDecoderOutputView, display.createvideodecoderoutputview
+ms.date: 4/16/2018
+ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback, d3d10umddi/CreateVideoDecoderOutputView, display.createvideodecoderoutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateVideoDecoderOutputView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback
+# PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback function
 
 
 ## -description

@@ -40,11 +40,10 @@ api_name:
 -	HwStorFindAdapter
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# HW_FIND_ADAPTER callback
+# HW_FIND_ADAPTER callback function
 
 
 ## -description

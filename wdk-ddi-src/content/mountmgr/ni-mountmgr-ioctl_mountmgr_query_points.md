@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b7f947c-2fb1-4b59-bf73-a6f0e1478be2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_MOUNTMGR_QUERY_POINTS, IOCTL_MOUNTMGR_QUERY_POINTS control code [Storage Devices], k307_2d7b44e3-c40f-4626-aad0-5e1cf8843685.xml, mountmgr/IOCTL_MOUNTMGR_QUERY_POINTS, storage.ioctl_mountmgr_query_points
+ms.keywords: IOCTL_MOUNTMGR_QUERY_POINTS, IOCTL_MOUNTMGR_QUERY_POINTS control, IOCTL_MOUNTMGR_QUERY_POINTS control code [Storage Devices], k307_2d7b44e3-c40f-4626-aad0-5e1cf8843685.xml, mountmgr/IOCTL_MOUNTMGR_QUERY_POINTS, storage.ioctl_mountmgr_query_points
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_MOUNTMGR_QUERY_POINTS
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: 
 ---
 
 # IOCTL_MOUNTMGR_QUERY_POINTS IOCTL

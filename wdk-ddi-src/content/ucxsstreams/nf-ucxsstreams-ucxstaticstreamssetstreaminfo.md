@@ -7,7 +7,7 @@ old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UcxStaticStreamsSetStreamInfo
 product: Windows
 targetos: Windows
-req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxStaticStreamsSetStreamInfo function

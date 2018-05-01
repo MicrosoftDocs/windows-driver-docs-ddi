@@ -92,14 +92,14 @@ The offset from the beginning of this structure where the encryption algorithm O
 The length of the OID string identifying the encryption algorithm. This is a byte-length value including a NULL terminator for the OID string.
 
 
+### -field CryptoAlgoNumericId
+
+Reserved.
+
+
 ### -field Metadata
 
 A metadata field available for use by a key manager.
-
-
-#### - CryptoAlgoNumericId
-
-Reserved.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: stream\cip_hdr1.htm
 old-project: stream
 ms.assetid: 15450f33-cb86-4c1d-87d7-2d77a1d66a81
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PCIP_HDR1, CIP_HDR1, CIP_HDR1 structure [Streaming Media Devices], PCIP_HDR1, PCIP_HDR1 structure pointer [Streaming Media Devices], _CIP_HDR1, avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, avcstrm/CIP_HDR1, avcstrm/PCIP_HDR1, stream.cip_hdr1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

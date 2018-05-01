@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SRBEX_DATA, *PSRBEX_DATA
-req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA structure

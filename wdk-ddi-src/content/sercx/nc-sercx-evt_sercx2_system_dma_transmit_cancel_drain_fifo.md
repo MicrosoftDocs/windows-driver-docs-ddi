@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmatransmitcanceldrainfifo.htm
 old-project: serports
 ms.assetid: 00B17CBC-FE0E-4611-A41B-42AD833731D3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaTransmitCancelDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO, EvtSerCx2SystemDmaTransmitCancelDrainFifo, EvtSerCx2SystemDmaTransmitCancelDrainFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitcanceldrainfifo
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaTransmitCancelDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback, EvtSerCx2SystemDmaTransmitCancelDrainFifo, EvtSerCx2SystemDmaTransmitCancelDrainFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitcanceldrainfifo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCx2SystemDmaTransmitCancelDrainFifo
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback
+# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback function
 
 
 ## -description

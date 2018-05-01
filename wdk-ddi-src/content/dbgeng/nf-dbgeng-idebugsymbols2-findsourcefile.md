@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.FindSourceFile
-title: IDebugSymbols2::FindSourceFile method
+title: IDebugSymbols2::FindSourceFile
 author: windows-driver-content
 description: The FindSourceFile method searches the source path for a specified source file.
 old-location: debugger\findsourcefile.htm
 old-project: debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging], IDebugSymbols interface, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, FindSourceFile,IDebugSymbols2.FindSourceFile, IDebugSymbols interface [Windows Debugging], FindSourceFile method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, dbgeng/IDebugSymbols2::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile
+ms.date: 4/24/2018
+ms.keywords: FindSourceFile, FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging],IDebugSymbols interface, FindSourceFile method [Windows Debugging],IDebugSymbols2 interface, FindSourceFile method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],FindSourceFile method, IDebugSymbols2 interface [Windows Debugging],FindSourceFile method, IDebugSymbols2.FindSourceFile, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging],FindSourceFile method, IDebugSymbols3::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, dbgeng/IDebugSymbols2::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.FindSourceFile
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::FindSourceFile method
+# IDebugSymbols2::FindSourceFile
 
 
 ## -description

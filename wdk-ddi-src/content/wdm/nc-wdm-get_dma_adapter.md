@@ -7,7 +7,7 @@ old-location: kernel\getdmaadapter.htm
 old-project: kernel
 ms.assetid: 0F703E88-2650-4451-9F5A-05FBCF33C131
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: GET_DMA_ADAPTER, GetDmaAdapter, GetDmaAdapter routine [Kernel-Mode Driver Architecture], drvr_interface_5c7fd89d-0b6c-45e7-8559-8666f43beb9a.xml, kernel.busgetdmaadapter, kernel.getdmaadapter, ntddk/GetDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	GetDmaAdapter
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# GET_DMA_ADAPTER callback
+# GET_DMA_ADAPTER callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxgk_power_component_type.htm
 old-project: display
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_MONITOR_REFRESH, DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, d3dkmddi/DXGK_POWER_COMPONENT_TYPE, display.dxgk_power_component_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	DXGK_POWER_COMPONENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE
+req.typenames: DXGK_POWER_COMPONENT_TYPE
 ---
 
 # _DXGK_POWER_COMPONENT_TYPE enumeration

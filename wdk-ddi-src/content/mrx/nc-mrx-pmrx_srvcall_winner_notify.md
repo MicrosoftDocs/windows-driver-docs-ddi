@@ -7,7 +7,7 @@ old-location: ifsk\mrxsrvcallwinnernotify.htm
 old-project: ifsk
 ms.assetid: 6853b73e-5516-485e-ade4-54b7faf6bb1d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	MRxSrvCallWinnerNotify
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_SRVCALL_WINNER_NOTIFY callback
+# PMRX_SRVCALL_WINNER_NOTIFY callback function
 
 
 ## -description

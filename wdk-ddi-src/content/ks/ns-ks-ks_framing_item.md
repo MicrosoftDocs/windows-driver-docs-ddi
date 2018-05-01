@@ -7,7 +7,7 @@ old-location: stream\ks_framing_item.htm
 old-project: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, KS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, stream.ks_framing_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -233,6 +233,16 @@ Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a 
 Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure.
 
 
+### -field FileAlignment
+
+Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure.
+
+
+### -field FramePitch
+
+ 
+
+
 ### -field MemoryTypeWeight
 
 A value of type ULONG that specifies the pin-wide weight of this memory type.
@@ -246,11 +256,6 @@ A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware
 ### -field FramingRange
 
 A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567648">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
-
-
-#### - FileAlignment
-
-Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure.
 
 
 ## -remarks

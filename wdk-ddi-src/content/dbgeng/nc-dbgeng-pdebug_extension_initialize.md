@@ -7,8 +7,8 @@ old-location: debugger\debugextensioninitialize.htm
 old-project: debugger
 ms.assetid: 2e68fa38-55fc-4538-ae97-ed943d5381be
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
+ms.date: 4/24/2018
+ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, PDEBUG_EXTENSION_INITIALIZE callback, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DebugExtensionInitialize
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_EXTENSION_INITIALIZE callback
+# PDEBUG_EXTENSION_INITIALIZE callback function
 
 
 ## -description

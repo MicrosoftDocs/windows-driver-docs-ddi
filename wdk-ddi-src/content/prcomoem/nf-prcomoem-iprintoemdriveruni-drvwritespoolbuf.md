@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvWriteSpoolBuf
-title: IPrintOemDriverUni::DrvWriteSpoolBuf method
+title: IPrintOemDriverUni::DrvWriteSpoolBuf
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvWriteSpoolBuf method is provided by the Unidrv driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintoemdriveruni_drvwritespoolbuf.htm
 old-project: print
 ms.assetid: e019b88a-bffe-44d2-8031-de37b6a1cf1c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteSpoolBuf,IPrintOemDriverUni.DrvWriteSpoolBuf, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvWriteSpoolBuf method, IPrintOemDriverUni::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml
+ms.date: 4/20/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvWriteSpoolBuf method, IPrintOemDriverUni.DrvWriteSpoolBuf, IPrintOemDriverUni::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemDriverUni.DrvWriteSpoolBuf
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverUni::DrvWriteSpoolBuf method
+# IPrintOemDriverUni::DrvWriteSpoolBuf
 
 
 ## -description

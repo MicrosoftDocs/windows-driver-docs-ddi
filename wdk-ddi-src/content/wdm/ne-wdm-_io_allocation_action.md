@@ -7,7 +7,7 @@ old-location: kernel\io_allocation_action.htm
 old-project: kernel
 ms.assetid: 245d35a1-e877-4446-a0da-e50ece3656b1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PIO_ALLOCATION_ACTION, DeallocateObject, DeallocateObjectKeepRegisters, IO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], KeepObject, PIO_ALLOCATION_ACTION, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], _IO_ALLOCATION_ACTION, kernel.io_allocation_action, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, wdm/DeallocateObject, wdm/DeallocateObjectKeepRegisters, wdm/IO_ALLOCATION_ACTION, wdm/KeepObject, wdm/PIO_ALLOCATION_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION
-req.product: Windows 10 or later.
 ---
 
 # _IO_ALLOCATION_ACTION enumeration

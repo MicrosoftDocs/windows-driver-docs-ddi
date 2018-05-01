@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketallocate.htm
 old-project: netvista
 ms.assetid: F121A7BC-5504-4CF5-8C8A-0568D6C4F77F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketAllocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista], netvista.vmbpacketallocate, vmbuskernelmodeclientlibapi/VmbPacketAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbPacketAllocate
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketAllocate function

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.RegisterRemoteInterfaceNotification
-title: IWDFDevice2::RegisterRemoteInterfaceNotification method
+title: IWDFDevice2::RegisterRemoteInterfaceNotification
 author: windows-driver-content
 description: The RegisterRemoteInterfaceNotification method registers a driver to receive a notification when a specified device interface becomes available.
 old-location: wdf\iwdfdevice2_registerremoteinterfacenotification.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice2, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, RegisterRemoteInterfaceNotification,IWDFDevice2.RegisterRemoteInterfaceNotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification
+ms.keywords: IWDFDevice2 interface,RegisterRemoteInterfaceNotification method, IWDFDevice2.RegisterRemoteInterfaceNotification, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method,IWDFDevice2 interface, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice2.RegisterRemoteInterfaceNotification
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice2::RegisterRemoteInterfaceNotification method
+# IWDFDevice2::RegisterRemoteInterfaceNotification
 
 
 ## -description

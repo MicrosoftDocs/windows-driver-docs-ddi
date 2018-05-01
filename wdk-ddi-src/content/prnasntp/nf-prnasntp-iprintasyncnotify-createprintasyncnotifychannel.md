@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotify_createprintasyncnotifychannel.htm
 old-project: print
 ms.assetid: B86297A4-1234-46B1-A10B-BD9A6E5012F2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices], IPrintAsyncNotify interface, CreatePrintAsyncNotifyChannel,IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
+ms.date: 4/20/2018
+ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method
+# IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 
 
 ## -description

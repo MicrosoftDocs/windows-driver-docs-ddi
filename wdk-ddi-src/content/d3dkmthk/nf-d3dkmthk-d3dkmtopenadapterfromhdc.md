@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenadapterfromhdc.htm
 old-project: display
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, d3dkmthk/D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ api_name:
 -	D3DKMTOpenAdapterFromHdc
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenAdapterFromHdc function

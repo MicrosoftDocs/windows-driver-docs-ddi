@@ -1,14 +1,14 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizer.RasterizeRect
-title: IXpsRasterizer::RasterizeRect method
+title: IXpsRasterizer::RasterizeRect
 author: windows-driver-content
 description: The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
 old-location: print\ixpsrasterizer_rasterizerect.htm
 old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, IXpsRasterizer::RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect,IXpsRasterizer.RasterizeRect, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
+ms.date: 4/20/2018
+ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IXpsRasterizer.RasterizeRect
 product: Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IXpsRasterizer::RasterizeRect method
+# IXpsRasterizer::RasterizeRect
 
 
 ## -description

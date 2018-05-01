@@ -43,7 +43,7 @@ api_name:
 -	AtaPortCompleteRequest
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortCompleteRequest function

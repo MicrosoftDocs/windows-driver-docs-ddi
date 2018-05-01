@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.CancelSentRequestsForFile
-title: IWDFIoTarget::CancelSentRequestsForFile method
+title: IWDFIoTarget::CancelSentRequestsForFile
 author: windows-driver-content
 description: The CancelSentRequestsForFile method cancels all I/O requests that have been sent on behalf of the specified file object.
 old-location: wdf\iwdfiotarget_cancelsentrequestsforfile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: df008ee8-352f-4655-b4c0-750eeb281e6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CancelSentRequestsForFile method, CancelSentRequestsForFile method, IWDFIoTarget interface, CancelSentRequestsForFile,IWDFIoTarget.CancelSentRequestsForFile, IWDFIoTarget, IWDFIoTarget interface, CancelSentRequestsForFile method, IWDFIoTarget::CancelSentRequestsForFile, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, umdf.iwdfiotarget_cancelsentrequestsforfile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile
+ms.keywords: CancelSentRequestsForFile, CancelSentRequestsForFile method, CancelSentRequestsForFile method,IWDFIoTarget interface, IWDFIoTarget interface,CancelSentRequestsForFile method, IWDFIoTarget.CancelSentRequestsForFile, IWDFIoTarget::CancelSentRequestsForFile, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, umdf.iwdfiotarget_cancelsentrequestsforfile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoTarget.CancelSentRequestsForFile
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget::CancelSentRequestsForFile method
+# IWDFIoTarget::CancelSentRequestsForFile
 
 
 ## -description

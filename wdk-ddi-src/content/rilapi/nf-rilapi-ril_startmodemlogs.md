@@ -7,7 +7,7 @@ old-location: netvista\ril_startmodemlogs.htm
 old-project: netvista
 ms.assetid: 6f9b79a0-0947-4f69-b2b6-f35ad2ee70d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_StartModemLogs, RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_startmodemlogs, rilapi/RIL_StartModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_StartModemLogs
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_StartModemLogs function

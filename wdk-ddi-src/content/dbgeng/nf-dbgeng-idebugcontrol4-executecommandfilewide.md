@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ExecuteCommandFileWide
-title: IDebugControl4::ExecuteCommandFileWide method
+title: IDebugControl4::ExecuteCommandFileWide
 author: windows-driver-content
 description: The ExecuteCommandFileWide method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfilewide.htm
 old-project: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ExecuteCommandFileWide method [Windows Debugging], ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, ExecuteCommandFileWide,IDebugControl4.ExecuteCommandFileWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4::ExecuteCommandFileWide, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide
+ms.date: 4/24/2018
+ms.keywords: ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], ExecuteCommandFileWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteCommandFileWide method, IDebugControl4.ExecuteCommandFileWide, IDebugControl4::ExecuteCommandFileWide, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.ExecuteCommandFileWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::ExecuteCommandFileWide method
+# IDebugControl4::ExecuteCommandFileWide
 
 
 ## -description

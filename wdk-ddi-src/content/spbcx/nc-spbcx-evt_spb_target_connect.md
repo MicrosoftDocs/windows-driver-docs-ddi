@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_SPB_TARGET_CONNECT, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
+ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSpbTargetConnect
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_TARGET_CONNECT callback
+# EVT_SPB_TARGET_CONNECT callback function
 
 
 ## -description

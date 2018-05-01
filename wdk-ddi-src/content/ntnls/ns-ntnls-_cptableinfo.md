@@ -7,7 +7,7 @@ old-location: kernel\cptableinfo.htm
 old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PCPTABLEINFO, CPTABLEINFO, CPTABLEINFO structure [Kernel-Mode Driver Architecture], PCPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], _CPTABLEINFO, kernel.cptableinfo, ntnls/CPTABLEINFO, ntnls/PCPTABLEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

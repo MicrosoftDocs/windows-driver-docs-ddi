@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
-title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition method
+title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 author: windows-driver-content
 description: Returns stream presentation information.
 old-location: audio\iminiportwavertoutputstream_getoutputstreampresentationposition.htm
 old-project: audio
 ms.assetid: 8E52A10E-5666-41B5-B342-491E5AF9DD38
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream interface, GetOutputStreamPresentationPosition,IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
+ms.date: 4/16/2018
+ms.keywords: GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition method
+# IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 
 
 ## -description

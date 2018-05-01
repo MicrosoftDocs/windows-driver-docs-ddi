@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetEventSystem
-title: IDebugSystemObjects3::GetEventSystem method
+title: IDebugSystemObjects3::GetEventSystem
 author: windows-driver-content
 description: The GetEventSystem method returns the engine target ID for the target in which the last event occurred.
 old-location: debugger\geteventsystem.htm
 old-project: debugger
 ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, GetEventSystem,IDebugSystemObjects3.GetEventSystem, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem
+ms.date: 4/24/2018
+ms.keywords: GetEventSystem, GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging],IDebugSystemObjects3 interface, GetEventSystem method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects3.GetEventSystem, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugSystemObjects4.GetEventSystem
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetEventSystem method
+# IDebugSystemObjects3::GetEventSystem
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\pci_slot_number.htm
 old-project: kernel
 ms.assetid: 0e04813d-e138-435e-8357-562f79a3a4a2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER, PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], PPCI_SLOT_NUMBER, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], _PCI_SLOT_NUMBER, kernel.pci_slot_number, kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml, wdm/PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER
-req.product: Windows 10 or later.
 ---
 
 # _PCI_SLOT_NUMBER structure
@@ -59,12 +58,6 @@ The <b>PCI_SLOT_NUMBER</b> structure is <u>obsolete</u>. It defines the format o
 
 
 ### -field u
-
-
-
-#### AsULONG
-
-Specifies the logical slot number of the device being configured.
 
 
 ### -field u.bits
@@ -87,9 +80,7 @@ Specifies the particular device on a multifunction adapter at the given slot tha
  
 
 
-
-
-##### - u.AsULONG
+### -field u.AsULONG
 
 Specifies the logical slot number of the device being configured.
 

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_PNP_CAPABILITIES structure

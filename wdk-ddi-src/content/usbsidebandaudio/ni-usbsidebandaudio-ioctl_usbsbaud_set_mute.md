@@ -7,8 +7,8 @@ old-location: audio\ioctl_usbsbaud_set_mute.htm
 old-project: audio
 ms.assetid: 13EC7C66-8E86-45D4-B11E-D9F8969BDE20
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_USBSBAUD_SET_MUTE, IOCTL_USBSBAUD_SET_MUTE control code [Audio Devices], audio.ioctl_usbsbaud_set_mute, usbsidebandaudio/IOCTL_USBSBAUD_SET_MUTE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_USBSBAUD_SET_MUTE, IOCTL_USBSBAUD_SET_MUTE control, IOCTL_USBSBAUD_SET_MUTE control code [Audio Devices], audio.ioctl_usbsbaud_set_mute, usbsidebandaudio/IOCTL_USBSBAUD_SET_MUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USBSBAUD_SET_MUTE
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBSBAUD_SET_MUTE IOCTL

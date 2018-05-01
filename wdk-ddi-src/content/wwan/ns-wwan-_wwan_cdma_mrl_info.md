@@ -7,7 +7,7 @@ old-location: netvista\wwan_cdma_mrl_info.htm
 old-project: netvista
 ms.assetid: D8633E80-C7A3-4050-8E8E-8AE459F905D5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, wwan/PWWAN_CDMA_MRL_INFO, wwan/WWAN_CDMA_MRL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_CDMA_MRL_INFO structure

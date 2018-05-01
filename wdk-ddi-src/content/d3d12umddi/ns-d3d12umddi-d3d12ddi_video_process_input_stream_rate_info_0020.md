@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_input_stream_rate_info.htm
 old-project: display
 ms.assetid: 3F92B206-BA05-4ECC-854B-8D1EA9D7FD19
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020, display.d3d12ddi_video_process_input_stream_rate_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

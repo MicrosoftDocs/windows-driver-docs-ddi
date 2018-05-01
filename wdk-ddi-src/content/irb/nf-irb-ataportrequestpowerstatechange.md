@@ -40,7 +40,7 @@ api_name:
 -	AtaPortRequestPowerStateChange
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortRequestPowerStateChange function

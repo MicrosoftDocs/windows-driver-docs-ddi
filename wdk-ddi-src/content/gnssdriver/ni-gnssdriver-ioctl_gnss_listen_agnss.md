@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_AGNSS
 title: IOCTL_GNSS_LISTEN_AGNSS
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_AGNSS control code is used by the GNSS adapter to start listening for AGNSS requests issued by the GNSS driver.
-old-location: sensors\ioctl_gnss_listen_agnss.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_listen_agnss.htm
+old-project: gnss
 ms.assetid: B065CDE1-BB6D-4209-881B-50743A38EDBE
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_AGNSS, sensors.ioctl_gnss_listen_agnss
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_listen_agnss, gnssdriver/IOCTL_GNSS_LISTEN_AGNSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GNSS_LISTEN_AGNSS
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_LISTEN_AGNSS IOCTL

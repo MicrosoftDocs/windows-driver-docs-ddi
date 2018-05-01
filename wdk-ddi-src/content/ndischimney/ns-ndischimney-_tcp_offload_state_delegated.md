@@ -7,7 +7,7 @@ old-location: netvista\tcp_offload_state_delegated.htm
 old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -265,15 +265,13 @@ The current send window probe round. For a description of the send window probe 
 This member is a union that consists of the following members:
 
 
-
-#### ProbeCount
+### -field KeepAlive.ProbeCount
 
 The number of keepalive probes that have been sent that have not received a response (see RFC
       1122).
 
 
-
-#### TimeoutDelta
+### -field KeepAlive.TimeoutDelta
 
 The time remaining, in clock ticks, until the next keepalive timeout (see RFC 1122). Note that a
       value of -1 immediately after the TCP connection was offloaded indicates that the keepalive timer was
@@ -287,14 +285,12 @@ The time remaining, in clock ticks, until the next keepalive timeout (see RFC 11
 This member is a union that consists of the following members:
 
 
-
-#### Count
+### -field Retransmit.Count
 
 The number of retransmits that have been sent (see RFC 2581).
 
 
-
-#### TimeoutDelta
+### -field Retransmit.TimeoutDelta
 
 The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2581). Note that a
       value of -1 immediately after the TCP connection was offloaded indicates that the retransmit timer was
@@ -349,37 +345,7 @@ This variable is used only in an initiate offload or terminate offload operation
 
 
 
-### -field DWnd
-
- 
-
-
-
-
-#### - BufferedData
-
-A pointer to buffered receive data. The host stack can pass such data to the offload target when
-      offloading a TCP connection. (For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
-      offload target can pass such data to the host stack when uploading a TCP connection. (For more
-      information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
-
-
-#### - ReceiveBacklogSize
-
-The offload target specifies this value to indicate the number of receive data bytes that are
-      buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
-      delegated state for the connection to obtain this value. The host stack uses this value to post one or
-      more receive requests on the connection that are large enough to hold all of the buffered data.
-      
-
-If the offload target does not support the receive backlog size feature, it should write a value of
-      0xFFFFFFFF to 
-      <b>ReceiveBacklogSize</b> .
-
-
-#### - SendBacklogSize
+### -field SendBacklogSize
 
 The offload target specifies this value to indicate the number of data bytes that the host stack
        should have outstanding at the offload target for optimum performance. (This is the number of send
@@ -400,6 +366,36 @@ If the offload target does not support the send-backlog-size feature, it must wr
        0xFFFFFFFF to 
        <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
        <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
+
+
+### -field BufferedData
+
+A pointer to buffered receive data. The host stack can pass such data to the offload target when
+      offloading a TCP connection. (For more information, see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
+      offload target can pass such data to the host stack when uploading a TCP connection. (For more
+      information, see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
+
+
+### -field ReceiveBacklogSize
+
+The offload target specifies this value to indicate the number of receive data bytes that are
+      buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
+      delegated state for the connection to obtain this value. The host stack uses this value to post one or
+      more receive requests on the connection that are large enough to hold all of the buffered data.
+      
+
+If the offload target does not support the receive backlog size feature, it should write a value of
+      0xFFFFFFFF to 
+      <b>ReceiveBacklogSize</b> .
+
+
+### -field DWnd
+
+ 
+
+
 
 
 ## -remarks

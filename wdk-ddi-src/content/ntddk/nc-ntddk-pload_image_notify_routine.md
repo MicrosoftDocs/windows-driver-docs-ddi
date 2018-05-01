@@ -7,8 +7,8 @@ old-location: kernel\pload_image_notify_routine.htm
 old-project: kernel
 ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
+ms.date: 4/5/2018
+ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE callback, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetLoadImageNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PLOAD_IMAGE_NOTIFY_ROUTINE callback
+# PLOAD_IMAGE_NOTIFY_ROUTINE callback function
 
 
 ## -description

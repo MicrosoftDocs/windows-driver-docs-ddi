@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadTagged
-title: IDebugDataSpaces4::ReadTagged method
+title: IDebugDataSpaces4::ReadTagged
 author: windows-driver-content
 description: The ReadTagged method reads the tagged data that might be associated with a debugger session.
 old-location: debugger\readtagged.htm
 old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, ReadTagged,IDebugDataSpaces4.ReadTagged, dbgeng/IDebugDataSpaces3::ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces3 interface [Windows Debugging],ReadTagged method, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4 interface [Windows Debugging],ReadTagged method, IDebugDataSpaces4.ReadTagged, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged, ReadTagged method [Windows Debugging], ReadTagged method [Windows Debugging],IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugDataSpaces4.ReadTagged
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::ReadTagged method
+# IDebugDataSpaces4::ReadTagged
 
 
 ## -description

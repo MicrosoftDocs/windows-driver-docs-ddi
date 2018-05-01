@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.AddSymbolWide
-title: IDebugSymbolGroup2::AddSymbolWide method
+title: IDebugSymbolGroup2::AddSymbolWide
 author: windows-driver-content
 description: The AddSymbolWide method adds a symbol to a symbol group.
 old-location: debugger\addsymbolwide.htm
 old-project: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddSymbolWide method [Windows Debugging], AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, AddSymbolWide,IDebugSymbolGroup2.AddSymbolWide, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
+ms.date: 4/24/2018
+ms.keywords: AddSymbolWide, AddSymbolWide method [Windows Debugging], AddSymbolWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],AddSymbolWide method, IDebugSymbolGroup2.AddSymbolWide, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbolGroup2.AddSymbolWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup2::AddSymbolWide method
+# IDebugSymbolGroup2::AddSymbolWide
 
 
 ## -description

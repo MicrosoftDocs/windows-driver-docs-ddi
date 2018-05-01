@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bac1e5ec-0e0c-4d7a-b260-2e73addd0abf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_CHECK_VERIFY2, IOCTL_STORAGE_CHECK_VERIFY2 control code [Storage Devices], k307_81e9c9dd-6905-4d07-9da0-f54997bc8640.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY2, storage.ioctl_storage_check_verify2
+ms.keywords: IOCTL_STORAGE_CHECK_VERIFY2, IOCTL_STORAGE_CHECK_VERIFY2 control, IOCTL_STORAGE_CHECK_VERIFY2 control code [Storage Devices], k307_81e9c9dd-6905-4d07-9da0-f54997bc8640.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY2, storage.ioctl_storage_check_verify2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_STORAGE_CHECK_VERIFY2
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_CHECK_VERIFY2 IOCTL

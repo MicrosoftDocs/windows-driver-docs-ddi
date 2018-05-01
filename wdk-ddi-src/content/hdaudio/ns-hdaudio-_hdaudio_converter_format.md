@@ -7,7 +7,7 @@ old-location: audio\hdaudio_converter_format.htm
 old-project: audio
 ms.assetid: 623f58f6-db82-4a4a-bac3-cc821babfe99
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PHDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT structure [Audio Devices], PHDAUDIO_CONVERTER_FORMAT, PHDAUDIO_CONVERTER_FORMAT structure pointer [Audio Devices], _HDAUDIO_CONVERTER_FORMAT, aud-prop2_fbc3cdcb-94a1-43ef-bf23-4b1cca37e99d.xml, audio.hdaudio_converter_format, hdaudio/HDAUDIO_CONVERTER_FORMAT, hdaudio/PHDAUDIO_CONVERTER_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,6 +77,9 @@ The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream forma
  
 
 
+### -field ConverterFormat
+
+Specifies the stream's data format as an encoded 16-bit value. For more information, see the following Remarks section.
 
 
 #### - ( unnamed struct )
@@ -106,11 +109,6 @@ Specifies the stream's sample rate. For more information, see the following Rema
 #### StreamType
 
 Specifies the stream type. If <b>StreamType</b>=0, the stream contains PCM data. If <b>StreamType</b>=1, the stream contains non-PCM data.
-
-
-#### - ConverterFormat
-
-Specifies the stream's data format as an encoded 16-bit value. For more information, see the following Remarks section.
 
 
 ## -remarks

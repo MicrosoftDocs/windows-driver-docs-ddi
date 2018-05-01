@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.HasContext
-title: IWDTFTarget2::HasContext method
+title: IWDTFTarget2::HasContext
 author: windows-driver-content
 description: Determines whether a given context exists for the target.
 old-location: dtf\iwdtftarget2_hascontext.htm
 old-project: dtf
 ms.assetid: 16ea6100-6e3e-4e50-9055-4396deb39a37
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HasContext method [Windows Device Testing Framework], HasContext method [Windows Device Testing Framework], IWDTFTarget2 interface, HasContext,IWDTFTarget2.HasContext, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasContext method, IWDTFTarget2::HasContext, Microsoft.WDTF.IWDTFTarget2.HasContext, Microsoft::WDTF::IWDTFTarget2::HasContext, dtf.iwdtftarget2_hascontext, wdtf/IWDTFTarget2::HasContext
+ms.date: 4/4/2018
+ms.keywords: HasContext, HasContext method [Windows Device Testing Framework], HasContext method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],HasContext method, IWDTFTarget2.HasContext, IWDTFTarget2::HasContext, Microsoft.WDTF.IWDTFTarget2.HasContext, Microsoft::WDTF::IWDTFTarget2::HasContext, dtf.iwdtftarget2_hascontext, wdtf/IWDTFTarget2::HasContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTarget2.HasContext
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::HasContext method
+# IWDTFTarget2::HasContext
 
 
 ## -description

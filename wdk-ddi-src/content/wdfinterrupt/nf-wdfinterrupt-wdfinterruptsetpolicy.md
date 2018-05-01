@@ -43,8 +43,7 @@ api_name:
 -	WdfInterruptSetPolicy
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfInterruptSetPolicy function

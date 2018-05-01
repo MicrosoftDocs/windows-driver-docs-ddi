@@ -40,11 +40,10 @@ api_name:
 -	VirtualHwStorFindAdapter
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# VIRTUAL_HW_FIND_ADAPTER callback
+# VIRTUAL_HW_FIND_ADAPTER callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_checksharedresourceaccess.htm
 old-project: display
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, _D3DKMT_CHECKSHAREDRESOURCEACCESS, d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

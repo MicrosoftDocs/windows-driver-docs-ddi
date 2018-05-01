@@ -41,8 +41,7 @@ api_name:
 -	WdfCommonBufferGetAlignedVirtualAddress
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfCommonBufferGetAlignedVirtualAddress function

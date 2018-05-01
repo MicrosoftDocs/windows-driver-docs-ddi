@@ -7,7 +7,7 @@ old-location: stream\kstarget_state.htm
 old-project: stream
 ms.assetid: 4D18A0F0-51E9-4871-B8C1-32FAA518FAEC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSTARGET_STATE, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE_DISABLED, KSTARGET_STATE_ENABLED, ks/KSTARGET_STATE, ks/KSTARGET_STATE_DISABLED, ks/KSTARGET_STATE_ENABLED, stream.kstarget_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

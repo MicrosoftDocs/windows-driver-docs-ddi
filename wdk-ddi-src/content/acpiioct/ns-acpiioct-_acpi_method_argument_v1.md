@@ -98,14 +98,12 @@ The number of UCHAR elements in the <b>Data</b> array that contains the argument
  
 
 
-
-
-#### - Argument
+### -field DUMMYUNIONNAME.Argument
 
 An argument value of type ULONG.
 
 
-#### - Data
+### -field DUMMYUNIONNAME.Data
 
 An array of values of type UCHAR that contains argument data.
 

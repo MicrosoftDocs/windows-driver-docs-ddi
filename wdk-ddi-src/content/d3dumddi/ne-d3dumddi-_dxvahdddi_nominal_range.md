@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_nominal_range.htm
 old-project: display
 ms.assetid: 952BE36C-0F53-47C3-9C95-E6ECAB9D36D1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, _DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, display.dxvahdddi_nominal_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_vlan.htm
 old-project: netvista
 ms.assetid: 2A151351-AC57-4F7C-BA1A-201F6FB29C4F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_VLAN, netvista.ndis_switch_port_property_vlan, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -128,26 +128,6 @@ The array has 64 UINT64 elements that represent 4096 consecutive bits.
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModePrivate</b>. This structure contains the following members:
 
 
-
-#### SecondaryVlanId
-
-A UINT16 value that specifies the secondary VLAN identifier for an extensible switch port.
-
-<div class="alert"><b>Note</b>  This member is only valid if   the  <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeIsolated</b> or <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
-<div> </div>
-
-
-#### SecondaryVlanIdArray
-
-An array of UINT64 elements that specify the secondary VLAN identifiers for an extensible switch port.
-
-The array has 64 UINT64 elements, which represent 4096 consecutive bits.
-         Each bit that has a value of one specifies a secondary VLAN identifier for the extensible switch port. For example,  if bit five is set to one, the secondary VLAN identifier is five. Similarly, if bit 128 is set to zero, 128 cannot be used as a secondary VLAN identifier.
-
-
-<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div>
-<div> </div>
-
 ### -field PvlanProperties.PvlanMode
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598244">NDIS_SWITCH_PORT_PVLAN_MODE</a> enumeration value that specifies the operation mode of the PVLAN.
@@ -158,6 +138,24 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598244">NDIS_S
 A UINT16 value that specifies the primary VLAN identifier for an extensible switch port.
 
 <div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
+<div> </div>
+
+### -field PvlanProperties.SecondaryVlanId
+
+A UINT16 value that specifies the secondary VLAN identifier for an extensible switch port.
+
+<div class="alert"><b>Note</b>  This member is only valid if   the  <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeIsolated</b> or <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
+<div> </div>
+
+### -field PvlanProperties.SecondaryVlanIdArray
+
+An array of UINT64 elements that specify the secondary VLAN identifiers for an extensible switch port.
+
+The array has 64 UINT64 elements, which represent 4096 consecutive bits.
+         Each bit that has a value of one specifies a secondary VLAN identifier for the extensible switch port. For example,  if bit five is set to one, the secondary VLAN identifier is five. Similarly, if bit 128 is set to zero, 128 cannot be used as a secondary VLAN identifier.
+
+
+<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div>
 <div> </div>
 
 #### - SupportedModes

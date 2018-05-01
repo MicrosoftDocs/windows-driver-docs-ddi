@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
+ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET callback, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	EvtNfcCxWriteNciPacket
 product: Windows
 targetos: Windows
-req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
+req.typenames: 
 ---
 
-# EVT_NFC_CX_WRITE_NCI_PACKET callback
+# EVT_NFC_CX_WRITE_NCI_PACKET callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3d11_1_ddi_render_target_blend_desc.htm
 old-project: display
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

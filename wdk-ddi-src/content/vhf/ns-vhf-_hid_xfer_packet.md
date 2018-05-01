@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
-req.product: Windows 10 or later.
 ---
 
 # _HID_XFER_PACKET structure

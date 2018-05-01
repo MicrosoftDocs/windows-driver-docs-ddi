@@ -7,7 +7,7 @@ old-location: audio\ksac3_downmix.htm
 old-project: audio
 ms.assetid: d35450ec-5ddc-4312-bd77-ab7e89690f82
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAC3_DOWNMIX, KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX, PKSAC3_DOWNMIX structure pointer [Audio Devices], aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, audio.ksac3_downmix, ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

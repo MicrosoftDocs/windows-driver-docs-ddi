@@ -7,8 +7,8 @@ old-location: netvista\protocolcmclosecall.htm
 old-project: netvista
 ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_CLOSE_CALL, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_CLOSE_CALL, PROTOCOL_CM_CLOSE_CALL callback, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolCmCloseCall
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_CLOSE_CALL callback
+# PROTOCOL_CM_CLOSE_CALL callback function
 
 
 ## -description

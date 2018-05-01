@@ -7,8 +7,8 @@ old-location: display\createblendstate_d3d11_1_.htm
 old-project: display
 ms.assetid: 5956412e-ae35-4960-afc0-a82c6a2aa9f1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
+ms.date: 4/16/2018
+ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, PFND3D11_1DDI_CREATEBLENDSTATE callback, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateBlendState(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CREATEBLENDSTATE callback
+# PFND3D11_1DDI_CREATEBLENDSTATE callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterInitializer.put_Value
-title: IPrintSchemaParameterInitializer::put_Value method
+title: IPrintSchemaParameterInitializer::put_Value
 author: windows-driver-content
 description: The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_putvalue.htm
 old-project: print
 ms.assetid: B0F003B4-D82D-4110-B53A-CDE45B75DC8C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], Value property, IPrintSchemaParameterInitializer,put_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices], IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_putvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::put_Value, put_Value,IPrintSchemaParameterInitializer.put_Value
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,put_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.put_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_putvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::put_Value, put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaParameterInitializer.put_Value
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaParameterInitializer::put_Value method
+# IPrintSchemaParameterInitializer::put_Value
 
 
 ## -description

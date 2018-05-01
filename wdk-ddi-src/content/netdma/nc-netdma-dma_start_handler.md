@@ -7,8 +7,8 @@ old-location: netvista\providerstartdma.htm
 old-project: netvista
 ms.assetid: 0926e8c4-f2ca-401f-abe8-76aec359a1e2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DMA_START_HANDLER, ProviderStartDma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml, netvista.providerstartdma
+ms.date: 4/25/2018
+ms.keywords: DMA_START_HANDLER, DMA_START_HANDLER callback, ProviderStartDma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml, netvista.providerstartdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProviderStartDma
 product: Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_START_HANDLER callback
+# DMA_START_HANDLER callback function
 
 
 ## -description

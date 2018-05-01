@@ -40,8 +40,7 @@ api_name:
 -	SensorsCxDeviceInitConfig
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxDeviceInitConfig function

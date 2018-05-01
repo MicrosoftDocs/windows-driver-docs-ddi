@@ -133,20 +133,17 @@ A proprietary event occurred.
 ### -field Event
 
 
-
-#### Link_EventInfo
+### -field Event.Link_EventInfo
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556124">HBA_Link_EventInfo</a> that holds information associated with a link event. 
 
 
-
-#### RSCN_EventInfo
+### -field Event.RSCN_EventInfo
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557188">HBA_RSCN_EventInfo</a> that holds information associated with a link event.
 
 
-
-#### Pty_EventInfo
+### -field Event.Pty_EventInfo
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557125">HBA_Pty_EventInfo</a> that holds information associated with a link event.
 

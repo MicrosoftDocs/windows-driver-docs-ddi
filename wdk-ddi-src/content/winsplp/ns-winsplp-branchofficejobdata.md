@@ -7,7 +7,7 @@ old-location: print\branchofficejobdata.htm
 old-project: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PBranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], print.branchofficejobdata, winsplp/BranchOfficeJobData, winsplp/PBranchOfficeJobData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: BranchOfficeJobData, *PBranchOfficeJobData
-req.product: Windows 10 or later.
 ---
 
 # BranchOfficeJobData structure
@@ -71,32 +70,27 @@ Specifies the ID of the job on the client.
 ### -field JobInfo
 
 
-
-#### LogJobPrinted
+### -field JobInfo.LogJobPrinted
 
 Describes  the <b>BranchOfficeJobDataPrinted</b> type member <b>LogJobPrinted</b>.
 
 
-
-#### LogJobRendered
+### -field JobInfo.LogJobRendered
 
 Describes the <b>BranchOfficeJobDataRendered</b> type member <b>LogJobRendered</b>.
 
 
-
-#### LogJobError
+### -field JobInfo.LogJobError
 
 Describes the <b>BranchOfficeJobDataError</b> type member <b>LogJobError</b>.
 
 
-
-#### LogPipelineFailed
+### -field JobInfo.LogPipelineFailed
 
 Describes the <b>BranchOfficeJobDataPipelineFailed</b> type member <b>LogPipelineFailed</b>.
 
 
-
-#### LogOfflineFileFull
+### -field JobInfo.LogOfflineFileFull
 
 Describes the <b>BranchOfficeLogOfflineFileFull</b> type member <b>LogOfflineFileFull</b>.
 

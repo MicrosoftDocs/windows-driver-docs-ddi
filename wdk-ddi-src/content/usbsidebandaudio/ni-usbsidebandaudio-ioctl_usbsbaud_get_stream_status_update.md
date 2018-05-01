@@ -7,8 +7,8 @@ old-location: audio\ioctl_usbsbaud_get_stream_status_update.htm
 old-project: audio
 ms.assetid: F50F7AEC-EEF5-4055-9877-8FE221177D12
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE, IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE control code [Audio Devices], audio.ioctl_usbsbaud_get_stream_status_update, usbsidebandaudio/IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE, IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE control, IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE control code [Audio Devices], audio.ioctl_usbsbaud_get_stream_status_update, usbsidebandaudio/IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBSBAUD_GET_STREAM_STATUS_UPDATE IOCTL

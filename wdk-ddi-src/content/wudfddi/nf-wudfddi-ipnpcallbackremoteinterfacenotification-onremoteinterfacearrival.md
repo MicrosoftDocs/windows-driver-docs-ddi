@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
-title: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method
+title: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 author: windows-driver-content
 description: A driver's OnRemoteInterfaceArrival event callback function informs the driver when a device interface is available.
 old-location: wdf\ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival,IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
+ms.keywords: IPnpCallbackRemoteInterfaceNotification interface,OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method,IPnpCallbackRemoteInterfaceNotification interface, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method
+# IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 
 
 ## -description

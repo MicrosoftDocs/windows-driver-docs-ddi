@@ -40,8 +40,7 @@ api_name:
 -	UPSInit
 product: Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UPSInit function

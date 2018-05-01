@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_offerresources.htm
 old-project: display
 ms.assetid: 54d53a48-b2e2-43f6-9e6d-c35c732b07d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_ARG_OFFERRESOURCES, DXGI_DDI_ARG_OFFERRESOURCES structure [Display Devices], _DXGI_DDI_ARG_OFFERRESOURCES, display.dxgi_ddi_arg_offerresources, dxgiddi/DXGI_DDI_ARG_OFFERRESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices

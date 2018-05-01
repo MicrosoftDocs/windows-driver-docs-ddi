@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_BIR_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_BIR_HEADER structure
@@ -132,6 +131,16 @@ Specifies the creation date and time of this BIR in UTC by using the format YYYY
 ### -field ValidityPeriod
 
 Specifies the validity period of this BIR by using the format described in <i>CreationDate</i>.
+
+
+### -field ValidityPeriod.BeginDate
+
+ 
+
+
+### -field ValidityPeriod.EndDate
+
+ 
 
 
 ### -field BiometricDataFormat

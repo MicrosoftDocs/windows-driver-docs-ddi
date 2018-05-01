@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelallocate.htm
 old-project: netvista
 ms.assetid: 97169CF5-566E-4EF6-88AD-7B68E9FE46EC
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelAllocate, VmbChannelAllocate function [Network Drivers Starting with Windows Vista], netvista.vmbchannelallocate, vmbuskernelmodeclientlibapi/VmbChannelAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelAllocate
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelAllocate function

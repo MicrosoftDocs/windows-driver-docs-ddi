@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_base_callbacks.htm
 old-project: display
 ms.assetid: dd1690e2-7eef-4086-a3e1-9ca456b79a6f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_BASE_CALLBACKS, DXGI_DDI_BASE_CALLBACKS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6622df62-429f-438b-aa1a-61fd7fb8df65.xml, display.dxgi_ddi_base_callbacks, dxgiddi/DXGI_DDI_BASE_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices

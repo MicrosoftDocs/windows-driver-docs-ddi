@@ -7,8 +7,8 @@ old-location: display\clearrendertargetview.htm
 old-project: display
 ms.assetid: 9dc95dd2-01ad-45d7-9e75-049026b25968
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: ClearRenderTargetView, ClearRenderTargetView callback function [Display Devices], PFND3D10DDI_CLEARRENDERTARGETVIEW, UserModeDisplayDriverDx10_Functions_b9129a55-a400-45b7-a3a9-da477170c99c.xml, d3d10umddi/ClearRenderTargetView, display.clearrendertargetview
+ms.date: 4/16/2018
+ms.keywords: ClearRenderTargetView, ClearRenderTargetView callback function [Display Devices], PFND3D10DDI_CLEARRENDERTARGETVIEW, PFND3D10DDI_CLEARRENDERTARGETVIEW callback, UserModeDisplayDriverDx10_Functions_b9129a55-a400-45b7-a3a9-da477170c99c.xml, d3d10umddi/ClearRenderTargetView, display.clearrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ClearRenderTargetView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CLEARRENDERTARGETVIEW callback
+# PFND3D10DDI_CLEARRENDERTARGETVIEW callback function
 
 
 ## -description

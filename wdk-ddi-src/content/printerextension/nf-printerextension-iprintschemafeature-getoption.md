@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.GetOption
-title: IPrintSchemaFeature::GetOption method
+title: IPrintSchemaFeature::GetOption
 author: windows-driver-content
 description: Gets the option with the given name.
 old-location: print\iprintschemafeature_getoption.htm
 old-project: print
 ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOption method [Print Devices], GetOption method [Print Devices], IPrintSchemaFeature interface, GetOption,IPrintSchemaFeature.GetOption, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], GetOption method, IPrintSchemaFeature::GetOption, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption
+ms.date: 4/20/2018
+ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices],GetOption method, IPrintSchemaFeature.GetOption, IPrintSchemaFeature::GetOption, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaFeature.GetOption
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaFeature::GetOption method
+# IPrintSchemaFeature::GetOption
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\iogetlowerdeviceobject.htm
 old-project: ifsk
 ms.assetid: 2446dfee-baa4-4f7b-a5a0-ff13bf45ce4b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], ifsk.iogetlowerdeviceobject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, ntifs/IoGetLowerDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoGetLowerDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoGetLowerDeviceObject function

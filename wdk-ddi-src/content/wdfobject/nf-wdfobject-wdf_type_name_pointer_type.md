@@ -43,8 +43,7 @@ api_name:
 -	WDF_TYPE_NAME_POINTER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_TYPE_NAME_POINTER_TYPE macro

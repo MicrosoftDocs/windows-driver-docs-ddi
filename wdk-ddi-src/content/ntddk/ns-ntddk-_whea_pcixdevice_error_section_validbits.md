@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,39 +62,39 @@ The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a <
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union.
-
-
-#### - ErrorStatus
+### -field DUMMYSTRUCTNAME.ErrorStatus
 
 A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - IdInfo
+### -field DUMMYSTRUCTNAME.IdInfo
 
 A single bit that indicates that the <b>IdInfo</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - IoNumber
-
-A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
-
-
-#### - MemoryNumber
+### -field DUMMYSTRUCTNAME.MemoryNumber
 
 A single bit that indicates that the <b>MemoryNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - RegisterDataPairs
+### -field DUMMYSTRUCTNAME.IoNumber
+
+A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.RegisterDataPairs
 
 A single bit that indicates that the <b>RegisterDataPairs</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
+
+
+### -field ValidBits
+
+A ULONGLONG representation of the contents of the WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union.
 
 
 ## -remarks

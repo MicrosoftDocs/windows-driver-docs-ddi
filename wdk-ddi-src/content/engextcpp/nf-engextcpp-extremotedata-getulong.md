@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUlong
-title: ExtRemoteData::GetUlong method
+title: ExtRemoteData::GetUlong
 author: windows-driver-content
 description: The GetUlong method returns a ULONG version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getulong.htm
 old-project: debugger
 ms.assetid: ce25b52e-5ac7-470d-902b-f45350718dff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUlong method, ExtRemoteData::GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], ExtRemoteData class, GetUlong,ExtRemoteData.GetUlong, debugger.extremotedata_getulong
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData class [Windows Debugging],GetUlong method, ExtRemoteData.GetUlong, ExtRemoteData::GetUlong, GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteData.GetUlong
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetUlong method
+# ExtRemoteData::GetUlong
 
 
 ## -description

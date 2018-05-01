@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_srq.htm
 old-project: netvista
 ms.assetid: 83125C65-021F-4EEE-8819-B73752908DE7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CREATE_SRQ, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_SRQ, NDK_FN_CREATE_SRQ callback, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkCreateSrq
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_SRQ callback
+# NDK_FN_CREATE_SRQ callback function
 
 
 ## -description

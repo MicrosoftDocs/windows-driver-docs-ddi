@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetBreakpointById2
-title: IDebugControl4::GetBreakpointById2 method
+title: IDebugControl4::GetBreakpointById2
 author: windows-driver-content
 description: The GetBreakpointById2 method returns the breakpoint with the specified breakpoint ID.
 old-location: debugger\getbreakpointbyid2.htm
 old-project: debugger
 ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface, GetBreakpointById2,IDebugControl4.GetBreakpointById2, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
+ms.date: 4/24/2018
+ms.keywords: GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetBreakpointById2 method, IDebugControl4.GetBreakpointById2, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.GetBreakpointById2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetBreakpointById2 method
+# IDebugControl4::GetBreakpointById2
 
 
 ## -description

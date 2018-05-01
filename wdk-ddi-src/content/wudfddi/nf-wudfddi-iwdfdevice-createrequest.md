@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateRequest
-title: IWDFDevice::CreateRequest method
+title: IWDFDevice::CreateRequest
 author: windows-driver-content
 description: The CreateRequest method creates an unformatted request object.
 old-location: wdf\iwdfdevice_createrequest.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 031ce604-9d6f-4fdd-bacc-d1897f260a14
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateRequest method, CreateRequest method, IWDFDevice interface, CreateRequest,IWDFDevice.CreateRequest, IWDFDevice, IWDFDevice interface, CreateRequest method, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
+ms.keywords: CreateRequest, CreateRequest method, CreateRequest method,IWDFDevice interface, IWDFDevice interface,CreateRequest method, IWDFDevice.CreateRequest, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice.CreateRequest
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::CreateRequest method
+# IWDFDevice::CreateRequest
 
 
 ## -description

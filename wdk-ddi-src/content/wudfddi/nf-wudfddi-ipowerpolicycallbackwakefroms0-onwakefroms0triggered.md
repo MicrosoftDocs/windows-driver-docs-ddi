@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromS0.OnWakeFromS0Triggered
-title: IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered method
+title: IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered
 author: windows-driver-content
 description: A driver's OnWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.
 old-location: wdf\ipowerpolicycallbackwakefroms0_onwakefroms0triggered.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ebcd31f9-79cd-4c43-8cac-231ff97f269e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnWakeFromS0Triggered method, IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered, OnWakeFromS0Triggered method, OnWakeFromS0Triggered method, IPowerPolicyCallbackWakeFromS0 interface, OnWakeFromS0Triggered,IPowerPolicyCallbackWakeFromS0.OnWakeFromS0Triggered, UMDFDeviceObjectRef_52f89758-227c-4849-83ac-30826d2d36d0.xml, umdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, wdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, wudfddi/IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered
+ms.keywords: IPowerPolicyCallbackWakeFromS0 interface,OnWakeFromS0Triggered method, IPowerPolicyCallbackWakeFromS0.OnWakeFromS0Triggered, IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered, OnWakeFromS0Triggered, OnWakeFromS0Triggered method, OnWakeFromS0Triggered method,IPowerPolicyCallbackWakeFromS0 interface, UMDFDeviceObjectRef_52f89758-227c-4849-83ac-30826d2d36d0.xml, umdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, wdf.ipowerpolicycallbackwakefroms0_onwakefroms0triggered, wudfddi/IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPowerPolicyCallbackWakeFromS0.OnWakeFromS0Triggered
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered method
+# IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered
 
 
 ## -description

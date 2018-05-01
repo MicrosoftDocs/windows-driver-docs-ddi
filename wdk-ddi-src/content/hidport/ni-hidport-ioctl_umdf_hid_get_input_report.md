@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 05BA5290-33D5-4009-98EE-E530546C44D3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_UMDF_HID_GET_INPUT_REPORT, IOCTL_UMDF_HID_GET_INPUT_REPORT control code, hid.ioctl_umdf_hid_get_input_report, hidport/IOCTL_UMDF_HID_GET_INPUT_REPORT, umdf.ioctl_umdf_hid_get_input_report
+ms.keywords: IOCTL_UMDF_HID_GET_INPUT_REPORT, IOCTL_UMDF_HID_GET_INPUT_REPORT control, IOCTL_UMDF_HID_GET_INPUT_REPORT control code, hid.ioctl_umdf_hid_get_input_report, hidport/IOCTL_UMDF_HID_GET_INPUT_REPORT, umdf.ioctl_umdf_hid_get_input_report
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_UMDF_HID_GET_INPUT_REPORT
 product: Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_UMDF_HID_GET_INPUT_REPORT IOCTL

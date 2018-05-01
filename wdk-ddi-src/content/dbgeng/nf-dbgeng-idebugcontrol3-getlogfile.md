@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetLogFile
-title: IDebugControl3::GetLogFile method
+title: IDebugControl3::GetLogFile
 author: windows-driver-content
 description: The GetLogFile method returns the name of the currently open log file.
 old-location: debugger\getlogfile.htm
 old-project: debugger
 ms.assetid: 9d71a817-55b5-4042-8de8-15b23e51dffd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetLogFile method [Windows Debugging], GetLogFile method [Windows Debugging], IDebugControl interface, GetLogFile method [Windows Debugging], IDebugControl2 interface, GetLogFile method [Windows Debugging], IDebugControl3 interface, GetLogFile,IDebugControl3.GetLogFile, IDebugControl interface [Windows Debugging], GetLogFile method, IDebugControl2 interface [Windows Debugging], GetLogFile method, IDebugControl2::GetLogFile, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetLogFile method, IDebugControl3::GetLogFile, IDebugControl::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, dbgeng/IDebugControl2::GetLogFile, dbgeng/IDebugControl3::GetLogFile, dbgeng/IDebugControl::GetLogFile, debugger.getlogfile
+ms.date: 4/24/2018
+ms.keywords: GetLogFile, GetLogFile method [Windows Debugging], GetLogFile method [Windows Debugging],IDebugControl interface, GetLogFile method [Windows Debugging],IDebugControl2 interface, GetLogFile method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetLogFile method, IDebugControl2 interface [Windows Debugging],GetLogFile method, IDebugControl2::GetLogFile, IDebugControl3 interface [Windows Debugging],GetLogFile method, IDebugControl3.GetLogFile, IDebugControl3::GetLogFile, IDebugControl::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, dbgeng/IDebugControl2::GetLogFile, dbgeng/IDebugControl3::GetLogFile, dbgeng/IDebugControl::GetLogFile, debugger.getlogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetLogFile
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetLogFile method
+# IDebugControl3::GetLogFile
 
 
 ## -description

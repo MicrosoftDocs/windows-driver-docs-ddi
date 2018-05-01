@@ -7,7 +7,7 @@ old-location: display\d3dkmt-createstandardallocationflags.htm
 old-project: display
 ms.assetid: a1a4aa0c-2edc-48b9-ad49-c876be930955
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATIONFLAGS, D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS, display.d3dkmt-createstandardallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Used to create standard allocation flags.
 This value is reserved for use by the operating system.
 
 
-#### - Value
+### -field Value
 
 The value used to operate over the other members.
 

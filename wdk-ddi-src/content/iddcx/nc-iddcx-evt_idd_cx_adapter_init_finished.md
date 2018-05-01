@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_adapter_init_finished.htm
 old-project: display
 ms.assetid: cbce9e1b-2f84-4653-8d3d-e5243a1f0eee
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_IDD_CX_ADAPTER_INIT_FINISHED, EvtIddCxAdapterInitFinished, EvtIddCxAdapterInitFinished callback function [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], display.evt_idd_cx_adapter_init_finished, iddcx/EvtIddCxAdapterInitFinished
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_ADAPTER_INIT_FINISHED, EVT_IDD_CX_ADAPTER_INIT_FINISHED callback, EvtIddCxAdapterInitFinished, EvtIddCxAdapterInitFinished callback function [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], display.evt_idd_cx_adapter_init_finished, iddcx/EvtIddCxAdapterInitFinished
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PFN_IDD_CX_ADAPTER_INIT_FINISHED
 product: Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_ADAPTER_INIT_FINISHED callback
+# EVT_IDD_CX_ADAPTER_INIT_FINISHED callback function
 
 
 ## -description

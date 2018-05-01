@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetExtensionCommand
-title: IDebugFailureAnalysis2::SetExtensionCommand method
+title: IDebugFailureAnalysis2::SetExtensionCommand
 author: windows-driver-content
 description: The SetExtensionCommand method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_setextensioncommand.htm
 old-project: debugger
 ms.assetid: 741B3D1F-FA7B-4260-AD0C-461D76605CBA
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetExtensionCommand method, IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand method [Windows Debugging], SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2 interface, SetExtensionCommand,IDebugFailureAnalysis2.SetExtensionCommand, debugger.idebugfailureanalysis2_setextensioncommand, extsfns/IDebugFailureAnalysis2::SetExtensionCommand
+ms.date: 4/24/2018
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetExtensionCommand method, IDebugFailureAnalysis2.SetExtensionCommand, IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand, SetExtensionCommand method [Windows Debugging], SetExtensionCommand method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensioncommand, extsfns/IDebugFailureAnalysis2::SetExtensionCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.SetExtensionCommand
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::SetExtensionCommand method
+# IDebugFailureAnalysis2::SetExtensionCommand
 
 
 ## -description

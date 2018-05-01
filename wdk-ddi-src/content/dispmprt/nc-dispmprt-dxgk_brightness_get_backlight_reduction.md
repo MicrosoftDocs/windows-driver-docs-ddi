@@ -7,8 +7,8 @@ old-location: display\dxgkddigetbacklightreduction.htm
 old-project: display
 ms.assetid: 018cb4a0-e71d-407e-8fe9-716312099b73
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiGetBacklightReduction
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback
+# DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback function
 
 
 ## -description

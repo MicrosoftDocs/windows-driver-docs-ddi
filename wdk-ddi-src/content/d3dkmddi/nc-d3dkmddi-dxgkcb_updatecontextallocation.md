@@ -7,8 +7,8 @@ old-location: display\dxgkcbupdatecontextallocation.htm
 old-project: display
 ms.assetid: 708A33C2-9620-4259-845A-2F862B6F209B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_UPDATECONTEXTALLOCATION, DxgkCbUpdateContextAllocation, DxgkCbUpdateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbUpdateContextAllocation, display.dxgkcbupdatecontextallocation
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_UPDATECONTEXTALLOCATION, DXGKCB_UPDATECONTEXTALLOCATION callback, DxgkCbUpdateContextAllocation, DxgkCbUpdateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbUpdateContextAllocation, display.dxgkcbupdatecontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkCbUpdateContextAllocation
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_UPDATECONTEXTALLOCATION callback
+# DXGKCB_UPDATECONTEXTALLOCATION callback function
 
 
 ## -description

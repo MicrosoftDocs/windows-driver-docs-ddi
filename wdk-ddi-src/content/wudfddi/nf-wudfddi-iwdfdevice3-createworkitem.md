@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.CreateWorkItem
-title: IWDFDevice3::CreateWorkItem method
+title: IWDFDevice3::CreateWorkItem
 author: windows-driver-content
 description: The CreateWorkItem method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue.
 old-location: wdf\iwdfdevice3_createworkitem.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B34EABF4-C659-4DB4-AEC6-94F544D79221
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateWorkItem method, CreateWorkItem method, IWDFDevice3 interface, CreateWorkItem,IWDFDevice3.CreateWorkItem, IWDFDevice3, IWDFDevice3 interface, CreateWorkItem method, IWDFDevice3::CreateWorkItem, umdf.iwdfdevice3_createworkitem, wdf.iwdfdevice3_createworkitem, wudfddi/IWDFDevice3::CreateWorkItem
+ms.keywords: CreateWorkItem, CreateWorkItem method, CreateWorkItem method,IWDFDevice3 interface, IWDFDevice3 interface,CreateWorkItem method, IWDFDevice3.CreateWorkItem, IWDFDevice3::CreateWorkItem, umdf.iwdfdevice3_createworkitem, wdf.iwdfdevice3_createworkitem, wudfddi/IWDFDevice3::CreateWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice3.CreateWorkItem
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::CreateWorkItem method
+# IWDFDevice3::CreateWorkItem
 
 
 ## -description

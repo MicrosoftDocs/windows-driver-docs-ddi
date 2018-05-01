@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.GetState
-title: IWDFIoQueue::GetState method
+title: IWDFIoQueue::GetState
 author: windows-driver-content
 description: The GetState method retrieves the state of an I/O queue.
 old-location: wdf\iwdfioqueue_getstate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 42dc9bbe-b00d-4187-ab07-0c268a061298
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetState method, GetState method, IWDFIoQueue interface, GetState,IWDFIoQueue.GetState, IWDFIoQueue, IWDFIoQueue interface, GetState method, IWDFIoQueue::GetState, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, umdf.iwdfioqueue_getstate, wdf.iwdfioqueue_getstate, wudfddi/IWDFIoQueue::GetState
+ms.keywords: GetState, GetState method, GetState method,IWDFIoQueue interface, IWDFIoQueue interface,GetState method, IWDFIoQueue.GetState, IWDFIoQueue::GetState, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, umdf.iwdfioqueue_getstate, wdf.iwdfioqueue_getstate, wudfddi/IWDFIoQueue::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoQueue.GetState
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::GetState method
+# IWDFIoQueue::GetState
 
 
 ## -description

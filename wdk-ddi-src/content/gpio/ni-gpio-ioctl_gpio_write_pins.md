@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 579462C6-2C0B-41AC-836D-2D3448080AD8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
+ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GPIO_WRITE_PINS
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
 # IOCTL_GPIO_WRITE_PINS IOCTL

@@ -7,7 +7,7 @@ old-location: serports\sercx2customtransmittransactioninitializecomplete.htm
 old-project: serports
 ms.assetid: 5C2BF433-11C0-425A-B14A-7A0275F7DF51
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports], serports.sercx2customtransmittransactioninitializecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SerCx2CustomTransmitTransactionInitializeComplete
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2CustomTransmitTransactionInitializeComplete function

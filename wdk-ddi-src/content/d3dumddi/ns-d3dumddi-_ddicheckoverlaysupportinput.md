@@ -7,7 +7,7 @@ old-location: display\ddicheckoverlaysupportinput.htm
 old-project: display
 ms.assetid: 5f15743a-1ea7-4260-b2cb-f2871acb27f9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], _DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

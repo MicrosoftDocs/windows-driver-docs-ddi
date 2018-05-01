@@ -7,7 +7,7 @@ old-location: netvista\fwpsinjectnetworksendasync0.htm
 old-project: netvista
 ms.assetid: 9cc76bf7-a744-46f9-89d5-5277744221e5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsInjectNetworkSendAsync0, FwpsInjectNetworkSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectNetworkSendAsync0, netvista.fwpsinjectnetworksendasync0, wfp_ref_2_funct_3_fwps_I_33cd70a5-56b6-4cb7-bebf-621e180aaa9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	FwpsInjectNetworkSendAsync0
 product: Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsInjectNetworkSendAsync0 function

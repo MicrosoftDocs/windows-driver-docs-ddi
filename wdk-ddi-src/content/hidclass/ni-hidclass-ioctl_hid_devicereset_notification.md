@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 3A9047BE-C974-45E1-89C7-BF0A5F58DD8B
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_DEVICERESET_NOTIFICATION, IOCTL_HID_DEVICERESET_NOTIFICATION control code [Human Input Devices], hid.ioctl_hid_devicereset_notification, hidclass/IOCTL_HID_DEVICERESET_NOTIFICATION
+ms.keywords: IOCTL_HID_DEVICERESET_NOTIFICATION, IOCTL_HID_DEVICERESET_NOTIFICATION control, IOCTL_HID_DEVICERESET_NOTIFICATION control code [Human Input Devices], hid.ioctl_hid_devicereset_notification, hidclass/IOCTL_HID_DEVICERESET_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_HID_DEVICERESET_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_DEVICERESET_NOTIFICATION IOCTL

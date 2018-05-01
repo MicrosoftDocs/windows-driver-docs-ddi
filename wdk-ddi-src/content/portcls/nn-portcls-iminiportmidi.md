@@ -7,8 +7,8 @@ old-location: audio\iminiportmidi.htm
 old-project: audio
 ms.assetid: 42170a24-377c-4cc5-962e-97ed74302d63
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], IMiniportMidi interface [Audio Devices], described, audio.iminiportmidi, audmp-routines_bba7ae00-6719-49dd-9770-9292a96f42ec.xml, portcls/IMiniportMidi
+ms.date: 4/16/2018
+ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], IMiniportMidi interface [Audio Devices],described, audio.iminiportmidi, audmp-routines_bba7ae00-6719-49dd-9770-9292a96f42ec.xml, portcls/IMiniportMidi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	IMiniportMidi
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IMiniportMidi interface

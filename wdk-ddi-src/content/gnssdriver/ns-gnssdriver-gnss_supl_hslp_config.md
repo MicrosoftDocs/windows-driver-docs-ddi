@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SUPL_HSLP_CONFIG
 title: GNSS_SUPL_HSLP_CONFIG
 author: windows-driver-content
 description: This structure contains SUPL H-SLP configuration information.
-old-location: sensors\gnss_supl_hslp_config.htm
-old-project: sensors
+old-location: gnss\gnss_supl_hslp_config.htm
+old-project: gnss
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_hslp_config, gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

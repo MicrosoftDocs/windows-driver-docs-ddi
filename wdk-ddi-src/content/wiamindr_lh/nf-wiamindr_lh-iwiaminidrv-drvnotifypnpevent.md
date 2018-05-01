@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvNotifyPnpEvent
-title: IWiaMiniDrv::drvNotifyPnpEvent method
+title: IWiaMiniDrv::drvNotifyPnpEvent
 author: windows-driver-content
 description: The IWiaMiniDrv::drvNotifyPnpEvent method responds to the event received from the WIA service.
 old-location: image\iwiaminidrv_drvnotifypnpevent.htm
 old-project: image
 ms.assetid: 55d6d93b-c20f-435b-ba99-2df26bd17240
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, drvNotifyPnpEvent,IWiaMiniDrv.drvNotifyPnpEvent, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvNotifyPnpEvent method, IWiaMiniDrv.drvNotifyPnpEvent, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWiaMiniDrv.drvNotifyPnpEvent
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvNotifyPnpEvent method
+# IWiaMiniDrv::drvNotifyPnpEvent
 
 
 ## -description

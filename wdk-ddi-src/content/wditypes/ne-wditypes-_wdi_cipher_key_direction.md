@@ -7,7 +7,7 @@ old-location: netvista\wdi_cipher_key_direction.htm
 old-project: netvista
 ms.assetid: BE054858-F61A-488B-87A3-615A646C27F0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_CIPHER_KEY_DIRECTION, WDI_CIPHER_KEY_DIRECTION enumeration [Device and Driver Installation], WDI_CIPHER_KEY_DIRECTION_BOTH, WDI_CIPHER_KEY_DIRECTION_INBOUND, WDI_CIPHER_KEY_DIRECTION_OUTBOUND, _WDI_CIPHER_KEY_DIRECTION, netvista.wdi_cipher_key_direction, netvista.wifi_cipher_key_direction, wditypes/WDI_CIPHER_KEY_DIRECTION, wditypes/WDI_CIPHER_KEY_DIRECTION_BOTH, wditypes/WDI_CIPHER_KEY_DIRECTION_INBOUND, wditypes/WDI_CIPHER_KEY_DIRECTION_OUTBOUND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_KEY_DIRECTION
-req.product: Windows 10 or later.
 ---
 
 # _WDI_CIPHER_KEY_DIRECTION enumeration

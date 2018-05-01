@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.SetInformation
-title: IWDFIoRequest::SetInformation method
+title: IWDFIoRequest::SetInformation
 author: windows-driver-content
 description: The SetInformation method sets the size of information for a request.
 old-location: wdf\iwdfiorequest_setinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, SetInformation method, IWDFIoRequest::SetInformation, SetInformation method, SetInformation method, IWDFIoRequest interface, SetInformation,IWDFIoRequest.SetInformation, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, umdf.iwdfiorequest_setinformation, wdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
+ms.keywords: IWDFIoRequest interface,SetInformation method, IWDFIoRequest.SetInformation, IWDFIoRequest::SetInformation, SetInformation, SetInformation method, SetInformation method,IWDFIoRequest interface, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, umdf.iwdfiorequest_setinformation, wdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest.SetInformation
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::SetInformation method
+# IWDFIoRequest::SetInformation
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\rxreassociatemid.htm
 old-project: ifsk
 ms.assetid: 2b80aa77-45b3-4157-8ab5-770c827a536a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxReassociateMid, RxReassociateMid function [Installable File System Drivers], ifsk.rxreassociatemid, midatlax/RxReassociateMid, rxref_0fbfcaf6-383a-48ed-81b1-eed7521df3e7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RxReassociateMid
 product: Windows
 targetos: Windows
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+req.typenames: 
 ---
 
 # RxReassociateMid function

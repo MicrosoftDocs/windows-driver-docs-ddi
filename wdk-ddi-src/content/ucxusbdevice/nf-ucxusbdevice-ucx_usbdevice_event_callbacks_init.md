@@ -7,7 +7,7 @@ old-location: buses\_ucx_usbdevice_event_callbacks_init.htm
 old-project: usbref
 ms.assetid: 594583B0-6CCB-469F-82AB-604825D85E2E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_usbdevice_event_callbacks_init, ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UCX_USBDEVICE_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCX_USBDEVICE_EVENT_CALLBACKS_INIT function

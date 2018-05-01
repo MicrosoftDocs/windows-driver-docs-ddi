@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.HasInterface
-title: IWDTFTarget2::HasInterface method
+title: IWDTFTarget2::HasInterface
 author: windows-driver-content
 description: Determines whether the target supports a given interface.
 old-location: dtf\iwdtftarget2_hasinterface.htm
 old-project: dtf
 ms.assetid: 91641007-57c0-4e55-8ac1-9a5cc62b80b0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, HasInterface,IWDTFTarget2.HasInterface, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, dtf.iwdtftarget2_hasinterface, wdtf/IWDTFTarget2::HasInterface
+ms.date: 4/4/2018
+ms.keywords: HasInterface, HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],HasInterface method, IWDTFTarget2.HasInterface, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, dtf.iwdtftarget2_hasinterface, wdtf/IWDTFTarget2::HasInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTarget2.HasInterface
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::HasInterface method
+# IWDTFTarget2::HasInterface
 
 
 ## -description

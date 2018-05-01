@@ -7,7 +7,7 @@ old-location: kernel\counted_reason_context.htm
 old-project: kernel
 ms.assetid: beb17d50-d99a-4baf-99bd-9f42fbea0478
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PCOUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT structure [Kernel-Mode Driver Architecture], PCOUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _COUNTED_REASON_CONTEXT, kernel.counted_reason_context, kstruct_a_52baf683-dfd2-4004-abed-e9ae6221c342.xml, wdm/COUNTED_REASON_CONTEXT, wdm/PCOUNTED_REASON_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -109,7 +109,7 @@ The number of reason strings in the <b>ReasonStrings</b> array or in the resourc
 A pointer to an array of string pointers. Each array element is a pointer to a wide-character, null-terminated string. The number of array elements is specified by <b>StringCount</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
 
 
-#### - SimpleString
+### -field DUMMYUNIONNAME.SimpleString
 
 A pointer to a wide-character, null-terminated string that explains the reason for a power request. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_SIMPLE_STRING. 
 

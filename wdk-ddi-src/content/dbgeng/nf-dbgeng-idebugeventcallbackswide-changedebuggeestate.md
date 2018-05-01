@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ChangeDebuggeeState
-title: IDebugEventCallbacksWide::ChangeDebuggeeState method
+title: IDebugEventCallbacksWide::ChangeDebuggeeState
 author: windows-driver-content
 description: The ChangeDebuggeeState callback method is called by the engine when it makes or detects changes to the target.
 old-location: debugger\idebugeventcallbackswide_changedebuggeestate.htm
 old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState,IDebugEventCallbacksWide.ChangeDebuggeeState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate
+ms.date: 4/24/2018
+ms.keywords: ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeDebuggeeState method, IDebugEventCallbacksWide.ChangeDebuggeeState, IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugEventCallbacksWide.ChangeDebuggeeState
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugEventCallbacksWide::ChangeDebuggeeState method
+# IDebugEventCallbacksWide::ChangeDebuggeeState
 
 
 ## -description

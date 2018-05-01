@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WritePhysical2
-title: IDebugDataSpaces4::WritePhysical2 method
+title: IDebugDataSpaces4::WritePhysical2
 author: windows-driver-content
 description: The WritePhysical2 method writes data to the specified physical address in the target's memory.
 old-location: debugger\writephysical2.htm
 old-project: debugger
 ms.assetid: 15a83343-b95b-4f79-b4f2-ed2ad60d170e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2 method [Windows Debugging], WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical2,IDebugDataSpaces4.WritePhysical2, dbgeng/IDebugDataSpaces4::WritePhysical2, debugger.writephysical2
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],WritePhysical2 method, IDebugDataSpaces4.WritePhysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, WritePhysical2 method [Windows Debugging], WritePhysical2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::WritePhysical2, debugger.writephysical2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugDataSpaces4.WritePhysical2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::WritePhysical2 method
+# IDebugDataSpaces4::WritePhysical2
 
 
 ## -description

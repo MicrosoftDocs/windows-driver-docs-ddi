@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator[]
-title: ExtRemoteTyped::operator[] method
+title: ExtRemoteTyped::operator[]
 author: windows-driver-content
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_long.htm
 old-project: debugger
 ms.assetid: b75a0cec-fda6-45a3-ac60-915fc5862456
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], operator[] method, ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], debugger.extremotetyped_operatorarray_long, operator[] method [Windows Debugging], operator[] method [Windows Debugging], ExtRemoteTyped class, operator[],ExtRemoteTyped.operator[]
+ms.date: 4/24/2018
+ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](LONG), ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], debugger.extremotetyped_operatorarray_long, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteTyped.operator[]
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::operator[] method
+# ExtRemoteTyped::operator[]
 
 
 ## -description

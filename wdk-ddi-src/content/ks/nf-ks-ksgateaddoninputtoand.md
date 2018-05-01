@@ -7,7 +7,7 @@ old-location: stream\ksgateaddoninputtoand.htm
 old-project: stream
 ms.assetid: cde5e5d8-9af7-452e-afaa-8669c5749c9e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateAddOnInputToAnd, KsGateAddOnInputToAnd function [Streaming Media Devices], avfunc_a7d04c8d-b1d7-46a8-bd34-2ec9de4f2196.xml, ks/KsGateAddOnInputToAnd, stream.ksgateaddoninputtoand
 ms.prod: windows-hardware
 ms.technology: windows-devices

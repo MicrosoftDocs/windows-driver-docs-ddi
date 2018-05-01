@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
-req.product: Windows 10 or later.
 ---
 
 # _SMARTCARD_REPLY structure

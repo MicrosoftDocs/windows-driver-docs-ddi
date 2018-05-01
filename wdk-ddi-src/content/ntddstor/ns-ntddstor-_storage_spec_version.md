@@ -62,12 +62,6 @@ Indicates the specification of the storage device.
 The major and minor version of the storage specification.
 
 
-
-#### MajorVersion
-
-The major version of the storage specification.
-
-
 ### -field DUMMYSTRUCTNAME.MinorVersion
 
 The minor version of the storage specification.
@@ -78,14 +72,12 @@ The minor version of the storage specification.
 The minor and sub-minor version of the storage specification.
 
 
-
-###### MinorVersion.DUMMYSTRUCTNAME.SubMinor
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.SubMinor
 
 The sub-minor version of the storage specification.
 
 
-
-###### MinorVersion.DUMMYSTRUCTNAME.Minor
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.Minor
 
 The minor version of the storage specification.
 
@@ -93,6 +85,11 @@ The minor version of the storage specification.
 ### -field DUMMYSTRUCTNAME.MinorVersion.AsUshort
 
 The combination of the <b>Minor</b> and <b>SubMinor</b> versions of the storage specification.
+
+
+### -field DUMMYSTRUCTNAME.MajorVersion
+
+The major version of the storage specification.
 
 
 ### -field AsUlong

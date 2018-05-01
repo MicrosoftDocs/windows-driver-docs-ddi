@@ -7,8 +7,8 @@ old-location: display\dxgkddi_exchangeprestartinfo.htm
 old-project: display
 ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DXGKDDI_EXCHANGEPRESTARTINFO
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_EXCHANGEPRESTARTINFO callback
+# DXGKDDI_EXCHANGEPRESTARTINFO callback function
 
 
 ## -description

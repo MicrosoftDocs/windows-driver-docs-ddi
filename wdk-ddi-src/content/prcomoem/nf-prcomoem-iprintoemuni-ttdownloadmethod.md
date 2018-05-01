@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.TTDownloadMethod
-title: IPrintOemUni::TTDownloadMethod method
+title: IPrintOemUni::TTDownloadMethod
 author: windows-driver-content
 description: The IPrintOemUni::TTDownloadMethod method enables a rendering plug-in to indicate the format that Unidrv should use for a specified TrueType soft font.
 old-location: print\iprintoemuni_ttdownloadmethod.htm
 old-project: print
 ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], TTDownloadMethod method, IPrintOemUni::TTDownloadMethod, TTDownloadMethod method [Print Devices], TTDownloadMethod method [Print Devices], IPrintOemUni interface, TTDownloadMethod,IPrintOemUni.TTDownloadMethod, prcomoem/IPrintOemUni::TTDownloadMethod, print.iprintoemuni_ttdownloadmethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],TTDownloadMethod method, IPrintOemUni.TTDownloadMethod, IPrintOemUni::TTDownloadMethod, TTDownloadMethod, TTDownloadMethod method [Print Devices], TTDownloadMethod method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TTDownloadMethod, print.iprintoemuni_ttdownloadmethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni.TTDownloadMethod
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::TTDownloadMethod method
+# IPrintOemUni::TTDownloadMethod
 
 
 ## -description

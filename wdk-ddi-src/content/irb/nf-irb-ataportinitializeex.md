@@ -41,7 +41,7 @@ api_name:
 -	AtaPortInitializeEx
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortInitializeEx function

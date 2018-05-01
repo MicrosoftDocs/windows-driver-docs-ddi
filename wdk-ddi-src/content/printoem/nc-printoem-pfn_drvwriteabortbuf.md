@@ -7,8 +7,8 @@ old-location: print\drvwriteabortbuf.htm
 old-project: print
 ms.assetid: a5fe5d9a-c5af-4445-bfd6-caf55555997c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
+ms.date: 4/20/2018
+ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, PFN_DrvWriteAbortBuf callback, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	DrvWriteAbortBuf
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvWriteAbortBuf callback
+# PFN_DrvWriteAbortBuf callback function
 
 
 ## -description

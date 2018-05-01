@@ -7,7 +7,7 @@ old-location: stream\ksqueryinformationfile.htm
 old-project: stream
 ms.assetid: db1cce43-1eae-4af0-bb61-a5c295e3d325
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsQueryInformationFile, KsQueryInformationFile function [Streaming Media Devices], ks/KsQueryInformationFile, ksfunc_3d343664-3fda-4612-96d4-3fe36532c99e.xml, stream.ksqueryinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

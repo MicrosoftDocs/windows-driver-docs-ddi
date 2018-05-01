@@ -7,7 +7,7 @@ old-location: netvista\ril_getrfstate.htm
 old-project: netvista
 ms.assetid: a73cd67e-839a-403c-9968-313417eac25a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetRFState, RIL_GetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getrfstate, rilapi/RIL_GetRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_GetRFState
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetRFState function

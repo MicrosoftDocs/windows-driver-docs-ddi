@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_EXECUTE_SELFTEST
 title: IOCTL_GNSS_EXECUTE_SELFTEST
 author: windows-driver-content
 description: The IOCTL_GNSS_EXECUTE_SELFTEST control code is used by the GNSS manufacturing test application to initiate a self test in the GNSS lower stack.
-old-location: sensors\ioctl_gnss_execute_selftest.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_execute_selftest.htm
+old-project: gnss
 ms.assetid: EAD10523-FFA0-4B08-BCBD-A20C90A1B8F6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST, sensors.ioctl_gnss_execute_selftest
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_selftest, gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GNSS_EXECUTE_SELFTEST
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_EXECUTE_SELFTEST IOCTL

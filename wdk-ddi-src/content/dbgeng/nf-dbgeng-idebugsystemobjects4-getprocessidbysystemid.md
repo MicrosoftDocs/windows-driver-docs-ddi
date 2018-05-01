@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetProcessIdBySystemId
-title: IDebugSystemObjects4::GetProcessIdBySystemId method
+title: IDebugSystemObjects4::GetProcessIdBySystemId
 author: windows-driver-content
 description: The GetProcessIdBySystemId method returns the engine process ID for a process specified by its system process ID.
 old-location: debugger\getprocessidbysystemid.htm
 old-project: debugger
 ms.assetid: 7260f0ea-5e8b-4b08-8c8f-70216ffe54a9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetProcessIdBySystemId method [Windows Debugging], GetProcessIdBySystemId method [Windows Debugging], IDebugSystemObjects interface, GetProcessIdBySystemId method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdBySystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdBySystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetProcessIdBySystemId,IDebugSystemObjects4.GetProcessIdBySystemId, IDebugSystemObjects interface [Windows Debugging], GetProcessIdBySystemId method, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdBySystemId method, IDebugSystemObjects2::GetProcessIdBySystemId, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdBySystemId method, IDebugSystemObjects3::GetProcessIdBySystemId, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdBySystemId method, IDebugSystemObjects4::GetProcessIdBySystemId, IDebugSystemObjects::GetProcessIdBySystemId, IDebugSystemObjects_45c888bc-6771-4cd4-843e-aeafd8c6c6cb.xml, dbgeng/IDebugSystemObjects2::GetProcessIdBySystemId, dbgeng/IDebugSystemObjects3::GetProcessIdBySystemId, dbgeng/IDebugSystemObjects4::GetProcessIdBySystemId, dbgeng/IDebugSystemObjects::GetProcessIdBySystemId, debugger.getprocessidbysystemid
+ms.date: 4/24/2018
+ms.keywords: GetProcessIdBySystemId, GetProcessIdBySystemId method [Windows Debugging], GetProcessIdBySystemId method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdBySystemId method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdBySystemId method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdBySystemId method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdBySystemId method, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdBySystemId method, IDebugSystemObjects2::GetProcessIdBySystemId, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdBySystemId method, IDebugSystemObjects3::GetProcessIdBySystemId, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdBySystemId method, IDebugSystemObjects4.GetProcessIdBySystemId, IDebugSystemObjects4::GetProcessIdBySystemId, IDebugSystemObjects::GetProcessIdBySystemId, IDebugSystemObjects_45c888bc-6771-4cd4-843e-aeafd8c6c6cb.xml, dbgeng/IDebugSystemObjects2::GetProcessIdBySystemId, dbgeng/IDebugSystemObjects3::GetProcessIdBySystemId, dbgeng/IDebugSystemObjects4::GetProcessIdBySystemId, dbgeng/IDebugSystemObjects::GetProcessIdBySystemId, debugger.getprocessidbysystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 -	IDebugSystemObjects4.GetProcessIdBySystemId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects4::GetProcessIdBySystemId method
+# IDebugSystemObjects4::GetProcessIdBySystemId
 
 
 ## -description

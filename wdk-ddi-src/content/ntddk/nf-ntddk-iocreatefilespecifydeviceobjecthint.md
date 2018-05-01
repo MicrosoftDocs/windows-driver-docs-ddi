@@ -7,7 +7,7 @@ old-location: ifsk\iocreatefilespecifydeviceobjecthint.htm
 old-project: ifsk
 ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, ntddk/IoCreateFileSpecifyDeviceObjectHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoCreateFileSpecifyDeviceObjectHint
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoCreateFileSpecifyDeviceObjectHint function

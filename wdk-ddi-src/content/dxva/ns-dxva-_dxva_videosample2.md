@@ -7,7 +7,7 @@ old-location: display\dxva_videosample2.htm
 old-project: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], _DXVA_VideoSample2, display.dxva_videosample2, dxva/DXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

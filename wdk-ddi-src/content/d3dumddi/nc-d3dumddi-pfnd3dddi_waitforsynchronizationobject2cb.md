@@ -7,8 +7,8 @@ old-location: display\pfnwaitforsynchronizationobject2cb.htm
 old-project: display
 ms.assetid: 4542C49F-C26C-45BE-B961-C5F65BDA78CF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB, d3dumddi/pfnWaitForSynchronizationObject2Cb, display.pfnwaitforsynchronizationobject2cb, pfnWaitForSynchronizationObject2Cb, pfnWaitForSynchronizationObject2Cb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnWaitForSynchronizationObject2Cb, display.pfnwaitforsynchronizationobject2cb, pfnWaitForSynchronizationObject2Cb, pfnWaitForSynchronizationObject2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnWaitForSynchronizationObject2Cb
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB callback
+# PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\filterdevicepnpeventnotify.htm
 old-project: netvista
 ms.assetid: dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
+ms.date: 4/25/2018
+ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FILTER_DEVICE_PNP_EVENT_NOTIFY callback, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterDevicePnPEventNotify
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_DEVICE_PNP_EVENT_NOTIFY callback
+# FILTER_DEVICE_PNP_EVENT_NOTIFY callback function
 
 
 ## -description

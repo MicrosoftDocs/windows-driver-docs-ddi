@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcbcatstringnex.htm
 old-project: kernel
 ms.assetid: 20636a37-8cc5-4ee2-91b1-53edf4911b49
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlUnicodeStringCbCatStringNEx, RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringnex, ntstrsafe/RtlUnicodeStringCbCatStringNEx, safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	RtlUnicodeStringCbCatStringNEx
 product: Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnicodeStringCbCatStringNEx function

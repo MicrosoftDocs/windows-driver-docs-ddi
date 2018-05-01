@@ -7,7 +7,7 @@ old-location: display\d3dddi_rotation.htm
 old-project: display
 ms.assetid: c167b958-bd09-441e-9680-f193da5ad77f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ROTATION, D3DDDI_ROTATION enumeration [Display Devices], D3DDDI_ROTATION_180, D3DDDI_ROTATION_270, D3DDDI_ROTATION_90, D3DDDI_ROTATION_IDENTITY, D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, _D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION_180, d3dukmdt/D3DDDI_ROTATION_270, d3dukmdt/D3DDDI_ROTATION_90, d3dukmdt/D3DDDI_ROTATION_IDENTITY, display.d3dddi_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

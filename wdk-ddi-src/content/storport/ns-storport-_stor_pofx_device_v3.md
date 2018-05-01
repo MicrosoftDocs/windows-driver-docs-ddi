@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STOR_POFX_DEVICE_V3, *PSTOR_POFX_DEVICE_V3
-req.product: Windows 10 or later.
 ---
 
 # _STOR_POFX_DEVICE_V3 structure
@@ -163,6 +162,16 @@ Specifies that none of the units exposed by this adapter should be registered fo
  
 
 
+### -field UnitMinIdleTimeoutInMS
+
+The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
+
+
+### -field AdapterIdleTimeoutInMS
+
+The adapter idle timeout value in milliseconds. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
+
+
 ### -field MinimumPowerCyclePeriodInMS
 
 Indicates that the device should not be power cycled (D0 -&gt; D3 -&gt; D0) more than once per the given period in Milliseconds. This member is only valid when the STOR_POFX_DEVICE_FLAG_ADAPTIVE_D3_IDLE_TIMEOUT flag has been set.
@@ -171,16 +180,6 @@ Indicates that the device should not be power cycled (D0 -&gt; D3 -&gt; D0) more
 ### -field Components
 
 This member is the first element in an array of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/hh920427">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
-
-
-#### - AdapterIdleTimeoutInMS
-
-The adapter idle timeout value in milliseconds. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
-
-
-#### - UnitMinIdleTimeoutInMS
-
-The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
 ## -remarks

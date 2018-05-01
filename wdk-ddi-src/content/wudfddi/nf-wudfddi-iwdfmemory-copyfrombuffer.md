@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyFromBuffer
-title: IWDFMemory::CopyFromBuffer method
+title: IWDFMemory::CopyFromBuffer
 author: windows-driver-content
 description: The CopyFromBuffer method safely copies data from the specified source buffer to a memory object.
 old-location: wdf\iwdfmemory_copyfrombuffer.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CopyFromBuffer method, CopyFromBuffer method, IWDFMemory interface, CopyFromBuffer,IWDFMemory.CopyFromBuffer, IWDFMemory, IWDFMemory interface, CopyFromBuffer method, IWDFMemory::CopyFromBuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, umdf.iwdfmemory_copyfrombuffer, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer
+ms.keywords: CopyFromBuffer, CopyFromBuffer method, CopyFromBuffer method,IWDFMemory interface, IWDFMemory interface,CopyFromBuffer method, IWDFMemory.CopyFromBuffer, IWDFMemory::CopyFromBuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, umdf.iwdfmemory_copyfrombuffer, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFMemory.CopyFromBuffer
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFMemory::CopyFromBuffer method
+# IWDFMemory::CopyFromBuffer
 
 
 ## -description

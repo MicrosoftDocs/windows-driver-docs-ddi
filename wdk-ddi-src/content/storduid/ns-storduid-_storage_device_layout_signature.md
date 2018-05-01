@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE
-req.product: Windows 10 or later.
 ---
 
 # _STORAGE_DEVICE_LAYOUT_SIGNATURE structure
@@ -76,14 +75,12 @@ A Boolean value that indicates whether the partition table of the disk is format
 ### -field DeviceSpecific
 
 
-
-#### MbrSignature
+### -field DeviceSpecific.MbrSignature
 
 The signature value, which uniquely identifies the disk.
 
 
-
-#### GptDiskId
+### -field DeviceSpecific.GptDiskId
 
 The GUID that uniquely identifies the disk.
 

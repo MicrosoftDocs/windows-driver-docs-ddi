@@ -7,7 +7,7 @@ old-location: stream\avstrminidevicestart.htm
 old-project: stream
 ms.assetid: 5a09a8b1-7a20-42e3-a58d-ecd4e7a0558e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeviceStart, AVStrMiniDeviceStart routine [Streaming Media Devices], PFNKSDEVICEPNPSTART, avstclbk_b9fd90e7-3d9b-47a3-86c4-8df35f000269.xml, ks/AVStrMiniDeviceStart, stream.avstrminidevicestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniDeviceStart
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSDEVICEPNPSTART callback
+# PFNKSDEVICEPNPSTART callback function
 
 
 ## -description

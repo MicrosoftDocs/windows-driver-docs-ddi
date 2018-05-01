@@ -77,6 +77,16 @@ The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
  
 
 
+### -field _HID_DESCRIPTOR_DESC_LIST.bReportType
+
+ 
+
+
+### -field _HID_DESCRIPTOR_DESC_LIST.wReportLength
+
+ 
+
+
 ### -field DescriptorList [1]
 
 

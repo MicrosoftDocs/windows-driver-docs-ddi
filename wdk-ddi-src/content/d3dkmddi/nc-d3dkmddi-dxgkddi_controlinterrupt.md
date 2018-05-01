@@ -7,8 +7,8 @@ old-location: display\dxgkddicontrolinterrupt.htm
 old-project: display
 ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_CONTROLINTERRUPT, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml, DxgkDdiControlInterrupt, DxgkDdiControlInterrupt callback function [Display Devices], d3dkmddi/DxgkDdiControlInterrupt, display.dxgkddicontrolinterrupt
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT callback, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml, DxgkDdiControlInterrupt, DxgkDdiControlInterrupt callback function [Display Devices], d3dkmddi/DxgkDdiControlInterrupt, display.dxgkddicontrolinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiControlInterrupt
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_CONTROLINTERRUPT callback
+# DXGKDDI_CONTROLINTERRUPT callback function
 
 
 ## -description

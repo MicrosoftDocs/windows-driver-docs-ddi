@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBool
-title: IPrinterScriptablePropertyBag::SetBool method
+title: IPrinterScriptablePropertyBag::SetBool
 author: windows-driver-content
 description: Writes a specified boolean property value.
 old-location: print\iprinterscriptablepropertybag_setbool.htm
 old-project: print
 ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetBool method, IPrinterScriptablePropertyBag::SetBool, SetBool method [Print Devices], SetBool method [Print Devices], IPrinterScriptablePropertyBag interface, SetBool,IPrinterScriptablePropertyBag.SetBool, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBool method, IPrinterScriptablePropertyBag.SetBool, IPrinterScriptablePropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterScriptablePropertyBag.SetBool
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::SetBool method
+# IPrinterScriptablePropertyBag::SetBool
 
 
 ## -description

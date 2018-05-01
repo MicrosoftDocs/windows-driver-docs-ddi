@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputCallbacks
-title: IDebugClient::GetOutputCallbacks method
+title: IDebugClient::GetOutputCallbacks
 author: windows-driver-content
 description: The GetOutputCallbacks method returns the output callbacks object registered with the client.
 old-location: debugger\getoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 43f27e56-a6aa-4548-9c96-000e53a7eb9a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOutputCallbacks method [Windows Debugging], GetOutputCallbacks method [Windows Debugging], IDebugClient interface, GetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, GetOutputCallbacks,IDebugClient.GetOutputCallbacks, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2::GetOutputCallbacks, IDebugClient3 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient3::GetOutputCallbacks, IDebugClient4 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient4::GetOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient5::GetOutputCallbacks, IDebugClient::GetOutputCallbacks, IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, dbgeng/IDebugClient2::GetOutputCallbacks, dbgeng/IDebugClient3::GetOutputCallbacks, dbgeng/IDebugClient4::GetOutputCallbacks, dbgeng/IDebugClient5::GetOutputCallbacks, dbgeng/IDebugClient::GetOutputCallbacks, debugger.getoutputcallbacks
+ms.date: 4/24/2018
+ms.keywords: GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], GetOutputCallbacks method [Windows Debugging],IDebugClient interface, GetOutputCallbacks method [Windows Debugging],IDebugClient2 interface, GetOutputCallbacks method [Windows Debugging],IDebugClient3 interface, GetOutputCallbacks method [Windows Debugging],IDebugClient4 interface, GetOutputCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetOutputCallbacks method, IDebugClient.GetOutputCallbacks, IDebugClient2 interface [Windows Debugging],GetOutputCallbacks method, IDebugClient2::GetOutputCallbacks, IDebugClient3 interface [Windows Debugging],GetOutputCallbacks method, IDebugClient3::GetOutputCallbacks, IDebugClient4 interface [Windows Debugging],GetOutputCallbacks method, IDebugClient4::GetOutputCallbacks, IDebugClient5 interface [Windows Debugging],GetOutputCallbacks method, IDebugClient5::GetOutputCallbacks, IDebugClient::GetOutputCallbacks, IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, dbgeng/IDebugClient2::GetOutputCallbacks, dbgeng/IDebugClient3::GetOutputCallbacks, dbgeng/IDebugClient4::GetOutputCallbacks, dbgeng/IDebugClient5::GetOutputCallbacks, dbgeng/IDebugClient::GetOutputCallbacks, debugger.getoutputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.GetOutputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::GetOutputCallbacks method
+# IDebugClient::GetOutputCallbacks
 
 
 ## -description

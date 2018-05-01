@@ -7,8 +7,8 @@ old-location: display\pfnstatedssrvcb.htm
 old-project: display
 ms.assetid: 23f92c9a-7f2c-4340-ad5e-101b13883bea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11DDI_STATE_DS_SRV_CB, d3d10umddi/pfnStateDsSrvCb, d3d11state_functions_bbd5c336-5316-47d4-a8c9-f7b79b18b540.xml, display.pfnstatedssrvcb, pfnStateDsSrvCb, pfnStateDsSrvCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11DDI_STATE_DS_SRV_CB, PFND3D11DDI_STATE_DS_SRV_CB callback, d3d10umddi/pfnStateDsSrvCb, d3d11state_functions_bbd5c336-5316-47d4-a8c9-f7b79b18b540.xml, display.pfnstatedssrvcb, pfnStateDsSrvCb, pfnStateDsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnStateDsSrvCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_STATE_DS_SRV_CB callback
+# PFND3D11DDI_STATE_DS_SRV_CB callback function
 
 
 ## -description

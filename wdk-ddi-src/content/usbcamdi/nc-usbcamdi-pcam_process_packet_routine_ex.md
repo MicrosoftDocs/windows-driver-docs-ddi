@@ -7,7 +7,7 @@ old-location: stream\camprocessusbpacketex.htm
 old-project: stream
 ms.assetid: 9f69b2f0-6e55-440f-98ab-35d8faddf933
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	CamProcessUSBPacketEx
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_PROCESS_PACKET_ROUTINE_EX callback
+# PCAM_PROCESS_PACKET_ROUTINE_EX callback function
 
 
 ## -description

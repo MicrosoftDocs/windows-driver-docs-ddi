@@ -7,7 +7,7 @@ old-location: debugger\getfielddata.htm
 old-project: debugger
 ms.assetid: e60c2288-fe25-4da5-9b17-6e95a30e7c1c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: GetFieldData, GetFieldData function [Windows Debugging], WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml, debugger.getfielddata, wdbgexts/GetFieldData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	GetFieldData
 product: Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetFieldData function

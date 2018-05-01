@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.GetStatus
-title: IStiUSD::GetStatus method
+title: IStiUSD::GetStatus
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetStatus method returns the status of a still image device.
 old-location: image\istiusd_getstatus.htm
 old-project: image
 ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStatus method [Imaging Devices], GetStatus method [Imaging Devices], IStiUSD interface, GetStatus,IStiUSD.GetStatus, IStiUSD, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus
+ms.date: 4/23/2018
+ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetStatus method, IStiUSD.GetStatus, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiUSD.GetStatus
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::GetStatus method
+# IStiUSD::GetStatus
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: kernel\objectprecallback.htm
 old-project: kernel
 ms.assetid: 257c6c7d-be79-43bf-b2cd-f561e1741f90
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: DrvrRtns_8ccbcf60-457d-4bd7-b059-423a47a44374.xml, ObjectPreCallback, ObjectPreCallback callback function [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_CALLBACK, kernel.objectprecallback, wdm/ObjectPreCallback
+ms.date: 4/5/2018
+ms.keywords: DrvrRtns_8ccbcf60-457d-4bd7-b059-423a47a44374.xml, ObjectPreCallback, ObjectPreCallback callback function [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_CALLBACK, POB_PRE_OPERATION_CALLBACK callback, kernel.objectprecallback, wdm/ObjectPreCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	ObjectPreCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# POB_PRE_OPERATION_CALLBACK callback
+# POB_PRE_OPERATION_CALLBACK callback function
 
 
 ## -description

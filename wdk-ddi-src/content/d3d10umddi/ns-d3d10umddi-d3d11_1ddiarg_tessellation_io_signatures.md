@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_tessellation_io_signatures.htm
 old-project: display
 ms.assetid: 90b9cbba-6a8f-444e-b0eb-cfbabdd57dcf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11_1ddiarg_tessellation_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,9 +57,29 @@ Describes a tessellation I/O signature.
 
 
 
+### -field pInputSignatureDeprecated
+
+ 
+
+
+### -field pInputSignature
+
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
+
+
 ### -field NumInputSignatureEntries
 
 [in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
+
+
+### -field pOutputSignatureDeprecated
+
+ 
+
+
+### -field pOutputSignature
+
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
 
 
 ### -field NumOutputSignatureEntries
@@ -67,24 +87,19 @@ Describes a tessellation I/O signature.
 [in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
 
+### -field pPatchConstantSignatureDeprecated
+
+ 
+
+
+### -field pPatchConstantSignature
+
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches.
+
+
 ### -field NumPatchConstantSignatureEntries
 
 [in] The number of entries in the array that the <b>pPatchConstantSignature</b> member specifies.
-
-
-#### - pInputSignature
-
-[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
-
-
-#### - pOutputSignature
-
-[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
-
-
-#### - pPatchConstantSignature
-
-[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches.
 
 
 ## -remarks

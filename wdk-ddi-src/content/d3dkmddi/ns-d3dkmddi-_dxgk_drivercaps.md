@@ -7,7 +7,7 @@ old-location: display\dxgk_drivercaps.htm
 old-project: display
 ms.assetid: 1ee8eb02-066c-4a54-b31a-cd6644cbce06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -101,6 +101,18 @@ The DXGK_DRIVERCAPS structure describes capabilities of a display miniport drive
 
 [out] The maximum number of overlays that the driver can support.
 
+
+### -field GammaRampCaps
+
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561071">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
+
+
+### -field ColorTransformCaps
+
+Flags to describe gamma and colorspace transform capabilities of the display pipelines.
+
+<div class="alert"><b>Note</b>  This field replaces the GammaRampCaps in the pre-WDDM 2.2 version of this structure.</div>
+<div> </div>
 
 ### -field PresentationCaps
 
@@ -290,23 +302,11 @@ Supported starting with Windows 8.1.
 [out] Indicates the maximum number of updates to a single plane can be made within a single VSYNC period, where the most recent update overrides the previous update.
 
 
-#### - ColorTransformCaps
-
-Flags to describe gamma and colorspace transform capabilities of the display pipelines.
-
-<div class="alert"><b>Note</b>  This field replaces the GammaRampCaps in the pre-WDDM 2.2 version of this structure.</div>
-<div> </div>
-
 #### - DmaBufferCaps
 
 [out] This member is reserved and should be set to zero.
 
 Supported starting with Windows 7.
-
-
-#### - GammaRampCaps
-
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561071">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
 
 
 #### - VirtualAddressCaps

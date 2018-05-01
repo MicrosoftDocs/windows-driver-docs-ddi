@@ -7,7 +7,7 @@ old-location: stream\lamp_intensity_color.htm
 old-project: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
 ms.prod: windows-hardware
 ms.technology: windows-devices

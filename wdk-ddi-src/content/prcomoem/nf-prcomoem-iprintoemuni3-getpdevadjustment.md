@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.GetPDEVAdjustment
-title: IPrintOemUni3::GetPDEVAdjustment method
+title: IPrintOemUni3::GetPDEVAdjustment
 author: windows-driver-content
 description: The IPrintOemUni3::GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.
 old-location: print\iprintoemuni3_getpdevadjustment.htm
 old-project: print
 ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, GetPDEVAdjustment,IPrintOemUni3.GetPDEVAdjustment, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, IPrintOemUni3::GetPDEVAdjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml
+ms.date: 4/20/2018
+ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices],IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices],GetPDEVAdjustment method, IPrintOemUni3.GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni3.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni3::GetPDEVAdjustment method
+# IPrintOemUni3::GetPDEVAdjustment
 
 
 ## -description

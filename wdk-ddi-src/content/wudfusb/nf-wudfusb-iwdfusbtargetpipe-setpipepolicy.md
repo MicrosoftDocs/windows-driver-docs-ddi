@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.SetPipePolicy
-title: IWDFUsbTargetPipe::SetPipePolicy method
+title: IWDFUsbTargetPipe::SetPipePolicy
 author: windows-driver-content
 description: The SetPipePolicy method sets the WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_setpipepolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, SetPipePolicy method, IWDFUsbTargetPipe interface, SetPipePolicy,IWDFUsbTargetPipe.SetPipePolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
+ms.keywords: IWDFUsbTargetPipe interface,SetPipePolicy method, IWDFUsbTargetPipe.SetPipePolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy, SetPipePolicy method, SetPipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUsbTargetPipe.SetPipePolicy
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::SetPipePolicy method
+# IWDFUsbTargetPipe::SetPipePolicy
 
 
 ## -description

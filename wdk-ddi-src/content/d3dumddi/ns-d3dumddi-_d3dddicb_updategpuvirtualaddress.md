@@ -7,7 +7,7 @@ old-location: display\d3dddicb_updategpuvirtualaddress.htm
 old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,12 +97,6 @@ Specifies the <b>FenceValue</b> for <b>hFenceObject</b> that the <i>Map</i> oper
 ### -field Flags
 
 
-
-#### Value
-
-The consolidated value of the <b>Flags</b> union.
-
-
 ### -field Flags.DoNotWait
 
 When set to 1, there will be no wait for the sync objects before executing the operations.
@@ -111,6 +105,11 @@ When set to 1, there will be no wait for the sync objects before executing the o
 ### -field Flags.Reserved
 
 This member is reserved and should be set to zero.
+
+
+### -field Flags.Value
+
+The consolidated value of the <b>Flags</b> union.
 
 
 ## -see-also

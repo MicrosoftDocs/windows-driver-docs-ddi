@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrvTransferCallback.GetNextStream
-title: IWiaMiniDrvTransferCallback::GetNextStream method
+title: IWiaMiniDrvTransferCallback::GetNextStream
 author: windows-driver-content
 description: Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload).
 old-location: image\iwiaminidrvtransfercallback_getnextstream.htm
 old-project: image
 ms.assetid: FF33471A-692B-4568-BF37-1870DEC367D0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, GetNextStream,IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
+ms.date: 4/23/2018
+ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices],GetNextStream method, IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWiaMiniDrvTransferCallback.GetNextStream
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrvTransferCallback::GetNextStream method
+# IWiaMiniDrvTransferCallback::GetNextStream
 
 
 ## -description

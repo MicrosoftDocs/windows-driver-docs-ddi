@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetUnnamedArgStr
-title: ExtExtension::SetUnnamedArgStr method
+title: ExtExtension::SetUnnamedArgStr
 author: windows-driver-content
 description: The SetUnnamedArgStr method sets an unnamed string argument for the current extension command.
 old-location: debugger\setunnamedargstr.htm
 old-project: debugger
 ms.assetid: 96e309ca-1267-4a5d-97c6-1b15de9190d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArgStr method, ExtExtension::SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], SetUnnamedArgStr method [Windows Debugging], ExtExtension class, SetUnnamedArgStr,ExtExtension.SetUnnamedArgStr, debugger.setunnamedargstr
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, ExtExtension class [Windows Debugging],SetUnnamedArgStr method, ExtExtension.SetUnnamedArgStr, ExtExtension::SetUnnamedArgStr, SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], SetUnnamedArgStr method [Windows Debugging],ExtExtension class, debugger.setunnamedargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtExtension.SetUnnamedArgStr
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::SetUnnamedArgStr method
+# ExtExtension::SetUnnamedArgStr
 
 
 ## -description

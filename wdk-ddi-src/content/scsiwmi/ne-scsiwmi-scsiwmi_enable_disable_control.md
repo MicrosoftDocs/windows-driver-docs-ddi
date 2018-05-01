@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
-req.product: Windows 10 or later.
 ---
 
 # SCSIWMI_ENABLE_DISABLE_CONTROL enumeration

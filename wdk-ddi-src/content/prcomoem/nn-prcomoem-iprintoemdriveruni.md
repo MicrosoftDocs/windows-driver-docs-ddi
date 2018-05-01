@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_interface.htm
 old-project: print
 ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], IPrintOemDriverUni interface [Print Devices], described, prcomoem/IPrintOemDriverUni, print.iprintoemdriveruni_interface, print_unidrv-pscript_rendering_07d60c45-4913-4cac-b65d-31737752b24f.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], IPrintOemDriverUni interface [Print Devices],described, prcomoem/IPrintOemDriverUni, print.iprintoemdriveruni_interface, print_unidrv-pscript_rendering_07d60c45-4913-4cac-b65d-31737752b24f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintOemDriverUni
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintOemDriverUni interface

@@ -7,7 +7,7 @@ old-location: audio\synthcaps.htm
 old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PSYNTHCAPS, PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, SYNTHCAPS structure [Audio Devices], _SYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, audio.synthcaps, dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

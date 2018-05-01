@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.GetSystemPowerAction
-title: IWDFDevice2::GetSystemPowerAction method
+title: IWDFDevice2::GetSystemPowerAction
 author: windows-driver-content
 description: The GetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer.
 old-location: wdf\iwdfdevice2_getsystempoweraction.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetSystemPowerAction method, GetSystemPowerAction method, IWDFDevice2 interface, GetSystemPowerAction,IWDFDevice2.GetSystemPowerAction, IWDFDevice2, IWDFDevice2 interface, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, umdf.iwdfdevice2_getsystempoweraction, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction
+ms.keywords: GetSystemPowerAction, GetSystemPowerAction method, GetSystemPowerAction method,IWDFDevice2 interface, IWDFDevice2 interface,GetSystemPowerAction method, IWDFDevice2.GetSystemPowerAction, IWDFDevice2::GetSystemPowerAction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, umdf.iwdfdevice2_getsystempoweraction, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice2.GetSystemPowerAction
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice2::GetSystemPowerAction method
+# IWDFDevice2::GetSystemPowerAction
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\clfsreadrestartarea.htm
 old-project: kernel
 ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea, wdm/ClfsReadRestartArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	ClfsReadRestartArea
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsReadRestartArea function

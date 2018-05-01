@@ -7,7 +7,7 @@ old-location: ifsk\sid.htm
 old-project: ifsk
 ms.assetid: 3b0d68f9-e871-42fe-97b0-f70f1fa72bf0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PISID, PSID, PSID structure pointer [Installable File System Drivers], SID, SID structure [Installable File System Drivers], _SID, ifsk.sid, ntifs/PSID, ntifs/SID, securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,6 +66,16 @@ Drivers are not to modify the SID structure directly. To create and manipulate a
 
 
 ### -field IdentifierAuthority
+
+
+### -field SubAuthority.size_is
+
+ 
+
+
+### -field SubAuthority.size_is.SubAuthorityCount
+
+ 
 
 
 ### -field SubAuthority

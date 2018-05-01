@@ -40,8 +40,7 @@ api_name:
 -	ScsiPortWmiGetInstanceName
 product: Windows
 targetos: Windows
-req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortWmiGetInstanceName function

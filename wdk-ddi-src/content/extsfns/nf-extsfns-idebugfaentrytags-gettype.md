@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetType
-title: IDebugFAEntryTags::GetType method
+title: IDebugFAEntryTags::GetType
 author: windows-driver-content
 description: The GetType method gets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_gettype.htm
 old-project: debugger
 ms.assetid: CE43711F-E17B-4234-A885-4FE04EA53903
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetType method [Windows Debugging], GetType method [Windows Debugging], IDebugFAEntryTags interface, GetType,IDebugFAEntryTags.GetType, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetType method, IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, extsfns/IDebugFAEntryTags::GetType
+ms.date: 4/24/2018
+ms.keywords: GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetType method, IDebugFAEntryTags.GetType, IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, extsfns/IDebugFAEntryTags::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFAEntryTags.GetType
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::GetType method
+# IDebugFAEntryTags::GetType
 
 
 ## -description

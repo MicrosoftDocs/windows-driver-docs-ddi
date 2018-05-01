@@ -40,8 +40,7 @@ api_name:
 -	SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function

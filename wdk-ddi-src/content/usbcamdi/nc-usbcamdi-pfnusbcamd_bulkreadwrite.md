@@ -7,7 +7,7 @@ old-location: stream\usbcamd_bulkreadwrite.htm
 old-project: stream
 ms.assetid: 4888e6a7-be44-4ed9-80be-9dd7641653ef
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PFNUSBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], stream.usbcamd_bulkreadwrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	USBCAMD_BulkReadWrite
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFNUSBCAMD_BulkReadWrite callback
+# PFNUSBCAMD_BulkReadWrite callback function
 
 
 ## -description

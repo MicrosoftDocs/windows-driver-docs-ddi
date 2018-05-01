@@ -41,7 +41,7 @@ api_name:
 -	TapeClassInitialize
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: 
 ---
 
 # TapeClassInitialize function

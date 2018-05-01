@@ -7,7 +7,7 @@ old-location: kernel\zwflushbuffersfile.htm
 old-project: kernel
 ms.assetid: b6ac1458-775d-4f73-86a1-30bfbf2256cc
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, kernel.zwflushbuffersfile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NtFlushBuffersFile
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwFlushBuffersFile function

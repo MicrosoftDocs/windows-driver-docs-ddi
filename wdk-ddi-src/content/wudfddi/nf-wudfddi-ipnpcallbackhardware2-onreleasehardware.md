@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware2.OnReleaseHardware
-title: IPnpCallbackHardware2::OnReleaseHardware method
+title: IPnpCallbackHardware2::OnReleaseHardware
 author: windows-driver-content
 description: The OnReleaseHardware method performs operations that are needed when a device is no longer accessible.
 old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, OnReleaseHardware method, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method, IPnpCallbackHardware2 interface, OnReleaseHardware,IPnpCallbackHardware2.OnReleaseHardware, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware
+ms.keywords: IPnpCallbackHardware2 interface,OnReleaseHardware method, IPnpCallbackHardware2.OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPnpCallbackHardware2.OnReleaseHardware
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackHardware2::OnReleaseHardware method
+# IPnpCallbackHardware2::OnReleaseHardware
 
 
 ## -description

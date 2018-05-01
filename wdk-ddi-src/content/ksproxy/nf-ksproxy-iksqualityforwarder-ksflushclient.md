@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsQualityForwarder.KsFlushClient
-title: IKsQualityForwarder::KsFlushClient method
+title: IKsQualityForwarder::KsFlushClient
 author: windows-driver-content
 description: The KsFlushClient method flushes information from a pin.
 old-location: stream\iksqualityforwarder_ksflushclient.htm
 old-project: stream
 ms.assetid: 0a1b5094-4abd-4d57-8d8c-b385fb0d46de
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, IKsQualityForwarder::KsFlushClient, KsFlushClient method [Streaming Media Devices], KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface, KsFlushClient,IKsQualityForwarder.KsFlushClient, ksproxy/IKsQualityForwarder::KsFlushClient, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, stream.iksqualityforwarder_ksflushclient
+ms.date: 4/23/2018
+ms.keywords: IKsQualityForwarder interface [Streaming Media Devices],KsFlushClient method, IKsQualityForwarder.KsFlushClient, IKsQualityForwarder::KsFlushClient, KsFlushClient, KsFlushClient method [Streaming Media Devices], KsFlushClient method [Streaming Media Devices],IKsQualityForwarder interface, ksproxy/IKsQualityForwarder::KsFlushClient, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, stream.iksqualityforwarder_ksflushclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsQualityForwarder.KsFlushClient
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsQualityForwarder::KsFlushClient method
+# IKsQualityForwarder::KsFlushClient
 
 
 ## -description

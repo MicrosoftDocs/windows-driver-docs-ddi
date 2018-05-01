@@ -7,8 +7,8 @@ old-location: netvista\protocolclincomingcall.htm
 old-project: netvista
 ms.assetid: 8a5922ac-b22b-444e-9ea0-3bb56e71ef33
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CL_INCOMING_CALL, ProtocolClIncomingCall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml, ndis/ProtocolClIncomingCall, netvista.protocolclincomingcall
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_INCOMING_CALL, PROTOCOL_CL_INCOMING_CALL callback, ProtocolClIncomingCall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml, ndis/ProtocolClIncomingCall, netvista.protocolclincomingcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolClIncomingCall
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_INCOMING_CALL callback
+# PROTOCOL_CL_INCOMING_CALL callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_check_video_processor_format_conversion.htm
 old-project: display
 ms.assetid: 3259CEB7-E902-4040-B99E-D0609935E804
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, display.d3dwddm2_0ddi_check_video_processor_format_conversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

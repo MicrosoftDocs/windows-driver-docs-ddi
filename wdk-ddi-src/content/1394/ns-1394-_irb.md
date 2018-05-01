@@ -216,6 +216,188 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
  
 
 
+### -field u.AsyncRead
+
+ 
+
+
+### -field u.AsyncWrite
+
+ 
+
+
+### -field u.AsyncLock
+
+ 
+
+
+### -field u.IsochAllocateBandwidth
+
+ 
+
+
+### -field u.IsochAllocateChannel
+
+ 
+
+
+### -field u.IsochAllocateResources
+
+ 
+
+
+### -field u.IsochAttachBuffers
+
+ 
+
+
+### -field u.IsochDetachBuffers
+
+ 
+
+
+### -field u.IsochFreeBandwidth
+
+ 
+
+
+### -field u.IsochFreeChannel
+
+ 
+
+
+### -field u.IsochFreeResources
+
+ 
+
+
+### -field u.IsochListen
+
+ 
+
+
+### -field u.IsochQueryCurrentCycleTime
+
+ 
+
+
+### -field u.IsochQueryResources
+
+ 
+
+
+### -field u.IsochSetChannelBandwidth
+
+ 
+
+
+### -field u.IsochStop
+
+ 
+
+
+### -field u.IsochTalk
+
+ 
+
+
+### -field u.IsochModifyStreamProperties
+
+ 
+
+
+### -field u.AllocateAddressRange
+
+ 
+
+
+### -field u.FreeAddressRange
+
+ 
+
+
+### -field u.GetLocalHostInformation
+
+ 
+
+
+### -field u.Get1394AddressFromDeviceObject
+
+ 
+
+
+### -field u.Control
+
+ 
+
+
+### -field u.GetMaxSpeedBetweenDevices
+
+ 
+
+
+### -field u.SetDeviceXmitProperties
+
+ 
+
+
+### -field u.SetLocalHostProperties
+
+ 
+
+
+### -field u.GetConfigurationInformation
+
+ 
+
+
+### -field u.GetConfigRom
+
+ 
+
+
+### -field u.BusReset
+
+ 
+
+
+### -field u.GetGenerationCount
+
+ 
+
+
+### -field u.SendPhyConfigurationPacket
+
+ 
+
+
+### -field u.SendPhyPacket
+
+ 
+
+
+### -field u.ReceivePhyPackets
+
+ 
+
+
+### -field u.GetSpeedTopologyMaps
+
+ 
+
+
+### -field u.BusResetNotification
+
+ 
+
+
+### -field u.AsyncStream
+
+ 
+
+
+
+
 ## -remarks
 
 

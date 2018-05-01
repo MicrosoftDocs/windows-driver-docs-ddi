@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNextSymbolMatchWide
-title: IDebugSymbols3::GetNextSymbolMatchWide method
+title: IDebugSymbols3::GetNextSymbolMatchWide
 author: windows-driver-content
 description: The GetNextSymbolMatchWide method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatchwide.htm
 old-project: debugger
 ms.assetid: 0400ff8c-a6d5-4fbf-b2fb-eb9fd7aabd7e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatchWide,IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide
+ms.date: 4/24/2018
+ms.keywords: GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatchWide method, IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.GetNextSymbolMatchWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetNextSymbolMatchWide method
+# IDebugSymbols3::GetNextSymbolMatchWide
 
 
 ## -description

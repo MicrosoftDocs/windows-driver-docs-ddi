@@ -7,7 +7,7 @@ old-location: audio\pcevent_request.htm
 old-project: audio
 ms.assetid: b28bd1c2-9fbe-4427-a4ba-5b79a338e913
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPCEVENT_REQUEST, PCEVENT_REQUEST, PCEVENT_REQUEST structure [Audio Devices], PPCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], _PCEVENT_REQUEST, audio.pcevent_request, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PCEVENT_REQUEST, portcls/PPCEVENT_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	PCEVENT_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PCEVENT_REQUEST, *PPCEVENT_REQUEST, PCEVENT_REQUEST, *PPCEVENT_REQUEST
+req.typenames: PCEVENT_REQUEST, *PPCEVENT_REQUEST
 ---
 
 # _PCEVENT_REQUEST structure

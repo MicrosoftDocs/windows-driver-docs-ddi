@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_arm_cq.htm
 old-project: netvista
 ms.assetid: 8204EC7B-8F90-4F34-BFFB-9F1574AF69BC
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_ARM_CQ, NdkArmCq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkArmCq, netvista.ndk_fn_arm_cq
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_ARM_CQ, NDK_FN_ARM_CQ callback, NdkArmCq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkArmCq, netvista.ndk_fn_arm_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkArmCq
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_ARM_CQ callback
+# NDK_FN_ARM_CQ callback function
 
 
 ## -description

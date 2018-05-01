@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpn_interface_pfnassigntargetmodeset.htm
 old-project: display
 ms.assetid: 846c6dd5-d4f8-4835-83a2-994725deaf36
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_VIDPN_ASSIGNTARGETMODESET, VidPnFunctions_7051492a-0560-4898-8532-60e66ebcb001.xml, d3dkmddi/pfnAssignTargetModeSet, display.dxgk_vidpn_interface_pfnassigntargetmodeset, pfnAssignTargetModeSet, pfnAssignTargetModeSet callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPN_ASSIGNTARGETMODESET, DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback, VidPnFunctions_7051492a-0560-4898-8532-60e66ebcb001.xml, d3dkmddi/pfnAssignTargetModeSet, display.dxgk_vidpn_interface_pfnassigntargetmodeset, pfnAssignTargetModeSet, pfnAssignTargetModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnAssignTargetModeSet
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback
+# DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback function
 
 
 ## -description

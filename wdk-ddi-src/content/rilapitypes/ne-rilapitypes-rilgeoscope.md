@@ -7,7 +7,7 @@ old-location: netvista\rilgeoscope.htm
 old-project: netvista
 ms.assetid: 5dc49d01-54d2-48d3-8649-96262b890fc5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILGEOSCOPE, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista], RIL_GEOSCOPE_CELL, RIL_GEOSCOPE_CELL_IMMEDIATE, RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_MAX, RIL_GEOSCOPE_PLMN, netvista.rilgeoscope, ntddrilapitypes/RILGEOSCOPE, ntddrilapitypes/RIL_GEOSCOPE_CELL, ntddrilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, ntddrilapitypes/RIL_GEOSCOPE_LOCATIONAREA, ntddrilapitypes/RIL_GEOSCOPE_MAX, ntddrilapitypes/RIL_GEOSCOPE_PLMN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILGEOSCOPE
-req.product: Windows 10 or later.
 ---
 
 # RILGEOSCOPE enumeration

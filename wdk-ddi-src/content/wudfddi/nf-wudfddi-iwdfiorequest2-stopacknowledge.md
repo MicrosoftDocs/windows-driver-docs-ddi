@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.StopAcknowledge
-title: IWDFIoRequest2::StopAcknowledge method
+title: IWDFIoRequest2::StopAcknowledge
 author: windows-driver-content
 description: The StopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request.
 old-location: wdf\iwdfiorequest2_stopacknowledge.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, IWDFIoRequest2::StopAcknowledge, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge,IWDFIoRequest2.StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
+ms.keywords: IWDFIoRequest2 interface,StopAcknowledge method, IWDFIoRequest2.StopAcknowledge, IWDFIoRequest2::StopAcknowledge, StopAcknowledge, StopAcknowledge method, StopAcknowledge method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest2.StopAcknowledge
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::StopAcknowledge method
+# IWDFIoRequest2::StopAcknowledge
 
 
 ## -description

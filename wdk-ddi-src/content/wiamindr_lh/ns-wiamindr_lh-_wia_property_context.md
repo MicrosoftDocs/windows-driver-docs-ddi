@@ -7,7 +7,7 @@ old-location: image\wia_property_context.htm
 old-project: image
 ms.assetid: afe92cb5-519a-46a3-a66d-c01b6a2c780b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], _WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiamindr_lh/WIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WIA_PROPERTY_CONTEXT, *PWIA_PROPERTY_CONTEXT
-req.product: Windows 10 or later.
 ---
 
 # _WIA_PROPERTY_CONTEXT structure

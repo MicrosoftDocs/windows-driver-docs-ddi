@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_DigitalSigner
-title: IWDTFDriverPackageAction2::get_DigitalSigner method
+title: IWDTFDriverPackageAction2::get_DigitalSigner
 author: windows-driver-content
 description: Gets the digital signer.
 old-location: dtf\iwdtfdriverpackageaction2_digitalsigner.htm
 old-project: dtf
 ms.assetid: ab544760-7539-4e16-b1c3-457629ce78aa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DigitalSigner property [Windows Device Testing Framework], DigitalSigner property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], DigitalSigner property, IWDTFDriverPackageAction2.DigitalSigner, IWDTFDriverPackageAction2::get_DigitalSigner, Microsoft.WDTF.IWDTFDriverPackageAction2.DigitalSigner, Microsoft::WDTF::IWDTFDriverPackageAction2::DigitalSigner, dtf.iwdtfdriverpackageaction2_digitalsigner, get_DigitalSigner,IWDTFDriverPackageAction2.get_DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_DigitalSigner
+ms.date: 4/4/2018
+ms.keywords: DigitalSigner property [Windows Device Testing Framework], DigitalSigner property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],DigitalSigner property, IWDTFDriverPackageAction2.DigitalSigner, IWDTFDriverPackageAction2.get_DigitalSigner, IWDTFDriverPackageAction2::DigitalSigner, IWDTFDriverPackageAction2::get_DigitalSigner, Microsoft.WDTF.IWDTFDriverPackageAction2.DigitalSigner, Microsoft::WDTF::IWDTFDriverPackageAction2::DigitalSigner, dtf.iwdtfdriverpackageaction2_digitalsigner, get_DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_DigitalSigner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTFDriverPackageAction2.get_DigitalSigner
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverPackageAction2::get_DigitalSigner method
+# IWDTFDriverPackageAction2::get_DigitalSigner
 
 
 ## -description

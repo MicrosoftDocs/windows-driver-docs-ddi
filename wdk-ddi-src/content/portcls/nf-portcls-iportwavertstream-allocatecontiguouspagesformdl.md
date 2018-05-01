@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.AllocateContiguousPagesForMdl
-title: IPortWaveRTStream::AllocateContiguousPagesForMdl method
+title: IPortWaveRTStream::AllocateContiguousPagesForMdl
 author: windows-driver-content
 description: The AllocateContiguousPagesForMdl method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (MDL) that describes them.
 old-location: audio\iportwavertstream_allocatecontiguouspagesformdl.htm
 old-project: audio
 ms.assetid: 976f7e83-9b2a-4e1b-ab76-76d8e9711bff
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AllocateContiguousPagesForMdl method [Audio Devices], AllocateContiguousPagesForMdl method [Audio Devices], IPortWaveRTStream interface, AllocateContiguousPagesForMdl,IPortWaveRTStream.AllocateContiguousPagesForMdl, IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], AllocateContiguousPagesForMdl method, IPortWaveRTStream::AllocateContiguousPagesForMdl, audio.iportwavertstream_allocatecontiguouspagesformdl, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml, portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl
+ms.date: 4/16/2018
+ms.keywords: AllocateContiguousPagesForMdl, AllocateContiguousPagesForMdl method [Audio Devices], AllocateContiguousPagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocateContiguousPagesForMdl method, IPortWaveRTStream.AllocateContiguousPagesForMdl, IPortWaveRTStream::AllocateContiguousPagesForMdl, audio.iportwavertstream_allocatecontiguouspagesformdl, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml, portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPortWaveRTStream.AllocateContiguousPagesForMdl
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWaveRTStream::AllocateContiguousPagesForMdl method
+# IPortWaveRTStream::AllocateContiguousPagesForMdl
 
 
 ## -description

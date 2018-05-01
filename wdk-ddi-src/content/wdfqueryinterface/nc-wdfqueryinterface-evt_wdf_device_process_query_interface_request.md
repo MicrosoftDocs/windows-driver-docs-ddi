@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b56fef85-4058-4942-90c0-36646164cd3e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectDriverDefIntRef_e38de652-334f-4b7a-b455-22c0eea8d8fd.xml, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST, EvtDeviceProcessQueryInterfaceRequest, EvtDeviceProcessQueryInterfaceRequest callback function, kmdf.evtdeviceprocessqueryinterfacerequest, wdf.evtdeviceprocessqueryinterfacerequest, wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest
+ms.keywords: DFDeviceObjectDriverDefIntRef_e38de652-334f-4b7a-b455-22c0eea8d8fd.xml, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback, EvtDeviceProcessQueryInterfaceRequest, EvtDeviceProcessQueryInterfaceRequest callback function, kmdf.evtdeviceprocessqueryinterfacerequest, wdf.evtdeviceprocessqueryinterfacerequest, wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtDeviceProcessQueryInterfaceRequest
 product: Windows
 targetos: Windows
-req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback
+# EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback function
 
 
 ## -description

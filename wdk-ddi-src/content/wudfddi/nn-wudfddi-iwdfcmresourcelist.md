@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8C03A1A3-1757-4622-9652-0D84DC0AFE59
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFCmResourceList, IWDFCmResourceList interface, IWDFCmResourceList interface, described, umdf.iwdfcmresourcelist, wdf.iwdfcmresourcelist, wudfddi/IWDFCmResourceList
+ms.keywords: IWDFCmResourceList, IWDFCmResourceList interface, IWDFCmResourceList interface,described, umdf.iwdfcmresourcelist, wdf.iwdfcmresourcelist, wudfddi/IWDFCmResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -40,8 +40,7 @@ api_name:
 -	IWDFCmResourceList
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFCmResourceList interface

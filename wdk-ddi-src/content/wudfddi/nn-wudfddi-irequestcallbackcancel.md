@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d6aec38c-6cbb-494c-9fa4-10b6f4a30ae0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRequestCallbackCancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface, described, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel, wdf.irequestcallbackcancel, wudfddi/IRequestCallbackCancel
+ms.keywords: IRequestCallbackCancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface,described, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel, wdf.irequestcallbackcancel, wudfddi/IRequestCallbackCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: WUDFx.dll
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IRequestCallbackCancel
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IRequestCallbackCancel interface

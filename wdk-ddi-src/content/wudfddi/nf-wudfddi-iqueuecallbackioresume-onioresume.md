@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackIoResume.OnIoResume
-title: IQueueCallbackIoResume::OnIoResume method
+title: IQueueCallbackIoResume::OnIoResume
 author: windows-driver-content
 description: The OnIoResume method resumes the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackioresume_onioresume.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d34f6e2c-4227-41bb-a1c0-f6206daa700b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackIoResume, IQueueCallbackIoResume interface, OnIoResume method, IQueueCallbackIoResume::OnIoResume, OnIoResume method, OnIoResume method, IQueueCallbackIoResume interface, OnIoResume,IQueueCallbackIoResume.OnIoResume, UMDFQueueObjectRef_fd16ca4e-eccf-49a2-a7f5-bce7e7931a77.xml, umdf.iqueuecallbackioresume_onioresume, wdf.iqueuecallbackioresume_onioresume, wudfddi/IQueueCallbackIoResume::OnIoResume
+ms.keywords: IQueueCallbackIoResume interface,OnIoResume method, IQueueCallbackIoResume.OnIoResume, IQueueCallbackIoResume::OnIoResume, OnIoResume, OnIoResume method, OnIoResume method,IQueueCallbackIoResume interface, UMDFQueueObjectRef_fd16ca4e-eccf-49a2-a7f5-bce7e7931a77.xml, umdf.iqueuecallbackioresume_onioresume, wdf.iqueuecallbackioresume_onioresume, wudfddi/IQueueCallbackIoResume::OnIoResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IQueueCallbackIoResume.OnIoResume
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackIoResume::OnIoResume method
+# IQueueCallbackIoResume::OnIoResume
 
 
 ## -description

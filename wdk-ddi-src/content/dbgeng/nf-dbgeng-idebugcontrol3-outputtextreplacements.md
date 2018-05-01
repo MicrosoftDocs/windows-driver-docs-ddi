@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputTextReplacements
-title: IDebugControl3::OutputTextReplacements method
+title: IDebugControl3::OutputTextReplacements
 author: windows-driver-content
 description: The OutputTextReplacements method prints all the currently defined user-named aliases to the debugger's output stream.
 old-location: debugger\outputtextreplacements.htm
 old-project: debugger
 ms.assetid: ea01fa02-8f4b-45c3-9690-30c8a1e6b4e5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], OutputTextReplacements method, IDebugControl2::OutputTextReplacements, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputTextReplacements method, IDebugControl3::OutputTextReplacements, IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, OutputTextReplacements method [Windows Debugging], OutputTextReplacements method [Windows Debugging], IDebugControl2 interface, OutputTextReplacements method [Windows Debugging], IDebugControl3 interface, OutputTextReplacements,IDebugControl3.OutputTextReplacements, dbgeng/IDebugControl2::OutputTextReplacements, dbgeng/IDebugControl3::OutputTextReplacements, debugger.outputtextreplacements
+ms.date: 4/24/2018
+ms.keywords: IDebugControl2 interface [Windows Debugging],OutputTextReplacements method, IDebugControl2::OutputTextReplacements, IDebugControl3 interface [Windows Debugging],OutputTextReplacements method, IDebugControl3.OutputTextReplacements, IDebugControl3::OutputTextReplacements, IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, OutputTextReplacements, OutputTextReplacements method [Windows Debugging], OutputTextReplacements method [Windows Debugging],IDebugControl2 interface, OutputTextReplacements method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputTextReplacements, dbgeng/IDebugControl3::OutputTextReplacements, debugger.outputtextreplacements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugControl3.OutputTextReplacements
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::OutputTextReplacements method
+# IDebugControl3::OutputTextReplacements
 
 
 ## -description

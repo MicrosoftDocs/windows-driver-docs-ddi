@@ -7,7 +7,7 @@ old-location: stream\ks_videoinfoheader2.htm
 old-project: stream
 ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -240,17 +240,7 @@ Specifies the <i>x</i> dimension of the picture-aspect ratio (for example, 16 fo
 Specifies the <i>y</i> dimension of the picture aspect ratio (for example, 9 for 16 × 9 display). The value is expressed in inches-by-inches, not pixels-by-pixels.
 
 
-### -field dwReserved2
-
-Reserved for system use. Must be set to zero or the connection will be rejected.
-
-
-### -field bmiHeader
-
-Indicates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
-
-
-#### - dwControlFlags
+### -field dwControlFlags
 
 In operating systems prior to Windows Vista, this member was named <b>dwReserved1</b> and was required to be zero. In Windows Vista, <b>dwReserved1</b> was combined in a union with a new member named <b>dwControlFlags</b>. If used, <b>dwControlFlags</b> contains a bitwise OR of the flags in the following table.
 
@@ -311,9 +301,19 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of th
 See the Remarks section later in this topic for more information about <b>dwControlFlags</b>.
 
 
-#### - dwReserved1
+### -field dwReserved1
 
 This member is for backward compatibility. See <b>dwControlFlags </b>for more information.
+
+
+### -field dwReserved2
+
+Reserved for system use. Must be set to zero or the connection will be rejected.
+
+
+### -field bmiHeader
+
+Indicates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
 
 
 ## -remarks

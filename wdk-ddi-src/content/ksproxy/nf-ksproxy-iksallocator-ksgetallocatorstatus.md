@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorStatus
-title: IKsAllocator::KsGetAllocatorStatus method
+title: IKsAllocator::KsGetAllocatorStatus
 author: windows-driver-content
 description: Retrieves the status of an allocator.
 old-location: stream\iksallocator_ksgetallocatorstatus.htm
 old-project: stream
 ms.assetid: 139F4465-1228-4603-B92F-4CB73E1A6DC0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], KsGetAllocatorStatus method, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorStatus,IKsAllocator.KsGetAllocatorStatus, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus
+ms.date: 4/23/2018
+ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorStatus method, IKsAllocator.KsGetAllocatorStatus, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], KsGetAllocatorStatus method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsAllocator.KsGetAllocatorStatus
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocator::KsGetAllocatorStatus method
+# IKsAllocator::KsGetAllocatorStatus
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\rilmessage.htm
 old-project: netvista
 ms.assetid: b776b060-79bf-4848-807d-1999d38075ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILMESSAGE, RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], netvista.rilmessage, ntddrilapitypes/RILMESSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILMESSAGE, *LPRILMESSAGE
-req.product: Windows 10 or later.
 ---
 
 # RILMESSAGE structure
@@ -74,6 +73,41 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 
 ### -field msgUnion
+
+
+### -field msgUnion.unMsgInDeliver
+
+ 
+
+
+### -field msgUnion.unMsgInStatus
+
+ 
+
+
+### -field msgUnion.unMsgOutSubmit
+
+ 
+
+
+### -field msgUnion.unMsgBcGeneral
+
+ 
+
+
+### -field msgUnion.unMsgIS637InStatus
+
+ 
+
+
+### -field msgUnion.unMsgCDMAInDeliver
+
+ 
+
+
+### -field msgUnion.unMsgCDMAOutSubmit
+
+ 
 
 
 ### -field RILMSGUNION

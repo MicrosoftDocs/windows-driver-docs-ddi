@@ -7,7 +7,7 @@ old-location: ifsk\fltadjustdevicestacksizeforioredirection.htm
 old-project: ifsk
 ms.assetid: 48ca0f39-e870-4f9b-92d5-1226972bf2d5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], fltkernel/FltAdjustDeviceStackSizeForIoRedirection, ifsk.fltadjustdevicestacksizeforioredirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	FltAdjustDeviceStackSizeForIoRedirection
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltAdjustDeviceStackSizeForIoRedirection function

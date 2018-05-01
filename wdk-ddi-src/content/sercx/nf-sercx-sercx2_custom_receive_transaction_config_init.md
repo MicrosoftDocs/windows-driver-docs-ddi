@@ -7,7 +7,7 @@ old-location: serports\sercx2_custom_receive_transaction_config_init.htm
 old-project: serports
 ms.assetid: DB8A5E89-771C-45E8-8F90-708CDAD50BBF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_transaction_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function

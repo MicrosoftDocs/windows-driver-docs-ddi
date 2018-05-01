@@ -40,8 +40,7 @@ api_name:
 -	WDF_TASK_QUEUE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_TASK_QUEUE_CONFIG_INIT function

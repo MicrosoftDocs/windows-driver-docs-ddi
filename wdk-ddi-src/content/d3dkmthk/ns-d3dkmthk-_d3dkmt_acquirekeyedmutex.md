@@ -7,7 +7,7 @@ old-location: display\d3dkmt_acquirekeyedmutex.htm
 old-project: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

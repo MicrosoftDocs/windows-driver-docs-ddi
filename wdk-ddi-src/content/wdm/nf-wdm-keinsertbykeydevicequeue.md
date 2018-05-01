@@ -7,7 +7,7 @@ old-location: kernel\keinsertbykeydevicequeue.htm
 old-project: kernel
 ms.assetid: fa395673-108f-4cf0-b05f-a160aa0b02ea
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeInsertByKeyDeviceQueue, KeInsertByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_14a9196c-2ce0-4384-9e72-b957523f49b6.xml, kernel.keinsertbykeydevicequeue, wdm/KeInsertByKeyDeviceQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeInsertByKeyDeviceQueue
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeInsertByKeyDeviceQueue function

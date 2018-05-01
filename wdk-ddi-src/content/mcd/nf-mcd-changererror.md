@@ -40,7 +40,7 @@ api_name:
 -	ChangerError
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerError function

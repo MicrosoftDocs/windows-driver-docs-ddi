@@ -7,7 +7,7 @@ old-location: display\dxgk_deviceinfo.htm
 old-project: display
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_DEVICEINFO, DXGK_DEVICEINFO structure [Display Devices], DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, _DXGK_DEVICEINFO, d3dkmddi/DXGK_DEVICEINFO, display.dxgk_deviceinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

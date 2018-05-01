@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetStackTrace
-title: IDebugControl2::GetStackTrace method
+title: IDebugControl2::GetStackTrace
 author: windows-driver-content
 description: The GetStackTrace method returns the frames at the top of the specified call stack.
 old-location: debugger\getstacktrace.htm
 old-project: debugger
 ms.assetid: 2d07e6a3-b560-4d9b-aece-0368d5929867
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetStackTrace method [Windows Debugging], GetStackTrace method [Windows Debugging], IDebugControl interface, GetStackTrace method [Windows Debugging], IDebugControl2 interface, GetStackTrace method [Windows Debugging], IDebugControl3 interface, GetStackTrace,IDebugControl2.GetStackTrace, IDebugControl interface [Windows Debugging], GetStackTrace method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetStackTrace method, IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging], GetStackTrace method, IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, dbgeng/IDebugControl2::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl::GetStackTrace, debugger.getstacktrace
+ms.date: 4/24/2018
+ms.keywords: GetStackTrace, GetStackTrace method [Windows Debugging], GetStackTrace method [Windows Debugging],IDebugControl interface, GetStackTrace method [Windows Debugging],IDebugControl2 interface, GetStackTrace method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetStackTrace method, IDebugControl2 interface [Windows Debugging],GetStackTrace method, IDebugControl2.GetStackTrace, IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging],GetStackTrace method, IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, dbgeng/IDebugControl2::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl::GetStackTrace, debugger.getstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetStackTrace
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetStackTrace method
+# IDebugControl2::GetStackTrace
 
 
 ## -description

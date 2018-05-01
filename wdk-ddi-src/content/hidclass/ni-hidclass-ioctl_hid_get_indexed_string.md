@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6139be09-0206-4249-a581-077063339817
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_INDEXED_STRING, IOCTL_HID_GET_INDEXED_STRING control code [Human Input Devices], hid.ioctl_hid_get_indexed_string, hidclass/IOCTL_HID_GET_INDEXED_STRING, hidioreq_6f55706b-d3f3-469b-8dd7-65e70309fc6e.xml
+ms.keywords: IOCTL_HID_GET_INDEXED_STRING, IOCTL_HID_GET_INDEXED_STRING control, IOCTL_HID_GET_INDEXED_STRING control code [Human Input Devices], hid.ioctl_hid_get_indexed_string, hidclass/IOCTL_HID_GET_INDEXED_STRING, hidioreq_6f55706b-d3f3-469b-8dd7-65e70309fc6e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_HID_GET_INDEXED_STRING
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_INDEXED_STRING IOCTL

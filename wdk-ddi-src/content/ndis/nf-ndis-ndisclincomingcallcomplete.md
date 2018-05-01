@@ -7,7 +7,7 @@ old-location: netvista\ndisclincomingcallcomplete.htm
 old-project: netvista
 ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, ndis/NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisClIncomingCallComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisClIncomingCallComplete function

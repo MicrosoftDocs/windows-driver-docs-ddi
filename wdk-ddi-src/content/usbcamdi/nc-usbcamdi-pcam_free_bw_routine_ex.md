@@ -7,7 +7,7 @@ old-location: stream\camfreebandwidthex.htm
 old-project: stream
 ms.assetid: ef6aa2bf-8b45-4048-ac21-b069e28b556f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], PCAM_FREE_BW_ROUTINE_EX, stream.camfreebandwidthex, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	CamFreeBandwidthEx
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_FREE_BW_ROUTINE_EX callback
+# PCAM_FREE_BW_ROUTINE_EX callback function
 
 
 ## -description

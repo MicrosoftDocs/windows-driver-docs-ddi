@@ -7,7 +7,7 @@ old-location: buses\_roothub_30port_info.htm
 old-project: usbref
 ms.assetid: 5C39C0EB-AC7F-44E5-95EB-9F067DBE0801
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO structure pointer [Buses], ROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO structure [Buses], _ROOTHUB_30PORT_INFO, buses._roothub_30port_info, ucxroothub/P_ROOTHUB_30PORT_INFO, ucxroothub/_ROOTHUB_30PORT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: ROOTHUB_30PORT_INFO, *PROOTHUB_30PORT_INFO
-req.product: Windows 10 or later.
 ---
 
 # _ROOTHUB_30PORT_INFO structure

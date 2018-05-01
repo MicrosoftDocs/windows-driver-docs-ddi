@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,27 +62,32 @@ The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a
  
 
 
-### -field AsULONG
+### -field DUMMYSTRUCTNAME.PreviousError
 
-A ULONG representation of the contents of the WHEA_ERROR_PACKET_FLAGS union.
-
-
-#### - HypervisorError
-
-A single bit that indicates that a hypervisor error has occurred.
+A single bit that indicates whether the hardware error packet contains information about a fatal hardware error. This error caused the operating system to generate a bug check and restart.
 
 
-#### - PlatformDirectedOffline
+### -field DUMMYSTRUCTNAME.Reserved1
 
-A single bit that indicates whether the PSHED plug-in that performs PFA on a system component has determined if the component should be brought into an offline state. This bit is only valid if the <b>PlatformPfaControl</b> member is set.
+Reserved for system use.
 
 
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
+<div class="alert"><b>Note</b>  In versions of the Windows Driver Kit (WDK) prior to Windows 7, this member was named <b>CpuValid</b>. The <b>CpuValid </b>member has been deprecated in the WDK for Windows 7 and later versions of Windows.</div>
 <div> </div>
 
 
 
-#### - PlatformPfaControl
+### -field DUMMYSTRUCTNAME.HypervisorError
+
+A single bit that indicates that a hypervisor error has occurred.
+
+
+### -field DUMMYSTRUCTNAME.Simulated
+
+A single bit that indicates that the error condition was simulated.
+
+
+### -field DUMMYSTRUCTNAME.PlatformPfaControl
 
 A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the <b>PlatformDirectedOffline </b>to bring an <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> memory page into an offline state.
 
@@ -94,29 +99,24 @@ For more information about PFA support for WHEA, see <a href="https://msdn.micro
 
 
 
-#### - PreviousError
+### -field DUMMYSTRUCTNAME.PlatformDirectedOffline
 
-A single bit that indicates whether the hardware error packet contains information about a fatal hardware error. This error caused the operating system to generate a bug check and restart.
-
-
-#### - Reserved1
-
-Reserved for system use.
+A single bit that indicates whether the PSHED plug-in that performs PFA on a system component has determined if the component should be brought into an offline state. This bit is only valid if the <b>PlatformPfaControl</b> member is set.
 
 
-<div class="alert"><b>Note</b>  In versions of the Windows Driver Kit (WDK) prior to Windows 7, this member was named <b>CpuValid</b>. The <b>CpuValid </b>member has been deprecated in the WDK for Windows 7 and later versions of Windows.</div>
+<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
 <div> </div>
 
 
 
-#### - Reserved2
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved for system use. 
 
 
-#### - Simulated
+### -field AsULONG
 
-A single bit that indicates that the error condition was simulated.
+A ULONG representation of the contents of the WHEA_ERROR_PACKET_FLAGS union.
 
 
 ## -remarks

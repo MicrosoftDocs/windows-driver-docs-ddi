@@ -7,8 +7,8 @@ old-location: display\dxgk_monitordescriptorset_interface_pfngetnumdescriptors.h
 old-project: display
 ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml, d3dkmddi/pfnGetNumDescriptors, display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors, pfnGetNumDescriptors callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml, d3dkmddi/pfnGetNumDescriptors, display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors, pfnGetNumDescriptors callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnGetNumDescriptors
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback
+# DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback function
 
 
 ## -description

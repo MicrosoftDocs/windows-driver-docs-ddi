@@ -7,8 +7,8 @@ old-location: display\createvideoprocessorinputview.htm
 old-project: display
 ms.assetid: f3942c53-e366-41c5-9f43-d093fa6b6ed6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/CreateVideoProcessorInputView, display.createvideoprocessorinputview
+ms.date: 4/16/2018
+ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback, d3d10umddi/CreateVideoProcessorInputView, display.createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback
+# PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback function
 
 
 ## -description

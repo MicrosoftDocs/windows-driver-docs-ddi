@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNotifyEventHandle
-title: IDebugControl2::GetNotifyEventHandle method
+title: IDebugControl2::GetNotifyEventHandle
 author: windows-driver-content
 description: The GetNotifyEventHandle method receives the handle of the event that will be signaled after the next exception in a target.
 old-location: debugger\getnotifyeventhandle.htm
 old-project: debugger
 ms.assetid: a949a583-1ee1-4538-9117-4ad1482e8bc8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, GetNotifyEventHandle,IDebugControl2.GetNotifyEventHandle, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2::GetNotifyEventHandle, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl3::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, dbgeng/IDebugControl2::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, dbgeng/IDebugControl::GetNotifyEventHandle, debugger.getnotifyeventhandle
+ms.date: 4/24/2018
+ms.keywords: GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle method [Windows Debugging],IDebugControl interface, GetNotifyEventHandle method [Windows Debugging],IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNotifyEventHandle method, IDebugControl2 interface [Windows Debugging],GetNotifyEventHandle method, IDebugControl2.GetNotifyEventHandle, IDebugControl2::GetNotifyEventHandle, IDebugControl3 interface [Windows Debugging],GetNotifyEventHandle method, IDebugControl3::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, dbgeng/IDebugControl2::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, dbgeng/IDebugControl::GetNotifyEventHandle, debugger.getnotifyeventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetNotifyEventHandle
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetNotifyEventHandle method
+# IDebugControl2::GetNotifyEventHandle
 
 
 ## -description

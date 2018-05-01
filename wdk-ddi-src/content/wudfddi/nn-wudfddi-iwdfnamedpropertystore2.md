@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6935379-bf0d-4319-bcd9-56f0e4016945
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface, described, UMDFPropertyStoreObjectRef_6a5d155a-6311-4a43-9b21-2572b04da323.xml, umdf.iwdfnamedpropertystore2, wdf.iwdfnamedpropertystore2, wudfddi/IWDFNamedPropertyStore2
+ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,described, UMDFPropertyStoreObjectRef_6a5d155a-6311-4a43-9b21-2572b04da323.xml, umdf.iwdfnamedpropertystore2, wdf.iwdfnamedpropertystore2, wudfddi/IWDFNamedPropertyStore2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -40,8 +40,7 @@ api_name:
 -	IWDFNamedPropertyStore2
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFNamedPropertyStore2 interface

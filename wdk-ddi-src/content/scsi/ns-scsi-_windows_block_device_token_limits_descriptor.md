@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, *PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure

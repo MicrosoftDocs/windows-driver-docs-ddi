@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -65,6 +65,11 @@ Specifies the version number of this structure.
 ### -field Size
 
 Specifies the size, in bytes, of this structure.
+
+
+### -field BankPowerInformation
+
+ 
 
 
 ### -field BankInterruptBinding

@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_DMA_PROFILE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DMA_PROFILE enumeration
@@ -95,12 +94,12 @@ The device supports packet-based, scatter/gather DMA operations, using 32-bit ad
 The device supports packet-based, scatter/gather DMA operations, using 64-bit addressing. The device also supports duplex operation.
 
 
-### -field WdfDmaProfileSystem
+#### - WdfDmaProfileSystem
 
 The device supports system-mode DMA operations. This value is available in version 1.11 and later versions of KMDF running on Windows 8 or later versions of Windows.
 
 
-### -field WdfDmaProfileSystemDuplex
+#### - WdfDmaProfileSystemDuplex
 
 The device supports system-mode DMA operations. The device also supports duplex operation. This value is available in version 1.11 and later versions of KMDF running on Windows 8 or later versions of Windows.
 

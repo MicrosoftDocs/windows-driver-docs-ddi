@@ -7,8 +7,8 @@ old-location: audio\ioctl_usbsbaud_set_stream_close.htm
 old-project: audio
 ms.assetid: 0D7B03AB-28D7-4B70-AE24-8CB60616768D
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_USBSBAUD_SET_STREAM_CLOSE, IOCTL_USBSBAUD_SET_STREAM_CLOSE control code [Audio Devices], audio.ioctl_usbsbaud_set_stream_close, usbsidebandaudio/IOCTL_USBSBAUD_SET_STREAM_CLOSE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_USBSBAUD_SET_STREAM_CLOSE, IOCTL_USBSBAUD_SET_STREAM_CLOSE control, IOCTL_USBSBAUD_SET_STREAM_CLOSE control code [Audio Devices], audio.ioctl_usbsbaud_set_stream_close, usbsidebandaudio/IOCTL_USBSBAUD_SET_STREAM_CLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USBSBAUD_SET_STREAM_CLOSE
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBSBAUD_SET_STREAM_CLOSE IOCTL

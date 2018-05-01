@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.SetPropertyData
-title: IWDFUnifiedPropertyStore::SetPropertyData method
+title: IWDFUnifiedPropertyStore::SetPropertyData
 author: windows-driver-content
 description: The SetPropertyData method modifies the current setting of a device property.
 old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, SetPropertyData method, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore interface, SetPropertyData,IWDFUnifiedPropertyStore.SetPropertyData, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
+ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUnifiedPropertyStore.SetPropertyData
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUnifiedPropertyStore::SetPropertyData method
+# IWDFUnifiedPropertyStore::SetPropertyData
 
 
 ## -description

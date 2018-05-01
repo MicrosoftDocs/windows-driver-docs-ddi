@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtquerypolicy.htm
 old-project: kernel
 ms.assetid: c9cc9124-ee15-40df-b149-a9f3b26d7c24
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ClfsMgmtQueryPolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, kernel.clfsmgmtquerypolicy, wdm/ClfsMgmtQueryPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	ClfsMgmtQueryPolicy
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsMgmtQueryPolicy function

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.PublishDriverInterface
-title: IPrintOemUI::PublishDriverInterface method
+title: IPrintOemUI::PublishDriverInterface
 author: windows-driver-content
 description: The IPrintOemUI::PublishDriverInterface method allows a user interface plug-in to obtain the Unidrv or Pscript5 driver's IPrintOemDriverUI, IPrintCoreUI2, IPrintCoreHelperPS, or IPrintCoreHelperUni interface.
 old-location: print\iprintoemui_publishdriverinterface.htm
 old-project: print
 ms.assetid: 4c2053ec-c6b3-4584-b689-dc887610c57e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], PublishDriverInterface method, IPrintOemUI::PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUI interface, PublishDriverInterface,IPrintOemUI.PublishDriverInterface, prcomoem/IPrintOemUI::PublishDriverInterface, print.iprintoemui_publishdriverinterface, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI interface [Print Devices],PublishDriverInterface method, IPrintOemUI.PublishDriverInterface, IPrintOemUI::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::PublishDriverInterface, print.iprintoemui_publishdriverinterface, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.PublishDriverInterface
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::PublishDriverInterface method
+# IPrintOemUI::PublishDriverInterface
 
 
 ## -description

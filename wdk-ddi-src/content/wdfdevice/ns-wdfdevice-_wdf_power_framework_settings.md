@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_POWER_FRAMEWORK_SETTINGS, *PWDF_POWER_FRAMEWORK_SETTINGS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_POWER_FRAMEWORK_SETTINGS structure

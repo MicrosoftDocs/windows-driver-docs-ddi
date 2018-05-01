@@ -7,7 +7,7 @@ old-location: netvista\rilmanagecallsparams_v2.htm
 old-project: netvista
 ms.assetid: 7a4e0930-b499-4abd-bbf6-326ae928b5c5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V2, RILMANAGECALLSPARAMS_V2, RILMANAGECALLSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v2, ntddrilapitypes/RILMANAGECALLSPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILMANAGECALLSPARAMS_V2, *LPRILMANAGECALLSPARAMS_V2
-req.product: Windows 10 or later.
 ---
 
 # RILMANAGECALLSPARAMS_V2 structure

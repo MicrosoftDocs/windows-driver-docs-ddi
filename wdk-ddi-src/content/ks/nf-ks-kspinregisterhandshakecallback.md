@@ -7,7 +7,7 @@ old-location: stream\kspinregisterhandshakecallback.htm
 old-project: stream
 ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, ks/KsPinRegisterHandshakeCallback, stream.kspinregisterhandshakecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

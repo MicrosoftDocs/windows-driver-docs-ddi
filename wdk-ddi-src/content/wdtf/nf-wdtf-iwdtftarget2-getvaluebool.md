@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueBool
-title: IWDTFTarget2::GetValueBool method
+title: IWDTFTarget2::GetValueBool
 author: windows-driver-content
 description: Returns a boolean value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluebool.htm
 old-project: dtf
 ms.assetid: 53be5e16-7c04-41c3-a808-828982eda440
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetValueBool method [Windows Device Testing Framework], GetValueBool method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueBool,IWDTFTarget2.GetValueBool, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueBool method, IWDTFTarget2::GetValueBool, Microsoft.WDTF.IWDTFTarget2.GetValueBool, Microsoft::WDTF::IWDTFTarget2::GetValueBool, dtf.iwdtftarget2_getvaluebool, wdtf/IWDTFTarget2::GetValueBool
+ms.date: 4/4/2018
+ms.keywords: GetValueBool, GetValueBool method [Windows Device Testing Framework], GetValueBool method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueBool method, IWDTFTarget2.GetValueBool, IWDTFTarget2::GetValueBool, Microsoft.WDTF.IWDTFTarget2.GetValueBool, Microsoft::WDTF::IWDTFTarget2::GetValueBool, dtf.iwdtftarget2_getvaluebool, wdtf/IWDTFTarget2::GetValueBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTarget2.GetValueBool
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::GetValueBool method
+# IWDTFTarget2::GetValueBool
 
 
 ## -description

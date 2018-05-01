@@ -7,8 +7,8 @@ old-location: display\pfnstatehsconstbufcb.htm
 old-project: display
 ms.assetid: 2f817497-7334-47ef-aa9d-d43386aa4751
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11DDI_STATE_HS_CONSTBUF_CB, d3d10umddi/pfnStateHsConstBufCb, d3d11state_functions_a6869e87-887a-43de-ae5e-8ca310193939.xml, display.pfnstatehsconstbufcb, pfnStateHsConstBufCb, pfnStateHsConstBufCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11DDI_STATE_HS_CONSTBUF_CB, PFND3D11DDI_STATE_HS_CONSTBUF_CB callback, d3d10umddi/pfnStateHsConstBufCb, d3d11state_functions_a6869e87-887a-43de-ae5e-8ca310193939.xml, display.pfnstatehsconstbufcb, pfnStateHsConstBufCb, pfnStateHsConstBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnStateHsConstBufCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_STATE_HS_CONSTBUF_CB callback
+# PFND3D11DDI_STATE_HS_CONSTBUF_CB callback function
 
 
 ## -description

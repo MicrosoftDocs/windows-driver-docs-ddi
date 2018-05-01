@@ -40,8 +40,7 @@ api_name:
 -	StorPortFreeContiguousMemorySpecifyCache
 product: Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortFreeContiguousMemorySpecifyCache function

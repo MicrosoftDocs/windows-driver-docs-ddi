@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_notify_interrupt_data.htm
 old-project: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, STATUS_NO_MEMORY, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -185,6 +185,13 @@ Supported starting with Windows 8.1.
 [in] A pointer to  a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780309">DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO</a> structure that specifies an overlay plane to display during a VSync interval.
 
 Supported starting with Windows 8.1.
+
+
+### -field DisplayOnlyPresentProgress
+
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451245">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a> structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation.
+
+Supported starting with Windows 8.
 
 
 ### -field MiracastEncodeChunkCompleted
@@ -442,6 +449,21 @@ Supported starting with Windows 10.
  
 
 
+### -field HwQueuePageFaulted.FaultedHwQueue
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedHwContext
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedProcessHandle
+
+ 
+
+
 ### -field HwQueuePageFaulted.NodeOrdinal
 
  
@@ -503,13 +525,6 @@ An array of 32-bit values that are reserved for future use.
 ### -field Flags
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff559579">DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS</a> structure that indicates if the display miniport driver provides a physical adapter mask in a call to the <a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a> function.
-
-
-#### - DisplayOnlyPresentProgress
-
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451245">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a> structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation.
-
-Supported starting with Windows 8.
 
 
 #### - GpuClockCounter

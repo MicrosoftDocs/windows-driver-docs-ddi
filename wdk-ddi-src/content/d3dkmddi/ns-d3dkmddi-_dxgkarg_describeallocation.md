@@ -7,7 +7,7 @@ old-location: display\dxgkarg_describeallocation.htm
 old-project: display
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION structure [Display Devices], DmStructs_73e3d53a-788b-4c88-980c-df0d2038694f.xml, _DXGKARG_DESCRIBEALLOCATION, d3dkmddi/DXGKARG_DESCRIBEALLOCATION, display.dxgkarg_describeallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

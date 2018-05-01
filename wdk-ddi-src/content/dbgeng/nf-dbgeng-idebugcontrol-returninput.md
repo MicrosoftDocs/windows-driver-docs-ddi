@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.ReturnInput
-title: IDebugControl::ReturnInput method
+title: IDebugControl::ReturnInput
 author: windows-driver-content
 description: The ReturnInput method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninput.htm
 old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl2 interface [Windows Debugging], ReturnInput method, IDebugControl2::ReturnInput, IDebugControl3 interface [Windows Debugging], ReturnInput method, IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput method [Windows Debugging], ReturnInput method [Windows Debugging], IDebugControl interface, ReturnInput method [Windows Debugging], IDebugControl2 interface, ReturnInput method [Windows Debugging], IDebugControl3 interface, ReturnInput,IDebugControl.ReturnInput, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, dbgeng/IDebugControl::ReturnInput, debugger.returninput
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],ReturnInput method, IDebugControl.ReturnInput, IDebugControl2 interface [Windows Debugging],ReturnInput method, IDebugControl2::ReturnInput, IDebugControl3 interface [Windows Debugging],ReturnInput method, IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput, ReturnInput method [Windows Debugging], ReturnInput method [Windows Debugging],IDebugControl interface, ReturnInput method [Windows Debugging],IDebugControl2 interface, ReturnInput method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, dbgeng/IDebugControl::ReturnInput, debugger.returninput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.ReturnInput
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::ReturnInput method
+# IDebugControl::ReturnInput
 
 
 ## -description

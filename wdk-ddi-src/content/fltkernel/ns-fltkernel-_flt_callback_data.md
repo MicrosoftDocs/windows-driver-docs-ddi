@@ -7,7 +7,7 @@ old-location: ifsk\flt_callback_data.htm
 old-project: ifsk
 ms.assetid: c526585e-aa6d-4332-9dd7-927d83293f09
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFLT_CALLBACK_DATA, FLT_CALLBACK_DATA, FLT_CALLBACK_DATA structure [Installable File System Drivers], FltSystemStructures_36133023-b06f-46c9-87fc-04543cade79a.xml, PFLT_CALLBACK_DATA, PFLT_CALLBACK_DATA structure pointer [Installable File System Drivers], _FLT_CALLBACK_DATA, fltkernel/FLT_CALLBACK_DATA, fltkernel/PFLT_CALLBACK_DATA, ifsk.flt_callback_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -240,14 +240,14 @@ Queue links that a minifilter can use when the Filter Manager's callback data qu
 Array of context information pointers that a minifilter can use when the Filter Manager's queue is used to pend the I/O operation. 
 
 
+### -field FilterContext
+
+Array of context information pointers that a minifilter can use when a queue other than the Filter Manager's queue is used to pend the I/O operation. 
+
+
 ### -field RequestorMode
 
 Indicates the execution mode of the process that initiated the I/O operation, either <b>KernelMode</b> or <b>UserMode</b>. 
-
-
-#### - FilterContext
-
-Array of context information pointers that a minifilter can use when a queue other than the Filter Manager's queue is used to pend the I/O operation. 
 
 
 ## -remarks

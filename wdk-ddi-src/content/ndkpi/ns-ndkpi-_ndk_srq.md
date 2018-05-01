@@ -7,7 +7,7 @@ old-location: netvista\ndk_srq.htm
 old-project: netvista
 ms.assetid: BDD2E8A6-D233-4581-AC1D-B6E33919898E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista], PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_SRQ, ndkpi/NDK_SRQ, ndkpi/PNDK_SRQ, netvista.ndk_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	NDK_SRQ
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ, NDK_SRQ
+req.typenames: NDK_SRQ
 ---
 
 # _NDK_SRQ structure

@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetcontextinprocessschedulingpriority.htm
 old-project: display
 ms.assetid: e2a662b6-6a16-4e63-b5a8-5701a7180f60
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	D3DKMTGetContextInProcessSchedulingPriority
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetContextInProcessSchedulingPriority function

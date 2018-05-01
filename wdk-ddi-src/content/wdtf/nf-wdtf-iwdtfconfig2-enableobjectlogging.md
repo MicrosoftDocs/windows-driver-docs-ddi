@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.EnableObjectLogging
-title: IWDTFCONFIG2::EnableObjectLogging method
+title: IWDTFCONFIG2::EnableObjectLogging
 author: windows-driver-content
 description: Enables object logging for all objects.
 old-location: dtf\iwdtfconfig2_enableobjectlogging.htm
 old-project: dtf
 ms.assetid: 7518aab0-8de5-4f45-b7d9-3cffdc07ea90
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, EnableObjectLogging,IWDTFCONFIG2.EnableObjectLogging, IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectLogging method, IWDTFCONFIG2::EnableObjectLogging, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectLogging, dtf.iwdtfconfig2_enableobjectlogging, wdtf/IWDTFCONFIG2::EnableObjectLogging
+ms.date: 4/4/2018
+ms.keywords: EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework],IWDTFCONFIG2 interface, IWDTFCONFIG2 interface [Windows Device Testing Framework],EnableObjectLogging method, IWDTFCONFIG2.EnableObjectLogging, IWDTFCONFIG2::EnableObjectLogging, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectLogging, dtf.iwdtfconfig2_enableobjectlogging, wdtf/IWDTFCONFIG2::EnableObjectLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFCONFIG2.EnableObjectLogging
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFCONFIG2::EnableObjectLogging method
+# IWDTFCONFIG2::EnableObjectLogging
 
 
 ## -description

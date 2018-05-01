@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatecontext.htm
 old-project: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTCreateContext, D3DKMTCreateContext callback function [Display Devices], OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCreateContext, D3DKMTCreateContext callback function [Display Devices], OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, PFND3DKMT_CREATECONTEXT callback, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	D3DKMTCreateContext
 product: Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_CREATECONTEXT callback
+# PFND3DKMT_CREATECONTEXT callback function
 
 
 ## -description

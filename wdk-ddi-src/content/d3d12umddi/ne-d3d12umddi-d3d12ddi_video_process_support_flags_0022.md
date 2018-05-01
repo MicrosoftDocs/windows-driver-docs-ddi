@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_support_flags.htm
 old-project: display
 ms.assetid: 2E6E1F22-C6E8-4290-A342-B01387633D43
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022, D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022 enumeration [Display Devices], D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_NONE, D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_NONE, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_SUPPORTED, display.d3d12ddi_video_process_support_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

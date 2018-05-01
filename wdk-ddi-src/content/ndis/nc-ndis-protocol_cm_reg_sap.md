@@ -7,8 +7,8 @@ old-location: netvista\protocolcmregistersap.htm
 old-project: netvista
 ms.assetid: 3e3e7a0e-a8d2-40b2-895b-187d24867080
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_REG_SAP, ProtocolCmRegisterSap, ProtocolCmRegisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_aaaefdc1-4954-4911-84a4-1f82141ccca6.xml, ndis/ProtocolCmRegisterSap, netvista.protocolcmregistersap
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_REG_SAP, PROTOCOL_CM_REG_SAP callback, ProtocolCmRegisterSap, ProtocolCmRegisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_aaaefdc1-4954-4911-84a4-1f82141ccca6.xml, ndis/ProtocolCmRegisterSap, netvista.protocolcmregistersap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolCmRegisterSap
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_REG_SAP callback
+# PROTOCOL_CM_REG_SAP callback function
 
 
 ## -description

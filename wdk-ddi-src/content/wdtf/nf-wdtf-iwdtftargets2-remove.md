@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Remove
-title: IWDTFTargets2::Remove method
+title: IWDTFTargets2::Remove
 author: windows-driver-content
 description: Removes an item from the collection.
 old-location: dtf\iwdtftargets2_remove.htm
 old-project: dtf
 ms.assetid: 5db8c912-a446-4ae7-a775-f56ffa979283
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Remove method, IWDTFTargets2::Remove, Microsoft.WDTF.IWDTFTargets2.Remove, Microsoft::WDTF::IWDTFTargets2::Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework], IWDTFTargets2 interface, Remove,IWDTFTargets2.Remove, dtf.iwdtftargets2_remove, wdtf/IWDTFTargets2::Remove
+ms.date: 4/4/2018
+ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],Remove method, IWDTFTargets2.Remove, IWDTFTargets2::Remove, Microsoft.WDTF.IWDTFTargets2.Remove, Microsoft::WDTF::IWDTFTargets2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_remove, wdtf/IWDTFTargets2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTargets2.Remove
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::Remove method
+# IWDTFTargets2::Remove
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetMixFormat
-title: IMiniportAudioEngineNode::GetMixFormat method
+title: IMiniportAudioEngineNode::GetMixFormat
 author: windows-driver-content
 description: Gets the audio data format for the audio engine mixer.
 old-location: audio\iminiportaudioenginenode_getmixformat.htm
 old-project: audio
 ms.assetid: CB0DD6C8-DFB3-42E0-B38F-341677A72E29
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetMixFormat method [Audio Devices], GetMixFormat method [Audio Devices], IMiniportAudioEngineNode interface, GetMixFormat,IMiniportAudioEngineNode.GetMixFormat, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetMixFormat method, IMiniportAudioEngineNode::GetMixFormat, audio.iminiportaudioenginenode_getmixformat, portcls/IMiniportAudioEngineNode::GetMixFormat
+ms.date: 4/16/2018
+ms.keywords: GetMixFormat, GetMixFormat method [Audio Devices], GetMixFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetMixFormat method, IMiniportAudioEngineNode.GetMixFormat, IMiniportAudioEngineNode::GetMixFormat, audio.iminiportaudioenginenode_getmixformat, portcls/IMiniportAudioEngineNode::GetMixFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportAudioEngineNode.GetMixFormat
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetMixFormat method
+# IMiniportAudioEngineNode::GetMixFormat
 
 
 ## -description

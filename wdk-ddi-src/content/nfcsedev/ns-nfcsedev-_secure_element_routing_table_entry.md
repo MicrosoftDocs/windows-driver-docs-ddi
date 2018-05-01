@@ -63,18 +63,18 @@ NFC Forum listen mode routing table entry type.
 
 
 
-#### - AidRoutingInfo
+### -field TechRoutingInfo
 
-AID routing table control information.
+RF technology routing table entry information.
 
 
-
-#### - ProtoRoutingInfo
+### -field ProtoRoutingInfo
 
 RF protocol routing table entry information.
 
 
-#### - TechRoutingInfo
+### -field AidRoutingInfo
 
-RF technology routing table entry information.
+AID routing table control information.
+
 

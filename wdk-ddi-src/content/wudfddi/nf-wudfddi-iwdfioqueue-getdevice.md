@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.GetDevice
-title: IWDFIoQueue::GetDevice method
+title: IWDFIoQueue::GetDevice
 author: windows-driver-content
 description: The GetDevice method retrieves the interface to the device that owns the I/O queue.
 old-location: wdf\iwdfioqueue_getdevice.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDevice method, GetDevice method, IWDFIoQueue interface, GetDevice,IWDFIoQueue.GetDevice, IWDFIoQueue, IWDFIoQueue interface, GetDevice method, IWDFIoQueue::GetDevice, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, umdf.iwdfioqueue_getdevice, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice
+ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFIoQueue interface, IWDFIoQueue interface,GetDevice method, IWDFIoQueue.GetDevice, IWDFIoQueue::GetDevice, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, umdf.iwdfioqueue_getdevice, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoQueue.GetDevice
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::GetDevice method
+# IWDFIoQueue::GetDevice
 
 
 ## -description

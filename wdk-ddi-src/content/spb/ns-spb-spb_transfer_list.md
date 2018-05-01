@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_LIST structure

@@ -7,8 +7,8 @@ old-location: display\pfnstatevssamplercb.htm
 old-project: display
 ms.assetid: 5f5dd2ee-72fb-450c-850a-f5546401cd96
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_STATE_VS_SAMPLER_CB, d3d10state_functions_9573517c-75c9-4923-93a8-15ee5b5c4d70.xml, d3d10umddi/pfnStateVsSamplerCb, display.pfnstatevssamplercb, pfnStateVsSamplerCb, pfnStateVsSamplerCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_STATE_VS_SAMPLER_CB, PFND3D10DDI_STATE_VS_SAMPLER_CB callback, d3d10state_functions_9573517c-75c9-4923-93a8-15ee5b5c4d70.xml, d3d10umddi/pfnStateVsSamplerCb, display.pfnstatevssamplercb, pfnStateVsSamplerCb, pfnStateVsSamplerCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnStateVsSamplerCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_STATE_VS_SAMPLER_CB callback
+# PFND3D10DDI_STATE_VS_SAMPLER_CB callback function
 
 
 ## -description

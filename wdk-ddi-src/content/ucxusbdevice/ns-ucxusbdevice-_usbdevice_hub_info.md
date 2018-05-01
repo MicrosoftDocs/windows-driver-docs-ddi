@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_hub_info.htm
 old-project: usbref
 ms.assetid: F403179A-B339-432D-AAF9-E7D9965F8B00
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_HUB_INFO, *PUSBDEVICE_HUB_INFO
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_HUB_INFO structure

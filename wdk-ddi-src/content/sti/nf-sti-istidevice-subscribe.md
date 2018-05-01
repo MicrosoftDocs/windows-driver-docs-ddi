@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.Subscribe
-title: IStiDevice::Subscribe method
+title: IStiDevice::Subscribe
 author: windows-driver-content
 description: The IStiDevice::Subscribe method registers the caller to receive notifications of device events.
 old-location: image\istidevice_subscribe.htm
 old-project: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], Subscribe method, IStiDevice::Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices], IStiDevice interface, Subscribe,IStiDevice.Subscribe, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],Subscribe method, IStiDevice.Subscribe, IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices],IStiDevice interface, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiDevice.Subscribe
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::Subscribe method
+# IStiDevice::Subscribe
 
 
 ## -description

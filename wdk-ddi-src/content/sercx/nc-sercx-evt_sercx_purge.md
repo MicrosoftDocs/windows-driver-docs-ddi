@@ -7,8 +7,8 @@ old-location: serports\evtsercxpurge.htm
 old-project: serports
 ms.assetid: 036D9AAC-C740-4108-B952-0A4F91585488
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxPurge, EVT_SERCX_PURGE, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxPurge, EVT_SERCX_PURGE, EVT_SERCX_PURGE callback, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCxPurge
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_PURGE callback
+# EVT_SERCX_PURGE callback function
 
 
 ## -description

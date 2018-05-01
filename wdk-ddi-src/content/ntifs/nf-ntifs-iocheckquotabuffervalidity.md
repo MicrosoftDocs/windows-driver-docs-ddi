@@ -7,7 +7,7 @@ old-location: ifsk\iocheckquotabuffervalidity.htm
 old-project: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoCheckQuotaBufferValidity
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoCheckQuotaBufferValidity function

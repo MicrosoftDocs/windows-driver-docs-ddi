@@ -7,7 +7,7 @@ old-location: kernel\pofxregisterpluginex.htm
 old-project: kernel
 ms.assetid: 68753690-A6DC-46BE-9981-F395B98C3245
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: PoFxRegisterPluginEx, PoFxRegisterPluginEx routine [Kernel-Mode Driver Architecture], kernel.pofxregisterpluginex, pepfx/PoFxRegisterPluginEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	PoFxRegisterPluginEx
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
+req.typenames: 
 ---
 
 # PoFxRegisterPluginEx function

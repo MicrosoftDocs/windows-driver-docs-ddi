@@ -7,7 +7,7 @@ old-location: display\dxgk_cpuhostaperture.htm
 old-project: display
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], _DXGK_CPUHOSTAPERTURE, d3dkmddi/DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

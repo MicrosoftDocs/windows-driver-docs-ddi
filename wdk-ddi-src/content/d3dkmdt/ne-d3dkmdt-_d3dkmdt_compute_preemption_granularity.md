@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_compute_preemption_granularity.htm
 old-project: display
 ms.assetid: d8ed5406-3b76-49a7-961c-0be737b1dda9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_COMPUTE_PREEMPTION_NONE, D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_NONE, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, display.d3dkmdt_compute_preemption_granularity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

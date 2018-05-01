@@ -7,7 +7,7 @@ old-location: netvista\ndismqueryadapterinstancename.htm
 old-project: netvista
 ms.assetid: 7af6ee73-814b-49f8-8641-d3e8dc672ee5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMQueryAdapterInstanceName, NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, ndis/NdisMQueryAdapterInstanceName, netvista.ndismqueryadapterinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisMQueryAdapterInstanceName
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMQueryAdapterInstanceName function

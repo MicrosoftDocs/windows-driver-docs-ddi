@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvGetCapabilities
-title: IWiaMiniDrv::drvGetCapabilities method
+title: IWiaMiniDrv::drvGetCapabilities
 author: windows-driver-content
 description: The IWiaMiniDrv::drvGetCapabilities method returns an array of events and commands that a device supports.
 old-location: image\iwiaminidrv_drvgetcapabilities.htm
 old-project: image
 ms.assetid: 946a6ea7-5818-4959-adf2-3568c1b64b1a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, IWiaMiniDrv::drvGetCapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities method [Imaging Devices], drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface, drvGetCapabilities,IWiaMiniDrv.drvGetCapabilities, image.iwiaminidrv_drvgetcapabilities, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetCapabilities method, IWiaMiniDrv.drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, drvGetCapabilities method [Imaging Devices], drvGetCapabilities method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetcapabilities, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWiaMiniDrv.drvGetCapabilities
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvGetCapabilities method
+# IWiaMiniDrv::drvGetCapabilities
 
 
 ## -description

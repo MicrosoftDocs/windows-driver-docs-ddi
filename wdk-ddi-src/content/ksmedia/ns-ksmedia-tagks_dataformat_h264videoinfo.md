@@ -7,7 +7,7 @@ old-location: stream\ks_dataformat_h264videoinfo.htm
 old-project: stream
 ms.assetid: 6D2C0245-542E-4749-B8F3-531BFA3800E3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], PKS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_H264VIDEOINFO, ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, stream.ks_dataformat_h264videoinfo, tagKS_DATAFORMAT_H264VIDEOINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

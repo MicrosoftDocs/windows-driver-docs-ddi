@@ -7,8 +7,8 @@ old-location: netvista\filterdirectoidrequest.htm
 old-project: netvista
 ms.assetid: a39f4b50-0183-4f92-82f2-3c8e2e2d0632
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_DIRECT_OID_REQUEST, FilterDirectOidRequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml, netvista.filterdirectoidrequest
+ms.date: 4/25/2018
+ms.keywords: FILTER_DIRECT_OID_REQUEST, FILTER_DIRECT_OID_REQUEST callback, FilterDirectOidRequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml, netvista.filterdirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterDirectOidRequest
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_DIRECT_OID_REQUEST callback
+# FILTER_DIRECT_OID_REQUEST callback function
 
 
 ## -description

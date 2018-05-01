@@ -7,7 +7,7 @@ old-location: display\dxgk_flipcaps.htm
 old-project: display
 ms.assetid: 33399b7c-ce67-4c49-be26-2b2d759ff5a0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_FLIPCAPS, DXGK_FLIPCAPS structure [Display Devices], DmStructs_11bba63e-8001-41d2-9c60-978024921994.xml, _DXGK_FLIPCAPS, d3dkmddi/DXGK_FLIPCAPS, display.dxgk_flipcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -127,7 +127,7 @@ This member is reserved and should be set to zero. Setting this member to zero i
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_FLIPCAPS contains that can hold a 32-bit value that identifies flipping capabilities.
 

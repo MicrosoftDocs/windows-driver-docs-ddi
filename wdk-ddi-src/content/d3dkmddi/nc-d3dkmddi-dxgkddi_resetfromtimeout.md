@@ -7,8 +7,8 @@ old-location: display\dxgkddiresetfromtimeout.htm
 old-project: display
 ms.assetid: b9bfc801-33f6-4911-ab7d-8e3c99a5e2e9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_RESETFROMTIMEOUT, DmFunctions_de82b888-dc3d-40b6-a3c3-360254efb972.xml, DxgkDdiResetFromTimeout, DxgkDdiResetFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiResetFromTimeout, display.dxgkddiresetfromtimeout
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_RESETFROMTIMEOUT, DXGKDDI_RESETFROMTIMEOUT callback, DmFunctions_de82b888-dc3d-40b6-a3c3-360254efb972.xml, DxgkDdiResetFromTimeout, DxgkDdiResetFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiResetFromTimeout, display.dxgkddiresetfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiResetFromTimeout
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_RESETFROMTIMEOUT callback
+# DXGKDDI_RESETFROMTIMEOUT callback function
 
 
 ## -description

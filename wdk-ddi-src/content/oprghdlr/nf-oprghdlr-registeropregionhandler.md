@@ -41,7 +41,7 @@ api_name:
 -	RegisterOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
 # RegisterOpRegionHandler function

@@ -7,7 +7,7 @@ old-location: buses\ucx_endpoint_characteristic.htm
 old-project: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC
-req.product: Windows 10 or later.
 ---
 
 # _UCX_ENDPOINT_CHARACTERISTIC structure
@@ -68,7 +67,7 @@ Size of this structure.
 A <a href="https://msdn.microsoft.com/1F49C8CA-51CE-49B2-AC37-C114A688B1DB">UCX_ENDPOINT_CHARACTERISTIC_TYPE</a>-type value that indicates the type of endpoint characteristic.
 
 
-#### - Priority
+### -field Priority
 
 A <a href="https://msdn.microsoft.com/43031BE8-B94A-4B22-B9E2-CBF59A31F3A2">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>-typed value that indicates the priority of the endpoint.
 

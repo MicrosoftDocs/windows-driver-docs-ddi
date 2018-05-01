@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_DriverProperties
-title: IPrinterScriptContext::get_DriverProperties method
+title: IPrinterScriptContext::get_DriverProperties
 author: windows-driver-content
 description: Provides access to the driver property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_driverproperties.htm
 old-project: print
 ms.assetid: 73BE6E2A-0C46-4C3F-8888-5FE8386A1F50
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices], IPrinterScriptContext interface, IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], DriverProperties property, IPrinterScriptContext.DriverProperties, IPrinterScriptContext::get_DriverProperties, get_DriverProperties, get_DriverProperties,IPrinterScriptContext.get_DriverProperties, print.iprinterscriptcontext_driverproperties, printerextension/IPrinterScriptContext::DriverProperties, printerextension/IPrinterScriptContext::get_DriverProperties
+ms.date: 4/20/2018
+ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterScriptContext interface, IPrinterScriptContext interface [Print Devices],DriverProperties property, IPrinterScriptContext.DriverProperties, IPrinterScriptContext.get_DriverProperties, IPrinterScriptContext::DriverProperties, IPrinterScriptContext::get_DriverProperties, get_DriverProperties, print.iprinterscriptcontext_driverproperties, printerextension/IPrinterScriptContext::DriverProperties, printerextension/IPrinterScriptContext::get_DriverProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrinterScriptContext.get_DriverProperties
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptContext::get_DriverProperties method
+# IPrinterScriptContext::get_DriverProperties
 
 
 ## -description

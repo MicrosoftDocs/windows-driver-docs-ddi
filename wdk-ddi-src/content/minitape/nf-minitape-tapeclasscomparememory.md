@@ -41,7 +41,7 @@ api_name:
 -	TapeClassCompareMemory
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: 
 ---
 
 # TapeClassCompareMemory function

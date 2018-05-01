@@ -7,7 +7,7 @@ old-location: stream\avstrminiaddevent.htm
 old-project: stream
 ms.assetid: ff80bbc7-93b1-4319-a549-f896ce0f4611
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniAddEvent, AVStrMiniAddEvent routine [Streaming Media Devices], PFNKSADDEVENT, avstclbk_31147072-c3de-4b02-9fb1-b7f67765acc4.xml, ks/AVStrMiniAddEvent, stream.avstrminiaddevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniAddEvent
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSADDEVENT callback
+# PFNKSADDEVENT callback function
 
 
 ## -description

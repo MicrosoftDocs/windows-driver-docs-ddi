@@ -7,8 +7,8 @@ old-location: netvista\filterpause.htm
 old-project: netvista
 ms.assetid: a239889e-ec39-48fc-9e82-c8bc3d7ca51a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_PAUSE, FilterPause, FilterPause callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_2f28fa9f-47cb-4638-b673-e938872f54f1.xml, ndis/FilterPause, netvista.filterpause
+ms.date: 4/25/2018
+ms.keywords: FILTER_PAUSE, FILTER_PAUSE callback, FilterPause, FilterPause callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_2f28fa9f-47cb-4638-b673-e938872f54f1.xml, ndis/FilterPause, netvista.filterpause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterPause
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_PAUSE callback
+# FILTER_PAUSE callback function
 
 
 ## -description

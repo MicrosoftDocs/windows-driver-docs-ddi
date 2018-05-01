@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetOutputData
-title: IBidiRequest::GetOutputData method
+title: IBidiRequest::GetOutputData
 author: windows-driver-content
 description: The GetOutputData method gets the specified output data coming back from the printer.
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
 old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData method [Print Devices], GetOutputData method [Print Devices], IBidiRequest interface, GetOutputData,IBidiRequest.GetOutputData, IBidiRequest, IBidiRequest interface [Print Devices], GetOutputData method, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata
+ms.date: 4/20/2018
+ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData, GetOutputData method [Print Devices], GetOutputData method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetOutputData method, IBidiRequest.GetOutputData, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IBidiRequest.GetOutputData
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequest::GetOutputData method
+# IBidiRequest::GetOutputData
 
 
 ## -description

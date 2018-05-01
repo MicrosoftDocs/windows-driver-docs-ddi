@@ -7,7 +7,7 @@ old-location: bltooth\bth_radio_info.htm
 old-project: bltooth
 ms.assetid: 24e28912-13d1-460f-8d32-78bb3715adc6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_RADIO_INFO, BTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], PBTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], _BTH_RADIO_INFO, bltooth.bth_radio_info, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml, bthioctl/BTH_RADIO_INFO, bthioctl/PBTH_RADIO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

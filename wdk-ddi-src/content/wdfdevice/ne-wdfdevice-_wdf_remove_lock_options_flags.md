@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: See Remarks section.
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_REMOVE_LOCK_OPTIONS_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration

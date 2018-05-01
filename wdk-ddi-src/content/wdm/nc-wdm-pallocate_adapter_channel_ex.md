@@ -7,8 +7,8 @@ old-location: kernel\allocateadapterchannelex.htm
 old-project: kernel
 ms.assetid: BF255782-0C3E-4F36-BD38-79CE88E7F37D
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx
+ms.date: 4/5/2018
+ms.keywords: AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX callback, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	AllocateAdapterChannelEx
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PALLOCATE_ADAPTER_CHANNEL_EX callback
+# PALLOCATE_ADAPTER_CHANNEL_EX callback function
 
 
 ## -description

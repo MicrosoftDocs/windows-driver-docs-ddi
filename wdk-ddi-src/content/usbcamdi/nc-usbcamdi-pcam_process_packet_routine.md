@@ -7,8 +7,8 @@ old-location: stream\camprocessusbpacket.htm
 old-project: stream
 ms.assetid: 2b83d1b1-82f6-455b-b22a-ae9433dd9f27
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamProcessUSBPacket, CamProcessUSBPacket callback function [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE, stream.camprocessusbpacket, usbcamdi/CamProcessUSBPacket, usbcmdpr_7eeca66e-b106-4cb0-b0c3-d7d07d82d841.xml
+ms.date: 4/23/2018
+ms.keywords: CamProcessUSBPacket, CamProcessUSBPacket callback function [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE, PCAM_PROCESS_PACKET_ROUTINE callback, stream.camprocessusbpacket, usbcamdi/CamProcessUSBPacket, usbcmdpr_7eeca66e-b106-4cb0-b0c3-d7d07d82d841.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	CamProcessUSBPacket
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_PROCESS_PACKET_ROUTINE callback
+# PCAM_PROCESS_PACKET_ROUTINE callback function
 
 
 ## -description

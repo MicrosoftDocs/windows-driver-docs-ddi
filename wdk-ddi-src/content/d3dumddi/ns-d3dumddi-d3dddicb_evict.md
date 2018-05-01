@@ -7,7 +7,7 @@ old-location: display\d3dddicb_evict.htm
 old-project: display
 ms.assetid: 65743D54-3954-4C31-B3CB-032DE391A456
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_EVICT, D3DDDICB_EVICT structure [Display Devices], d3dumddi/D3DDDICB_EVICT, display.d3dddicb_evict
 ms.prod: windows-hardware
 ms.technology: windows-devices

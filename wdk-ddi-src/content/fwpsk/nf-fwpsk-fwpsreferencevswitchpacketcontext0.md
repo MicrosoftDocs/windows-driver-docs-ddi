@@ -7,7 +7,7 @@ old-location: netvista\fwpsreferencevswitchpacketcontext0.htm
 old-project: netvista
 ms.assetid: F4F5005F-2BDA-4E58-A06A-2A4F1D34776D
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	FwpsReferencevSwitchPacketContext0
 product: Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsReferencevSwitchPacketContext0 function

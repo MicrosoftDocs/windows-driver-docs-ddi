@@ -7,7 +7,7 @@ old-location: buses\ufx_device_callbacks.htm
 old-project: usbref
 ms.assetid: 71D83E2C-8557-45FC-9769-DB71F5FF61FF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS structure pointer [Buses], UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], _UFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, ufxclient/PUFX_DEVICE_CALLBACKS, ufxclient/UFX_DEVICE_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UFX_DEVICE_CALLBACKS, *PUFX_DEVICE_CALLBACKS
-req.product: Windows 10 or later.
 ---
 
 # _UFX_DEVICE_CALLBACKS structure

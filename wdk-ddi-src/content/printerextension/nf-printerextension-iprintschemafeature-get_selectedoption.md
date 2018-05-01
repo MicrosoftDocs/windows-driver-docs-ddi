@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectedOption
-title: IPrintSchemaFeature::get_SelectedOption method
+title: IPrintSchemaFeature::get_SelectedOption
 author: windows-driver-content
 description: Gets an IPrintSchemaOption representing the selected option.
 old-location: print\iprintschemafeature_selectedoption.htm
 old-project: print
 ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices], IPrintSchemaFeature interface, get_SelectedOption, get_SelectedOption,IPrintSchemaFeature.get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.get_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaFeature.get_SelectedOption
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaFeature::get_SelectedOption method
+# IPrintSchemaFeature::get_SelectedOption
 
 
 ## -description

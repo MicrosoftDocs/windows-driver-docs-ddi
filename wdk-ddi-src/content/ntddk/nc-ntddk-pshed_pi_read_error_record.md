@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2fcbdfe3-bcce-4e5b-a16b-501612975e82
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PSHED_PI_READ_ERROR_RECORD, ReadErrorRecord, ReadErrorRecord callback function [WHEA Drivers and Applications], ntddk/ReadErrorRecord, whea.readerrorrecord, whearef_ec353a58-1ca7-4356-8651-52802d855582.xml
+ms.keywords: PSHED_PI_READ_ERROR_RECORD, PSHED_PI_READ_ERROR_RECORD callback, ReadErrorRecord, ReadErrorRecord callback function [WHEA Drivers and Applications], ntddk/ReadErrorRecord, whea.readerrorrecord, whearef_ec353a58-1ca7-4356-8651-52802d855582.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ReadErrorRecord
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_READ_ERROR_RECORD callback
+# PSHED_PI_READ_ERROR_RECORD callback function
 
 
 ## -description

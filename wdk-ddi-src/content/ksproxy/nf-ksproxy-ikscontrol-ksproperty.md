@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsControl.KsProperty
-title: IKsControl::KsProperty method
+title: IKsControl::KsProperty
 author: windows-driver-content
 description: The KsProperty method sets a property or retrieves property information, along with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty.htm
 old-project: stream
 ms.assetid: cc43f704-e1f8-4d62-8cdf-11575ec0b473
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsProperty method, IKsControl::KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices], IKsControl interface, KsProperty,IKsControl.KsProperty, ksproxy/IKsControl::KsProperty, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, stream.ikscontrol_ksproperty
+ms.date: 4/23/2018
+ms.keywords: IKsControl interface [Streaming Media Devices],KsProperty method, IKsControl.KsProperty, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsProperty, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, stream.ikscontrol_ksproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsControl.KsProperty
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsControl::KsProperty method
+# IKsControl::KsProperty
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.ValidateAsync
-title: IPrintSchemaTicket::ValidateAsync method
+title: IPrintSchemaTicket::ValidateAsync
 author: windows-driver-content
 description: Gets an asynchronous PrintTicket validation operation context.
 old-location: print\iprintschematicket_validateasync.htm
 old-project: print
 ms.assetid: B46AE68A-36E1-4367-95F5-0FFBAA42171C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], ValidateAsync method, IPrintSchemaTicket::ValidateAsync, ValidateAsync method [Print Devices], ValidateAsync method [Print Devices], IPrintSchemaTicket interface, ValidateAsync,IPrintSchemaTicket.ValidateAsync, print.iprintschematicket_validateasync, printerextension/IPrintSchemaTicket::ValidateAsync
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],ValidateAsync method, IPrintSchemaTicket.ValidateAsync, IPrintSchemaTicket::ValidateAsync, ValidateAsync, ValidateAsync method [Print Devices], ValidateAsync method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_validateasync, printerextension/IPrintSchemaTicket::ValidateAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaTicket.ValidateAsync
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::ValidateAsync method
+# IPrintSchemaTicket::ValidateAsync
 
 
 ## -description

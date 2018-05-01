@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirefirstmodeinf
 old-project: display
 ms.assetid: d448c3f4-7adb-4ceb-8c42-8cba3d2cfeae
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO, VidPnFunctions_81493c6c-3b78-4c4b-969c-276a459a198d.xml, d3dkmddi/pfnAcquireFirstModeInfo, display.dxgk_monitorsourcemodeset_interface_pfnacquirefirstmodeinfo, pfnAcquireFirstModeInfo, pfnAcquireFirstModeInfo callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO, DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO callback, VidPnFunctions_81493c6c-3b78-4c4b-969c-276a459a198d.xml, d3dkmddi/pfnAcquireFirstModeInfo, display.dxgk_monitorsourcemodeset_interface_pfnacquirefirstmodeinfo, pfnAcquireFirstModeInfo, pfnAcquireFirstModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnAcquireFirstModeInfo
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO callback
+# DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO callback function
 
 
 ## -description

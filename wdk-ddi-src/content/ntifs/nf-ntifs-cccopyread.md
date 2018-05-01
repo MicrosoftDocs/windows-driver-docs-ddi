@@ -7,7 +7,7 @@ old-location: ifsk\cccopyread.htm
 old-project: ifsk
 ms.assetid: ab095bc4-b896-4c8b-a778-714952fd41d4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcCopyRead, CcCopyRead routine [Installable File System Drivers], ccref_76dde6ff-ccd7-4d90-a744-9d2c05624b00.xml, ifsk.cccopyread, ntifs/CcCopyRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	CcCopyRead
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcCopyRead function

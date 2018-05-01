@@ -7,8 +7,8 @@ old-location: netvista\wskconnectex.htm
 old-project: netvista
 ms.assetid: 1BC518E9-747C-4406-8A2A-40A3BCB0A3AA
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_CONNECT_EX, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_CONNECT_EX, PFN_WSK_CONNECT_EX callback, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	WskConnectEx
 product: Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_CONNECT_EX callback
+# PFN_WSK_CONNECT_EX callback function
 
 
 ## -description

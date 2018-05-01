@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetLogFileWide
-title: IDebugControl4::GetLogFileWide method
+title: IDebugControl4::GetLogFileWide
 author: windows-driver-content
 description: The GetLogFileWide method returns the name of the currently open log file.
 old-location: debugger\getlogfilewide.htm
 old-project: debugger
 ms.assetid: 2dd20552-747c-4eb8-aacd-7ee241d490d1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetLogFileWide method [Windows Debugging], GetLogFileWide method [Windows Debugging], IDebugControl4 interface, GetLogFileWide,IDebugControl4.GetLogFileWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLogFileWide method, IDebugControl4::GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, debugger.getlogfilewide
+ms.date: 4/24/2018
+ms.keywords: GetLogFileWide, GetLogFileWide method [Windows Debugging], GetLogFileWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFileWide method, IDebugControl4.GetLogFileWide, IDebugControl4::GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, debugger.getlogfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.GetLogFileWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetLogFileWide method
+# IDebugControl4::GetLogFileWide
 
 
 ## -description

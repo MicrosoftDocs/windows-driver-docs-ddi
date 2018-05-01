@@ -7,7 +7,7 @@ old-location: kernel\zwopentransactionmanager.htm
 old-project: kernel
 ms.assetid: b3eb40ad-cda9-4a2f-a794-670bd2ee9102
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtOpenTransactionManager, ZwOpenTransactionManager, ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwopentransactionmanager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, wdm/NtOpenTransactionManager, wdm/ZwOpenTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	NtOpenTransactionManager
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # NtOpenTransactionManager function

@@ -7,8 +7,8 @@ old-location: netvista\ndiswdirxflushconfirm.htm
 old-project: netvista
 ms.assetid: CEED709C-F295-4633-B7C1-4719EDDC7CD4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_RX_FLUSH_CONFIRM, NdisWdiRxFlushConfirm, NdisWdiRxFlushConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxFlushConfirm, netvista.ndiswdirxflushconfirm
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_RX_FLUSH_CONFIRM, NDIS_WDI_RX_FLUSH_CONFIRM callback, NdisWdiRxFlushConfirm, NdisWdiRxFlushConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxFlushConfirm, netvista.ndiswdirxflushconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdisWdiRxFlushConfirm
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_RX_FLUSH_CONFIRM callback
+# NDIS_WDI_RX_FLUSH_CONFIRM callback function
 
 
 ## -description

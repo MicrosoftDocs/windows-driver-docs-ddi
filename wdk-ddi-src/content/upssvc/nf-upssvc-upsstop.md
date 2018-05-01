@@ -40,8 +40,7 @@ api_name:
 -	UPSStop
 product: Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UPSStop function

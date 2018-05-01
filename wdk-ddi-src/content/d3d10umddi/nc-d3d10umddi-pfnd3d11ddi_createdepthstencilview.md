@@ -7,8 +7,8 @@ old-location: display\createdepthstencilview_d3d11_.htm
 old-project: display
 ms.assetid: cf4c34da-71df-4b49-b1c8-73d1a2dbc3cb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateDepthStencilView, CreateDepthStencilView callback function [Display Devices], PFND3D11DDI_CREATEDEPTHSTENCILVIEW, UserModeDisplayDriverDx11_Functions_b6fd7f03-f477-4372-aac0-14740af1ca43.xml, d3d10umddi/CreateDepthStencilView, display.createdepthstencilview_d3d11_
+ms.date: 4/16/2018
+ms.keywords: CreateDepthStencilView, CreateDepthStencilView callback function [Display Devices], PFND3D11DDI_CREATEDEPTHSTENCILVIEW, PFND3D11DDI_CREATEDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx11_Functions_b6fd7f03-f477-4372-aac0-14740af1ca43.xml, d3d10umddi/CreateDepthStencilView, display.createdepthstencilview_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateDepthStencilView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_CREATEDEPTHSTENCILVIEW callback
+# PFND3D11DDI_CREATEDEPTHSTENCILVIEW callback function
 
 
 ## -description

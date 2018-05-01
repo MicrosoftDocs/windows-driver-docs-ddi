@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.PrinterEvent
-title: IPrintOemUI::PrinterEvent method
+title: IPrintOemUI::PrinterEvent
 author: windows-driver-content
 description: The IPrintOemUI::PrinterEvent method allows a user interface plug-in to process printer events.
 old-location: print\iprintoemui_printerevent.htm
 old-project: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], PrinterEvent method, IPrintOemUI::PrinterEvent, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices], IPrintOemUI interface, PrinterEvent,IPrintOemUI.PrinterEvent, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI interface [Print Devices],PrinterEvent method, IPrintOemUI.PrinterEvent, IPrintOemUI::PrinterEvent, PrinterEvent, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.PrinterEvent
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::PrinterEvent method
+# IPrintOemUI::PrinterEvent
 
 
 ## -description

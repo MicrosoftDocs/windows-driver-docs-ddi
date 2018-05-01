@@ -7,7 +7,7 @@ old-location: kernel\processorhalt.htm
 old-project: kernel
 ms.assetid: DEBE74B2-DFBD-43D7-8B14-86B4DA7D4C98
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: POFXCALLBACKPROCESSORHALT, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], kernel.processorhalt, pepfx/ProcessorHalt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	ProcessorHalt
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
-# POFXCALLBACKPROCESSORHALT callback
+# POFXCALLBACKPROCESSORHALT callback function
 
 
 ## -description

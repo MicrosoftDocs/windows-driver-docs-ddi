@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2adddirtyrect.htm
 old-project: display
 ms.assetid: b3bddb3a-2a07-4ca8-8452-be20d983fe6f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT structure [Display Devices], LPD3DHAL_DP2ADDDIRTYRECT, LPD3DHAL_DP2ADDDIRTYRECT structure pointer [Display Devices], _D3DHAL_DP2ADDDIRTYRECT, d3dhal/D3DHAL_DP2ADDDIRTYRECT, d3dhal/LPD3DHAL_DP2ADDDIRTYRECT, d3dstrct_64c25041-cbd9-4073-a42a-e9fb304e0d65.xml, display.d3dhal_dp2adddirtyrect"
 ms.prod: windows-hardware
 ms.technology: windows-devices

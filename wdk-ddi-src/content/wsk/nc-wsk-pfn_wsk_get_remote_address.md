@@ -7,8 +7,8 @@ old-location: netvista\wskgetremoteaddress.htm
 old-project: netvista
 ms.assetid: a2d65d55-744b-4851-b1fa-7087e0f06452
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, PFN_WSK_GET_REMOTE_ADDRESS callback, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	WskGetRemoteAddress
 product: Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_GET_REMOTE_ADDRESS callback
+# PFN_WSK_GET_REMOTE_ADDRESS callback function
 
 
 ## -description

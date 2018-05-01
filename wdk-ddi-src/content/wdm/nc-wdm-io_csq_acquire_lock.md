@@ -7,7 +7,7 @@ old-location: kernel\csqacquirelock.htm
 old-project: kernel
 ms.assetid: 8981e2f9-b456-48de-b31c-25a6884bcf12
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CsqAcquireLock, CsqAcquireLock routine [Kernel-Mode Driver Architecture], DrvrRtns_02339dc6-f9f2-47b0-a0c9-df36f862b5d6.xml, IO_CSQ_ACQUIRE_LOCK, kernel.csqacquirelock, wdm/CsqAcquireLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	CsqAcquireLock
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IO_CSQ_ACQUIRE_LOCK callback
+# IO_CSQ_ACQUIRE_LOCK callback function
 
 
 ## -description

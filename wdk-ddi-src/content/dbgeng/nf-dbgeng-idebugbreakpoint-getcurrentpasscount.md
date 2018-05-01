@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetCurrentPassCount
-title: IDebugBreakpoint::GetCurrentPassCount method
+title: IDebugBreakpoint::GetCurrentPassCount
 author: windows-driver-content
 description: The GetCurrentPassCount method returns the remaining number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getcurrentpasscount.htm
 old-project: debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetCurrentPassCount,IDebugBreakpoint.GetCurrentPassCount, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
+ms.date: 4/24/2018
+ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging],IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetCurrentPassCount method, IDebugBreakpoint.GetCurrentPassCount, IDebugBreakpoint2 interface [Windows Debugging],GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugBreakpoint2.GetCurrentPassCount
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint::GetCurrentPassCount method
+# IDebugBreakpoint::GetCurrentPassCount
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: audio\ipositionnotify.htm
 old-project: audio
 ms.assetid: DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices], described, audio.ipositionnotify, dmusicks/IPositionNotify
+ms.date: 4/16/2018
+ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices],described, audio.ipositionnotify, dmusicks/IPositionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IPositionNotify
 product: Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
 # IPositionNotify interface

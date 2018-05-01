@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.SetPowerPolicy
-title: IWDFUsbTargetDevice::SetPowerPolicy method
+title: IWDFUsbTargetDevice::SetPowerPolicy
 author: windows-driver-content
 description: The SetPowerPolicy method sets the WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_setpowerpolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, SetPowerPolicy method, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method, IWDFUsbTargetDevice interface, SetPowerPolicy,IWDFUsbTargetDevice.SetPowerPolicy, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
+ms.keywords: IWDFUsbTargetDevice interface,SetPowerPolicy method, IWDFUsbTargetDevice.SetPowerPolicy, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUsbTargetDevice.SetPowerPolicy
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::SetPowerPolicy method
+# IWDFUsbTargetDevice::SetPowerPolicy
 
 
 ## -description

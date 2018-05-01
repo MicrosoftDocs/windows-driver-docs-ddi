@@ -7,7 +7,7 @@ old-location: stream\bdastartchanges.htm
 old-project: stream
 ms.assetid: ee54b382-7b69-4d8d-8728-fe2bff7884cf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaStartChanges, BdaStartChanges function [Streaming Media Devices], bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml, bdasup/BdaStartChanges, stream.bdastartchanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	BdaStartChanges
 product: Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaStartChanges function

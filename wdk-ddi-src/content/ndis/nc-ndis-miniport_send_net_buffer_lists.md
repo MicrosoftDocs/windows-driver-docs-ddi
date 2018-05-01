@@ -7,8 +7,8 @@ old-location: netvista\miniportsendnetbufferlists.htm
 old-project: netvista
 ms.assetid: 0bd5966d-66a6-4548-8c84-7cedced2cf40
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_SEND_NET_BUFFER_LISTS, MiniportSendNetBufferLists, MiniportSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSendNetBufferLists, ndis_sendrcv_ref_2af2df46-99cf-4bae-9dea-12358fb0b489.xml, netvista.miniportsendnetbufferlists
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_SEND_NET_BUFFER_LISTS, MINIPORT_SEND_NET_BUFFER_LISTS callback, MiniportSendNetBufferLists, MiniportSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSendNetBufferLists, ndis_sendrcv_ref_2af2df46-99cf-4bae-9dea-12358fb0b489.xml, netvista.miniportsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportSendNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_SEND_NET_BUFFER_LISTS callback
+# MINIPORT_SEND_NET_BUFFER_LISTS callback function
 
 
 ## -description

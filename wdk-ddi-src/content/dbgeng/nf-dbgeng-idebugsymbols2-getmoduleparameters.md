@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleParameters
-title: IDebugSymbols2::GetModuleParameters method
+title: IDebugSymbols2::GetModuleParameters
 author: windows-driver-content
 description: The GetModuleParameters method returns parameters for modules in the target.
 old-location: debugger\getmoduleparameters.htm
 old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, GetModuleParameters,IDebugSymbols2.GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols2::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, dbgeng/IDebugSymbols::GetModuleParameters, debugger.getmoduleparameters
+ms.date: 4/24/2018
+ms.keywords: GetModuleParameters, GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging],IDebugSymbols interface, GetModuleParameters method [Windows Debugging],IDebugSymbols2 interface, GetModuleParameters method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleParameters method, IDebugSymbols2 interface [Windows Debugging],GetModuleParameters method, IDebugSymbols2.GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging],GetModuleParameters method, IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, dbgeng/IDebugSymbols::GetModuleParameters, debugger.getmoduleparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.GetModuleParameters
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetModuleParameters method
+# IDebugSymbols2::GetModuleParameters
 
 
 ## -description

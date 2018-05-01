@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
+ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSpbControllerUnlock
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_CONTROLLER_UNLOCK callback
+# EVT_SPB_CONTROLLER_UNLOCK callback function
 
 
 ## -description

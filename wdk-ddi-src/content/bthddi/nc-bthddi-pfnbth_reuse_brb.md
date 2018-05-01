@@ -7,8 +7,8 @@ old-location: bltooth\bthreusebrb.htm
 old-project: bltooth
 ms.assetid: cdf156a1-1556-441a-ae3d-9a49daf47990
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: BthReuseBrb, BthReuseBrb callback function [Bluetooth Devices], PFNBTH_REUSE_BRB, bltooth.bthreusebrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml, bthddi/BthReuseBrb
+ms.date: 4/27/2018
+ms.keywords: BthReuseBrb, BthReuseBrb callback function [Bluetooth Devices], PFNBTH_REUSE_BRB, PFNBTH_REUSE_BRB callback, bltooth.bthreusebrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml, bthddi/BthReuseBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	BthReuseBrb
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# PFNBTH_REUSE_BRB callback
+# PFNBTH_REUSE_BRB callback function
 
 
 ## -description

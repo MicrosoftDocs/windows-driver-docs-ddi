@@ -7,8 +7,8 @@ old-location: audio\iminiportstreamaudioenginenode2.htm
 old-project: audio
 ms.assetid: 38888C17-31FC-47F4-A49B-A46A9DF962AF
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], IMiniportStreamAudioEngineNode2 interface [Audio Devices], described, audio.iminiportstreamaudioenginenode2, portcls/IMiniportStreamAudioEngineNode2
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], IMiniportStreamAudioEngineNode2 interface [Audio Devices],described, audio.iminiportstreamaudioenginenode2, portcls/IMiniportStreamAudioEngineNode2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	IMiniportStreamAudioEngineNode2
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IMiniportStreamAudioEngineNode2 interface

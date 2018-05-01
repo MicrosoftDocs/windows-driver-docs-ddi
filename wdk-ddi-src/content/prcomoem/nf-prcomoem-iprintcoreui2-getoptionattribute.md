@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetOptionAttribute
-title: IPrintCoreUI2::GetOptionAttribute method
+title: IPrintCoreUI2::GetOptionAttribute
 author: windows-driver-content
 description: The IPrintCoreUI2::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcoreui2_getoptionattribute.htm
 old-project: print
 ms.assetid: cf5420fb-3414-47a7-a53d-3d109589b64d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreUI2 interface, GetOptionAttribute,IPrintCoreUI2.GetOptionAttribute, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptionAttribute method, IPrintCoreUI2::GetOptionAttribute, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml
+ms.date: 4/20/2018
+ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptionAttribute method, IPrintCoreUI2.GetOptionAttribute, IPrintCoreUI2::GetOptionAttribute, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreUI2.GetOptionAttribute
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::GetOptionAttribute method
+# IPrintCoreUI2::GetOptionAttribute
 
 
 ## -description

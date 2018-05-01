@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.Diagnostic
-title: IStiUSD::Diagnostic method
+title: IStiUSD::Diagnostic
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::Diagnostic method runs diagnostic tests on a still image device.
 old-location: image\istiusd_diagnostic.htm
 old-project: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiUSD interface, Diagnostic,IStiUSD.Diagnostic, IStiUSD, IStiUSD interface [Imaging Devices], Diagnostic method, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
+ms.date: 4/23/2018
+ms.keywords: Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Diagnostic method, IStiUSD.Diagnostic, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiUSD.Diagnostic
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::Diagnostic method
+# IStiUSD::Diagnostic
 
 
 ## -description

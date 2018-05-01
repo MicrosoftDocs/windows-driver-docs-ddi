@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: C56F1528-5FDA-4BC9-AB32-7882FB0F7713
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
+ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSpbControllerIoSequence
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_CONTROLLER_SEQUENCE callback
+# EVT_SPB_CONTROLLER_SEQUENCE callback function
 
 
 ## -description

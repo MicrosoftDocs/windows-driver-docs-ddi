@@ -7,8 +7,8 @@ old-location: print\ipartbase.htm
 old-project: print
 ms.assetid: 7523990f-04de-4182-99d9-fba100bebb84
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPartBase, IPartBase interface [Print Devices], IPartBase interface [Print Devices], described, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml, print.ipartbase
+ms.date: 4/20/2018
+ms.keywords: IPartBase, IPartBase interface [Print Devices], IPartBase interface [Print Devices],described, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml, print.ipartbase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IPartBase
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IPartBase interface

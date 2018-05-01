@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_test_mode_set.htm
 old-project: usbref
 ms.assetid: 24B17B8E-C2F0-4CA8-AA9D-5EE86EB20CCC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet
+ms.date: 4/25/2018
+ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EVT_UFX_DEVICE_TEST_MODE_SET callback, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PFN_UFX_DEVICE_TEST_MODE_SET
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UFX_DEVICE_TEST_MODE_SET callback
+# EVT_UFX_DEVICE_TEST_MODE_SET callback function
 
 
 ## -description

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WRITE_USING_TOKEN_HEADER, *PWRITE_USING_TOKEN_HEADER
-req.product: Windows 10 or later.
 ---
 
 # WRITE_USING_TOKEN_HEADER structure

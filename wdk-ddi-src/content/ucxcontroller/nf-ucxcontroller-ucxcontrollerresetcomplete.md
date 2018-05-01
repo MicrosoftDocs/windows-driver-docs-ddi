@@ -7,7 +7,7 @@ old-location: buses\_ucxcontrollerresetcomplete.htm
 old-project: usbref
 ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UcxControllerResetComplete
 product: Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxControllerResetComplete function

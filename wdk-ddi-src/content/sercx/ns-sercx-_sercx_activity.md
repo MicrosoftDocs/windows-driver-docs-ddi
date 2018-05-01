@@ -7,7 +7,7 @@ old-location: serports\sercx_activity.htm
 old-project: serports
 ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, 1/SERCX_ACTIVITY, PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], _SERCX_ACTIVITY, serports.sercx_activity"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SERCX_ACTIVITY, *PSERCX_ACTIVITY
-req.product: Windows 10 or later.
 ---
 
 # _SERCX_ACTIVITY structure

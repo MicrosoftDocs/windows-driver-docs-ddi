@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.RevokeMappings
-title: IMiniportWavePciStream::RevokeMappings method
+title: IMiniportWavePciStream::RevokeMappings
 author: windows-driver-content
 description: The RevokeMappings method revokes mappings that were previously obtained through IPortWavePciStream::GetMapping.
 old-location: audio\iminiportwavepcistream_revokemappings.htm
 old-project: audio
 ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, RevokeMappings,IMiniportWavePciStream.RevokeMappings, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings
+ms.date: 4/16/2018
+ms.keywords: IMiniportWavePciStream interface [Audio Devices],RevokeMappings method, IMiniportWavePciStream.RevokeMappings, IMiniportWavePciStream::RevokeMappings, RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportWavePciStream.RevokeMappings
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePciStream::RevokeMappings method
+# IMiniportWavePciStream::RevokeMappings
 
 
 ## -description

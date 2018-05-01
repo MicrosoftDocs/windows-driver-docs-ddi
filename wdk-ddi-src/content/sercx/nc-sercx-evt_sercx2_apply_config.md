@@ -7,8 +7,8 @@ old-location: serports\evtsercx2applyconfig.htm
 old-project: serports
 ms.assetid: 8D9BC698-1E62-4DC2-B233-37022F330F98
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2ApplyConfig, EVT_SERCX2_APPLY_CONFIG, EvtSerCx2ApplyConfig, EvtSerCx2ApplyConfig callback function [Serial Ports], serports.evtsercx2applyconfig
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2ApplyConfig, EVT_SERCX2_APPLY_CONFIG, EVT_SERCX2_APPLY_CONFIG callback, EvtSerCx2ApplyConfig, EvtSerCx2ApplyConfig callback function [Serial Ports], serports.evtsercx2applyconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCx2ApplyConfig
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_APPLY_CONFIG callback
+# EVT_SERCX2_APPLY_CONFIG callback function
 
 
 ## -description

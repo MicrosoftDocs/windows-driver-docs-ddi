@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket
-title: IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket method
+title: IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 author: windows-driver-content
 description: Gets the selected option for a feature in IPrintSchemaTicket.
 old-location: print\iprintschemacapabilities_getselectedoptioninprintticket.htm
 old-project: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface, GetSelectedOptionInPrintTicket,IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
+ms.date: 4/20/2018
+ms.keywords: GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket method
+# IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\videoportacquirespinlock.htm
 old-project: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	VideoPortAcquireSpinLock
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortAcquireSpinLock function
@@ -63,19 +62,14 @@ The <b>VideoPortAcquireSpinLock</b> function obtains the specified spin lock.
 Pointer to the miniport driver's device extension.
 
 
-### -param param
+### -param SpinLock [in]
 
-TBD
+Pointer to a memory location that contains the spin lock.
 
 
 ### -param OldIrql [out]
 
 Pointer to a memory location that will receive the current IRQL.
-
-
-#### - SpinLock [in]
-
-Pointer to a memory location that contains the spin lock.
 
 
 ## -returns

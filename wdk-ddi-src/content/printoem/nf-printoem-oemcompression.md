@@ -7,7 +7,7 @@ old-location: print\oemcompression.htm
 old-project: print
 ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMCompression, OEMCompression function [Print Devices], print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, printoem/OEMCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	OEMCompression
 product: Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMCompression function

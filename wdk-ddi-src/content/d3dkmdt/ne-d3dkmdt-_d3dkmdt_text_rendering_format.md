@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_text_rendering_format.htm
 old-project: display
 ms.assetid: 73ec5d3c-d8f6-4db9-b55f-317eab3b4a39
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], D3DKMDT_TRF_UNINITIALIZED, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, _D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, display.d3dkmdt_text_rendering_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

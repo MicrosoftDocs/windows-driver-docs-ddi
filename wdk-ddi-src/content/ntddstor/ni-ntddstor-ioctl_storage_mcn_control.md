@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a2a4a5da-bc2d-4daf-a4ac-7f2a6c10cb70
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_MCN_CONTROL, IOCTL_STORAGE_MCN_CONTROL control code [Storage Devices], k307_7d39899d-e65a-4064-9566-684af82e29bb.xml, ntddstor/IOCTL_STORAGE_MCN_CONTROL, storage.ioctl_storage_mcn_control
+ms.keywords: IOCTL_STORAGE_MCN_CONTROL, IOCTL_STORAGE_MCN_CONTROL control, IOCTL_STORAGE_MCN_CONTROL control code [Storage Devices], k307_7d39899d-e65a-4064-9566-684af82e29bb.xml, ntddstor/IOCTL_STORAGE_MCN_CONTROL, storage.ioctl_storage_mcn_control
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_STORAGE_MCN_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_MCN_CONTROL IOCTL

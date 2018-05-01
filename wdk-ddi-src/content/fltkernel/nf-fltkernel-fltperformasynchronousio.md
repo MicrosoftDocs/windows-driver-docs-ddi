@@ -7,7 +7,7 @@ old-location: ifsk\fltperformasynchronousio.htm
 old-project: ifsk
 ms.assetid: c76529fe-c808-4239-9bde-68dc68d987ec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml, FltPerformAsynchronousIo, FltPerformAsynchronousIo function [Installable File System Drivers], fltkernel/FltPerformAsynchronousIo, ifsk.fltperformasynchronousio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltPerformAsynchronousIo
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltPerformAsynchronousIo function

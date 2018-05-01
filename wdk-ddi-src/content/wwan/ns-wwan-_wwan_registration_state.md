@@ -7,7 +7,7 @@ old-location: netvista\wwan_registration_state.htm
 old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/PWWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_REGISTRATION_STATE structure

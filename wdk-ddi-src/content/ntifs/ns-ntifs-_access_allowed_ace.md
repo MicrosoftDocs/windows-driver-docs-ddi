@@ -7,7 +7,7 @@ old-location: ifsk\access_allowed_ace.htm
 old-project: ifsk
 ms.assetid: 20373863-0850-4ccf-b94a-7d252ad15d20
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE structure [Installable File System Drivers], PACCESS_ALLOWED_ACE, PACCESS_ALLOWED_ACE structure pointer [Installable File System Drivers], _ACCESS_ALLOWED_ACE, ifsk.access_allowed_ace, ntifs/ACCESS_ALLOWED_ACE, ntifs/PACCESS_ALLOWED_ACE, securitystructures_2dd3ec4a-0dc9-4268-8968-1a284b7124e6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

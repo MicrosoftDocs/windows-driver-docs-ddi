@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IServiceGroup.AddMember
-title: IServiceGroup::AddMember method
+title: IServiceGroup::AddMember
 author: windows-driver-content
 description: The AddMember method adds a member to the service group.
 old-location: audio\iservicegroup_addmember.htm
 old-project: audio
 ms.assetid: 1eddb631-db85-4243-89a4-a4ab042cee28
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AddMember method [Audio Devices], AddMember method [Audio Devices], IServiceGroup interface, AddMember,IServiceGroup.AddMember, IServiceGroup, IServiceGroup interface [Audio Devices], AddMember method, IServiceGroup::AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::AddMember
+ms.date: 4/16/2018
+ms.keywords: AddMember, AddMember method [Audio Devices], AddMember method [Audio Devices],IServiceGroup interface, IServiceGroup interface [Audio Devices],AddMember method, IServiceGroup.AddMember, IServiceGroup::AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::AddMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IServiceGroup.AddMember
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IServiceGroup::AddMember method
+# IServiceGroup::AddMember
 
 
 ## -description

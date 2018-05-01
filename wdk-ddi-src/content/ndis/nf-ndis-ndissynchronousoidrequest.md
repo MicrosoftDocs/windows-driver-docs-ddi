@@ -7,7 +7,7 @@ old-location: netvista\ndissynchronousoidrequest.htm
 old-project: netvista
 ms.assetid: BF539DDA-59ED-4010-88BC-3C7D8DC475EF
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisSynchronousOidRequest, NdisSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisSynchronousOidRequest, netvista.ndissynchronousoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisSynchronousOidRequest
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisSynchronousOidRequest function

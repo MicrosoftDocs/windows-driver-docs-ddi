@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.EnablePDEV
-title: IPrintOemUni::EnablePDEV method
+title: IPrintOemUni::EnablePDEV
 author: windows-driver-content
 description: The IPrintOemUni::EnablePDEV method allows a rendering plug-in for Unidrv to create its own PDEV structure.
 old-location: print\iprintoemuni_enablepdev.htm
 old-project: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnablePDEV method [Print Devices], EnablePDEV method [Print Devices], IPrintOemUni interface, EnablePDEV,IPrintOemUni.EnablePDEV, IPrintOemUni, IPrintOemUni interface [Print Devices], EnablePDEV method, IPrintOemUni::EnablePDEV, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml
+ms.date: 4/20/2018
+ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnablePDEV method, IPrintOemUni.EnablePDEV, IPrintOemUni::EnablePDEV, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni.EnablePDEV
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::EnablePDEV method
+# IPrintOemUni::EnablePDEV
 
 
 ## -description

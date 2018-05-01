@@ -7,7 +7,7 @@ old-location: ifsk\fltregisterfordatascan.htm
 old-project: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltRegisterForDataScan
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltRegisterForDataScan function

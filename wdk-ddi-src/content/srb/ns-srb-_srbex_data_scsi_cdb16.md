@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16
-req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_SCSI_CDB16 structure

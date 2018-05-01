@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.Escape
-title: IStiUSD::Escape method
+title: IStiUSD::Escape
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::Escape method performs a vendor-specific I/O operation on a still image device.
 old-location: image\istiusd_escape.htm
 old-project: image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: Escape method [Imaging Devices], Escape method [Imaging Devices], IStiUSD interface, Escape,IStiUSD.Escape, IStiUSD, IStiUSD interface [Imaging Devices], Escape method, IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape
+ms.date: 4/23/2018
+ms.keywords: Escape, Escape method [Imaging Devices], Escape method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Escape method, IStiUSD.Escape, IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiUSD.Escape
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::Escape method
+# IStiUSD::Escape
 
 
 ## -description

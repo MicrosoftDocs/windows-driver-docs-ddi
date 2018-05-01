@@ -7,7 +7,7 @@ old-location: buses\usbd_parseconfigurationdescriptor.htm
 old-project: usbref
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_ParseConfigurationDescriptor, USBD_ParseConfigurationDescriptor routine [Buses], buses.usbd_parseconfigurationdescriptor, usbdlib/USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	USBD_ParseConfigurationDescriptor
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_ParseConfigurationDescriptor function

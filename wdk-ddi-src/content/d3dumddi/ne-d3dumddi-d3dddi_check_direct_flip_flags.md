@@ -7,7 +7,7 @@ old-location: display\d3dddi_check_direct_flip_flags.htm
 old-project: display
 ms.assetid: 72b49af8-4d98-4fc0-ab40-72f1e19eef96
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS, display.d3dddi_check_direct_flip_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

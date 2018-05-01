@@ -7,8 +7,8 @@ old-location: netvista\protocolclopenafcompleteex.htm
 old-project: netvista
 ms.assetid: 03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CL_OPEN_AF_COMPLETE_EX, ProtocolClOpenAfCompleteEx, ProtocolClOpenAfCompleteEx callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8b7e876e-d2b2-4676-8120-aa18f717cca2.xml, ndis/ProtocolClOpenAfCompleteEx, netvista.protocolclopenafcompleteex
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_OPEN_AF_COMPLETE_EX, PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback, ProtocolClOpenAfCompleteEx, ProtocolClOpenAfCompleteEx callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8b7e876e-d2b2-4676-8120-aa18f717cca2.xml, ndis/ProtocolClOpenAfCompleteEx, netvista.protocolclopenafcompleteex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolClOpenAfCompleteEx
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback
+# PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback function
 
 
 ## -description

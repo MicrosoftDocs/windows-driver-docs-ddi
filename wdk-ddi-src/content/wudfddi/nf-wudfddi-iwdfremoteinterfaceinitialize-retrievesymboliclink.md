@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
-title: IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink method
+title: IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 author: windows-driver-content
 description: The RetrieveSymbolicLink method retrieves the symbolic link name that the operating system assigned to a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_retrievesymboliclink.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink method, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink,IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
+ms.keywords: IWDFRemoteInterfaceInitialize interface,RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink, RetrieveSymbolicLink method, RetrieveSymbolicLink method,IWDFRemoteInterfaceInitialize interface, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink method
+# IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 
 
 ## -description

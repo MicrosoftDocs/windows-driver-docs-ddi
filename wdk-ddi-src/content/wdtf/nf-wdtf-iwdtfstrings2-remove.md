@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.Remove
-title: IWDTFStrings2::Remove method
+title: IWDTFStrings2::Remove
 author: windows-driver-content
 description: Removes a string from the collection.
 old-location: dtf\iwdtfstrings2_remove.htm
 old-project: dtf
 ms.assetid: cd32b54a-57e0-496c-b18c-84a6c75d8820
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], Remove method, IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework], IWDTFStrings2 interface, Remove,IWDTFStrings2.Remove, dtf.iwdtfstrings2_remove, wdtf/IWDTFStrings2::Remove
+ms.date: 4/4/2018
+ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Remove method, IWDTFStrings2.Remove, IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFStrings2 interface, dtf.iwdtfstrings2_remove, wdtf/IWDTFStrings2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFStrings2.Remove
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFStrings2::Remove method
+# IWDTFStrings2::Remove
 
 
 ## -description

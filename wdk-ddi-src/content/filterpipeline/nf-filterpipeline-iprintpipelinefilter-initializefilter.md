@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineFilter.InitializeFilter
-title: IPrintPipelineFilter::InitializeFilter method
+title: IPrintPipelineFilter::InitializeFilter
 author: windows-driver-content
 description: The InitializeFilter method initializes a filter.
 old-location: print\iprintpipelinefilter_initializefilter.htm
 old-project: print
 ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], InitializeFilter method, IPrintPipelineFilter::InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices], IPrintPipelineFilter interface, InitializeFilter,IPrintPipelineFilter.InitializeFilter, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, print.iprintpipelinefilter_initializefilter
+ms.date: 4/20/2018
+ms.keywords: IPrintPipelineFilter interface [Print Devices],InitializeFilter method, IPrintPipelineFilter.InitializeFilter, IPrintPipelineFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, print.iprintpipelinefilter_initializefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPrintPipelineFilter.InitializeFilter
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPrintPipelineFilter::InitializeFilter method
+# IPrintPipelineFilter::InitializeFilter
 
 
 ## -description

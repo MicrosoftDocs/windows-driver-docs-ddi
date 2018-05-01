@@ -7,7 +7,7 @@ old-location: print\oemcuipparam.htm
 old-project: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POEMCUIPPARAM, OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], _OEMCUIPPARAM, print.oemcuipparam, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, printoem/OEMCUIPPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: "*POEMCUIPPARAM, OEMCUIPPARAM"
-req.product: Windows 10 or later.
 ---
 
 # _OEMCUIPPARAM structure

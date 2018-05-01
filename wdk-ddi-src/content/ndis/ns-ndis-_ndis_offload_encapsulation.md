@@ -7,7 +7,7 @@ old-location: netvista\ndis_offload_encapsulation.htm
 old-project: netvista
 ms.assetid: 19013ffa-6bb5-4a77-b85b-c32fb0bf0530
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_802_3, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, NDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_ENCAPSULATION, ndis/NDIS_OFFLOAD_ENCAPSULATION, ndis/PNDIS_OFFLOAD_ENCAPSULATION, netvista.ndis_offload_encapsulation, tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -76,8 +76,7 @@ A structure within NDIS_OFFLOAD_ENCAPSULATION that specifies IPv4 encapsulation 
      
 
 
-
-#### Enabled
+### -field IPv4.Enabled
 
 A ULONG value that enables IPv4 encapsulation. A protocol driver sets 
        <b>Enabled</b> to NDIS_OFFLOAD_SET_ON if it is enabling IPv4 large send offload version 1 (LSOV1),
@@ -85,8 +84,7 @@ A ULONG value that enables IPv4 encapsulation. A protocol driver sets
        <b>Enabled</b> to NDIS_OFFLOAD_SET_NO_CHANGE.
 
 
-
-#### EncapsulationType
+### -field IPv4.EncapsulationType
 
 The IPv4 encapsulation type. If the 
        <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, this member is zero. If the 
@@ -125,8 +123,7 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
  
 
 
-
-#### HeaderSize
+### -field IPv4.HeaderSize
 
 The Ethernet header length that is used in IPv4 packets. If the 
        <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, this member is zero. If the 
@@ -141,8 +138,7 @@ A structure within NDIS_OFFLOAD_ENCAPSULATION that specifies IPv6 encapsulation 
      
 
 
-
-#### Enabled
+### -field IPv6.Enabled
 
 A ULONG value that enables IPv6 encapsulation. A protocol driver sets 
        <b>Enabled</b> to NDIS_OFFLOAD_SET_ON if it is enabling IPv6 LSOV1, LSOV2, or checksum offloads.
@@ -150,8 +146,7 @@ A ULONG value that enables IPv6 encapsulation. A protocol driver sets
        <b>Enabled</b> to NDIS_OFFLOAD_SET_NO_CHANGE.
 
 
-
-#### EncapsulationType
+### -field IPv6.EncapsulationType
 
 The IPv6 encapsulation type. If the 
        <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, 
@@ -191,8 +186,7 @@ Specifies LLC encapsulation for routed protocols, as described in RFC 1483. This
  
 
 
-
-#### HeaderSize
+### -field IPv6.HeaderSize
 
 The Ethernet header length that is used in IPv6 packets. If the 
        <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, this member is zero. If the 

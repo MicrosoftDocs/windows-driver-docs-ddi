@@ -7,7 +7,7 @@ old-location: kernel\csqpeeknextirp.htm
 old-project: kernel
 ms.assetid: 0968fea0-4c66-497f-8a01-baacc90b2458
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CsqPeekNextIrp, CsqPeekNextIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_83ba77b2-17fa-4fdc-bfaf-c41289f54da9.xml, IO_CSQ_PEEK_NEXT_IRP, kernel.csqpeeknextirp, wdm/CsqPeekNextIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	CsqPeekNextIrp
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IO_CSQ_PEEK_NEXT_IRP callback
+# IO_CSQ_PEEK_NEXT_IRP callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: print\xpsrasterizationfactory1.htm
 old-project: print
 ms.assetid: 65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsRasterizationFactory1, IXpsRasterizationFactory1 interface [Print Devices], IXpsRasterizationFactory1 interface [Print Devices], described, print.xpsrasterizationfactory1, xpsrassvc/IXpsRasterizationFactory1
+ms.date: 4/20/2018
+ms.keywords: IXpsRasterizationFactory1, IXpsRasterizationFactory1 interface [Print Devices], IXpsRasterizationFactory1 interface [Print Devices],described, print.xpsrasterizationfactory1, xpsrassvc/IXpsRasterizationFactory1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IXpsRasterizationFactory1
 product: Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IXpsRasterizationFactory1 interface

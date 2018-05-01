@@ -7,7 +7,7 @@ old-location: netvista\ndisunbindadapter.htm
 old-project: netvista
 ms.assetid: 47aacc23-f7d1-4c14-9541-3207debef327
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisUnbindAdapter, NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], ndis/NdisUnbindAdapter, netvista.ndisunbindadapter, protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisUnbindAdapter
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisUnbindAdapter function

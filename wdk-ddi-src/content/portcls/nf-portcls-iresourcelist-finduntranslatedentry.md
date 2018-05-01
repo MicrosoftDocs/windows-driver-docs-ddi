@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IResourceList.FindUntranslatedEntry
-title: IResourceList::FindUntranslatedEntry method
+title: IResourceList::FindUntranslatedEntry
 author: windows-driver-content
 description: The FindUntranslatedEntry method returns a pointer to an untranslated entry of the specified type, or NULL if no such pointer is found.
 old-location: audio\iresourcelist_finduntranslatedentry.htm
 old-project: audio
 ms.assetid: 3578eb3a-e9c8-4de3-b959-daff9ac7f1a2
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: FindUntranslatedEntry method [Audio Devices], FindUntranslatedEntry method [Audio Devices], IResourceList interface, FindUntranslatedEntry,IResourceList.FindUntranslatedEntry, IResourceList, IResourceList interface [Audio Devices], FindUntranslatedEntry method, IResourceList::FindUntranslatedEntry, audio.iresourcelist_finduntranslatedentry, audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, portcls/IResourceList::FindUntranslatedEntry
+ms.date: 4/16/2018
+ms.keywords: FindUntranslatedEntry, FindUntranslatedEntry method [Audio Devices], FindUntranslatedEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],FindUntranslatedEntry method, IResourceList.FindUntranslatedEntry, IResourceList::FindUntranslatedEntry, audio.iresourcelist_finduntranslatedentry, audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, portcls/IResourceList::FindUntranslatedEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IResourceList.FindUntranslatedEntry
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IResourceList::FindUntranslatedEntry method
+# IResourceList::FindUntranslatedEntry
 
 
 ## -description

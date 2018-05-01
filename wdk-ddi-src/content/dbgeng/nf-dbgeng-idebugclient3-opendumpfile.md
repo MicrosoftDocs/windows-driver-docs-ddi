@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.OpenDumpFile
-title: IDebugClient3::OpenDumpFile method
+title: IDebugClient3::OpenDumpFile
 author: windows-driver-content
 description: The OpenDumpFile method opens a dump file as a debugger target.
 old-location: debugger\opendumpfile.htm
 old-project: debugger
 ms.assetid: c04b79a0-ef20-4ba5-aba9-9335b095cfef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient interface [Windows Debugging], OpenDumpFile method, IDebugClient2 interface [Windows Debugging], OpenDumpFile method, IDebugClient2::OpenDumpFile, IDebugClient3, IDebugClient3 interface [Windows Debugging], OpenDumpFile method, IDebugClient3::OpenDumpFile, IDebugClient4 interface [Windows Debugging], OpenDumpFile method, IDebugClient4::OpenDumpFile, IDebugClient5 interface [Windows Debugging], OpenDumpFile method, IDebugClient5::OpenDumpFile, IDebugClient::OpenDumpFile, IDebugClient_4ab673e2-629c-455a-8d40-27465005375f.xml, OpenDumpFile method [Windows Debugging], OpenDumpFile method [Windows Debugging], IDebugClient interface, OpenDumpFile method [Windows Debugging], IDebugClient2 interface, OpenDumpFile method [Windows Debugging], IDebugClient3 interface, OpenDumpFile method [Windows Debugging], IDebugClient4 interface, OpenDumpFile method [Windows Debugging], IDebugClient5 interface, OpenDumpFile,IDebugClient3.OpenDumpFile, dbgeng/IDebugClient2::OpenDumpFile, dbgeng/IDebugClient3::OpenDumpFile, dbgeng/IDebugClient4::OpenDumpFile, dbgeng/IDebugClient5::OpenDumpFile, dbgeng/IDebugClient::OpenDumpFile, debugger.opendumpfile
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],OpenDumpFile method, IDebugClient2 interface [Windows Debugging],OpenDumpFile method, IDebugClient2::OpenDumpFile, IDebugClient3 interface [Windows Debugging],OpenDumpFile method, IDebugClient3.OpenDumpFile, IDebugClient3::OpenDumpFile, IDebugClient4 interface [Windows Debugging],OpenDumpFile method, IDebugClient4::OpenDumpFile, IDebugClient5 interface [Windows Debugging],OpenDumpFile method, IDebugClient5::OpenDumpFile, IDebugClient::OpenDumpFile, IDebugClient_4ab673e2-629c-455a-8d40-27465005375f.xml, OpenDumpFile, OpenDumpFile method [Windows Debugging], OpenDumpFile method [Windows Debugging],IDebugClient interface, OpenDumpFile method [Windows Debugging],IDebugClient2 interface, OpenDumpFile method [Windows Debugging],IDebugClient3 interface, OpenDumpFile method [Windows Debugging],IDebugClient4 interface, OpenDumpFile method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::OpenDumpFile, dbgeng/IDebugClient3::OpenDumpFile, dbgeng/IDebugClient4::OpenDumpFile, dbgeng/IDebugClient5::OpenDumpFile, dbgeng/IDebugClient::OpenDumpFile, debugger.opendumpfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.OpenDumpFile
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::OpenDumpFile method
+# IDebugClient3::OpenDumpFile
 
 
 ## -description

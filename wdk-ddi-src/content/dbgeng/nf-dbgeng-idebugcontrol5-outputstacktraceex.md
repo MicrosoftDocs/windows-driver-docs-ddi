@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl5.OutputStackTraceEx
-title: IDebugControl5::OutputStackTraceEx method
+title: IDebugControl5::OutputStackTraceEx
 author: windows-driver-content
 description: The OutputStackTraceEx method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\idebugcontrol5_outputstacktraceex.htm
 old-project: debugger
 ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl5, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, OutputStackTraceEx,IDebugControl5.OutputStackTraceEx, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex
+ms.date: 4/24/2018
+ms.keywords: IDebugControl5 interface [Windows Debugging],OutputStackTraceEx method, IDebugControl5.OutputStackTraceEx, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl5.OutputStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl5::OutputStackTraceEx method
+# IDebugControl5::OutputStackTraceEx
 
 
 ## -description

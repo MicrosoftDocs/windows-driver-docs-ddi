@@ -43,8 +43,7 @@ api_name:
 -	WdfObjectAllocateContext
 product: Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfObjectAllocateContext function

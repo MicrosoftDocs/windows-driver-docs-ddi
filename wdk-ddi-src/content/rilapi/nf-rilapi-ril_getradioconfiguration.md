@@ -7,7 +7,7 @@ old-location: netvista\ril_getradioconfiguration.htm
 old-project: netvista
 ms.assetid: 8e450e58-41e0-4df2-83d9-8975d437cdcb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getradioconfiguration, rilapi/RIL_GetRadioConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_GetRadioConfiguration
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetRadioConfiguration function

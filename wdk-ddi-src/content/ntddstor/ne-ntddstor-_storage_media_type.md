@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	STORAGE_MEDIA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
+req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 ---
 
 # _STORAGE_MEDIA_TYPE enumeration

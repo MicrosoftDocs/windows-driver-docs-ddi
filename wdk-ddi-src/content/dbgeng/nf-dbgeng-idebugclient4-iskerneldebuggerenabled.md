@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.IsKernelDebuggerEnabled
-title: IDebugClient4::IsKernelDebuggerEnabled method
+title: IDebugClient4::IsKernelDebuggerEnabled
 author: windows-driver-content
 description: The IsKernelDebuggerEnabled method checks whether kernel debugging is enabled for the local kernel.
 old-location: debugger\iskerneldebuggerenabled.htm
 old-project: debugger
 ms.assetid: a6dc4832-6b9b-441e-a57a-6fcb2cafa2c6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient2 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient2::IsKernelDebuggerEnabled, IDebugClient3 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient3::IsKernelDebuggerEnabled, IDebugClient4, IDebugClient4 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient4::IsKernelDebuggerEnabled, IDebugClient5 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient5::IsKernelDebuggerEnabled, IDebugClient_05c5446d-28b4-4d9b-bb20-7dc1746545d6.xml, IsKernelDebuggerEnabled method [Windows Debugging], IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient2 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient3 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient4 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient5 interface, IsKernelDebuggerEnabled,IDebugClient4.IsKernelDebuggerEnabled, dbgeng/IDebugClient2::IsKernelDebuggerEnabled, dbgeng/IDebugClient3::IsKernelDebuggerEnabled, dbgeng/IDebugClient4::IsKernelDebuggerEnabled, dbgeng/IDebugClient5::IsKernelDebuggerEnabled, debugger.iskerneldebuggerenabled
+ms.date: 4/24/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient2::IsKernelDebuggerEnabled, IDebugClient3 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient3::IsKernelDebuggerEnabled, IDebugClient4 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient4.IsKernelDebuggerEnabled, IDebugClient4::IsKernelDebuggerEnabled, IDebugClient5 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient5::IsKernelDebuggerEnabled, IDebugClient_05c5446d-28b4-4d9b-bb20-7dc1746545d6.xml, IsKernelDebuggerEnabled, IsKernelDebuggerEnabled method [Windows Debugging], IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient2 interface, IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient3 interface, IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient4 interface, IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::IsKernelDebuggerEnabled, dbgeng/IDebugClient3::IsKernelDebuggerEnabled, dbgeng/IDebugClient4::IsKernelDebuggerEnabled, dbgeng/IDebugClient5::IsKernelDebuggerEnabled, debugger.iskerneldebuggerenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 -	IDebugClient5.IsKernelDebuggerEnabled
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::IsKernelDebuggerEnabled method
+# IDebugClient4::IsKernelDebuggerEnabled
 
 
 ## -description

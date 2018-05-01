@@ -7,8 +7,8 @@ old-location: netvista\evt_vmb_packet_completion_routine.htm
 old-project: netvista
 ms.assetid: DEE6FBD6-4807-4216-9010-F59C9E08076B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EVT_VMB_PACKET_COMPLETION_ROUTINE, EvtVmbPacketCompletionRoutine, EvtVmbPacketCompletionRoutine callback function [Network Drivers Starting with Windows Vista], PFN_VMB_PACKET_COMPLETION_ROUTINE, PFN_VMB_PACKET_COMPLETION_ROUTINE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_packet_completion_routine, vmbuskernelmodeclientlibapi/EvtVmbPacketCompletionRoutine
+ms.date: 4/25/2018
+ms.keywords: EVT_VMB_PACKET_COMPLETION_ROUTINE, EVT_VMB_PACKET_COMPLETION_ROUTINE callback, EvtVmbPacketCompletionRoutine, EvtVmbPacketCompletionRoutine callback function [Network Drivers Starting with Windows Vista], PFN_VMB_PACKET_COMPLETION_ROUTINE, PFN_VMB_PACKET_COMPLETION_ROUTINE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_packet_completion_routine, vmbuskernelmodeclientlibapi/EvtVmbPacketCompletionRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PFN_VMB_PACKET_COMPLETION_ROUTINE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_VMB_PACKET_COMPLETION_ROUTINE callback
+# EVT_VMB_PACKET_COMPLETION_ROUTINE callback function
 
 
 ## -description

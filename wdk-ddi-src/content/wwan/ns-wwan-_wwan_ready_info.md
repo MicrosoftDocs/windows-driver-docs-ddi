@@ -7,7 +7,7 @@ old-location: netvista\wwan_ready_info.htm
 old-project: netvista
 ms.assetid: 6db8730e-a1da-428b-9938-fd9f3f71283a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_READY_INFO, PWWAN_READY_INFO, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, netvista.wwan_ready_info, wwan/PWWAN_READY_INFO, wwan/WWAN_READY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_READY_INFO, *PWWAN_READY_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_READY_INFO structure

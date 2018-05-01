@@ -40,7 +40,7 @@ api_name:
 -	ChangerClassCreate
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerClassCreate function

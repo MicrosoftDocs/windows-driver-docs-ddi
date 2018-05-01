@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetInputCallbacks
-title: IDebugClient4::GetInputCallbacks method
+title: IDebugClient4::GetInputCallbacks
 author: windows-driver-content
 description: The GetInputCallbacks method returns the input callbacks object registered with this client.
 old-location: debugger\getinputcallbacks.htm
 old-project: debugger
 ms.assetid: 1788d9b6-5e5e-48b6-b746-fd078768892f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetInputCallbacks method [Windows Debugging], GetInputCallbacks method [Windows Debugging], IDebugClient interface, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, GetInputCallbacks,IDebugClient4.GetInputCallbacks, IDebugClient interface [Windows Debugging], GetInputCallbacks method, IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, IDebugClient2::GetInputCallbacks, IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, IDebugClient3::GetInputCallbacks, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, IDebugClient4::GetInputCallbacks, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient5::GetInputCallbacks, IDebugClient::GetInputCallbacks, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, dbgeng/IDebugClient2::GetInputCallbacks, dbgeng/IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient4::GetInputCallbacks, dbgeng/IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient::GetInputCallbacks, debugger.getinputcallbacks
+ms.date: 4/24/2018
+ms.keywords: GetInputCallbacks, GetInputCallbacks method [Windows Debugging], GetInputCallbacks method [Windows Debugging],IDebugClient interface, GetInputCallbacks method [Windows Debugging],IDebugClient2 interface, GetInputCallbacks method [Windows Debugging],IDebugClient3 interface, GetInputCallbacks method [Windows Debugging],IDebugClient4 interface, GetInputCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetInputCallbacks method, IDebugClient2 interface [Windows Debugging],GetInputCallbacks method, IDebugClient2::GetInputCallbacks, IDebugClient3 interface [Windows Debugging],GetInputCallbacks method, IDebugClient3::GetInputCallbacks, IDebugClient4 interface [Windows Debugging],GetInputCallbacks method, IDebugClient4.GetInputCallbacks, IDebugClient4::GetInputCallbacks, IDebugClient5 interface [Windows Debugging],GetInputCallbacks method, IDebugClient5::GetInputCallbacks, IDebugClient::GetInputCallbacks, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, dbgeng/IDebugClient2::GetInputCallbacks, dbgeng/IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient4::GetInputCallbacks, dbgeng/IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient::GetInputCallbacks, debugger.getinputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.GetInputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::GetInputCallbacks method
+# IDebugClient4::GetInputCallbacks
 
 
 ## -description

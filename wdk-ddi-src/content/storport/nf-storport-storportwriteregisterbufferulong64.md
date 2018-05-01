@@ -40,8 +40,7 @@ api_name:
 -	StorPortWriteRegisterBufferUlong64
 product: Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortWriteRegisterBufferUlong64 macro

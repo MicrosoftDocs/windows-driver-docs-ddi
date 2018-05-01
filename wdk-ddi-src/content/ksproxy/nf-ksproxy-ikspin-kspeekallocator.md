@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsPeekAllocator
-title: IKsPin::KsPeekAllocator method
+title: IKsPin::KsPeekAllocator
 author: windows-driver-content
 description: The KsPeekAllocator method returns a pointer to an IMemAllocator interface for a pin's assigned allocator.
 old-location: stream\ikspin_kspeekallocator.htm
 old-project: stream
 ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsPeekAllocator method, IKsPin::KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices], IKsPin interface, KsPeekAllocator,IKsPin.KsPeekAllocator, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsPin.KsPeekAllocator
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsPeekAllocator method
+# IKsPin::KsPeekAllocator
 
 
 ## -description

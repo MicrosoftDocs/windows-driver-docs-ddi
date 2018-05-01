@@ -7,7 +7,7 @@ old-location: stream\ksinitializedevice.htm
 old-project: stream
 ms.assetid: f33122d0-7661-454a-87f7-7b5795793376
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsInitializeDevice, KsInitializeDevice function [Streaming Media Devices], avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml, ks/KsInitializeDevice, stream.ksinitializedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

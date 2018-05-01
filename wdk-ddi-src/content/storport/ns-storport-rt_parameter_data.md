@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA
-req.product: Windows 10 or later.
 ---
 
 # RT_PARAMETER_DATA structure

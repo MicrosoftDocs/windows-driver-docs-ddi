@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsTopology.CreateNodeInstance
-title: IKsTopology::CreateNodeInstance method
+title: IKsTopology::CreateNodeInstance
 author: windows-driver-content
 description: The CreateNodeInstance method requests a KS filter object to open a topology node object.
 old-location: stream\ikstopology_createnodeinstance.htm
 old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, CreateNodeInstance,IKsTopology.CreateNodeInstance, IKsTopology, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, IKsTopology::CreateNodeInstance, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, stream.ikstopology_createnodeinstance
+ms.date: 4/23/2018
+ms.keywords: CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices],IKsTopology interface, IKsTopology interface [Streaming Media Devices],CreateNodeInstance method, IKsTopology.CreateNodeInstance, IKsTopology::CreateNodeInstance, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, stream.ikstopology_createnodeinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsTopology.CreateNodeInstance
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsTopology::CreateNodeInstance method
+# IKsTopology::CreateNodeInstance
 
 
 ## -description

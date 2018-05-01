@@ -7,8 +7,8 @@ old-location: audio\ioctl_usbsbaud_set_sidetone_property.htm
 old-project: audio
 ms.assetid: 2E8EE398-A33A-4978-8198-72AF9608C517
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY, IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY control code [Audio Devices], audio.ioctl_usbsbaud_set_sidetone_property, usbsidebandaudio/IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY
+ms.date: 4/16/2018
+ms.keywords: IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY, IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY control, IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY control code [Audio Devices], audio.ioctl_usbsbaud_set_sidetone_property, usbsidebandaudio/IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBSBAUD_SET_SIDETONE_PROPERTY IOCTL

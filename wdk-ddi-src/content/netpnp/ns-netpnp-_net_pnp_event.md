@@ -7,7 +7,7 @@ old-location: netvista\net_pnp_event.htm
 old-project: netvista
 ms.assetid: b68fb279-c1d4-4f0b-8b04-b17a01a65560
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNET_PNP_EVENT, NET_PNP_EVENT, NET_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT, PNET_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT, ndis/NET_PNP_EVENT, ndis/PNET_PNP_EVENT, netvista.net_pnp_event, protocol_structures_ref_0d2da286-4352-4097-901d-d3eba45d31c2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "< DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

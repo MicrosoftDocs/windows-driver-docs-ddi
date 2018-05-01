@@ -7,7 +7,7 @@ old-location: ifsk\query_file_layout_input.htm
 old-project: ifsk
 ms.assetid: 7404BFC3-8942-4927-9F5B-9FA860F9F95F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PQUERY_FILE_LAYOUT_INPUT, PQUERY_FILE_LAYOUT_INPUT, PQUERY_FILE_LAYOUT_INPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS, QUERY_FILE_LAYOUT_FILTER_TYPE_FILEID, QUERY_FILE_LAYOUT_FILTER_TYPE_NONE, QUERY_FILE_LAYOUT_INCLUDE_EXTENTS, QUERY_FILE_LAYOUT_INCLUDE_EXTRA_INFO, QUERY_FILE_LAYOUT_INCLUDE_NAMES, QUERY_FILE_LAYOUT_INCLUDE_STREAMS, QUERY_FILE_LAYOUT_INCLUDE_STREAMS_WITH_NO_CLUSTERS_ALLOCATED, QUERY_FILE_LAYOUT_INPUT, QUERY_FILE_LAYOUT_INPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_RESTART, _QUERY_FILE_LAYOUT_INPUT, ifsk.query_file_layout_input, ntifs/PQUERY_FILE_LAYOUT_INPUT, ntifs/QUERY_FILE_LAYOUT_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,8 +190,7 @@ An array of filter structures used to select specific layout information. These 
 This member is ignored if <b>QUERY_FILE_LAYOUT_FILTER_TYPE_NONE</b> is specified in <b>FilterType</b>.
 
 
-
-#### ClusterRanges
+### -field Filter.ClusterRanges
 
 Specifies a set of cluster ranges to filter layout information. The range structure has the following format.
 
@@ -212,8 +211,7 @@ Specifies a set of cluster ranges to filter layout information. The range struct
 
 
 
-
-#### FileReferenceRanges
+### -field Filter.FileReferenceRanges
 
 Specifies a set of file reference ranges to filter layout information. The range structure has the following format.
 

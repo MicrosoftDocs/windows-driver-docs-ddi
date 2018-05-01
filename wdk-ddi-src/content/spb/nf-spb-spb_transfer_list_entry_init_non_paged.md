@@ -40,8 +40,7 @@ api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function

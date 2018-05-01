@@ -7,7 +7,7 @@ old-location: netvista\net_buffer.htm
 old-project: netvista
 ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNET_BUFFER, NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, netvista.net_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	NET_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: NET_BUFFER, *PNET_BUFFER, NET_BUFFER, *PNET_BUFFER
+req.typenames: NET_BUFFER, *PNET_BUFFER
 ---
 
 # _NET_BUFFER structure
@@ -72,6 +72,16 @@ The NET_BUFFER structure specifies data that is transmitted or received over the
  
 
 
+### -field DataLength
+
+ 
+
+
+### -field stDataLength
+
+ 
+
+
 ### -field MdlChain
 
  
@@ -80,6 +90,17 @@ The NET_BUFFER structure specifies data that is transmitted or received over the
 ### -field DataOffset
 
  
+
+
+### -field Link
+
+ 
+
+
+### -field NetBufferHeader
+
+A 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a> structure.
 
 
 ### -field ChecksumBias
@@ -138,22 +159,16 @@ The physical address of the data portion of a frame. This member should be to ze
       <b>DataPhysicalAddress</b> contains the physical address of the header MDL.</div>
 <div> </div>
 
-#### - NetBufferHeader
-
-A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a> structure.
-
-
-#### - ScatterGatherList
-
-The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
-
-
-#### - SharedMemoryInfo
+### -field SharedMemoryInfo
 
 A pointer to an 
       <a href="https://msdn.microsoft.com/492bb1cd-fc3e-4e85-9074-32ebbf1fb837">
       NET_BUFFER_SHARED_MEMORY</a> structure.
+
+
+### -field ScatterGatherList
+
+The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
 
 
 ## -remarks

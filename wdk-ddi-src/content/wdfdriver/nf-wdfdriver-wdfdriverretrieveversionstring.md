@@ -43,8 +43,7 @@ api_name:
 -	WdfDriverRetrieveVersionString
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_INIT_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDriverRetrieveVersionString function

@@ -7,8 +7,8 @@ old-location: audio\allocaterenderdmaengine.htm
 old-project: audio
 ms.assetid: fb2a64ca-7e8e-4352-86c6-b9500e535c75
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AllocateRenderDmaEngine, AllocateRenderDmaEngine callback function [Audio Devices], PALLOCATE_RENDER_DMA_ENGINE, aud-prop2_69a03ff9-5eda-4f39-85cf-e4af523214e1.xml, audio.allocaterenderdmaengine, hdaudio/AllocateRenderDmaEngine
+ms.date: 4/16/2018
+ms.keywords: AllocateRenderDmaEngine, AllocateRenderDmaEngine callback function [Audio Devices], PALLOCATE_RENDER_DMA_ENGINE, PALLOCATE_RENDER_DMA_ENGINE callback, aud-prop2_69a03ff9-5eda-4f39-85cf-e4af523214e1.xml, audio.allocaterenderdmaengine, hdaudio/AllocateRenderDmaEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	AllocateRenderDmaEngine
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PALLOCATE_RENDER_DMA_ENGINE callback
+# PALLOCATE_RENDER_DMA_ENGINE callback function
 
 
 ## -description

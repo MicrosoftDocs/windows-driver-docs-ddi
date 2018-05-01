@@ -7,8 +7,8 @@ old-location: netvista\FreeNetBufferListForwardingContext.htm
 old-project: netvista
 ms.assetid: 08AE3160-276F-4D1F-9D02-AD5AF38CDED2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FreeNetBufferListForwardingContext, FreeNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT, ndis/FreeNetBufferListForwardingContext, netvista.FreeNetBufferListForwardingContext
+ms.date: 4/25/2018
+ms.keywords: FreeNetBufferListForwardingContext, FreeNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT, NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback, ndis/FreeNetBufferListForwardingContext, netvista.FreeNetBufferListForwardingContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FreeNetBufferListForwardingContext
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback
+# NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback function
 
 
 ## -description

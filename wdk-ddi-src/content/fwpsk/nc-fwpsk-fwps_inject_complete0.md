@@ -7,8 +7,8 @@ old-location: netvista\completionfn.htm
 old-project: netvista
 ms.assetid: c03656ec-f0fe-49f5-8a04-2d26ef23c50a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_INJECT_COMPLETE0, completionFn, completionFn callback function [Network Drivers Starting with Windows Vista], fwpsk/completionFn, netvista.completionfn, wfp_ref_2_funct_4_callout_bc142e7e-f390-4b8c-b82b-c13077e1d6bf.xml
+ms.date: 4/25/2018
+ms.keywords: FWPS_INJECT_COMPLETE0, FWPS_INJECT_COMPLETE0 callback, completionFn, completionFn callback function [Network Drivers Starting with Windows Vista], fwpsk/completionFn, netvista.completionfn, wfp_ref_2_funct_4_callout_bc142e7e-f390-4b8c-b82b-c13077e1d6bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	completionFn
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_INJECT_COMPLETE0 callback
+# FWPS_INJECT_COMPLETE0 callback function
 
 
 ## -description

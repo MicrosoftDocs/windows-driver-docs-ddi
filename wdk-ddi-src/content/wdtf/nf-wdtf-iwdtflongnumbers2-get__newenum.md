@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get__NewEnum
-title: IWDTFLongNumbers2::get__NewEnum method
+title: IWDTFLongNumbers2::get__NewEnum
 author: windows-driver-content
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtflongnumbers2__newenum.htm
 old-project: dtf
 ms.assetid: 5b3e8f9f-6152-436f-9b82-18bca672c570
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], _NewEnum property, IWDTFLongNumbers2._NewEnum, IWDTFLongNumbers2::get__NewEnum, Microsoft.WDTF.IWDTFLongNumbers2._NewEnum, Microsoft::WDTF::IWDTFLongNumbers2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework], IWDTFLongNumbers2 interface, dtf.iwdtflongnumbers2__newenum, get__NewEnum,IWDTFLongNumbers2.get__NewEnum, wdtf/IWDTFLongNumbers2::_NewEnum, wdtf/IWDTFLongNumbers2::get__NewEnum
+ms.date: 4/4/2018
+ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],_NewEnum property, IWDTFLongNumbers2._NewEnum, IWDTFLongNumbers2.get__NewEnum, IWDTFLongNumbers2::_NewEnum, IWDTFLongNumbers2::get__NewEnum, Microsoft.WDTF.IWDTFLongNumbers2._NewEnum, Microsoft::WDTF::IWDTFLongNumbers2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework],IWDTFLongNumbers2 interface, dtf.iwdtflongnumbers2__newenum, get__NewEnum, wdtf/IWDTFLongNumbers2::_NewEnum, wdtf/IWDTFLongNumbers2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTFLongNumbers2.get__NewEnum
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFLongNumbers2::get__NewEnum method
+# IWDTFLongNumbers2::get__NewEnum
 
 
 ## -description

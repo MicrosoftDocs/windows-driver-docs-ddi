@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForIoctl
-title: IWDFIoTarget::FormatRequestForIoctl method
+title: IWDFIoTarget::FormatRequestForIoctl
 author: windows-driver-content
 description: The FormatRequestForIoctl method formats an I/O request object for an I/O control operation.
 old-location: wdf\iwdfiotarget_formatrequestforioctl.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: FormatRequestForIoctl method, FormatRequestForIoctl method, IWDFIoTarget interface, FormatRequestForIoctl,IWDFIoTarget.FormatRequestForIoctl, IWDFIoTarget, IWDFIoTarget interface, FormatRequestForIoctl method, IWDFIoTarget::FormatRequestForIoctl, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, umdf.iwdfiotarget_formatrequestforioctl, wdf.iwdfiotarget_formatrequestforioctl, wudfddi/IWDFIoTarget::FormatRequestForIoctl
+ms.keywords: FormatRequestForIoctl, FormatRequestForIoctl method, FormatRequestForIoctl method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForIoctl method, IWDFIoTarget.FormatRequestForIoctl, IWDFIoTarget::FormatRequestForIoctl, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, umdf.iwdfiotarget_formatrequestforioctl, wdf.iwdfiotarget_formatrequestforioctl, wudfddi/IWDFIoTarget::FormatRequestForIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoTarget.FormatRequestForIoctl
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget::FormatRequestForIoctl method
+# IWDFIoTarget::FormatRequestForIoctl
 
 
 ## -description

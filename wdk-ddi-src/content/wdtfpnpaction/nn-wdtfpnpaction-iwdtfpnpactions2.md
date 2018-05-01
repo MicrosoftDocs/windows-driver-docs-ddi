@@ -7,8 +7,8 @@ old-location: dtf\iwdtfpnpactions2.htm
 old-project: dtf
 ms.assetid: 65f40adc-ec17-4bed-b5b9-e7a5c1c27a6c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], IWDTFPNPActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfpnpactions2, wdtfpnpaction/IWDTFPNPActions2
+ms.date: 4/4/2018
+ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], IWDTFPNPActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfpnpactions2, wdtfpnpaction/IWDTFPNPActions2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IWDTFPNPActions2
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDTFPNPActions2 interface

@@ -40,7 +40,7 @@ api_name:
 -	SdBusSubmitRequestAsync
 product: Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # SdBusSubmitRequestAsync function

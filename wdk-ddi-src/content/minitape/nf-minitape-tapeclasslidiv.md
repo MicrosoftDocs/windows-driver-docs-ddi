@@ -41,7 +41,7 @@ api_name:
 -	TapeClassLiDiv
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: 
 ---
 
 # TapeClassLiDiv function

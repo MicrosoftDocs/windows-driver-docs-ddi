@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFWorkItem.Flush
-title: IWDFWorkItem::Flush method
+title: IWDFWorkItem::Flush
 author: windows-driver-content
 description: The Flush method returns after this interface's work item has been serviced.
 old-location: wdf\iwdfworkitem_flush.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Flush method, Flush method, IWDFWorkItem interface, Flush,IWDFWorkItem.Flush, IWDFWorkItem, IWDFWorkItem interface, Flush method, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, wdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush
+ms.keywords: Flush, Flush method, Flush method,IWDFWorkItem interface, IWDFWorkItem interface,Flush method, IWDFWorkItem.Flush, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, wdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFWorkItem.Flush
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFWorkItem::Flush method
+# IWDFWorkItem::Flush
 
 
 ## -description

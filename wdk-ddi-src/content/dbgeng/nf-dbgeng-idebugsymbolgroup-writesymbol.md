@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.WriteSymbol
-title: IDebugSymbolGroup::WriteSymbol method
+title: IDebugSymbolGroup::WriteSymbol
 author: windows-driver-content
 description: The WriteSymbol methods set the value of the specified symbol.
 old-location: debugger\writesymbol.htm
 old-project: debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup::WriteSymbol, WriteSymbol method [Windows Debugging], WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbol,IDebugSymbolGroup.WriteSymbol, dbgeng/IDebugSymbolGroup2::WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, debugger.writesymbol
+ms.date: 4/24/2018
+ms.keywords: ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup interface [Windows Debugging],WriteSymbol method, IDebugSymbolGroup.WriteSymbol, IDebugSymbolGroup2 interface [Windows Debugging],WriteSymbol method, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup::WriteSymbol, WriteSymbol, WriteSymbol method [Windows Debugging], WriteSymbol method [Windows Debugging],IDebugSymbolGroup interface, WriteSymbol method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, debugger.writesymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugSymbolGroup2.WriteSymbol
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup::WriteSymbol method
+# IDebugSymbolGroup::WriteSymbol
 
 
 ## -description

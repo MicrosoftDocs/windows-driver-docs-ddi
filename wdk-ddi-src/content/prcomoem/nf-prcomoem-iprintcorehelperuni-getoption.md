@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.GetOption
-title: IPrintCoreHelperUni::GetOption method
+title: IPrintCoreHelperUni::GetOption
 author: windows-driver-content
 description: The IPrintCoreHelperUni::GetOption method gets a specified option for a given feature.
 old-location: print\iprintcorehelperuni_getoption.htm
 old-project: print
 ms.assetid: 0850ba08-089a-4715-bee4-a44a95e6dee6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOption method [Print Devices], GetOption method [Print Devices], IPrintCoreHelperUni interface, GetOption,IPrintCoreHelperUni.GetOption, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], GetOption method, IPrintCoreHelperUni::GetOption, prcomoem/IPrintCoreHelperUni::GetOption, print.iprintcorehelperuni_getoption, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml
+ms.date: 4/20/2018
+ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],GetOption method, IPrintCoreHelperUni.GetOption, IPrintCoreHelperUni::GetOption, prcomoem/IPrintCoreHelperUni::GetOption, print.iprintcorehelperuni_getoption, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreHelperUni.GetOption
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::GetOption method
+# IPrintCoreHelperUni::GetOption
 
 
 ## -description

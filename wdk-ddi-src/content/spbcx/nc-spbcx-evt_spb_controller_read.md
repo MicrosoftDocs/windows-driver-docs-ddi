@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_SPB_CONTROLLER_READ, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
+ms.keywords: EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSpbControllerIoRead
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_CONTROLLER_READ callback
+# EVT_SPB_CONTROLLER_READ callback function
 
 
 ## -description

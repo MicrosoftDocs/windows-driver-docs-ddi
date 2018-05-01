@@ -7,7 +7,7 @@ old-location: print\monitor.htm
 old-project: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: MONITOR, *LPMONITOR
-req.product: Windows 10 or later.
 ---
 
 # _MONITOR structure

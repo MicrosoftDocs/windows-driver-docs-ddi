@@ -41,7 +41,7 @@ api_name:
 -	ChangerClassFreePool
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerClassFreePool function

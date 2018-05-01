@@ -7,7 +7,7 @@ old-location: ifsk\acl.htm
 old-project: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PACL, ACL, ACL structure [Installable File System Drivers], PACL, PACL structure pointer [Installable File System Drivers], _ACL, ifsk.acl, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL, wdm/PACL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: ACL
-req.product: Windows 10 or later.
 ---
 
 # _ACL structure

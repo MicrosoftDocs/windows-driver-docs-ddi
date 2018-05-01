@@ -7,8 +7,8 @@ old-location: display\pfnpresentmultiplaneoverlay__d3d_.htm
 old-project: display
 ms.assetid: 3AC47977-A5F3-44A6-8F89-A1EA5E0BB6E4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAY, d3dumddi/pfnPresentMultiPlaneOverlay, display.pfnpresentmultiplaneoverlay__d3d_, pfnPresentMultiPlaneOverlay, pfnPresentMultiPlaneOverlay callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAY, PFND3DDDI_PRESENTMULTIPLANEOVERLAY (D3D) callback, d3dumddi/pfnPresentMultiPlaneOverlay, display.pfnpresentmultiplaneoverlay__d3d_, pfnPresentMultiPlaneOverlay, pfnPresentMultiPlaneOverlay callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnPresentMultiPlaneOverlay
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_PRESENTMULTIPLANEOVERLAY callback
+# PFND3DDDI_PRESENTMULTIPLANEOVERLAY callback function
 
 
 ## -description

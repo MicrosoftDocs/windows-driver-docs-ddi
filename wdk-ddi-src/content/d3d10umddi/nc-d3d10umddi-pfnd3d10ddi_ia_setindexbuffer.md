@@ -7,8 +7,8 @@ old-location: display\iasetindexbuffer.htm
 old-project: display
 ms.assetid: 042ebb72-b794-4cb8-9d81-bd52a785f1e0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IaSetIndexBuffer, IaSetIndexBuffer callback function [Display Devices], PFND3D10DDI_IA_SETINDEXBUFFER, UserModeDisplayDriverDx10_Functions_5b51e721-283c-447e-8170-17af90a29081.xml, d3d10umddi/IaSetIndexBuffer, display.iasetindexbuffer
+ms.date: 4/16/2018
+ms.keywords: IaSetIndexBuffer, IaSetIndexBuffer callback function [Display Devices], PFND3D10DDI_IA_SETINDEXBUFFER, PFND3D10DDI_IA_SETINDEXBUFFER callback, UserModeDisplayDriverDx10_Functions_5b51e721-283c-447e-8170-17af90a29081.xml, d3d10umddi/IaSetIndexBuffer, display.iasetindexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	IaSetIndexBuffer
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_IA_SETINDEXBUFFER callback
+# PFND3D10DDI_IA_SETINDEXBUFFER callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_response.htm
 old-project: netvista
 ms.assetid: CD0B90A1-032D-4F09-827F-E80607AE4EA7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_RESPONSE, WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_RESPONSE, netvista.wwan_auth_response, wwan/PWWAN_AUTH_RESPONSE, wwan/WWAN_AUTH_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_AUTH_RESPONSE structure
@@ -68,20 +67,17 @@ The authentication challenge method used.
 The container union for the different authentication challenge methods.
 
 
-
-#### AuthSim
+### -field u.AuthSim
 
 The esponse from the SIM authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthSim</i>, use this member.
 
 
-
-#### AuthAka
+### -field u.AuthAka
 
 The response from the AKA authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthAka, </i>use this member.
 
 
-
-#### AuthAkap
+### -field u.AuthAkap
 
 The response from the AKA' authentication method.  If <b>AuthMethod</b> is set to <i>WwanAuthAkap, </i>use this member.
 

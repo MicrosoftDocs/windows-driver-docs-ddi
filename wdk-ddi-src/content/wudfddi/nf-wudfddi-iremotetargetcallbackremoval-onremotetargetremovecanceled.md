@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
-title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled method
+title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteTargetRemoveCanceled event callback function performs operations that are necessary when the operating system cancels the removal of a remote I/O target's device.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecanceled.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26a6e9e7-f1bb-4174-a640-f665cecfd191
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveCanceled,IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
+ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled method
+# IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.CreateProcessWide
-title: IDebugClient3::CreateProcessWide method
+title: IDebugClient3::CreateProcessWide
 author: windows-driver-content
 description: The CreateProcessWide method creates a process from the specified command line.
 old-location: debugger\createprocesswide.htm
 old-project: debugger
 ms.assetid: 2a45c971-3dad-47ad-a819-6f2c6e34ad37
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateProcessWide method [Windows Debugging], CreateProcessWide method [Windows Debugging], IDebugClient3 interface, CreateProcessWide method [Windows Debugging], IDebugClient4 interface, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, CreateProcessWide,IDebugClient3.CreateProcessWide, IDebugClient3, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, IDebugClient3::CreateProcessWide, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, IDebugClient4::CreateProcessWide, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, IDebugClient5::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, dbgeng/IDebugClient4::CreateProcessWide, dbgeng/IDebugClient5::CreateProcessWide, debugger.createprocesswide
+ms.date: 4/24/2018
+ms.keywords: CreateProcessWide, CreateProcessWide method [Windows Debugging], CreateProcessWide method [Windows Debugging],IDebugClient3 interface, CreateProcessWide method [Windows Debugging],IDebugClient4 interface, CreateProcessWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],CreateProcessWide method, IDebugClient3.CreateProcessWide, IDebugClient3::CreateProcessWide, IDebugClient4 interface [Windows Debugging],CreateProcessWide method, IDebugClient4::CreateProcessWide, IDebugClient5 interface [Windows Debugging],CreateProcessWide method, IDebugClient5::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, dbgeng/IDebugClient4::CreateProcessWide, dbgeng/IDebugClient5::CreateProcessWide, debugger.createprocesswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugClient5.CreateProcessWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::CreateProcessWide method
+# IDebugClient3::CreateProcessWide
 
 
 ## -description

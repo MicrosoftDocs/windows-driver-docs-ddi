@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_FIXSESSION_PARAM
 title: GNSS_FIXSESSION_PARAM
 author: windows-driver-content
 description: This structure defines the parameters used by the GNSS adapter to start a fix session.
-old-location: sensors\gnss_fixsession_param.htm
-old-project: sensors
+old-location: gnss\gnss_fixsession_param.htm
+old-project: gnss
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsession_param, sensors.gnss_fixsesson_param"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_fixsession_param, gnssdriver/GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsesson_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,6 +109,31 @@ The GNSS driver may choose to override this input.
 This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
+### -field SingleShotParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925218">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+
+
+### -field DistanceParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925105">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+
+
+### -field ContinuousParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925099">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+
+
+### -field LkgFixParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925182">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
+
+
+### -field UnusedParam
+
+ 
+
+
 ### -field Unused
 
  
@@ -116,29 +141,9 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
 
-#### - ContinuousParam
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925099">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
-
-
-#### - DistanceParam
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925105">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
-
-
-#### - LkgFixParam
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925182">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
-
-
 #### - Reserved[9]
 
 Reserved for future use.
-
-
-#### - SingleShotParam
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925218">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
 
 
 #### - Unused[512]

@@ -1,14 +1,14 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.ParseDetectionResultData
-title: IKeywordDetectorOemAdapter::ParseDetectionResultData method
+title: IKeywordDetectorOemAdapter::ParseDetectionResultData
 author: windows-driver-content
 description: The ParseDetectionResultData method is called by the operating system after handling a keyword detection event and after retrieving the result data from KSPROPERTY_SOUNDDETECTOR_MATCHRESULT.
 old-location: audio\ikeyworddetectoroemadapter_parsedetectionresultdata.htm
 old-project: audio
 ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], ParseDetectionResultData method, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter interface, ParseDetectionResultData,IKeywordDetectorOemAdapter.ParseDetectionResultData, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
+ms.date: 4/16/2018
+ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],ParseDetectionResultData method, IKeywordDetectorOemAdapter.ParseDetectionResultData, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKeywordDetectorOemAdapter.ParseDetectionResultData
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDID
+req.typenames: 
 ---
 
-# IKeywordDetectorOemAdapter::ParseDetectionResultData method
+# IKeywordDetectorOemAdapter::ParseDetectionResultData
 
 
 ## -description

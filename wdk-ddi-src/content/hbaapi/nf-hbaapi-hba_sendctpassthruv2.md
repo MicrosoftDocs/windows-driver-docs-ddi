@@ -40,7 +40,7 @@ api_name:
 -	HBA_SendCTPassThruV2
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_SendCTPassThruV2 function

@@ -7,8 +7,8 @@ old-location: display\destroyvideoprocessorinputview.htm
 old-project: display
 ms.assetid: 3a815201-091b-4c85-a62a-2cdbbaf0bf95
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, d3d10umddi/pfnDestroyVideoProcessorInputView, display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView, pfnDestroyVideoProcessorInputView callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback, d3d10umddi/pfnDestroyVideoProcessorInputView, display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView, pfnDestroyVideoProcessorInputView callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnDestroyVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback
+# PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback function
 
 
 ## -description

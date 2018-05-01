@@ -40,8 +40,7 @@ api_name:
 -	RECORDER_CONFIGURE_PARAMS_INIT
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RECORDER_CONFIGURE_PARAMS_INIT function

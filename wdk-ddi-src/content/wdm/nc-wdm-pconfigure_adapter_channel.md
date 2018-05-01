@@ -7,8 +7,8 @@ old-location: kernel\configureadapterchannel.htm
 old-project: kernel
 ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
+ms.date: 4/5/2018
+ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL callback, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	ConfigureAdapterChannel
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCONFIGURE_ADAPTER_CHANNEL callback
+# PCONFIGURE_ADAPTER_CHANNEL callback function
 
 
 ## -description

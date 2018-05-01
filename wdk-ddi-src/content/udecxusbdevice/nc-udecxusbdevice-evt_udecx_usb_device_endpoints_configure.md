@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 old-project: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtUsbDeviceEndpointsConfigure
 product: Windows
 targetos: Windows
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback
+# EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback function
 
 
 ## -description

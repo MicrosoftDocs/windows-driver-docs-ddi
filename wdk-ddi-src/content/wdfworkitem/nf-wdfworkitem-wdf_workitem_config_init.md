@@ -40,8 +40,7 @@ api_name:
 -	WDF_WORKITEM_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_WORKITEM_CONFIG_INIT function

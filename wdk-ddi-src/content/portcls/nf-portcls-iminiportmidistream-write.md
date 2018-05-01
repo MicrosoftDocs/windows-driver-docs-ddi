@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.Write
-title: IMiniportMidiStream::Write method
+title: IMiniportMidiStream::Write
 author: windows-driver-content
 description: The Write method writes data to an outgoing MIDI stream.
 old-location: audio\iminiportmidistream_write.htm
 old-project: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], Write method, IMiniportMidiStream::Write, Write method [Audio Devices], Write method [Audio Devices], IMiniportMidiStream interface, Write,IMiniportMidiStream.Write, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, portcls/IMiniportMidiStream::Write
+ms.date: 4/16/2018
+ms.keywords: IMiniportMidiStream interface [Audio Devices],Write method, IMiniportMidiStream.Write, IMiniportMidiStream::Write, Write, Write method [Audio Devices], Write method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, portcls/IMiniportMidiStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportMidiStream.Write
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportMidiStream::Write method
+# IMiniportMidiStream::Write
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.SetBytes
-title: IPrinterPropertyBag::SetBytes method
+title: IPrinterPropertyBag::SetBytes
 author: windows-driver-content
 description: Writes a byte array property.
 old-location: print\iprinterpropertybag_setbytes.htm
 old-project: print
 ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetBytes method, IPrinterPropertyBag::SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices], IPrinterPropertyBag interface, SetBytes,IPrinterPropertyBag.SetBytes, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
+ms.date: 4/20/2018
+ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterPropertyBag.SetBytes
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterPropertyBag::SetBytes method
+# IPrinterPropertyBag::SetBytes
 
 
 ## -description

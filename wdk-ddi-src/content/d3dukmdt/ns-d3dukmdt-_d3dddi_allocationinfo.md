@@ -7,7 +7,7 @@ old-location: display\d3dddi_allocationinfo.htm
 old-project: display
 ms.assetid: 69181a7c-62bd-4df0-95fc-fe6c3ab14209
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ALLOCATIONINFO, D3DDDI_ALLOCATIONINFO structure [Display Devices], D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, _D3DDDI_ALLOCATIONINFO, d3dukmdt/D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,12 +91,6 @@ When the DirectX graphics kernel subsystem initiates the creation of the allocat
 [in] A union that contains either a structure (with the first three members that are described in the following list) or a 32-bit value (in the <b>Value</b> member) that indentifies the type of allocation:
 
 
-
-#### Value
-
-[in] A 32-bit value that identifies the type of allocation. 
-
-
 ### -field Flags.Primary
 
 [in] A UINT that specifies whether the allocation is part of the desktop. Such an allocation is implicitly accessible to the CPU. A primary allocation can be either pinned down at creation or not pinned down at creation. 
@@ -126,6 +120,11 @@ Setting this member to zero is equivalent to setting the remaining 30 bits (0xFF
 
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
+
+
+### -field Flags.Value
+
+[in] A 32-bit value that identifies the type of allocation. 
 
 
 ## -remarks

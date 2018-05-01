@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPartThumbnail.SetThumbnailContent
-title: IPartThumbnail::SetThumbnailContent method
+title: IPartThumbnail::SetThumbnailContent
 author: windows-driver-content
 description: The SetThumbnailContent method sets the thumbnail content for the part.
 old-location: print\ipartthumbnail_setthumbnailcontent.htm
 old-project: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPartThumbnail, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail::SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices], IPartThumbnail interface, SetThumbnailContent,IPartThumbnail.SetThumbnailContent, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent
+ms.date: 4/20/2018
+ms.keywords: IPartThumbnail interface [Print Devices],SetThumbnailContent method, IPartThumbnail.SetThumbnailContent, IPartThumbnail::SetThumbnailContent, SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices],IPartThumbnail interface, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPartThumbnail.SetThumbnailContent
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPartThumbnail::SetThumbnailContent method
+# IPartThumbnail::SetThumbnailContent
 
 
 ## -description

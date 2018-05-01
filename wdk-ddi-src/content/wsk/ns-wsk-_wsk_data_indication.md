@@ -7,7 +7,7 @@ old-location: netvista\wsk_data_indication.htm
 old-project: netvista
 ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWSK_DATA_INDICATION, PWSK_DATA_INDICATION, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], _WSK_DATA_INDICATION, netvista.wsk_data_indication, wsk/PWSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WSK_DATA_INDICATION, *PWSK_DATA_INDICATION
-req.product: Windows 10 or later.
 ---
 
 # _WSK_DATA_INDICATION structure

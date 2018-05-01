@@ -7,8 +7,8 @@ old-location: netvista\protocoluninstall.htm
 old-project: netvista
 ms.assetid: 959baf54-849c-4bb1-b4c5-4d5537e1d688
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_UNINSTALL, ProtocolUninstall, ProtocolUninstall callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUninstall, netvista.protocoluninstall, protocol_functions_ref_5c889ae3-39d9-43ff-84b5-8ecbb0b48be5.xml
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_UNINSTALL, PROTOCOL_UNINSTALL callback, ProtocolUninstall, ProtocolUninstall callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUninstall, netvista.protocoluninstall, protocol_functions_ref_5c889ae3-39d9-43ff-84b5-8ecbb0b48be5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolUninstall
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_UNINSTALL callback
+# PROTOCOL_UNINSTALL callback function
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: dcc74af4-500b-4fea-ba2b-9d1ea3a05ef6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_ACPI_RELEASE_GLOBAL_LOCK, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_0b38285c-f188-4984-b214-86f9c3677c8d.xml, acpi.ioctl_acpi_release_global_lock, acpiioct/IOCTL_ACPI_RELEASE_GLOBAL_LOCK
+ms.keywords: IOCTL_ACPI_RELEASE_GLOBAL_LOCK, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_0b38285c-f188-4984-b214-86f9c3677c8d.xml, acpi.ioctl_acpi_release_global_lock, acpiioct/IOCTL_ACPI_RELEASE_GLOBAL_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_ACPI_RELEASE_GLOBAL_LOCK
 product: Windows
 targetos: Windows
-req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
+req.typenames: 
 ---
 
 # IOCTL_ACPI_RELEASE_GLOBAL_LOCK IOCTL

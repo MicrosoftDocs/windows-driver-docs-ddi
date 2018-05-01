@@ -7,7 +7,7 @@ old-location: netvista\wdi_auth_algorithm.htm
 old-project: netvista
 ms.assetid: B908A174-F977-484E-A086-6C8C9A914D6C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, _WDI_AUTH_ALGORITHM, netvista.wdi_auth_algorithm, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_AUTH_ALGORITHM
-req.product: Windows 10 or later.
 ---
 
 # _WDI_AUTH_ALGORITHM enumeration

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 56A1D005-C060-4C6E-8CA4-0BAC4FBADABE
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL, EvtSensorSetDataInterval, EvtSensorSetDataInterval callback function [Sensor Devices], sensors.evtsensorsetdatainterval, sensorscx/EvtSensorSetDataInterval
+ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL, EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback, EvtSensorSetDataInterval, EvtSensorSetDataInterval callback function [Sensor Devices], sensors.evtsensorsetdatainterval, sensorscx/EvtSensorSetDataInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSensorSetDataInterval
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback
+# EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback function
 
 
 ## -description

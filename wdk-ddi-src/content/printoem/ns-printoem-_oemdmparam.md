@@ -7,7 +7,7 @@ old-location: print\oemdmparam.htm
 old-project: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POEMDMPARAM, OEMDMPARAM, OEMDMPARAM structure [Print Devices], POEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], _OEMDMPARAM, print.oemdmparam, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, printoem/OEMDMPARAM, printoem/POEMDMPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: OEMDMPARAM, *POEMDMPARAM
-req.product: Windows 10 or later.
 ---
 
 # _OEMDMPARAM structure

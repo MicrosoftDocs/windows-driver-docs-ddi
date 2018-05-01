@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8AA23EEF-310B-4989-B41A-0A178886DC6D
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensordeviceiocontrol, sensorscx/EvtSensorSetDataThresholds
+ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensordeviceiocontrol, sensorscx/EvtSensorSetDataThresholds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSensorSetDataThresholds
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback
+# EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.ImageProcessing
-title: IPrintOemUni::ImageProcessing method
+title: IPrintOemUni::ImageProcessing
 author: windows-driver-content
 description: The IPrintOemUni::ImageProcessing method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning.
 old-location: print\iprintoemuni_imageprocessing.htm
 old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], ImageProcessing method, IPrintOemUni::ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices], IPrintOemUni interface, ImageProcessing,IPrintOemUni.ImageProcessing, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],ImageProcessing method, IPrintOemUni.ImageProcessing, IPrintOemUni::ImageProcessing, ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni.ImageProcessing
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::ImageProcessing method
+# IPrintOemUni::ImageProcessing
 
 
 ## -description

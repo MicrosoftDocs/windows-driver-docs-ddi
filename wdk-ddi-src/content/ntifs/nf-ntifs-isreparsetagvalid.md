@@ -7,7 +7,7 @@ old-location: ifsk\isreparsetagvalid.htm
 old-project: ifsk
 ms.assetid: 080ed6f9-2a66-4946-9497-3a0b0bca8c6d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IsReparseTagValid, IsReparseTagValid macro [Installable File System Drivers], ifsk.isreparsetagvalid, ioref_72128993-53a1-4e3e-a0e2-12378862ff25.xml, ntifs/IsReparseTagValid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IsReparseTagValid
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IsReparseTagValid macro

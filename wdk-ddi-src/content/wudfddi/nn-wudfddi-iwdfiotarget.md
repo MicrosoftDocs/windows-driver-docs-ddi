@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bebe79c8-28d1-4976-b314-b73e6e9b7b9c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoTarget, IWDFIoTarget interface, IWDFIoTarget interface, described, UMDFIoTargetObjectRef_3def2530-811a-4ac8-b9bd-c39cc4cb8fb2.xml, umdf.iwdfiotarget, wdf.iwdfiotarget, wudfddi/IWDFIoTarget
+ms.keywords: IWDFIoTarget, IWDFIoTarget interface, IWDFIoTarget interface,described, UMDFIoTargetObjectRef_3def2530-811a-4ac8-b9bd-c39cc4cb8fb2.xml, umdf.iwdfiotarget, wdf.iwdfiotarget, wudfddi/IWDFIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -40,8 +40,7 @@ api_name:
 -	IWDFIoTarget
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFIoTarget interface

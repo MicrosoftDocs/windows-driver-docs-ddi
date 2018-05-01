@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_device_reset.htm
 old-project: netvista
 ms.assetid: 73894308-CFE0-49EF-BB09-E104CEE9C746
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_RESET, PNDIS_WWAN_SET_DEVICE_RESET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/PNDIS_WWAN_SET_DEVICE_RESET, netvista.ndis_wwan_set_device_reset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
-title: IPrintCoreHelperPS::CreateInstanceOfMSXMLObject method
+title: IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
 author: windows-driver-content
 description: The IPrintCoreHelperPS::CreateInstanceOfMSXMLObject method creates an instance of an MSXML object.
 old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
 old-project: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, CreateInstanceOfMSXMLObject,IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml
+ms.date: 4/20/2018
+ms.keywords: CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperPS::CreateInstanceOfMSXMLObject method
+# IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
 
 
 ## -description

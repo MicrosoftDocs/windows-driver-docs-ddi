@@ -7,7 +7,7 @@ old-location: stream\ksgetobjecttypefromirp.htm
 old-project: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices

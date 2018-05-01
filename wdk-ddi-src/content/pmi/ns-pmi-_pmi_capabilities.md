@@ -77,16 +77,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAP
 A union of the supported Power Meter Interface (PMI) capability structures. Based on the value of the <b>CapabilityType</b> member, one of the following <b>Capabilities</b> submembers is used to reference the following PMI capability structures:
 
 
-
-#### ReportedCapabilities
+### -field Capabilities.ReportedCapabilities
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543900">PMI_METERED_HARDWARE_INFORMATION</a> structure that specifies one or more hardware devices that are monitored by the power meter. 
 
 The <b>Capabilities</b> member contains this structure if the <b>CapabilityType</b> member is set to <b>PmiMeteredHardware</b>.
 
 
-
-#### MeteredHardwareInformation
+### -field Capabilities.MeteredHardwareInformation
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a> structure that specifies the PMI capabilities of the power meter, such as the following:
 

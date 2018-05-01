@@ -7,7 +7,7 @@ old-location: ifsk\ccschedulereadaheadex.htm
 old-project: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	CcScheduleReadAheadEx
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcScheduleReadAheadEx function

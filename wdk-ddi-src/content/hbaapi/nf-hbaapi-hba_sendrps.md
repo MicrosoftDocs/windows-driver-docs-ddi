@@ -40,7 +40,7 @@ api_name:
 -	HBA_SendRPS
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_SendRPS function

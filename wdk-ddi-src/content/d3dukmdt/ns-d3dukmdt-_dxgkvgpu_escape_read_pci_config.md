@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_read_pci_config.htm
 old-project: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config
 ms.prod: windows-hardware
 ms.technology: windows-devices

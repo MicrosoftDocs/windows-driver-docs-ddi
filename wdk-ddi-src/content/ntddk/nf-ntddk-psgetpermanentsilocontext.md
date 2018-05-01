@@ -7,7 +7,7 @@ old-location: kernel\psgetpermanentsilocontext.htm
 old-project: kernel
 ms.assetid: C1AEFC8F-6488-4582-9835-DAD07D4ACB17
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: PsGetPermanentSiloContext, PsGetPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetpermanentsilocontext, ntddk/PsGetPermanentSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	PsGetPermanentSiloContext
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsGetPermanentSiloContext function

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUIMXDC.AdjustImageableArea
-title: IPrintOemUIMXDC::AdjustImageableArea method
+title: IPrintOemUIMXDC::AdjustImageableArea
 author: windows-driver-content
 description: The IPrintOemUIMXDC::AdjustImageableArea method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.
 old-location: print\iprintoemuimxdc_adjustimageablearea.htm
 old-project: print
 ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, AdjustImageableArea,IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
+ms.date: 4/20/2018
+ms.keywords: AdjustImageableArea, AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageableArea method, IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUIMXDC.AdjustImageableArea
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUIMXDC::AdjustImageableArea method
+# IPrintOemUIMXDC::AdjustImageableArea
 
 
 ## -description

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	WHEA_ERROR_SOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR, *PWHEA_ERROR_SOURCE_DESCRIPTOR"
+req.typenames: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR"
 ---
 
 # _WHEA_ERROR_SOURCE_DESCRIPTOR structure
@@ -132,64 +132,61 @@ This flag indicates that the settings specified for the error source are to be a
 A union of descriptor structures that are specific to each different type of error source.
 
 
-
-#### XpfMceDescriptor
+### -field Info.XpfMceDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560649">WHEA_XPF_MCE_DESCRIPTOR</a> structure that describes an x86 or x64 processor machine check exception (MCE) error source.
 
 
-
-#### XpfCmcDescriptor
+### -field Info.XpfCmcDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a> structure that describes an x86 or x64 processor corrected machine check (CMC) error source.
 
 
-
-#### XpfNmiDescriptor
+### -field Info.XpfNmiDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560654">WHEA_XPF_NMI_DESCRIPTOR</a> structure that describes an x86 or x64 processor nonmaskable interrupt (NMI) error source.
 
 
-
-#### IpfMcaDescriptor
+### -field Info.IpfMcaDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560552">WHEA_IPF_MCA_DESCRIPTOR</a> structure that describes an Itanium processor machine check abort (MCA) error source.
 
 
-
-#### IpfCmcDescriptor
+### -field Info.IpfCmcDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560549">WHEA_IPF_CMC_DESCRIPTOR</a> structure that describes an Itanium processor corrected machine check (CMC) error source.
 
 
-
-#### IpfCpeDescriptor
+### -field Info.IpfCpeDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560550">WHEA_IPF_CPE_DESCRIPTOR</a> structure that describes an Itanium processor corrected platform error (CPE) error source.
 
 
-
-#### AerRootportDescriptor
+### -field Info.AerRootportDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560450">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structure that describes a PCI Express (PCIe) root port error source.
 
 
-
-#### AerEndpointDescriptor
+### -field Info.AerEndpointDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560447">WHEA_AER_ENDPOINT_DESCRIPTOR</a> structure that describes a PCIe endpoint error source. 
 
 
-
-#### AerBridgeDescriptor
+### -field Info.AerBridgeDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560446">WHEA_AER_BRIDGE_DESCRIPTOR</a> structure that describes a PCIe bridge error source.
 
 
-
-#### GenErrDescriptor
+### -field Info.GenErrDescriptor
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560531">WHEA_GENERIC_ERROR_DESCRIPTOR</a> structure that describes a generic error source.
+
+
+### -field Info.GenErrDescriptorV2
+
+ 
+
+
 
 
 ## -remarks

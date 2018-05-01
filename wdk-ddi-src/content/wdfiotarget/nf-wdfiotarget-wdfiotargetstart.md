@@ -43,8 +43,7 @@ api_name:
 -	WdfIoTargetStart
 product: Windows
 targetos: Windows
-req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoTargetStart function

@@ -7,7 +7,7 @@ old-location: ifsk\fltseteafile.htm
 old-project: ifsk
 ms.assetid: 06427ef2-43e9-46c1-92e5-ab1b6146cc43
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, FltSetEaFile, FltSetEaFile function [Installable File System Drivers], fltkernel/FltSetEaFile, ifsk.fltseteafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltSetEaFile
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltSetEaFile function

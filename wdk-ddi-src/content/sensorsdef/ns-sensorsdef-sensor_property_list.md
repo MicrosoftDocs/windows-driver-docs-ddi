@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST
-req.product: Windows 10 or later.
 ---
 
 # SENSOR_PROPERTY_LIST structure

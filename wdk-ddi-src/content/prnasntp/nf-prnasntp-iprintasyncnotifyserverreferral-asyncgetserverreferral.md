@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
-title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral method
+title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyserverreferral_asyncgetserverreferral.htm
 old-project: print
 ms.assetid: 6B56E7B6-392E-4664-B96E-249B42A0AF5D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AsyncGetServerReferral method [Print Devices], AsyncGetServerReferral method [Print Devices], IPrintAsyncNotifyServerReferral interface, AsyncGetServerReferral,IPrintAsyncNotifyServerReferral.AsyncGetServerReferral, IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], AsyncGetServerReferral method, IPrintAsyncNotifyServerReferral::AsyncGetServerReferral, print.iprintasyncnotifyserverreferral_asyncgetserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
+ms.date: 4/20/2018
+ms.keywords: AsyncGetServerReferral, AsyncGetServerReferral method [Print Devices], AsyncGetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],AsyncGetServerReferral method, IPrintAsyncNotifyServerReferral.AsyncGetServerReferral, IPrintAsyncNotifyServerReferral::AsyncGetServerReferral, print.iprintasyncnotifyserverreferral_asyncgetserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotifyServerReferral::AsyncGetServerReferral method
+# IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 
 
 ## -description

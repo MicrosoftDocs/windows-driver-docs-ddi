@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba2efca-7d1f-4594-af65-13356f0e3f8b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
+ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP callback, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtCleanupCallback
 product: Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_OBJECT_CONTEXT_CLEANUP callback
+# EVT_WDF_OBJECT_CONTEXT_CLEANUP callback function
 
 
 ## -description

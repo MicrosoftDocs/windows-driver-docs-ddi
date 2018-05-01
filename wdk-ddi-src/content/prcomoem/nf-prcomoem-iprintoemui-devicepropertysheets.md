@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DevicePropertySheets
-title: IPrintOemUI::DevicePropertySheets method
+title: IPrintOemUI::DevicePropertySheets
 author: windows-driver-content
 description: The IPrintOemUI::DevicePropertySheets method allows a user interface plug-in to append a new page to a printer device's printer property sheet.
 old-location: print\iprintoemui_devicepropertysheets.htm
 old-project: print
 ms.assetid: 7d782f53-2409-416d-a3be-dad932c440a1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DevicePropertySheets method [Print Devices], DevicePropertySheets method [Print Devices], IPrintOemUI interface, DevicePropertySheets,IPrintOemUI.DevicePropertySheets, IPrintOemUI, IPrintOemUI interface [Print Devices], DevicePropertySheets method, IPrintOemUI::DevicePropertySheets, prcomoem/IPrintOemUI::DevicePropertySheets, print.iprintoemui_devicepropertysheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml
+ms.date: 4/20/2018
+ms.keywords: DevicePropertySheets, DevicePropertySheets method [Print Devices], DevicePropertySheets method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DevicePropertySheets method, IPrintOemUI.DevicePropertySheets, IPrintOemUI::DevicePropertySheets, prcomoem/IPrintOemUI::DevicePropertySheets, print.iprintoemui_devicepropertysheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.DevicePropertySheets
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::DevicePropertySheets method
+# IPrintOemUI::DevicePropertySheets
 
 
 ## -description

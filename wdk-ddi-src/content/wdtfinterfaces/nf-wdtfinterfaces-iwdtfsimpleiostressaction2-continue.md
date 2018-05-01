@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Continue
-title: IWDTFSimpleIOStressAction2::Continue method
+title: IWDTFSimpleIOStressAction2::Continue
 author: windows-driver-content
 description: Continues the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_continue.htm
 old-project: dtf
 ms.assetid: 5625c4af-329d-4b16-9d5d-0ca962a7abff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Continue method [Windows Device Testing Framework], Continue method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Continue,IWDTFSimpleIOStressAction2.Continue, IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Continue method, IWDTFSimpleIOStressAction2::Continue, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue, dtf.iwdtfsimpleiostressaction2_continue, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue
+ms.date: 4/4/2018
+ms.keywords: Continue, Continue method [Windows Device Testing Framework], Continue method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Continue method, IWDTFSimpleIOStressAction2.Continue, IWDTFSimpleIOStressAction2::Continue, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue, dtf.iwdtfsimpleiostressaction2_continue, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFSimpleIOStressAction2.Continue
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimpleIOStressAction2::Continue method
+# IWDTFSimpleIOStressAction2::Continue
 
 
 ## -description

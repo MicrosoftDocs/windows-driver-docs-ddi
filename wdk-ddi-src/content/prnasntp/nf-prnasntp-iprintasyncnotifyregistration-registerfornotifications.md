@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.RegisterForNotifications
-title: IPrintAsyncNotifyRegistration::RegisterForNotifications method
+title: IPrintAsyncNotifyRegistration::RegisterForNotifications
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyregistration_registerfornotifications.htm
 old-project: print
 ms.assetid: 8D34983F-7547-48FF-B61A-F78BDA9D2248
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], RegisterForNotifications method, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices], IPrintAsyncNotifyRegistration interface, RegisterForNotifications,IPrintAsyncNotifyRegistration.RegisterForNotifications, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
+ms.date: 4/20/2018
+ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],RegisterForNotifications method, IPrintAsyncNotifyRegistration.RegisterForNotifications, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintAsyncNotifyRegistration.RegisterForNotifications
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotifyRegistration::RegisterForNotifications method
+# IPrintAsyncNotifyRegistration::RegisterForNotifications
 
 
 ## -description

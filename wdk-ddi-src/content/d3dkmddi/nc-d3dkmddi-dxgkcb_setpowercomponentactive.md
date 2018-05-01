@@ -7,8 +7,8 @@ old-location: display\dxgkcbsetpowercomponentactive.htm
 old-project: display
 ms.assetid: 12008d80-8bcb-4289-97ea-d3325731a95f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_SETPOWERCOMPONENTACTIVE, DxgkCbSetPowerComponentActive, DxgkCbSetPowerComponentActive callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentActive, display.dxgkcbsetpowercomponentactive
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_SETPOWERCOMPONENTACTIVE, DXGKCB_SETPOWERCOMPONENTACTIVE callback, DxgkCbSetPowerComponentActive, DxgkCbSetPowerComponentActive callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentActive, display.dxgkcbsetpowercomponentactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkCbSetPowerComponentActive
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_SETPOWERCOMPONENTACTIVE callback
+# DXGKCB_SETPOWERCOMPONENTACTIVE callback function
 
 
 ## -description

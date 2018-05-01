@@ -7,7 +7,7 @@ old-location: netvista\ndis_net_buffer_list_media_specific_info.htm
 old-project: netvista
 ms.assetid: cae95c4f-0af3-49de-a312-83958896006a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, netvista.ndis_net_buffer_list_media_specific_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,13 +58,11 @@ The NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure specifies media-specific 
 
 
 
+### -field MediaSpecificInfo
 
 
-#### - MediaSpecificInfo
+### -field NativeWifiSpecificInfo
 
 
-#### - NativeWifiSpecificInfo
-
-
-#### - Value
+### -field Value
 

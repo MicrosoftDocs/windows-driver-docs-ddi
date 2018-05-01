@@ -7,8 +7,8 @@ old-location: netvista\wskgetaddressinfo.htm
 old-project: netvista
 ms.assetid: 688619b9-ab0b-4459-8f1b-74815043a190
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_GET_ADDRESS_INFO, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_GET_ADDRESS_INFO, PFN_WSK_GET_ADDRESS_INFO callback, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	WskGetAddressInfo
 product: Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_GET_ADDRESS_INFO callback
+# PFN_WSK_GET_ADDRESS_INFO callback function
 
 
 ## -description

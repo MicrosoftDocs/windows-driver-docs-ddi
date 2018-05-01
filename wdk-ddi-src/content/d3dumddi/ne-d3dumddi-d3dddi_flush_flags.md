@@ -7,7 +7,7 @@ old-location: display\d3dddi_flush_flags.htm
 old-project: display
 ms.assetid: FE5EF59E-3B37-4947-A7E8-5CBE6137D07D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, d3dumddi/D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

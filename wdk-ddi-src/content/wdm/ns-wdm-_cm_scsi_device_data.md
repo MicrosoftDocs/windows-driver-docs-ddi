@@ -7,7 +7,7 @@ old-location: kernel\cm_scsi_device_data.htm
 old-project: kernel
 ms.assetid: 5cb213c9-24c8-456a-a868-87f1577a8d44
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PCM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SCSI_DEVICE_DATA, PCM_SCSI_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_SCSI_DEVICE_DATA, kernel.cm_scsi_device_data, kstruct_a_af6c0c9a-2191-45f9-ba0f-20c54a202e0a.xml, wdm/CM_SCSI_DEVICE_DATA, wdm/PCM_SCSI_DEVICE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: CM_SCSI_DEVICE_DATA, *PCM_SCSI_DEVICE_DATA
-req.product: Windows 10 or later.
 ---
 
 # _CM_SCSI_DEVICE_DATA structure

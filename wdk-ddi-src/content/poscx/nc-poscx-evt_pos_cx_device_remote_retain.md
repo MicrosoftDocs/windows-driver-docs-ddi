@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9B23DB23-D995-4737-9302-872F2144823D
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RETAIN, EvtPosCxDeviceRemoteRetain, EvtPosCxDeviceRemoteRetain callback function, pos.evt_pos_cx_device_remote_retain, poscx/EvtPosCxDeviceRemoteRetain
+ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RETAIN, EVT_POS_CX_DEVICE_REMOTE_RETAIN callback, EvtPosCxDeviceRemoteRetain, EvtPosCxDeviceRemoteRetain callback function, pos.evt_pos_cx_device_remote_retain, poscx/EvtPosCxDeviceRemoteRetain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,11 @@ api_name:
 -	EvtPosCxDeviceRemoteRetain
 product: Windows
 targetos: Windows
-req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 
-# EVT_POS_CX_DEVICE_REMOTE_RETAIN callback
+# EVT_POS_CX_DEVICE_REMOTE_RETAIN callback function
 
 
 ## -description

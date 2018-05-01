@@ -40,8 +40,7 @@ api_name:
 -	imp_WppRecorderLogCreate
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # imp_WppRecorderLogCreate function

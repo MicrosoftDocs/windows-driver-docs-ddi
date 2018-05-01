@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _UMDF_IO_TARGET_OPEN_PARAMS structure

@@ -7,8 +7,8 @@ old-location: netvista\filtercanceloidrequest.htm
 old-project: netvista
 ms.assetid: e7e3f67e-5353-4355-bf19-8a8041cafc84
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_CANCEL_OID_REQUEST, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
+ms.date: 4/25/2018
+ms.keywords: FILTER_CANCEL_OID_REQUEST, FILTER_CANCEL_OID_REQUEST callback, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterCancelOidRequest
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_CANCEL_OID_REQUEST callback
+# FILTER_CANCEL_OID_REQUEST callback function
 
 
 ## -description

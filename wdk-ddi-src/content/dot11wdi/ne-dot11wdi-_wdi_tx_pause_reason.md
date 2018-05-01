@@ -7,7 +7,7 @@ old-location: netvista\wdi_tx_pause_reason.htm
 old-project: netvista
 ms.assetid: 2585d243-e3b0-414d-a932-28d91b69f1f4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_TX_PAUSE_REASON_CREDIT, WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_IHV_START, WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PS, _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, dot11wdi/WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_PS, netvista.wdi_tx_pause_reason, netvista.wifi_tx_pause_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

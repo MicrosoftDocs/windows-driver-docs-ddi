@@ -26,9 +26,9 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
 ---
 
 # __MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration

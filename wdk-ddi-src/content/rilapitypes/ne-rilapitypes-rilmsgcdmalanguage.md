@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmalanguage.htm
 old-project: netvista
 ms.assetid: b774fed4-533e-47ec-9e0a-da0e8fe2cfb0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGCDMALANGUAGE, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_FRENCH, RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_JAPANESE, RIL_MSGCDMALANG_KOREAN, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_SPANISH, netvista.rilmsgcdmalanguage, ntddrilapitypes/RILMSGCDMALANGUAGE, ntddrilapitypes/RIL_MSGCDMALANG_CHINESE, ntddrilapitypes/RIL_MSGCDMALANG_ENGLISH, ntddrilapitypes/RIL_MSGCDMALANG_FRENCH, ntddrilapitypes/RIL_MSGCDMALANG_HEBREW, ntddrilapitypes/RIL_MSGCDMALANG_JAPANESE, ntddrilapitypes/RIL_MSGCDMALANG_KOREAN, ntddrilapitypes/RIL_MSGCDMALANG_MAX, ntddrilapitypes/RIL_MSGCDMALANG_SPANISH
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILMSGCDMALANGUAGE
-req.product: Windows 10 or later.
 ---
 
 # RILMSGCDMALANGUAGE enumeration

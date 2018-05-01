@@ -7,7 +7,7 @@ old-location: ifsk\fltqueryquotainformationfile.htm
 old-project: ifsk
 ms.assetid: B460BE83-7050-469A-9AD6-68A47F03EB4B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltQueryQuotaInformationFile
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltQueryQuotaInformationFile function

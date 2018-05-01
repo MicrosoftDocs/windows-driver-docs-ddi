@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IObjectCleanup.OnCleanup
-title: IObjectCleanup::OnCleanup method
+title: IObjectCleanup::OnCleanup
 author: windows-driver-content
 description: The OnCleanup method releases any references to a WDF object to prevent interface leakage.
 old-location: wdf\iobjectcleanup_oncleanup.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6b66c496-d1cc-4b7a-ae50-f18fffa7275a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IObjectCleanup, IObjectCleanup interface, OnCleanup method, IObjectCleanup::OnCleanup, OnCleanup method, OnCleanup method, IObjectCleanup interface, OnCleanup,IObjectCleanup.OnCleanup, UMDFBaseObjectRef_1798eedf-b083-487c-b137-24d9caf1e7a7.xml, umdf.iobjectcleanup_oncleanup, wdf.iobjectcleanup_oncleanup, wudfddi/IObjectCleanup::OnCleanup
+ms.keywords: IObjectCleanup interface,OnCleanup method, IObjectCleanup.OnCleanup, IObjectCleanup::OnCleanup, OnCleanup, OnCleanup method, OnCleanup method,IObjectCleanup interface, UMDFBaseObjectRef_1798eedf-b083-487c-b137-24d9caf1e7a7.xml, umdf.iobjectcleanup_oncleanup, wdf.iobjectcleanup_oncleanup, wudfddi/IObjectCleanup::OnCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IObjectCleanup.OnCleanup
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IObjectCleanup::OnCleanup method
+# IObjectCleanup::OnCleanup
 
 
 ## -description

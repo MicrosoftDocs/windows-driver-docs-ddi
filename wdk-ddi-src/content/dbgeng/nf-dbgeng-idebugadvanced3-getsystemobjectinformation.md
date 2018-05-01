@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSystemObjectInformation
-title: IDebugAdvanced3::GetSystemObjectInformation method
+title: IDebugAdvanced3::GetSystemObjectInformation
 author: windows-driver-content
 description: The GetSystemObjectInformation method returns information about operating system objects on the target.
 old-location: debugger\getsystemobjectinformation.htm
 old-project: debugger
 ms.assetid: 7e95a16e-e62d-49df-9889-fab0a85f9cbc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSystemObjectInformation method [Windows Debugging], GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSystemObjectInformation,IDebugAdvanced3.GetSystemObjectInformation, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, debugger.getsystemobjectinformation
+ms.date: 4/24/2018
+ms.keywords: GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], GetSystemObjectInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSystemObjectInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSystemObjectInformation method, IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced3 interface [Windows Debugging],GetSystemObjectInformation method, IDebugAdvanced3.GetSystemObjectInformation, IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, debugger.getsystemobjectinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugAdvanced3.GetSystemObjectInformation
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugAdvanced3::GetSystemObjectInformation method
+# IDebugAdvanced3::GetSystemObjectInformation
 
 
 ## -description

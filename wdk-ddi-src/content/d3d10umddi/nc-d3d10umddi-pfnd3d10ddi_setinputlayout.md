@@ -7,8 +7,8 @@ old-location: display\iasetinputlayout.htm
 old-project: display
 ms.assetid: 905e4e7f-5bc5-487f-8d82-4ebc2db66135
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IaSetInputLayout, IaSetInputLayout callback function [Display Devices], PFND3D10DDI_SETINPUTLAYOUT, UserModeDisplayDriverDx10_Functions_fbd365d3-26a5-49a8-b89c-c094d8e873d9.xml, d3d10umddi/IaSetInputLayout, display.iasetinputlayout
+ms.date: 4/16/2018
+ms.keywords: IaSetInputLayout, IaSetInputLayout callback function [Display Devices], PFND3D10DDI_SETINPUTLAYOUT, PFND3D10DDI_SETINPUTLAYOUT callback, UserModeDisplayDriverDx10_Functions_fbd365d3-26a5-49a8-b89c-c094d8e873d9.xml, d3d10umddi/IaSetInputLayout, display.iasetinputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	IaSetInputLayout
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_SETINPUTLAYOUT callback
+# PFND3D10DDI_SETINPUTLAYOUT callback function
 
 
 ## -description

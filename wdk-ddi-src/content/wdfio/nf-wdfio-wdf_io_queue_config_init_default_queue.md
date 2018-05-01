@@ -40,8 +40,7 @@ api_name:
 -	WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
 product: Windows
 targetos: Windows
-req.typenames: WDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function

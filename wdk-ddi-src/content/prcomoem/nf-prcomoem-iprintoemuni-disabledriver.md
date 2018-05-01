@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DisableDriver
-title: IPrintOemUni::DisableDriver method
+title: IPrintOemUni::DisableDriver
 author: windows-driver-content
 description: The IPrintOemuNI::DisableDriver method allows a rendering plug-in for Unidrv to free resources that were allocated by the plug-in's IPrintOemUni::EnableDriver method.
 old-location: print\iprintoemuni_disabledriver.htm
 old-project: print
 ms.assetid: a92d8c2e-52b5-4941-b49e-42e067e56e91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemUni interface, DisableDriver,IPrintOemUni.DisableDriver, IPrintOemUni, IPrintOemUni interface [Print Devices], DisableDriver method, IPrintOemUni::DisableDriver, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml
+ms.date: 4/20/2018
+ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DisableDriver method, IPrintOemUni.DisableDriver, IPrintOemUni::DisableDriver, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::DisableDriver method
+# IPrintOemUni::DisableDriver
 
 
 ## -description

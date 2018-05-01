@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.OutputSymbolByInlineContext
-title: IDebugSymbols4::OutputSymbolByInlineContext method
+title: IDebugSymbols4::OutputSymbolByInlineContext
 author: windows-driver-content
 description: Specifies an output symbol by using an inline context.
 old-location: debugger\idebugsymbols4_outputsymbolbyinlinecontext.htm
 old-project: debugger
 ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, OutputSymbolByInlineContext,IDebugSymbols4.OutputSymbolByInlineContext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols4 interface [Windows Debugging],OutputSymbolByInlineContext method, IDebugSymbols4.OutputSymbolByInlineContext, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], OutputSymbolByInlineContext method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols4.OutputSymbolByInlineContext
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols4::OutputSymbolByInlineContext method
+# IDebugSymbols4::OutputSymbolByInlineContext
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputStackTrace
-title: IDebugControl::OutputStackTrace method
+title: IDebugControl::OutputStackTrace
 author: windows-driver-content
 description: The OutputStackTrace method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\outputstacktrace.htm
 old-project: debugger
 ms.assetid: 207f289c-347c-4ae7-9bbd-7c4a04d19e24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputStackTrace method, IDebugControl2 interface [Windows Debugging], OutputStackTrace method, IDebugControl2::OutputStackTrace, IDebugControl3 interface [Windows Debugging], OutputStackTrace method, IDebugControl3::OutputStackTrace, IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace method [Windows Debugging], OutputStackTrace method [Windows Debugging], IDebugControl interface, OutputStackTrace method [Windows Debugging], IDebugControl2 interface, OutputStackTrace method [Windows Debugging], IDebugControl3 interface, OutputStackTrace,IDebugControl.OutputStackTrace, dbgeng/IDebugControl2::OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, dbgeng/IDebugControl::OutputStackTrace, debugger.outputstacktrace
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OutputStackTrace method, IDebugControl.OutputStackTrace, IDebugControl2 interface [Windows Debugging],OutputStackTrace method, IDebugControl2::OutputStackTrace, IDebugControl3 interface [Windows Debugging],OutputStackTrace method, IDebugControl3::OutputStackTrace, IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace, OutputStackTrace method [Windows Debugging], OutputStackTrace method [Windows Debugging],IDebugControl interface, OutputStackTrace method [Windows Debugging],IDebugControl2 interface, OutputStackTrace method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, dbgeng/IDebugControl::OutputStackTrace, debugger.outputstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.OutputStackTrace
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::OutputStackTrace method
+# IDebugControl::OutputStackTrace
 
 
 ## -description

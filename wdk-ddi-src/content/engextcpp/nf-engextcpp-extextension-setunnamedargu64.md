@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetUnnamedArgU64
-title: ExtExtension::SetUnnamedArgU64 method
+title: ExtExtension::SetUnnamedArgU64
 author: windows-driver-content
 description: The SetUnnamedArgU64 method sets the value of an unnamed expression argument for the current extension command.
 old-location: debugger\setunnamedargu64.htm
 old-project: debugger
 ms.assetid: 27f25bba-8118-47c0-9b9d-6b0a1ceb4b8e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_65080cf5-2492-440b-a496-869faf8c9c49.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArgU64 method, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64 method [Windows Debugging], SetUnnamedArgU64 method [Windows Debugging], ExtExtension class, SetUnnamedArgU64,ExtExtension.SetUnnamedArgU64, debugger.setunnamedargu64
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_65080cf5-2492-440b-a496-869faf8c9c49.xml, ExtExtension class [Windows Debugging],SetUnnamedArgU64 method, ExtExtension.SetUnnamedArgU64, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64, SetUnnamedArgU64 method [Windows Debugging], SetUnnamedArgU64 method [Windows Debugging],ExtExtension class, debugger.setunnamedargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtExtension.SetUnnamedArgU64
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::SetUnnamedArgU64 method
+# ExtExtension::SetUnnamedArgU64
 
 
 ## -description

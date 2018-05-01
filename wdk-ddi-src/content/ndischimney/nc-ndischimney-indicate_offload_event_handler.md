@@ -7,8 +7,8 @@ old-location: netvista\protocolindicateoffloadevent.htm
 old-project: netvista
 ms.assetid: 608c1c7c-1eb3-4d86-9471-313fce2df00e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: INDICATE_OFFLOAD_EVENT_HANDLER, ProtocolIndicateOffloadEvent, ProtocolIndicateOffloadEvent callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolIndicateOffloadEvent, netvista.protocolindicateoffloadevent, tcp_chim_protocol_func_cc94798f-b74a-45d5-b78f-383698003486.xml
+ms.date: 4/25/2018
+ms.keywords: INDICATE_OFFLOAD_EVENT_HANDLER, INDICATE_OFFLOAD_EVENT_HANDLER callback, ProtocolIndicateOffloadEvent, ProtocolIndicateOffloadEvent callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolIndicateOffloadEvent, netvista.protocolindicateoffloadevent, tcp_chim_protocol_func_cc94798f-b74a-45d5-b78f-383698003486.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolIndicateOffloadEvent
 product: Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# INDICATE_OFFLOAD_EVENT_HANDLER callback
+# INDICATE_OFFLOAD_EVENT_HANDLER callback function
 
 
 ## -description

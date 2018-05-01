@@ -7,8 +7,8 @@ old-location: netvista\miniportwditaltxrxresetport.htm
 old-project: netvista
 ms.assetid: BB584FC9-8048-42F4-AFA9-7BF6790EDD69
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TAL_TXRX_RESET_PORT, MiniportWdiTalTxRxResetPort, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxResetPort, netvista.miniportwditaltxrxresetport
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TAL_TXRX_RESET_PORT, MINIPORT_WDI_TAL_TXRX_RESET_PORT callback, MiniportWdiTalTxRxResetPort, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxResetPort, netvista.miniportwditaltxrxresetport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiTalTxRxResetPort
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TAL_TXRX_RESET_PORT callback
+# MINIPORT_WDI_TAL_TXRX_RESET_PORT callback function
 
 
 ## -description

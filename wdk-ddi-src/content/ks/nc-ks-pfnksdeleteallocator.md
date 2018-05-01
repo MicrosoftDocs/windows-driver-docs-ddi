@@ -7,7 +7,7 @@ old-location: stream\avstrminideleteallocator.htm
 old-project: stream
 ms.assetid: 867da1f8-061b-4fc1-8e20-3ebc43300f15
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeleteAllocator, AVStrMiniDeleteAllocator routine [Streaming Media Devices], PFNKSDELETEALLOCATOR, avstclbk_32e3c0fd-c437-45e0-8e5e-72f2f628ee51.xml, ks/AVStrMiniDeleteAllocator, stream.avstrminideleteallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniDeleteAllocator
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSDELETEALLOCATOR callback
+# PFNKSDELETEALLOCATOR callback function
 
 
 ## -description

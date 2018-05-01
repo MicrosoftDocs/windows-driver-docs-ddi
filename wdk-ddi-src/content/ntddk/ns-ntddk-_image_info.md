@@ -7,7 +7,7 @@ old-location: kernel\image_info.htm
 old-project: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PIMAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -55,6 +55,9 @@ Used by driver's load-image routine (<a href="https://msdn.microsoft.com/library
 ## -struct-fields
 
 
+
+
+### -field Properties
 
 
 ### -field ImageAddressingMode
@@ -120,9 +123,6 @@ Set to the virtual size, in bytes, of the image.
 ### -field ImageSectionNumber
 
 Always set to zero.
-
-
-#### - Properties
 
 
 ## -remarks

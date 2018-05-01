@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEventIndexDescription
-title: IDebugControl3::GetEventIndexDescription method
+title: IDebugControl3::GetEventIndexDescription
 author: windows-driver-content
 description: The GetEventIndexDescription method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescription.htm
 old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, GetEventIndexDescription,IDebugControl3.GetEventIndexDescription, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription
+ms.date: 4/24/2018
+ms.keywords: GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetEventIndexDescription method, IDebugControl3.GetEventIndexDescription, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl3.GetEventIndexDescription
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetEventIndexDescription method
+# IDebugControl3::GetEventIndexDescription
 
 
 ## -description

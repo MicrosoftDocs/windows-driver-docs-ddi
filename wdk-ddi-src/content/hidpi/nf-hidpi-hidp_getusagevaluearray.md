@@ -41,7 +41,7 @@ api_name:
 -	HidP_GetUsageValueArray
 product: Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_GetUsageValueArray function

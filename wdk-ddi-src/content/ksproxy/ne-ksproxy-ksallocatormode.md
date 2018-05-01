@@ -7,7 +7,7 @@ old-location: stream\ksallocatormode.htm
 old-project: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], KsAllocatorMode_Kernel, KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_User, stream.ksallocatormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

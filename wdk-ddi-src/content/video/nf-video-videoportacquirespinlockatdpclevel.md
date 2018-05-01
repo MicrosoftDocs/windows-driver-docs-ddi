@@ -7,7 +7,7 @@ old-location: display\videoportacquirespinlockatdpclevel.htm
 old-project: display
 ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	VideoPortAcquireSpinLockAtDpcLevel
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortAcquireSpinLockAtDpcLevel function
@@ -63,14 +62,7 @@ The <b>VideoPortAcquireSpinLockAtDpcLevel</b> function acquires a spin lock when
 Pointer to the miniport driver's device extension.
 
 
-### -param param
-
-TBD
-
-
-
-
-#### - SpinLock [in]
+### -param SpinLock [in]
 
 Pointer to a memory location that contains the spin lock.
 

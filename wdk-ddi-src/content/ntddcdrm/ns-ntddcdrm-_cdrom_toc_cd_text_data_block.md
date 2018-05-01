@@ -188,19 +188,19 @@ See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Info
 Indicates, when set to 1, that the text is stored in Unicode format. 
 
 
-### -field CRC
-
-Contains the cyclic redundancy check.
-
-
-#### - Text
+### -field Text
 
 Contains text descriptor data in the form of 8-bit ASCII characters.
 
 
-#### - WText
+### -field WText
 
 Contains text descriptor data in the form of 16-bit (wide) characters.
+
+
+### -field CRC
+
+Contains the cyclic redundancy check.
 
 
 ## -see-also

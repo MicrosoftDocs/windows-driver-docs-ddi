@@ -7,8 +7,8 @@ old-location: display\sosettargets.htm
 old-project: display
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_SO_SETTARGETS, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_SO_SETTARGETS, PFND3D10DDI_SO_SETTARGETS callback, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SoSetTargets
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_SO_SETTARGETS callback
+# PFND3D10DDI_SO_SETTARGETS callback function
 
 
 ## -description

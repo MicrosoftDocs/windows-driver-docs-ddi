@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.RawWriteData
-title: IStiDevice::RawWriteData method
+title: IStiDevice::RawWriteData
 author: windows-driver-content
 description: The IStiDevice::RawWriteData method writes data to a still image device.
 old-location: image\istidevice_rawwritedata.htm
 old-project: image
 ms.assetid: bc64b3d6-8c86-4f99-b3b9-de31f576988c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawWriteData method, IStiDevice::RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices], IStiDevice interface, RawWriteData,IStiDevice.RawWriteData, image.istidevice_rawwritedata, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],RawWriteData method, IStiDevice.RawWriteData, IStiDevice::RawWriteData, RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices],IStiDevice interface, image.istidevice_rawwritedata, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiDevice.RawWriteData
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::RawWriteData method
+# IStiDevice::RawWriteData
 
 
 ## -description

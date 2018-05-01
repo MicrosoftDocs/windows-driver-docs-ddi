@@ -7,7 +7,7 @@ old-location: stream\ksregisteraggregatedclientunknown.htm
 old-project: stream
 ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsRegisterAggregatedClientUnknown, KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, ks/KsRegisterAggregatedClientUnknown, stream.ksregisteraggregatedclientunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

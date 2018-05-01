@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsPower.RegisterAdapterPowerManagement
-title: IPortClsPower::RegisterAdapterPowerManagement method
+title: IPortClsPower::RegisterAdapterPowerManagement
 author: windows-driver-content
 description: The RegisterAdapterPowerManagement method registers the power management interface of the adapter with PortCls.
 old-location: audio\iportclspower_registeradapterpowermanagement.htm
 old-project: audio
 ms.assetid: f4eb9d18-4352-47e2-bd5f-256e1fa831d3
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method, IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, RegisterAdapterPowerManagement,IPortClsPower.RegisterAdapterPowerManagement, audio.iportclspower_registeradapterpowermanagement, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, portcls/IPortClsPower::RegisterAdapterPowerManagement
+ms.date: 4/16/2018
+ms.keywords: IPortClsPower interface [Audio Devices],RegisterAdapterPowerManagement method, IPortClsPower.RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], RegisterAdapterPowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_registeradapterpowermanagement, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, portcls/IPortClsPower::RegisterAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPortClsPower.RegisterAdapterPowerManagement
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsPower::RegisterAdapterPowerManagement method
+# IPortClsPower::RegisterAdapterPowerManagement
 
 
 ## -description

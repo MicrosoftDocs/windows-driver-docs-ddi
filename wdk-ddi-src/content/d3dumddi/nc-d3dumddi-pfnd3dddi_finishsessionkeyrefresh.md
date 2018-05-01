@@ -7,8 +7,8 @@ old-location: display\finishsessionkeyrefresh.htm
 old-project: display
 ms.assetid: e245f6f9-f4ea-429d-8421-be4fef1bf17e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
+ms.date: 4/16/2018
+ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, PFND3DDDI_FINISHSESSIONKEYREFRESH callback, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FinishSessionKeyRefresh
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FINISHSESSIONKEYREFRESH callback
+# PFND3DDDI_FINISHSESSIONKEYREFRESH callback function
 
 
 ## -description

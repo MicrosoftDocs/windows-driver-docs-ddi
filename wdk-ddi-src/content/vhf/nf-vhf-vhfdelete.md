@@ -41,8 +41,7 @@ api_name:
 -	VhfDelete
 product: Windows
 targetos: Windows
-req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VhfDelete function

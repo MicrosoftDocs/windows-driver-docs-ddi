@@ -7,7 +7,7 @@ old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
 old-project: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,6 +199,11 @@ Supported starting with Windows 8.
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
+### -field Value
+
+A 32-bit value that identifies the flip present-history operation.
+
+
 #### - ScatterBlt
 
 This member is reserved for system use and should be set to zero.
@@ -206,11 +211,6 @@ This member is reserved for system use and should be set to zero.
 Setting this member is equivalent to setting the    seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 Supported starting with Windows 8.
-
-
-#### - Value
-
-A 32-bit value that identifies the flip present-history operation.
 
 
 ## -see-also

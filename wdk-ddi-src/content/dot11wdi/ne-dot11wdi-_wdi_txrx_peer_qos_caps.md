@@ -7,7 +7,7 @@ old-location: netvista\wdi_txrx_peer_qos_caps.htm
 old-project: netvista
 ms.assetid: 34d53daa-3501-4532-82e3-e5b0ed452b66
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_TXRX_PEER_QOS_CAPS, WDI_TXRX_PEER_QOS_CAPS enumeration [Network Drivers Starting with Windows Vista], WDI_TXRX_PeerCfgQosCapable, WDI_TXRX_PeerCfgQosNone, WDI_TXRX_PeerCfgQosUapsdTids, _WDI_TXRX_PEER_QOS_CAPS, dot11wdi/WDI_TXRX_PEER_QOS_CAPS, dot11wdi/WDI_TXRX_PeerCfgQosCapable, dot11wdi/WDI_TXRX_PeerCfgQosNone, dot11wdi/WDI_TXRX_PeerCfgQosUapsdTids, netvista.wdi_txrx_peer_qos_caps, netvista.wifi_txrx_peer_qos_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 5aaaf178-a137-4a98-a77f-b426514a8cd9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IOCTL_BIOMETRIC_SET_INDICATOR, IOCTL_BIOMETRIC_SET_INDICATOR control code [Biometric Devices], biometric.ioctl_biometric_set_indicator, biometric_ref_46e6f908-83fd-4e5b-9cc4-183da4f178d2.xml, winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR
+ms.keywords: IOCTL_BIOMETRIC_SET_INDICATOR, IOCTL_BIOMETRIC_SET_INDICATOR control, IOCTL_BIOMETRIC_SET_INDICATOR control code [Biometric Devices], biometric.ioctl_biometric_set_indicator, biometric_ref_46e6f908-83fd-4e5b-9cc4-183da4f178d2.xml, winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_BIOMETRIC_SET_INDICATOR
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_BIOMETRIC_SET_INDICATOR IOCTL

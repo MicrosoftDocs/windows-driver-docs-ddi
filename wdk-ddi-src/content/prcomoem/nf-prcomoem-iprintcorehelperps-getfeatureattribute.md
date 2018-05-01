@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.GetFeatureAttribute
-title: IPrintCoreHelperPS::GetFeatureAttribute method
+title: IPrintCoreHelperPS::GetFeatureAttribute
 author: windows-driver-content
 description: The IPrintCoreHelperPS::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcorehelperps_getfeatureattribute.htm
 old-project: print
 ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface, GetFeatureAttribute,IPrintCoreHelperPS.GetFeatureAttribute, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, IPrintCoreHelperPS::GetFeatureAttribute, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml
+ms.date: 4/20/2018
+ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetFeatureAttribute method, IPrintCoreHelperPS.GetFeatureAttribute, IPrintCoreHelperPS::GetFeatureAttribute, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreHelperPS.GetFeatureAttribute
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperPS::GetFeatureAttribute method
+# IPrintCoreHelperPS::GetFeatureAttribute
 
 
 ## -description

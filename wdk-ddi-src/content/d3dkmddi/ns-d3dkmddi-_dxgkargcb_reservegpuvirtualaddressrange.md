@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_reservegpuvirtualaddressrange.htm
 old-project: display
 ms.assetid: D555E595-4319-4FCC-84A7-52FA3F278FFD
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -87,7 +87,7 @@ The base virtual address of the virtual address range in bytes. It must be align
 Allow the user mode driver to map allocations to the range.
 
 
-#### - Flags
+### -field Flags
 
 A single value containing the flags set in the structure.
 

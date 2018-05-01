@@ -7,7 +7,7 @@ old-location: netvista\wwan_ipv4_address.htm
 old-project: netvista
 ms.assetid: D75EAC9E-8E65-437E-83AA-59B422527C6C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV4_ADDRESS, netvista.wwan_ipv4_address, wwan/PWWAN_IPV4_ADDRESS, wwan/WWAN_IPV4_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_IPV4_ADDRESS, *PWWAN_IPV4_ADDRESS
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_IPV4_ADDRESS structure

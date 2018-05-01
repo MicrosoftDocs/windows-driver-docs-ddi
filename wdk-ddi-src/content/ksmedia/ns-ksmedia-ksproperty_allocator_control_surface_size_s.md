@@ -7,7 +7,7 @@ old-location: stream\ksproperty_allocator_control_surface_size_s.htm
 old-project: stream
 ms.assetid: 2ed72182-b098-43a6-a327-a8d81ab66309
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure [Streaming Media Devices], PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, ksmedia/PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, stream.ksproperty_allocator_control_surface_size_s, vidcapstruct_3ad4116b-8e7c-4249-ba27-78a387706d5b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

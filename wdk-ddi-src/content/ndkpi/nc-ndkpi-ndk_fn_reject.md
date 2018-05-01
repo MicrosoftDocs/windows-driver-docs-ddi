@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_reject.htm
 old-project: netvista
 ms.assetid: BBD02954-C907-4EA4-8605-EC90CC62ECB7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_REJECT, NdkReject, NdkReject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReject, netvista.ndk_fn_reject
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_REJECT, NDK_FN_REJECT callback, NdkReject, NdkReject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReject, netvista.ndk_fn_reject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkReject
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_REJECT callback
+# NDK_FN_REJECT callback function
 
 
 ## -description

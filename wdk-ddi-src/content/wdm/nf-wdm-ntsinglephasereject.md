@@ -7,7 +7,7 @@ old-location: kernel\zwsinglephasereject.htm
 old-project: kernel
 ms.assetid: a653a980-8ad6-46e7-ad9d-f060ab333731
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtSinglePhaseReject, ZwSinglePhaseReject, ZwSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.zwsinglephasereject, ktm_ref_9bc69cd9-19ee-4f3e-b5c8-fea8ddb05e17.xml, wdm/NtSinglePhaseReject, wdm/ZwSinglePhaseReject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	NtSinglePhaseReject
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # NtSinglePhaseReject function

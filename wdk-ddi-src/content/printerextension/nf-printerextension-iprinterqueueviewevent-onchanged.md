@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueueViewEvent.OnChanged
-title: IPrinterQueueViewEvent::OnChanged method
+title: IPrinterQueueViewEvent::OnChanged
 author: windows-driver-content
 description: Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue.
 old-location: print\iprinterqueueviewevent_onchanged.htm
 old-project: print
 ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], OnChanged method, IPrinterQueueViewEvent::OnChanged, OnChanged method [Print Devices], OnChanged method [Print Devices], IPrinterQueueViewEvent interface, OnChanged,IPrinterQueueViewEvent.OnChanged, print.iprinterqueueviewevent_onchanged, printerextension/IPrinterQueueViewEvent::OnChanged
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueueViewEvent interface [Print Devices],OnChanged method, IPrinterQueueViewEvent.OnChanged, IPrinterQueueViewEvent::OnChanged, OnChanged, OnChanged method [Print Devices], OnChanged method [Print Devices],IPrinterQueueViewEvent interface, print.iprinterqueueviewevent_onchanged, printerextension/IPrinterQueueViewEvent::OnChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterQueueViewEvent.OnChanged
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueueViewEvent::OnChanged method
+# IPrinterQueueViewEvent::OnChanged
 
 
 ## -description

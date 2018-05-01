@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SCSI_REQUEST_BLOCK, *PSCSI_REQUEST_BLOCK
-req.product: Windows 10 or later.
 ---
 
 # _SCSI_REQUEST_BLOCK structure
@@ -506,6 +505,27 @@ Points to the IRP for this request. This member is irrelevant to miniport driver
 Points to the Srb extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the SCSI_HW_INITIALIZATION_DATA. The memory at <b>SrbExtension</b> is not initialized by the OS-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564636">ScsiPortGetPhysicalAddress</a> with the <b>SrbExtension</b> pointer.
 
 
+### -field InternalStatus
+
+Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to SRB_STATUS_INTERNAL_ERROR. This member is used exclusively for communication between the SCSI Port and the class driver and should not be used by miniport drivers.
+
+
+### -field QueueSortKey
+
+Specifies the offset from the start of the media or zero, depending on the type of the target device. 
+
+
+### -field LinkTimeoutValue
+
+
+
+#### offset 2c
+
+
+
+#### 
+
+
 ### -field Reserved
 
 Reserved.
@@ -591,31 +611,10 @@ A SCSIMESS_TERMINATE_IO_PROCESS message should be sent to cancel the request poi
 Releases the port driver's queue for a logical unit that was previously locked with SRB_FUNCTION_LOCK_QUEUE. The <b>SrbFlags</b> of the unlock request must be ORed with SRB_FLAGS_BYPASS_LOCKED_QUEUE. Only the SRB <b>Length</b>, <b>Function</b>, <b>SrbFlags</b>, and <b>OriginalRequest</b> members are valid. SCSI miniport drivers do not process SRB_FUNCTION_UNLOCK_QUEUE requests.
 
 
-#### - InternalStatus
-
-Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to SRB_STATUS_INTERNAL_ERROR. This member is used exclusively for communication between the SCSI Port and the class driver and should not be used by miniport drivers.
-
-
-#### - LinkTimeoutValue
-
-
-
-#### offset 2c
-
-
-
-#### 
-
-
 ##### - LinkTimeoutValue.
 
 
 ##### - LinkTimeoutValue.offset 2c
-
-
-#### - QueueSortKey
-
-Specifies the offset from the start of the media or zero, depending on the type of the target device. 
 
 
 ##### - SrbFlags.SRB_FLAGS_ALLOCATED_FROM_ZONE

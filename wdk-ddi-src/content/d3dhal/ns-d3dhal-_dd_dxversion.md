@@ -7,7 +7,7 @@ old-location: display\dd_dxversion.htm
 old-project: display
 ms.assetid: 72c22f76-c867-4924-b066-2ae4b25bfc43
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DD_DXVERSION, DD_DXVERSION structure [Display Devices], _DD_DXVERSION, d3dhal/DD_DXVERSION, d3dstrct_8955afcc-5fa5-493b-b291-69cd3b61ed8b.xml, display.dd_dxversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

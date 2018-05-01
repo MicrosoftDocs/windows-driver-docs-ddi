@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetLong64
-title: ExtRemoteData::GetLong64 method
+title: ExtRemoteData::GetLong64
 author: windows-driver-content
 description: The GetLong64 method returns a LONG64 version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getlong64.htm
 old-project: debugger
 ms.assetid: dd6f051a-d287-4cb9-8c53-928415e0f152
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_4b2bf03d-7a55-4cee-826b-2b384972392f.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetLong64 method, ExtRemoteData::GetLong64, GetLong64 method [Windows Debugging], GetLong64 method [Windows Debugging], ExtRemoteData class, GetLong64,ExtRemoteData.GetLong64, debugger.extremotedata_getlong64
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_4b2bf03d-7a55-4cee-826b-2b384972392f.xml, ExtRemoteData class [Windows Debugging],GetLong64 method, ExtRemoteData.GetLong64, ExtRemoteData::GetLong64, GetLong64, GetLong64 method [Windows Debugging], GetLong64 method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteData.GetLong64
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetLong64 method
+# ExtRemoteData::GetLong64
 
 
 ## -description

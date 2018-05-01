@@ -7,7 +7,7 @@ old-location: netvista\ndismderegisterwdiminiportdriver.htm
 old-project: netvista
 ms.assetid: 6B2B0A88-9F63-4A68-894B-38424FBE161E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisMDeregisterWdiMiniportDriver
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_PAUSE_REASON
+req.typenames: 
 ---
 
 # NdisMDeregisterWdiMiniportDriver function

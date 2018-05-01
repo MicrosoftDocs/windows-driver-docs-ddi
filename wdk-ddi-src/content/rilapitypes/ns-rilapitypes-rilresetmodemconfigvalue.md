@@ -7,7 +7,7 @@ old-location: netvista\rilresetmodemconfigvalue.htm
 old-project: netvista
 ms.assetid: 48068d1d-3fe7-4bd6-8c91-094e4187ca1f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigvalue, ntddrilapitypes/RILRESETMODEMCONFIGVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE
-req.product: Windows 10 or later.
 ---
 
 # RILRESETMODEMCONFIGVALUE structure
@@ -65,6 +64,21 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 
 ### -field configValueUnion
+
+
+### -field configValueUnion.fValue
+
+ 
+
+
+### -field configValueUnion.dwValue
+
+ 
+
+
+### -field configValueUnion.wszValue
+
+ 
 
 
 ### -field RILRESETMODEMCONFIGVALUEUNION

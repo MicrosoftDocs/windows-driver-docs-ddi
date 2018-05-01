@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.FindSourceFileWide
-title: IDebugSymbols3::FindSourceFileWide method
+title: IDebugSymbols3::FindSourceFileWide
 author: windows-driver-content
 description: The FindSourceFileWide method searches the source path for a specified source file.
 old-location: debugger\findsourcefilewide.htm
 old-project: debugger
 ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging], IDebugSymbols3 interface, FindSourceFileWide,IDebugSymbols3.FindSourceFileWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], FindSourceFileWide method, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide
+ms.date: 4/24/2018
+ms.keywords: FindSourceFileWide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],FindSourceFileWide method, IDebugSymbols3.FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.FindSourceFileWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::FindSourceFileWide method
+# IDebugSymbols3::FindSourceFileWide
 
 
 ## -description

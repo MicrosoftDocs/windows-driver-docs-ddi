@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventFilterTextWide
-title: IDebugControl4::GetEventFilterTextWide method
+title: IDebugControl4::GetEventFilterTextWide
 author: windows-driver-content
 description: The GetEventFilterTextWide method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertextwide.htm
 old-project: debugger
 ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide,IDebugControl4.GetEventFilterTextWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
+ms.date: 4/24/2018
+ms.keywords: GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterTextWide method, IDebugControl4.GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.GetEventFilterTextWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetEventFilterTextWide method
+# IDebugControl4::GetEventFilterTextWide
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_openresource.htm
 old-project: display
 ms.assetid: eb1b7317-2e54-4e61-a3e5-b5ac0c09064e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, _D3DDDIARG_OPENRESOURCE, d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,6 +62,13 @@ The D3DDDIARG_OPENRESOURCE structure contains information for opening a shared r
 [in] The number of elements in the array that is specified by <b>pOpenAllocationInfo</b>. <b>NumAllocations</b> represents the number of allocations to open.
 
 
+### -field pOpenAllocationInfo2
+
+This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ### -field pOpenAllocationInfo
 
 [in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
@@ -103,13 +110,6 @@ When the primary resource is used with a full-screen device and is rotated, the 
 ### -field Flags
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544604">D3DDDI_OPENRESOURCEFLAGS</a> structure that identifies the type of resource to open. 
-
-
-#### - pOpenAllocationInfo2
-
-This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
 
 
 ## -remarks

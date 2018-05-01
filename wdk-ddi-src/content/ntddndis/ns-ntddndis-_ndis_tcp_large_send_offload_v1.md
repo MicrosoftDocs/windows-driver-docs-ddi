@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_large_send_offload_v1.htm
 old-project: netvista
 ms.assetid: 3e26b6ae-15e1-41d5-b00d-3e09c1534413
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, PNDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V1, netvista.ndis_tcp_large_send_offload_v1, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, tcpip_offload_ref_2a3bb0f8-f05b-462f-984d-774f607ee0da.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -65,15 +65,13 @@ A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_V1 that contains the following me
      
 
 
-
-#### Encapsulation
+### -field IPv4.Encapsulation
 
 Encapsulation settings for IPv4. For more information about this member, see the following
        Remarks section.
 
 
-
-#### MaxOffLoadSize
+### -field IPv4.MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -82,8 +80,7 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-
-#### MinSegmentCount
+### -field IPv4.MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to the hardware for segmentation. The transport will not offload a large packet to the
@@ -93,16 +90,14 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        packets.
 
 
-
-#### TcpOptions
+### -field IPv4.TcpOptions
 
 A ULONG value that a miniport driver sets to indicate that the miniport driver can segment a
        large TCP packet whose TCP header contains TCP options or to indicate that this capability is enabled
        or disabled. The TCP/IP transport sets this value to enable or disable this capability.
 
 
-
-#### IpOptions
+### -field IPv4.IpOptions
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can segment a
        large TCP packet whose IP header contains IP options or to indicate that this capability is enabled or

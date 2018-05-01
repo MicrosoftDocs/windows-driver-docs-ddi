@@ -40,7 +40,7 @@ api_name:
 -	HBA_GetFC4Statistics
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetFC4Statistics function

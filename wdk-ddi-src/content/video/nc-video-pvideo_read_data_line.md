@@ -7,8 +7,8 @@ old-location: display\readdataline.htm
 old-project: display
 ms.assetid: 071000a3-c1b7-47fd-aec7-9e9f32edddf6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PVIDEO_READ_DATA_LINE, ReadDataLine, ReadDataLine callback function [Display Devices], VideoMiniport_Functions_6507a035-50bc-4a1e-92bf-f07e75cf023b.xml, display.readdataline, video/ReadDataLine
+ms.date: 4/16/2018
+ms.keywords: PVIDEO_READ_DATA_LINE, PVIDEO_READ_DATA_LINE callback, ReadDataLine, ReadDataLine callback function [Display Devices], VideoMiniport_Functions_6507a035-50bc-4a1e-92bf-f07e75cf023b.xml, display.readdataline, video/ReadDataLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	ReadDataLine
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_READ_DATA_LINE callback
+# PVIDEO_READ_DATA_LINE callback function
 
 
 ## -description

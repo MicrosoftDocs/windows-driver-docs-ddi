@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: bc1c82f0-f68c-433c-87f0-16c687d18557
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: KeyboardInitializationRoutine, KeyboardInitializationRoutine callback function [Human Input Devices], PI8042_KEYBOARD_INITIALIZATION_ROUTINE, hid.pi8042_keyboard_initialization_routine, i8042ref_4bc54efc-bd3d-4091-a8c7-64631d187d20.xml, ntdd8042/KeyboardInitializationRoutine
+ms.keywords: KeyboardInitializationRoutine, KeyboardInitializationRoutine callback function [Human Input Devices], PI8042_KEYBOARD_INITIALIZATION_ROUTINE, PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback, hid.pi8042_keyboard_initialization_routine, i8042ref_4bc54efc-bd3d-4091-a8c7-64631d187d20.xml, ntdd8042/KeyboardInitializationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	KeyboardInitializationRoutine
 product: Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: 
 ---
 
-# PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback
+# PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback function
 
 
 ## -description

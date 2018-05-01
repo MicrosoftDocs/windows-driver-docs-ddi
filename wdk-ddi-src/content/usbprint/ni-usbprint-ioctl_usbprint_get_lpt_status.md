@@ -7,8 +7,8 @@ old-location: print\ioctl_usbprint_get_lpt_status.htm
 old-project: print
 ms.assetid: 706e62f9-1be6-43bd-812a-dbb459877909
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_USBPRINT_GET_LPT_STATUS, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], print.ioctl_usbprint_get_lpt_status, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS
+ms.date: 4/20/2018
+ms.keywords: IOCTL_USBPRINT_GET_LPT_STATUS, IOCTL_USBPRINT_GET_LPT_STATUS control, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], print.ioctl_usbprint_get_lpt_status, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USBPRINT_GET_LPT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBPRINT_GET_LPT_STATUS IOCTL

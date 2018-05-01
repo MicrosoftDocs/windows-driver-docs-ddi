@@ -7,7 +7,7 @@ old-location: buses\_parent_hub_flags.htm
 old-project: usbref
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _PARENT_HUB_FLAGS structure
@@ -68,14 +67,22 @@ The size of structure represented as a LONG (32-bit) value.
  
 
 
+### -field Flags.DisableLpmForAllDownstreamDevices
+
+ 
 
 
-#### - DisableLpmForAllDownstreamDevices
+### -field Flags.HubIsHighSpeedCapable
+
+ 
+
+
+### -field DisableLpmForAllDownstreamDevices
 
 Indicates that all devices behind the hub must be disabled.
 
 
-#### - HubIsHighSpeedCapable
+### -field HubIsHighSpeedCapable
 
 Indicates that the hub is high-speed capable.
 

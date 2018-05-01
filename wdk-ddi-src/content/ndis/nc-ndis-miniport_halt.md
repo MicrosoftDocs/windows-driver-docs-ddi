@@ -7,8 +7,8 @@ old-location: netvista\miniporthaltex.htm
 old-project: netvista
 ms.assetid: b8d452b4-bef3-4991-87cf-fac15bedfde4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_HALT, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_HALT, MINIPORT_HALT callback, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportHaltEx
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_HALT callback
+# MINIPORT_HALT callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediaofferanswertype.htm
 old-project: netvista
 ms.assetid: cc0c3fc5-1482-424c-8ca8-c1bfe641bc03
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLMEDIAOFFERANSWERTYPE, RILCALLMEDIAOFFERANSWERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, netvista.rilcallmediaofferanswertype, ntddrilapitypes/RILCALLMEDIAOFFERANSWERTYPE, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERTYPE
-req.product: Windows 10 or later.
 ---
 
 # RILCALLMEDIAOFFERANSWERTYPE enumeration

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_sms_send_status.htm
 old-project: netvista
 ms.assetid: 2664fed3-c1fb-4f84-b265-d1b0d8a0ca04
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SMS_SEND_STATUS, NDIS_WWAN_SMS_SEND_STATUS, NDIS_WWAN_SMS_SEND_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_SEND_STATUS, PNDIS_WWAN_SMS_SEND_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_5ca36240-d372-4887-887f-8b2b209a5c8a.xml, _NDIS_WWAN_SMS_SEND_STATUS, ndiswwan/NDIS_WWAN_SMS_SEND_STATUS, ndiswwan/PNDIS_WWAN_SMS_SEND_STATUS, netvista.ndis_wwan_sms_send_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

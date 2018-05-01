@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IInterruptSync.RegisterServiceRoutine
-title: IInterruptSync::RegisterServiceRoutine method
+title: IInterruptSync::RegisterServiceRoutine
 author: windows-driver-content
 description: The RegisterServiceRoutine method registers an interrupt service routine (ISR) that is to be called when an interrupt occurs.
 old-location: audio\iinterruptsync_registerserviceroutine.htm
 old-project: audio
 ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IInterruptSync, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, RegisterServiceRoutine,IInterruptSync.RegisterServiceRoutine, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
+ms.date: 4/16/2018
+ms.keywords: IInterruptSync interface [Audio Devices],RegisterServiceRoutine method, IInterruptSync.RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices],IInterruptSync interface, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IInterruptSync.RegisterServiceRoutine
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IInterruptSync::RegisterServiceRoutine method
+# IInterruptSync::RegisterServiceRoutine
 
 
 ## -description

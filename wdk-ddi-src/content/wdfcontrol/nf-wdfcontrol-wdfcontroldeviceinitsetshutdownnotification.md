@@ -41,8 +41,7 @@ api_name:
 -	WdfControlDeviceInitSetShutdownNotification
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfControlDeviceInitSetShutdownNotification function

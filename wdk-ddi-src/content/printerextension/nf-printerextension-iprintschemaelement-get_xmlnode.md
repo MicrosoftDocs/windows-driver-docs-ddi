@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_XmlNode
-title: IPrintSchemaElement::get_XmlNode method
+title: IPrintSchemaElement::get_XmlNode
 author: windows-driver-content
 description: Gets the IXMLDOMNode object associated with this item.
 old-location: print\iprintschemaelement_xmlnode.htm
 old-project: print
 ms.assetid: 5E7F2292-1F71-4581-8E34-86F1464EC08F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement::get_XmlNode, XmlNode property [Print Devices], XmlNode property [Print Devices], IPrintSchemaElement interface, get_XmlNode, get_XmlNode,IPrintSchemaElement.get_XmlNode, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaElement interface [Print Devices],XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement.get_XmlNode, IPrintSchemaElement::XmlNode, IPrintSchemaElement::get_XmlNode, XmlNode property [Print Devices], XmlNode property [Print Devices],IPrintSchemaElement interface, get_XmlNode, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaElement.get_XmlNode
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaElement::get_XmlNode method
+# IPrintSchemaElement::get_XmlNode
 
 
 ## -description

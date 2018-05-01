@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetFeatureByKeyName
-title: IPrintSchemaTicket::GetFeatureByKeyName method
+title: IPrintSchemaTicket::GetFeatureByKeyName
 author: windows-driver-content
 description: Gets a feature from the PrintTicket based on the specified key name.
 old-location: print\iprintschematicket_getfeaturebykeyname.htm
 old-project: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, GetFeatureByKeyName,IPrintSchemaTicket.GetFeatureByKeyName, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaTicket::GetFeatureByKeyName, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
+ms.date: 4/20/2018
+ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaTicket.GetFeatureByKeyName, IPrintSchemaTicket::GetFeatureByKeyName, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaTicket.GetFeatureByKeyName
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::GetFeatureByKeyName method
+# IPrintSchemaTicket::GetFeatureByKeyName
 
 
 ## -description

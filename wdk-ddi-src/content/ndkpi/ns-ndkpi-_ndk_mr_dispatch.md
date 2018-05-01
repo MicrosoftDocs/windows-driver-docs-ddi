@@ -7,7 +7,7 @@ old-location: netvista\ndk_mr_dispatch.htm
 old-project: netvista
 ms.assetid: C0EC5488-B08D-40A6-9E90-48E59B45B116
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_MR_DISPATCH, NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_MR_DISPATCH, PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR_DISPATCH, ndkpi/NDK_MR_DISPATCH, ndkpi/PNDK_MR_DISPATCH, netvista.ndk_mr_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

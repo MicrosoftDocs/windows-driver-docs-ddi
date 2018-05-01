@@ -7,8 +7,8 @@ old-location: print\iprintoemui2_interface.htm
 old-project: print
 ms.assetid: 9b7afb56-7abb-4f20-b69d-12a28d7e3617
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI2, IPrintOemUI2 interface [Print Devices], IPrintOemUI2 interface [Print Devices], described, prcomoem/IPrintOemUI2, print.iprintoemui2_interface, print_unidrv-pscript_ui_838f6394-df99-4045-9059-6ff480212733.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI2, IPrintOemUI2 interface [Print Devices], IPrintOemUI2 interface [Print Devices],described, prcomoem/IPrintOemUI2, print.iprintoemui2_interface, print_unidrv-pscript_ui_838f6394-df99-4045-9059-6ff480212733.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintOemUI2
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintOemUI2 interface

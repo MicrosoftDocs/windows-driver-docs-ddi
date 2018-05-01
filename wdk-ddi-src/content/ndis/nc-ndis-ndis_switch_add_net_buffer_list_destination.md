@@ -7,8 +7,8 @@ old-location: netvista\AddNetBufferListDestination.htm
 old-project: netvista
 ms.assetid: 6B8CD868-D2F4-4892-BF6D-DFD7A3984320
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddNetBufferListDestination, AddNetBufferListDestination callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION, ndis/AddNetBufferListDestination, netvista.AddNetBufferListDestination
+ms.date: 4/25/2018
+ms.keywords: AddNetBufferListDestination, AddNetBufferListDestination callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION, NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback, ndis/AddNetBufferListDestination, netvista.AddNetBufferListDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	AddNetBufferListDestination
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback
+# NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback function
 
 
 ## -description

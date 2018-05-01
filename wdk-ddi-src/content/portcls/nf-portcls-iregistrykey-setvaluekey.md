@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IRegistryKey.SetValueKey
-title: IRegistryKey::SetValueKey method
+title: IRegistryKey::SetValueKey
 author: windows-driver-content
 description: The SetValueKey method replaces or creates a value entry under the open key.
 old-location: audio\iregistrykey_setvaluekey.htm
 old-project: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], SetValueKey method, IRegistryKey::SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices], IRegistryKey interface, SetValueKey,IRegistryKey.SetValueKey, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
+ms.date: 4/16/2018
+ms.keywords: IRegistryKey interface [Audio Devices],SetValueKey method, IRegistryKey.SetValueKey, IRegistryKey::SetValueKey, SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IRegistryKey.SetValueKey
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IRegistryKey::SetValueKey method
+# IRegistryKey::SetValueKey
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifyinitializesync.htm
 old-project: ifsk
 ms.assetid: 7db82e70-3090-4526-ba10-792ccdbef660
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlNotifyInitializeSync, FsRtlNotifyInitializeSync routine [Installable File System Drivers], fsrtlref_3a247139-1c76-4947-8e6f-a5beeae504cd.xml, ifsk.fsrtlnotifyinitializesync, ntifs/FsRtlNotifyInitializeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlNotifyInitializeSync
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlNotifyInitializeSync function

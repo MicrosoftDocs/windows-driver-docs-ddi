@@ -7,8 +7,8 @@ old-location: buses\isdevicehighspeed.htm
 old-project: usbref
 ms.assetid: 36e0041d-700f-44db-84b6-3745026cb6f7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IsDeviceHighSpeed, IsDeviceHighSpeed callback function [Buses], PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, buses.isdevicehighspeed, usbbusif/IsDeviceHighSpeed, usbinterKR_eaf122ed-eee1-4924-a186-b0474b8c9816.xml
+ms.date: 4/25/2018
+ms.keywords: IsDeviceHighSpeed, IsDeviceHighSpeed callback function [Buses], PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback, buses.isdevicehighspeed, usbbusif/IsDeviceHighSpeed, usbinterKR_eaf122ed-eee1-4924-a186-b0474b8c9816.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	IsDeviceHighSpeed
 product: Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback
+# PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback function
 
 
 ## -description

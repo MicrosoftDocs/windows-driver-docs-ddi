@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPipe
-title: IKsPinPipe::KsSetPipe method
+title: IKsPinPipe::KsSetPipe
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpipe.htm
 old-project: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method, IKsPinPipe::KsSetPipe, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices], IKsPinPipe interface, KsSetPipe,IKsPinPipe.KsSetPipe, ksproxy/IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipe method, IKsPinPipe.KsSetPipe, IKsPinPipe::KsSetPipe, KsSetPipe, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsPinPipe.KsSetPipe
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsSetPipe method
+# IKsPinPipe::KsSetPipe
 
 
 ## -description

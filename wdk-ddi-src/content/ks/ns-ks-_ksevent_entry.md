@@ -7,7 +7,7 @@ old-location: stream\ksevent_entry.htm
 old-project: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSEVENT_ENTRY, KSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, ks/KSEVENT_ENTRY, stream.ksevent_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,6 +63,12 @@ The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how 
 ### -field Object
 
 
+### -field DpcItem
+
+
+### -field BufferItem
+
+
 ### -field EventData
 
 
@@ -85,12 +91,6 @@ The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how 
 
 
 ### -field Flags
-
-
-#### - BufferItem
-
-
-#### - DpcItem
 
 
 ## -remarks

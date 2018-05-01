@@ -7,7 +7,7 @@ old-location: display\dxgk_segmentbankpreference.htm
 old-project: display
 ms.assetid: ff292137-4d95-4388-aae9-f6436b403c6a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, _DXGK_SEGMENTBANKPREFERENCE, d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, display.dxgk_segmentbankpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -113,7 +113,7 @@ This member is equivalent to bits 25 through 31 of the 32-bit <b>Value</b> membe
 This member is equivalent to the thirty-secondbit of the 32-bit <b>Value</b> member (0x80000000). 
 
 
-#### - Value
+### -field Value
 
 [out] A member in the union that DXGK_SEGMENTBANKPREFERENCE contains that can hold a 32-bit value that identifies bank preferences.
 

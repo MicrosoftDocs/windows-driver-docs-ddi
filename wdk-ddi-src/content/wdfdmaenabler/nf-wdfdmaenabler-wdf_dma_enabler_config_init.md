@@ -40,8 +40,7 @@ api_name:
 -	WDF_DMA_ENABLER_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_PROFILE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_DMA_ENABLER_CONFIG_INIT function

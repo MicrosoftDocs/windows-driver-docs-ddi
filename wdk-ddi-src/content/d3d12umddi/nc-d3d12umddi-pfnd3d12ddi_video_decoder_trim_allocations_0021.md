@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_video_decoder_trim_allocations.htm
 old-project: display
 ms.assetid: 2E90B365-8C5D-4586-AAA8-D49CC9BBCF70
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, d3d12umddi/pfnDecoderTrimAllocations, display.pfnd3d12ddi_video_decoder_trim_allocations, pfnDecoderTrimAllocations, pfnDecoderTrimAllocations callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback, d3d12umddi/pfnDecoderTrimAllocations, display.pfnd3d12ddi_video_decoder_trim_allocations, pfnDecoderTrimAllocations, pfnDecoderTrimAllocations callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnDecoderTrimAllocations
 product: Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback
+# PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback function
 
 
 ## -description

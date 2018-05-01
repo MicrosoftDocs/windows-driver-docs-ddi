@@ -7,7 +7,7 @@ old-location: print\reverttoprinterself.htm
 old-project: print
 ms.assetid: 3d94d363-fc8b-4b12-b90d-43dfc5923bdf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: RevertToPrinterSelf, RevertToPrinterSelf function [Print Devices], print.reverttoprinterself, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, winsplp/RevertToPrinterSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RevertToPrinterSelf
 product: Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RevertToPrinterSelf function

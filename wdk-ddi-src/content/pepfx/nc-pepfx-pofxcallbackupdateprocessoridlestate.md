@@ -7,7 +7,7 @@ old-location: kernel\updateprocessoridlestate.htm
 old-project: kernel
 ms.assetid: 023A2637-A79A-4ADE-B54C-646CBDDF08B8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: POFXCALLBACKUPDATEPROCESSORIDLESTATE, UpdateProcessorIdleState, UpdateProcessorIdleState routine [Kernel-Mode Driver Architecture], kernel.updateprocessoridlestate, pepfx/UpdateProcessorIdleState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	UpdateProcessorIdleState
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
-# POFXCALLBACKUPDATEPROCESSORIDLESTATE callback
+# POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function
 
 
 ## -description

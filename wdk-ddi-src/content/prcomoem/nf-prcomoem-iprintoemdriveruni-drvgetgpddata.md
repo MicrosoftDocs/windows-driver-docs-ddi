@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvGetGPDData
-title: IPrintOemDriverUni::DrvGetGPDData method
+title: IPrintOemDriverUni::DrvGetGPDData
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvGetGPDData method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's GPD file.
 old-location: print\iprintoemdriveruni_drvgetgpddata.htm
 old-project: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvGetGPDData method [Print Devices], DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, DrvGetGPDData,IPrintOemDriverUni.DrvGetGPDData, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, IPrintOemDriverUni::DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
+ms.date: 4/20/2018
+ms.keywords: DrvGetGPDData, DrvGetGPDData method [Print Devices], DrvGetGPDData method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetGPDData method, IPrintOemDriverUni.DrvGetGPDData, IPrintOemDriverUni::DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemDriverUni.DrvGetGPDData
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverUni::DrvGetGPDData method
+# IPrintOemDriverUni::DrvGetGPDData
 
 
 ## -description

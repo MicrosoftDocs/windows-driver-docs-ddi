@@ -7,7 +7,7 @@ old-location: netvista\ril_getcardinfo.htm
 old-project: netvista
 ms.assetid: d865993b-10cc-4fa2-a00f-34eb1d4e299b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetCardInfo, RIL_GetCardInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getcardinfo, rilapi/RIL_GetCardInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_GetCardInfo
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetCardInfo function

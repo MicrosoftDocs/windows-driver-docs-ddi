@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setrendertarget2.htm
 old-project: display
 ms.assetid: 0e7d7093-3b49-4fb1-b7ac-49d366c08ab8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2SETRENDERTARGET2, D3DHAL_DP2SETRENDERTARGET2, D3DHAL_DP2SETRENDERTARGET2 structure [Display Devices], LPD3DHAL_DP2SETRENDERTARGET2, LPD3DHAL_DP2SETRENDERTARGET2 structure pointer [Display Devices], _D3DHAL_DP2SETRENDERTARGET2, d3dhal/D3DHAL_DP2SETRENDERTARGET2, d3dhal/LPD3DHAL_DP2SETRENDERTARGET2, d3dstrct_b2b69c9b-94db-4451-b731-fbe90ba059f0.xml, display.d3dhal_dp2setrendertarget2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setdepthstencil.htm
 old-project: display
 ms.assetid: fb57b1c0-6cb2-42e4-bf67-239ac6c0548c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2SETDEPTHSTENCIL, D3DHAL_DP2SETDEPTHSTENCIL, D3DHAL_DP2SETDEPTHSTENCIL structure [Display Devices], LPD3DHAL_DP2SETDEPTHSTENCIL, LPD3DHAL_DP2SETDEPTHSTENCIL structure pointer [Display Devices], _D3DHAL_DP2SETDEPTHSTENCIL, d3dhal/D3DHAL_DP2SETDEPTHSTENCIL, d3dhal/LPD3DHAL_DP2SETDEPTHSTENCIL, d3dstrct_6eda96cd-64bc-4ba1-acc3-0166ccfbd401.xml, display.d3dhal_dp2setdepthstencil"
 ms.prod: windows-hardware
 ms.technology: windows-devices

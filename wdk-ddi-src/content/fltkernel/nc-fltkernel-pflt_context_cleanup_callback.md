@@ -7,7 +7,7 @@ old-location: ifsk\pflt_context_cleanup_callback.htm
 old-project: ifsk
 ms.assetid: f17eb108-58d1-4640-a0cc-ae568b0c844c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: ContextCleanupCallback, ContextCleanupCallback routine [Installable File System Drivers], FltCallbacks_870edcbe-dbd7-4fad-b4f3-628bffe6fb44.xml, PFLT_CONTEXT_CLEANUP_CALLBACK, fltkernel/ContextCleanupCallback, ifsk.pflt_context_cleanup_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	ContextCleanupCallback
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# PFLT_CONTEXT_CLEANUP_CALLBACK callback
+# PFLT_CONTEXT_CLEANUP_CALLBACK callback function
 
 
 ## -description

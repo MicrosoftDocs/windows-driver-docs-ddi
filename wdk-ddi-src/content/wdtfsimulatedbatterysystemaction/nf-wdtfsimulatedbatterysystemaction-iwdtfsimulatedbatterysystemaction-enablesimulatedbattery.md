@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
-title: IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery method
+title: IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
 author: windows-driver-content
 description: Enables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablesimulatedbattery.htm
 old-project: dtf
 ms.assetid: c9ca8bb4-2a05-4934-b589-41fba8092b1b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EnableSimulatedBattery method [Windows Device Testing Framework], EnableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, EnableSimulatedBattery,IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], EnableSimulatedBattery method, IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_enablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
+ms.date: 4/4/2018
+ms.keywords: EnableSimulatedBattery, EnableSimulatedBattery method [Windows Device Testing Framework], EnableSimulatedBattery method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],EnableSimulatedBattery method, IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery, IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_enablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery method
+# IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
 
 
 ## -description

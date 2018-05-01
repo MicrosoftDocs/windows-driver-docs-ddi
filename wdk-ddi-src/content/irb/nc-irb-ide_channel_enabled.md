@@ -40,10 +40,10 @@ api_name:
 -	AtaControllerChannelEnabled
 product: Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: 
 ---
 
-# IDE_CHANNEL_ENABLED callback
+# IDE_CHANNEL_ENABLED callback function
 
 
 ## -description

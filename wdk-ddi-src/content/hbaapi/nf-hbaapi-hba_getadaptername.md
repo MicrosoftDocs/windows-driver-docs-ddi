@@ -40,7 +40,7 @@ api_name:
 -	HBA_GetAdapterName
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetAdapterName function

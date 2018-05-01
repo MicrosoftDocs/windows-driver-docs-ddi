@@ -7,7 +7,7 @@ old-location: buses\udecx_wdf_device_config_init.htm
 old-project: usbref
 ms.assetid: EC26EDCA-1C9E-4D06-A970-71FB96FEB0DF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses], buses.udecx_wdf_device_config_init, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	UDECX_WDF_DEVICE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UDECX_WDF_DEVICE_CONFIG_INIT function

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_FORWARD_OPTIONS, *PWDF_REQUEST_FORWARD_OPTIONS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REQUEST_FORWARD_OPTIONS structure

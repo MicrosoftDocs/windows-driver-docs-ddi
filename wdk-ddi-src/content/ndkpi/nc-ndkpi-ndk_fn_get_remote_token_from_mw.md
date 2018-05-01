@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_remote_token_from_mw.htm
 old-project: netvista
 ms.assetid: 893B53DA-B858-4E21-9DD9-D244702ACF46
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NdkGetRemoteTokenFromMw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMw, netvista.ndk_fn_get_remote_token_from_mw
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback, NdkGetRemoteTokenFromMw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMw, netvista.ndk_fn_get_remote_token_from_mw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkGetRemoteTokenFromMw
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback
+# NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback function
 
 
 ## -description

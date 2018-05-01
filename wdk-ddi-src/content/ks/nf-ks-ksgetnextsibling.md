@@ -7,7 +7,7 @@ old-location: stream\ksgetnextsibling.htm
 old-project: stream
 ms.assetid: 509cf778-2b0c-4dd2-982d-0c7be95ad407
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetNextSibling, KsGetNextSibling function [Streaming Media Devices], avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, ks/KsGetNextSibling, stream.ksgetnextsibling
 ms.prod: windows-hardware
 ms.technology: windows-devices

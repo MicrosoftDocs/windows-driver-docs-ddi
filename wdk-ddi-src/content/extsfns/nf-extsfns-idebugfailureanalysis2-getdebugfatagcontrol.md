@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetDebugFATagControl
-title: IDebugFailureAnalysis2::GetDebugFATagControl method
+title: IDebugFailureAnalysis2::GetDebugFATagControl
 author: windows-driver-content
 description: The GetDebugFATagControl method gets a pointer to an IDebugFAEntryTags interface, which provides access to the tags in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfailureanalysis2_getdebugfatagcontrol.htm
 old-project: debugger
 ms.assetid: AC69BCF1-B5C2-4A2F-AEF0-1BC4EBD0BE66
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetDebugFATagControl method [Windows Debugging], GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2 interface, GetDebugFATagControl,IDebugFailureAnalysis2.GetDebugFATagControl, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetDebugFATagControl method, IDebugFailureAnalysis2::GetDebugFATagControl, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl
+ms.date: 4/24/2018
+ms.keywords: GetDebugFATagControl, GetDebugFATagControl method [Windows Debugging], GetDebugFATagControl method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetDebugFATagControl method, IDebugFailureAnalysis2.GetDebugFATagControl, IDebugFailureAnalysis2::GetDebugFATagControl, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.GetDebugFATagControl
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::GetDebugFATagControl method
+# IDebugFailureAnalysis2::GetDebugFATagControl
 
 
 ## -description

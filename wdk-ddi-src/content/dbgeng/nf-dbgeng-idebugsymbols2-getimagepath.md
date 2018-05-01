@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetImagePath
-title: IDebugSymbols2::GetImagePath method
+title: IDebugSymbols2::GetImagePath
 author: windows-driver-content
 description: The GetImagePath method returns the executable image path.
 old-location: debugger\getimagepath.htm
 old-project: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging], IDebugSymbols interface, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, GetImagePath,IDebugSymbols2.GetImagePath, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols2::GetImagePath, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath
+ms.date: 4/24/2018
+ms.keywords: GetImagePath, GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging],IDebugSymbols interface, GetImagePath method [Windows Debugging],IDebugSymbols2 interface, GetImagePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetImagePath method, IDebugSymbols2 interface [Windows Debugging],GetImagePath method, IDebugSymbols2.GetImagePath, IDebugSymbols2::GetImagePath, IDebugSymbols3 interface [Windows Debugging],GetImagePath method, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.GetImagePath
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetImagePath method
+# IDebugSymbols2::GetImagePath
 
 
 ## -description

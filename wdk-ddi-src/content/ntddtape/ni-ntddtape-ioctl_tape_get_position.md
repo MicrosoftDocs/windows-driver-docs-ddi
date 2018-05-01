@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 358c3089-7238-4604-add8-575b611b3bc9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_TAPE_GET_POSITION, IOCTL_TAPE_GET_POSITION control code [Storage Devices], k307_88069692-1167-4a21-914b-505e1100f6dc.xml, ntddtape/IOCTL_TAPE_GET_POSITION, storage.ioctl_tape_get_position
+ms.keywords: IOCTL_TAPE_GET_POSITION, IOCTL_TAPE_GET_POSITION control, IOCTL_TAPE_GET_POSITION control code [Storage Devices], k307_88069692-1167-4a21-914b-505e1100f6dc.xml, ntddtape/IOCTL_TAPE_GET_POSITION, storage.ioctl_tape_get_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_TAPE_GET_POSITION
 product: Windows
 targetos: Windows
-req.typenames: TAPE_DRIVE_PROBLEM_TYPE
+req.typenames: 
 ---
 
 # IOCTL_TAPE_GET_POSITION IOCTL

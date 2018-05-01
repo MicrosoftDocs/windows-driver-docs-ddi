@@ -7,7 +7,7 @@ old-location: netvista\ril_cancelgetoperatorlist.htm
 old-project: netvista
 ms.assetid: 421f2b2f-9cc7-4a33-b253-e442fa112d13
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_CancelGetOperatorList, RIL_CancelGetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_cancelgetoperatorlist, rilapi/RIL_CancelGetOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_CancelGetOperatorList
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_CancelGetOperatorList function

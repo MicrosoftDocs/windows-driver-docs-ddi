@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.GetPnpCapability
-title: IWDFDeviceInitialize::GetPnpCapability method
+title: IWDFDeviceInitialize::GetPnpCapability
 author: windows-driver-content
 description: The GetPnpCapability method determines the state of the specified Plug and Play (PnP) capability.
 old-location: wdf\iwdfdeviceinitialize_getpnpcapability.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 64f15528-e934-4bdd-a9f7-6790eef7c7c5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetPnpCapability method, GetPnpCapability method, IWDFDeviceInitialize interface, GetPnpCapability,IWDFDeviceInitialize.GetPnpCapability, IWDFDeviceInitialize, IWDFDeviceInitialize interface, GetPnpCapability method, IWDFDeviceInitialize::GetPnpCapability, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, umdf.iwdfdeviceinitialize_getpnpcapability, wdf.iwdfdeviceinitialize_getpnpcapability, wudfddi/IWDFDeviceInitialize::GetPnpCapability
+ms.keywords: GetPnpCapability, GetPnpCapability method, GetPnpCapability method,IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,GetPnpCapability method, IWDFDeviceInitialize.GetPnpCapability, IWDFDeviceInitialize::GetPnpCapability, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, umdf.iwdfdeviceinitialize_getpnpcapability, wdf.iwdfdeviceinitialize_getpnpcapability, wudfddi/IWDFDeviceInitialize::GetPnpCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDeviceInitialize.GetPnpCapability
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDeviceInitialize::GetPnpCapability method
+# IWDFDeviceInitialize::GetPnpCapability
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware2.OnPrepareHardware
-title: IPnpCallbackHardware2::OnPrepareHardware method
+title: IPnpCallbackHardware2::OnPrepareHardware
 author: windows-driver-content
 description: The OnPrepareHardware method performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\ipnpcallbackhardware2_onpreparehardware.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, OnPrepareHardware method, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method, IPnpCallbackHardware2 interface, OnPrepareHardware,IPnpCallbackHardware2.OnPrepareHardware, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
+ms.keywords: IPnpCallbackHardware2 interface,OnPrepareHardware method, IPnpCallbackHardware2.OnPrepareHardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPnpCallbackHardware2.OnPrepareHardware
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackHardware2::OnPrepareHardware method
+# IPnpCallbackHardware2::OnPrepareHardware
 
 
 ## -description

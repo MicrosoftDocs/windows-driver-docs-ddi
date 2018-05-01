@@ -7,7 +7,7 @@ old-location: audio\pcnotification_buffer.htm
 old-project: audio
 ms.assetid: EEE091E4-29D1-4C6F-B543-C54736660CCA
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices], PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], _PCNOTIFICATION_BUFFER, audio.pcnotification_buffer, portcls/PCNOTIFICATION_BUFFER, portcls/PPCNOTIFICATION_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

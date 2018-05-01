@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxinjectframeindication.htm
 old-project: netvista
 ms.assetid: C384FAFF-E22D-4FA2-8B11-F6C046003C70
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NDIS_WDI_TX_INJECT_FRAME_IND callback, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdisWdiTxInjectFrameIndication
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_INJECT_FRAME_IND callback
+# NDIS_WDI_TX_INJECT_FRAME_IND callback function
 
 
 ## -description

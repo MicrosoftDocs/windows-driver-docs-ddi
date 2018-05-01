@@ -40,7 +40,7 @@ api_name:
 -	ChangerExchangeMedium
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerExchangeMedium function

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioSignalProcessing.GetModes
-title: IMiniportAudioSignalProcessing::GetModes method
+title: IMiniportAudioSignalProcessing::GetModes
 author: windows-driver-content
 description: The GetModes method, Gets the audio signal processing modes supported by an audio pin.
 old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 old-project: audio
 ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetModes method [Audio Devices], GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, GetModes,IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes
+ms.date: 4/16/2018
+ms.keywords: GetModes, GetModes method [Audio Devices], GetModes method [Audio Devices],IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices],GetModes method, IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportAudioSignalProcessing.GetModes
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioSignalProcessing::GetModes method
+# IMiniportAudioSignalProcessing::GetModes
 
 
 ## -description

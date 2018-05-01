@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentProvider.GetXpsPart
-title: IXpsDocumentProvider::GetXpsPart method
+title: IXpsDocumentProvider::GetXpsPart
 author: windows-driver-content
 description: The GetXpsPart method retrieves several objects that make up an XPS document.
 old-location: print\ixpsdocumentprovider_getxpspart.htm
 old-project: print
 ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetXpsPart method [Print Devices], GetXpsPart method [Print Devices], IXpsDocumentProvider interface, GetXpsPart,IXpsDocumentProvider.GetXpsPart, IXpsDocumentProvider, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, IXpsDocumentProvider::GetXpsPart, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart
+ms.date: 4/20/2018
+ms.keywords: GetXpsPart, GetXpsPart method [Print Devices], GetXpsPart method [Print Devices],IXpsDocumentProvider interface, IXpsDocumentProvider interface [Print Devices],GetXpsPart method, IXpsDocumentProvider.GetXpsPart, IXpsDocumentProvider::GetXpsPart, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IXpsDocumentProvider.GetXpsPart
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IXpsDocumentProvider::GetXpsPart method
+# IXpsDocumentProvider::GetXpsPart
 
 
 ## -description

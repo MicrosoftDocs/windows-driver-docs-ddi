@@ -40,7 +40,7 @@ api_name:
 -	AtaPortDeviceBusy
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortDeviceBusy function

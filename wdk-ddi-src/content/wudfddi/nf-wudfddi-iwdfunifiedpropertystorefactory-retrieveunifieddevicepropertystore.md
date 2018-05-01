@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
-title: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore method
+title: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
 author: windows-driver-content
 description: The RetrieveUnifiedDevicePropertyStore method retrieves a unified property store interface.
 old-location: wdf\iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A54E56A6-9A6C-435D-83FD-84BB0E072C74
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore method, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore,IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
+ms.keywords: IWDFUnifiedPropertyStoreFactory interface,RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore method, RetrieveUnifiedDevicePropertyStore method,IWDFUnifiedPropertyStoreFactory interface, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore method
+# IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
 
 
 ## -description

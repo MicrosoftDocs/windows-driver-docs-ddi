@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.StartSymbolMatch
-title: IDebugSymbols3::StartSymbolMatch method
+title: IDebugSymbols3::StartSymbolMatch
 author: windows-driver-content
 description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatch.htm
 old-project: debugger
 ms.assetid: 465b13a7-59e0-47f8-9e33-82043a23f146
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols2::StartSymbolMatch, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols3::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, StartSymbolMatch method [Windows Debugging], StartSymbolMatch method [Windows Debugging], IDebugSymbols interface, StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, StartSymbolMatch,IDebugSymbols3.StartSymbolMatch, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, debugger.startsymbolmatch
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols2 interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols2::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols3.StartSymbolMatch, IDebugSymbols3::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, StartSymbolMatch, StartSymbolMatch method [Windows Debugging], StartSymbolMatch method [Windows Debugging],IDebugSymbols interface, StartSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, StartSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, debugger.startsymbolmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.StartSymbolMatch
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::StartSymbolMatch method
+# IDebugSymbols3::StartSymbolMatch
 
 
 ## -description

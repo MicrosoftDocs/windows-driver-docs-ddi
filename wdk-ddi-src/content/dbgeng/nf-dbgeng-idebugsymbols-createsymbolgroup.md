@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.CreateSymbolGroup
-title: IDebugSymbols::CreateSymbolGroup method
+title: IDebugSymbols::CreateSymbolGroup
 author: windows-driver-content
 description: The CreateSymbolGroup method creates a new symbol group.
 old-location: debugger\createsymbolgroup.htm
 old-project: debugger
 ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup,IDebugSymbols.CreateSymbolGroup, IDebugSymbols, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, dbgeng/IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup
+ms.date: 4/24/2018
+ms.keywords: CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging],IDebugSymbols interface, CreateSymbolGroup method [Windows Debugging],IDebugSymbols2 interface, CreateSymbolGroup method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols.CreateSymbolGroup, IDebugSymbols2 interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, dbgeng/IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.CreateSymbolGroup
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::CreateSymbolGroup method
+# IDebugSymbols::CreateSymbolGroup
 
 
 ## -description

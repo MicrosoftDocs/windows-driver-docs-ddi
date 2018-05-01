@@ -7,8 +7,8 @@ old-location: kernel\freemapregisters.htm
 old-project: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
+ms.date: 4/5/2018
+ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS callback, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	FreeMapRegisters
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFREE_MAP_REGISTERS callback
+# PFREE_MAP_REGISTERS callback function
 
 
 ## -description

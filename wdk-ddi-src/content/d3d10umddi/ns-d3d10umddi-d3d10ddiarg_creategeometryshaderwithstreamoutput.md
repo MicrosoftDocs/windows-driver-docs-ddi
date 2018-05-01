@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_creategeometryshaderwithstreamoutput.htm
 old-project: display
 ms.assetid: 172af07e-9cc7-48d1-900a-93f18bdc37a9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c41e18d8-8aca-4902-b921-0916f3ca2042.xml, d3d10umddi/D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, display.d3d10ddiarg_creategeometryshaderwithstreamoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

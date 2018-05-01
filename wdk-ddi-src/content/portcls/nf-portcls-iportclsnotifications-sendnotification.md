@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsNotifications.SendNotification
-title: IPortClsNotifications::SendNotification method
+title: IPortClsNotifications::SendNotification
 author: windows-driver-content
 description: Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_sendnotification.htm
 old-project: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], SendNotification method, IPortClsNotifications::SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices], IPortClsNotifications interface, SendNotification,IPortClsNotifications.SendNotification, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
+ms.date: 4/16/2018
+ms.keywords: IPortClsNotifications interface [Audio Devices],SendNotification method, IPortClsNotifications.SendNotification, IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices],IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IPortClsNotifications.SendNotification
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsNotifications::SendNotification method
+# IPortClsNotifications::SendNotification
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroyprotectedresourcesession_0030.htm
 old-project: display
 ms.assetid: B247AB7B-D133-43FE-A208-CF5E3C7F7DBE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_destroyprotectedresourcesession_0030
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback, PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_destroyprotectedresourcesession_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030
 product: Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback
+# PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback function
 
 
 ## -description

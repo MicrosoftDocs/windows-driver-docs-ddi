@@ -7,7 +7,7 @@ old-location: netvista\ndis_ipsec_offload_v1.htm
 old-project: netvista
 ms.assetid: 8ec0a052-2327-41e5-a9fa-83bcac9566f7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, IPSEC_TUN_UDPESP_ENCAPTYPE_IKE, IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, NDIS_IPSEC_OFFLOAD_V1, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V1, netvista.ndis_ipsec_offload_v1, ntddndis/NDIS_IPSEC_OFFLOAD_V1, ntddndis/PNDIS_IPSEC_OFFLOAD_V1, tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -66,15 +66,13 @@ A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for IPsec task o
      
 
 
-
-#### Encapsulation
+### -field Supported.Encapsulation
 
 Encapsulation settings for IPsec. For more information about this member, see the following
        Remarks section.
 
 
-
-#### AhEspCombined
+### -field Supported.AhEspCombined
 
 A ULONG value that a miniport driver sets to indicate that the hardware can perform IPsec
        operations on send and receive packets that contain both an authentication header (AH) security
@@ -82,8 +80,7 @@ A ULONG value that a miniport driver sets to indicate that the hardware can perf
        <b>AhEspCombined</b> indicates that the NIC does not support this capability.
 
 
-
-#### TransportTunnelCombined
+### -field Supported.TransportTunnelCombined
 
 A ULONG value that a miniport driver sets to indicate that the NIC can process security payloads
        for both the transport-mode portion and the tunnel-mode portion of send and receive packets. (The
@@ -92,16 +89,14 @@ A ULONG value that a miniport driver sets to indicate that the NIC can process s
        <b>TransportTunnelCombined</b> indicates that the NIC does not support this capability.
 
 
-
-#### IPv4Options
+### -field Supported.IPv4Options
 
 A ULONG value that a miniport driver sets to indicate that the NIC can perform IPsec operations
        on IPv4 send and receive packets whose IP headers contain IP options. A value of zero in 
        <b>IPv4Options</b> indicates that the NIC does not support this capability.
 
 
-
-#### Flags
+### -field Supported.Flags
 
 The types of UDP-encapsulated ESP data packets that the NIC can parse. For a description of the
        UDP-encapsulation types, see 
@@ -230,44 +225,38 @@ A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for AH payloads 
      
 
 
-
-#### Md5
+### -field IPv4AH.Md5
 
 A ULONG value that a miniport driver sets to indicate that the NIC can use the keyed MD5
        algorithm for computing or validating a cryptographic checksum for an AH payload, ESP payload, or
        both.
 
 
-
-#### Sha_1
+### -field IPv4AH.Sha_1
 
 A ULONG value that a miniport driver sets to indicate that the NIC can use the SHA 1 algorithm
        for computing or validating a cryptographic checksum for an AH payload, ESP payload, or both.
 
 
-
-#### Transport
+### -field IPv4AH.Transport
 
 A ULONG value that a miniport driver sets to indicate that the NIC can calculate or validate the
        cryptographic checksums for the portion of a packet that pertains to an end-to-end connection.
 
 
-
-#### Tunnel
+### -field IPv4AH.Tunnel
 
 A ULONG value that a miniport driver sets to indicate that the NIC can calculate or validate
        cryptographic checksums for the portion of a packet that pertains to a tunnel connection.
 
 
-
-#### Send
+### -field IPv4AH.Send
 
 A ULONG value that a miniport driver sets to indicate that the NIC can calculate cryptographic
        checksums for send packets.
 
 
-
-#### Receive
+### -field IPv4AH.Receive
 
 A ULONG value that a miniport driver sets to indicate that the NIC can validate cryptographic
        checksums for receive packets.
@@ -280,56 +269,48 @@ A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for ESP payloads
      
 
 
-
-#### Des
+### -field IPv4ESP.Des
 
 A ULONG value that a miniport driver sets to indicate that the NIC supports the DES algorithm
        for encrypting and decrypting ESP payloads.
 
 
-
-#### Reserved
+### -field IPv4ESP.Reserved
 
 This member is reserved.
 
 
-
-#### TripleDes
+### -field IPv4ESP.TripleDes
 
 A ULONG value that a miniport driver sets to indicate that the NIC supports the triple-DES
        algorithm for encrypting and decrypting ESP payloads.
 
 
-
-#### NullEsp
+### -field IPv4ESP.NullEsp
 
 A ULONG value that a miniport driver sets to indicate that the NIC supports null
        encryption--that is, the ESP payload without encryption but with authentication information.
 
 
-
-#### Transport
+### -field IPv4ESP.Transport
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        data for the portion of a packet that pertains to an end-to-end connection.
 
 
-
-#### Tunnel
+### -field IPv4ESP.Tunnel
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        data for the portion of a packet that pertains to a tunnel connection.
 
 
-
-#### Send
+### -field IPv4ESP.Send
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        payloads in send packets.
 
 
-
-#### Receive
+### -field IPv4ESP.Receive
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        payloads in receive packets.

@@ -7,8 +7,8 @@ old-location: display\dxgkddicheckmultiplaneoverlaysupport.htm
 old-project: display
 ms.assetid: 8332DD64-B75E-40A4-9D98-3406187150F2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT, DxgkDdiCheckMultiPlaneOverlaySupport, DxgkDdiCheckMultiPlaneOverlaySupport callback function [Display Devices], d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport, display.dxgkddicheckmultiplaneoverlaysupport
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback, DxgkDdiCheckMultiPlaneOverlaySupport, DxgkDdiCheckMultiPlaneOverlaySupport callback function [Display Devices], d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport, display.dxgkddicheckmultiplaneoverlaysupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiCheckMultiPlaneOverlaySupport
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback
+# DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback function
 
 
 ## -description

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _WDF_MEMORY_DESCRIPTOR structure

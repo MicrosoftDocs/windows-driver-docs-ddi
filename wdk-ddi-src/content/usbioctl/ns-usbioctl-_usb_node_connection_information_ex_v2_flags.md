@@ -7,7 +7,7 @@ old-location: buses\usb_node_connection_information_ex_v2_flags.htm
 old-project: usbref
 ms.assetid: F066CE0E-3247-4C42-9EF6-8A6EB0C0BC71
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS structure
@@ -67,17 +66,27 @@ Or: the speed in which a device attached to a port is currently operating and at
 A bitmask that indicates the USB speed of the device that is attached to the port.
 
 
-#### - DeviceIsOperatingAtSuperSpeedOrHigher
+### -field DeviceIsOperatingAtSuperSpeedOrHigher
 
 If <b>TRUE</b>, the attached device is currently operating at SuperSpeed or a higher speed that is defined by the official USB specification. 
 
 
-#### - DeviceIsSuperSpeedCapableOrHigher
+### -field DeviceIsSuperSpeedCapableOrHigher
 
 If <b>TRUE</b>, the attached device is a USB 3.0 device and is capable of operating at SuperSpeed or a higher speed that is defined by the official USB specification.
 
 
-#### - ReservedMBZ
+### -field DeviceIsOperatingAtSuperSpeedPlusOrHigher
+
+ 
+
+
+### -field DeviceIsSuperSpeedPlusCapableOrHigher
+
+ 
+
+
+### -field ReservedMBZ
 
 Reserved. Do not use.
 

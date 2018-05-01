@@ -7,7 +7,7 @@ old-location: bltooth\_brb_l2ca_open_channel.htm
 old-project: bltooth
 ms.assetid: 16f79360-c8fd-4be9-9c94-7fa2a1d8c6b5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bthddi/_BRB_L2CA_OPEN_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -85,6 +85,13 @@ A
 ### -field ResponseStatus
 
  
+
+
+### -field Psm
+
+The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
+      When used with a <b>BRB_L2CA_OPEN_CHANNEL</b> request, this member is set as an input field. When used with a
+      <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request, this member is used as an output field.
 
 
 ### -field ChannelFlags
@@ -149,8 +156,7 @@ The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_CHANNEL
      device.
 
 
-
-#### Flags
+### -field ConfigOut.Flags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
@@ -201,41 +207,35 @@ The profile driver indicates its preference that users not be prompted for a PIN
  
 
 
-
-#### Mtu
+### -field ConfigOut.Mtu
 
 The range of message transfer units (MTUs) that is used to negotiate the size of the outbound
       half of channel.
 
 
-
-#### FlushTO
+### -field ConfigOut.FlushTO
 
 The range of possible values to be used for the flush timeout for the outbound half of the
       channel.
 
 
-
-#### Flow
+### -field ConfigOut.Flow
 
 Reserved for future use. Do not use.
 
 
-
-#### LinkTO
+### -field ConfigOut.LinkTO
 
 The Link Manager link timeout.
 
 
-
-#### NumExtraOptions
+### -field ConfigOut.NumExtraOptions
 
 The number of array items that are contained in the 
       <b>ExtraOptions</b> member. This value should be zero for most clients.
 
 
-
-#### ExtraOptions
+### -field ConfigOut.ExtraOptions
 
 The number of array items that are contained in the 
       <b>ExtraOptions</b> member. This value should be zero for most clients.
@@ -262,8 +262,7 @@ The substructure that contains parameter settings to validate incoming
      <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> BRBs that are sent from a remote device.
 
 
-
-#### Flags
+### -field ConfigIn.Flags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
@@ -314,15 +313,13 @@ The profile driver indicates its preference that users not be prompted for a PIN
  
 
 
-
-#### Mtu
+### -field ConfigIn.Mtu
 
 The range of message transfer units (MTUs) that is used to negotiate the size of the outbound
       half of channel.
 
 
-
-#### FlushTO
+### -field ConfigIn.FlushTO
 
 The range of possible values to be used for the flush timeout for the outbound half of the
       channel.
@@ -590,13 +587,6 @@ The remote device accepted the connection.
 
 
 ##### CONNECT_RSP_STATUS_NO_INFORMATION
-
-
-#### - Psm
-
-The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
-      When used with a <b>BRB_L2CA_OPEN_CHANNEL</b> request, this member is set as an input field. When used with a
-      <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request, this member is used as an output field.
 
 
 ## -remarks

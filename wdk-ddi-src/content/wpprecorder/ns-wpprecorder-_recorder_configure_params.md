@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RECORDER_CONFIGURE_PARAMS, *PRECORDER_CONFIGURE_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _RECORDER_CONFIGURE_PARAMS structure

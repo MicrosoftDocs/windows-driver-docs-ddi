@@ -40,8 +40,7 @@ api_name:
 -	WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function

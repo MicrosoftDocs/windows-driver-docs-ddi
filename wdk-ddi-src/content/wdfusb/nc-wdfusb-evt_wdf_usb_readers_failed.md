@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9e21f47-1a60-419a-839e-8869f9fd4dd7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFUsbRef_ba1b1293-cdd5-481e-8dd1-3633eb9084b9.xml, EVT_WDF_USB_READERS_FAILED, EvtUsbTargetPipeReadersFailed, EvtUsbTargetPipeReadersFailed callback function, kmdf.evtusbtargetpipereadersfailed, wdf.evtusbtargetpipereadersfailed, wdfusb/EvtUsbTargetPipeReadersFailed
+ms.keywords: DFUsbRef_ba1b1293-cdd5-481e-8dd1-3633eb9084b9.xml, EVT_WDF_USB_READERS_FAILED, EVT_WDF_USB_READERS_FAILED callback, EvtUsbTargetPipeReadersFailed, EvtUsbTargetPipeReadersFailed callback function, kmdf.evtusbtargetpipereadersfailed, wdf.evtusbtargetpipereadersfailed, wdfusb/EvtUsbTargetPipeReadersFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtUsbTargetPipeReadersFailed
 product: Windows
 targetos: Windows
-req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_USB_READERS_FAILED callback
+# EVT_WDF_USB_READERS_FAILED callback function
 
 
 ## -description

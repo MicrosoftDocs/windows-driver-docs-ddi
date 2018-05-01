@@ -7,7 +7,7 @@ old-location: ifsk\file_fs_size_information.htm
 old-project: ifsk
 ms.assetid: b7b35df9-04bb-40f0-a076-f4ed5f54ca6c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SIZE_INFORMATION, PFILE_FS_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_SIZE_INFORMATION, fileinformationstructures_749eab67-2b42-4c11-a9a8-ef8ae9866f17.xml, ifsk.file_fs_size_information, ntddk/FILE_FS_SIZE_INFORMATION, ntddk/PFILE_FS_SIZE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

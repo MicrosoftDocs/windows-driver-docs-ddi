@@ -7,7 +7,7 @@ old-location: serports\sercxcompletewait.htm
 old-project: serports
 ms.assetid: 9318AB76-48ED-49FF-A4ED-17A07D43A0F8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SerCxCompleteWait
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxCompleteWait function

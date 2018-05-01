@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 268d2323-57a3-4674-90e6-d7142804175b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFQueueObjectRef_6b883c59-a84e-4735-8dec-2b0123b0d61f.xml, EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL, EvtIoInternalDeviceControl, EvtIoInternalDeviceControl callback function, kmdf.evtiointernaldevicecontrol, wdf.evtiointernaldevicecontrol, wdfio/EvtIoInternalDeviceControl
+ms.keywords: DFQueueObjectRef_6b883c59-a84e-4735-8dec-2b0123b0d61f.xml, EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL, EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback, EvtIoInternalDeviceControl, EvtIoInternalDeviceControl callback function, kmdf.evtiointernaldevicecontrol, wdf.evtiointernaldevicecontrol, wdfio/EvtIoInternalDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtIoInternalDeviceControl
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback
+# EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback function
 
 
 ## -description

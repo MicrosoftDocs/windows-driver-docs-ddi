@@ -7,8 +7,8 @@ old-location: ifsk\rxresumeblockedoperations_serially.htm
 old-project: ifsk
 ms.assetid: 8418ed17-39f0-4a3b-9eb5-453c7cc2ae98
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml
+ms.date: 4/16/2018
+ms.keywords: RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially , RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,8 +40,7 @@ api_name:
 -	RxResumeBlockedOperations_Serially
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxResumeBlockedOperations_Serially function

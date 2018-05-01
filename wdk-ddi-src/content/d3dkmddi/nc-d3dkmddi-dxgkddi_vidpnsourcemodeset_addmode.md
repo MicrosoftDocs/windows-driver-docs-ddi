@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfnaddmode.htm
 old-project: display
 ms.assetid: 754078c2-f79b-4237-a14c-96903856f3a5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE, VidPnFunctions_4a5d2191-c7d3-4b94-80aa-b6b3c71dfe18.xml, d3dkmddi/pfnAddMode, display.dxgk_vidpnsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE, DXGKDDI_VIDPNSOURCEMODESET_ADDMODE callback, VidPnFunctions_4a5d2191-c7d3-4b94-80aa-b6b3c71dfe18.xml, d3dkmddi/pfnAddMode, display.dxgk_vidpnsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnAddMode
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPNSOURCEMODESET_ADDMODE callback
+# DXGKDDI_VIDPNSOURCEMODESET_ADDMODE callback function
 
 
 ## -description

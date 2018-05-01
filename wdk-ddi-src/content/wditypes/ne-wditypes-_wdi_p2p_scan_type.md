@@ -7,7 +7,7 @@ old-location: netvista\wdi_p2p_scan_type.htm
 old-project: netvista
 ms.assetid: 717847D7-D7D9-4FEE-B3DC-14B0404FA937
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_P2P_SCAN_TYPE, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_AUTO, WDI_P2P_SCAN_TYPE_PASSIVE, _WDI_P2P_SCAN_TYPE, netvista.wdi_p2p_scan_type, netvista.wifi_p2p_scan_type, wditypes/WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE_ACTIVE, wditypes/WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE_PASSIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_P2P_SCAN_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDI_P2P_SCAN_TYPE enumeration

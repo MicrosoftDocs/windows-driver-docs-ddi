@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_source_mode.htm
 old-project: display
 ms.assetid: 763db6bb-8991-406d-a1d4-8ad50e32fee1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_VIDPN_SOURCE_MODE, D3DKMDT_VIDPN_SOURCE_MODE structure [Display Devices], DmStructs_0e8655c2-a85f-411d-a791-4c85e5c7d52c.xml, _D3DKMDT_VIDPN_SOURCE_MODE, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE, display.d3dkmdt_vidpn_source_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,12 @@ A union that contains information about either the graphics rendering format or 
 
 
 
-
-#### Graphics
+### -field Format.Graphics
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546041">D3DKMDT_GRAPHICS_RENDERING_FORMAT</a> structure that contains information about the graphics rendering format (for example, primary surface size and pixel format). This member is meaningful only if the <b>Type</b> member is equal to D3DKMDT_RMT_GRAPHICS.
 
 
-
-#### Text
+### -field Format.Text
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546603">D3DKMDT_TEXT_RENDERING_FORMAT</a> enumerator that indicates the text format. This member is meaningful only if the <b>Type</b> member is equal to D3DKMDT_RMT_TEXT.
 

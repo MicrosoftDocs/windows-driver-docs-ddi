@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.StopAsync
-title: IWDTFSimpleIOStressAction2::StopAsync method
+title: IWDTFSimpleIOStressAction2::StopAsync
 author: windows-driver-content
 description: Asynchronously signals the stop event to occur.
 old-location: dtf\iwdtfsimpleiostressaction2_stopasync.htm
 old-project: dtf
 ms.assetid: fac4b59b-da9a-4245-bff0-f9177962c9d6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StopAsync method, IWDTFSimpleIOStressAction2::StopAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, StopAsync method [Windows Device Testing Framework], StopAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, StopAsync,IWDTFSimpleIOStressAction2.StopAsync, dtf.iwdtfsimpleiostressaction2_stopasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync
+ms.date: 4/4/2018
+ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],StopAsync method, IWDTFSimpleIOStressAction2.StopAsync, IWDTFSimpleIOStressAction2::StopAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, StopAsync, StopAsync method [Windows Device Testing Framework], StopAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_stopasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFSimpleIOStressAction2.StopAsync
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimpleIOStressAction2::StopAsync method
+# IWDTFSimpleIOStressAction2::StopAsync
 
 
 ## -description

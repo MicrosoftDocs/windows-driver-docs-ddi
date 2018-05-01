@@ -7,7 +7,7 @@ old-location: kernel\kequeryactiveprocessorcountex.htm
 old-project: kernel
 ms.assetid: 3884eb16-56a0-4b48-abf3-a74794b2c996
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeQueryActiveProcessorCountEx, KeQueryActiveProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_7cd9a091-c100-4b0c-9ea0-9b831407d5a1.xml, kernel.kequeryactiveprocessorcountex, wdm/KeQueryActiveProcessorCountEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeQueryActiveProcessorCountEx
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryActiveProcessorCountEx function

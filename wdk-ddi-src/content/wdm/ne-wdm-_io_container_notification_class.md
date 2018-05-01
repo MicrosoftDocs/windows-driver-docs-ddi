@@ -7,7 +7,7 @@ old-location: kernel\io_container_notification_class.htm
 old-project: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerNotificationClass, IoSessionStateNotification, _IO_CONTAINER_NOTIFICATION_CLASS, kernel.io_container_notification_class, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, wdm/IoSessionStateNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: IO_CONTAINER_NOTIFICATION_CLASS
-req.product: Windows 10 or later.
 ---
 
 # _IO_CONTAINER_NOTIFICATION_CLASS enumeration

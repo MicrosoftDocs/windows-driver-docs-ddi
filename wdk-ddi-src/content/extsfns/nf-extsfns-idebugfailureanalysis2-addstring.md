@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddString
-title: IDebugFailureAnalysis2::AddString method
+title: IDebugFailureAnalysis2::AddString
 author: windows-driver-content
 description: The AddExtensionCommand method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified debugger command.
 old-location: debugger\idebugfailureanalysis2_addextensioncommand.htm
 old-project: debugger
 ms.assetid: 370A4EBA-80BF-46B2-8F52-9F04A4EC98D7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddString method [Windows Debugging], AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, AddString,IDebugFailureAnalysis2.AddString, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, IDebugFailureAnalysis2::AddString, debugger.idebugfailureanalysis2_addextensioncommand, extsfns/IDebugFailureAnalysis2::AddString
+ms.date: 4/24/2018
+ms.keywords: AddString, AddString method [Windows Debugging], AddString method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddString method, IDebugFailureAnalysis2.AddString, IDebugFailureAnalysis2::AddString, debugger.idebugfailureanalysis2_addextensioncommand, extsfns/IDebugFailureAnalysis2::AddString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.AddString
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::AddString method
+# IDebugFailureAnalysis2::AddString
 
 
 ## -description
@@ -62,7 +62,7 @@ The <b>AddExtensionCommand</b> method adds a new <a href="https://msdn.microsoft
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_EXTENSION_CMD</b> or <b>DEBUG_FA_ENTRY_ANSI_STRING</b>.
 
 
-#### - Str [in]
+### -param Str [in]
 
 A pointer to a null-terminated ANSI string that is the debugger command. An example of debugger command is "!analyze -v".
 

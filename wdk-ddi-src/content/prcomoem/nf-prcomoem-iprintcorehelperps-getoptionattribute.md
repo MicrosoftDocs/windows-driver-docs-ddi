@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.GetOptionAttribute
-title: IPrintCoreHelperPS::GetOptionAttribute method
+title: IPrintCoreHelperPS::GetOptionAttribute
 author: windows-driver-content
 description: The IPrintCoreHelperPS::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcorehelperps_getoptionattribute.htm
 old-project: print
 ms.assetid: 66e794e6-ded0-41b1-b52b-d886bb58a4ff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreHelperPS interface, GetOptionAttribute,IPrintCoreHelperPS.GetOptionAttribute, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetOptionAttribute method, IPrintCoreHelperPS::GetOptionAttribute, prcomoem/IPrintCoreHelperPS::GetOptionAttribute, print.iprintcorehelperps_getoptionattribute, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml
+ms.date: 4/20/2018
+ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetOptionAttribute method, IPrintCoreHelperPS.GetOptionAttribute, IPrintCoreHelperPS::GetOptionAttribute, prcomoem/IPrintCoreHelperPS::GetOptionAttribute, print.iprintcorehelperps_getoptionattribute, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreHelperPS.GetOptionAttribute
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperPS::GetOptionAttribute method
+# IPrintCoreHelperPS::GetOptionAttribute
 
 
 ## -description

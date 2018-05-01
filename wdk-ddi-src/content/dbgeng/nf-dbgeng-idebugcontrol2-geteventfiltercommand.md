@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetEventFilterCommand
-title: IDebugControl2::GetEventFilterCommand method
+title: IDebugControl2::GetEventFilterCommand
 author: windows-driver-content
 description: The GetEventFilterCommand method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommand.htm
 old-project: debugger
 ms.assetid: ea88d1de-70c1-424a-a3a0-cce46cc3fe39
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand method [Windows Debugging], IDebugControl interface, GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, GetEventFilterCommand,IDebugControl2.GetEventFilterCommand, IDebugControl interface [Windows Debugging], GetEventFilterCommand method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method, IDebugControl2::GetEventFilterCommand, IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, IDebugControl3::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, dbgeng/IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, dbgeng/IDebugControl::GetEventFilterCommand, debugger.geteventfiltercommand
+ms.date: 4/24/2018
+ms.keywords: GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand method [Windows Debugging],IDebugControl interface, GetEventFilterCommand method [Windows Debugging],IDebugControl2 interface, GetEventFilterCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEventFilterCommand method, IDebugControl2 interface [Windows Debugging],GetEventFilterCommand method, IDebugControl2.GetEventFilterCommand, IDebugControl2::GetEventFilterCommand, IDebugControl3 interface [Windows Debugging],GetEventFilterCommand method, IDebugControl3::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, dbgeng/IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, dbgeng/IDebugControl::GetEventFilterCommand, debugger.geteventfiltercommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetEventFilterCommand
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetEventFilterCommand method
+# IDebugControl2::GetEventFilterCommand
 
 
 ## -description

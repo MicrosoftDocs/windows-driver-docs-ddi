@@ -7,7 +7,7 @@ old-location: kernel\thermal_cooling_interface.htm
 old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, poclass/PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

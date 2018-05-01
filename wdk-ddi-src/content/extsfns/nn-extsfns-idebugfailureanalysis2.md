@@ -7,8 +7,8 @@ old-location: debugger\idebugfailureanalysis2.htm
 old-project: debugger
 ms.assetid: 0B44FCB9-D23F-4630-9F9A-FBAD46712B14
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
+ms.date: 4/24/2018
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging],described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugFailureAnalysis2
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
 # IDebugFailureAnalysis2 interface

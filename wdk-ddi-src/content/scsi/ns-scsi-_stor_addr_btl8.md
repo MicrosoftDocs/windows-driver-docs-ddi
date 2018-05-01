@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
-req.product: Windows 10 or later.
 ---
 
 # _STOR_ADDR_BTL8 structure

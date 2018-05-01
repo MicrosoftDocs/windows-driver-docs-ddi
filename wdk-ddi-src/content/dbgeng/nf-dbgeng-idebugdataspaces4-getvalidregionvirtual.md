@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.GetValidRegionVirtual
-title: IDebugDataSpaces4::GetValidRegionVirtual method
+title: IDebugDataSpaces4::GetValidRegionVirtual
 author: windows-driver-content
 description: The GetValidRegionVirtual method locates the first valid region of memory in a specified memory range.
 old-location: debugger\getvalidregionvirtual.htm
 old-project: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, GetValidRegionVirtual,IDebugDataSpaces4.GetValidRegionVirtual, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, debugger.getvalidregionvirtual
+ms.date: 4/24/2018
+ms.keywords: GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetValidRegionVirtual method, IDebugDataSpaces4.GetValidRegionVirtual, IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, debugger.getvalidregionvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugDataSpaces4.GetValidRegionVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::GetValidRegionVirtual method
+# IDebugDataSpaces4::GetValidRegionVirtual
 
 
 ## -description

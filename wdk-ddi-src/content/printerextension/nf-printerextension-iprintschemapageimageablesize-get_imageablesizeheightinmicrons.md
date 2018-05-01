@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons
-title: IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons method
+title: IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
 author: windows-driver-content
 description: Gets the vertical dimension of the application media size relative to the page orientation.
 old-location: print\iprintschemapageimageablesize_imageablesizeheightinmicrons.htm
 old-project: print
 ms.assetid: 4F46B3C5-9751-4594-9FFD-D3E6180FAFBD
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], ImageableSizeHeightInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons, ImageableSizeHeightInMicrons property [Print Devices], ImageableSizeHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, get_ImageableSizeHeightInMicrons, get_ImageableSizeHeightInMicrons,IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons, print.iprintschemapageimageablesize_imageablesizeheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],ImageableSizeHeightInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons, ImageableSizeHeightInMicrons property [Print Devices], ImageableSizeHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_ImageableSizeHeightInMicrons, print.iprintschemapageimageablesize_imageablesizeheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons method
+# IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
 
 
 ## -description

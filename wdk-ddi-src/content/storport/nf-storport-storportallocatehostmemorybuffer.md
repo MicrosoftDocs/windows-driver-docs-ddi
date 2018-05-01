@@ -40,8 +40,7 @@ api_name:
 -	StorPortAllocateHostMemoryBuffer
 product: Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortAllocateHostMemoryBuffer function

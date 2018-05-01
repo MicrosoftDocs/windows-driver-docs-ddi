@@ -7,8 +7,8 @@ old-location: display\dxgkddicalibrategpuclock.htm
 old-project: display
 ms.assetid: AF912508-D6EF-450D-AEC3-47D1C44D0DA0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_CALIBRATEGPUCLOCK, DxgkDdiCalibrateGpuClock, DxgkDdiCalibrateGpuClock callback function [Display Devices], d3dkmddi/DxgkDdiCalibrateGpuClock, display.dxgkddicalibrategpuclock
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_CALIBRATEGPUCLOCK, DXGKDDI_CALIBRATEGPUCLOCK callback, DxgkDdiCalibrateGpuClock, DxgkDdiCalibrateGpuClock callback function [Display Devices], d3dkmddi/DxgkDdiCalibrateGpuClock, display.dxgkddicalibrategpuclock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiCalibrateGpuClock
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_CALIBRATEGPUCLOCK callback
+# DXGKDDI_CALIBRATEGPUCLOCK callback function
 
 
 ## -description

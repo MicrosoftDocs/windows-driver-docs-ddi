@@ -7,7 +7,7 @@ old-location: display\dxgk_patchflags.htm
 old-project: display
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS, display.dxgk_patchflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -90,7 +90,7 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 [in] A member in the union that DXGK_PATCHFLAGS contains that can hold a 32-bit value that identifies information about the DMA buffer that requires patching.
 

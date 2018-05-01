@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_openadapter.htm
 old-project: display
 ms.assetid: ac1bf173-8c18-4bb4-9a85-79b59f27ee55
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, d3d10umddi/D3D10DDIARG_OPENADAPTER, display.d3d10ddiarg_openadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,12 +84,12 @@ The driver is required only to monitor the high 16 bits. The driver should ensur
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544350">D3DDDI_ADAPTERCALLBACKS</a> structure that contains the Direct3D runtime-supplied <b>pfnQueryAdapterInfoCb</b> callback function that the driver can use.
 
 
-#### - pAdapterFuncs
+### -field pAdapterFuncs
 
 [out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541811">D3D10DDI_ADAPTERFUNCS</a> structure that contains a table of user-mode display driver adapter-specific functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver about operations that are specific to the graphics adapter.
 
 
-#### - pAdapterFuncs_2
+### -field pAdapterFuncs_2
 
 Supported in Windows 7 and later versions.
 

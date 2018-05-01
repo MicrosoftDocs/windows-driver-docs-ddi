@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetUlong
-title: IDebugFailureAnalysis2::SetUlong method
+title: IDebugFailureAnalysis2::SetUlong
 author: windows-driver-content
 description: The SetUlong method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified ULONG value.
 old-location: debugger\idebugfailureanalysis2_setulong.htm
 old-project: debugger
 ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, IDebugFailureAnalysis2::SetUlong, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, SetUlong,IDebugFailureAnalysis2.SetUlong, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, extsfns/IDebugFailureAnalysis2::SetUlong
+ms.date: 4/24/2018
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetUlong method, IDebugFailureAnalysis2.SetUlong, IDebugFailureAnalysis2::SetUlong, SetUlong, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, extsfns/IDebugFailureAnalysis2::SetUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFailureAnalysis2.SetUlong
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::SetUlong method
+# IDebugFailureAnalysis2::SetUlong
 
 
 ## -description

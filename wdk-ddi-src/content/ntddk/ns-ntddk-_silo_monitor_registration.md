@@ -7,7 +7,7 @@ old-location: kernel\silo_monitor_registration.htm
 old-project: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], _SILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, ntddk/PSILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,6 +75,16 @@ If <b>true</b>, create and terminate notifications will be delivered for any sil
 ### -field Reserved
 
 Reserved for system use.
+
+
+### -field DriverObjectName
+
+ 
+
+
+### -field ComponentName
+
+ 
 
 
 ### -field CreateCallback

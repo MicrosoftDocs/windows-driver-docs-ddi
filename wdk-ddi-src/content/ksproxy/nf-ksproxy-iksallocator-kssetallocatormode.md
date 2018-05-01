@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsSetAllocatorMode
-title: IKsAllocator::KsSetAllocatorMode method
+title: IKsAllocator::KsSetAllocatorMode
 author: windows-driver-content
 description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
 old-project: stream
 ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], KsSetAllocatorMode method, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, KsSetAllocatorMode,IKsAllocator.KsSetAllocatorMode, ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode
+ms.date: 4/23/2018
+ms.keywords: IKsAllocator interface [Streaming Media Devices],KsSetAllocatorMode method, IKsAllocator.KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], KsSetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsAllocator.KsSetAllocatorMode
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocator::KsSetAllocatorMode method
+# IKsAllocator::KsSetAllocatorMode
 
 
 ## -description

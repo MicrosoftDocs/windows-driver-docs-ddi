@@ -7,7 +7,7 @@ old-location: netvista\wdi_data_rate_flags.htm
 old-project: netvista
 ms.assetid: 937D1C48-AC5A-4D55-8722-BDC1192613A9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_DATA_RATE_FLAGS, WDI_DATA_RATE_FLAGS enumeration [Device and Driver Installation], WDI_DATA_RATE_NON_STANDARD, WDI_DATA_RATE_RX_RATE, WDI_DATA_RATE_TX_RATE, _WDI_DATA_RATE_FLAGS, netvista.wdi_data_rate_flags, netvista.wifi_data_rate_flags, wditypes/WDI_DATA_RATE_FLAGS, wditypes/WDI_DATA_RATE_NON_STANDARD, wditypes/WDI_DATA_RATE_RX_RATE, wditypes/WDI_DATA_RATE_TX_RATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_DATA_RATE_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _WDI_DATA_RATE_FLAGS enumeration

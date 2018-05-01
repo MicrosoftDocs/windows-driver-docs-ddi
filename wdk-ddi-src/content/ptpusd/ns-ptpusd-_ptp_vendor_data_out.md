@@ -7,7 +7,7 @@ old-location: image\ptp_vendor_data_out.htm
 old-project: image
 ms.assetid: 2585c7ce-6dba-491a-86c1-5ee69f28136f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], PTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], _PTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, ptpusd/PPTP_VENDOR_DATA_OUT, ptpusd/PTP_VENDOR_DATA_OUT, wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
 ---
 
 # _PTP_VENDOR_DATA_OUT structure

@@ -7,7 +7,7 @@ old-location: display\videoportisnovesa.htm
 old-project: display
 ms.assetid: e3de4e58-c3e7-426f-bc96-b45cad6b5807
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortIsNoVesa, VideoPortIsNoVesa function [Display Devices], VideoPort_Functions_b3e65276-fa78-4599-a3e1-fa097cd86e70.xml, display.videoportisnovesa, video/VideoPortIsNoVesa
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	VideoPortIsNoVesa
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortIsNoVesa function

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTF2.get_Log
-title: IWDTF2::get_Log method
+title: IWDTF2::get_Log
 author: windows-driver-content
 description: Gets the WDTF log object.
 old-location: dtf\iwdtf2_log.htm
 old-project: dtf
 ms.assetid: 4c229367-bcdc-466f-ae38-f5c56ae4b840
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTF2, IWDTF2 interface [Windows Device Testing Framework], Log property, IWDTF2.Log, IWDTF2::get_Log, Log property [Windows Device Testing Framework], Log property [Windows Device Testing Framework], IWDTF2 interface, Microsoft.WDTF.IWDTF2.Log, Microsoft::WDTF::IWDTF2::Log, dtf.iwdtf2_log, get_Log,IWDTF2.get_Log, wdtf/IWDTF2::Log, wdtf/IWDTF2::get_Log
+ms.date: 4/4/2018
+ms.keywords: IWDTF2 interface [Windows Device Testing Framework],Log property, IWDTF2.Log, IWDTF2.get_Log, IWDTF2::Log, IWDTF2::get_Log, Log property [Windows Device Testing Framework], Log property [Windows Device Testing Framework],IWDTF2 interface, Microsoft.WDTF.IWDTF2.Log, Microsoft::WDTF::IWDTF2::Log, dtf.iwdtf2_log, get_Log, wdtf/IWDTF2::Log, wdtf/IWDTF2::get_Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTF2.get_Log
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTF2::get_Log method
+# IWDTF2::get_Log
 
 
 ## -description

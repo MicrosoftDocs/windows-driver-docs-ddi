@@ -7,8 +7,8 @@ old-location: buses\evt_urs_device_filter_resource_requirements.htm
 old-project: usbref
 ms.assetid: E5CFA6CF-1EB3-41FA-BAE4-A030737F220D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
+ms.date: 4/25/2018
+ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 product: Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback
+# EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function
 
 
 ## -description

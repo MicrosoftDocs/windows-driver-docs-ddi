@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_USB_DEVICE_CREATE_CONFIG, *PWDF_USB_DEVICE_CREATE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_DEVICE_CREATE_CONFIG structure

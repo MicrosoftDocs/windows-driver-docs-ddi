@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PushOutputLinePrefixWide
-title: IDebugClient5::PushOutputLinePrefixWide method
+title: IDebugClient5::PushOutputLinePrefixWide
 author: windows-driver-content
 description: Saves a wide string output line prefix.
 old-location: debugger\idebugclient5_pushoutputlineprefixwide.htm
 old-project: debugger
 ms.assetid: B3D4AE97-9CDB-425D-A04B-E164852FDF19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefixWide,IDebugClient5.PushOutputLinePrefixWide, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],PushOutputLinePrefixWide method, IDebugClient5.PushOutputLinePrefixWide, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient5.PushOutputLinePrefixWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::PushOutputLinePrefixWide method
+# IDebugClient5::PushOutputLinePrefixWide
 
 
 ## -description

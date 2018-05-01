@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetLineByInlineContext
-title: IDebugSymbols4::GetLineByInlineContext method
+title: IDebugSymbols4::GetLineByInlineContext
 author: windows-driver-content
 description: Gets a line by inline context.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontext.htm
 old-project: debugger
 ms.assetid: AFDB4DB4-3C63-44A0-88D7-C8047ECB2261
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetLineByInlineContext method [Windows Debugging], GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface, GetLineByInlineContext,IDebugSymbols4.GetLineByInlineContext, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, IDebugSymbols4::GetLineByInlineContext, dbgeng/IDebugSymbols4::GetLineByInlineContext, debugger.idebugsymbols4_getlinebyinlinecontext
+ms.date: 4/24/2018
+ms.keywords: GetLineByInlineContext, GetLineByInlineContext method [Windows Debugging], GetLineByInlineContext method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContext method, IDebugSymbols4.GetLineByInlineContext, IDebugSymbols4::GetLineByInlineContext, dbgeng/IDebugSymbols4::GetLineByInlineContext, debugger.idebugsymbols4_getlinebyinlinecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols4.GetLineByInlineContext
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols4::GetLineByInlineContext method
+# IDebugSymbols4::GetLineByInlineContext
 
 
 ## -description

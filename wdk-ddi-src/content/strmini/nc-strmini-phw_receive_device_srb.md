@@ -7,7 +7,7 @@ old-location: stream\strminireceivedevicepacket.htm
 old-project: stream
 ms.assetid: 51d8a18d-cd90-4fac-a991-6c0de505576e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PHW_RECEIVE_DEVICE_SRB, StrMiniReceiveDevicePacket, StrMiniReceiveDevicePacket routine [Streaming Media Devices], stream.strminireceivedevicepacket, strmini-routines_5c9f03d0-a2b0-4078-8ef8-d84cf150355c.xml, strmini/StrMiniReceiveDevicePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	StrMiniReceiveDevicePacket
 product: Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PHW_RECEIVE_DEVICE_SRB callback
+# PHW_RECEIVE_DEVICE_SRB callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: print\drvupdateuisetting.htm
 old-project: print
 ms.assetid: 37f8ab73-ff81-4150-b1f6-faec5ca76908
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting callback function [Print Devices], PFN_DrvUpdateUISetting, print.drvupdateuisetting, print_obsoletefunctions_8982b302-4efb-4a54-a3ae-a27c2dd0baa9.xml, printoem/DrvUpdateUISetting
+ms.date: 4/20/2018
+ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting callback function [Print Devices], PFN_DrvUpdateUISetting, PFN_DrvUpdateUISetting callback, print.drvupdateuisetting, print_obsoletefunctions_8982b302-4efb-4a54-a3ae-a27c2dd0baa9.xml, printoem/DrvUpdateUISetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	DrvUpdateUISetting
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvUpdateUISetting callback
+# PFN_DrvUpdateUISetting callback function
 
 
 ## -description

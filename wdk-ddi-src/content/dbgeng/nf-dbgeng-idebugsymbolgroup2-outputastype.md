@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.OutputAsType
-title: IDebugSymbolGroup2::OutputAsType method
+title: IDebugSymbolGroup2::OutputAsType
 author: windows-driver-content
 description: The OutputAsType method changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
 old-location: debugger\outputastype.htm
 old-project: debugger
 ms.assetid: ab8c19c8-73c0-4c70-9a5d-9cf9d182157d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsType,IDebugSymbolGroup2.OutputAsType, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype
+ms.date: 4/24/2018
+ms.keywords: ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup interface [Windows Debugging],OutputAsType method, IDebugSymbolGroup2 interface [Windows Debugging],OutputAsType method, IDebugSymbolGroup2.OutputAsType, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging],IDebugSymbolGroup interface, OutputAsType method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugSymbolGroup2.OutputAsType
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup2::OutputAsType method
+# IDebugSymbolGroup2::OutputAsType
 
 
 ## -description

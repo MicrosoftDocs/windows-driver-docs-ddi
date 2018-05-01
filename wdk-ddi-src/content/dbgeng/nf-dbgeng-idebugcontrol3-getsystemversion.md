@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetSystemVersion
-title: IDebugControl3::GetSystemVersion method
+title: IDebugControl3::GetSystemVersion
 author: windows-driver-content
 description: The GetSystemVersion method returns information that identifies the operating system on the computer that is running the current target.
 old-location: debugger\getsystemversion.htm
 old-project: debugger
 ms.assetid: 9418ac12-3de0-4477-a725-437700c4d83c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSystemVersion method [Windows Debugging], GetSystemVersion method [Windows Debugging], IDebugControl interface, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, GetSystemVersion,IDebugControl3.GetSystemVersion, IDebugControl interface [Windows Debugging], GetSystemVersion method, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, IDebugControl2::GetSystemVersion, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl3::GetSystemVersion, IDebugControl::GetSystemVersion, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, dbgeng/IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, dbgeng/IDebugControl::GetSystemVersion, debugger.getsystemversion
+ms.date: 4/24/2018
+ms.keywords: GetSystemVersion, GetSystemVersion method [Windows Debugging], GetSystemVersion method [Windows Debugging],IDebugControl interface, GetSystemVersion method [Windows Debugging],IDebugControl2 interface, GetSystemVersion method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSystemVersion method, IDebugControl2 interface [Windows Debugging],GetSystemVersion method, IDebugControl2::GetSystemVersion, IDebugControl3 interface [Windows Debugging],GetSystemVersion method, IDebugControl3.GetSystemVersion, IDebugControl3::GetSystemVersion, IDebugControl::GetSystemVersion, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, dbgeng/IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, dbgeng/IDebugControl::GetSystemVersion, debugger.getsystemversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetSystemVersion
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetSystemVersion method
+# IDebugControl3::GetSystemVersion
 
 
 ## -description

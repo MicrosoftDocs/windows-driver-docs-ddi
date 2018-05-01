@@ -7,8 +7,8 @@ old-location: display\d3dkmtcheckocclusion.htm
 old-project: display
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, PFND3DKMT_CHECKOCCLUSION callback, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ api_name:
 -	D3DKMTCheckOcclusion
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTCheckOcclusion function

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_CONFIG, *PWDF_TASK_QUEUE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_TASK_QUEUE_CONFIG structure

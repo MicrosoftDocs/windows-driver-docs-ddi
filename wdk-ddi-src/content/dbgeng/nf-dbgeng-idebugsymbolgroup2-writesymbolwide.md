@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.WriteSymbolWide
-title: IDebugSymbolGroup2::WriteSymbolWide method
+title: IDebugSymbolGroup2::WriteSymbolWide
 author: windows-driver-content
 description: The WriteSymbolWide method sets the value of the specified symbol.
 old-location: debugger\writesymbolwide.htm
 old-project: debugger
 ms.assetid: ed77fddf-c23c-4522-a2c4-875f07d249fb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide method [Windows Debugging], WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbolWide,IDebugSymbolGroup2.WriteSymbolWide, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, debugger.writesymbolwide
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],WriteSymbolWide method, IDebugSymbolGroup2.WriteSymbolWide, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide, WriteSymbolWide method [Windows Debugging], WriteSymbolWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, debugger.writesymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbolGroup2.WriteSymbolWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup2::WriteSymbolWide method
+# IDebugSymbolGroup2::WriteSymbolWide
 
 
 ## -description

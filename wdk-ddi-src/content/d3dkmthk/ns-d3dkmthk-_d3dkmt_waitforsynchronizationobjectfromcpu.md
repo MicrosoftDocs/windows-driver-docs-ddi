@@ -7,7 +7,7 @@ old-location: display\d3dkmt_waitforsynchronizationobjectfromcpu.htm
 old-project: display
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices

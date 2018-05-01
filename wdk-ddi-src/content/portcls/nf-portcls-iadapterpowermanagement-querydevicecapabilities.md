@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.QueryDeviceCapabilities
-title: IAdapterPowerManagement::QueryDeviceCapabilities method
+title: IAdapterPowerManagement::QueryDeviceCapabilities
 author: windows-driver-content
 description: The QueryDeviceCapabilities method is called by PortCls in response to a Plug and Play IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: audio\iadapterpowermanagement_querydevicecapabilities.htm
 old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, QueryDeviceCapabilities,IAdapterPowerManagement.QueryDeviceCapabilities, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
+ms.date: 4/16/2018
+ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryDeviceCapabilities method, IAdapterPowerManagement.QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IAdapterPowerManagement.QueryDeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IAdapterPowerManagement::QueryDeviceCapabilities method
+# IAdapterPowerManagement::QueryDeviceCapabilities
 
 
 ## -description

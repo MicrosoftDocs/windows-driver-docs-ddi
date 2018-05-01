@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.GetInfo
-title: IPrintOemUI::GetInfo method
+title: IPrintOemUI::GetInfo
 author: windows-driver-content
 description: A user interface plug-in's IPrintOemUI::GetInfo method returns identification information.
 old-location: print\iprintoemui_getinfo.htm
 old-project: print
 ms.assetid: be1eb547-f824-4d6d-818f-8ac1740d1d24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetInfo method [Print Devices], GetInfo method [Print Devices], IPrintOemUI interface, GetInfo,IPrintOemUI.GetInfo, IPrintOemUI, IPrintOemUI interface [Print Devices], GetInfo method, IPrintOemUI::GetInfo, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml
+ms.date: 4/20/2018
+ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],GetInfo method, IPrintOemUI.GetInfo, IPrintOemUI::GetInfo, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.GetInfo
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::GetInfo method
+# IPrintOemUI::GetInfo
 
 
 ## -description

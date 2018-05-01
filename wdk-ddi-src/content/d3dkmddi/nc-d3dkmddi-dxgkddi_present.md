@@ -7,8 +7,8 @@ old-location: display\dxgkddipresent.htm
 old-project: display
 ms.assetid: 1a46b129-1e78-44e6-a609-59eab206692b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_PRESENT, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml, DxgkDdiPresent, DxgkDdiPresent callback function [Display Devices], d3dkmddi/DxgkDdiPresent, display.dxgkddipresent
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_PRESENT, DXGKDDI_PRESENT callback, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml, DxgkDdiPresent, DxgkDdiPresent callback function [Display Devices], d3dkmddi/DxgkDdiPresent, display.dxgkddipresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiPresent
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_PRESENT callback
+# DXGKDDI_PRESENT callback function
 
 
 ## -description

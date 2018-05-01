@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmatransmitcleanuptransaction.htm
 old-project: serports
 ms.assetid: DAC33D61-F85C-43A7-9F4D-AA31F8CA4430
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaTransmitCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION, EvtSerCx2SystemDmaTransmitCleanupTransaction, EvtSerCx2SystemDmaTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitcleanuptransaction
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaTransmitCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaTransmitCleanupTransaction, EvtSerCx2SystemDmaTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitcleanuptransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCx2SystemDmaTransmitCleanupTransaction
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback
+# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback function
 
 
 ## -description

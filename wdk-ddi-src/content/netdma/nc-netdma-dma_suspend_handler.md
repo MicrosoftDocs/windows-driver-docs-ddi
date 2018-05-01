@@ -7,8 +7,8 @@ old-location: netvista\providersuspenddma.htm
 old-project: netvista
 ms.assetid: b020b0c6-eb69-44d0-a374-b39eb2f536f1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DMA_SUSPEND_HANDLER, ProviderSuspendDma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml, netvista.providersuspenddma
+ms.date: 4/25/2018
+ms.keywords: DMA_SUSPEND_HANDLER, DMA_SUSPEND_HANDLER callback, ProviderSuspendDma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml, netvista.providersuspenddma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProviderSuspendDma
 product: Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_SUSPEND_HANDLER callback
+# DMA_SUSPEND_HANDLER callback function
 
 
 ## -description

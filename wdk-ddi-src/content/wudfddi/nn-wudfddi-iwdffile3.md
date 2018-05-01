@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface, described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
+ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface,described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: WUDFx.dll
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IWDFFile3
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFFile3 interface

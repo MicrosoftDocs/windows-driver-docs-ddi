@@ -7,8 +7,8 @@ old-location: display\dxgkddigetbrightnesscaps.htm
 old-project: display
 ms.assetid: 3418dd2b-63cb-411f-9bae-390148885907
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DXGK_BRIGHTNESS_GET_CAPS callback, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiGetBrightnessCaps
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_GET_CAPS callback
+# DXGK_BRIGHTNESS_GET_CAPS callback function
 
 
 ## -description

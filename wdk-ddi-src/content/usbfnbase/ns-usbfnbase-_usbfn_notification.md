@@ -7,7 +7,7 @@ old-location: buses\usbfn_notification.htm
 old-project: usbref
 ms.assetid: 84B66823-F357-44DD-A401-79E27FA6B324
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], USBFN_NOTIFICATION, USBFN_NOTIFICATION structure [Buses], _USBFN_NOTIFICATION, buses.usbfn_notification, usbfnbase/PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBFN_NOTIFICATION, *PUSBFN_NOTIFICATION
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_NOTIFICATION structure
@@ -68,32 +67,27 @@ Bus notification indicated by a <a href="https://msdn.microsoft.com/library/wind
 ### -field u
 
 
-
-#### BusSpeed
+### -field u.BusSpeed
 
 The operating bus speed indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>-typed flags.
 
 
-
-#### SetupPacket
+### -field u.SetupPacket
 
 Describes a setup packet in a  <b>USB_DEFAULT_PIPE_SETUP_PACKET</b> structure for a control transfer to or from the default endpoint as indicated by a <b>USB_DEFAULT_PIPE_SETUP_PACKET</b>-typed flag.
 
 
-
-#### ConfigurationValue
+### -field u.ConfigurationValue
 
 The <b>bConfigurationValue</b> field of a USB configuration descriptor.
 
 
-
-#### PortType
+### -field u.PortType
 
 Possible port types supported by a function controller indicated by a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a>-typed flag.
 
 
-
-#### AlternateInterface
+### -field u.AlternateInterface
 
 Alternate setting of the interface indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187816">ALTERNATE_INTERFACE</a>.
 

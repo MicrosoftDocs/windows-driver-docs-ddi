@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createhwqueue.htm
 old-project: display
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE structure [Display Devices], _D3DKMT_CREATEHWQUEUE, d3dkmthk/D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

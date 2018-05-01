@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_FIXSESSIONTYPE
 title: GNSS_FIXSESSIONTYPE
 author: windows-driver-content
 description: This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an IOCTL_GNSS_START_FIXSESSION control code. This enumeration is set within the GNSS_FIXSESSION_PARAM structure.
-old-location: sensors\gnss_fixsessiontype.htm
-old-project: sensors
+old-location: gnss\gnss_fixsessiontype.htm
+old-project: gnss
 ms.assetid: CE611168-76B3-496F-91C7-932E1F259529
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_ContinuousTracking, GNSS_FixSession_DistanceTracking, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot, sensors.gnss_fixsessiontype
+ms.date: 2/15/2018
+ms.keywords: GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_ContinuousTracking, GNSS_FixSession_DistanceTracking, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, gnss.gnss_fixsessiontype, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

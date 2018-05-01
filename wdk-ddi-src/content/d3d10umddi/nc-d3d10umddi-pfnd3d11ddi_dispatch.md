@@ -7,8 +7,8 @@ old-location: display\dispatch.htm
 old-project: display
 ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
+ms.date: 4/16/2018
+ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, PFND3D11DDI_DISPATCH callback, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	Dispatch
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_DISPATCH callback
+# PFND3D11DDI_DISPATCH callback function
 
 
 ## -description

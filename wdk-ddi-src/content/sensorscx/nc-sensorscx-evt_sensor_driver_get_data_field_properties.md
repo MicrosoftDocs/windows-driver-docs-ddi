@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
+ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSensorGetDataFieldProperties
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback
+# EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function
 
 
 ## -description

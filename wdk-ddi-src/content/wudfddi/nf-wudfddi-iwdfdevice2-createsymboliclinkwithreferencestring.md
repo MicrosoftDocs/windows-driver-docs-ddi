@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateSymbolicLinkWithReferenceString
-title: IWDFDevice2::CreateSymbolicLinkWithReferenceString method
+title: IWDFDevice2::CreateSymbolicLinkWithReferenceString
 author: windows-driver-content
 description: TheCreateSymbolicLinkWithReferenceString method creates a symbolic link name, and optionally, a reference string, for a device.
 old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString,IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
+ms.keywords: CreateSymbolicLinkWithReferenceString, CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method,IWDFDevice2 interface, IWDFDevice2 interface,CreateSymbolicLinkWithReferenceString method, IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice2.CreateSymbolicLinkWithReferenceString
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice2::CreateSymbolicLinkWithReferenceString method
+# IWDFDevice2::CreateSymbolicLinkWithReferenceString
 
 
 ## -description

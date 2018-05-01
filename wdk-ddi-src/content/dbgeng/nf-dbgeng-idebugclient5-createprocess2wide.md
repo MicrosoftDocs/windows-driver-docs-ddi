@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcess2Wide
-title: IDebugClient5::CreateProcess2Wide method
+title: IDebugClient5::CreateProcess2Wide
 author: windows-driver-content
 description: The CreateProcess2Wide method executes the specified command to create a new process.
 old-location: debugger\createprocess2wide.htm
 old-project: debugger
 ms.assetid: b032ca68-5ac5-4a19-84fe-92058905a1d7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateProcess2Wide method [Windows Debugging], CreateProcess2Wide method [Windows Debugging], IDebugClient5 interface, CreateProcess2Wide,IDebugClient5.CreateProcess2Wide, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcess2Wide method, IDebugClient5::CreateProcess2Wide, dbgeng/IDebugClient5::CreateProcess2Wide, debugger.createprocess2wide
+ms.date: 4/24/2018
+ms.keywords: CreateProcess2Wide, CreateProcess2Wide method [Windows Debugging], CreateProcess2Wide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],CreateProcess2Wide method, IDebugClient5.CreateProcess2Wide, IDebugClient5::CreateProcess2Wide, dbgeng/IDebugClient5::CreateProcess2Wide, debugger.createprocess2wide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient5.CreateProcess2Wide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::CreateProcess2Wide method
+# IDebugClient5::CreateProcess2Wide
 
 
 ## -description

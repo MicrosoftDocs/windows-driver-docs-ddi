@@ -7,7 +7,7 @@ old-location: ifsk\ioisvalidnamegraftingbuffer.htm
 old-project: ifsk
 ms.assetid: 9680724b-15fb-4d46-9fd1-175fa1b71c73
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoIsValidNameGraftingBuffer, IoIsValidNameGraftingBuffer function [Installable File System Drivers], ifsk.ioisvalidnamegraftingbuffer, ioref_10a2f83c-101f-47b3-beca-c708a0749d4d.xml, ntifs/IoIsValidNameGraftingBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoIsValidNameGraftingBuffer
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoIsValidNameGraftingBuffer function

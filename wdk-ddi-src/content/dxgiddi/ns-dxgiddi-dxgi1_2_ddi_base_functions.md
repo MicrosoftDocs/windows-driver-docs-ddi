@@ -7,7 +7,7 @@ old-location: display\dxgi1_2_ddi_base_functions.htm
 old-project: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices

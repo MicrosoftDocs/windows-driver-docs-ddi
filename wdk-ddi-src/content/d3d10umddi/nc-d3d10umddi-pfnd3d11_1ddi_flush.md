@@ -7,8 +7,8 @@ old-location: display\flush_d3d11_1_.htm
 old-project: display
 ms.assetid: 6f4bda19-2d51-4058-ba68-cbb5deb44a54
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Flush(D3D11_1), Flush(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_FLUSH, d3d10umddi/Flush(D3D11_1), display.flush_d3d11_1_
+ms.date: 4/16/2018
+ms.keywords: Flush(D3D11_1), Flush(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_FLUSH, PFND3D11_1DDI_FLUSH callback, d3d10umddi/Flush(D3D11_1), display.flush_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	Flush(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_FLUSH callback
+# PFND3D11_1DDI_FLUSH callback function
 
 
 ## -description

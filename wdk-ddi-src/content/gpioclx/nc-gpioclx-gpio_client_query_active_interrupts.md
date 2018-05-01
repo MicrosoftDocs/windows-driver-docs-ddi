@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 9B47A7B2-90C3-480F-85D8-44DD7E9F0BFA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_QueryActiveInterrupts, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], GPIO.client_queryactiveinterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
+ms.keywords: CLIENT_QueryActiveInterrupts, CLIENT_QueryActiveInterrupts callback, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], GPIO.client_queryactiveinterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CLIENT_QueryActiveInterrupts
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback
+# GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback function
 
 
 ## -description

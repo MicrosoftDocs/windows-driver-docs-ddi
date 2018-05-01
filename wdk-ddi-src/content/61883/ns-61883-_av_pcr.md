@@ -57,19 +57,17 @@ The AV_PCR structure specifies settings for an input or output plug.
 
 
 
-
-
-#### - iPCR
-
-Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537348">IPCR</a> structure that contains initialization values for an input plug.
-
-
-#### - oPCR
+### -field oPCR
 
 Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537441">OPCR</a> structure that contains initialization values for an output plug. 
 
 
-#### - ulongData
+### -field iPCR
+
+Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537348">IPCR</a> structure that contains initialization values for an input plug.
+
+
+### -field ulongData
 
 Reserved for internal use.
 

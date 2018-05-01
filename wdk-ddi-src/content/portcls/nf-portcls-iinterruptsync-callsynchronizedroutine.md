@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IInterruptSync.CallSynchronizedRoutine
-title: IInterruptSync::CallSynchronizedRoutine method
+title: IInterruptSync::CallSynchronizedRoutine
 author: windows-driver-content
 description: The CallSynchronizedRoutine method calls a routine that is not an interrupt service routine (ISR) but whose execution needs to be synchronized with ISRs.
 old-location: audio\iinterruptsync_callsynchronizedroutine.htm
 old-project: audio
 ms.assetid: 9895ee9a-4d8c-4cd4-8df4-fedaf864a178
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine method [Audio Devices], IInterruptSync interface, CallSynchronizedRoutine,IInterruptSync.CallSynchronizedRoutine, IInterruptSync, IInterruptSync interface [Audio Devices], CallSynchronizedRoutine method, IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, portcls/IInterruptSync::CallSynchronizedRoutine
+ms.date: 4/16/2018
+ms.keywords: CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],CallSynchronizedRoutine method, IInterruptSync.CallSynchronizedRoutine, IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, portcls/IInterruptSync::CallSynchronizedRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IInterruptSync.CallSynchronizedRoutine
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IInterruptSync::CallSynchronizedRoutine method
+# IInterruptSync::CallSynchronizedRoutine
 
 
 ## -description

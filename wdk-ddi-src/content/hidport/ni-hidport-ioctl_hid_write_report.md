@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 30b56c97-f135-4603-a5f0-3ed2105aae59
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_WRITE_REPORT, IOCTL_HID_WRITE_REPORT control code [Human Input Devices], hid.ioctl_hid_write_report, hidioreq_0b1eb214-55b0-4659-bdf7-866cf03a7be6.xml, hidport/IOCTL_HID_WRITE_REPORT
+ms.keywords: IOCTL_HID_WRITE_REPORT, IOCTL_HID_WRITE_REPORT control, IOCTL_HID_WRITE_REPORT control code [Human Input Devices], hid.ioctl_hid_write_report, hidioreq_0b1eb214-55b0-4659-bdf7-866cf03a7be6.xml, hidport/IOCTL_HID_WRITE_REPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_HID_WRITE_REPORT
 product: Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_HID_WRITE_REPORT IOCTL

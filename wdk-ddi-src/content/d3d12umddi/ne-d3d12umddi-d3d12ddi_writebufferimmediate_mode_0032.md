@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-writebufferimmediate-mode-0032.htm
 old-project: display
 ms.assetid: 4d968e4c-fb5b-47d6-b4ca-5f9d1d9c4739
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032 enumeration [Display Devices], D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_DEFAULT, D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN, D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_DEFAULT, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT, display.d3d12ddi-writebufferimmediate-mode-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

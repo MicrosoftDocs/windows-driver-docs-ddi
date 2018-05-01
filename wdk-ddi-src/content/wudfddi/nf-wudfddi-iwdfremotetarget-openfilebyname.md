@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.OpenFileByName
-title: IWDFRemoteTarget::OpenFileByName method
+title: IWDFRemoteTarget::OpenFileByName
 author: windows-driver-content
 description: The OpenFileByName method opens a remote I/O target that is a file.
 old-location: wdf\iwdfremotetarget_openfilebyname.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, OpenFileByName method, IWDFRemoteTarget::OpenFileByName, OpenFileByName method, OpenFileByName method, IWDFRemoteTarget interface, OpenFileByName,IWDFRemoteTarget.OpenFileByName, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, umdf.iwdfremotetarget_openfilebyname, wdf.iwdfremotetarget_openfilebyname, wudfddi/IWDFRemoteTarget::OpenFileByName
+ms.keywords: IWDFRemoteTarget interface,OpenFileByName method, IWDFRemoteTarget.OpenFileByName, IWDFRemoteTarget::OpenFileByName, OpenFileByName, OpenFileByName method, OpenFileByName method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, umdf.iwdfremotetarget_openfilebyname, wdf.iwdfremotetarget_openfilebyname, wudfddi/IWDFRemoteTarget::OpenFileByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFRemoteTarget.OpenFileByName
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::OpenFileByName method
+# IWDFRemoteTarget::OpenFileByName
 
 
 ## -description

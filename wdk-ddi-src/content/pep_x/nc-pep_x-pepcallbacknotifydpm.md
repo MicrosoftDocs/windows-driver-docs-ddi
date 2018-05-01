@@ -7,7 +7,7 @@ old-location: kernel\acceptdevicenotification.htm
 old-project: kernel
 ms.assetid: 56446DA9-EAE9-4EEF-9299-892B7384D506
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: AcceptDeviceNotification, AcceptDeviceNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYDPM, kernel.acceptdevicenotification, pepfx/AcceptDeviceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AcceptDeviceNotification
 product: Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: 
 ---
 
-# PEPCALLBACKNOTIFYDPM callback
+# PEPCALLBACKNOTIFYDPM callback function
 
 
 ## -description

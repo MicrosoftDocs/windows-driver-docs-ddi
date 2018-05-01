@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetSystemByServer
-title: IDebugSystemObjects3::GetSystemByServer method
+title: IDebugSystemObjects3::GetSystemByServer
 author: windows-driver-content
 description: Gets the system for a server.
 old-location: debugger\idebugsystemobjects3_getsystembyserver.htm
 old-project: debugger
 ms.assetid: 693CB919-A1D1-4A82-ABE5-2362431A9B92
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer,IDebugSystemObjects3.GetSystemByServer, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, IDebugSystemObjects3::GetSystemByServer, dbgeng/IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver
+ms.date: 4/24/2018
+ms.keywords: GetSystemByServer, GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetSystemByServer method, IDebugSystemObjects3.GetSystemByServer, IDebugSystemObjects3::GetSystemByServer, dbgeng/IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSystemObjects3.GetSystemByServer
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetSystemByServer method
+# IDebugSystemObjects3::GetSystemByServer
 
 
 ## -description

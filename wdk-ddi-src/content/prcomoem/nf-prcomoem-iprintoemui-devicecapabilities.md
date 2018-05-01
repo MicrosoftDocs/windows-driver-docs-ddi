@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DeviceCapabilities
-title: IPrintOemUI::DeviceCapabilities method
+title: IPrintOemUI::DeviceCapabilities
 author: windows-driver-content
 description: The IPrintOemUI::DeviceCapabilities method enables a user interface plug-in to specify customized device capabilities.
 old-location: print\iprintoemui_devicecapabilities.htm
 old-project: print
 ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices], IPrintOemUI interface, DeviceCapabilities,IPrintOemUI.DeviceCapabilities, IPrintOemUI, IPrintOemUI interface [Print Devices], DeviceCapabilities method, IPrintOemUI::DeviceCapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml
+ms.date: 4/20/2018
+ms.keywords: DeviceCapabilities, DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DeviceCapabilities method, IPrintOemUI.DeviceCapabilities, IPrintOemUI::DeviceCapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.DeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::DeviceCapabilities method
+# IPrintOemUI::DeviceCapabilities
 
 
 ## -description

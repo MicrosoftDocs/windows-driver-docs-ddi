@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTTryStopDeviceFailRestart
-title: IWDTFPNPAction2::EDTTryStopDeviceFailRestart method
+title: IWDTFPNPAction2::EDTTryStopDeviceFailRestart
 author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and then fail the subsequent device restart.
 old-location: dtf\iwdtfpnpaction2_edttrystopdevicefailrestart.htm
 old-project: dtf
 ms.assetid: f451f97d-ff56-47ae-b9c6-4f5e3a1dd4bf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTTryStopDeviceFailRestart,IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
+ms.date: 4/4/2018
+ms.keywords: EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFPNPAction2.EDTTryStopDeviceFailRestart
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPAction2::EDTTryStopDeviceFailRestart method
+# IWDTFPNPAction2::EDTTryStopDeviceFailRestart
 
 
 ## -description

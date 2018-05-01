@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_cdma_lang.htm
 old-project: netvista
 ms.assetid: 5294ce07-a4eb-4c21-88f1-04889dfbc1a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_LANG, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, WwanSmsCdmaLangChinese, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangFrench, WwanSmsCdmaLangHebrew, WwanSmsCdmaLangJapanese, WwanSmsCdmaLangKorean, WwanSmsCdmaLangMax, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangUnknown, _WWAN_SMS_CDMA_LANG, netvista.wwan_sms_cdma_lang, wwan/PWWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangEnglish, wwan/WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_SMS_CDMA_LANG, *PWWAN_SMS_CDMA_LANG
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_SMS_CDMA_LANG enumeration

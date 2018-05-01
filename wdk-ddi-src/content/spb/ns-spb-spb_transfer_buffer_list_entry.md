@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_BUFFER_LIST_ENTRY structure

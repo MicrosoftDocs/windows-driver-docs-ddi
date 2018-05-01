@@ -7,8 +7,8 @@ old-location: display\flush_d3d10_.htm
 old-project: display
 ms.assetid: 846f8539-4cb3-41d5-836d-563b7eb0d70b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Flush, Flush callback function [Display Devices], PFND3D10DDI_FLUSH, UserModeDisplayDriverDx10_Functions_35acd3a9-af32-4a8f-b2d6-a4b12f3aebc4.xml, d3d10umddi/Flush, display.flush_d3d10_
+ms.date: 4/16/2018
+ms.keywords: Flush, Flush callback function [Display Devices], PFND3D10DDI_FLUSH, PFND3D10DDI_FLUSH callback, UserModeDisplayDriverDx10_Functions_35acd3a9-af32-4a8f-b2d6-a4b12f3aebc4.xml, d3d10umddi/Flush, display.flush_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	Flush
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_FLUSH callback
+# PFND3D10DDI_FLUSH callback function
 
 
 ## -description

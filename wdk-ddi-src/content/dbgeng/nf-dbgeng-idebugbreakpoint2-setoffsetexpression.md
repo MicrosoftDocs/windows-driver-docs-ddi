@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetOffsetExpression
-title: IDebugBreakpoint2::SetOffsetExpression method
+title: IDebugBreakpoint2::SetOffsetExpression
 author: windows-driver-content
 description: The SetOffsetExpression methods set an expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\setoffsetexpression.htm
 old-project: debugger
 ms.assetid: 63cfb3f2-5240-4cb6-9c23-8cdb363f62a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression,IDebugBreakpoint2.SetOffsetExpression, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression
+ms.date: 4/24/2018
+ms.keywords: ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint interface [Windows Debugging],SetOffsetExpression method, IDebugBreakpoint2 interface [Windows Debugging],SetOffsetExpression method, IDebugBreakpoint2.SetOffsetExpression, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging],IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugBreakpoint2.SetOffsetExpression
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::SetOffsetExpression method
+# IDebugBreakpoint2::SetOffsetExpression
 
 
 ## -description

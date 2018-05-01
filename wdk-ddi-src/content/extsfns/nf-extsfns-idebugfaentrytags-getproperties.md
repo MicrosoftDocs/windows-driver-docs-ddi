@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetProperties
-title: IDebugFAEntryTags::GetProperties method
+title: IDebugFAEntryTags::GetProperties
 author: windows-driver-content
 description: The GetProperties method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_getproperties.htm
 old-project: debugger
 ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetProperties method [Windows Debugging], GetProperties method [Windows Debugging], IDebugFAEntryTags interface, GetProperties,IDebugFAEntryTags.GetProperties, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetProperties method, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
+ms.date: 4/24/2018
+ms.keywords: GetProperties, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetProperties method, IDebugFAEntryTags.GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFAEntryTags.GetProperties
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::GetProperties method
+# IDebugFAEntryTags::GetProperties
 
 
 ## -description

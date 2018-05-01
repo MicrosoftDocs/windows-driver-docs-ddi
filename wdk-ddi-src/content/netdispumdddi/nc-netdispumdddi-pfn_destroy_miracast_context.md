@@ -7,8 +7,8 @@ old-location: display\destroymiracastcontext.htm
 old-project: display
 ms.assetid: 1b155e15-1e4e-45bb-98cc-f1c19923ed2c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
+ms.date: 4/16/2018
+ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, PFN_DESTROY_MIRACAST_CONTEXT callback, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DestroyMiracastContext
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_DESTROY_MIRACAST_CONTEXT callback
+# PFN_DESTROY_MIRACAST_CONTEXT callback function
 
 
 ## -description

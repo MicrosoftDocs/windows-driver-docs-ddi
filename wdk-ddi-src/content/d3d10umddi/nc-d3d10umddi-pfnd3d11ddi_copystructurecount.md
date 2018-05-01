@@ -7,8 +7,8 @@ old-location: display\copystructurecount.htm
 old-project: display
 ms.assetid: 39f20ff3-859f-4933-8be0-e2bb7c05e7e1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CopyStructureCount, CopyStructureCount callback function [Display Devices], PFND3D11DDI_COPYSTRUCTURECOUNT, UserModeDisplayDriverDx11_Functions_b6bad9fd-b0b2-40fa-aa4a-664554984dcd.xml, d3d10umddi/CopyStructureCount, display.copystructurecount
+ms.date: 4/16/2018
+ms.keywords: CopyStructureCount, CopyStructureCount callback function [Display Devices], PFND3D11DDI_COPYSTRUCTURECOUNT, PFND3D11DDI_COPYSTRUCTURECOUNT callback, UserModeDisplayDriverDx11_Functions_b6bad9fd-b0b2-40fa-aa4a-664554984dcd.xml, d3d10umddi/CopyStructureCount, display.copystructurecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CopyStructureCount
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_COPYSTRUCTURECOUNT callback
+# PFND3D11DDI_COPYSTRUCTURECOUNT callback function
 
 
 ## -description

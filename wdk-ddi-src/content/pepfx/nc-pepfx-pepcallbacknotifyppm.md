@@ -7,7 +7,7 @@ old-location: kernel\acceptprocessornotification.htm
 old-project: kernel
 ms.assetid: 06A8ED06-107E-495F-8664-01477C9CF843
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: AcceptProcessorNotification, AcceptProcessorNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYPPM, kernel.acceptprocessornotification, pepfx/AcceptProcessorNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AcceptProcessorNotification
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
-# PEPCALLBACKNOTIFYPPM callback
+# PEPCALLBACKNOTIFYPPM callback function
 
 
 ## -description

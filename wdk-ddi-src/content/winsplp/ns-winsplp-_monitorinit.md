@@ -7,7 +7,7 @@ old-location: print\monitorinit.htm
 old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PMONITORINIT, MONITORINIT, MONITORINIT structure [Print Devices], PMONITORINIT, PMONITORINIT structure pointer [Print Devices], _MONITORINIT, print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, winsplp/MONITORINIT, winsplp/PMONITORINIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: MONITORINIT, *PMONITORINIT
-req.product: Windows 10 or later.
 ---
 
 # _MONITORINIT structure

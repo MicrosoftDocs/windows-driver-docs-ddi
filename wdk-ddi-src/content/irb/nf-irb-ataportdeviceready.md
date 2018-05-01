@@ -40,7 +40,7 @@ api_name:
 -	AtaPortDeviceReady
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortDeviceReady function

@@ -7,8 +7,8 @@ old-location: display\setoverlaycolorcontrols.htm
 old-project: display
 ms.assetid: c2723c57-44eb-4866-9381-a3a341996989
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SETOVERLAYCOLORCONTROLS, SetOverlayColorControls, SetOverlayColorControls callback function [Display Devices], UserModeDisplayDriver_Functions_3164b9ba-d03c-473d-b067-2fc5b2756594.xml, d3dumddi/SetOverlayColorControls, display.setoverlaycolorcontrols
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETOVERLAYCOLORCONTROLS, PFND3DDDI_SETOVERLAYCOLORCONTROLS callback, SetOverlayColorControls, SetOverlayColorControls callback function [Display Devices], UserModeDisplayDriver_Functions_3164b9ba-d03c-473d-b067-2fc5b2756594.xml, d3dumddi/SetOverlayColorControls, display.setoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetOverlayColorControls
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETOVERLAYCOLORCONTROLS callback
+# PFND3DDDI_SETOVERLAYCOLORCONTROLS callback function
 
 
 ## -description

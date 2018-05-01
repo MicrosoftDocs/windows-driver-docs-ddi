@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelVolume
-title: IMiniportAudioEngineNode::GetDeviceChannelVolume method
+title: IMiniportAudioEngineNode::GetDeviceChannelVolume
 author: windows-driver-content
 description: Gets the volume level for a given channel of the audio device.
 old-location: audio\iminiportaudioenginenode_getdevicechannelvolume.htm
 old-project: audio
 ms.assetid: 195AAD37-6993-4F0A-BEF7-848122402742
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetDeviceChannelVolume method [Audio Devices], GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelVolume,IMiniportAudioEngineNode.GetDeviceChannelVolume, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelVolume method, IMiniportAudioEngineNode::GetDeviceChannelVolume, audio.iminiportaudioenginenode_getdevicechannelvolume, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume
+ms.date: 4/16/2018
+ms.keywords: GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], GetDeviceChannelVolume method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelVolume method, IMiniportAudioEngineNode.GetDeviceChannelVolume, IMiniportAudioEngineNode::GetDeviceChannelVolume, audio.iminiportaudioenginenode_getdevicechannelvolume, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportAudioEngineNode.GetDeviceChannelVolume
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetDeviceChannelVolume method
+# IMiniportAudioEngineNode::GetDeviceChannelVolume
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.Remove
-title: IWDTFLongNumbers2::Remove method
+title: IWDTFLongNumbers2::Remove
 author: windows-driver-content
 description: Removes a long number from the collection.
 old-location: dtf\iwdtflongnumbers2_remove.htm
 old-project: dtf
 ms.assetid: b566eedc-2a04-497b-9491-7bd5768f0dce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Remove method, IWDTFLongNumbers2::Remove, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Remove,IWDTFLongNumbers2.Remove, dtf.iwdtflongnumbers2_remove, wdtf/IWDTFLongNumbers2::Remove
+ms.date: 4/4/2018
+ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],Remove method, IWDTFLongNumbers2.Remove, IWDTFLongNumbers2::Remove, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFLongNumbers2 interface, dtf.iwdtflongnumbers2_remove, wdtf/IWDTFLongNumbers2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFLongNumbers2.Remove
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFLongNumbers2::Remove method
+# IWDTFLongNumbers2::Remove
 
 
 ## -description

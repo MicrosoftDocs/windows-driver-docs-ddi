@@ -7,8 +7,8 @@ old-location: print\iprintasyncnotifyregistration.htm
 old-project: print
 ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices], described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
+ms.date: 4/20/2018
+ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices],described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Spoolss.lib
-req.dll: Spoolss.dll
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintAsyncNotifyRegistration
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintAsyncNotifyRegistration interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.Commit
-title: IPrinterScriptableStream::Commit method
+title: IPrinterScriptableStream::Commit
 author: windows-driver-content
 description: Commits the operation.
 old-location: print\iprinterscriptablestream__commit.htm
 old-project: print
 ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Commit method [Print Devices], Commit method [Print Devices], IPrinterScriptableStream interface, Commit,IPrinterScriptableStream.Commit, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Commit method, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
+ms.date: 4/20/2018
+ms.keywords: Commit, Commit method [Print Devices], Commit method [Print Devices],IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices],Commit method, IPrinterScriptableStream.Commit, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterScriptableStream.Commit
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptableStream::Commit method
+# IPrinterScriptableStream::Commit
 
 
 ## -description

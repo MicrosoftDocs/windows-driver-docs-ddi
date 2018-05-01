@@ -40,8 +40,7 @@ api_name:
 -	WDF_REQUEST_SEND_OPTIONS_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_REQUEST_SEND_OPTIONS_INIT function

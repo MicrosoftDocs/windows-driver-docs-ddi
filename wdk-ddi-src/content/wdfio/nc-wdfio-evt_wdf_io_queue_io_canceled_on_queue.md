@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b938ee8-a5f3-4a1e-9beb-231d88aa5848
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFQueueObjectRef_24cf727b-3673-44a1-94a2-5308aa195827.xml, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE, EvtIoCanceledOnQueue, EvtIoCanceledOnQueue callback function, kmdf.evtiocanceledonqueue, wdf.evtiocanceledonqueue, wdfio/EvtIoCanceledOnQueue
+ms.keywords: DFQueueObjectRef_24cf727b-3673-44a1-94a2-5308aa195827.xml, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback, EvtIoCanceledOnQueue, EvtIoCanceledOnQueue callback function, kmdf.evtiocanceledonqueue, wdf.evtiocanceledonqueue, wdfio/EvtIoCanceledOnQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtIoCanceledOnQueue
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback
+# EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback function
 
 
 ## -description

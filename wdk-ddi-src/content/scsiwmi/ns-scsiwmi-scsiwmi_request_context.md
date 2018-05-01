@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SCSIWMI_REQUEST_CONTEXT, *PSCSIWMI_REQUEST_CONTEXT
-req.product: Windows 10 or later.
 ---
 
 # SCSIWMI_REQUEST_CONTEXT structure

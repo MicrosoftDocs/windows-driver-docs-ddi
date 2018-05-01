@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.AttachKernelWide
-title: IDebugClient5::AttachKernelWide method
+title: IDebugClient5::AttachKernelWide
 author: windows-driver-content
 description: The AttachKernelWide method connects the debugger engine to a kernel target.
 old-location: debugger\attachkernelwide.htm
 old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide,IDebugClient5.AttachKernelWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, IDebugClient5::AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide
+ms.date: 4/24/2018
+ms.keywords: AttachKernelWide, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],AttachKernelWide method, IDebugClient5.AttachKernelWide, IDebugClient5::AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient5.AttachKernelWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::AttachKernelWide method
+# IDebugClient5::AttachKernelWide
 
 
 ## -description

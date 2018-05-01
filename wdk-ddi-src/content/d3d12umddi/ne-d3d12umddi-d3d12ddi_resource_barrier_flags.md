@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_resource_barrier_flags.htm
 old-project: display
 ms.assetid: 876ABC9C-F9BE-480F-8641-AE132840F8D5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_RESOURCE_BARRIER_FLAGS, D3D12DDI_RESOURCE_BARRIER_FLAGS enumeration [Display Devices], D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ALIASING, D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ATOMIC_COPY, D3D12DDI_RESOURCE_BARRIER_FLAG_BEGIN_ONLY, D3D12DDI_RESOURCE_BARRIER_FLAG_END_ONLY, D3D12DDI_RESOURCE_BARRIER_FLAG_NONE, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAGS, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ALIASING, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ATOMIC_COPY, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_BEGIN_ONLY, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_END_ONLY, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_NONE, display.d3d12ddi_resource_barrier_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

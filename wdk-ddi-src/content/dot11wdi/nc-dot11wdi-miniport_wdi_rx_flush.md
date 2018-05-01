@@ -7,8 +7,8 @@ old-location: netvista\miniportwdirxflush.htm
 old-project: netvista
 ms.assetid: 76945A84-A6DB-4753-B04E-32249359B8C6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_RX_FLUSH, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_RX_FLUSH, MINIPORT_WDI_RX_FLUSH callback, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiRxFlush
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_RX_FLUSH callback
+# MINIPORT_WDI_RX_FLUSH callback function
 
 
 ## -description

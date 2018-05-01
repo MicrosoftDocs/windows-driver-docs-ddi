@@ -7,8 +7,8 @@ old-location: display\rename.htm
 old-project: display
 ms.assetid: 60f733e1-d376-4372-b1cc-39508b3a98e5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_RENAME, Rename, Rename callback function [Display Devices], UserModeDisplayDriver_Functions_50916fb2-ea0e-4143-8588-909a4cd07bec.xml, d3dumddi/Rename, display.rename
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_RENAME, PFND3DDDI_RENAME callback, Rename, Rename callback function [Display Devices], UserModeDisplayDriver_Functions_50916fb2-ea0e-4143-8588-909a4cd07bec.xml, d3dumddi/Rename, display.rename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	Rename
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_RENAME callback
+# PFND3DDDI_RENAME callback function
 
 
 ## -description

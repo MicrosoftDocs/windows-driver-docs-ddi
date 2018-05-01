@@ -7,7 +7,7 @@ old-location: audio\ksdataformat_dsound.htm
 old-project: audio
 ms.assetid: 2b620e4f-8c26-479a-8b06-4e558b0813e5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND"
 ms.prod: windows-hardware
 ms.technology: windows-devices

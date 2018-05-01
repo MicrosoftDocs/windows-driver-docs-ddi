@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueue2.SendBidiSetRequestAsync
-title: IPrinterQueue2::SendBidiSetRequestAsync method
+title: IPrinterQueue2::SendBidiSetRequestAsync
 author: windows-driver-content
 description: Uses an XML string value to send a Bidi Set request as an asynchronous operation.
 old-location: print\iprinterqueue2_sendbidisetrequestasync.htm
 old-project: print
 ms.assetid: 05FF8A47-A586-4DA7-94AD-A7186265ADB4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, SendBidiSetRequestAsync,IPrinterQueue2.SendBidiSetRequestAsync, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueue2 interface [Print Devices],SendBidiSetRequestAsync method, IPrinterQueue2.SendBidiSetRequestAsync, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices],IPrinterQueue2 interface, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterQueue2.SendBidiSetRequestAsync
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueue2::SendBidiSetRequestAsync method
+# IPrinterQueue2::SendBidiSetRequestAsync
 
 
 ## -description

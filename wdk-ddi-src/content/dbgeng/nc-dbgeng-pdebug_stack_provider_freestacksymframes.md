@@ -7,8 +7,8 @@ old-location: debugger\freestacksymframes.htm
 old-project: debugger
 ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
+ms.date: 4/24/2018
+ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FreeStackSymFrames
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback
+# PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback function
 
 
 ## -description

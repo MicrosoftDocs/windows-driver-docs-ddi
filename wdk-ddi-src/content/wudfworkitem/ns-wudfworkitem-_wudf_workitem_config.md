@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WUDF_WORKITEM_CONFIG structure

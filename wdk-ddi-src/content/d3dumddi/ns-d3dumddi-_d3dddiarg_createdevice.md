@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createdevice.htm
 old-project: display
 ms.assetid: 18be278c-2d69-472b-9baf-7c35f8abe879
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_CREATEDEVICE, D3DDDIARG_CREATEDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml, _D3DDDIARG_CREATEDEVICE, d3dumddi/D3DDDIARG_CREATEDEVICE, display.d3dddiarg_createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

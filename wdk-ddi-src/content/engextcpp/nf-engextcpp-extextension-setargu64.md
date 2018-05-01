@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArgU64
-title: ExtExtension::SetArgU64 method
+title: ExtExtension::SetArgU64
 author: windows-driver-content
 description: The SetArgU64 method sets a named expression argument for the current expression command.
 old-location: debugger\setargu64.htm
 old-project: debugger
 ms.assetid: 119e590c-7491-44b3-a315-d3e980f547bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_05510fa7-509e-49a2-97a3-7a1c4494350a.xml, ExtExtension, ExtExtension class [Windows Debugging], SetArgU64 method, ExtExtension::SetArgU64, SetArgU64 method [Windows Debugging], SetArgU64 method [Windows Debugging], ExtExtension class, SetArgU64,ExtExtension.SetArgU64, debugger.setargu64
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_05510fa7-509e-49a2-97a3-7a1c4494350a.xml, ExtExtension class [Windows Debugging],SetArgU64 method, ExtExtension.SetArgU64, ExtExtension::SetArgU64, SetArgU64, SetArgU64 method [Windows Debugging], SetArgU64 method [Windows Debugging],ExtExtension class, debugger.setargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtExtension.SetArgU64
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::SetArgU64 method
+# ExtExtension::SetArgU64
 
 
 ## -description

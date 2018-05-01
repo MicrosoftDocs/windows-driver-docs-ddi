@@ -7,8 +7,8 @@ old-location: display\i2cwrite.htm
 old-project: display
 ms.assetid: 5aaebf38-bc09-4fb5-969e-7b456773d5ac
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
+ms.date: 4/16/2018
+ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, PI2C_WRITE callback, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	I2CWrite
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PI2C_WRITE callback
+# PI2C_WRITE callback function
 
 
 ## -description

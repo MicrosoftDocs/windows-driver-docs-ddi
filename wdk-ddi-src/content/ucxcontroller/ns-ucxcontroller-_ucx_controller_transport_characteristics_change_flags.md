@@ -7,7 +7,7 @@ old-location: buses\ucx_controller_transport_characteristics_change_flags.htm
 old-project: usbref
 ms.assetid: B5D6BBE4-2FFF-41CB-B747-AA3C6CE9064E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS union pointer [Buses], UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS union [Buses], _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS, buses.ucx_controller_transport_characteristics_change_flags, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS, ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS structure
@@ -68,9 +67,17 @@ Reserved.
  
 
 
+### -field Flags.CurrentRoundtripLatencyChanged
+
+ 
 
 
-#### - CurrentRoundtripLatencyChanged
+### -field Flags.CurrentTotalBandwidthChanged
+
+ 
+
+
+### -field CurrentRoundtripLatencyChanged
 
 Contains the current round-trip delay in milliseconds from the time a non-isochronous transfer is received by the USB driver stack to the time that the transfer is completed.  
 
@@ -78,7 +85,7 @@ For MA-USB, the underlying network could be WiFi, WiGig, Ethernet etc. The delay
 
 
 
-#### - CurrentTotalBandwidthChanged
+### -field CurrentTotalBandwidthChanged
 
 Contains the total bandwidth of the host controller’s shared transport. 
 

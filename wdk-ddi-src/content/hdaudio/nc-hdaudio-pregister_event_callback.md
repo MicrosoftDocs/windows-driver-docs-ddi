@@ -7,8 +7,8 @@ old-location: audio\registereventcallback.htm
 old-project: audio
 ms.assetid: 0f94146b-aa60-4106-aba6-0f1cb3e53008
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: PREGISTER_EVENT_CALLBACK, RegisterEventCallback, RegisterEventCallback callback function [Audio Devices], aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml, audio.registereventcallback, hdaudio/RegisterEventCallback
+ms.date: 4/16/2018
+ms.keywords: PREGISTER_EVENT_CALLBACK, PREGISTER_EVENT_CALLBACK callback, RegisterEventCallback, RegisterEventCallback callback function [Audio Devices], aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml, audio.registereventcallback, hdaudio/RegisterEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	RegisterEventCallback
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PREGISTER_EVENT_CALLBACK callback
+# PREGISTER_EVENT_CALLBACK callback function
 
 
 ## -description

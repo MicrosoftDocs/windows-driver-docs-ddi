@@ -7,7 +7,7 @@ old-location: ifsk\flt_related_contexts.htm
 old-project: ifsk
 ms.assetid: 9d9b4bba-0216-48cf-81aa-160b7252ba20
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS structure [Installable File System Drivers], FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, PFLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], _FLT_RELATED_CONTEXTS, fltkernel/FLT_RELATED_CONTEXTS, fltkernel/PFLT_RELATED_CONTEXTS, ifsk.flt_related_contexts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

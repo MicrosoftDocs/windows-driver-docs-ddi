@@ -7,7 +7,7 @@ old-location: stream\ksdeletefilterfactory.htm
 old-project: stream
 ms.assetid: 4d946524-8ad2-45a0-91be-861b30b0c297
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

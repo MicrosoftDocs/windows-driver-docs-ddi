@@ -7,8 +7,8 @@ old-location: display\pfnreservegpuvirtualaddresscb.htm
 old-project: display
 ms.assetid: CEDE03E1-4B0D-4839-B7D6-0826CC103C5E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB, d3dumddi/pfnReserveGpuVirtualAddressCb, display.pfnreservegpuvirtualaddresscb, pfnReserveGpuVirtualAddressCb, pfnReserveGpuVirtualAddressCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB, PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnReserveGpuVirtualAddressCb, display.pfnreservegpuvirtualaddresscb, pfnReserveGpuVirtualAddressCb, pfnReserveGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnReserveGpuVirtualAddressCb
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback
+# PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback function
 
 
 ## -description

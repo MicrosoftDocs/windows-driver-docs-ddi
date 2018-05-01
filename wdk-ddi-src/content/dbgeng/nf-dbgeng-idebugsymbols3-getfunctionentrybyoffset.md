@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFunctionEntryByOffset
-title: IDebugSymbols3::GetFunctionEntryByOffset method
+title: IDebugSymbols3::GetFunctionEntryByOffset
 author: windows-driver-content
 description: The GetFunctionEntryByOffset method returns the function entry information for a function.
 old-location: debugger\getfunctionentrybyoffset.htm
 old-project: debugger
 ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset,IDebugSymbols3.GetFunctionEntryByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset
+ms.date: 4/24/2018
+ms.keywords: GetFunctionEntryByOffset, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFunctionEntryByOffset method, IDebugSymbols3.GetFunctionEntryByOffset, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.GetFunctionEntryByOffset
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetFunctionEntryByOffset method
+# IDebugSymbols3::GetFunctionEntryByOffset
 
 
 ## -description

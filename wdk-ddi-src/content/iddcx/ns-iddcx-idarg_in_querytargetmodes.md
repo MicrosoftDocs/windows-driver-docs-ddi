@@ -7,7 +7,7 @@ old-location: display\idarg_in_querytargetmodes.htm
 old-project: display
 ms.assetid: 4eeadee1-ac2a-46f5-88e0-fe8d3db3dcf1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IDARG_IN_QUERYTARGETMODES, IDARG_IN_QUERYTARGETMODES structure [Display Devices], display.idarg_in_querytargetmodes, iddcx/IDARG_IN_QUERYTARGETMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices

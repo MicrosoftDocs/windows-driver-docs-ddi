@@ -7,7 +7,7 @@ old-location: ifsk\fltcreatesectionfordatascan.htm
 old-project: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	FltCreateSectionForDataScan
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCreateSectionForDataScan function

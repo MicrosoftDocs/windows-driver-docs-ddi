@@ -7,7 +7,7 @@ old-location: stream\ksproperty_serial.htm
 old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices], PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, ks/KSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, stream.ksproperty_serial"
 ms.prod: windows-hardware
 ms.technology: windows-devices

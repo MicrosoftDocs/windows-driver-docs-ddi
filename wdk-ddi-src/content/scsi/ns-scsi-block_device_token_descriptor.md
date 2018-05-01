@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # BLOCK_DEVICE_TOKEN_DESCRIPTOR structure

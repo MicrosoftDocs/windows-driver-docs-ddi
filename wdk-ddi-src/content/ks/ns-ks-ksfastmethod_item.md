@@ -7,7 +7,7 @@ old-location: stream\ksfastmethod_item.htm
 old-project: stream
 ms.assetid: 71e59c73-d77d-4b10-9d13-f5d21338eb94
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSFASTMETHOD_ITEM, KSFASTMETHOD_ITEM, KSFASTMETHOD_ITEM structure [Streaming Media Devices], PKSFASTMETHOD_ITEM, PKSFASTMETHOD_ITEM structure pointer [Streaming Media Devices], ks-struct_1280212d-776c-4f9d-a00b-d880785c4cdf.xml, ks/KSFASTMETHOD_ITEM, ks/PKSFASTMETHOD_ITEM, stream.ksfastmethod_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,12 +62,12 @@ Drivers provide a structure of type KSFASTMETHOD_ITEM to support fast I/O dispat
 Contains the identifier of the method and the flags describing the type of method.
 
 
-#### - MethodHandler
+### -field MethodHandler
 
 Points to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a> routine for this method.
 
 
-#### - MethodSupported
+### -field MethodSupported
 
 Set to <b>TRUE</b> if the method is supported, otherwise set to <b>FALSE</b>.
 

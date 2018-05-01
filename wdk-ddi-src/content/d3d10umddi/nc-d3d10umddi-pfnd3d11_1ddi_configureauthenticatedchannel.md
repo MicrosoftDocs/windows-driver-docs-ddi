@@ -7,8 +7,8 @@ old-location: display\configureauthenticatedchannel1.htm
 old-project: display
 ms.assetid: 28d32813-15f5-4b9c-9bdb-5ad9b47bbe3b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, d3d10umddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel1
+ms.date: 4/16/2018
+ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback, d3d10umddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ConfigureAuthenticatedChannel
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback
+# PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback function
 
 
 ## -description

@@ -155,6 +155,11 @@ Indicates that the device supports Media Status Notification.
 Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550290">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
 
 
+### -field MaxLba
+
+Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
+
+
 ### -field Chs
 
 Specifies the drive geometry with the values for the number of cylinders, heads per cylinder, and the sectors per track. This member is defined when <b>AddressTranslation</b> is equal to <b>ChsMode</b>.
@@ -203,11 +208,6 @@ Contains a bitmap that indicates the supported transfer modes.
 ### -field TransferModeSelected
 
 Indicates the selected transfer modes on the device. The miniport driver must set this member.
-
-
-#### - MaxLba
-
-Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
 
 
 ## -remarks

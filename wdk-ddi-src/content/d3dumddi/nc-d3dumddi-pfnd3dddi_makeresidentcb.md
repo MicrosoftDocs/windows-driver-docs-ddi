@@ -7,8 +7,8 @@ old-location: display\pfnmakeresidentcb.htm
 old-project: display
 ms.assetid: 8D65C3F7-3D07-4341-A989-A1438F821802
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_MAKERESIDENTCB, d3dumddi/pfnMakeResidentCb, display.pfnmakeresidentcb, pfnMakeResidentCb, pfnMakeResidentCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_MAKERESIDENTCB, PFND3DDDI_MAKERESIDENTCB callback, d3dumddi/pfnMakeResidentCb, display.pfnmakeresidentcb, pfnMakeResidentCb, pfnMakeResidentCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnMakeResidentCb
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_MAKERESIDENTCB callback
+# PFND3DDDI_MAKERESIDENTCB callback function
 
 
 ## -description

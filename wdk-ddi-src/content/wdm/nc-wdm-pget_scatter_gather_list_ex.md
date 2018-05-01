@@ -7,8 +7,8 @@ old-location: kernel\getscattergatherlistex.htm
 old-project: kernel
 ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx
+ms.date: 4/5/2018
+ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, PGET_SCATTER_GATHER_LIST_EX callback, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	GetScatterGatherListEx
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PGET_SCATTER_GATHER_LIST_EX callback
+# PGET_SCATTER_GATHER_LIST_EX callback function
 
 
 ## -description

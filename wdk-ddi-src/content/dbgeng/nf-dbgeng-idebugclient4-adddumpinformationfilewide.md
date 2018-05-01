@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.AddDumpInformationFileWide
-title: IDebugClient4::AddDumpInformationFileWide method
+title: IDebugClient4::AddDumpInformationFileWide
 author: windows-driver-content
 description: The AddDumpInformationFileWide method registers additional files containing supporting information that will be used when opening a dump file. The ASCII version of this method is AddDumpInformationFile.
 old-location: debugger\adddumpinformationfilewide.htm
 old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFileWide,IDebugClient4.AddDumpInformationFileWide, IDebugClient4, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide
+ms.date: 4/24/2018
+ms.keywords: AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging],IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],AddDumpInformationFileWide method, IDebugClient4.AddDumpInformationFileWide, IDebugClient4::AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging],AddDumpInformationFileWide method, IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugClient5.AddDumpInformationFileWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::AddDumpInformationFileWide method
+# IDebugClient4::AddDumpInformationFileWide
 
 
 ## -description

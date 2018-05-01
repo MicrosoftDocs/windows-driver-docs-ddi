@@ -7,7 +7,7 @@ old-location: buses\_ucxcontrollersetfailed.htm
 old-project: usbref
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UcxControllerSetFailed
 product: Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxControllerSetFailed function

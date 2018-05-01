@@ -7,7 +7,7 @@ old-location: display\d3dddi_reservegpuvirtualaddress.htm
 old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,16 @@ req.typenames: D3DDDI_RESERVEGPUVIRTUALADDRESS
 
 
 
+### -field hPagingQueue
+
+Paging queue to synchronize the operation on.
+
+
+### -field hAdapter
+
+DirectX graphics adapter handle. 
+
+
 ### -field BaseAddress
 
 (Optional) If <b>non-NULL</b>, the video memory manager will attempt to use this address as the base address for the reserved range. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, the call will fail. When this parameter is <b>non-NULL</b>, <b>MinimumAddress</b> and <b>MaximumAddress</b> are ignored.
@@ -91,49 +101,39 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 
 
+### -field ReservationType
+
+Specifies the virtual address reservation type.
+
+
+### -field Reserved0
+
+This member is reserved and should be set to zero.
+
+
+### -field DriverProtection
+
+Specifies the driver-specific protection
+
+
+### -field Reserved1
+
+This member is reserved and should be set to zero.
+
+
 ### -field VirtualAddress
 
 [out] The reserved virtual address.
 
 
-#### - DriverProtection
-
-Specifies the driver-specific protection
-
-
-#### - PagingFenceValue
+### -field PagingFenceValue
 
 Paging fence identifier for synchronization
 
 
-#### - ReservationType
-
-Specifies the virtual address reservation type.
-
-
-#### - Reserved0
+### -field Reserved2
 
 This member is reserved and should be set to zero.
-
-
-#### - Reserved1
-
-This member is reserved and should be set to zero.
-
-
-#### - Reserved2
-
-This member is reserved and should be set to zero.
-
-
-#### - hAdapter
-
-DirectX graphics adapter handle. 
-
-
-#### - hPagingQueue
-
-Paging queue to synchronize the operation on.
 
 
 ## -see-also

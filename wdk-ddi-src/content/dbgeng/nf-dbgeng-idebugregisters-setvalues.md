@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.SetValues
-title: IDebugRegisters::SetValues method
+title: IDebugRegisters::SetValues
 author: windows-driver-content
 description: The SetValues method sets the value of several of the target's registers.
 old-location: debugger\setvalues.htm
 old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues method [Windows Debugging], SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues,IDebugRegisters.SetValues, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters interface [Windows Debugging],SetValues method, IDebugRegisters.SetValues, IDebugRegisters2 interface [Windows Debugging],SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues, SetValues method [Windows Debugging], SetValues method [Windows Debugging],IDebugRegisters interface, SetValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugRegisters2.SetValues
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters::SetValues method
+# IDebugRegisters::SetValues
 
 
 ## -description

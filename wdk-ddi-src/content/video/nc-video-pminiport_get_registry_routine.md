@@ -7,8 +7,8 @@ old-location: display\hwvidquerynamedvaluecallback.htm
 old-project: display
 ms.assetid: 90020700-b9c8-42e6-bafa-908cbc3eb233
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback
+ms.date: 4/16/2018
+ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE callback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	HwVidQueryNamedValueCallback
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PMINIPORT_GET_REGISTRY_ROUTINE callback
+# PMINIPORT_GET_REGISTRY_ROUTINE callback function
 
 
 ## -description

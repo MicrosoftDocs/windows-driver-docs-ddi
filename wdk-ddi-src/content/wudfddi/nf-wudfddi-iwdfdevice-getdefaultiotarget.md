@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDefaultIoTarget
-title: IWDFDevice::GetDefaultIoTarget method
+title: IWDFDevice::GetDefaultIoTarget
 author: windows-driver-content
 description: The GetDefaultIoTarget method retrieves the interface of the default I/O target for a device instance.
 old-location: wdf\iwdfdevice_getdefaultiotarget.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDefaultIoTarget method, GetDefaultIoTarget method, IWDFDevice interface, GetDefaultIoTarget,IWDFDevice.GetDefaultIoTarget, IWDFDevice, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget
+ms.keywords: GetDefaultIoTarget, GetDefaultIoTarget method, GetDefaultIoTarget method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoTarget method, IWDFDevice.GetDefaultIoTarget, IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice.GetDefaultIoTarget
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::GetDefaultIoTarget method
+# IWDFDevice::GetDefaultIoTarget
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videochromasubsampling.htm
 old-project: display
 ms.assetid: 697b6ac2-9d25-42ad-aac5-44754f19bf2c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VIDEOCHROMASUBSAMPLING, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, display.dxvaddi_videochromasubsampling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

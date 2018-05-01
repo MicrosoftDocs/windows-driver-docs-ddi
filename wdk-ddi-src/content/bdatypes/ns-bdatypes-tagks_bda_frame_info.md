@@ -7,7 +7,7 @@ old-location: stream\ks_bda_frame_info.htm
 old-project: stream
 ms.assetid: df261323-f372-49e7-990a-03c1c5cb743d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO structure [Streaming Media Devices], PKS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO structure pointer [Streaming Media Devices], bdaref_62fe9ca5-dca5-4287-83e8-59667d70d953.xml, bdatypes/KS_BDA_FRAME_INFO, bdatypes/PKS_BDA_FRAME_INFO, stream.ks_bda_frame_info, tagKS_BDA_FRAME_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

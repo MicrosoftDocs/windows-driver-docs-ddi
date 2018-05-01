@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_CatalogFile
-title: IWDTFDriverPackageAction2::get_CatalogFile method
+title: IWDTFDriverPackageAction2::get_CatalogFile
 author: windows-driver-content
 description: Gets the catalog file name.
 old-location: dtf\iwdtfdriverpackageaction2_catalogfile.htm
 old-project: dtf
 ms.assetid: 57cfb693-7134-4e3c-a5b4-3d15456b4daa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CatalogFile property [Windows Device Testing Framework], CatalogFile property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], CatalogFile property, IWDTFDriverPackageAction2.CatalogFile, IWDTFDriverPackageAction2::get_CatalogFile, Microsoft.WDTF.IWDTFDriverPackageAction2.CatalogFile, Microsoft::WDTF::IWDTFDriverPackageAction2::CatalogFile, dtf.iwdtfdriverpackageaction2_catalogfile, get_CatalogFile,IWDTFDriverPackageAction2.get_CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_CatalogFile
+ms.date: 4/4/2018
+ms.keywords: CatalogFile property [Windows Device Testing Framework], CatalogFile property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],CatalogFile property, IWDTFDriverPackageAction2.CatalogFile, IWDTFDriverPackageAction2.get_CatalogFile, IWDTFDriverPackageAction2::CatalogFile, IWDTFDriverPackageAction2::get_CatalogFile, Microsoft.WDTF.IWDTFDriverPackageAction2.CatalogFile, Microsoft::WDTF::IWDTFDriverPackageAction2::CatalogFile, dtf.iwdtfdriverpackageaction2_catalogfile, get_CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_CatalogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTFDriverPackageAction2.get_CatalogFile
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverPackageAction2::get_CatalogFile method
+# IWDTFDriverPackageAction2::get_CatalogFile
 
 
 ## -description

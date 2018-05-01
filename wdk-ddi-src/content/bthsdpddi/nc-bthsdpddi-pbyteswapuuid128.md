@@ -7,8 +7,8 @@ old-location: bltooth\sdpbyteswapuuid128.htm
 old-project: bltooth
 ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PBYTESWAPUUID128, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
+ms.date: 4/27/2018
+ms.keywords: PBYTESWAPUUID128, PBYTESWAPUUID128 callback, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SdpByteSwapUuid128
 product: Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PBYTESWAPUUID128 callback
+# PBYTESWAPUUID128 callback function
 
 
 ## -description

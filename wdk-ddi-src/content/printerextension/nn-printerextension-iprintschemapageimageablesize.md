@@ -7,8 +7,8 @@ old-location: print\iprintschemapageimageablesize_interface.htm
 old-project: print
 ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices], described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices],described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintSchemaPageImageableSize
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaPageImageableSize interface

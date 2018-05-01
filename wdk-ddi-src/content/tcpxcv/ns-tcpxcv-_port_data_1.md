@@ -7,7 +7,7 @@ old-location: print\port_data_1.htm
 old-project: print
 ms.assetid: 6d2165a7-ee21-4f7d-a03c-f9bed87a3c7a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PPORT_DATA_1, PORT_DATA_1, PORT_DATA_1 structure [Print Devices], PPORT_DATA_1, PPORT_DATA_1 structure pointer [Print Devices], _PORT_DATA_1, print.port_data_1, spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, tcpxcv/PORT_DATA_1, tcpxcv/PPORT_DATA_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
 ---
 
 # _PORT_DATA_1 structure

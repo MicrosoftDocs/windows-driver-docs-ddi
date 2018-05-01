@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_protection_flags.htm
 old-project: display
 ms.assetid: 687eb573-ea7c-4e8a-80df-65339521ec18
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS, D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS, display.d3d11_1ddi_authenticated_protection_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ If 1, the application requires video to be displayed using either a hardware ove
 Reserved for system use. Set all bits to zero.
 
 
-#### - Value
+### -field Value
 
 Use this member to access all of the bits in the union.
 

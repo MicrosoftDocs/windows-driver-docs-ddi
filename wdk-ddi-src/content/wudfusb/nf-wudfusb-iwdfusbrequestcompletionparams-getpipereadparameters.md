@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetPipeReadParameters
-title: IWDFUsbRequestCompletionParams::GetPipeReadParameters method
+title: IWDFUsbRequestCompletionParams::GetPipeReadParameters
 author: windows-driver-content
 description: The GetPipeReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipereadparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetPipeReadParameters method, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters,IWDFUsbRequestCompletionParams.GetPipeReadParameters, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, IWDFUsbRequestCompletionParams::GetPipeReadParameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters
+ms.keywords: GetPipeReadParameters, GetPipeReadParameters method, GetPipeReadParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetPipeReadParameters method, IWDFUsbRequestCompletionParams.GetPipeReadParameters, IWDFUsbRequestCompletionParams::GetPipeReadParameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFUsbRequestCompletionParams.GetPipeReadParameters
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbRequestCompletionParams::GetPipeReadParameters method
+# IWDFUsbRequestCompletionParams::GetPipeReadParameters
 
 
 ## -description

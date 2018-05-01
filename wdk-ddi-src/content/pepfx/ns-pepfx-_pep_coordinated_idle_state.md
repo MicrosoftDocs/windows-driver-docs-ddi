@@ -7,7 +7,7 @@ old-location: kernel\pep_coordinated_idle_state.htm
 old-project: kernel
 ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state, pepfx/PEP_COORDINATED_IDLE_STATE, pepfx/PPEP_COORDINATED_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

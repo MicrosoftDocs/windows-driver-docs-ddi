@@ -7,7 +7,7 @@ old-location: stream\ksisbusenumchilddevice.htm
 old-project: stream
 ms.assetid: 7b9aa600-dd47-4ef1-acc8-02fb1b4f51ce
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsIsBusEnumChildDevice, KsIsBusEnumChildDevice function [Streaming Media Devices], ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml, stream.ksisbusenumchilddevice, swenum/KsIsBusEnumChildDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	KsIsBusEnumChildDevice
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsIsBusEnumChildDevice function

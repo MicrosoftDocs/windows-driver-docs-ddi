@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide.htm
 old-project: debugger
 ms.assetid: 717fad3a-91b1-41c8-ac71-e9ea52533efd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], described, dbgeng/IDebugEventCallbacksWide, debugger.idebugeventcallbackswide
+ms.date: 4/24/2018
+ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugEventCallbacksWide, debugger.idebugeventcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugEventCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugEventCallbacksWide interface

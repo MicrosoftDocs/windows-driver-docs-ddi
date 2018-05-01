@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.SetPackageInfFileName
-title: IWDTFDriverPackageAction2::SetPackageInfFileName method
+title: IWDTFDriverPackageAction2::SetPackageInfFileName
 author: windows-driver-content
 description: Sets the pre-imported driver package path.
 old-location: dtf\iwdtfdriverpackageaction2_setpackageinffilename.htm
 old-project: dtf
 ms.assetid: 68c2005e-c54b-413e-955a-864a05b23f4e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], SetPackageInfFileName method, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, SetPackageInfFileName,IWDTFDriverPackageAction2.SetPackageInfFileName, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],SetPackageInfFileName method, IWDTFDriverPackageAction2.SetPackageInfFileName, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFDriverPackageAction2.SetPackageInfFileName
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverPackageAction2::SetPackageInfFileName method
+# IWDTFDriverPackageAction2::SetPackageInfFileName
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\miniporttcpoffloadreceivereturn.htm
 old-project: netvista
 ms.assetid: b746f58d-d029-4fcd-a59d-baba037fc38e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MiniportTcpOffloadReceiveReturn, MiniportTcpOffloadReceiveReturn callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER, ndischimney/MiniportTcpOffloadReceiveReturn, netvista.miniporttcpoffloadreceivereturn, tcp_chim_miniport_func_c6477511-6f31-4a37-9b28-d157e1fa09af.xml
+ms.date: 4/25/2018
+ms.keywords: MiniportTcpOffloadReceiveReturn, MiniportTcpOffloadReceiveReturn callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER, W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER callback, ndischimney/MiniportTcpOffloadReceiveReturn, netvista.miniporttcpoffloadreceivereturn, tcp_chim_miniport_func_c6477511-6f31-4a37-9b28-d157e1fa09af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportTcpOffloadReceiveReturn
 product: Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER callback
+# W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER callback function
 
 
 ## -description

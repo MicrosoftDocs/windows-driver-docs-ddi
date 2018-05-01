@@ -7,7 +7,7 @@ old-location: stream\ks_am_exactratechange.htm
 old-project: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_AM_ExactRateChange, KS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], PKS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, ksmedia/KS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange"
 ms.prod: windows-hardware
 ms.technology: windows-devices

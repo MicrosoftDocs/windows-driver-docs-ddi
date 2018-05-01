@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -55,6 +55,16 @@ The <b>CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT</b> structure contains informa
 ## -struct-fields
 
 
+
+
+### -field F1StateSupported
+
+ 
+
+
+### -field Reserved
+
+ 
 
 
 ### -field F1IdleStateParameters

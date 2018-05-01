@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols5.SetScopeFrameByIndexEx
-title: IDebugSymbols5::SetScopeFrameByIndexEx method
+title: IDebugSymbols5::SetScopeFrameByIndexEx
 author: windows-driver-content
 description: Sets the current frame by using an index.
 old-location: debugger\idebugsymbols5_setscopeframebyindexex.htm
 old-project: debugger
 ms.assetid: E0638C55-4160-48A5-9378-6AA9AAC8DC36
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, SetScopeFrameByIndexEx,IDebugSymbols5.SetScopeFrameByIndexEx, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols5 interface [Windows Debugging],SetScopeFrameByIndexEx method, IDebugSymbols5.SetScopeFrameByIndexEx, IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], SetScopeFrameByIndexEx method [Windows Debugging],IDebugSymbols5 interface, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols5.SetScopeFrameByIndexEx
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols5::SetScopeFrameByIndexEx method
+# IDebugSymbols5::SetScopeFrameByIndexEx
 
 
 ## -description

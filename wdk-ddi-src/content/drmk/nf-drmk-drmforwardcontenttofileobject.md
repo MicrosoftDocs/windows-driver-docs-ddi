@@ -7,7 +7,7 @@ old-location: audio\drmforwardcontenttofileobject.htm
 old-project: audio
 ms.assetid: 84d81ae3-708d-48ee-99c5-b79f085a9592
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: DrmForwardContentToFileObject, DrmForwardContentToFileObject function [Audio Devices], aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml, audio.drmforwardcontenttofileobject, drmk/DrmForwardContentToFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	DrmForwardContentToFileObject
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: 
 ---
 
 # DrmForwardContentToFileObject function

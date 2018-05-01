@@ -40,8 +40,7 @@ api_name:
 -	PcwCreateInstance
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PcwCreateInstance function

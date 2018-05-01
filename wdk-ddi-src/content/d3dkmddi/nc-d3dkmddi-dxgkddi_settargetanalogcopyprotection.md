@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetanalogcopyprotection.htm
 old-project: display
 ms.assetid: D41A1867-C654-4747-B804-CAE047025458
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_SETTARGETANALOGCOPYPROTECTION, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION, display.dxgkddi_settargetanalogcopyprotection
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETTARGETANALOGCOPYPROTECTION, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION, display.dxgkddi_settargetanalogcopyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DXGKDDI_SETTARGETANALOGCOPYPROTECTION
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback
+# DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function
 
 
 ## -description

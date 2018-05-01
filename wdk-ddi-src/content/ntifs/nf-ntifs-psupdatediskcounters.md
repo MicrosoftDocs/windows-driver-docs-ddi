@@ -7,7 +7,7 @@ old-location: ifsk\psupdatediskcounters.htm
 old-project: ifsk
 ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers], ifsk.psupdatediskcounters, ntifs/PsUpdateDiskCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	PsUpdateDiskCounters
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PsUpdateDiskCounters function

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.Add
-title: IWDTFLongNumbers2::Add method
+title: IWDTFLongNumbers2::Add
 author: windows-driver-content
 description: Adds a single long number to the collection.
 old-location: dtf\iwdtflongnumbers2_add.htm
 old-project: dtf
 ms.assetid: 2a3228a3-f2b4-45c8-9cb0-b3834308f5da
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Add,IWDTFLongNumbers2.Add, IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Add method, IWDTFLongNumbers2::Add, Microsoft.WDTF.IWDTFLongNumbers2.Add, Microsoft::WDTF::IWDTFLongNumbers2::Add, dtf.iwdtflongnumbers2_add, wdtf/IWDTFLongNumbers2::Add
+ms.date: 4/4/2018
+ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFLongNumbers2 interface, IWDTFLongNumbers2 interface [Windows Device Testing Framework],Add method, IWDTFLongNumbers2.Add, IWDTFLongNumbers2::Add, Microsoft.WDTF.IWDTFLongNumbers2.Add, Microsoft::WDTF::IWDTFLongNumbers2::Add, dtf.iwdtflongnumbers2_add, wdtf/IWDTFLongNumbers2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFLongNumbers2.Add
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFLongNumbers2::Add method
+# IWDTFLongNumbers2::Add
 
 
 ## -description

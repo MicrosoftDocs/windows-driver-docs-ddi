@@ -41,7 +41,7 @@ api_name:
 -	ChangerClassInitialize
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerClassInitialize function

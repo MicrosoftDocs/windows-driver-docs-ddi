@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DriverDMS
-title: IPrintOemUni::DriverDMS method
+title: IPrintOemUni::DriverDMS
 author: windows-driver-content
 description: The IPrintOemUni::DriverDMS method allows a rendering plug-in for Unidrv to indicate that it uses a device-managed drawing surface.
 old-location: print\iprintoemuni_driverdms.htm
 old-project: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DriverDMS method [Print Devices], DriverDMS method [Print Devices], IPrintOemUni interface, DriverDMS,IPrintOemUni.DriverDMS, IPrintOemUni, IPrintOemUni interface [Print Devices], DriverDMS method, IPrintOemUni::DriverDMS, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
+ms.date: 4/20/2018
+ms.keywords: DriverDMS, DriverDMS method [Print Devices], DriverDMS method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DriverDMS method, IPrintOemUni.DriverDMS, IPrintOemUni::DriverDMS, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni.DriverDMS
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::DriverDMS method
+# IPrintOemUni::DriverDMS
 
 
 ## -description

@@ -40,8 +40,7 @@ api_name:
 -	SENSOR_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_CONFIG_INIT function

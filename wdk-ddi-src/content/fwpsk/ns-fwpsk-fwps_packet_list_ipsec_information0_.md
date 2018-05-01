@@ -7,7 +7,7 @@ old-location: netvista\fwps_packet_list_ipsec_information0.htm
 old-project: netvista
 ms.assetid: bd005dd9-887a-4323-9816-e4a3b96ca53d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_PACKET_LIST_IPSEC_INFORMATION0, FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_IPSEC_INFORMATION0, netvista.fwps_packet_list_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_066086e3-4389-4449-b47a-ad9661eef344.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,26 +58,24 @@ The <b>FWPS_PACKET_LIST_IPSEC_INFORMATION0</b> structure defines IPsec informati
 
 
 
-
-
-#### - flags
-
-A value that contains a generic representation of the IPsec information associated with the
-      packet list.
-
-
-#### - inbound
+### -field inbound
 
 An 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552411">FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
       with inbound packet data.
 
 
-#### - outbound
+### -field outbound
 
 An 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552415">FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
       with outbound packet data.
+
+
+### -field flags
+
+A value that contains a generic representation of the IPsec information associated with the
+      packet list.
 
 
 ## -remarks

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.GetInterestMask
-title: IDebugOutputCallbacks2::GetInterestMask method
+title: IDebugOutputCallbacks2::GetInterestMask
 author: windows-driver-content
 description: Allows the callback object to describe which kinds of output notifications it wants to receive.
 old-location: debugger\idebugoutputcallbacks2_getinterestmask.htm
 old-project: debugger
 ms.assetid: BA710D92-63F4-4B4B-868A-58074FC052E9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface, GetInterestMask,IDebugOutputCallbacks2.GetInterestMask, IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method, IDebugOutputCallbacks2::GetInterestMask, dbgeng/IDebugOutputCallbacks2::GetInterestMask, debugger.idebugoutputcallbacks2_getinterestmask
+ms.date: 4/24/2018
+ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2 interface [Windows Debugging],GetInterestMask method, IDebugOutputCallbacks2.GetInterestMask, IDebugOutputCallbacks2::GetInterestMask, dbgeng/IDebugOutputCallbacks2::GetInterestMask, debugger.idebugoutputcallbacks2_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugOutputCallbacks2.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugOutputCallbacks2::GetInterestMask method
+# IDebugOutputCallbacks2::GetInterestMask
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\miniportadddevice.htm
 old-project: netvista
 ms.assetid: 50e04b5a-e430-484c-aabb-cc7b9ecb53b0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_ADD_DEVICE, MiniportAddDevice, MiniportAddDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportAddDevice, ndis_msix_ref_60df66e2-2e17-4bd1-8793-8310326d883d.xml, netvista.miniportadddevice
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_ADD_DEVICE, MINIPORT_ADD_DEVICE callback, MiniportAddDevice, MiniportAddDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportAddDevice, ndis_msix_ref_60df66e2-2e17-4bd1-8793-8310326d883d.xml, netvista.miniportadddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportAddDevice
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_ADD_DEVICE callback
+# MINIPORT_ADD_DEVICE callback function
 
 
 ## -description

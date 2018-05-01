@@ -7,8 +7,8 @@ old-location: display\int10writememory.htm
 old-project: display
 ms.assetid: a1143ca4-9c39-4bd7-92e1-473bdb447eb5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Int10WriteMemory, Int10WriteMemory callback function [Display Devices], PINT10_WRITE_MEMORY, VideoPort_Functions_6a882de2-2147-4b15-b4d8-6a87c49fa3d9.xml, display.int10writememory, video/Int10WriteMemory
+ms.date: 4/16/2018
+ms.keywords: Int10WriteMemory, Int10WriteMemory callback function [Display Devices], PINT10_WRITE_MEMORY, PINT10_WRITE_MEMORY callback, VideoPort_Functions_6a882de2-2147-4b15-b4d8-6a87c49fa3d9.xml, display.int10writememory, video/Int10WriteMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	Int10WriteMemory
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PINT10_WRITE_MEMORY callback
+# PINT10_WRITE_MEMORY callback function
 
 
 ## -description

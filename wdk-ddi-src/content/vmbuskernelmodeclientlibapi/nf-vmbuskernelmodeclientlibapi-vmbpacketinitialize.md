@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketinitialize.htm
 old-project: netvista
 ms.assetid: D5D8D994-0BB6-44FC-A696-F2E0264445C1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketInitialize, VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbPacketInitialize
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketInitialize function

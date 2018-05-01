@@ -7,8 +7,8 @@ old-location: print\iprinterextensioneventargs.htm
 old-project: print
 ms.assetid: 77850B5A-4E24-4057-B87F-D964620ABF94
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices], described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices],described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrinterExtensionEventArgs
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterExtensionEventArgs interface

@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SATELLITEINFO
 title: GNSS_SATELLITEINFO
 author: windows-driver-content
 description: This structure defines satellite-related information of a fix.
-old-location: sensors\gnss_satelliteinfo.htm
-old-project: sensors
+old-location: gnss\gnss_satelliteinfo.htm
+old-project: gnss
 ms.assetid: 27F537D8-45B2-43D9-A614-3558534C9DBA
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO, sensors.gnss_satelliteinfo"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], gnss.gnss_satelliteinfo, gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

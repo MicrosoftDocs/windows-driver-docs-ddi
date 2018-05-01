@@ -7,7 +7,7 @@ old-location: kernel\rtlulonglongtoint8.htm
 old-project: kernel
 ms.assetid: 9427C33F-F670-4E2C-B3C0-1FACA9AD6387
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlULongLongToInt8, RtlULongLongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoint8, ntintsafe/RtlULongLongToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlULongLongToInt8
 product: Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongLongToInt8 function

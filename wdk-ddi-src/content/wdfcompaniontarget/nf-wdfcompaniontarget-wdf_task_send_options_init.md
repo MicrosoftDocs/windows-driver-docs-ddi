@@ -40,8 +40,7 @@ api_name:
 -	WDF_TASK_SEND_OPTIONS_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_TASK_SEND_OPTIONS_INIT function

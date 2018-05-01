@@ -7,7 +7,7 @@ old-location: kernel\rtlulongtouchar.htm
 old-project: kernel
 ms.assetid: 4958FB4E-D049-40EB-A6CA-973DCF7F397B
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlULongToUChar, RtlULongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtouchar, ntintsafe/RtlULongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlULongToUChar
 product: Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongToUChar function

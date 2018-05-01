@@ -7,8 +7,8 @@ old-location: display\ioctl_video_load_and_set_font.htm
 old-project: display
 ms.assetid: 13771df5-f66c-4dd9-b2d3-4477fda82f8f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_VIDEO_LOAD_AND_SET_FONT, IOCTL_VIDEO_LOAD_AND_SET_FONT control code [Display Devices], Video_IOCTLs_f68527dd-7070-4a47-91e2-9e64610508b7.xml, display.ioctl_video_load_and_set_font, ntddvdeo/IOCTL_VIDEO_LOAD_AND_SET_FONT
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_LOAD_AND_SET_FONT, IOCTL_VIDEO_LOAD_AND_SET_FONT control, IOCTL_VIDEO_LOAD_AND_SET_FONT control code [Display Devices], Video_IOCTLs_f68527dd-7070-4a47-91e2-9e64610508b7.xml, display.ioctl_video_load_and_set_font, ntddvdeo/IOCTL_VIDEO_LOAD_AND_SET_FONT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_VIDEO_LOAD_AND_SET_FONT
 product: Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_LOAD_AND_SET_FONT IOCTL

@@ -7,7 +7,7 @@ old-location: stream\bda_table_section.htm
 old-project: stream
 ms.assetid: f7669c36-6bf0-477e-8466-46a3da015cf3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_TABLE_SECTION, BDA_TABLE_SECTION, BDA_TABLE_SECTION structure [Streaming Media Devices], PBDA_TABLE_SECTION, PBDA_TABLE_SECTION structure pointer [Streaming Media Devices], _BDA_TABLE_SECTION, bdaref_cf9fff4a-3ab2-4cf1-9db8-fccd36661cad.xml, bdatypes/BDA_TABLE_SECTION, bdatypes/PBDA_TABLE_SECTION, stream.bda_table_section"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

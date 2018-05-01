@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.Evaluate
-title: IDebugControl::Evaluate method
+title: IDebugControl::Evaluate
 author: windows-driver-content
 description: The Evaluate method evaluates an expression, returning the result.
 old-location: debugger\evaluate.htm
 old-project: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: Evaluate method [Windows Debugging], Evaluate method [Windows Debugging], IDebugControl interface, Evaluate method [Windows Debugging], IDebugControl2 interface, Evaluate method [Windows Debugging], IDebugControl3 interface, Evaluate,IDebugControl.Evaluate, IDebugControl, IDebugControl interface [Windows Debugging], Evaluate method, IDebugControl2 interface [Windows Debugging], Evaluate method, IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging], Evaluate method, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl2::Evaluate, dbgeng/IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, debugger.evaluate
+ms.date: 4/24/2018
+ms.keywords: Evaluate, Evaluate method [Windows Debugging], Evaluate method [Windows Debugging],IDebugControl interface, Evaluate method [Windows Debugging],IDebugControl2 interface, Evaluate method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Evaluate method, IDebugControl.Evaluate, IDebugControl2 interface [Windows Debugging],Evaluate method, IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging],Evaluate method, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl2::Evaluate, dbgeng/IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, debugger.evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.Evaluate
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::Evaluate method
+# IDebugControl::Evaluate
 
 
 ## -description

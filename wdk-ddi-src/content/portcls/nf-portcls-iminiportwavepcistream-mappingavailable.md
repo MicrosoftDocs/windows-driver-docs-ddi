@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.MappingAvailable
-title: IMiniportWavePciStream::MappingAvailable method
+title: IMiniportWavePciStream::MappingAvailable
 author: windows-driver-content
 description: The MappingAvailable method indicates that a new mapping is available.
 old-location: audio\iminiportwavepcistream_mappingavailable.htm
 old-project: audio
 ms.assetid: 11126cc9-43a1-41b1-adc9-13af57157d74
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], MappingAvailable method, IMiniportWavePciStream::MappingAvailable, MappingAvailable method [Audio Devices], MappingAvailable method [Audio Devices], IMiniportWavePciStream interface, MappingAvailable,IMiniportWavePciStream.MappingAvailable, audio.iminiportwavepcistream_mappingavailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, portcls/IMiniportWavePciStream::MappingAvailable
+ms.date: 4/16/2018
+ms.keywords: IMiniportWavePciStream interface [Audio Devices],MappingAvailable method, IMiniportWavePciStream.MappingAvailable, IMiniportWavePciStream::MappingAvailable, MappingAvailable, MappingAvailable method [Audio Devices], MappingAvailable method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_mappingavailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, portcls/IMiniportWavePciStream::MappingAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportWavePciStream.MappingAvailable
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePciStream::MappingAvailable method
+# IMiniportWavePciStream::MappingAvailable
 
 
 ## -description

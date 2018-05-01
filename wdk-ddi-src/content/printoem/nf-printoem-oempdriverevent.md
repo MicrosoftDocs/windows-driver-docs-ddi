@@ -7,7 +7,7 @@ old-location: print\oempdriverevent.htm
 old-project: print
 ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	OEMPDriverEvent
 product: Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMPDriverEvent function

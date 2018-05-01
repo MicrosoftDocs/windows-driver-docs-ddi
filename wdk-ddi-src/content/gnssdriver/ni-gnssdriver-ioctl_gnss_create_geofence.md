@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_CREATE_GEOFENCE
 title: IOCTL_GNSS_CREATE_GEOFENCE
 author: windows-driver-content
 description: The IOCTL_GNSS_CREATE_GEOFENCE control code is used by the GNSS adapter to create a geofence.
-old-location: sensors\ioctl_gnss_create_geofence.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_create_geofence.htm
+old-project: gnss
 ms.assetid: 114B7E39-1FC6-4AC4-A238-3FC3D4A122B0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE, sensors.ioctl_gnss_create_geofence
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_create_geofence, gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GNSS_CREATE_GEOFENCE
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_CREATE_GEOFENCE IOCTL

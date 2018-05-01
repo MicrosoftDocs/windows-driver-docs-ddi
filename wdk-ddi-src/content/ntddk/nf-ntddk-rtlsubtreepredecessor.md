@@ -7,7 +7,7 @@ old-location: ifsk\rtlsubtreepredecessor.htm
 old-project: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], ifsk.rtlsubtreepredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlSubtreePredecessor
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlSubtreePredecessor function

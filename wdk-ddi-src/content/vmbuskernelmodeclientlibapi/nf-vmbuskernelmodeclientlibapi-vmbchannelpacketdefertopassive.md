@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketdefertopassive.htm
 old-project: netvista
 ms.assetid: 796F849F-7281-4AE9-BE0D-350D24A39C61
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelPacketDeferToPassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketdefertopassive, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelPacketDeferToPassive
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelPacketDeferToPassive function

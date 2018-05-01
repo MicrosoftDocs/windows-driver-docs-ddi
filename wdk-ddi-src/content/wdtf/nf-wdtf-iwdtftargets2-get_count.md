@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get_Count
-title: IWDTFTargets2::get_Count method
+title: IWDTFTargets2::get_Count
 author: windows-driver-content
 description: Gets the number of items in this collection.
 old-location: dtf\iwdtftargets2_count.htm
 old-project: dtf
 ms.assetid: c7f70139-1a23-4dee-a34e-6b8313cf8e23
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework], IWDTFTargets2 interface, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Count property, IWDTFTargets2.Count, IWDTFTargets2::get_Count, Microsoft.WDTF.IWDTFTargets2.Count, Microsoft::WDTF::IWDTFTargets2::Count, dtf.iwdtftargets2_count, get_Count,IWDTFTargets2.get_Count, wdtf/IWDTFTargets2::Count, wdtf/IWDTFTargets2::get_Count
+ms.date: 4/4/2018
+ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Count property, IWDTFTargets2.Count, IWDTFTargets2.get_Count, IWDTFTargets2::Count, IWDTFTargets2::get_Count, Microsoft.WDTF.IWDTFTargets2.Count, Microsoft::WDTF::IWDTFTargets2::Count, dtf.iwdtftargets2_count, get_Count, wdtf/IWDTFTargets2::Count, wdtf/IWDTFTargets2::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IWDTFTargets2.get_Count
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::get_Count method
+# IWDTFTargets2::get_Count
 
 
 ## -description

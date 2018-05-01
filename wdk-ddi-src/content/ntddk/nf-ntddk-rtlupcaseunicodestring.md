@@ -7,7 +7,7 @@ old-location: kernel\rtlupcaseunicodestring.htm
 old-project: kernel
 ms.assetid: fe3c6010-532b-4f3d-b3d3-a1c27d4a05f1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlUpcaseUnicodeString, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, kernel.rtlupcaseunicodestring, ntddk/RtlUpcaseUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	RtlUpcaseUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlUpcaseUnicodeString function

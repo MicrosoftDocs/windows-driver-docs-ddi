@@ -7,7 +7,7 @@ old-location: audio\pcregistersubdevice.htm
 old-project: audio
 ms.assetid: 97461adf-053b-484b-9425-b23ac6deb1bd
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcRegisterSubdevice, PcRegisterSubdevice function [Audio Devices], audio.pcregistersubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, portcls/PcRegisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	PcRegisterSubdevice
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcRegisterSubdevice function

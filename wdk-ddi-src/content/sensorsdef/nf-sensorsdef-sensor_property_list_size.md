@@ -40,8 +40,7 @@ api_name:
 -	SENSOR_PROPERTY_LIST_SIZE
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_PROPERTY_LIST_SIZE function

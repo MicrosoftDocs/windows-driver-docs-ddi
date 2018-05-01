@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetEnumCount
-title: IBidiRequest::GetEnumCount method
+title: IBidiRequest::GetEnumCount
 author: windows-driver-content
 description: The GetEnumCount method gets the number of output results from the bidi request.
 old-location: print\ibidirequest_ibidirequest__getenumcount.htm
 old-project: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetEnumCount method [Print Devices], GetEnumCount method [Print Devices], IBidiRequest interface, GetEnumCount,IBidiRequest.GetEnumCount, IBidiRequest, IBidiRequest interface [Print Devices], GetEnumCount method, IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, print.ibidirequest_ibidirequest__getenumcount
+ms.date: 4/20/2018
+ms.keywords: GetEnumCount, GetEnumCount method [Print Devices], GetEnumCount method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetEnumCount method, IBidiRequest.GetEnumCount, IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, print.ibidirequest_ibidirequest__getenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IBidiRequest.GetEnumCount
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequest::GetEnumCount method
+# IBidiRequest::GetEnumCount
 
 
 ## -description

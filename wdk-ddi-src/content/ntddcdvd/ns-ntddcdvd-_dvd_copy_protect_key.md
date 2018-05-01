@@ -86,14 +86,12 @@ Indicates the key type. The DVD device driver uses this information to determine
 ### -field Parameters
 
 
-
-#### FileHandle
+### -field Parameters.FileHandle
 
 Pointer to the file handle for the physical device that the copy protection is being negotiated on.
 
 
-
-#### TitleOffset
+### -field Parameters.TitleOffset
 
 Contains the logical block address on the media of the title.
 

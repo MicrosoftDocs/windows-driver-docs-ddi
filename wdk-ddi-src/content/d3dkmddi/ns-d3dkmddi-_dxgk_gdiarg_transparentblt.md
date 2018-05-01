@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_transparentblt.htm
 old-project: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, _DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

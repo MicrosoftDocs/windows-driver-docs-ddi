@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_gdisurfacedata.htm
 old-project: display
 ms.assetid: 7ae789dd-2454-4ed6-bd26-5ebfd9c33768
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA structure [Display Devices], DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, _D3DKMDT_GDISURFACEDATA, d3dkmdt/D3DKMDT_GDISURFACEDATA, display.d3dkmdt_gdisurfacedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

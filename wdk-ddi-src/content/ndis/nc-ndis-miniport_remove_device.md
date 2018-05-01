@@ -7,8 +7,8 @@ old-location: netvista\miniportremovedevice.htm
 old-project: netvista
 ms.assetid: 24dd887b-575f-4790-bb53-7c3fb825bd61
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_REMOVE_DEVICE, MiniportRemoveDevice, MiniportRemoveDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportRemoveDevice, ndis_msix_ref_daeef188-96e7-4917-b37f-2af8ba18eda9.xml, netvista.miniportremovedevice
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_REMOVE_DEVICE, MINIPORT_REMOVE_DEVICE callback, MiniportRemoveDevice, MiniportRemoveDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportRemoveDevice, ndis_msix_ref_daeef188-96e7-4917-b37f-2af8ba18eda9.xml, netvista.miniportremovedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportRemoveDevice
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_REMOVE_DEVICE callback
+# MINIPORT_REMOVE_DEVICE callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumOptions
-title: IPrintCoreHelper::EnumOptions method
+title: IPrintCoreHelper::EnumOptions
 author: windows-driver-content
 description: The IPrintCoreHelper::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelper_enumoptions.htm
 old-project: print
 ms.assetid: 2e46e8cd-b5e5-4116-b42c-b7adcee9d520
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelper interface, EnumOptions,IPrintCoreHelper.EnumOptions, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], EnumOptions method, IPrintCoreHelper::EnumOptions, prcomoem/IPrintCoreHelper::EnumOptions, print.iprintcorehelper_enumoptions, print_unidrv-pscript_allplugins_2dc1f4f3-27ab-44d3-8778-45f2eafae92a.xml
+ms.date: 4/20/2018
+ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumOptions method, IPrintCoreHelper.EnumOptions, IPrintCoreHelper::EnumOptions, prcomoem/IPrintCoreHelper::EnumOptions, print.iprintcorehelper_enumoptions, print_unidrv-pscript_allplugins_2dc1f4f3-27ab-44d3-8778-45f2eafae92a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreHelper.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelper::EnumOptions method
+# IPrintCoreHelper::EnumOptions
 
 
 ## -description

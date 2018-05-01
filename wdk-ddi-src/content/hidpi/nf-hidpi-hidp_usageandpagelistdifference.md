@@ -40,7 +40,7 @@ api_name:
 -	HidP_UsageAndPageListDifference
 product: Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_UsageAndPageListDifference function

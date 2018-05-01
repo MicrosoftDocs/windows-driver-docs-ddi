@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.ReleaseLock
-title: IWDFObject::ReleaseLock method
+title: IWDFObject::ReleaseLock
 author: windows-driver-content
 description: The ReleaseLock method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the IWDFObject::AcquireLock method.
 old-location: wdf\iwdfobject_releaselock.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFObject, IWDFObject interface, ReleaseLock method, IWDFObject::ReleaseLock, ReleaseLock method, ReleaseLock method, IWDFObject interface, ReleaseLock,IWDFObject.ReleaseLock, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, umdf.iwdfobject_releaselock, wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock
+ms.keywords: IWDFObject interface,ReleaseLock method, IWDFObject.ReleaseLock, IWDFObject::ReleaseLock, ReleaseLock, ReleaseLock method, ReleaseLock method,IWDFObject interface, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, umdf.iwdfobject_releaselock, wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFObject.ReleaseLock
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFObject::ReleaseLock method
+# IWDFObject::ReleaseLock
 
 
 ## -description

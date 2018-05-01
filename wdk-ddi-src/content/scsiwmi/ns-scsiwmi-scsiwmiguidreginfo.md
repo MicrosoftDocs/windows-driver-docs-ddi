@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
-req.product: Windows 10 or later.
 ---
 
 # SCSIWMIGUIDREGINFO structure

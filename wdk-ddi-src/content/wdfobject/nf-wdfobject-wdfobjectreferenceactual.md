@@ -43,8 +43,7 @@ api_name:
 -	WdfObjectReferenceActual
 product: Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfObjectReferenceActual function

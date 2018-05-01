@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExceptionFilterSecondCommandWide
-title: IDebugControl4::GetExceptionFilterSecondCommandWide method
+title: IDebugControl4::GetExceptionFilterSecondCommandWide
 author: windows-driver-content
 description: The GetExceptionFilterSecondCommandWide method returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
 old-project: debugger
 ms.assetid: 17a61847-78b7-45b8-b02b-3ba4cdba6bff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, GetExceptionFilterSecondCommandWide,IDebugControl4.GetExceptionFilterSecondCommandWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide
+ms.date: 4/24/2018
+ms.keywords: GetExceptionFilterSecondCommandWide, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExceptionFilterSecondCommandWide method, IDebugControl4.GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.GetExceptionFilterSecondCommandWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetExceptionFilterSecondCommandWide method
+# IDebugControl4::GetExceptionFilterSecondCommandWide
 
 
 ## -description

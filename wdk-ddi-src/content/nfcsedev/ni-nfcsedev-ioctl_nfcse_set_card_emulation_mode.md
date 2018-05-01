@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B7E55FDE-573C-4F45-869C-A3EE253BD777
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_SET_CARD_EMULATION_MODE, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_CARD_EMULATION_MODE, nfpdrivers.ioctl_nfcse_set_card_emulation_mode
+ms.keywords: IOCTL_NFCSE_SET_CARD_EMULATION_MODE, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_CARD_EMULATION_MODE, nfpdrivers.ioctl_nfcse_set_card_emulation_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_NFCSE_SET_CARD_EMULATION_MODE
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_SET_CARD_EMULATION_MODE IOCTL

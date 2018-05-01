@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputWidth
-title: IDebugClient::GetOutputWidth method
+title: IDebugClient::GetOutputWidth
 author: windows-driver-content
 description: Gets the width of an output line for commands that produce formatted output.
 old-location: debugger\idebugclient_getoutputwidth.htm
 old-project: debugger
 ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging], IDebugClient interface, GetOutputWidth,IDebugClient.GetOutputWidth, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputWidth method, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, debugger.idebugclient_getoutputwidth
+ms.date: 4/24/2018
+ms.keywords: GetOutputWidth, GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputWidth method, IDebugClient.GetOutputWidth, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, debugger.idebugclient_getoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient.GetOutputWidth
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::GetOutputWidth method
+# IDebugClient::GetOutputWidth
 
 
 ## -description

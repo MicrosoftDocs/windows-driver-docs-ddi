@@ -7,8 +7,8 @@ old-location: display\calcprivateblendstatesize_d3d10_1_.htm
 old-project: display
 ms.assetid: 6f48290e-d571-4e59-9f33-58398db5b6fb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CalcPrivateBlendStateSize_d3d10_1_, CalcPrivateBlendStateSize_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE, UserModeDisplayDriverDx10_Functions_e5473d10-1ef3-4c7c-9908-a6f3818da267.xml, d3d10umddi/CalcPrivateBlendStateSize_d3d10_1_, display.calcprivateblendstatesize_d3d10_1_
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateBlendStateSize_d3d10_1_, CalcPrivateBlendStateSize_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE, PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE callback, UserModeDisplayDriverDx10_Functions_e5473d10-1ef3-4c7c-9908-a6f3818da267.xml, d3d10umddi/CalcPrivateBlendStateSize_d3d10_1_, display.calcprivateblendstatesize_d3d10_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CalcPrivateBlendStateSize_d3d10_1_
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE callback
+# PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE callback function
 
 
 ## -description

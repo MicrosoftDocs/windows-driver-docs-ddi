@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroydevice.htm
 old-project: display
 ms.assetid: 7699214a-0cd2-401a-9f66-199d181abce4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyDevice, D3DKMTDestroyDevice function [Display Devices], OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, d3dkmthk/D3DKMTDestroyDevice, display.d3dkmtdestroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ api_name:
 -	D3DKMTDestroyDevice
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyDevice function

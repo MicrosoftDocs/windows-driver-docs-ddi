@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
-title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler method
+title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 author: windows-driver-content
 description: The OnDefaultIoHandler method handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler_ondefaultiohandler.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler,IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
+ms.keywords: IQueueCallbackDefaultIoHandler interface,OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method,IQueueCallbackDefaultIoHandler interface, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackDefaultIoHandler::OnDefaultIoHandler method
+# IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 
 
 ## -description

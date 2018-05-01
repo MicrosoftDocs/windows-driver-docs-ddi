@@ -7,8 +7,8 @@ old-location: debugger\debugextensionunload.htm
 old-project: debugger
 ms.assetid: 8F83F94E-CF4F-4709-A860-DDF1850A7264
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
+ms.date: 4/24/2018
+ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, PDEBUG_EXTENSION_UNLOAD callback, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DebugExtensionUnload
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_EXTENSION_UNLOAD callback
+# PDEBUG_EXTENSION_UNLOAD callback function
 
 
 ## -description

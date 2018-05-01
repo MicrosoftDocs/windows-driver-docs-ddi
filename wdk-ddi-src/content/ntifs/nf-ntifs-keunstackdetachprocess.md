@@ -7,7 +7,7 @@ old-location: ifsk\keunstackdetachprocess.htm
 old-project: ifsk
 ms.assetid: 3dd5b8f7-d8f8-4c02-80d1-76d0dbe06cd3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: KeUnstackDetachProcess, KeUnstackDetachProcess routine [Installable File System Drivers], ifsk.keunstackdetachprocess, keref_47d45f58-d264-4633-8808-2172646df566.xml, ntifs/KeUnstackDetachProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	KeUnstackDetachProcess
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # KeUnstackDetachProcess function

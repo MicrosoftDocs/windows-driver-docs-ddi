@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_REUSE_PARAMS, *PWDF_REQUEST_REUSE_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REQUEST_REUSE_PARAMS structure

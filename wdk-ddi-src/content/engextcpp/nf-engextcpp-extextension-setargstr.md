@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArgStr
-title: ExtExtension::SetArgStr method
+title: ExtExtension::SetArgStr
 author: windows-driver-content
 description: The SetArgStr method sets a named string argument for the current expression command.
 old-location: debugger\setargstr.htm
 old-project: debugger
 ms.assetid: a133cc3d-7d28-436a-b2f7-0f6171ed379f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_768f449e-fa81-4759-a16d-a8dfe1d3bf61.xml, ExtExtension, ExtExtension class [Windows Debugging], SetArgStr method, ExtExtension::SetArgStr, SetArgStr method [Windows Debugging], SetArgStr method [Windows Debugging], ExtExtension class, SetArgStr,ExtExtension.SetArgStr, debugger.setargstr
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_768f449e-fa81-4759-a16d-a8dfe1d3bf61.xml, ExtExtension class [Windows Debugging],SetArgStr method, ExtExtension.SetArgStr, ExtExtension::SetArgStr, SetArgStr, SetArgStr method [Windows Debugging], SetArgStr method [Windows Debugging],ExtExtension class, debugger.setargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtExtension.SetArgStr
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::SetArgStr method
+# ExtExtension::SetArgStr
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9331ad0b-42e0-4f20-9410-fb135f4791b0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CDROM_SET_VOLUME, IOCTL_CDROM_SET_VOLUME control code [Storage Devices], k307_d31efcd3-1072-49db-82d0-6ecce05a8964.xml, ntddcdrm/IOCTL_CDROM_SET_VOLUME, storage.ioctl_cdrom_set_volume
+ms.keywords: IOCTL_CDROM_SET_VOLUME, IOCTL_CDROM_SET_VOLUME control, IOCTL_CDROM_SET_VOLUME control code [Storage Devices], k307_d31efcd3-1072-49db-82d0-6ecce05a8964.xml, ntddcdrm/IOCTL_CDROM_SET_VOLUME, storage.ioctl_cdrom_set_volume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_CDROM_SET_VOLUME
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_SET_VOLUME IOCTL

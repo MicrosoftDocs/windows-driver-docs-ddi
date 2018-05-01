@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 title: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code is used to request alert information from GNSS_BREADCRUMBING_ALERT_DATA when the breadcrumbing buffer has reached a level at which OS read operations should be performed.
-old-location: sensors\ioctl_gnss_listen_breadcrumbing_alert_.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_listen_breadcrumbing_alert_.htm
+old-project: gnss
 ms.assetid: 14D396B1-5F55-4902-8986-BD4CC5B2ACC4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, sensors.ioctl_gnss_listen_breadcrumbing_alert_
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT IOCTL

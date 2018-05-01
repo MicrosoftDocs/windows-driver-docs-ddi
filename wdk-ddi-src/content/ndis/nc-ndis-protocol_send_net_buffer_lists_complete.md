@@ -7,8 +7,8 @@ old-location: netvista\protocolsendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: bc9197c5-ce0b-42b2-8225-fb9d83427ac8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolSendNetBufferListsComplete
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback
+# PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback function
 
 
 ## -description

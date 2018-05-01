@@ -7,7 +7,7 @@ old-location: stream\kstrclockgettime.htm
 old-project: stream
 ms.assetid: 4b1028a1-8c86-4958-a19f-32c490dda790
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrClockGetPhysicalTime, KStrClockGetTime, PFNKSCLOCK_GETTIME, SystemClockGetTime, SystemClockGetTime routine [Streaming Media Devices], ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml, stream.kstrclockgettime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	SystemClockGetTime
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSCLOCK_GETTIME callback
+# PFNKSCLOCK_GETTIME callback function
 
 
 ## -description

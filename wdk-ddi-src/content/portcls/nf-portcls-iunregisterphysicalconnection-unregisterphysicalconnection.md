@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IUnregisterPhysicalConnection.UnregisterPhysicalConnection
-title: IUnregisterPhysicalConnection::UnregisterPhysicalConnection method
+title: IUnregisterPhysicalConnection::UnregisterPhysicalConnection
 author: windows-driver-content
 description: The UnregisterPhysicalConnection method deletes the registration of a physical connection that was registered by a previous call to PcRegisterPhysicalConnection.
 old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnection.htm
 old-project: audio
 ms.assetid: e8b99549-0fe2-4c8a-ad93-6689ebddee40
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnection,IUnregisterPhysicalConnection.UnregisterPhysicalConnection, audio.iunregisterphysicalconnection_unregisterphysicalconnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection
+ms.date: 4/16/2018
+ms.keywords: IUnregisterPhysicalConnection interface [Audio Devices],UnregisterPhysicalConnection method, IUnregisterPhysicalConnection.UnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], UnregisterPhysicalConnection method [Audio Devices],IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IUnregisterPhysicalConnection.UnregisterPhysicalConnection
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IUnregisterPhysicalConnection::UnregisterPhysicalConnection method
+# IUnregisterPhysicalConnection::UnregisterPhysicalConnection
 
 
 ## -description

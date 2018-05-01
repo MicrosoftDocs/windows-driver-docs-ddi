@@ -7,8 +7,8 @@ old-location: kernel\ioctl_ioctl_sysenv_get_variable.htm
 old-project: kernel
 ms.assetid: B6249E4B-DF79-4B74-AE52-137FEF299169
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: IOCTL_SYSENV_GET_VARIABLE, IOCTL_SYSENV_GET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_get_variable, ntddsysenv/IOCTL_SYSENV_GET_VARIABLE
+ms.date: 4/5/2018
+ms.keywords: IOCTL_SYSENV_GET_VARIABLE, IOCTL_SYSENV_GET_VARIABLE control, IOCTL_SYSENV_GET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_get_variable, ntddsysenv/IOCTL_SYSENV_GET_VARIABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SYSENV_GET_VARIABLE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
+req.typenames: 
 ---
 
 # IOCTL_SYSENV_GET_VARIABLE IOCTL

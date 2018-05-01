@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped
-title: ExtRemoteTyped::ExtRemoteTyped method
+title: ExtRemoteTyped::ExtRemoteTyped
 author: windows-driver-content
 description: The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped.htm
 old-project: debugger
 ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], ExtRemoteTyped constructor, ExtRemoteTyped,ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped, debugger.extremotetyped_extremotetyped
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(), ExtRemoteTyped::ExtRemoteTyped, debugger.extremotetyped_extremotetyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteTyped.ExtRemoteTyped
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::ExtRemoteTyped method
+# ExtRemoteTyped::ExtRemoteTyped
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\wmitracemessageva.htm
 old-project: kernel
 ms.assetid: 57f8006c-defe-4975-9d21-0eaecae5a873
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, kernel.wmitracemessageva, wdm/WmiTraceMessageVa
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	WmiTraceMessageVa
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WmiTraceMessageVa function

@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_opm_get_random_number.htm
 old-project: display
 ms.assetid: 330dc0a1-d9a9-44c1-9d29-752c2567e745
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, EvtIddCxMonitorOpmGetRandomNumber, EvtIddCxMonitorOpmGetRandomNumber callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_random_number, iddcx/EvtIddCxMonitorOpmGetRandomNumber
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback, EvtIddCxMonitorOpmGetRandomNumber, EvtIddCxMonitorOpmGetRandomNumber callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_random_number, iddcx/EvtIddCxMonitorOpmGetRandomNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback
+# EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function
 
 
 ## -description

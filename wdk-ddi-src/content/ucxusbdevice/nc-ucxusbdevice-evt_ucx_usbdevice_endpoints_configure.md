@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_endpoints_configure.htm
 old-project: usbref
 ms.assetid: 2f374912-985d-47e0-9fda-b43242375cb5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, EvtUcxUsbDeviceEndpointsConfigure, EvtUcxUsbDeviceEndpointsConfigure callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoints_configure, ucxusbdevice/EvtUcxUsbDeviceEndpointsConfigure
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback, EvtUcxUsbDeviceEndpointsConfigure, EvtUcxUsbDeviceEndpointsConfigure callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE, PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoints_configure, ucxusbdevice/EvtUcxUsbDeviceEndpointsConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
 product: Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback
+# EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function
 
 
 ## -description

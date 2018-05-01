@@ -7,7 +7,7 @@ old-location: buses\ucmtcpciportcontrollersethardwarerequestqueue.htm
 old-project: usbref
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], buses.ucmtcpciportcontrollersethardwarerequestqueue, ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UcmTcpciPortControllerSetHardwareRequestQueue
 product: Windows
 targetos: Windows
-req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmTcpciPortControllerSetHardwareRequestQueue function

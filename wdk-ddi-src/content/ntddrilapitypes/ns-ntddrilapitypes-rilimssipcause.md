@@ -7,7 +7,7 @@ old-location: netvista\rilimssipcause.htm
 old-project: netvista
 ms.assetid: 79a57fc5-1526-4f18-b51c-7d045092fcb4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILIMSSIPCAUSE, RILIMSSIPCAUSE, RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilimssipcause, ntddrilapitypes/RILIMSSIPCAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

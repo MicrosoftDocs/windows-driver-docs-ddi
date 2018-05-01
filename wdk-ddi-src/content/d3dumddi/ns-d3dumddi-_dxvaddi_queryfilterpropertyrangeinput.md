@@ -7,7 +7,7 @@ old-location: display\dxvaddi_queryfilterpropertyrangeinput.htm
 old-project: display
 ms.assetid: d073d326-6cc6-4216-b312-809d707aef3b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_28a2aed9-57a1-4bd6-b8dc-c09bb9e821b0.xml, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure [Display Devices], _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, display.dxvaddi_queryfilterpropertyrangeinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

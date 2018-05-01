@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
-title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC method
+title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
 author: windows-driver-content
 description: Sets the simulated battery status to AC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac.htm
 old-project: dtf
 ms.assetid: ddfd38d9-a78e-4573-9bf3-24f2f69b5949
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryToAC method, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, SetSimulatedBatteryToAC,IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
+ms.date: 4/4/2018
+ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryToAC method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, SetSimulatedBatteryToAC, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC method
+# IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
 
 
 ## -description

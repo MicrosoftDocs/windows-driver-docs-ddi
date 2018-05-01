@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createkeyedmutex2_flags.htm
 old-project: display
 ms.assetid: 21c2d262-bf8c-48a3-9801-5c2bd73f0282
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX2_FLAGS, D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure [Display Devices], _D3DKMT_CREATEKEYEDMUTEX2_FLAGS, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS, display.d3dkmt_createkeyedmutex2_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ If <b>NtSecuritySharing</b> is set to zero (<b>FALSE</b>), the keyed mutex has a
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros.
 
 
-#### - Value
+### -field Value
 
 [in] A member in the union that <b>D3DKMT_CREATEKEYEDMUTEX2_FLAGS</b> contains that can hold a 32-bit value that identifies the keyed mutex  sharing type.
 

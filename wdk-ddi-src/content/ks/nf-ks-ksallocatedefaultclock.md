@@ -7,7 +7,7 @@ old-location: stream\ksallocatedefaultclock.htm
 old-project: stream
 ms.assetid: 5ba14903-1519-4edd-bc3c-a05cb040652d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices], ks/KsAllocateDefaultClock, ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, stream.ksallocatedefaultclock
 ms.prod: windows-hardware
 ms.technology: windows-devices

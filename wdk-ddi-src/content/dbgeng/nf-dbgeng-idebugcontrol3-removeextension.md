@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveExtension
-title: IDebugControl3::RemoveExtension method
+title: IDebugControl3::RemoveExtension
 author: windows-driver-content
 description: The RemoveExtension method unloads an extension library.
 old-location: debugger\removeextension.htm
 old-project: debugger
 ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], RemoveExtension method, IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl2::RemoveExtension, IDebugControl3, IDebugControl3 interface [Windows Debugging], RemoveExtension method, IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging], IDebugControl interface, RemoveExtension method [Windows Debugging], IDebugControl2 interface, RemoveExtension method [Windows Debugging], IDebugControl3 interface, RemoveExtension,IDebugControl3.RemoveExtension, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],RemoveExtension method, IDebugControl2 interface [Windows Debugging],RemoveExtension method, IDebugControl2::RemoveExtension, IDebugControl3 interface [Windows Debugging],RemoveExtension method, IDebugControl3.RemoveExtension, IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging],IDebugControl interface, RemoveExtension method [Windows Debugging],IDebugControl2 interface, RemoveExtension method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.RemoveExtension
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::RemoveExtension method
+# IDebugControl3::RemoveExtension
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_submitcommandtohwqueue.htm
 old-project: display
 ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

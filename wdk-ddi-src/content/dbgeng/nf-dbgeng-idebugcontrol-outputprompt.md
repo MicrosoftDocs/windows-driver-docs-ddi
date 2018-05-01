@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputPrompt
-title: IDebugControl::OutputPrompt method
+title: IDebugControl::OutputPrompt
 author: windows-driver-content
 description: The OutputPrompt method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputprompt.htm
 old-project: debugger
 ms.assetid: 463d6fbd-cbe4-4de1-a01a-52a5002f24b8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputPrompt method, IDebugControl2 interface [Windows Debugging], OutputPrompt method, IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging], IDebugControl interface, OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt method [Windows Debugging], IDebugControl3 interface, OutputPrompt,IDebugControl.OutputPrompt, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OutputPrompt method, IDebugControl.OutputPrompt, IDebugControl2 interface [Windows Debugging],OutputPrompt method, IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging],OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging],IDebugControl interface, OutputPrompt method [Windows Debugging],IDebugControl2 interface, OutputPrompt method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.OutputPrompt
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::OutputPrompt method
+# IDebugControl::OutputPrompt
 
 
 ## -description

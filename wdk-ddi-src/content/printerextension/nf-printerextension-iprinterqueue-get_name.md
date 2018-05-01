@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueue.get_Name
-title: IPrinterQueue::get_Name method
+title: IPrinterQueue::get_Name
 author: windows-driver-content
 description: Gets the name of the printer for this print queue.
 old-location: print\iprinterqueue_name.htm
 old-project: print
 ms.assetid: BB8CAEFC-3CD5-46EA-89A8-FAF38063A185
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], Name property, IPrinterQueue.Name, IPrinterQueue::get_Name, Name property [Print Devices], Name property [Print Devices], IPrinterQueue interface, get_Name, get_Name,IPrinterQueue.get_Name, print.iprinterqueue_name, printerextension/IPrinterQueue::Name, printerextension/IPrinterQueue::get_Name
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueue interface [Print Devices],Name property, IPrinterQueue.Name, IPrinterQueue.get_Name, IPrinterQueue::Name, IPrinterQueue::get_Name, Name property [Print Devices], Name property [Print Devices],IPrinterQueue interface, get_Name, print.iprinterqueue_name, printerextension/IPrinterQueue::Name, printerextension/IPrinterQueue::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrinterQueue.get_Name
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueue::get_Name method
+# IPrinterQueue::get_Name
 
 
 ## -description

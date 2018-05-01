@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionInactive
-title: ExtExtension::OnSessionInactive method
+title: ExtExtension::OnSessionInactive
 author: windows-driver-content
 description: The OnSessionInactive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive.
 old-location: debugger\onsessioninactive.htm
 old-project: debugger
 ms.assetid: 6f9b7636-8808-4783-bba7-70b31ae08238
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, ExtExtension, ExtExtension class [Windows Debugging], OnSessionInactive method, ExtExtension::OnSessionInactive, OnSessionInactive method [Windows Debugging], OnSessionInactive method [Windows Debugging], ExtExtension class, OnSessionInactive,ExtExtension.OnSessionInactive, debugger.onsessioninactive
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, ExtExtension class [Windows Debugging],OnSessionInactive method, ExtExtension.OnSessionInactive, ExtExtension::OnSessionInactive, OnSessionInactive, OnSessionInactive method [Windows Debugging], OnSessionInactive method [Windows Debugging],ExtExtension class, debugger.onsessioninactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtExtension.OnSessionInactive
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::OnSessionInactive method
+# ExtExtension::OnSessionInactive
 
 
 ## -description

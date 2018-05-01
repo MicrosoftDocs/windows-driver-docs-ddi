@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient2.StartServer
-title: IDebugClient2::StartServer method
+title: IDebugClient2::StartServer
 author: windows-driver-content
 description: The StartServer method starts a debugging server.
 old-location: debugger\startserver.htm
 old-project: debugger
 ms.assetid: 52b1c590-a62b-4e27-a267-1862cb76e6d4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient interface [Windows Debugging], StartServer method, IDebugClient2, IDebugClient2 interface [Windows Debugging], StartServer method, IDebugClient2::StartServer, IDebugClient3 interface [Windows Debugging], StartServer method, IDebugClient3::StartServer, IDebugClient4 interface [Windows Debugging], StartServer method, IDebugClient4::StartServer, IDebugClient5 interface [Windows Debugging], StartServer method, IDebugClient5::StartServer, IDebugClient::StartServer, IDebugClient_5ca142fb-bb02-4484-adf0-9337f53d0bdc.xml, StartServer method [Windows Debugging], StartServer method [Windows Debugging], IDebugClient interface, StartServer method [Windows Debugging], IDebugClient2 interface, StartServer method [Windows Debugging], IDebugClient3 interface, StartServer method [Windows Debugging], IDebugClient4 interface, StartServer method [Windows Debugging], IDebugClient5 interface, StartServer,IDebugClient2.StartServer, dbgeng/IDebugClient2::StartServer, dbgeng/IDebugClient3::StartServer, dbgeng/IDebugClient4::StartServer, dbgeng/IDebugClient5::StartServer, dbgeng/IDebugClient::StartServer, debugger.startserver
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],StartServer method, IDebugClient2 interface [Windows Debugging],StartServer method, IDebugClient2.StartServer, IDebugClient2::StartServer, IDebugClient3 interface [Windows Debugging],StartServer method, IDebugClient3::StartServer, IDebugClient4 interface [Windows Debugging],StartServer method, IDebugClient4::StartServer, IDebugClient5 interface [Windows Debugging],StartServer method, IDebugClient5::StartServer, IDebugClient::StartServer, IDebugClient_5ca142fb-bb02-4484-adf0-9337f53d0bdc.xml, StartServer, StartServer method [Windows Debugging], StartServer method [Windows Debugging],IDebugClient interface, StartServer method [Windows Debugging],IDebugClient2 interface, StartServer method [Windows Debugging],IDebugClient3 interface, StartServer method [Windows Debugging],IDebugClient4 interface, StartServer method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::StartServer, dbgeng/IDebugClient3::StartServer, dbgeng/IDebugClient4::StartServer, dbgeng/IDebugClient5::StartServer, dbgeng/IDebugClient::StartServer, debugger.startserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 -	IDebugClient5.StartServer
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient2::StartServer method
+# IDebugClient2::StartServer
 
 
 ## -description

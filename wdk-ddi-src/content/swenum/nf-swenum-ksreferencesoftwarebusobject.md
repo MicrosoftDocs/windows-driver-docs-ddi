@@ -7,7 +7,7 @@ old-location: stream\ksreferencesoftwarebusobject.htm
 old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, stream.ksreferencesoftwarebusobject, swenum/KsReferenceSoftwareBusObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	KsReferenceSoftwareBusObject
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsReferenceSoftwareBusObject function

@@ -40,10 +40,10 @@ api_name:
 -	(*TAPE_ERROR_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.typenames: 
 ---
 
-# TAPE_ERROR_ROUTINE callback
+# TAPE_ERROR_ROUTINE callback function
 
 
 ## -description

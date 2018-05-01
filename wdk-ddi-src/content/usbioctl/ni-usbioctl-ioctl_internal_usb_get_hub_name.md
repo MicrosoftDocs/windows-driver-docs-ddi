@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usb_get_hub_name.htm
 old-project: usbref
 ms.assetid: af0a1cfe-16e8-4356-9b5c-2e2523869906
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_NAME, IOCTL_INTERNAL_USB_GET_HUB_NAME control code [Buses], buses.ioctl_internal_usb_get_hub_name, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_NAME, usbirp_54327688-c86b-4d05-b81d-5368f694f9ca.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_NAME, IOCTL_INTERNAL_USB_GET_HUB_NAME control, IOCTL_INTERNAL_USB_GET_HUB_NAME control code [Buses], buses.ioctl_internal_usb_get_hub_name, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_NAME, usbirp_54327688-c86b-4d05-b81d-5368f694f9ca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_INTERNAL_USB_GET_HUB_NAME
 product: Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USB_GET_HUB_NAME IOCTL

@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_roothub_get_30port_info.htm
 old-project: usbref
 ms.assetid: 35eb22aa-3158-48ad-a20c-909604f9b4b1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_ROOTHUB_GET_30PORT_INFO, EvtUcxRootHubGet30PortInfo, EvtUcxRootHubGet30PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_30PORT_INFO, PEVT_UCX_ROOTHUB_GET_30PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_30port_info, ucxroothub/EvtUcxRootHubGet30PortInfo
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_ROOTHUB_GET_30PORT_INFO, EVT_UCX_ROOTHUB_GET_30PORT_INFO callback, EvtUcxRootHubGet30PortInfo, EvtUcxRootHubGet30PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_30PORT_INFO, PEVT_UCX_ROOTHUB_GET_30PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_30port_info, ucxroothub/EvtUcxRootHubGet30PortInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PEVT_UCX_ROOTHUB_GET_30PORT_INFO
 product: Windows
 targetos: Windows
-req.typenames: UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_ROOTHUB_GET_30PORT_INFO callback
+# EVT_UCX_ROOTHUB_GET_30PORT_INFO callback function
 
 
 ## -description

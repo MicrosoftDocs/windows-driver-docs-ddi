@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_drawprimitive.htm
 old-project: display
 ms.assetid: b5c3a750-7ccb-42ab-9648-17c43e390ec8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices

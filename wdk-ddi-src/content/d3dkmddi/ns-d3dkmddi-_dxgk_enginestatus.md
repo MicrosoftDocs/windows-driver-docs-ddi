@@ -7,7 +7,7 @@ old-location: display\dxgk_enginestatus.htm
 old-project: display
 ms.assetid: e052e3bc-688e-4aa8-b987-88ed6963774a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_ENGINESTATUS, DXGK_ENGINESTATUS structure [Display Devices], _DXGK_ENGINESTATUS, d3dkmddi/DXGK_ENGINESTATUS, display.dxgk_enginestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -67,7 +67,7 @@ The display miniport driver must set this member to a value of 1 if the node and
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that specifies the progress of the physical adapter.
 

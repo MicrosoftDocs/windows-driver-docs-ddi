@@ -7,7 +7,7 @@ old-location: bltooth\indication_parameters.htm
 old-project: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS, INDICATION_PARAMETERS structure [Bluetooth Devices], PINDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS, bltooth.indication_parameters, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	INDICATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS, *PINDICATION_PARAMETERS"
+req.typenames: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS"
 ---
 
 # _INDICATION_PARAMETERS structure
@@ -84,8 +84,7 @@ The structure that contains parameters for the
 The structure that contains the parameters for a connection request.
 
 
-
-###### Connect.Request.PSM
+### -field Parameters.Connect.Request.PSM
 
 The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
         <b>IndicationRemoteConnectINDICATION_CODE</b> value is specified in the callback function's 

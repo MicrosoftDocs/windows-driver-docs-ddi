@@ -7,8 +7,8 @@ old-location: display\dxgk_monitor_interface_pfngetmonitorfrequencyrangeset.htm
 old-project: display
 ms.assetid: 78b80dbb-af1e-457c-854f-ff0404ab9808
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET, VidPnFunctions_2088f146-59a2-49d1-9295-21a28d50e2d0.xml, d3dkmddi/pfnGetMonitorFrequencyRangeSet, display.dxgk_monitor_interface_pfngetmonitorfrequencyrangeset, pfnGetMonitorFrequencyRangeSet, pfnGetMonitorFrequencyRangeSet callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET, DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET callback, VidPnFunctions_2088f146-59a2-49d1-9295-21a28d50e2d0.xml, d3dkmddi/pfnGetMonitorFrequencyRangeSet, display.dxgk_monitor_interface_pfngetmonitorfrequencyrangeset, pfnGetMonitorFrequencyRangeSet, pfnGetMonitorFrequencyRangeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnGetMonitorFrequencyRangeSet
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET callback
+# DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET callback function
 
 
 ## -description

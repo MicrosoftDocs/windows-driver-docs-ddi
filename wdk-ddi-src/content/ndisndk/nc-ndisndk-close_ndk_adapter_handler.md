@@ -7,8 +7,8 @@ old-location: netvista\close_ndk_adapter_handler.htm
 old-project: netvista
 ms.assetid: 9D5980F1-A244-4C5C-B032-68C10BF9D6E7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
+ms.date: 4/25/2018
+ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CLOSE_NDK_ADAPTER_HANDLER callback, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CloseNdkAdapterHandler
 product: Windows
 targetos: Windows
-req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
+req.typenames: 
 ---
 
-# CLOSE_NDK_ADAPTER_HANDLER callback
+# CLOSE_NDK_ADAPTER_HANDLER callback function
 
 
 ## -description

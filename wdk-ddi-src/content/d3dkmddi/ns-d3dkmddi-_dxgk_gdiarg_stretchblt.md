@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_stretchblt.htm
 old-project: display
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: BLACKONWHITE, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, d3dkmddi/DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -159,18 +159,18 @@ On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>O
        
 
 
+### -field Flags
+
+
+       [in] Optional UINT value that can be used to debug driver code.
+      
+
+
 ### -field SrcPitch
 
 
       [in] The pitch of the source surface, in bytes.
      
-
-
-#### - Flags
-
-
-       [in] Optional UINT value that can be used to debug driver code.
-      
 
 
 ## -remarks

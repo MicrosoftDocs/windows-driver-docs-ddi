@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_controller_get_transport_characteristics.htm
 old-project: usbref
 ms.assetid: 4394199C-6644-4E11-BDAF-625C2F94DEE8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function pointer [Buses], EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, EvUcxControllerGetTransportCharacteristics, EvUcxControllerGetTransportCharacteristics callback function [Buses], buses.evt_ucx_controller_get_transport_characteristics, ucxcontroller/EvUcxControllerGetTransportCharacteristics"
+ms.date: 4/25/2018
+ms.keywords: "*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function pointer [Buses], EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback, EvUcxControllerGetTransportCharacteristics, EvUcxControllerGetTransportCharacteristics callback function [Buses], buses.evt_ucx_controller_get_transport_characteristics, ucxcontroller/EvUcxControllerGetTransportCharacteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback
+# EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function
 
 
 ## -description

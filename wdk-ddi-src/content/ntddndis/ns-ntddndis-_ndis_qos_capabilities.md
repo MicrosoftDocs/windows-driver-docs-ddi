@@ -7,7 +7,7 @@ old-location: netvista\ndis_qos_capabilities.htm
 old-project: netvista
 ms.assetid: 23698bb8-3fb6-4e60-aaac-75c2e3341d54
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

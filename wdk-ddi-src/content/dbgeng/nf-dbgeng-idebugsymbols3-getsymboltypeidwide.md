@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolTypeIdWide
-title: IDebugSymbols3::GetSymbolTypeIdWide method
+title: IDebugSymbols3::GetSymbolTypeIdWide
 author: windows-driver-content
 description: The GetSymbolTypeIdWide method returns the type ID and module of the specified symbol.
 old-location: debugger\getsymboltypeidwide.htm
 old-project: debugger
 ms.assetid: b68a5f89-1623-4cab-84bf-3cc6e4031d9b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolTypeIdWide method [Windows Debugging], GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolTypeIdWide,IDebugSymbols3.GetSymbolTypeIdWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, IDebugSymbols3::GetSymbolTypeIdWide, dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide
+ms.date: 4/24/2018
+ms.keywords: GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], GetSymbolTypeIdWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolTypeIdWide method, IDebugSymbols3.GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.GetSymbolTypeIdWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolTypeIdWide method
+# IDebugSymbols3::GetSymbolTypeIdWide
 
 
 ## -description

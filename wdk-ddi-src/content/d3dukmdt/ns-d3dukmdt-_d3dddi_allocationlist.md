@@ -7,7 +7,7 @@ old-location: display\d3dddi_allocationlist.htm
 old-project: display
 ms.assetid: 167ceb16-d7b9-4657-84cd-f3b9de5e5267
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ALLOCATIONLIST, D3DDDI_ALLOCATIONLIST structure [Display Devices], D3D_other_Structs_0e766b30-b39d-4107-8739-0b9290e7d489.xml, _D3DDDI_ALLOCATIONLIST, d3dukmdt/D3DDDI_ALLOCATIONLIST, display.d3dddi_allocationlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ Supported starting with Windows 8.
 Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros. 
 
 
-#### - Value
+### -field Value
 
 [in] A 32-bit value that identifies information about an allocation specification used in DMA buffering.
 

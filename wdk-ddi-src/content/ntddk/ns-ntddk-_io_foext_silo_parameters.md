@@ -7,7 +7,7 @@ old-location: ifsk\io_foext_silo_parameters.htm
 old-project: ifsk
 ms.assetid: EC7C59D0-96AE-400D-9502-D6DBFD9918DC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PIO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], _IO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters, ntddk/IO_FOEXT_SILO_PARAMETERS, ntddk/PIO_FOEXT_SILO_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -68,6 +68,11 @@ The length of the structure. This also serves as the structure version.
 
 
 ### -field SpareFlags
+
+ 
+
+
+### -field Flags
 
  
 

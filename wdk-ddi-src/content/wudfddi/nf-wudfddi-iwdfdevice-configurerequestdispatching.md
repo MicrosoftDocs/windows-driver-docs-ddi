@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.ConfigureRequestDispatching
-title: IWDFDevice::ConfigureRequestDispatching method
+title: IWDFDevice::ConfigureRequestDispatching
 author: windows-driver-content
 description: The ConfigureRequestDispatching method configures the queuing of I/O requests of the specified type to the specified I/O queue.
 old-location: wdf\iwdfdevice_configurerequestdispatching.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b3318695-e9f2-480a-9133-9008ef0002b7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: ConfigureRequestDispatching method, ConfigureRequestDispatching method, IWDFDevice interface, ConfigureRequestDispatching,IWDFDevice.ConfigureRequestDispatching, IWDFDevice, IWDFDevice interface, ConfigureRequestDispatching method, IWDFDevice::ConfigureRequestDispatching, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, wudfddi/IWDFDevice::ConfigureRequestDispatching
+ms.keywords: ConfigureRequestDispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching method,IWDFDevice interface, IWDFDevice interface,ConfigureRequestDispatching method, IWDFDevice.ConfigureRequestDispatching, IWDFDevice::ConfigureRequestDispatching, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, wudfddi/IWDFDevice::ConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice.ConfigureRequestDispatching
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::ConfigureRequestDispatching method
+# IWDFDevice::ConfigureRequestDispatching
 
 
 ## -description

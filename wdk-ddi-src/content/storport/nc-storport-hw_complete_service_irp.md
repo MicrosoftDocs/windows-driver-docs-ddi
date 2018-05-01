@@ -40,11 +40,10 @@ api_name:
 -	HwStorCompleteServiceIrp
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# HW_COMPLETE_SERVICE_IRP callback
+# HW_COMPLETE_SERVICE_IRP callback function
 
 
 ## -description

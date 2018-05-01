@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f5d42701-b418-4bda-b936-3e0a1f57ac9d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: PI8042_QUEUE_PACKET, QueuePacket, QueuePacket callback function [Human Input Devices], hid.pi8042_queue_packet, i8042ref_44eb4361-586b-4390-8aea-4e1470a70691.xml, ntdd8042/QueuePacket
+ms.keywords: PI8042_QUEUE_PACKET, PI8042_QUEUE_PACKET callback, QueuePacket, QueuePacket callback function [Human Input Devices], hid.pi8042_queue_packet, i8042ref_44eb4361-586b-4390-8aea-4e1470a70691.xml, ntdd8042/QueuePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	QueuePacket
 product: Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: 
 ---
 
-# PI8042_QUEUE_PACKET callback
+# PI8042_QUEUE_PACKET callback function
 
 
 ## -description

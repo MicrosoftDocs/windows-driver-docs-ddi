@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_blt_state_output_color_space_data.htm
 old-project: display
 ms.assetid: 411246a5-9486-4194-9fb1-4ec0ba1dd47b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ Supported starting with Windows 8.1.
 This member is equivalent to the remaining 26 bits (0xFFFFFFC0) of the 32-bit <b>Value</b> member.
 
 
-#### - Value
+### -field Value
 
 [in] A 32-bit value that describes the color space of the output. 
 

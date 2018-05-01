@@ -7,7 +7,7 @@ old-location: ifsk\selengthsid.htm
 old-project: ifsk
 ms.assetid: f6539ab6-709e-43e4-9e3f-595cf59c85c5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: SeLengthSid, SeLengthSid function [Installable File System Drivers], ifsk.selengthsid, ntifs/SeLengthSid, seref_d26b3191-e19a-4f62-b388-91d68976410f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	SeLengthSid
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # SeLengthSid macro

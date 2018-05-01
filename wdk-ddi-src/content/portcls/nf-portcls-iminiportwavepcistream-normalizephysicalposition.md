@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.NormalizePhysicalPosition
-title: IMiniportWavePciStream::NormalizePhysicalPosition method
+title: IMiniportWavePciStream::NormalizePhysicalPosition
 author: windows-driver-content
 description: The NormalizePhysicalPosition method converts a physical buffer position to a time-based value.
 old-location: audio\iminiportwavepcistream_normalizephysicalposition.htm
 old-project: audio
 ms.assetid: 4ae4dc8d-3502-40c1-8109-6935990a7091
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], NormalizePhysicalPosition method, IMiniportWavePciStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices], IMiniportWavePciStream interface, NormalizePhysicalPosition,IMiniportWavePciStream.NormalizePhysicalPosition, audio.iminiportwavepcistream_normalizephysicalposition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, portcls/IMiniportWavePciStream::NormalizePhysicalPosition
+ms.date: 4/16/2018
+ms.keywords: IMiniportWavePciStream interface [Audio Devices],NormalizePhysicalPosition method, IMiniportWavePciStream.NormalizePhysicalPosition, IMiniportWavePciStream::NormalizePhysicalPosition, NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_normalizephysicalposition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, portcls/IMiniportWavePciStream::NormalizePhysicalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportWavePciStream.NormalizePhysicalPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePciStream::NormalizePhysicalPosition method
+# IMiniportWavePciStream::NormalizePhysicalPosition
 
 
 ## -description

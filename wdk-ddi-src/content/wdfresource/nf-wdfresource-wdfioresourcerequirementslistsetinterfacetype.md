@@ -41,8 +41,7 @@ api_name:
 -	WdfIoResourceRequirementsListSetInterfaceType
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoResourceRequirementsListSetInterfaceType function

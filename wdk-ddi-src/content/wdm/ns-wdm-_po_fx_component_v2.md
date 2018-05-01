@@ -7,7 +7,7 @@ old-location: kernel\po_fx_component.htm
 old-project: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPO_FX_COMPONENT, *PPO_FX_COMPONENT_V2, PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V2, kernel.po_fx_component, wdm/PO_FX_COMPONENT, wdm/PO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V2
-req.product: Windows 10 or later.
 ---
 
 # _PO_FX_COMPONENT_V2 structure

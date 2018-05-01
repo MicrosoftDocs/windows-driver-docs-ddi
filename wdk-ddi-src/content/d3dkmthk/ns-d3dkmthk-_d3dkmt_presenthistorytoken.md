@@ -7,7 +7,7 @@ old-location: display\d3dkmt_presenthistorytoken.htm
 old-project: display
 ms.assetid: d3571412-d853-496b-a651-2c8860a28e9d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_PRESENTHISTORYTOKEN, D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, _D3DKMT_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN, display.d3dkmt_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,48 +79,48 @@ Supported starting with Windows 8.
 ### -field Token
 
 
-
-#### Flip
+### -field Token.Flip
 
 [in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547984">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN</a> structure that identifies a flip present-history operation. The <b>Token</b> union that is contained in D3DKMT_PRESENTHISTORYTOKEN holds this structure if the <b>Model</b> member is D3DKMT_PM_REDIRECTED_FLIP. 
 
 
-
-#### Blt
+### -field Token.Blt
 
 [in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547292">D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN</a> structure that identifies a bit-block transfer (bitblt) present-history operation. The union that is contained in D3DKMT_PRESENTHISTORYTOKEN holds a structure of this type if the <b>Model</b> member is D3DKMT_PM_REDIRECTED_BLT. 
 
 
-
-#### VistaBlt
+### -field Token.VistaBlt
 
 [in/out] A <b>ULONGLONG</b> value that identifies a Windows Vista bit-block transfer (bitblt) present-history operation. The union that is contained in D3DKMT_PRESENTHISTORYTOKEN holds a value of this type if the <b>Model</b> member is D3DKMT_PM_REDIRECTED_VISTABLT. 
 
 
-
-#### Gdi
+### -field Token.Gdi
 
 [in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548017">D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN</a> structure that identifies a GDI present-history operation. The union that is contained in D3DKMT_PRESENTHISTORYTOKEN holds a structure of this type if the <b>Model</b> member is D3DKMT_PM_REDIRECTED_GDI. 
 
 
-
-#### Fence
+### -field Token.Fence
 
 [in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547976">D3DKMT_FENCE_PRESENTHISTORYTOKEN</a> structure that identifies a fence present-history operation. The union that is contained in D3DKMT_PRESENTHISTORYTOKEN holds a structure of this type if the <b>Model</b> member is D3DKMT_PM_SCREENCAPTUREFENCE. 
 
 
-
-#### GdiSysMem
+### -field Token.GdiSysMem
 
 [in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548023">D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN</a> structure that identifies a GDI system present-history operation. The union that is contained in D3DKMT_PRESENTHISTORYTOKEN holds a structure of this type if the <b>Model</b> member is D3DKMT_PM_REDIRECTED_GDI_SYSMEM.
 
 
-
-#### Composition
+### -field Token.Composition
 
 [in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn458001">D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN</a> structure that identifies a composition swap chain present-history operation. This type of presentation is used for XAML-based apps.
 
 Supported starting with Windows 8.1.
+
+
+### -field Token.SurfaceComplete
+
+ 
+
+
 
 
 ## -see-also

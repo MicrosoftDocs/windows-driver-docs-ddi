@@ -7,7 +7,7 @@ old-location: kernel\io_connect_interrupt_parameters.htm
 old-project: kernel
 ms.assetid: 450c2e2b-56fa-4896-ba81-0f84f7e3051d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PIO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_CONNECT_INTERRUPT_PARAMETERS, PIO_CONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_CONNECT_INTERRUPT_PARAMETERS, kernel.io_connect_interrupt_parameters, kstruct_b_c3854cf4-b084-42f4-9f3b-92a96fc741c1.xml, wdm/IO_CONNECT_INTERRUPT_PARAMETERS, wdm/PIO_CONNECT_INTERRUPT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: IO_CONNECT_INTERRUPT_PARAMETERS, *PIO_CONNECT_INTERRUPT_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _IO_CONNECT_INTERRUPT_PARAMETERS structure
@@ -141,7 +140,7 @@ The caller specified CONNECT_MESSAGE_BASED and the caller's <i>InterruptMessageS
  
 
 
-#### - FullySpecified
+### -field FullySpecified
 
 Specifies the additional parameters of the operation to be performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_FULLY_SPECIFIED (or CONNECT_FULLY_SPECIFIED_GROUP if the <b>Group</b> member is used). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565520">Using the CONNECT_FULLY_SPECIFIED Version of IoConnectInterruptEx</a>.
 
@@ -224,7 +223,7 @@ Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551
 Specifies a group number that identifies the processor group to which the interrupt is to be delivered. Typically, a driver receives its group number as part of the translated resources that are included in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request. Starting with Windows 7, the <b>Group</b> member is used if the <b>Version</b> member of the <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure is set to CONNECT_FULLY_SPECIFIED_GROUP. The <b>Group</b> member is ignored if <b>Version</b> is set to CONNECT_FULLY_SPECIFIED, in which case the group number for delivery of the interrupt is always 0.
 
 
-#### - LineBased
+### -field LineBased
 
 Specifies the additional parameters of the operation to be performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_LINE_BASED. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565525">Using the CONNECT_LINE_BASED Version of IoConnectInterruptEx</a>.
 
@@ -271,7 +270,7 @@ Specifies the minimum device IRQL (DIRQL) at which the ISR runs. The system uses
 Specifies if the system saves the processor's floating-point state when the interrupt occurs. If <b>TRUE</b>, the system saves floating-point state. For x86-based and Itanium-based platforms, this value must be set to <b>FALSE</b>. For more information about saving floating-point and MMX state, see <a href="https://msdn.microsoft.com/73414084-4054-466a-b64c-5c81b224be92">Using Floating Point or MMX in a WDM Driver</a>.
 
 
-#### - MessageBased
+### -field MessageBased
 
 Specifies the additional parameters of the operation to be performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_MESSAGE_BASED. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565530">Using the CONNECT_MESSAGE_BASED Version of IoConnectInterruptEx</a>.
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUIMXDC.AdjustDPI
-title: IPrintOemUIMXDC::AdjustDPI method
+title: IPrintOemUIMXDC::AdjustDPI
 author: windows-driver-content
 description: The IPrintOemUIMXDC::AdjustDPI method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of image resolution.
 old-location: print\iprintoemuimxdc_adjustdpi.htm
 old-project: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AdjustDPI method [Print Devices], AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, AdjustDPI,IPrintOemUIMXDC.AdjustDPI, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, IPrintOemUIMXDC::AdjustDPI, prcomoem/IPrintOemUIMXDC::AdjustDPI, print.iprintoemuimxdc_adjustdpi, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml
+ms.date: 4/20/2018
+ms.keywords: AdjustDPI, AdjustDPI method [Print Devices], AdjustDPI method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustDPI method, IPrintOemUIMXDC.AdjustDPI, IPrintOemUIMXDC::AdjustDPI, prcomoem/IPrintOemUIMXDC::AdjustDPI, print.iprintoemuimxdc_adjustdpi, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUIMXDC.AdjustDPI
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUIMXDC::AdjustDPI method
+# IPrintOemUIMXDC::AdjustDPI
 
 
 ## -description

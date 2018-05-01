@@ -7,7 +7,7 @@ old-location: netvista\rilemergencynumbercategory.htm
 old-project: netvista
 ms.assetid: f1ad9a15-70c8-4331-b350-f681aa216aaf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILEMERGENCYNUMBERCATEGORY, RILEMERGENCYNUMBERCATEGORY enumeration [Network Drivers Starting with Windows Vista], RIL_ENUM_ALL, RIL_ENUM_AMBULANCE, RIL_ENUM_AUTO_ECALL, RIL_ENUM_FIRE_BRIGADE, RIL_ENUM_MANUAL_ECALL, RIL_ENUM_MARINE_GUARD, RIL_ENUM_MOUNTAIN_RESCUE, netvista.rilemergencynumbercategory, ntddrilapitypes/RILEMERGENCYNUMBERCATEGORY, ntddrilapitypes/RIL_ENUM_ALL, ntddrilapitypes/RIL_ENUM_AMBULANCE, ntddrilapitypes/RIL_ENUM_AUTO_ECALL, ntddrilapitypes/RIL_ENUM_FIRE_BRIGADE, ntddrilapitypes/RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_MARINE_GUARD, ntddrilapitypes/RIL_ENUM_MOUNTAIN_RESCUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBERCATEGORY
-req.product: Windows 10 or later.
 ---
 
 # RILEMERGENCYNUMBERCATEGORY enumeration

@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_reset.htm
 old-project: usbref
 ms.assetid: 4C07239D-89AE-4A9F-B7EB-CFFE6D47F10B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBDEVICE_RESET, P_USBDEVICE_RESET, P_USBDEVICE_RESET structure pointer [Buses], USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], _USBDEVICE_RESET, buses._usbdevice_reset, ucxusbdevice/P_USBDEVICE_RESET, ucxusbdevice/_USBDEVICE_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_RESET, *PUSBDEVICE_RESET
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_RESET structure

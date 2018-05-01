@@ -7,7 +7,7 @@ old-location: netvista\ndisretreatnetbufferdatastart.htm
 old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, netvista.ndisretreatnetbufferdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisRetreatNetBufferDataStart
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisRetreatNetBufferDataStart function

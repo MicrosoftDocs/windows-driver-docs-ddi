@@ -7,7 +7,7 @@ old-location: kernel\transaction_state.htm
 old-project: kernel
 ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: TRANSACTION_STATE, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], TransactionStateCommittedNotify, TransactionStateIndoubt, TransactionStateNormal, _TRANSACTION_STATE, kernel.transaction_state, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, wdm/TRANSACTION_STATE, wdm/TransactionStateCommittedNotify, wdm/TransactionStateIndoubt, wdm/TransactionStateNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_STATE
-req.product: Windows 10 or later.
 ---
 
 # _TRANSACTION_STATE enumeration

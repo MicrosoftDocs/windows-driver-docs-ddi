@@ -41,8 +41,7 @@ api_name:
 -	WdfWmiInstanceGetDevice
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfWmiInstanceGetDevice function

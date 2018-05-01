@@ -7,7 +7,7 @@ old-location: audio\ksaudio_mix_caps.htm
 old-project: audio
 ms.assetid: d201fdce-ae56-4ba5-a947-e3e0cecc6e17
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, audio.ksaudio_mix_caps, ksmedia/KSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,12 +72,12 @@ Specifies the minimum mix level for the data path from the input channel to the 
 Specifies the maximum mix level for the data path from the input channel to the output channel. For more information, see the following Remarks section.
 
 
-#### - Reset
+### -field Reset
 
 <b>Reset</b> is a misnomer. This member should have been called Resolution instead. It specifies the resolution of the mix level for the data path from the input channel to the output channel. Resolution values use the following scale: a range from 0 to +2147483647, where 0 is no control and any other number is the number of steps between actual hardware settings in the range between <b>Minimum</b> and <b>Maximum</b>.
 
 
-#### - Resolution
+### -field Resolution
 
 
 ## -remarks

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PTS_DATA, *PPTS_DATA
-req.product: Windows 10 or later.
 ---
 
 # _PTS_DATA structure

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.EnumOptions
-title: IPrintCorePS2::EnumOptions method
+title: IPrintCorePS2::EnumOptions
 author: windows-driver-content
 description: The IPrintCorePS2::EnumOptions method enumerates the available options of a specific feature.
 old-location: print\iprintcoreps2_enumoptions.htm
 old-project: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions,IPrintCorePS2.EnumOptions, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumOptions method, IPrintCorePS2::EnumOptions, prcomoem/IPrintCorePS2::EnumOptions, print.iprintcoreps2_enumoptions, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml
+ms.date: 4/20/2018
+ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],EnumOptions method, IPrintCorePS2.EnumOptions, IPrintCorePS2::EnumOptions, prcomoem/IPrintCorePS2::EnumOptions, print.iprintcoreps2_enumoptions, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCorePS2.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCorePS2::EnumOptions method
+# IPrintCorePS2::EnumOptions
 
 
 ## -description

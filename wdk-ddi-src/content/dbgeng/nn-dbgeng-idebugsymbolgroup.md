@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbolgroup.htm
 old-project: debugger
 ms.assetid: dd629e4a-938e-4db6-b0f3-6dd12a431486
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_f174a794-e2c2-4d0a-912e-b3de6327ef19.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], described, dbgeng/IDebugSymbolGroup, debugger.idebugsymbolgroup
+ms.date: 4/24/2018
+ms.keywords: ComOther_f174a794-e2c2-4d0a-912e-b3de6327ef19.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup, debugger.idebugsymbolgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugSymbolGroup
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSymbolGroup interface

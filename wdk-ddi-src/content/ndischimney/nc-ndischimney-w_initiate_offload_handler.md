@@ -7,8 +7,8 @@ old-location: netvista\miniportinitiateoffload.htm
 old-project: netvista
 ms.assetid: f430642b-01bf-4ed7-bfea-e8dd8d5a8208
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MiniportInitiateOffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], W_INITIATE_OFFLOAD_HANDLER, ndischimney/MiniportInitiateOffload, netvista.miniportinitiateoffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
+ms.date: 4/25/2018
+ms.keywords: MiniportInitiateOffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], W_INITIATE_OFFLOAD_HANDLER, W_INITIATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInitiateOffload, netvista.miniportinitiateoffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportInitiateOffload
 product: Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# W_INITIATE_OFFLOAD_HANDLER callback
+# W_INITIATE_OFFLOAD_HANDLER callback function
 
 
 ## -description

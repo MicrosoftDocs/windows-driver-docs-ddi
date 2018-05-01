@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetPageSize
-title: IDebugControl3::GetPageSize method
+title: IDebugControl3::GetPageSize
 author: windows-driver-content
 description: The GetPageSize method returns the page size for the effective processor mode.
 old-location: debugger\getpagesize.htm
 old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl3 interface, GetPageSize,IDebugControl3.GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
+ms.date: 4/24/2018
+ms.keywords: GetPageSize, GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging],IDebugControl interface, GetPageSize method [Windows Debugging],IDebugControl2 interface, GetPageSize method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetPageSize method, IDebugControl2 interface [Windows Debugging],GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3 interface [Windows Debugging],GetPageSize method, IDebugControl3.GetPageSize, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetPageSize
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetPageSize method
+# IDebugControl3::GetPageSize
 
 
 ## -description

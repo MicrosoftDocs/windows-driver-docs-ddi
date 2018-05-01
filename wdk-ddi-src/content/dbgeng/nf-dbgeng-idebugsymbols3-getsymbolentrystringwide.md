@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryStringWide
-title: IDebugSymbols3::GetSymbolEntryStringWide method
+title: IDebugSymbols3::GetSymbolEntryStringWide
 author: windows-driver-content
 description: The GetSymbolEntryStringWide method returns string information for the specified symbol.
 old-location: debugger\getsymbolentrystringwide.htm
 old-project: debugger
 ms.assetid: 65a8d959-98f5-4545-8865-d6d81a752d48
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolEntryStringWide method [Windows Debugging], GetSymbolEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryStringWide,IDebugSymbols3.GetSymbolEntryStringWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryStringWide method, IDebugSymbols3::GetSymbolEntryStringWide, dbgeng/IDebugSymbols3::GetSymbolEntryStringWide, debugger.getsymbolentrystringwide
+ms.date: 4/24/2018
+ms.keywords: GetSymbolEntryStringWide, GetSymbolEntryStringWide method [Windows Debugging], GetSymbolEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryStringWide method, IDebugSymbols3.GetSymbolEntryStringWide, IDebugSymbols3::GetSymbolEntryStringWide, dbgeng/IDebugSymbols3::GetSymbolEntryStringWide, debugger.getsymbolentrystringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.GetSymbolEntryStringWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolEntryStringWide method
+# IDebugSymbols3::GetSymbolEntryStringWide
 
 
 ## -description

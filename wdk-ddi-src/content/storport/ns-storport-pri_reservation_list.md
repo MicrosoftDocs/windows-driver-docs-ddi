@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PRI_RESERVATION_LIST, *PPRI_RESERVATION_LIST
-req.product: Windows 10 or later.
 ---
 
 # PRI_RESERVATION_LIST structure

@@ -7,7 +7,7 @@ old-location: netvista\ril_setcallwaitingstatus.htm
 old-project: netvista
 ms.assetid: e511db5d-3544-45a4-9ed4-72bb3f2572ec
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_SetCallWaitingStatus
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetCallWaitingStatus function

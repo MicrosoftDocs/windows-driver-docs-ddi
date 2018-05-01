@@ -7,7 +7,7 @@ old-location: ifsk\fltcancelfileopen.htm
 old-project: ifsk
 ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], fltkernel/FltCancelFileOpen, ifsk.fltcancelfileopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltCancelFileOpen
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCancelFileOpen function

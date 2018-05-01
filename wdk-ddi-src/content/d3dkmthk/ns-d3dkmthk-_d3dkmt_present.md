@@ -7,7 +7,7 @@ old-location: display\d3dkmt_present.htm
 old-project: display
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_PRESENT, D3DKMT_PRESENT structure [Display Devices], OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, _D3DKMT_PRESENT, d3dkmthk/D3DKMT_PRESENT, display.d3dkmt_present
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,6 +55,16 @@ The D3DKMT_PRESENT structure describes the present operation.
 ## -struct-fields
 
 
+
+
+### -field hDevice
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547091">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
+
+
+### -field hContext
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
 
 
 ### -field hWindow
@@ -160,6 +170,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh40
 Supported starting with Windows 8.
 
 
+### -field hAdapter
+
+ 
+
+
+### -field hIndirectContext
+
+ 
+
+
 ### -field Duration
 
  
@@ -190,16 +210,6 @@ Supported starting with Windows 8.
  
 
 
-
-
-#### - hContext
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
-
-
-#### - hDevice
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547091">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: kernel\pssetcreateprocessnotifyroutineex2.htm
 old-project: kernel
 ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: PsSetCreateProcessNotifyRoutineEx2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex2, ntddk/PsSetCreateProcessNotifyRoutineEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	PsSetCreateProcessNotifyRoutineEx2
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsSetCreateProcessNotifyRoutineEx2 function

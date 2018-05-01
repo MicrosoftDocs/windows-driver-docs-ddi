@@ -7,7 +7,7 @@ old-location: print\config_info_data_1.htm
 old-project: print
 ms.assetid: abf484e4-6a11-4727-b195-5eaf6683113e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1 structure [Print Devices], PCONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], _CONFIG_INFO_DATA_1, print.config_info_data_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, tcpxcv/CONFIG_INFO_DATA_1, tcpxcv/PCONFIG_INFO_DATA_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: CONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1
-req.product: Windows 10 or later.
 ---
 
 # _CONFIG_INFO_DATA_1 structure

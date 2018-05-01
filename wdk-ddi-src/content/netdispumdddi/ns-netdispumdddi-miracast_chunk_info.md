@@ -7,7 +7,7 @@ old-location: display\miracast_chunk_info.htm
 old-project: display
 ms.assetid: 7015cbc5-f8d1-4e06-bb02-2706a26877f0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MIRACAST_CHUNK_INFO, MIRACAST_CHUNK_INFO structure [Display Devices], display.miracast_chunk_info, netdispumdddi/MIRACAST_CHUNK_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\rtlisservicepackversioninstalled.htm
 old-project: kernel
 ms.assetid: 1314ffb5-e6e2-4c22-bc67-388da3bcbe79
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	RtlIsServicePackVersionInstalled
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlIsServicePackVersionInstalled function

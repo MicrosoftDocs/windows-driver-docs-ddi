@@ -40,8 +40,7 @@ api_name:
 -	WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function

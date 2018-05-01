@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_chars.htm
 old-project: serports
 ms.assetid: f792bd01-19e1-4f15-917a-19ad46e7a4a9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_SET_CHARS, IOCTL_SERIAL_SET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_CHARS, serports.ioctl_serial_set_chars, serref_57af2187-3244-4b5d-a096-684050127a24.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_SET_CHARS, IOCTL_SERIAL_SET_CHARS control, IOCTL_SERIAL_SET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_CHARS, serports.ioctl_serial_set_chars, serref_57af2187-3244-4b5d-a096-684050127a24.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SERIAL_SET_CHARS
 product: Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_SET_CHARS IOCTL

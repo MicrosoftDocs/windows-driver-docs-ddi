@@ -41,8 +41,7 @@ api_name:
 -	SpbDeviceInitConfig
 product: Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbDeviceInitConfig function

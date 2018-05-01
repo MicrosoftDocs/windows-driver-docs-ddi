@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.ReadProcessorSystemData
-title: IDebugDataSpaces2::ReadProcessorSystemData method
+title: IDebugDataSpaces2::ReadProcessorSystemData
 author: windows-driver-content
 description: The ReadProcessorSystemData method returns data about the specified processor.
 old-location: debugger\readprocessorsystemdata.htm
 old-project: debugger
 ms.assetid: 8cb63fe6-61da-4c37-975d-d82430195863
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces3 interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces3::ReadProcessorSystemData, IDebugDataSpaces4 interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces4::ReadProcessorSystemData, IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces_a2ffd54a-03f2-4b74-928c-b043bfdac073.xml, ReadProcessorSystemData method [Windows Debugging], ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces interface, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces2 interface, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces3 interface, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces4 interface, ReadProcessorSystemData,IDebugDataSpaces2.ReadProcessorSystemData, dbgeng/IDebugDataSpaces2::ReadProcessorSystemData, dbgeng/IDebugDataSpaces3::ReadProcessorSystemData, dbgeng/IDebugDataSpaces4::ReadProcessorSystemData, dbgeng/IDebugDataSpaces::ReadProcessorSystemData, debugger.readprocessorsystemdata
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces2 interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces2.ReadProcessorSystemData, IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces3 interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces3::ReadProcessorSystemData, IDebugDataSpaces4 interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces4::ReadProcessorSystemData, IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces_a2ffd54a-03f2-4b74-928c-b043bfdac073.xml, ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces interface, ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces2 interface, ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces3 interface, ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadProcessorSystemData, dbgeng/IDebugDataSpaces3::ReadProcessorSystemData, dbgeng/IDebugDataSpaces4::ReadProcessorSystemData, dbgeng/IDebugDataSpaces::ReadProcessorSystemData, debugger.readprocessorsystemdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 -	IDebugDataSpaces4.ReadProcessorSystemData
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces2::ReadProcessorSystemData method
+# IDebugDataSpaces2::ReadProcessorSystemData
 
 
 ## -description

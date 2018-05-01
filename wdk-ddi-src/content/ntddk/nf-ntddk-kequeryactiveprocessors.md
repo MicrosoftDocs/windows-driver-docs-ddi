@@ -7,7 +7,7 @@ old-location: kernel\kequeryactiveprocessors.htm
 old-project: kernel
 ms.assetid: 3a7e50e9-0aeb-46e8-a1d2-7267df4921ad
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeQueryActiveProcessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, kernel.kequeryactiveprocessors, wdm/KeQueryActiveProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	KeQueryActiveProcessors
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # KeQueryActiveProcessors function

@@ -7,8 +7,8 @@ old-location: buses\querybustimeex.htm
 old-project: usbref
 ms.assetid: 8a9718eb-59f3-441a-b482-c2a376a48ac1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, buses.querybustimeex, usbbusif/QueryBusTimeEx
+ms.date: 4/25/2018
+ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	QueryBusTimeEx
 product: Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback
+# PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function
 
 
 ## -description

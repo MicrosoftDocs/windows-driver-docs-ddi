@@ -7,7 +7,7 @@ old-location: ifsk\rxceteardownvc.htm
 old-project: ifsk
 ms.assetid: d4b3af4d-8bb2-42a4-a8d9-baa643a90418
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxCeTearDownVC, RxCeTearDownVC function [Installable File System Drivers], ifsk.rxceteardownvc, rxce/RxCeTearDownVC, rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RxCeTearDownVC
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCeTearDownVC function

@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_field_parameters.htm
 old-project: netvista
 ms.assetid: 3d387fe9-a7cc-4034-b31e-ba1359db2ae1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_1, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_2, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, netvista.ndis_receive_filter_field_parameters, ntddndis/NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, virtual_machine_queue_ref_deaf4f73-294d-4e7b-8c94-65d05b461cfe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -189,36 +189,31 @@ The type of field in a header. The field type (for example,
 This union contains the following members:
 
 
-
-#### MacHeaderField
+### -field HeaderField.MacHeaderField
 
 The type of field in a MAC header.
 
 
-
-#### ArpHeaderField
+### -field HeaderField.ArpHeaderField
 
 The type of field in an Address Resolution Protocol (ARP) header.
 
 
-
-#### IPv4HeaderField
+### -field HeaderField.IPv4HeaderField
 
 An 
        <a href="https://msdn.microsoft.com/library/windows/hardware/hh451553">NDIS_IPV4_HEADER_FIELD</a> enumeration
        value that specifies the type of field in an IP version 4 (IPv4) header.
 
 
-
-#### IPv6HeaderField
+### -field HeaderField.IPv6HeaderField
 
 An 
        <a href="https://msdn.microsoft.com/library/windows/hardware/hh451554">NDIS_IPV6_HEADER_FIELD</a> enumeration
        value that specifies the type of field in an IP version 6 (IPv6) header.
 
 
-
-#### UdpHeaderField
+### -field HeaderField.UdpHeaderField
 
 The type of field in a User Datagram Protocol
 (UDP) header.
@@ -240,34 +235,29 @@ For more information, see the Remarks section.
 This union contains the following members:
 
 
-
-#### FieldByteValue
+### -field FieldValue.FieldByteValue
 
 A <b>UCHAR</b> value to compare with a field in a network packet.
 
 <div class="alert"><b>Note</b>  If the <b>MacHeaderField</b> member specifies an <b>NdisMacHeaderFieldPacketType</b> enumeration value, this member contains an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451556">NDIS_MAC_PACKET_TYPE</a> enumeration value.</div>
 <div> </div>
 
-
-#### FieldShortValue
+### -field FieldValue.FieldShortValue
 
 A <b>USHORT</b> value to compare with a field in a network packet.
 
 
-
-#### FieldLongValue
+### -field FieldValue.FieldLongValue
 
 A <b>ULONG</b> value to compare with a field in a network packet.
 
 
-
-#### FieldLong64Value
+### -field FieldValue.FieldLong64Value
 
 A <b>ULONG64</b> value to compare with a field in a network packet.
 
 
-
-#### FieldByteArrayValue
+### -field FieldValue.FieldByteArrayValue
 
 A <b>UCHAR</b> array to compare with a field in a network packet.
 
@@ -288,32 +278,27 @@ For more information, see the Remarks section.
 This union contains the following members:
 
 
-
-#### ResultByteValue
+### -field ResultValue.ResultByteValue
 
 A <b>UCHAR</b> value to compare with a test result.
 
 
-
-#### ResultShortValue
+### -field ResultValue.ResultShortValue
 
 A <b>USHORT</b> value to compare with a test result.
 
 
-
-#### ResultLongValue
+### -field ResultValue.ResultLongValue
 
 A <b>ULONG</b> value to compare with a test result.
 
 
-
-#### ResultLong64Value
+### -field ResultValue.ResultLong64Value
 
 A <b>ULONG64</b> value to compare with a test result.
 
 
-
-#### ResultByteArrayValue
+### -field ResultValue.ResultByteArrayValue
 
 A <b>UCHAR</b> array to compare with a test result.
 

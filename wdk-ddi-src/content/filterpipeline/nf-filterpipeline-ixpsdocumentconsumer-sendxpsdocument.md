@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendXpsDocument
-title: IXpsDocumentConsumer::SendXpsDocument method
+title: IXpsDocumentConsumer::SendXpsDocument
 author: windows-driver-content
 description: The SendXpsDocument method sends an XPS document to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsdocument.htm
 old-project: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, IXpsDocumentConsumer::SendXpsDocument, SendXpsDocument method [Print Devices], SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, SendXpsDocument,IXpsDocumentConsumer.SendXpsDocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, print.ixpsdocumentconsumer_sendxpsdocument
+ms.date: 4/20/2018
+ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendXpsDocument method, IXpsDocumentConsumer.SendXpsDocument, IXpsDocumentConsumer::SendXpsDocument, SendXpsDocument, SendXpsDocument method [Print Devices], SendXpsDocument method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, print.ixpsdocumentconsumer_sendxpsdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IXpsDocumentConsumer.SendXpsDocument
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IXpsDocumentConsumer::SendXpsDocument method
+# IXpsDocumentConsumer::SendXpsDocument
 
 
 ## -description

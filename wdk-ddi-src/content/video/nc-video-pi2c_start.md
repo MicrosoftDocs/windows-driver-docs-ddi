@@ -7,8 +7,8 @@ old-location: display\i2cstart.htm
 old-project: display
 ms.assetid: 90f0a38d-f50e-4da0-b98f-2f3068f03b2e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: I2CStart, I2CStart callback function [Display Devices], PI2C_START, VideoPort_Functions_287e51cf-dce0-47c5-b743-c6fb401bb74e.xml, display.i2cstart, video/I2CStart
+ms.date: 4/16/2018
+ms.keywords: I2CStart, I2CStart callback function [Display Devices], PI2C_START, PI2C_START callback, VideoPort_Functions_287e51cf-dce0-47c5-b743-c6fb401bb74e.xml, display.i2cstart, video/I2CStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	I2CStart
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PI2C_START callback
+# PI2C_START callback function
 
 
 ## -description

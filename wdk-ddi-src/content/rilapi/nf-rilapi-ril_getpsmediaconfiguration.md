@@ -7,7 +7,7 @@ old-location: netvista\ril_getpsmediaconfiguration.htm
 old-project: netvista
 ms.assetid: f7b1f2a6-d57a-44ec-b14b-8b41b020935e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetPSMediaConfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getpsmediaconfiguration, rilapi/RIL_GetPSMediaConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_GetPSMediaConfiguration
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetPSMediaConfiguration function

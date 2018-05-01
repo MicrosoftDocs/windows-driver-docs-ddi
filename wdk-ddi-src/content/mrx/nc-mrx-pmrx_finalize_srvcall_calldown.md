@@ -7,7 +7,7 @@ old-location: ifsk\mrxfinalizesrvcall.htm
 old-project: ifsk
 ms.assetid: f870334a-cf39-47a2-868a-f6fd7c3aee1c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxFinalizeSrvCall, MRxFinalizeSrvCall routine [Installable File System Drivers], PMRX_FINALIZE_SRVCALL_CALLDOWN, ifsk.mrxfinalizesrvcall, mrx/MRxFinalizeSrvCall, mrxref_7f2d4c59-1668-4c73-adc4-bdb6fac34d38.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	MRxFinalizeSrvCall
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_FINALIZE_SRVCALL_CALLDOWN callback
+# PMRX_FINALIZE_SRVCALL_CALLDOWN callback function
 
 
 ## -description

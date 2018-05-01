@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -102,32 +102,27 @@ This member contains valid data only if the <b>ValidBits.CheckInfo</b> bit is se
 
 
 
-
-#### CacheCheck
+### -field CheckInfo.CacheCheck
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560642">WHEA_XPF_CACHE_CHECK</a> union that describes cache error information. 
 
 
-
-#### TlbCheck
+### -field CheckInfo.TlbCheck
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560665">WHEA_XPF_TLB_CHECK</a> union that describes translation lookaside buffer error information. 
 
 
-
-#### BusCheck
+### -field CheckInfo.BusCheck
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560639">WHEA_XPF_BUS_CHECK</a> union that describes bus error information.
 
 
-
-#### MsCheck
+### -field CheckInfo.MsCheck
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560652">WHEA_XPF_MS_CHECK</a> union that describes microarchitecture-specific error information. 
 
 
-
-#### AsULONGLONG
+### -field CheckInfo.AsULONGLONG
 
 A ULONGLONG representation of the contents of the <b>CheckInfo</b> union.
 

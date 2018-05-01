@@ -40,7 +40,7 @@ api_name:
 -	HBA_GetPortAttributesByWWN
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetPortAttributesByWWN function

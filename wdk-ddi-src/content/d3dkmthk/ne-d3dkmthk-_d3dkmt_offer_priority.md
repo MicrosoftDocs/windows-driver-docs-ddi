@@ -7,7 +7,7 @@ old-location: display\d3dkmt_offer_priority.htm
 old-project: display
 ms.assetid: fec15098-3130-42d6-b889-579ecab6f162
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY enumeration [Display Devices], D3DKMT_OFFER_PRIORITY_AUTO, D3DKMT_OFFER_PRIORITY_HIGH, D3DKMT_OFFER_PRIORITY_LOW, D3DKMT_OFFER_PRIORITY_NORMAL, _D3DKMT_OFFER_PRIORITY, d3dkmthk/D3DKMT_OFFER_PRIORITY, d3dkmthk/D3DKMT_OFFER_PRIORITY_AUTO, d3dkmthk/D3DKMT_OFFER_PRIORITY_HIGH, d3dkmthk/D3DKMT_OFFER_PRIORITY_LOW, d3dkmthk/D3DKMT_OFFER_PRIORITY_NORMAL, display.d3dkmt_offer_priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

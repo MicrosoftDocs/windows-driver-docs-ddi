@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,79 +62,79 @@ The WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union describes which members
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union.
-
-
-#### - CPUBrandString
-
-A single bit that indicates that the <b>CPUBrandString</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - CPUVersion
-
-A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - ErrorType
-
-A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - Flags
-
-A single bit that indicates that the <b>Flags</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - InstructionPointer
-
-A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - InstructionSet
-
-A single bit that indicates that the <b>InstructionSet</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - Level
-
-A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - Operation
-
-A single bit that indicates that the <b>Operation</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - ProcessorId
-
-A single bit that indicates that the <b>ProcessorId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - ProcessorType
+### -field DUMMYSTRUCTNAME.ProcessorType
 
 A single bit that indicates that the <b>ProcessorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - RequesterId
+### -field DUMMYSTRUCTNAME.InstructionSet
+
+A single bit that indicates that the <b>InstructionSet</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ErrorType
+
+A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Operation
+
+A single bit that indicates that the <b>Operation</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Flags
+
+A single bit that indicates that the <b>Flags</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Level
+
+A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.CPUVersion
+
+A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.CPUBrandString
+
+A single bit that indicates that the <b>CPUBrandString</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ProcessorId
+
+A single bit that indicates that the <b>ProcessorId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.TargetAddress
+
+A single bit that indicates that the <b>TargetAddress</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.RequesterId
 
 A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - ResponderId
+### -field DUMMYSTRUCTNAME.ResponderId
 
 A single bit that indicates that the <b>ResponderId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - TargetAddress
+### -field DUMMYSTRUCTNAME.InstructionPointer
 
-A single bit that indicates that the <b>TargetAddress</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+Reserved for system use.
+
+
+### -field ValidBits
+
+A ULONGLONG representation of the contents of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union.
 
 
 ## -remarks

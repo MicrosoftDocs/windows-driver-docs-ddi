@@ -7,7 +7,7 @@ old-location: debugger\fa_entry.htm
 old-project: debugger
 ms.assetid: 912DCC1E-2C81-4702-8E12-6331DFB298F0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PFA_ENTRY, FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, debugger.fa_entry, extsfns/FA_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

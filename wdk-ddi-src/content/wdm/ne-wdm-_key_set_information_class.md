@@ -7,7 +7,7 @@ old-location: kernel\key_set_information_class.htm
 old-project: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KEY_SET_INFORMATION_CLASS, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyControlFlagsInformation, KeySetDebugInformation, KeySetHandleTagsInformation, KeySetVirtualizationInformation, KeyWow64FlagsInformation, KeyWriteTimeInformation, MaxKeySetInfoClass, _KEY_SET_INFORMATION_CLASS, kernel.key_set_information_class, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KEY_SET_INFORMATION_CLASS, wdm/KeyControlFlagsInformation, wdm/KeySetDebugInformation, wdm/KeySetHandleTagsInformation, wdm/KeySetVirtualizationInformation, wdm/KeyWow64FlagsInformation, wdm/KeyWriteTimeInformation, wdm/MaxKeySetInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: KEY_SET_INFORMATION_CLASS
-req.product: Windows 10 or later.
 ---
 
 # _KEY_SET_INFORMATION_CLASS enumeration

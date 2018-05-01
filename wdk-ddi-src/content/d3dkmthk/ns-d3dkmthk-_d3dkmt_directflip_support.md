@@ -7,7 +7,7 @@ old-location: display\d3dkmt_directflip_support.htm
 old-project: display
 ms.assetid: d579d9a3-7db1-47ed-859d-3fed99a4ee9d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DIRECTFLIP_SUPPORT, D3DKMT_DIRECTFLIP_SUPPORT structure [Display Devices], _D3DKMT_DIRECTFLIP_SUPPORT, d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT, display.d3dkmt_directflip_support
 ms.prod: windows-hardware
 ms.technology: windows-devices

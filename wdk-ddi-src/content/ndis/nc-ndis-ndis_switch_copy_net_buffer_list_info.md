@@ -7,8 +7,8 @@ old-location: netvista\CopyNetBufferListInfo.htm
 old-project: netvista
 ms.assetid: 5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
+ms.date: 4/25/2018
+ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CopyNetBufferListInfo
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback
+# NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\wwan_modem_config_mode.htm
 old-project: netvista
 ms.assetid: 1AA3EDCC-EB6E-4118-8081-CA1914140683
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigModeHostCentric, WwanModemConfigModeMax, WwanModemConfigModeModemCentric, WwanModemConfigModeUnknown, _WWAN_MODEM_CONFIG_MODE, netvista.wwan_modem_config_mode, wwan/PWWAN_MODEM_CONFIG_MODE, wwan/WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeMax, wwan/WwanModemConfigModeModemCentric, wwan/WwanModemConfigModeUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_MODEM_CONFIG_MODE enumeration

@@ -7,8 +7,8 @@ old-location: display\extensionexecute.htm
 old-project: display
 ms.assetid: a3f73651-bfff-48fa-aa61-477b8af7fa07
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
+ms.date: 4/16/2018
+ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ExtensionExecute
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_EXTENSIONEXECUTE callback
+# PFND3DDDI_EXTENSIONEXECUTE callback function
 
 
 ## -description

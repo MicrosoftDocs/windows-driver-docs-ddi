@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_read.htm
 old-project: print
 ms.assetid: 6E9E20E9-37F1-4C2F-B7C8-885F617A671F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_READ, IOCTL_DOT4_READ control code [Print Devices], d4drvif/IOCTL_DOT4_READ, print.ioctl_ioctl_dot4_read
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_READ, IOCTL_DOT4_READ control, IOCTL_DOT4_READ control code [Print Devices], d4drvif/IOCTL_DOT4_READ, print.ioctl_ioctl_dot4_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_DOT4_READ
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_READ IOCTL

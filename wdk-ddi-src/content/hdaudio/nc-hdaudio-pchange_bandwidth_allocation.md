@@ -7,8 +7,8 @@ old-location: audio\changebandwidthallocation.htm
 old-project: audio
 ms.assetid: 4dcf8fb6-71f5-4e11-a92a-0292c2a1515c
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation
+ms.date: 4/16/2018
+ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, PCHANGE_BANDWIDTH_ALLOCATION callback, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ChangeBandwidthAllocation
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PCHANGE_BANDWIDTH_ALLOCATION callback
+# PCHANGE_BANDWIDTH_ALLOCATION callback function
 
 
 ## -description

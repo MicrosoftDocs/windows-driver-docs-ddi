@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetCorrelatedTime
-title: IKsClockPropertySet::KsGetCorrelatedTime method
+title: IKsClockPropertySet::KsGetCorrelatedTime
 author: windows-driver-content
 description: The KsGetCorrelatedTime method retrieves the current time and the correlated system time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetcorrelatedtime.htm
 old-project: stream
 ms.assetid: b91f33b3-2706-4c94-9960-ceea023891af
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method, IKsClockPropertySet::KsGetCorrelatedTime, KsGetCorrelatedTime method [Streaming Media Devices], KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetCorrelatedTime,IKsClockPropertySet.KsGetCorrelatedTime, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, stream.iksclockpropertyset_ksgetcorrelatedtime
+ms.date: 4/23/2018
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetCorrelatedTime method, IKsClockPropertySet.KsGetCorrelatedTime, IKsClockPropertySet::KsGetCorrelatedTime, KsGetCorrelatedTime, KsGetCorrelatedTime method [Streaming Media Devices], KsGetCorrelatedTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, stream.iksclockpropertyset_ksgetcorrelatedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsClockPropertySet.KsGetCorrelatedTime
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsClockPropertySet::KsGetCorrelatedTime method
+# IKsClockPropertySet::KsGetCorrelatedTime
 
 
 ## -description

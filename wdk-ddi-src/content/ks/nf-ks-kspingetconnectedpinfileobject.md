@@ -7,7 +7,7 @@ old-location: stream\kspingetconnectedpinfileobject.htm
 old-project: stream
 ms.assetid: 1025c89f-8d63-4aeb-be7c-16b555cfa58a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, ks/KsPinGetConnectedPinFileObject, stream.kspingetconnectedpinfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

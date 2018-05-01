@@ -7,7 +7,7 @@ old-location: stream\kspinattemptprocessing.htm
 old-project: stream
 ms.assetid: 9b916114-85aa-4ab7-acaa-6b19d0a4d776
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinAttemptProcessing, KsPinAttemptProcessing function [Streaming Media Devices], avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml, ks/KsPinAttemptProcessing, stream.kspinattemptprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices

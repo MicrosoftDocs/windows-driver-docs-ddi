@@ -7,7 +7,7 @@ old-location: audio\pcevent_item.htm
 old-project: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPCEVENT_ITEM, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], audio.pcevent_item, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PCEVENT_ITEM, portcls/PPCEVENT_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

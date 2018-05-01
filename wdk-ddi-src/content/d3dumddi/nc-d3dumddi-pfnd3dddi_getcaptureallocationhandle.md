@@ -7,8 +7,8 @@ old-location: display\getcaptureallocationhandle.htm
 old-project: display
 ms.assetid: fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetCaptureAllocationHandle, GetCaptureAllocationHandle callback function [Display Devices], PFND3DDDI_GETCAPTUREALLOCATIONHANDLE, UserModeDisplayDriver_Functions_839ce10f-1df9-4d62-a877-d64215b82370.xml, d3dumddi/GetCaptureAllocationHandle, display.getcaptureallocationhandle
+ms.date: 4/16/2018
+ms.keywords: GetCaptureAllocationHandle, GetCaptureAllocationHandle callback function [Display Devices], PFND3DDDI_GETCAPTUREALLOCATIONHANDLE, PFND3DDDI_GETCAPTUREALLOCATIONHANDLE callback, UserModeDisplayDriver_Functions_839ce10f-1df9-4d62-a877-d64215b82370.xml, d3dumddi/GetCaptureAllocationHandle, display.getcaptureallocationhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	GetCaptureAllocationHandle
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_GETCAPTUREALLOCATIONHANDLE callback
+# PFND3DDDI_GETCAPTUREALLOCATIONHANDLE callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_complete_connect.htm
 old-project: netvista
 ms.assetid: 85AD83CE-C00F-4D5A-BCDE-22D1B83201A8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_COMPLETE_CONNECT, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT callback, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkCompleteConnect
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_COMPLETE_CONNECT callback
+# NDK_FN_COMPLETE_CONNECT callback function
 
 
 ## -description

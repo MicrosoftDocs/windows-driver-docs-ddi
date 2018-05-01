@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextMacroWide
-title: IDebugControl4::SetTextMacroWide method
+title: IDebugControl4::SetTextMacroWide
 author: windows-driver-content
 description: The SetTextMacroWide method sets the value of a fixed-name alias.
 old-location: debugger\settextmacrowide.htm
 old-project: debugger
 ms.assetid: 98e93636-33e3-4642-a4fb-8590a7a0e784
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextMacroWide method, IDebugControl4::SetTextMacroWide, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging], IDebugControl4 interface, SetTextMacroWide,IDebugControl4.SetTextMacroWide, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],SetTextMacroWide method, IDebugControl4.SetTextMacroWide, IDebugControl4::SetTextMacroWide, SetTextMacroWide, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.SetTextMacroWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::SetTextMacroWide method
+# IDebugControl4::SetTextMacroWide
 
 
 ## -description

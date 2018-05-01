@@ -40,10 +40,10 @@ api_name:
 -	Dump_Read
 product: Windows
 targetos: Windows
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.typenames: 
 ---
 
-# DUMP_READ callback
+# DUMP_READ callback function
 
 
 ## -description

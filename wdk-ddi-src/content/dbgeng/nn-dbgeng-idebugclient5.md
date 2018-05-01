@@ -7,8 +7,8 @@ old-location: debugger\idebugclient5.htm
 old-project: debugger
 ms.assetid: 4230fbc2-524a-44b1-a090-011e334629a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], IDebugClient5 interface [Windows Debugging], described, dbgeng/IDebugClient5, debugger.idebugclient5
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], IDebugClient5 interface [Windows Debugging],described, dbgeng/IDebugClient5, debugger.idebugclient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -49,7 +49,7 @@ api_name:
 -	IDebugClient5.SetQuitLockStringWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugClient5 interface

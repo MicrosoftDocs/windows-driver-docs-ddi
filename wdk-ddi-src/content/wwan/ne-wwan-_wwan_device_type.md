@@ -7,7 +7,7 @@ old-location: netvista\wwan_device_type.htm
 old-project: netvista
 ms.assetid: ad99b2b0-d62a-4e3e-a368-b9109f0fefb4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceTypeEmbedded, WwanDeviceTypeMax, WwanDeviceTypeRemote, WwanDeviceTypeRemovable, WwanDeviceTypeUnknown, WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, _WWAN_DEVICE_TYPE, netvista.wwan_device_type, wwan/PWWAN_DEVICE_TYPE, wwan/WWAN_DEVICE_TYPE, wwan/WwanDeviceTypeEmbedded, wwan/WwanDeviceTypeMax, wwan/WwanDeviceTypeRemote, wwan/WwanDeviceTypeRemovable, wwan/WwanDeviceTypeUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_DEVICE_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_resource_flags.htm
 old-project: kernel
 ms.assetid: 1BB4933B-2707-4350-8D9C-E0E25A85F5CB
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE_FLAGS, kernel.pep_acpi_resource_flags, pepfx/PEP_ACPI_RESOURCE_FLAGS, pepfx/PPEP_ACPI_RESOURCE_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	PEP_ACPI_RESOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS
+req.typenames: PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS
 ---
 
 # _PEP_ACPI_RESOURCE_FLAGS structure
@@ -67,79 +67,37 @@ The consolidated values of the flags in <b>DUMMYSTRUCTNAME</b>.
  A structure containing ACPI resource flags.
 
 
-
-#### Shared
-
-When set, indicates that this is a shared device.
-
-
-
-#### Wake
-
-When set, indicates that this device can be woken from a low-power state.
-
-
-
-#### ResourceUsage
-
-When set, indicates that this device is in use.
-
-
-
-#### SlaveMode
-
-When set, indicates that this device is in slave mode.
-
-
-
-#### AddressingMode
-
-When set, indicates that this device is in addressing mode.
-
-
-
-#### SharedMode
-
-When set, indicates that this device is in shared mode.
-
-
-
-#### Reserved
-
-This member is reserved and should be set to zero.
-
-
-##### - DUMMYSTRUCTNAME.AddressingMode
-
-When set, indicates that this device is in addressing mode.
-
-
-##### - DUMMYSTRUCTNAME.Reserved
-
-This member is reserved and should be set to zero.
-
-
-##### - DUMMYSTRUCTNAME.ResourceUsage
-
-When set, indicates that this device is in use.
-
-
-##### - DUMMYSTRUCTNAME.Shared
+### -field DUMMYSTRUCTNAME.Shared
 
 When set, indicates that this is a shared device.
 
 
-##### - DUMMYSTRUCTNAME.SharedMode
+### -field DUMMYSTRUCTNAME.Wake
 
-When set, indicates that this device is in shared mode.
+When set, indicates that this device can be woken from a low-power state.
 
 
-##### - DUMMYSTRUCTNAME.SlaveMode
+### -field DUMMYSTRUCTNAME.ResourceUsage
+
+When set, indicates that this device is in use.
+
+
+### -field DUMMYSTRUCTNAME.SlaveMode
 
 When set, indicates that this device is in slave mode.
 
 
-##### - DUMMYSTRUCTNAME.Wake
+### -field DUMMYSTRUCTNAME.AddressingMode
 
-When set, indicates that this device can be woken from a low-power state.
+When set, indicates that this device is in addressing mode.
+
+
+### -field DUMMYSTRUCTNAME.SharedMode
+
+When set, indicates that this device is in shared mode.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+This member is reserved and should be set to zero.
 

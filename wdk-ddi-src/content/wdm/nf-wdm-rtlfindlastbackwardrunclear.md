@@ -7,7 +7,7 @@ old-location: kernel\rtlfindlastbackwardrunclear.htm
 old-project: kernel
 ms.assetid: ad1a6c18-b0c5-4289-9eec-2b8c8d8d2f07
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlFindLastBackwardRunClear, RtlFindLastBackwardRunClear routine [Kernel-Mode Driver Architecture], k109_b7075a86-ffa4-4a6a-98fb-60848c037253.xml, kernel.rtlfindlastbackwardrunclear, wdm/RtlFindLastBackwardRunClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RtlFindLastBackwardRunClear
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlFindLastBackwardRunClear function

@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringtoansistring.htm
 old-project: kernel
 ms.assetid: d05b366c-0b09-4a82-8727-e5c39b82bf7f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString routine [Kernel-Mode Driver Architecture], k109_50e549a0-61fa-4a0f-b43f-de2f4c6dba31.xml, kernel.rtlunicodestringtoansistring, wdm/RtlUnicodeStringToAnsiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RtlUnicodeStringToAnsiString
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlUnicodeStringToAnsiString function

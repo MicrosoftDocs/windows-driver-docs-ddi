@@ -7,7 +7,7 @@ old-location: netvista\ndis_filter_attach_parameters.htm
 old-project: netvista
 ms.assetid: d46a1e62-9d03-4ab9-86f6-81b06c04d0f6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_ATTACH_PARAMETERS, PNDIS_FILTER_ATTACH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_ATTACH_PARAMETERS, filter_structures_ref_3ab66eda-29e5-4442-9506-6e51238cec5f.xml, ndis/NDIS_FILTER_ATTACH_PARAMETERS, ndis/PNDIS_FILTER_ATTACH_PARAMETERS, netvista.ndis_filter_attach_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

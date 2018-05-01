@@ -7,7 +7,7 @@ old-location: stream\ksproperty_bounds_long.htm
 old-project: stream
 ms.assetid: 16804ff1-8531-48aa-baf6-b89ccfe25d07
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_BOUNDS_LONG, KSPROPERTY_BOUNDS_LONG, KSPROPERTY_BOUNDS_LONG union [Streaming Media Devices], PKSPROPERTY_BOUNDS_LONG, PKSPROPERTY_BOUNDS_LONG union pointer [Streaming Media Devices], ks-struct_805e1a44-91bb-45be-a99d-174e98639d9e.xml, ks/KSPROPERTY_BOUNDS_LONG, ks/PKSPROPERTY_BOUNDS_LONG, stream.ksproperty_bounds_long"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,31 +62,49 @@ The KSPROPERTY_BOUNDS_LONG structure defines the bounds for a 32-bit property.
  
 
 
+### -field _SIGNED.SignedMinimum
+
+ 
+
+
+### -field _SIGNED.SignedMaximum
+
+ 
+
+
+### -field SignedMinimum
+
+Specifies a minimum bound as a signed 32-bit value.
+
+
+### -field SignedMaximum
+
+Specifies a maximum bound as a signed 32-bit value.
+
+
 ### -field _UNSIGNED
 
  
 
 
+### -field _UNSIGNED.UnsignedMinimum
+
+ 
 
 
-#### - SignedMaximum
+### -field _UNSIGNED.UnsignedMaximum
 
-Specifies a maximum bound as a signed 32-bit value.
-
-
-#### - SignedMinimum
-
-Specifies a minimum bound as a signed 32-bit value.
+ 
 
 
-#### - UnsignedMaximum
-
-Specifies a maximum bound as an unsigned 32-bit value.
-
-
-#### - UnsignedMinimum
+### -field UnsignedMinimum
 
 Specifies a minimum bound as an unsigned 32-bit value.
+
+
+### -field UnsignedMaximum
+
+Specifies a maximum bound as an unsigned 32-bit value.
 
 
 ## -remarks

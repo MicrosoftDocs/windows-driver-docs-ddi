@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EnableDevice
-title: IWDTFPNPActions2::EnableDevice method
+title: IWDTFPNPActions2::EnableDevice
 author: windows-driver-content
 description: Enables the target device.
 old-location: dtf\iwdtfpnpactions2_enabledevice.htm
 old-project: dtf
 ms.assetid: a215710d-c2ea-4bbb-9eab-c808501bf8d8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EnableDevice method [Windows Device Testing Framework], EnableDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EnableDevice,IWDTFPNPActions2.EnableDevice, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EnableDevice method, IWDTFPNPActions2::EnableDevice, dtf.iwdtfpnpactions2_enabledevice, wdtfpnpaction/IWDTFPNPActions2::EnableDevice
+ms.date: 4/4/2018
+ms.keywords: EnableDevice, EnableDevice method [Windows Device Testing Framework], EnableDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EnableDevice method, IWDTFPNPActions2.EnableDevice, IWDTFPNPActions2::EnableDevice, dtf.iwdtfpnpactions2_enabledevice, wdtfpnpaction/IWDTFPNPActions2::EnableDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFPNPActions2.EnableDevice
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::EnableDevice method
+# IWDTFPNPActions2::EnableDevice
 
 
 ## -description

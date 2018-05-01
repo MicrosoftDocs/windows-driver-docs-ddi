@@ -7,7 +7,7 @@ old-location: display\d3dkmt_unlock.htm
 old-project: display
 ms.assetid: 397d2ab0-89a0-42a8-a665-ca7e1ed5d8f3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_UNLOCK, D3DKMT_UNLOCK structure [Display Devices], OpenGL_Structs_d4f3b3e8-fddd-41d2-8a7e-ee43f25a1f2d.xml, _D3DKMT_UNLOCK, d3dkmthk/D3DKMT_UNLOCK, display.d3dkmt_unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

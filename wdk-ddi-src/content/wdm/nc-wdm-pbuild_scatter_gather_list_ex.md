@@ -7,8 +7,8 @@ old-location: kernel\buildscattergatherlistex.htm
 old-project: kernel
 ms.assetid: A1A89D52-5F39-45E4-AFBE-20DAD0E49442
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: BuildScatterGatherListEx, BuildScatterGatherListEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PBUILD_SCATTER_GATHER_LIST_EX, kernel.buildscattergatherlistex, wdm/BuildScatterGatherListEx
+ms.date: 4/5/2018
+ms.keywords: BuildScatterGatherListEx, BuildScatterGatherListEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PBUILD_SCATTER_GATHER_LIST_EX, PBUILD_SCATTER_GATHER_LIST_EX callback, kernel.buildscattergatherlistex, wdm/BuildScatterGatherListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	BuildScatterGatherListEx
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PBUILD_SCATTER_GATHER_LIST_EX callback
+# PBUILD_SCATTER_GATHER_LIST_EX callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dkmtsignalsynchronizationobjectfromgpu2.htm
 old-project: display
 ms.assetid: 813193DC-8066-4B98-BC24-7688630AAC1C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu2, D3DKMTSignalSynchronizationObjectFromGpu2 function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu2, display.d3dkmtsignalsynchronizationobjectfromgpu2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ api_name:
 -	D3DKMTSignalSynchronizationObjectFromGpu2
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTSignalSynchronizationObjectFromGpu2 function

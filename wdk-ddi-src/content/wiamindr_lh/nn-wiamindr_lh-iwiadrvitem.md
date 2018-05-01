@@ -7,8 +7,8 @@ old-location: image\iwiadrvitem_interface.htm
 old-project: image
 ms.assetid: 0609e1b2-48df-413c-90bd-d7ddea26510a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices], described, image.iwiadrvitem_interface, wiamindr_lh/IWiaDrvItem
+ms.date: 4/23/2018
+ms.keywords: DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices],described, image.iwiadrvitem_interface, wiamindr_lh/IWiaDrvItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IWiaDrvItem
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWiaDrvItem interface

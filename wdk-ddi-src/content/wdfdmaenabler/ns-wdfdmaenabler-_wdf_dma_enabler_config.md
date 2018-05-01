@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_DMA_ENABLER_CONFIG, *PWDF_DMA_ENABLER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DMA_ENABLER_CONFIG structure
@@ -105,19 +104,19 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/397791c1-c394-48ae
 A pointer to the driver's <a href="https://msdn.microsoft.com/b334588a-7a92-4542-8f45-13c363ce22f0">EvtDmaEnablerSelfManagedIoStop</a> event callback function, or <b>NULL</b>.
 
 
-### -field AddressWidthOverride
+#### - AddressWidthOverride
 
 Set to zero to accept the address width specified in <b>Profile</b>. A driver can override the <b>Profile</b>  address width by setting this member to a value between 24  and 63. If your driver specifies a system-mode DMA profile, <b>AddressWidthOverride</b> must be zero. If your driver specifies a 32-bit DMA profile, <b>AddressWidthOverride</b> cannot be greater than 32. The <b>AddressWidthOverride</b> member is available in version 1.11 and later versions of KMDF. See more information in <b>Remarks</b>.
 
 
-### -field WdmDmaVersionOverride
-
-Set to zero to accept the default DMA version. To request DMA version 3, set to 3. The <b>WdmDmaVersionOverride</b> member is available in version 1.11 and in later versions of KMDF. DMA version 3 is available starting in Windows 8.
-
-
-### -field Flags
+#### - Flags
 
 A bitwise OR of one or more values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439491">WDF_DMA_ENABLER_CONFIG_FLAGS</a> enumeration. The <b>Flags</b> member is available in version 1.11 and in later versions of KMDF.
+
+
+#### - WdmDmaVersionOverride
+
+Set to zero to accept the default DMA version. To request DMA version 3, set to 3. The <b>WdmDmaVersionOverride</b> member is available in version 1.11 and in later versions of KMDF. DMA version 3 is available starting in Windows 8.
 
 
 ## -remarks

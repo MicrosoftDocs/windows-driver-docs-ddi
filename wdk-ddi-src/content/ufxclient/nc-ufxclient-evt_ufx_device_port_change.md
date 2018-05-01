@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_port_change.htm
 old-project: usbref
 ms.assetid: A231F47E-C7A2-4C21-99F8-EC856C6F6D88
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UFX_DEVICE_PORT_CHANGE, EvtUfxDevicePortChange, EvtUfxDevicePortChange callback function [Buses], PFN_UFX_DEVICE_PORT_CHANGE, PFN_UFX_DEVICE_PORT_CHANGE callback function pointer [Buses], buses.evt_ufx_device_port_change, ufxclient/EvtUfxDevicePortChange
+ms.date: 4/25/2018
+ms.keywords: EVT_UFX_DEVICE_PORT_CHANGE, EVT_UFX_DEVICE_PORT_CHANGE callback, EvtUfxDevicePortChange, EvtUfxDevicePortChange callback function [Buses], PFN_UFX_DEVICE_PORT_CHANGE, PFN_UFX_DEVICE_PORT_CHANGE callback function pointer [Buses], buses.evt_ufx_device_port_change, ufxclient/EvtUfxDevicePortChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PFN_UFX_DEVICE_PORT_CHANGE
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UFX_DEVICE_PORT_CHANGE callback
+# EVT_UFX_DEVICE_PORT_CHANGE callback function
 
 
 ## -description

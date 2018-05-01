@@ -7,7 +7,7 @@ old-location: ifsk\psisdiskcountersenabled.htm
 old-project: ifsk
 ms.assetid: E4626CF9-5E76-4C48-9B38-274178E41E30
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ifsk.psisdiskcountersenabled, ntifs/PsIsDiskCountersEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	PsIsDiskCountersEnabled
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PsIsDiskCountersEnabled function

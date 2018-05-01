@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.SuspendPlmPackageWide
-title: IDebugPlmClient3::SuspendPlmPackageWide method
+title: IDebugPlmClient3::SuspendPlmPackageWide
 author: windows-driver-content
 description: Suspends a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_suspendplmpackagewide.htm
 old-project: debugger
 ms.assetid: B887CCD2-0747-483E-A4CF-632471AB19A2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, SuspendPlmPackageWide,IDebugPlmClient3.SuspendPlmPackageWide, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide
+ms.date: 4/24/2018
+ms.keywords: IDebugPlmClient3 interface [Windows Debugging],SuspendPlmPackageWide method, IDebugPlmClient3.SuspendPlmPackageWide, IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugPlmClient3.SuspendPlmPackageWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugPlmClient3::SuspendPlmPackageWide method
+# IDebugPlmClient3::SuspendPlmPackageWide
 
 
 ## -description

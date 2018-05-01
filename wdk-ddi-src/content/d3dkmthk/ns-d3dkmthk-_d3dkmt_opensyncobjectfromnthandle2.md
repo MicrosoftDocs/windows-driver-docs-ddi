@@ -7,7 +7,7 @@ old-location: display\d3dkmt_opensyncobjectfromnthandle2.htm
 old-project: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, display.d3dkmt_opensyncobjectfromnthandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ Contains sync object virtual addresses that can be used in this process.
 [in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
 
 
-#### - Reserved
+### -field Reserved
 
 The consolidated value of the <b>MonitoredFence</b> structure.
 

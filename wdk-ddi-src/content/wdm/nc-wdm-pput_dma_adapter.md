@@ -7,8 +7,8 @@ old-location: kernel\putdmaadapter.htm
 old-project: kernel
 ms.assetid: 05a76baf-e5f7-41ca-ac9f-4538cd3e0292
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: PPUT_DMA_ADAPTER, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml, kernel.putdmaadapter, wdm/PutDmaAdapter
+ms.date: 4/5/2018
+ms.keywords: PPUT_DMA_ADAPTER, PPUT_DMA_ADAPTER callback, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml, kernel.putdmaadapter, wdm/PutDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PutDmaAdapter
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PPUT_DMA_ADAPTER callback
+# PPUT_DMA_ADAPTER callback function
 
 
 ## -description

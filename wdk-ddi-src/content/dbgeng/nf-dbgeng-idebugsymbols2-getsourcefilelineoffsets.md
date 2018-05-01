@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSourceFileLineOffsets
-title: IDebugSymbols2::GetSourceFileLineOffsets method
+title: IDebugSymbols2::GetSourceFileLineOffsets
 author: windows-driver-content
 description: The GetSourceFileLineOffsets method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsets.htm
 old-project: debugger
 ms.assetid: ace9e23a-d7ea-480a-8001-f25310adee22
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSourceFileLineOffsets method [Windows Debugging], GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols interface, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols2 interface, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsets,IDebugSymbols2.GetSourceFileLineOffsets, IDebugSymbols interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols2::GetSourceFileLineOffsets, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols3::GetSourceFileLineOffsets, IDebugSymbols::GetSourceFileLineOffsets, IDebugSymbols_18a64f21-a082-4953-8d69-2b3f7d805c60.xml, dbgeng/IDebugSymbols2::GetSourceFileLineOffsets, dbgeng/IDebugSymbols3::GetSourceFileLineOffsets, dbgeng/IDebugSymbols::GetSourceFileLineOffsets, debugger.getsourcefilelineoffsets
+ms.date: 4/24/2018
+ms.keywords: GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], GetSourceFileLineOffsets method [Windows Debugging],IDebugSymbols interface, GetSourceFileLineOffsets method [Windows Debugging],IDebugSymbols2 interface, GetSourceFileLineOffsets method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSourceFileLineOffsets method, IDebugSymbols2 interface [Windows Debugging],GetSourceFileLineOffsets method, IDebugSymbols2.GetSourceFileLineOffsets, IDebugSymbols2::GetSourceFileLineOffsets, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsets method, IDebugSymbols3::GetSourceFileLineOffsets, IDebugSymbols::GetSourceFileLineOffsets, IDebugSymbols_18a64f21-a082-4953-8d69-2b3f7d805c60.xml, dbgeng/IDebugSymbols2::GetSourceFileLineOffsets, dbgeng/IDebugSymbols3::GetSourceFileLineOffsets, dbgeng/IDebugSymbols::GetSourceFileLineOffsets, debugger.getsourcefilelineoffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.GetSourceFileLineOffsets
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetSourceFileLineOffsets method
+# IDebugSymbols2::GetSourceFileLineOffsets
 
 
 ## -description

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_COMMON_BUFFER_CONFIG structure

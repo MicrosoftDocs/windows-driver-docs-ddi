@@ -7,8 +7,8 @@ old-location: display\dxgkddiunload.htm
 old-project: display
 ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_UNLOAD, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_UNLOAD, DXGKDDI_UNLOAD callback, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiUnload
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_UNLOAD callback
+# DXGKDDI_UNLOAD callback function
 
 
 ## -description

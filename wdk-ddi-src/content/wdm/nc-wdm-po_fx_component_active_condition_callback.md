@@ -7,7 +7,7 @@ old-location: kernel\componentactiveconditioncallback.htm
 old-project: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	ComponentActiveConditionCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback
+# PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function
 
 
 ## -description

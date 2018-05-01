@@ -40,7 +40,7 @@ api_name:
 -	AtaPortControllerSyncRoutine
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortControllerSyncRoutine function

@@ -7,8 +7,8 @@ old-location: audio\iportclsversion.htm
 old-project: audio
 ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices], described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion
+ms.date: 4/16/2018
+ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices],described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	IPortClsVersion
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPortClsVersion interface

@@ -7,8 +7,8 @@ old-location: print\iprintjob.htm
 old-project: print
 ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices], described, print.iprintjob, printerextension/IPrintJob
+ms.date: 4/20/2018
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices],described, print.iprintjob, printerextension/IPrintJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrintJob
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintJob interface
@@ -77,6 +76,15 @@ The <b>IPrintJob</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 Requests the cancellation of a print job.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+</td>
+<td align="left" width="63%">
+Gets the current status of the print job.
 
 </td>
 </tr>
@@ -133,22 +141,6 @@ Read-only
 </td>
 <td align="left" width="63%">
 Gets the number of pages that have been printed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the current status of the print job.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: display\dd_getd3dquerydata.htm
 old-project: display
 ms.assetid: a3bacd56-c25a-45d1-bd9f-b19bc1f95c8f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA structure [Display Devices], _DD_GETD3DQUERYDATA, d3dhal/DD_GETD3DQUERYDATA, d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml, display.dd_getd3dquerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,14 @@ DD_GETD3DQUERYDATA is the data structure pointed to by the <b>lpvData</b> field 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
-#### - QueryType
-
-Receives a value from the D3DQUERYTYPE enumeration that specifies the actual query capability.
-
-
-#### - dwQueryIndex
+### -field dwQueryIndex
 
 Specifies the index of the query type to return.
+
+
+### -field QueryType
+
+Receives a value from the D3DQUERYTYPE enumeration that specifies the actual query capability.
 
 
 ## -remarks

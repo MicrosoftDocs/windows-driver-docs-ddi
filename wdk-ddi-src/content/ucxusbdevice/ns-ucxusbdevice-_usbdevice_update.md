@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_update.htm
 old-project: usbref
 ms.assetid: 7E990E9A-5BF5-4D6B-A5E2-4968FBD1CEBC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBDEVICE_UPDATE, P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], _USBDEVICE_UPDATE, buses._usbdevice_update, ucxusbdevice/P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE, *PUSBDEVICE_UPDATE
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_UPDATE structure

@@ -40,11 +40,10 @@ api_name:
 -	HwStorCleanupTracing
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# HW_CLEANUP_TRACING callback
+# HW_CLEANUP_TRACING callback function
 
 
 ## -description

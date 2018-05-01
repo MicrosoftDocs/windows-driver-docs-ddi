@@ -7,8 +7,8 @@ old-location: stream\ioctl_ks_enable_event.htm
 old-project: stream
 ms.assetid: 194a99f4-900f-44d1-bbc3-64953e4dce21
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_KS_ENABLE_EVENT, IOCTL_KS_ENABLE_EVENT control code [Streaming Media Devices], ks-ioctl_7cc1eab4-2a30-4998-8f7d-122150800c9a.xml, ks/IOCTL_KS_ENABLE_EVENT, stream.ioctl_ks_enable_event
+ms.date: 4/23/2018
+ms.keywords: IOCTL_KS_ENABLE_EVENT, IOCTL_KS_ENABLE_EVENT control, IOCTL_KS_ENABLE_EVENT control code [Streaming Media Devices], ks-ioctl_7cc1eab4-2a30-4998-8f7d-122150800c9a.xml, ks/IOCTL_KS_ENABLE_EVENT, stream.ioctl_ks_enable_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

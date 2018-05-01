@@ -7,7 +7,7 @@ old-location: print\routergetprintclassobject.htm
 old-project: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], print.routergetprintclassobject, prnasntp/RouterGetPrintClassObject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RouterGetPrintClassObject
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RouterGetPrintClassObject function

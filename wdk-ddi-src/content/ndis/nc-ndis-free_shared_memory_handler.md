@@ -7,8 +7,8 @@ old-location: netvista\netfreesharedmemory.htm
 old-project: netvista
 ms.assetid: fdc3dfe7-6980-493d-ad41-aed501db3a6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FREE_SHARED_MEMORY_HANDLER, NetFreeSharedMemory, NetFreeSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeSharedMemory, ndis_shared_memory_ref_15b5aca1-e5be-4063-812f-9d98a4e72cd4.xml, netvista.netfreesharedmemory
+ms.date: 4/25/2018
+ms.keywords: FREE_SHARED_MEMORY_HANDLER, FREE_SHARED_MEMORY_HANDLER callback, NetFreeSharedMemory, NetFreeSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeSharedMemory, ndis_shared_memory_ref_15b5aca1-e5be-4063-812f-9d98a4e72cd4.xml, netvista.netfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NetFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FREE_SHARED_MEMORY_HANDLER callback
+# FREE_SHARED_MEMORY_HANDLER callback function
 
 
 ## -description

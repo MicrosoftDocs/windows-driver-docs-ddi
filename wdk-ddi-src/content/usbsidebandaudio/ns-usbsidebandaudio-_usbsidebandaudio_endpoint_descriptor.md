@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_endpoint_descriptor.htm
 old-project: audio
 ms.assetid: 552986F7-AEE9-4CBF-A932-629885F99487
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure pointer [Audio Devices], USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure [Audio Devices], _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, audio.usbsidebandaudio_endpoint_descriptor, usbsidebandaudio/PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure

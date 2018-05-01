@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.CreateDevice
-title: IWDFDriver::CreateDevice method
+title: IWDFDriver::CreateDevice
 author: windows-driver-content
 description: The CreateDevice method configures and creates a new framework device object.
 old-location: wdf\iwdfdriver_createdevice.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: df921271-b708-43bf-a250-048b7f638cac
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateDevice method, CreateDevice method, IWDFDriver interface, CreateDevice,IWDFDriver.CreateDevice, IWDFDriver, IWDFDriver interface, CreateDevice method, IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, umdf.iwdfdriver_createdevice, wdf.iwdfdriver_createdevice, wudfddi/IWDFDriver::CreateDevice
+ms.keywords: CreateDevice, CreateDevice method, CreateDevice method,IWDFDriver interface, IWDFDriver interface,CreateDevice method, IWDFDriver.CreateDevice, IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, umdf.iwdfdriver_createdevice, wdf.iwdfdriver_createdevice, wudfddi/IWDFDriver::CreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDriver.CreateDevice
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDriver::CreateDevice method
+# IWDFDriver::CreateDevice
 
 
 ## -description

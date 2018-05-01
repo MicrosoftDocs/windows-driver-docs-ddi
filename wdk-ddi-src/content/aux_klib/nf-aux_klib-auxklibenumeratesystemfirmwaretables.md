@@ -7,7 +7,7 @@ old-location: kernel\auxklibenumeratesystemfirmwaretables.htm
 old-project: kernel
 ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	AuxKlibEnumerateSystemFirmwareTables
 product: Windows
 targetos: Windows
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+req.typenames: 
 ---
 
 # AuxKlibEnumerateSystemFirmwareTables function

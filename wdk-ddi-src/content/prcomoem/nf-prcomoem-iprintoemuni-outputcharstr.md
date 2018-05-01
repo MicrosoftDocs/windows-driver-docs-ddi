@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.OutputCharStr
-title: IPrintOemUni::OutputCharStr method
+title: IPrintOemUni::OutputCharStr
 author: windows-driver-content
 description: The IPrintOemUni::OutputCharStr method enables a rendering plug-in to control the printing of font glyphs.
 old-location: print\iprintoemuni_outputcharstr.htm
 old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], OutputCharStr method, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices], IPrintOemUni interface, OutputCharStr,IPrintOemUni.OutputCharStr, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],OutputCharStr method, IPrintOemUni.OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUni.OutputCharStr
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::OutputCharStr method
+# IPrintOemUni::OutputCharStr
 
 
 ## -description

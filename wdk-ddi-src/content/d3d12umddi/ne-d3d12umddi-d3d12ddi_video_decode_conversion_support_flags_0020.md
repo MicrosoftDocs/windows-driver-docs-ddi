@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_conversion_support_flags.htm
 old-project: display
 ms.assetid: 7E272786-ECD4-4DF0-A36A-B27454E3E896
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020 enumeration [Display Devices], D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAG_0020_NONE, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAG_0020_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAG_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAG_0020_SUPPORTED, display.d3d12ddi_video_decode_conversion_support_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

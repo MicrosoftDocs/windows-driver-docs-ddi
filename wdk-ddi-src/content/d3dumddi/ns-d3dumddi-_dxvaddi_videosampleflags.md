@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videosampleflags.htm
 old-project: display
 ms.assetid: 1dca2b12-0542-43a9-abff-203ea34cff90
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml, DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices], _DXVADDI_VIDEOSAMPLEFLAGS, d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS, display.dxvaddi_videosampleflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ DXVADDI_SAMPLEDATA_TFF (0x0002)
 DXVADDI_SAMPLEDATA_RFF_TFF_PRESENT (0x0004) 
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hold one 32-bit value that identifies changes in the current sample frame from the previous sample frame.
 

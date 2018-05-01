@@ -7,7 +7,7 @@ old-location: netvista\ndisminvalidateconfigblock.htm
 old-project: netvista
 ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisMInvalidateConfigBlock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMInvalidateConfigBlock function

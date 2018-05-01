@@ -41,8 +41,7 @@ api_name:
 -	SpbControllerSetTargetAttributes
 product: Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbControllerSetTargetAttributes function

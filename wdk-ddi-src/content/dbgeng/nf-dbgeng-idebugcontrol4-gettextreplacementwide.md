@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetTextReplacementWide
-title: IDebugControl4::GetTextReplacementWide method
+title: IDebugControl4::GetTextReplacementWide
 author: windows-driver-content
 description: The GetTextReplacementWide method returns the value of a user-named alias or an automatic alias.
 old-location: debugger\gettextreplacementwide.htm
 old-project: debugger
 ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, GetTextReplacementWide,IDebugControl4.GetTextReplacementWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
+ms.date: 4/24/2018
+ms.keywords: GetTextReplacementWide, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextReplacementWide method, IDebugControl4.GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.GetTextReplacementWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetTextReplacementWide method
+# IDebugControl4::GetTextReplacementWide
 
 
 ## -description

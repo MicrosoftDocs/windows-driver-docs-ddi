@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetsectorsizeinformation.htm
 old-project: ifsk
 ms.assetid: 337E5450-8C90-48B7-B344-FB9420498D4F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlGetSectorSizeInformation, FsRtlGetSectorSizeInformation routine [Installable File System Drivers], ifsk.fsrtlgetsectorsizeinformation, ntifs/FsRtlGetSectorSizeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlGetSectorSizeInformation
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlGetSectorSizeInformation function

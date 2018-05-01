@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.CreateInterrupt
-title: IWDFDevice3::CreateInterrupt method
+title: IWDFDevice3::CreateInterrupt
 author: windows-driver-content
 description: The CreateInterrupt method creates a framework interrupt object.
 old-location: wdf\iwdfdevice3_createinterrupt.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateInterrupt method, CreateInterrupt method, IWDFDevice3 interface, CreateInterrupt,IWDFDevice3.CreateInterrupt, IWDFDevice3, IWDFDevice3 interface, CreateInterrupt method, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
+ms.keywords: CreateInterrupt, CreateInterrupt method, CreateInterrupt method,IWDFDevice3 interface, IWDFDevice3 interface,CreateInterrupt method, IWDFDevice3.CreateInterrupt, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice3.CreateInterrupt
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::CreateInterrupt method
+# IWDFDevice3::CreateInterrupt
 
 
 ## -description

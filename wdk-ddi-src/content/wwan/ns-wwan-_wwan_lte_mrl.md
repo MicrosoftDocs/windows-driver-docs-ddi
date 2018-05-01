@@ -7,7 +7,7 @@ old-location: netvista\wwan_lte_mrl.htm
 old-project: netvista
 ms.assetid: 5959B7A7-147D-4F20-82CC-EC1DEAAE3494
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_LTE_MRL, PWWAN_LTE_MRL, PWWAN_LTE_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_LTE_MRL, WWAN_LTE_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_LTE_MRL, netvista.wwan_lte_mrl, wwan/PWWAN_LTE_MRL, wwan/WWAN_LTE_MRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_LTE_MRL, *PWWAN_LTE_MRL
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_LTE_MRL structure

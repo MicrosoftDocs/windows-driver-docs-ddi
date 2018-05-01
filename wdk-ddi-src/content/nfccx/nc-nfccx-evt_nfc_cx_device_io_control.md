@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 45512F88-D4B8-4488-99EB-B47EE7443425
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
+ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EVT_NFC_CX_DEVICE_IO_CONTROL callback, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	EvtNfcCxDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
+req.typenames: 
 ---
 
-# EVT_NFC_CX_DEVICE_IO_CONTROL callback
+# EVT_NFC_CX_DEVICE_IO_CONTROL callback function
 
 
 ## -description

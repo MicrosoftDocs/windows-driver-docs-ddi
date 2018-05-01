@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: af20cab0-c70b-404c-b6bd-54d9ecf75714
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA, *PT1_DATA, T1_DATA, *PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
+ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA,*PT1_DATA, T1_DATA,*PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: T1_DATA, *PT1_DATA
-req.product: Windows 10 or later.
 ---
 
 # _T1_DATA structure

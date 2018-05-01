@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 094edf6d-276b-4aae-9e60-52e181268e7d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control code [Storage Devices], k307_19063683-2dc1-4ce2-ac53-7754eee2562b.xml, ntddstor/IOCTL_STORAGE_EJECT_MEDIA, storage.ioctl_storage_eject_media
+ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code [Storage Devices], k307_19063683-2dc1-4ce2-ac53-7754eee2562b.xml, ntddstor/IOCTL_STORAGE_EJECT_MEDIA, storage.ioctl_storage_eject_media
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_STORAGE_EJECT_MEDIA
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_EJECT_MEDIA IOCTL

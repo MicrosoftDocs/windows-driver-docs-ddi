@@ -7,7 +7,7 @@ old-location: kernel\iogetdeviceinterfacealias.htm
 old-project: kernel
 ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	IoGetDeviceInterfaceAlias
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetDeviceInterfaceAlias function

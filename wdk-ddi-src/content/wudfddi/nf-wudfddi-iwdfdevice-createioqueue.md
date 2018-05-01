@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateIoQueue
-title: IWDFDevice::CreateIoQueue method
+title: IWDFDevice::CreateIoQueue
 author: windows-driver-content
 description: The CreateIoQueue method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device.
 old-location: wdf\iwdfdevice_createioqueue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 54c19d8c-59eb-44b2-b406-8fe33cdfcd63
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateIoQueue method, CreateIoQueue method, IWDFDevice interface, CreateIoQueue,IWDFDevice.CreateIoQueue, IWDFDevice, IWDFDevice interface, CreateIoQueue method, IWDFDevice::CreateIoQueue, UMDFDeviceObjectRef_ed702ef2-a628-44cc-9aba-421018c236c1.xml, umdf.iwdfdevice_createioqueue, wdf.iwdfdevice_createioqueue, wudfddi/IWDFDevice::CreateIoQueue
+ms.keywords: CreateIoQueue, CreateIoQueue method, CreateIoQueue method,IWDFDevice interface, IWDFDevice interface,CreateIoQueue method, IWDFDevice.CreateIoQueue, IWDFDevice::CreateIoQueue, UMDFDeviceObjectRef_ed702ef2-a628-44cc-9aba-421018c236c1.xml, umdf.iwdfdevice_createioqueue, wdf.iwdfdevice_createioqueue, wudfddi/IWDFDevice::CreateIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFDevice.CreateIoQueue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::CreateIoQueue method
+# IWDFDevice::CreateIoQueue
 
 
 ## -description

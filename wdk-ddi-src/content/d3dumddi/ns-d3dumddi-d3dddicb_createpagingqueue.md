@@ -7,7 +7,7 @@ old-location: display\d3dddicb_createpagingqueue.htm
 old-project: display
 ms.assetid: 9E36B02F-2292-416C-AA09-1968EECE5A3D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

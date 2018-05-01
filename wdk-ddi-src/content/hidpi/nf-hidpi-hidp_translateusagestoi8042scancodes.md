@@ -41,7 +41,7 @@ api_name:
 -	HidP_TranslateUsagesToI8042ScanCodes
 product: Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_TranslateUsagesToI8042ScanCodes function

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.HasUnnamedArg
-title: ExtExtension::HasUnnamedArg method
+title: ExtExtension::HasUnnamedArg
 author: windows-driver-content
 description: The HasUnnamedArg method indicates whether a specified unnamed argument is present in the command line used to invoke the current extension command.
 old-location: debugger\hasunnamedarg.htm
 old-project: debugger
 ms.assetid: 26917b2b-abbf-4d1b-b086-104390998a35
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, ExtExtension, ExtExtension class [Windows Debugging], HasUnnamedArg method, ExtExtension::HasUnnamedArg, HasUnnamedArg method [Windows Debugging], HasUnnamedArg method [Windows Debugging], ExtExtension class, HasUnnamedArg,ExtExtension.HasUnnamedArg, debugger.hasunnamedarg
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, ExtExtension class [Windows Debugging],HasUnnamedArg method, ExtExtension.HasUnnamedArg, ExtExtension::HasUnnamedArg, HasUnnamedArg, HasUnnamedArg method [Windows Debugging], HasUnnamedArg method [Windows Debugging],ExtExtension class, debugger.hasunnamedarg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtExtension.HasUnnamedArg
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::HasUnnamedArg method
+# ExtExtension::HasUnnamedArg
 
 
 ## -description

@@ -41,8 +41,7 @@ api_name:
 -	WdfDmaEnablerConfigureSystemProfile
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_PROFILE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDmaEnablerConfigureSystemProfile function

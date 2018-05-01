@@ -7,8 +7,8 @@ old-location: display\iasettopology.htm
 old-project: display
 ms.assetid: c2ee9c8b-7e33-4fc9-9bd3-2b2984e94390
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IaSetTopology, IaSetTopology callback function [Display Devices], PFND3D10DDI_IA_SETTOPOLOGY, UserModeDisplayDriverDx10_Functions_9c7ceca5-4745-4550-832d-d85cdcfecf81.xml, d3d10umddi/IaSetTopology, display.iasettopology
+ms.date: 4/16/2018
+ms.keywords: IaSetTopology, IaSetTopology callback function [Display Devices], PFND3D10DDI_IA_SETTOPOLOGY, PFND3D10DDI_IA_SETTOPOLOGY callback, UserModeDisplayDriverDx10_Functions_9c7ceca5-4745-4550-832d-d85cdcfecf81.xml, d3d10umddi/IaSetTopology, display.iasettopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	IaSetTopology
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_IA_SETTOPOLOGY callback
+# PFND3D10DDI_IA_SETTOPOLOGY callback function
 
 
 ## -description

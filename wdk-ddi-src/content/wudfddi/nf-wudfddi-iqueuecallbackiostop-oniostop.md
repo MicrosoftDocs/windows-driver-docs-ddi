@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackIoStop.OnIoStop
-title: IQueueCallbackIoStop::OnIoStop method
+title: IQueueCallbackIoStop::OnIoStop
 author: windows-driver-content
 description: The OnIoStop callback function stops the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackiostop_oniostop.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: baa48d1b-b7da-4f89-b2e8-9a9ae2086527
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackIoStop, IQueueCallbackIoStop interface, OnIoStop method, IQueueCallbackIoStop::OnIoStop, OnIoStop method, OnIoStop method, IQueueCallbackIoStop interface, OnIoStop,IQueueCallbackIoStop.OnIoStop, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, umdf.iqueuecallbackiostop_oniostop, wdf.iqueuecallbackiostop_oniostop, wudfddi/IQueueCallbackIoStop::OnIoStop
+ms.keywords: IQueueCallbackIoStop interface,OnIoStop method, IQueueCallbackIoStop.OnIoStop, IQueueCallbackIoStop::OnIoStop, OnIoStop, OnIoStop method, OnIoStop method,IQueueCallbackIoStop interface, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, umdf.iqueuecallbackiostop_oniostop, wdf.iqueuecallbackiostop_oniostop, wudfddi/IQueueCallbackIoStop::OnIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IQueueCallbackIoStop.OnIoStop
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackIoStop::OnIoStop method
+# IQueueCallbackIoStop::OnIoStop
 
 
 ## -description

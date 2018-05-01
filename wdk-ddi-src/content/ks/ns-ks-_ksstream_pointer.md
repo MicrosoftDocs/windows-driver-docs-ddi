@@ -7,7 +7,7 @@ old-location: stream\ksstream_pointer.htm
 old-project: stream
 ms.assetid: 31cdb264-89a1-48dc-af0c-b18d4f077d0f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSSTREAM_POINTER, KSSTREAM_POINTER, KSSTREAM_POINTER structure [Streaming Media Devices], PKSSTREAM_POINTER, PKSSTREAM_POINTER structure pointer [Streaming Media Devices], _KSSTREAM_POINTER, avstruct_1856dc7a-3351-4a87-97a5-85b06d12ab30.xml, ks/KSSTREAM_POINTER, ks/PKSSTREAM_POINTER, stream.ksstream_pointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

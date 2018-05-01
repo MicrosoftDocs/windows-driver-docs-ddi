@@ -7,7 +7,7 @@ old-location: kernel\enumerateunmaskedinterrupts.htm
 old-project: kernel
 ms.assetid: 8B3E8FE0-9A96-43CD-8C6D-28F302BDF2D7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	EnumerateUnmaskedInterrupts
 product: Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: 
 ---
 
-# POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback
+# POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function
 
 
 ## -description

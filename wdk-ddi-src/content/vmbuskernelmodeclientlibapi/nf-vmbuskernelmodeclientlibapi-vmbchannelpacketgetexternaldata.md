@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketgetexternaldata.htm
 old-project: netvista
 ms.assetid: 844AB898-E6F0-4C75-9364-1BE31AAB88E7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VMBUS_CHANNEL_PACKET_EXTERNAL_DATA_FLAG_READ_ONLY, VmbChannelPacketGetExternalData, VmbChannelPacketGetExternalData function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketgetexternaldata, vmbuskernelmodeclientlibapi/VmbChannelPacketGetExternalData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelPacketGetExternalData
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelPacketGetExternalData function

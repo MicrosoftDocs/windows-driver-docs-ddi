@@ -7,7 +7,7 @@ old-location: buses\ucmtcpcideviceinitialize.htm
 old-project: usbref
 ms.assetid: f89dd322-520b-41b0-bbe2-6eab0f8a6b70
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], buses.ucmtcpcideviceinitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	UcmTcpciDeviceInitialize
 product: Windows
 targetos: Windows
-req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmTcpciDeviceInitialize function

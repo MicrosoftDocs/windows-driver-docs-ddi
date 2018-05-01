@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
-req.product: Windows 10 or later.
 ---
 
 # _WDF_PROPERTY_STORE_ROOT structure

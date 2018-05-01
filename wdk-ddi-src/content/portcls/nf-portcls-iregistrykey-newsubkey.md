@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IRegistryKey.NewSubKey
-title: IRegistryKey::NewSubKey method
+title: IRegistryKey::NewSubKey
 author: windows-driver-content
 description: The NewSubKey method either creates a new registry subkey or opens an existing subkey under the key represented by the IRegistryKey object.
 old-location: audio\iregistrykey_newsubkey.htm
 old-project: audio
 ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], NewSubKey method, IRegistryKey::NewSubKey, NewSubKey method [Audio Devices], NewSubKey method [Audio Devices], IRegistryKey interface, NewSubKey,IRegistryKey.NewSubKey, audio.iregistrykey_newsubkey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, portcls/IRegistryKey::NewSubKey
+ms.date: 4/16/2018
+ms.keywords: IRegistryKey interface [Audio Devices],NewSubKey method, IRegistryKey.NewSubKey, IRegistryKey::NewSubKey, NewSubKey, NewSubKey method [Audio Devices], NewSubKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_newsubkey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, portcls/IRegistryKey::NewSubKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IRegistryKey.NewSubKey
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IRegistryKey::NewSubKey method
+# IRegistryKey::NewSubKey
 
 
 ## -description

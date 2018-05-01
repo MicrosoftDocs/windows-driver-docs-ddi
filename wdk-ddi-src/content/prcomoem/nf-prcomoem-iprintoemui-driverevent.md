@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DriverEvent
-title: IPrintOemUI::DriverEvent method
+title: IPrintOemUI::DriverEvent
 author: windows-driver-content
 description: The printer driver's DrvDriverEvent function calls a user interface plug-in's IPrintOemUI::DriverEvent method for additional processing of printer driver events.
 old-location: print\iprintoemui_driverevent.htm
 old-project: print
 ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DriverEvent method [Print Devices], DriverEvent method [Print Devices], IPrintOemUI interface, DriverEvent,IPrintOemUI.DriverEvent, IPrintOemUI, IPrintOemUI interface [Print Devices], DriverEvent method, IPrintOemUI::DriverEvent, prcomoem/IPrintOemUI::DriverEvent, print.iprintoemui_driverevent, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml
+ms.date: 4/20/2018
+ms.keywords: DriverEvent, DriverEvent method [Print Devices], DriverEvent method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DriverEvent method, IPrintOemUI.DriverEvent, IPrintOemUI::DriverEvent, prcomoem/IPrintOemUI::DriverEvent, print.iprintoemui_driverevent, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemUI.DriverEvent
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::DriverEvent method
+# IPrintOemUI::DriverEvent
 
 
 ## -description

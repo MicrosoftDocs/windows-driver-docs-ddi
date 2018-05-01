@@ -7,7 +7,7 @@ old-location: display\videoportcreatespinlock.htm
 old-project: display
 ms.assetid: bb5f3b3e-3358-4181-9c4d-1871be1a7b7b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices], VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, display.videoportcreatespinlock, video/VideoPortCreateSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	VideoPortCreateSpinLock
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortCreateSpinLock function

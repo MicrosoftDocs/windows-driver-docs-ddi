@@ -7,7 +7,7 @@ old-location: audio\waveformatextensible.htm
 old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,20 +65,17 @@ Specifies the stream's wave-data format. This member is a structure of type <a h
 ### -field Samples
 
 
-
-#### wValidBitsPerSample
+### -field Samples.wValidBitsPerSample
 
 Specifies the precision of the sample in bits. The value of this member should be less than or equal to the container size specified in the <b>Format</b>.<b>wBitsPerSample</b> member. For more information, see the following Remarks section.
 
 
-
-#### wSamplesPerBlock
+### -field Samples.wSamplesPerBlock
 
 Specifies the number of samples contained in one compressed block. This value is useful for estimating buffer requirements for compressed formats that have a fixed number of samples within each block. Set this member to zero if each block of compressed audio data contains a variable number of samples. In this case, buffer-estimation and buffer-position information must be obtained in other ways.
 
 
-
-#### wReserved
+### -field Samples.wReserved
 
 Reserved for internal use by operating system. Initialize to zero.
 

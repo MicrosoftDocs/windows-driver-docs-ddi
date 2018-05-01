@@ -43,8 +43,7 @@ api_name:
 -	WdfUsbTargetDeviceGetIoTarget
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfUsbTargetDeviceGetIoTarget function

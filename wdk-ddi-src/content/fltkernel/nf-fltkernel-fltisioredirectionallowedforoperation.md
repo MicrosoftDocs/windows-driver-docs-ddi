@@ -7,7 +7,7 @@ old-location: ifsk\fltisioredirectionallowedforoperation.htm
 old-project: ifsk
 ms.assetid: 601a155d-587f-47fc-960e-d1162eabd4b9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltIsIoRedirectionAllowedForOperation, FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowedForOperation, ifsk.fltisioredirectionallowedforoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltIsIoRedirectionAllowedForOperation
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltIsIoRedirectionAllowedForOperation function

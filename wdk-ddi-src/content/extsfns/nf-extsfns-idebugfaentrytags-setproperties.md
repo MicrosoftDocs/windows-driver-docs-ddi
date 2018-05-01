@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.SetProperties
-title: IDebugFAEntryTags::SetProperties method
+title: IDebugFAEntryTags::SetProperties
 author: windows-driver-content
 description: The SetProperties method sets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_setproperties.htm
 old-project: debugger
 ms.assetid: EEBD3291-4DFC-4503-9F5A-49591FE09680
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetProperties method, IDebugFAEntryTags::SetProperties, SetProperties method [Windows Debugging], SetProperties method [Windows Debugging], IDebugFAEntryTags interface, SetProperties,IDebugFAEntryTags.SetProperties, debugger.idebugfaentrytags_setproperties, extsfns/IDebugFAEntryTags::SetProperties
+ms.date: 4/24/2018
+ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetProperties method, IDebugFAEntryTags.SetProperties, IDebugFAEntryTags::SetProperties, SetProperties, SetProperties method [Windows Debugging], SetProperties method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_setproperties, extsfns/IDebugFAEntryTags::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugFAEntryTags.SetProperties
 product: Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::SetProperties method
+# IDebugFAEntryTags::SetProperties
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\avstrminicancelcallback.htm
 old-project: stream
 ms.assetid: 4c95ccb6-c796-4bb2-b344-aa8eea28e131
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], PFNKSSTREAMPOINTER, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml, ks/AVStrMiniCancelCallback, stream.avstrminicancelcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniCancelCallback
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSSTREAMPOINTER callback
+# PFNKSSTREAMPOINTER callback function
 
 
 ## -description

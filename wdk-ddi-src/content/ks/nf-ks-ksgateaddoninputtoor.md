@@ -7,7 +7,7 @@ old-location: stream\ksgateaddoninputtoor.htm
 old-project: stream
 ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices], avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, ks/KsGateAddOnInputToOr, stream.ksgateaddoninputtoor
 ms.prod: windows-hardware
 ms.technology: windows-devices

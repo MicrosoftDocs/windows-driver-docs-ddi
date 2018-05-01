@@ -7,7 +7,7 @@ old-location: audio\bthhfp_descriptor2.htm
 old-project: audio
 ms.assetid: A455F181-E1DB-47CC-96E5-AE72988366F3
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PBTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2 structure [Audio Devices], PBTHHFP_DESCRIPTOR2, PBTHHFP_DESCRIPTOR2 structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR2, audio.bthhfp_descriptor2, bthhfpddi/BTHHFP_DESCRIPTOR2, bthhfpddi/PBTHHFP_DESCRIPTOR2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

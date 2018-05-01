@@ -7,7 +7,7 @@ old-location: display\dxva_mvvalue.htm
 old-project: display
 ms.assetid: 33b68e74-64ca-49e0-b469-96d430c2a5c0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_MVvalue, DXVA_MVvalue, DXVA_MVvalue structure [Display Devices], LPDXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], _DXVA_MVvalue, display.dxva_mvvalue, dxva/DXVA_MVvalue, dxva/LPDXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: audio\iresourcelist.htm
 old-project: audio
 ms.assetid: e99ed3bc-368c-433f-ad40-98deda668c51
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices], described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList
+ms.date: 4/16/2018
+ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices],described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	IResourceList
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IResourceList interface

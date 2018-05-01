@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_node_connection_information_ex_v2.htm
 old-project: usbref
 ms.assetid: 6B9BB412-EF3E-4115-87C7-1CB0CF557F7A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control code [Buses], buses.ioctl_usb_get_node_connection_information_ex_v2, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control code [Buses], buses.ioctl_usb_get_node_connection_information_ex_v2, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
 product: Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 IOCTL

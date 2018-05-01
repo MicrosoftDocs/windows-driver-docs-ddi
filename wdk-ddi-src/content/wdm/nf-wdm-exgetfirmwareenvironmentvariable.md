@@ -7,7 +7,7 @@ old-location: kernel\exgetfirmwareenvironmentvariable.htm
 old-project: kernel
 ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exgetfirmwareenvironmentvariable, wdm/ExGetFirmwareEnvironmentVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	ExGetFirmwareEnvironmentVariable
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExGetFirmwareEnvironmentVariable function

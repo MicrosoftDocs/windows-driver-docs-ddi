@@ -7,7 +7,7 @@ old-location: ifsk\rxnamecachefetchentry.htm
 old-project: ifsk
 ms.assetid: 1f4c50a8-2eee-46c6-8ca0-f5858d227922
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxNameCacheFetchEntry, RxNameCacheFetchEntry function [Installable File System Drivers], ifsk.rxnamecachefetchentry, namcache/RxNameCacheFetchEntry, rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RxNameCacheFetchEntry
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
 # RxNameCacheFetchEntry function

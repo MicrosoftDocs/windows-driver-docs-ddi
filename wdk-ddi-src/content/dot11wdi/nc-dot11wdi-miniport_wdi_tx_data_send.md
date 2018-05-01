@@ -7,8 +7,8 @@ old-location: netvista\miniportwditxdatasend.htm
 old-project: netvista
 ms.assetid: A9EB1E8C-BD10-450F-9F4B-CD19C8AF13EA
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TX_DATA_SEND, MiniportWdiTxDataSend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxDataSend, netvista.miniportwditxdatasend
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TX_DATA_SEND, MINIPORT_WDI_TX_DATA_SEND callback, MiniportWdiTxDataSend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxDataSend, netvista.miniportwditxdatasend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiTxDataSend
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TX_DATA_SEND callback
+# MINIPORT_WDI_TX_DATA_SEND callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\fltgetvolumeinstancefromname.htm
 old-project: ifsk
 ms.assetid: 25455faa-2197-4b2a-bce8-db9764153e51
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml, FltGetVolumeInstanceFromName, FltGetVolumeInstanceFromName routine [Installable File System Drivers], fltkernel/FltGetVolumeInstanceFromName, ifsk.fltgetvolumeinstancefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltGetVolumeInstanceFromName
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetVolumeInstanceFromName function

@@ -7,8 +7,8 @@ old-location: display\createvideodecoder.htm
 old-project: display
 ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
+ms.date: 4/16/2018
+ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, PFND3D11_1DDI_CREATEVIDEODECODER callback, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateVideoDecoder
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CREATEVIDEODECODER callback
+# PFND3D11_1DDI_CREATEVIDEODECODER callback function
 
 
 ## -description

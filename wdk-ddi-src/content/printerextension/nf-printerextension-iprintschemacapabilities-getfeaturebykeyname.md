@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeatureByKeyName
-title: IPrintSchemaCapabilities::GetFeatureByKeyName method
+title: IPrintSchemaCapabilities::GetFeatureByKeyName
 author: windows-driver-content
 description: Gets a feature from the PrintCapabilities based on a given key name.
 old-location: print\iprintschemacapabilities_getfeaturebykeyname.htm
 old-project: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, GetFeatureByKeyName,IPrintSchemaCapabilities.GetFeatureByKeyName, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName
+ms.date: 4/20/2018
+ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaCapabilities.GetFeatureByKeyName, IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaCapabilities.GetFeatureByKeyName
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::GetFeatureByKeyName method
+# IPrintSchemaCapabilities::GetFeatureByKeyName
 
 
 ## -description

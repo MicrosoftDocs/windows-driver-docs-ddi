@@ -7,8 +7,8 @@ old-location: kernel\freecommonbuffer.htm
 old-project: kernel
 ms.assetid: 9e026bde-657a-42ea-907c-71cc217dbd8d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], PFREE_COMMON_BUFFER, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml, kernel.freecommonbuffer, wdm/FreeCommonBuffer
+ms.date: 4/5/2018
+ms.keywords: FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], PFREE_COMMON_BUFFER, PFREE_COMMON_BUFFER callback, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml, kernel.freecommonbuffer, wdm/FreeCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	FreeCommonBuffer
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFREE_COMMON_BUFFER callback
+# PFREE_COMMON_BUFFER callback function
 
 
 ## -description

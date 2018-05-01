@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelCount
-title: IMiniportStreamAudioEngineNode::GetStreamChannelCount method
+title: IMiniportStreamAudioEngineNode::GetStreamChannelCount
 author: windows-driver-content
 description: Gets a count of the number of channels available for the stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelcount.htm
 old-project: audio
 ms.assetid: D39376D8-CD1D-4E07-8017-0B552A4D2E59
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetStreamChannelCount method [Audio Devices], GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamChannelCount,IMiniportStreamAudioEngineNode.GetStreamChannelCount, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelCount method, IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount
+ms.date: 4/16/2018
+ms.keywords: GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], GetStreamChannelCount method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelCount method, IMiniportStreamAudioEngineNode.GetStreamChannelCount, IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelCount
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::GetStreamChannelCount method
+# IMiniportStreamAudioEngineNode::GetStreamChannelCount
 
 
 ## -description

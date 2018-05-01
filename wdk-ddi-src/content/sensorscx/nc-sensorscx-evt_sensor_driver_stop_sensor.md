@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 25F57CA6-09A0-438B-8866-9F9DC01B5388
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_STOP_SENSOR, EvtSensorStop, EvtSensorStop callback function [Sensor Devices], sensors.evtsensorstop, sensorscx/EvtSensorStop
+ms.keywords: EVT_SENSOR_DRIVER_STOP_SENSOR, EVT_SENSOR_DRIVER_STOP_SENSOR callback, EvtSensorStop, EvtSensorStop callback function [Sensor Devices], sensors.evtsensorstop, sensorscx/EvtSensorStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSensorStop
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_STOP_SENSOR callback
+# EVT_SENSOR_DRIVER_STOP_SENSOR callback function
 
 
 ## -description

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,12 +62,6 @@ The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 A union that contains the following members:
 
 
-
-#### AsULONG
-
-A ULONG representation of the contents of the WHEA_PCI_SLOT_NUMBER structure.
-
-
 ### -field u.bits
 
 A structure that describes the logical PCI slot.
@@ -86,6 +80,11 @@ The specific function on the device that is located in the logical PCI slot.
 ### -field u.bits.Reserved
 
 Reserved for system use. 
+
+
+### -field u.AsULONG
+
+A ULONG representation of the contents of the WHEA_PCI_SLOT_NUMBER structure.
 
 
 ## -remarks

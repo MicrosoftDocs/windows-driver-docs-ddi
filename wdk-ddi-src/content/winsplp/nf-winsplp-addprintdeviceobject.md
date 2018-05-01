@@ -7,7 +7,7 @@ old-location: print\addprintdeviceobject.htm
 old-project: print
 ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	AddPrintDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # AddPrintDeviceObject function

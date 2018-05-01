@@ -7,8 +7,8 @@ old-location: netvista\protocoloidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 2706577e-ba03-4347-9672-7303752ec0fe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_OID_REQUEST_COMPLETE, ProtocolOidRequestComplete, ProtocolOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOidRequestComplete, ndis_request_ref_0460f62c-1ffe-4c81-ade3-56b5061eccb6.xml, netvista.protocoloidrequestcomplete
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_OID_REQUEST_COMPLETE, PROTOCOL_OID_REQUEST_COMPLETE callback, ProtocolOidRequestComplete, ProtocolOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOidRequestComplete, ndis_request_ref_0460f62c-1ffe-4c81-ade3-56b5061eccb6.xml, netvista.protocoloidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_OID_REQUEST_COMPLETE callback
+# PROTOCOL_OID_REQUEST_COMPLETE callback function
 
 
 ## -description

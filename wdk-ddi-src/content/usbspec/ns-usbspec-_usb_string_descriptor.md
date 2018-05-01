@@ -7,7 +7,7 @@ old-location: buses\usb_string_descriptor.htm
 old-project: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _USB_STRING_DESCRIPTOR structure

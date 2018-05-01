@@ -41,8 +41,7 @@ api_name:
 -	WdfPostDeviceRemove
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfPostDeviceRemove function

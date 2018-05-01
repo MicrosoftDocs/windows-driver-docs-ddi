@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint3.GetGuid
-title: IDebugBreakpoint3::GetGuid method
+title: IDebugBreakpoint3::GetGuid
 author: windows-driver-content
 description: Returns a GUID for the breakpoint.
 old-location: debugger\idebugbreakpoint3_getguid.htm
 old-project: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetGuid method [Windows Debugging], GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, GetGuid,IDebugBreakpoint3.GetGuid, IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, debugger.idebugbreakpoint3_getguid
+ms.date: 4/24/2018
+ms.keywords: GetGuid, GetGuid method [Windows Debugging], GetGuid method [Windows Debugging],IDebugBreakpoint3 interface, IDebugBreakpoint3 interface [Windows Debugging],GetGuid method, IDebugBreakpoint3.GetGuid, IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, debugger.idebugbreakpoint3_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugBreakpoint3.GetGuid
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint3::GetGuid method
+# IDebugBreakpoint3::GetGuid
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetInstructionOffset
-title: IDebugRegisters::GetInstructionOffset method
+title: IDebugRegisters::GetInstructionOffset
 author: windows-driver-content
 description: The GetInstructionOffset method returns the location of the current thread's current instruction.
 old-location: debugger\getinstructionoffset.htm
 old-project: debugger
 ms.assetid: f82416c9-1f4a-4083-b4df-f0d97eae2127
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetInstructionOffset method [Windows Debugging], GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset,IDebugRegisters.GetInstructionOffset, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2::GetInstructionOffset, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, dbgeng/IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset, debugger.getinstructionoffset
+ms.date: 4/24/2018
+ms.keywords: GetInstructionOffset, GetInstructionOffset method [Windows Debugging], GetInstructionOffset method [Windows Debugging],IDebugRegisters interface, GetInstructionOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetInstructionOffset method, IDebugRegisters.GetInstructionOffset, IDebugRegisters2 interface [Windows Debugging],GetInstructionOffset method, IDebugRegisters2::GetInstructionOffset, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, dbgeng/IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset, debugger.getinstructionoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugRegisters2.GetInstructionOffset
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters::GetInstructionOffset method
+# IDebugRegisters::GetInstructionOffset
 
 
 ## -description

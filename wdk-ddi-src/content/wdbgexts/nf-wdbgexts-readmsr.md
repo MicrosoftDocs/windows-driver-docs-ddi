@@ -7,7 +7,7 @@ old-location: debugger\readmsr.htm
 old-project: debugger
 ms.assetid: 1cb51f88-a943-43e6-af18-0e9e301d8382
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: ReadMsr, ReadMsr function [Windows Debugging], WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, debugger.readmsr, wdbgexts/ReadMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	ReadMsr
 product: Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ReadMsr function

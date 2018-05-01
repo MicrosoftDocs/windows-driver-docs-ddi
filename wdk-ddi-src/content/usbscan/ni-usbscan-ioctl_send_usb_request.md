@@ -7,8 +7,8 @@ old-location: image\ioctl_send_usb_request.htm
 old-project: image
 ms.assetid: 27e22a21-cd89-43e8-8ce1-448c0f4c4d78
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_SEND_USB_REQUEST, IOCTL_SEND_USB_REQUEST control code [Imaging Devices], image.ioctl_send_usb_request, stifnc_2532cbfa-8373-4666-8a87-fac7923513bd.xml, usbscan/IOCTL_SEND_USB_REQUEST
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SEND_USB_REQUEST, IOCTL_SEND_USB_REQUEST control, IOCTL_SEND_USB_REQUEST control code [Imaging Devices], image.ioctl_send_usb_request, stifnc_2532cbfa-8373-4666-8a87-fac7923513bd.xml, usbscan/IOCTL_SEND_USB_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_SEND_USB_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: RAW_PIPE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SEND_USB_REQUEST IOCTL

@@ -7,8 +7,8 @@ old-location: netvista\miniportwdirxrestart.htm
 old-project: netvista
 ms.assetid: 465716C7-A157-4B06-BAE2-F18A08126040
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_RX_RESTART, MiniportWdiRxRestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxRestart, netvista.miniportwdirxrestart
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_RX_RESTART, MINIPORT_WDI_RX_RESTART callback, MiniportWdiRxRestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxRestart, netvista.miniportwdirxrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiRxRestart
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_RX_RESTART callback
+# MINIPORT_WDI_RX_RESTART callback function
 
 
 ## -description

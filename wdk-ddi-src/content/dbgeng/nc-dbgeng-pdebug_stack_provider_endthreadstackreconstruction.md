@@ -7,8 +7,8 @@ old-location: debugger\endthreadstackreconstruction.htm
 old-project: debugger
 ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
+ms.date: 4/24/2018
+ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	EndThreadStackReconstruction
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback
+# PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function
 
 
 ## -description

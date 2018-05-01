@@ -7,8 +7,8 @@ old-location: display\dxgkddidestroyallocation.htm
 old-project: display
 ms.assetid: cade544a-f9c6-4635-ab57-d09d694ca315
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_DESTROYALLOCATION, DmFunctions_4139c309-b149-436b-9ed1-89c0c26f5425.xml, DxgkDdiDestroyAllocation, DxgkDdiDestroyAllocation callback function [Display Devices], d3dkmddi/DxgkDdiDestroyAllocation, display.dxgkddidestroyallocation
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_DESTROYALLOCATION, DXGKDDI_DESTROYALLOCATION callback, DmFunctions_4139c309-b149-436b-9ed1-89c0c26f5425.xml, DxgkDdiDestroyAllocation, DxgkDdiDestroyAllocation callback function [Display Devices], d3dkmddi/DxgkDdiDestroyAllocation, display.dxgkddidestroyallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiDestroyAllocation
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_DESTROYALLOCATION callback
+# DXGKDDI_DESTROYALLOCATION callback function
 
 
 ## -description

@@ -40,7 +40,7 @@ api_name:
 -	ChangerGetProductData
 product: Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerGetProductData function

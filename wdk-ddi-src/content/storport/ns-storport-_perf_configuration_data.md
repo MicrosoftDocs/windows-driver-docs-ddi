@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
-req.product: Windows 10 or later.
 ---
 
 # _PERF_CONFIGURATION_DATA structure

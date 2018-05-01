@@ -7,7 +7,7 @@ old-location: netvista\rilimsstatus_v1.htm
 old-project: netvista
 ms.assetid: 492354e3-564f-480b-8e6f-e5e1c326b24e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILIMSSTATUS_V1, RILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v1, ntddrilapitypes/RILIMSSTATUS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1
-req.product: Windows 10 or later.
 ---
 
 # RILIMSSTATUS_V1 structure

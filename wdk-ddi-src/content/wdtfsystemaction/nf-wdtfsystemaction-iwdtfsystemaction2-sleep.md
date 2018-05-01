@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.Sleep
-title: IWDTFSystemAction2::Sleep method
+title: IWDTFSystemAction2::Sleep
 author: windows-driver-content
 description: Puts the system into the desired sleep state.
 old-location: dtf\iwdtfsystemaction2_sleep.htm
 old-project: dtf
 ms.assetid: 4DC3E14E-6FC3-49C1-AB22-779D0E8CA68D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], Sleep method, IWDTFSystemAction2::Sleep, Microsoft.WDTF.IWDTFSystemAction2.Sleep, Microsoft::WDTF::IWDTFSystemAction2::Sleep, Sleep method [Windows Device Testing Framework], Sleep method [Windows Device Testing Framework], IWDTFSystemAction2 interface, Sleep,IWDTFSystemAction2.Sleep, dtf.iwdtfsystemaction2_sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep
+ms.date: 4/4/2018
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],Sleep method, IWDTFSystemAction2.Sleep, IWDTFSystemAction2::Sleep, Microsoft.WDTF.IWDTFSystemAction2.Sleep, Microsoft::WDTF::IWDTFSystemAction2::Sleep, Sleep, Sleep method [Windows Device Testing Framework], Sleep method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFSystemAction2.Sleep
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::Sleep method
+# IWDTFSystemAction2::Sleep
 
 
 ## -description

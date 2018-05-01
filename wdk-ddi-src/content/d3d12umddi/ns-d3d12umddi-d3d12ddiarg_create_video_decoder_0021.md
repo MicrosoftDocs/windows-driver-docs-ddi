@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg_create_video_decoder.htm
 old-project: display
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

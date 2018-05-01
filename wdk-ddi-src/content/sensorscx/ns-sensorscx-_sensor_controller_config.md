@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SENSOR_CONTROLLER_CONFIG, *PSENSOR_CONTROLLER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SENSOR_CONTROLLER_CONFIG structure

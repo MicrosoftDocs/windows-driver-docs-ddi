@@ -7,7 +7,7 @@ old-location: netvista\rilsendmsgresponseparammask.htm
 old-project: netvista
 ms.assetid: d3bf2b1a-22ac-4b37-a442-ecd8a2108b46
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSGRES_ALL, RIL_PARAM_MSGRES_CDMACAUSECODE, RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_GWLRELAYCODE, RIL_PARAM_MSGRES_GWLTRANSPORTCODE, RIL_PARAM_MSGRES_MSGID, netvista.rilsendmsgresponseparammask, ntddrilapitypes/RILSENDMSGRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_MSGRES_ALL, ntddrilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE, ntddrilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS, ntddrilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, ntddrilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, ntddrilapitypes/RIL_PARAM_MSGRES_MSGID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

@@ -7,7 +7,7 @@ old-location: kernel\resourcemanager_basic_information.htm
 old-project: kernel
 ms.assetid: b5295760-7f0e-4973-9ce3-4aa35ea5211b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION, RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _RESOURCEMANAGER_BASIC_INFORMATION, kernel.resourcemanager_basic_information, ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, wdm/PRESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _RESOURCEMANAGER_BASIC_INFORMATION structure

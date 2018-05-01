@@ -7,7 +7,7 @@ old-location: display\emulator_access_entry.htm
 old-project: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, _EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, dispmprt/EMULATOR_ACCESS_ENTRY, dispmprt/PEMULATOR_ACCESS_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -43,8 +43,7 @@ api_name:
 -	WdfRequestGetFileObject
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestGetFileObject function

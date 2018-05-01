@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWMIRegistration.UnregisterWMIProvider
-title: IPortWMIRegistration::UnregisterWMIProvider method
+title: IPortWMIRegistration::UnregisterWMIProvider
 author: windows-driver-content
 description: The UnregisterWMIProvider method unregisters the Event Tracing for Windows (ETW) interface that was previously registered with a call to the RegisterWMIProvider method. The unregistration disables the ETW registration with PortCls.
 old-location: audio\iportwmiregistration_unregisterwmiprovider.htm
 old-project: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, UnregisterWMIProvider,IPortWMIRegistration.UnregisterWMIProvider, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, portcls/IPortWMIRegistration::UnregisterWMIProvider
+ms.date: 4/16/2018
+ms.keywords: IPortWMIRegistration interface [Audio Devices],UnregisterWMIProvider method, IPortWMIRegistration.UnregisterWMIProvider, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, portcls/IPortWMIRegistration::UnregisterWMIProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPortWMIRegistration.UnregisterWMIProvider
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWMIRegistration::UnregisterWMIProvider method
+# IPortWMIRegistration::UnregisterWMIProvider
 
 
 ## -description

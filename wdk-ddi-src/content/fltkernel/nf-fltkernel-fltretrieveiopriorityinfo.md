@@ -7,7 +7,7 @@ old-location: ifsk\fltretrieveiopriorityinfo.htm
 old-project: ifsk
 ms.assetid: b764e55e-e58b-4a4f-a32f-84e3cfd5f8c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_ac6da005-5f47-441d-8277-9beedb72c0ee.xml, FltRetrieveIoPriorityInfo, FltRetrieveIoPriorityInfo routine [Installable File System Drivers], fltkernel/FltRetrieveIoPriorityInfo, ifsk.fltretrieveiopriorityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FltRetrieveIoPriorityInfo
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltRetrieveIoPriorityInfo function

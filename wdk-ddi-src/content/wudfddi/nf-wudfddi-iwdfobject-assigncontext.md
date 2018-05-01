@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.AssignContext
-title: IWDFObject::AssignContext method
+title: IWDFObject::AssignContext
 author: windows-driver-content
 description: The AssignContext method registers a context and a driver-supplied cleanup callback function for the object.
 old-location: wdf\iwdfobject_assigncontext.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: AssignContext method, AssignContext method, IWDFObject interface, AssignContext,IWDFObject.AssignContext, IWDFObject, IWDFObject interface, AssignContext method, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, umdf.iwdfobject_assigncontext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
+ms.keywords: AssignContext, AssignContext method, AssignContext method,IWDFObject interface, IWDFObject interface,AssignContext method, IWDFObject.AssignContext, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, umdf.iwdfobject_assigncontext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFObject.AssignContext
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFObject::AssignContext method
+# IWDFObject::AssignContext
 
 
 ## -description

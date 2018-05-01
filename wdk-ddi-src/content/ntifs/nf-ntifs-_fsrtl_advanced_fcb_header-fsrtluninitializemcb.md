@@ -7,7 +7,7 @@ old-location: ifsk\fsrtluninitializemcb.htm
 old-project: ifsk
 ms.assetid: a7a17f6a-438d-42e9-8463-dcda80e11af8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlUninitializeMcb, FsRtlUninitializeMcb function [Installable File System Drivers], fsrtlref_e445c399-76e6-4bfd-9260-1fcbe0d33b50.xml, ifsk.fsrtluninitializemcb, ntifs/FsRtlUninitializeMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlUninitializeMcb
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlUninitializeMcb function

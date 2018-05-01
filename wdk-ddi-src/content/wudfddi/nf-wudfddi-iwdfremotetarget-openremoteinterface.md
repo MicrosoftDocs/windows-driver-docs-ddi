@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.OpenRemoteInterface
-title: IWDFRemoteTarget::OpenRemoteInterface method
+title: IWDFRemoteTarget::OpenRemoteInterface
 author: windows-driver-content
 description: The OpenRemoteInterface method opens a device interface so that the driver can send I/O requests to it.
 old-location: wdf\iwdfremotetarget_openremoteinterface.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, OpenRemoteInterface method, IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface method, OpenRemoteInterface method, IWDFRemoteTarget interface, OpenRemoteInterface,IWDFRemoteTarget.OpenRemoteInterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
+ms.keywords: IWDFRemoteTarget interface,OpenRemoteInterface method, IWDFRemoteTarget.OpenRemoteInterface, IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface, OpenRemoteInterface method, OpenRemoteInterface method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFRemoteTarget.OpenRemoteInterface
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::OpenRemoteInterface method
+# IWDFRemoteTarget::OpenRemoteInterface
 
 
 ## -description

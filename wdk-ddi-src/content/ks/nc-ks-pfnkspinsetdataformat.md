@@ -7,7 +7,7 @@ old-location: stream\avstrminipinsetdataformat.htm
 old-project: stream
 ms.assetid: f38222e8-f432-4a28-ba2f-2e4f60edd762
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], PFNKSPINSETDATAFORMAT, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml, ks/AVStrMiniPinSetDataFormat, stream.avstrminipinsetdataformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniPinSetDataFormat
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSPINSETDATAFORMAT callback
+# PFNKSPINSETDATAFORMAT callback function
 
 
 ## -description

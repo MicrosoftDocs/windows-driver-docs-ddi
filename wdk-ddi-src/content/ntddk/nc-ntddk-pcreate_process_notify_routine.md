@@ -7,8 +7,8 @@ old-location: kernel\pcreate_process_notify_routine.htm
 old-project: kernel
 ms.assetid: 2C5B3C90-04A9-48CF-9162-0E069A483C5F
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE, SetCreateProcessNotifyRoutine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine, ntddk/SetCreateProcessNotifyRoutine
+ms.date: 4/5/2018
+ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE, PCREATE_PROCESS_NOTIFY_ROUTINE callback, SetCreateProcessNotifyRoutine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine, ntddk/SetCreateProcessNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetCreateProcessNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PCREATE_PROCESS_NOTIFY_ROUTINE callback
+# PCREATE_PROCESS_NOTIFY_ROUTINE callback function
 
 
 ## -description

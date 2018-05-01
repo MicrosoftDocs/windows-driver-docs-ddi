@@ -7,7 +7,7 @@ old-location: kernel\pep_component_platform_constraints.htm
 old-project: kernel
 ms.assetid: F7C2DFCC-DB74-4E2E-B252-4897FA320C03
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PPEP_COMPONENT_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PLATFORM_CONSTRAINTS, kernel.pep_component_platform_constraints, pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS, pepfx/PPEP_COMPONENT_PLATFORM_CONSTRAINTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	PEP_COMPONENT_PLATFORM_CONSTRAINTS
 product: Windows
 targetos: Windows
-req.typenames: PEP_COMPONENT_PLATFORM_CONSTRAINTS, *PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS, *PPEP_COMPONENT_PLATFORM_CONSTRAINTS
+req.typenames: PEP_COMPONENT_PLATFORM_CONSTRAINTS, *PPEP_COMPONENT_PLATFORM_CONSTRAINTS
 ---
 
 # _PEP_COMPONENT_PLATFORM_CONSTRAINTS structure

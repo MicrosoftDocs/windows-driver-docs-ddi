@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
-title: IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method
+title: IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method queries the device for its default namespace uniform resource identifier (URI).
 old-location: print\iprintoemprintticketprovider_querydevicedefaultnamespace.htm
 old-project: print
 ms.assetid: 1af15e59-8796-48e2-ab18-a450db3086d3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, QueryDeviceDefaultNamespace,IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print.iprintoemprintticketprovider_querydevicedefaultnamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], QueryDeviceDefaultNamespace method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print.iprintoemprintticketprovider_querydevicedefaultnamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method
+# IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
 
 
 ## -description

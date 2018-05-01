@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTSurpriseRemoveDevice
-title: IWDTFPNPActions2::EDTSurpriseRemoveDevice method
+title: IWDTFPNPActions2::EDTSurpriseRemoveDevice
 author: windows-driver-content
 description: Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtsurpriseremovedevice.htm
 old-project: dtf
 ms.assetid: 9f4511b8-c41f-4a7f-81e6-20c30a131f64
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTSurpriseRemoveDevice,IWDTFPNPActions2.EDTSurpriseRemoveDevice, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTSurpriseRemoveDevice method, IWDTFPNPActions2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpactions2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTSurpriseRemoveDevice
+ms.date: 4/4/2018
+ms.keywords: EDTSurpriseRemoveDevice, EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTSurpriseRemoveDevice method, IWDTFPNPActions2.EDTSurpriseRemoveDevice, IWDTFPNPActions2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpactions2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTSurpriseRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFPNPActions2.EDTSurpriseRemoveDevice
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::EDTSurpriseRemoveDevice method
+# IWDTFPNPActions2::EDTSurpriseRemoveDevice
 
 
 ## -description

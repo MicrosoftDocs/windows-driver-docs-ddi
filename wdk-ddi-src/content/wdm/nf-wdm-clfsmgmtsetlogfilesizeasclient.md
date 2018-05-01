@@ -7,8 +7,8 @@ old-location: kernel\clfsmgmtsetlogfilesizeasclient_.htm
 old-project: kernel
 ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
+ms.date: 4/5/2018
+ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient , ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,8 +41,7 @@ api_name:
 -	ClfsMgmtSetLogFileSizeAsClient
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsMgmtSetLogFileSizeAsClient function

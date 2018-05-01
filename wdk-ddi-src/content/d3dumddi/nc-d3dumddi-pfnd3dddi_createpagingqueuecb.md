@@ -7,8 +7,8 @@ old-location: display\pfncreatepagingqueuecb.htm
 old-project: display
 ms.assetid: 99E4CFCF-7A0A-43A9-9E23-B7A9F9375690
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_CREATEPAGINGQUEUECB, d3dumddi/pfnCreatePagingQueueCb, display.pfncreatepagingqueuecb, pfnCreatePagingQueueCb, pfnCreatePagingQueueCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_CREATEPAGINGQUEUECB, PFND3DDDI_CREATEPAGINGQUEUECB callback, d3dumddi/pfnCreatePagingQueueCb, display.pfncreatepagingqueuecb, pfnCreatePagingQueueCb, pfnCreatePagingQueueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnCreatePagingQueueCb
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATEPAGINGQUEUECB callback
+# PFND3DDDI_CREATEPAGINGQUEUECB callback function
 
 
 ## -description

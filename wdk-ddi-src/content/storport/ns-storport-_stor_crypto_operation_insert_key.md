@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_INSERT_KEY, *PSTOR_CRYPTO_OPERATION_INSERT_KEY
-req.product: Windows 10 or later.
 ---
 
 # _STOR_CRYPTO_OPERATION_INSERT_KEY structure

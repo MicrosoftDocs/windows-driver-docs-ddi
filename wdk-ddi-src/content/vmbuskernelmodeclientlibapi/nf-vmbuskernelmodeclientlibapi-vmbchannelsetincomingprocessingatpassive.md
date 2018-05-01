@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsetincomingprocessingatpassive.htm
 old-project: netvista
 ms.assetid: D8677CD9-46CB-41AB-8F05-418A31468C07
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelSetIncomingProcessingAtPassive, VmbChannelSetIncomingProcessingAtPassive function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsetincomingprocessingatpassive, vmbuskernelmodeclientlibapi/VmbChannelSetIncomingProcessingAtPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelSetIncomingProcessingAtPassive
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelSetIncomingProcessingAtPassive function

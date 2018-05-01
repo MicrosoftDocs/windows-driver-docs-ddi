@@ -7,8 +7,8 @@ old-location: debugger\checkversion.htm
 old-project: debugger
 ms.assetid: 82e16423-7e23-4229-9ba6-b43970a1135a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
+ms.date: 4/24/2018
+ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, PWINDBG_CHECK_VERSION callback, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	CheckVersion
 product: Windows
 targetos: Windows
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PWINDBG_CHECK_VERSION callback
+# PWINDBG_CHECK_VERSION callback function
 
 
 ## -description

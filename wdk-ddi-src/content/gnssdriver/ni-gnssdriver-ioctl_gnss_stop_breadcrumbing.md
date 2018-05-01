@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_STOP_BREADCRUMBING
 title: IOCTL_GNSS_STOP_BREADCRUMBING
 author: windows-driver-content
 description: The IOCTL_GNSS_STOP_BREADCRUMBING control code is used to stop breadcrumbing.
-old-location: sensors\ioctl_gnss_stop_breadcrumbing.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_stop_breadcrumbing.htm
+old-project: gnss
 ms.assetid: FAA8B6B0-A95C-4E12-BB0C-585E676F602F
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_STOP_BREADCRUMBING, IOCTL_GNSS_STOP_BREADCRUMBING control code [Sensor Devices], gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING, sensors.ioctl_gnss_stop_breadcrumbing
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_STOP_BREADCRUMBING, IOCTL_GNSS_STOP_BREADCRUMBING control, IOCTL_GNSS_STOP_BREADCRUMBING control code [Sensor Devices], gnss.ioctl_gnss_stop_breadcrumbing, gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GNSS_STOP_BREADCRUMBING
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_STOP_BREADCRUMBING IOCTL

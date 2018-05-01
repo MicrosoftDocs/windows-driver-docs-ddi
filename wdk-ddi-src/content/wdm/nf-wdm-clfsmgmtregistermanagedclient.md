@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtregistermanagedclient.htm
 old-project: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, kernel.clfsmgmtregistermanagedclient, wdm/ClfsMgmtRegisterManagedClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	ClfsMgmtRegisterManagedClient
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsMgmtRegisterManagedClient function

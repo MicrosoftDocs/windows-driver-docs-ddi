@@ -7,7 +7,7 @@ old-location: kernel\kequeryauxiliarycounterfrequency.htm
 old-project: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeQueryAuxiliaryCounterFrequency
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryAuxiliaryCounterFrequency function

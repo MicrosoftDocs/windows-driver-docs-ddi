@@ -65,14 +65,12 @@ The signature of a complex input buffer, which must be set to ACPI_EVAL_INPUT_BU
 ### -field DUMMYUNIONNAME
 
 
-
-#### MethodName
+### -field DUMMYUNIONNAME.MethodName
 
 A four-element ASCII character array that contains the name of the method. For example, 'ABCD.'
 
 
-
-#### MethodNameAsUlong
+### -field DUMMYUNIONNAME.MethodNameAsUlong
 
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
 

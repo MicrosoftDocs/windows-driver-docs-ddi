@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.GetState
-title: IWDFIoTargetStateManagement::GetState method
+title: IWDFIoTargetStateManagement::GetState
 author: windows-driver-content
 description: The GetState method returns the current state of a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_getstate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f915294f-457f-4913-b4b0-e94e1806a06d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetState method, GetState method, IWDFIoTargetStateManagement interface, GetState,IWDFIoTargetStateManagement.GetState, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, GetState method, IWDFIoTargetStateManagement::GetState, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState
+ms.keywords: GetState, GetState method, GetState method,IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface,GetState method, IWDFIoTargetStateManagement.GetState, IWDFIoTargetStateManagement::GetState, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoTargetStateManagement.GetState
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTargetStateManagement::GetState method
+# IWDFIoTargetStateManagement::GetState
 
 
 ## -description

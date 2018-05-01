@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Clear
-title: IWDTFTargets2::Clear method
+title: IWDTFTargets2::Clear
 author: windows-driver-content
 description: Removes all items from the collection.
 old-location: dtf\iwdtftargets2_clear.htm
 old-project: dtf
 ms.assetid: 4fe37240-7cef-4bfb-91be-49a0bca2fa8f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework], IWDTFTargets2 interface, Clear,IWDTFTargets2.Clear, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Clear method, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, Microsoft::WDTF::IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, wdtf/IWDTFTargets2::Clear
+ms.date: 4/4/2018
+ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Clear method, IWDTFTargets2.Clear, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, Microsoft::WDTF::IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, wdtf/IWDTFTargets2::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTargets2.Clear
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::Clear method
+# IWDTFTargets2::Clear
 
 
 ## -description

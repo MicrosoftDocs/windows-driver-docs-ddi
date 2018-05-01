@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.LaunchApplicationForDevice
-title: IStillImageW::LaunchApplicationForDevice method
+title: IStillImageW::LaunchApplicationForDevice
 author: windows-driver-content
 description: The IStillImage::LaunchApplicationForDevice method starts a specified application for a specified still image device.
 old-location: image\istillimage_launchapplicationfordevice.htm
 old-project: image
 ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], LaunchApplicationForDevice method, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices], IStillImageW interface, LaunchApplicationForDevice,IStillImageW.LaunchApplicationForDevice, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
+ms.date: 4/23/2018
+ms.keywords: IStillImageW interface [Imaging Devices],LaunchApplicationForDevice method, IStillImageW.LaunchApplicationForDevice, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices],IStillImageW interface, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStillImageW.LaunchApplicationForDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::LaunchApplicationForDevice method
+# IStillImageW::LaunchApplicationForDevice
 
 
 ## -description

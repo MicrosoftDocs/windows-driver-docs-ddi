@@ -7,7 +7,7 @@ old-location: kernel\pep_processor_idle_dependency.htm
 old-project: kernel
 ms.assetid: 8C2C074B-3D59-416A-BCBD-2A0117F86776
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_DEPENDENCY, PEP_PROCESSOR_IDLE_DEPENDENCY, PEP_PROCESSOR_IDLE_DEPENDENCY structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_DEPENDENCY, PPEP_PROCESSOR_IDLE_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_DEPENDENCY, kernel.pep_processor_idle_dependency, pepfx/PEP_PROCESSOR_IDLE_DEPENDENCY, pepfx/PPEP_PROCESSOR_IDLE_DEPENDENCY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	PEP_PROCESSOR_IDLE_DEPENDENCY
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_IDLE_DEPENDENCY, *PPEP_PROCESSOR_IDLE_DEPENDENCY, PEP_PROCESSOR_IDLE_DEPENDENCY, *PPEP_PROCESSOR_IDLE_DEPENDENCY
+req.typenames: PEP_PROCESSOR_IDLE_DEPENDENCY, *PPEP_PROCESSOR_IDLE_DEPENDENCY
 ---
 
 # _PEP_PROCESSOR_IDLE_DEPENDENCY structure

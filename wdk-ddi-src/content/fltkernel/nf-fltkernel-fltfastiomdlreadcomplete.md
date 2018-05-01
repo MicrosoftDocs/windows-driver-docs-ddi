@@ -7,7 +7,7 @@ old-location: ifsk\fltfastiomdlreadcomplete.htm
 old-project: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlMdlReadCompleteDev
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltFastIoMdlReadComplete function

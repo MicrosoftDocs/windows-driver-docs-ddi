@@ -7,7 +7,7 @@ old-location: netvista\net_buffer_shared_memory.htm
 old-project: netvista
 ms.assetid: 492bb1cd-fc3e-4e85-9074-32ebbf1fb837
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_SHARED_MEMORY, ndis/NET_BUFFER_SHARED_MEMORY, ndis/PNET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, netvista.net_buffer_shared_memory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	NET_BUFFER_SHARED_MEMORY
 product: Windows
 targetos: Windows
-req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY
+req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY
 ---
 
 # _NET_BUFFER_SHARED_MEMORY structure

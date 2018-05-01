@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_QueueProperties
-title: IPrinterScriptContext::get_QueueProperties method
+title: IPrinterScriptContext::get_QueueProperties
 author: windows-driver-content
 description: Provides access to the queue property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_queueproperties.htm
 old-project: print
 ms.assetid: EEC61313-5796-42BC-84BF-CF29F8BE0C96
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext::get_QueueProperties, QueueProperties property [Print Devices], QueueProperties property [Print Devices], IPrinterScriptContext interface, get_QueueProperties, get_QueueProperties,IPrinterScriptContext.get_QueueProperties, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptContext interface [Print Devices],QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext.get_QueueProperties, IPrinterScriptContext::QueueProperties, IPrinterScriptContext::get_QueueProperties, QueueProperties property [Print Devices], QueueProperties property [Print Devices],IPrinterScriptContext interface, get_QueueProperties, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrinterScriptContext.get_QueueProperties
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptContext::get_QueueProperties method
+# IPrinterScriptContext::get_QueueProperties
 
 
 ## -description

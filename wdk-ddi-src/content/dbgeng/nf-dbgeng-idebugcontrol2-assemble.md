@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.Assemble
-title: IDebugControl2::Assemble method
+title: IDebugControl2::Assemble
 author: windows-driver-content
 description: The Assemble method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemble.htm
 old-project: debugger
 ms.assetid: 4d7d84e7-4fa4-4514-9d52-dbae5fed159b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: Assemble method [Windows Debugging], Assemble method [Windows Debugging], IDebugControl interface, Assemble method [Windows Debugging], IDebugControl2 interface, Assemble method [Windows Debugging], IDebugControl3 interface, Assemble,IDebugControl2.Assemble, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl2, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
+ms.date: 4/24/2018
+ms.keywords: Assemble, Assemble method [Windows Debugging], Assemble method [Windows Debugging],IDebugControl interface, Assemble method [Windows Debugging],IDebugControl2 interface, Assemble method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Assemble method, IDebugControl2 interface [Windows Debugging],Assemble method, IDebugControl2.Assemble, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging],Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.Assemble
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::Assemble method
+# IDebugControl2::Assemble
 
 
 ## -description

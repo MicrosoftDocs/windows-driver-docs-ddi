@@ -7,8 +7,8 @@ old-location: debugger\debugbaseeventcallbacks.htm
 old-project: debugger
 ms.assetid: B0422248-2F5F-4AE6-93C9-D96B5E4A1B5A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DebugBaseEventCallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging], described, dbgeng/DebugBaseEventCallbacks, debugger.debugbaseeventcallbacks
+ms.date: 4/24/2018
+ms.keywords: DebugBaseEventCallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging],described, dbgeng/DebugBaseEventCallbacks, debugger.debugbaseeventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	DebugBaseEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # DebugBaseEventCallbacks class

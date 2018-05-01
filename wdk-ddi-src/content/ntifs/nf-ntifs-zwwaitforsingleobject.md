@@ -7,7 +7,7 @@ old-location: kernel\zwwaitforsingleobject.htm
 old-project: kernel
 ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: NtWaitForSingleObject, ZwWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, kernel.zwwaitforsingleobject, ntifs/NtWaitForSingleObject, ntifs/ZwWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NtWaitForSingleObject
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwWaitForSingleObject function

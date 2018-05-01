@@ -7,8 +7,8 @@ old-location: display\d3dkmtacquirekeyedmutex2.htm
 old-project: display
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
+ms.date: 4/16/2018
+ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, PFND3DKMT_ACQUIREKEYEDMUTEX2 callback, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	D3DKMTAcquireKeyedMutex2
 product: Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_ACQUIREKEYEDMUTEX2 callback
+# PFND3DKMT_ACQUIREKEYEDMUTEX2 callback function
 
 
 ## -description

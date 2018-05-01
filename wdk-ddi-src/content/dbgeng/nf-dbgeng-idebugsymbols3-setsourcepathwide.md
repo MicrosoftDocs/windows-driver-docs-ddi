@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSourcePathWide
-title: IDebugSymbols3::SetSourcePathWide method
+title: IDebugSymbols3::SetSourcePathWide
 author: windows-driver-content
 description: The SetSourcePathWide method sets the source path.
 old-location: debugger\setsourcepathwide.htm
 old-project: debugger
 ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, IDebugSymbols3::SetSourcePathWide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, SetSourcePathWide,IDebugSymbols3.SetSourcePathWide, dbgeng/IDebugSymbols3::SetSourcePathWide, debugger.setsourcepathwide
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetSourcePathWide method, IDebugSymbols3.SetSourcePathWide, IDebugSymbols3::SetSourcePathWide, SetSourcePathWide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSourcePathWide, debugger.setsourcepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.SetSourcePathWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::SetSourcePathWide method
+# IDebugSymbols3::SetSourcePathWide
 
 
 ## -description

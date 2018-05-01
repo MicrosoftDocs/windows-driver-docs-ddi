@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_EXTENDED_POLICY structure

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.GetTargetFile
-title: IWDFIoTarget::GetTargetFile method
+title: IWDFIoTarget::GetTargetFile
 author: windows-driver-content
 description: The GetTargetFile method retrieves the framework file object that is associated with the I/O target object.
 old-location: wdf\iwdfiotarget_gettargetfile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d38ede60-9bcf-4c90-8c41-8f1edf1a1d23
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetTargetFile method, GetTargetFile method, IWDFIoTarget interface, GetTargetFile,IWDFIoTarget.GetTargetFile, IWDFIoTarget, IWDFIoTarget interface, GetTargetFile method, IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, wdf.iwdfiotarget_gettargetfile, wudfddi/IWDFIoTarget::GetTargetFile
+ms.keywords: GetTargetFile, GetTargetFile method, GetTargetFile method,IWDFIoTarget interface, IWDFIoTarget interface,GetTargetFile method, IWDFIoTarget.GetTargetFile, IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, wdf.iwdfiotarget_gettargetfile, wudfddi/IWDFIoTarget::GetTargetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoTarget.GetTargetFile
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget::GetTargetFile method
+# IWDFIoTarget::GetTargetFile
 
 
 ## -description

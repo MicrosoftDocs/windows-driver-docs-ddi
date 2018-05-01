@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_formats_data.htm
 old-project: display
 ms.assetid: 0FF0F184-60FF-4467-ABF5-E05893083B25
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020, D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020, display.d3d12ddi_video_decode_formats_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.SearchVirtual
-title: IDebugDataSpaces2::SearchVirtual method
+title: IDebugDataSpaces2::SearchVirtual
 author: windows-driver-content
 description: The SearchVirtual method searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual.htm
 old-project: debugger
 ms.assetid: 1cb779de-fcbb-450d-9932-0cdaa9fbb1e9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces3 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces4::SearchVirtual, IDebugDataSpaces::SearchVirtual, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, SearchVirtual method [Windows Debugging], SearchVirtual method [Windows Debugging], IDebugDataSpaces interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces2 interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces3 interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual,IDebugDataSpaces2.SearchVirtual, dbgeng/IDebugDataSpaces2::SearchVirtual, dbgeng/IDebugDataSpaces3::SearchVirtual, dbgeng/IDebugDataSpaces4::SearchVirtual, dbgeng/IDebugDataSpaces::SearchVirtual, debugger.searchvirtual
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces2 interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces2.SearchVirtual, IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces3 interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces4 interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces4::SearchVirtual, IDebugDataSpaces::SearchVirtual, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, SearchVirtual, SearchVirtual method [Windows Debugging], SearchVirtual method [Windows Debugging],IDebugDataSpaces interface, SearchVirtual method [Windows Debugging],IDebugDataSpaces2 interface, SearchVirtual method [Windows Debugging],IDebugDataSpaces3 interface, SearchVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::SearchVirtual, dbgeng/IDebugDataSpaces3::SearchVirtual, dbgeng/IDebugDataSpaces4::SearchVirtual, dbgeng/IDebugDataSpaces::SearchVirtual, debugger.searchvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 -	IDebugDataSpaces4.SearchVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces2::SearchVirtual method
+# IDebugDataSpaces2::SearchVirtual
 
 
 ## -description

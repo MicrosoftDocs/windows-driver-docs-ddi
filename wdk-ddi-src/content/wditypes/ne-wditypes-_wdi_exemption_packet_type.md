@@ -7,7 +7,7 @@ old-location: netvista\wdi_exemption_packet_type.htm
 old-project: netvista
 ms.assetid: 7F584EBE-9ACB-4AC7-9472-34322F24EF74
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_EXEMPTION_PACKET_TYPE, WDI_EXEMPTION_PACKET_TYPE enumeration [Device and Driver Installation], WDI_EXEMPT_PACKET_TYPE_BOTH, WDI_EXEMPT_PACKET_TYPE_MULTICAST, WDI_EXEMPT_PACKET_TYPE_UNICAST, _WDI_EXEMPTION_PACKET_TYPE, netvista.wdi_exemption_packet_type, netvista.wifi_exemption_packet_type, wditypes/WDI_EXEMPTION_PACKET_TYPE, wditypes/WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPT_PACKET_TYPE_MULTICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_UNICAST
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_EXEMPTION_PACKET_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDI_EXEMPTION_PACKET_TYPE enumeration

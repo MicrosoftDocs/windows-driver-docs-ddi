@@ -7,7 +7,7 @@ old-location: netvista\ndis_offload_parameters.htm
 old-project: netvista
 ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_OFFLOAD_PARAMETERS, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_SET_ON, PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, ntddndis/NDIS_OFFLOAD_PARAMETERS, ntddndis/PNDIS_OFFLOAD_PARAMETERS, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -550,29 +550,93 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
  
 
 
-### -field EncapsulationProtocolParameters
+### -field RscIPv4
 
- 
+Indicates Receive Segment Coalescing state for IPv4.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RSC state is unchanged.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED"></a><a id="ndis_offload_parameters_rsc_enabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RSC state is enabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED"></a><a id="ndis_offload_parameters_rsc_disabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RSC state is disabled.
+
+</td>
+</tr>
+</table>
+ 
 
 
-### -field EncapsulationProtocolParameters.VxlanParameters
+### -field RscIPv6
 
- 
+Indicates Receive Segment Coalescing state for IPv6.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RSC state is unchanged.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED"></a><a id="ndis_offload_parameters_rsc_enabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RSC state is enabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED"></a><a id="ndis_offload_parameters_rsc_disabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The RSC state is disabled.
+
+</td>
+</tr>
+</table>
+ 
 
 
-### -field EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber
-
- 
-
-
-### -field _ENCAPSULATION_PROTOCOL_PARAMETERS
-
- 
-
-
-
-
-#### - EncapsulatedPacketTaskOffload
+### -field EncapsulatedPacketTaskOffload
 
 A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
 
@@ -620,7 +684,7 @@ Disables NVGRE task offloads.
  
 
 
-#### - EncapsulationTypes
+### -field EncapsulationTypes
 
 This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
 
@@ -644,90 +708,31 @@ Specifies GRE MAC  encapsulation (NVGRE).
  
 
 
-#### - RscIPv4
+### -field EncapsulationProtocolParameters
 
-Indicates Receive Segment Coalescing state for IPv4.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
-<dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The RSC state is unchanged.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED"></a><a id="ndis_offload_parameters_rsc_enabled"></a><dl>
-<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The RSC state is enabled.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED"></a><a id="ndis_offload_parameters_rsc_disabled"></a><dl>
-<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The RSC state is disabled.
-
-</td>
-</tr>
-</table>
- 
+ 
 
 
-#### - RscIPv6
+### -field EncapsulationProtocolParameters.VxlanParameters
 
-Indicates Receive Segment Coalescing state for IPv6.
+ 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
-<dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The RSC state is unchanged.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED"></a><a id="ndis_offload_parameters_rsc_enabled"></a><dl>
-<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The RSC state is enabled.
+### -field EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED"></a><a id="ndis_offload_parameters_rsc_disabled"></a><dl>
-<dt><b>NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The RSC state is disabled.
+ 
 
-</td>
-</tr>
-</table>
- 
+
+### -field EncapsulationProtocolParameters.Value
+
+ 
+
+
+### -field _ENCAPSULATION_PROTOCOL_PARAMETERS
+
+ 
+
+
 
 
 ## -remarks

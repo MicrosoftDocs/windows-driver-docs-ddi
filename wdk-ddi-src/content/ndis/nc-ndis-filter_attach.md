@@ -7,8 +7,8 @@ old-location: netvista\filterattach.htm
 old-project: netvista
 ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_ATTACH, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
+ms.date: 4/25/2018
+ms.keywords: FILTER_ATTACH, FILTER_ATTACH callback, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterAttach
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_ATTACH callback
+# FILTER_ATTACH callback function
 
 
 ## -description

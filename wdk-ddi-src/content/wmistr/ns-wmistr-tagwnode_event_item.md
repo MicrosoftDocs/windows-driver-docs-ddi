@@ -7,7 +7,7 @@ old-location: kernel\wnode_event_item.htm
 old-project: kernel
 ms.assetid: 1805d174-ac10-4e76-9e3f-e9e156b769ec
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PWNODE_EVENT_ITEM, PWNODE_EVENT_ITEM, PWNODE_EVENT_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_EVENT_ITEM, WNODE_EVENT_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_event_item, kstruct_d_f4a86459-f5b4-4c9f-a266-d73c9bcba0ac.xml, tagWNODE_EVENT_ITEM, wmistr/PWNODE_EVENT_ITEM, wmistr/WNODE_EVENT_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WNODE_EVENT_ITEM, *PWNODE_EVENT_ITEM
-req.product: Windows 10 or later.
 ---
 
 # tagWNODE_EVENT_ITEM structure

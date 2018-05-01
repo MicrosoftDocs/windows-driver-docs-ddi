@@ -40,7 +40,7 @@ api_name:
 -	HBA_SetRNIDMgmtInfo
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_SetRNIDMgmtInfo function

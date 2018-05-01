@@ -40,7 +40,7 @@ api_name:
 -	AtaPortRequestTimer
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortRequestTimer function

@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
-title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method
+title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnewchannelcookie_finishasynccallwithdata.htm
 old-project: print
 ms.assetid: 6103FBCB-C89F-4FE9-BD04-6129AEAA97EE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices], IPrintAsyncNewChannelCookie interface, FinishAsyncCallWithData,IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
+ms.date: 4/20/2018
+ms.keywords: FinishAsyncCallWithData, FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices],IPrintAsyncNewChannelCookie interface, IPrintAsyncNewChannelCookie interface [Print Devices],FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method
+# IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 
 
 ## -description

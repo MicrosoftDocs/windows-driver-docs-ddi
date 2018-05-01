@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -42,7 +42,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_HWACCESS_TARGET_SIZE, *PWDF_DEVICE_HWACCESS_TARGET_SIZE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration

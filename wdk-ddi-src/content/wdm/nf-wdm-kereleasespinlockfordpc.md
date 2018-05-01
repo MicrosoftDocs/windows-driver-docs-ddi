@@ -7,7 +7,7 @@ old-location: kernel\kereleasespinlockfordpc.htm
 old-project: kernel
 ms.assetid: b6b36720-0c56-46f6-bfa6-dd31fae7b6d4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeReleaseSpinLockForDpc, KeReleaseSpinLockForDpc routine [Kernel-Mode Driver Architecture], k105_71e8daa4-ca71-41d9-bf2f-2866df1d0c9c.xml, kernel.kereleasespinlockfordpc, wdm/KeReleaseSpinLockForDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeReleaseSpinLockForDpc
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeReleaseSpinLockForDpc function

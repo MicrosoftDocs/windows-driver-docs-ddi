@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RequestEjectDevice
-title: IWDTFPNPAction2::RequestEjectDevice method
+title: IWDTFPNPAction2::RequestEjectDevice
 author: windows-driver-content
 description: Initiates a device eject.
 old-location: dtf\iwdtfpnpaction2_requestejectdevice.htm
 old-project: dtf
 ms.assetid: e4782fd9-0c71-4460-892e-180be41ed3bb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, IWDTFPNPAction2::RequestEjectDevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RequestEjectDevice,IWDTFPNPAction2.RequestEjectDevice, dtf.iwdtfpnpaction2_requestejectdevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice
+ms.date: 4/4/2018
+ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RequestEjectDevice method, IWDTFPNPAction2.RequestEjectDevice, IWDTFPNPAction2::RequestEjectDevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_requestejectdevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFPNPAction2.RequestEjectDevice
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPAction2::RequestEjectDevice method
+# IWDTFPNPAction2::RequestEjectDevice
 
 
 ## -description

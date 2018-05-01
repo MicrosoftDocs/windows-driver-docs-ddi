@@ -7,7 +7,7 @@ old-location: stream\ksproperty_videocontrol_frame_rates_s.htm
 old-project: stream
 ms.assetid: fbd45594-a7cb-4376-b05c-d1e09462c78c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, stream.ksproperty_videocontrol_frame_rates_s, vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

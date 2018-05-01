@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.GetInterfacesIfExist
-title: IWDTFTargets2::GetInterfacesIfExist method
+title: IWDTFTargets2::GetInterfacesIfExist
 author: windows-driver-content
 description: Returns a collection of actions that support the interface - one IWDTFAction2 for each item that has one.
 old-location: dtf\iwdtftargets2_getinterfacesifexist.htm
 old-project: dtf
 ms.assetid: 5ec2e981-87ee-4ebe-ae60-c5acae2c073e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetInterfacesIfExist method [Windows Device Testing Framework], GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface, GetInterfacesIfExist,IWDTFTargets2.GetInterfacesIfExist, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfacesIfExist method, IWDTFTargets2::GetInterfacesIfExist, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, wdtf/IWDTFTargets2::GetInterfacesIfExist
+ms.date: 4/4/2018
+ms.keywords: GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], GetInterfacesIfExist method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],GetInterfacesIfExist method, IWDTFTargets2.GetInterfacesIfExist, IWDTFTargets2::GetInterfacesIfExist, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, wdtf/IWDTFTargets2::GetInterfacesIfExist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTargets2.GetInterfacesIfExist
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::GetInterfacesIfExist method
+# IWDTFTargets2::GetInterfacesIfExist
 
 
 ## -description

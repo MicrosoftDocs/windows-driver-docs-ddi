@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_wdf_device_reset.htm
 old-project: usbref
 ms.assetid: 394343A5-10E4-4F64-AD3C-1D2114422B39
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EVT_UDECX_WDF_DEVICE_RESET callback, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtUdecxWdfDeviceReset
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_WDF_DEVICE_RESET callback
+# EVT_UDECX_WDF_DEVICE_RESET callback function
 
 
 ## -description

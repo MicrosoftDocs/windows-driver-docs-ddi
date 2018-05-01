@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
-title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method
+title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 author: windows-driver-content
 description: "."
 old-location: print\iprintbidiasyncnotifyregistration_asyncgetnewchannel.htm
 old-project: print
 ms.assetid: A5E2FA41-0871-4416-B501-051BD67A60AF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices], IPrintBidiAsyncNotifyRegistration interface, AsyncGetNewChannel,IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
+ms.date: 4/20/2018
+ms.keywords: AsyncGetNewChannel, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices],IPrintBidiAsyncNotifyRegistration interface, IPrintBidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
 product: Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method
+# IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 
 
 ## -description

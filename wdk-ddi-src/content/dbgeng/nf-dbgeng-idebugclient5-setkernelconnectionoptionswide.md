@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetKernelConnectionOptionsWide
-title: IDebugClient5::SetKernelConnectionOptionsWide method
+title: IDebugClient5::SetKernelConnectionOptionsWide
 author: windows-driver-content
 description: The SetKernelConnectionOptionsWide method updates some of the connection options for a live kernel target.
 old-location: debugger\setkernelconnectionoptionswide.htm
 old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, SetKernelConnectionOptionsWide,IDebugClient5.SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptionsWide method, IDebugClient5.SetKernelConnectionOptionsWide, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient5.SetKernelConnectionOptionsWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::SetKernelConnectionOptionsWide method
+# IDebugClient5::SetKernelConnectionOptionsWide
 
 
 ## -description

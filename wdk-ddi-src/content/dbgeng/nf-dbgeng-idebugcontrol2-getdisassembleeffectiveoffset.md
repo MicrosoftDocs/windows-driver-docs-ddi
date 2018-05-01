@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetDisassembleEffectiveOffset
-title: IDebugControl2::GetDisassembleEffectiveOffset method
+title: IDebugControl2::GetDisassembleEffectiveOffset
 author: windows-driver-content
 description: The GetDisassembleEffectiveOffset method returns the address of the last instruction disassembled using Disassemble.
 old-location: debugger\getdisassembleeffectiveoffset.htm
 old-project: debugger
 ms.assetid: 07f652f2-d370-4f88-a7f0-f6946fd50c79
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetDisassembleEffectiveOffset method [Windows Debugging], GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl interface, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl2 interface, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl3 interface, GetDisassembleEffectiveOffset,IDebugControl2.GetDisassembleEffectiveOffset, IDebugControl interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl3 interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl3::GetDisassembleEffectiveOffset, IDebugControl::GetDisassembleEffectiveOffset, IDebugControl_5593ec3a-31f4-4775-9356-49f1757323c0.xml, dbgeng/IDebugControl2::GetDisassembleEffectiveOffset, dbgeng/IDebugControl3::GetDisassembleEffectiveOffset, dbgeng/IDebugControl::GetDisassembleEffectiveOffset, debugger.getdisassembleeffectiveoffset
+ms.date: 4/24/2018
+ms.keywords: GetDisassembleEffectiveOffset, GetDisassembleEffectiveOffset method [Windows Debugging], GetDisassembleEffectiveOffset method [Windows Debugging],IDebugControl interface, GetDisassembleEffectiveOffset method [Windows Debugging],IDebugControl2 interface, GetDisassembleEffectiveOffset method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetDisassembleEffectiveOffset method, IDebugControl2 interface [Windows Debugging],GetDisassembleEffectiveOffset method, IDebugControl2.GetDisassembleEffectiveOffset, IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl3 interface [Windows Debugging],GetDisassembleEffectiveOffset method, IDebugControl3::GetDisassembleEffectiveOffset, IDebugControl::GetDisassembleEffectiveOffset, IDebugControl_5593ec3a-31f4-4775-9356-49f1757323c0.xml, dbgeng/IDebugControl2::GetDisassembleEffectiveOffset, dbgeng/IDebugControl3::GetDisassembleEffectiveOffset, dbgeng/IDebugControl::GetDisassembleEffectiveOffset, debugger.getdisassembleeffectiveoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetDisassembleEffectiveOffset
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetDisassembleEffectiveOffset method
+# IDebugControl2::GetDisassembleEffectiveOffset
 
 
 ## -description

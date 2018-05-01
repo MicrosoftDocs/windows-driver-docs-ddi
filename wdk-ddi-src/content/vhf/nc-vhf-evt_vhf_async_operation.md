@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C42174FE-202F-405D-840B-8613762F43AC
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: EVT_VHF_ASYNC_OPERATION, EvtVhfAsyncOperation, EvtVhfAsyncOperation callback function [Human Input Devices], hid.evtvhfasyncoperation, vhf/EvtVhfAsyncOperation
+ms.keywords: EVT_VHF_ASYNC_OPERATION, EVT_VHF_ASYNC_OPERATION callback, EvtVhfAsyncOperation, EvtVhfAsyncOperation callback function [Human Input Devices], hid.evtvhfasyncoperation, vhf/EvtVhfAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtVhfAsyncOperation
 product: Windows
 targetos: Windows
-req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_VHF_ASYNC_OPERATION callback
+# EVT_VHF_ASYNC_OPERATION callback function
 
 
 ## -description

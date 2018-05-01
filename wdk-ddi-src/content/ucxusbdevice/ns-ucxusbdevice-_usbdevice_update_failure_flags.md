@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_update_failure_flags.htm
 old-project: usbref
 ms.assetid: D01F8C2D-4E17-4FB7-A3C6-4B7EEDF07E0D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: P_USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FAILURE_FLAGS, USBDEVICE_UPDATE_FAILURE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FAILURE_FLAGS, buses._usbdevice_update_failure_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FAILURE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FAILURE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_FAILURE_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_UPDATE_FAILURE_FLAGS structure

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IDrmPort2.ForwardContentToDeviceObject
-title: IDrmPort2::ForwardContentToDeviceObject method
+title: IDrmPort2::ForwardContentToDeviceObject
 author: windows-driver-content
 description: The ForwardContentToDeviceObject method accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\idrmport2_forwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: 4e5c8942-3ce2-40d8-8cd7-436a5ebbc8ee
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices], IDrmPort2 interface, ForwardContentToDeviceObject,IDrmPort2.ForwardContentToDeviceObject, IDrmPort2, IDrmPort2 interface [Audio Devices], ForwardContentToDeviceObject method, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject
+ms.date: 4/16/2018
+ms.keywords: ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],ForwardContentToDeviceObject method, IDrmPort2.ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDrmPort2.ForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IDrmPort2::ForwardContentToDeviceObject method
+# IDrmPort2::ForwardContentToDeviceObject
 
 
 ## -description

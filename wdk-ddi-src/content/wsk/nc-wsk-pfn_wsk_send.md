@@ -7,8 +7,8 @@ old-location: netvista\wsksend.htm
 old-project: netvista
 ms.assetid: 40fe1e3b-22b2-4d78-a306-977188246935
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_SEND, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_SEND, PFN_WSK_SEND callback, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	WskSend
 product: Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_SEND callback
+# PFN_WSK_SEND callback function
 
 
 ## -description

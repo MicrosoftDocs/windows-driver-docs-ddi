@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetOutputCallbacksWide
-title: IDebugClient5::GetOutputCallbacksWide method
+title: IDebugClient5::GetOutputCallbacksWide
 author: windows-driver-content
 description: The GetOutputCallbacksWide method returns the output callbacks object registered with the client.
 old-location: debugger\getoutputcallbackswide.htm
 old-project: debugger
 ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, GetOutputCallbacksWide,IDebugClient5.GetOutputCallbacksWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method, IDebugClient5::GetOutputCallbacksWide, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide
+ms.date: 4/24/2018
+ms.keywords: GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetOutputCallbacksWide method, IDebugClient5.GetOutputCallbacksWide, IDebugClient5::GetOutputCallbacksWide, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugClient5.GetOutputCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::GetOutputCallbacksWide method
+# IDebugClient5::GetOutputCallbacksWide
 
 
 ## -description

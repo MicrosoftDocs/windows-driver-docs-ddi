@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelmapgpadl.htm
 old-project: netvista
 ms.assetid: A7801EE9-BFDB-4F77-9DA4-A6612F63AD48
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY, VmbChannelMapGpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista], netvista.vmbchannelmapgpadl, vmbuskernelmodeclientlibapi/VmbChannelMapGpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	VmbChannelMapGpadl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelMapGpadl function

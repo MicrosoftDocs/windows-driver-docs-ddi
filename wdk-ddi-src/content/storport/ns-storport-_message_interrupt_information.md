@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _MESSAGE_INTERRUPT_INFORMATION structure

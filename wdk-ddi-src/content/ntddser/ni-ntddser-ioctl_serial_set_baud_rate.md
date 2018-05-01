@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_baud_rate.htm
 old-project: serports
 ms.assetid: cf3a4b6e-fefa-4a81-84cf-3a4d5529c8a7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_SET_BAUD_RATE, IOCTL_SERIAL_SET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BAUD_RATE, serports.ioctl_serial_set_baud_rate, serref_e71e6ea2-4cac-440d-abc2-40fba2990518.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_SET_BAUD_RATE, IOCTL_SERIAL_SET_BAUD_RATE control, IOCTL_SERIAL_SET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BAUD_RATE, serports.ioctl_serial_set_baud_rate, serref_e71e6ea2-4cac-440d-abc2-40fba2990518.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SERIAL_SET_BAUD_RATE
 product: Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_SET_BAUD_RATE IOCTL

@@ -7,7 +7,7 @@ old-location: display\dxgkarg_buildpagingbuffer.htm
 old-project: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -112,8 +112,7 @@ The <b>DXGKARG_BUILDPAGINGBUFFER</b> structure describes parameters for building
 [in] A structure that describes the source allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the source (<b>pMdl</b>).
 
 
-
-##### Source.SegmentId
+### -field Transfer.Source.SegmentId
 
 [in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
 
@@ -133,8 +132,7 @@ The <b>DXGKARG_BUILDPAGINGBUFFER</b> structure describes parameters for building
 [in] A structure that describes the destination allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
 
 
-
-##### Destination.SegmentId
+### -field Transfer.Destination.SegmentId
 
 [in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
@@ -194,14 +192,12 @@ The <b>DXGKARG_BUILDPAGINGBUFFER</b> structure describes parameters for building
 [in] A structure that describes the destination allocation for the fill operation.
 
 
-
-##### Destination.SegmentId
+### -field Fill.Destination.SegmentId
 
 [in] The identifier of a segment within the destination allocation.
 
 
-
-##### Destination.SegmentAddress
+### -field Fill.Destination.SegmentAddress
 
 [in] The destination segment address. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
@@ -389,12 +385,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
-##### Source.SegmentId
-
-[in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
-
-
-
 ##### Source.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the source (<b>pMdl</b>).
@@ -410,6 +400,11 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 ###### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the source, if the <b>SegmentId</b> member of <b>Source</b> is zero.
+
+
+### -field SpecialLockTransfer.Source.SegmentId
+
+[in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
 
 
 ### -field SpecialLockTransfer.Source.SegmentAddress
@@ -428,12 +423,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
-##### Destination.SegmentId
-
-[in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
-
-
-
 ##### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
@@ -449,6 +438,11 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 ###### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
+
+
+### -field SpecialLockTransfer.Destination.SegmentId
+
+[in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
 
 ### -field SpecialLockTransfer.Destination.SegmentAddress
@@ -497,12 +491,6 @@ Supported beginning with Windows 8.
 
 
 
-##### Destination.SegmentId
-
-[in] The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
-
-
-
 ##### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination context allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
@@ -520,12 +508,9 @@ Supported beginning with Windows 8.
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 
 
+### -field InitContextResource.Destination.SegmentId
 
-##### Destination.VirtualAddress
-
-[in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
-
-Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
+[in] The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
 
 ### -field InitContextResource.Destination.SegmentAddress
@@ -534,6 +519,58 @@ Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 
 ### -field InitContextResource.Destination.pMdl
+
+ 
+
+
+### -field InitContextResource.Destination.VirtualAddress
+
+[in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
+
+Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
+
+
+### -field InitContextResource.Destination.GpuVirtualAddress
+
+ 
+
+
+### -field TransferVirtual
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894169">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
+
+
+### -field FillVirtual
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894166">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
+
+
+### -field UpdatePageTable
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894171">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
+
+
+### -field FlushTlb
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894167">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
+
+
+### -field CopyPageTableEntries
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894164">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
+
+
+### -field UpdateContextAllocation
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894170">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
+
+
+### -field NotifyResidency
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894168">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
+
+
+### -field SignalMonitoredFence
 
  
 
@@ -561,41 +598,6 @@ This member is reserved and should not be used.
  
 
 
-
-
-#### - CopyPageTableEntries
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894164">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
-
-
-#### - FillVirtual
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894166">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
-
-
-#### - FlushTlb
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894167">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
-
-
-#### - NotifyResidency
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894168">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
-
-
-#### - TransferVirtual
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894169">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
-
-
-#### - UpdateContextAllocation
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894170">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
-
-
-#### - UpdatePageTable
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894171">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
 
 
 ## -remarks

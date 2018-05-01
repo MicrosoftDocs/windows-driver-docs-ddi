@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
-req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_BIDIRECTIONAL structure

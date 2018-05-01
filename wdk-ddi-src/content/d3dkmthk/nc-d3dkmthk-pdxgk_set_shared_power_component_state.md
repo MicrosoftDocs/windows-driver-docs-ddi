@@ -7,8 +7,8 @@ old-location: display\pdxgk_set_shared_power_component_state.htm
 old-project: display
 ms.assetid: 779072A4-A82B-4251-93F5-5B6C7ED0598E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
+ms.date: 4/16/2018
+ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PDXGK_SET_SHARED_POWER_COMPONENT_STATE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback
+# PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function
 
 
 ## -description

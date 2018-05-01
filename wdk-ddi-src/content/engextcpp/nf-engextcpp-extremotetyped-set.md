@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Set
-title: ExtRemoteTyped::Set method
+title: ExtRemoteTyped::Set
 author: windows-driver-content
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
 old-project: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], Set method, ExtRemoteTyped::Set, Set method [Windows Debugging], Set method [Windows Debugging], ExtRemoteTyped class, Set,ExtRemoteTyped.Set, debugger.extremotetyped_set_bool
+ms.date: 4/24/2018
+ms.keywords: ExtRemoteTyped class [Windows Debugging],Set method, ExtRemoteTyped.Set, ExtRemoteTyped.Set(bool,ULONG64,ULONG,ULONG64), ExtRemoteTyped::Set, Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteTyped class, debugger.extremotetyped_set_bool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	ExtRemoteTyped.Set
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::Set method
+# ExtRemoteTyped::Set
 
 
 ## -description

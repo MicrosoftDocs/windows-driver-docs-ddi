@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetItemName
-title: IWiaDrvItem::GetItemName method
+title: IWiaDrvItem::GetItemName
 author: windows-driver-content
 description: The IWiaDrvItem::GetItemName method gets the current IWiaDrvItem item name, not including path information.
 old-location: image\iwiadrvitem_getitemname.htm
 old-project: image
 ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices], IWiaDrvItem interface, GetItemName,IWiaDrvItem.GetItemName, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetItemName method, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname, wiamindr_lh/IWiaDrvItem::GetItemName
+ms.date: 4/23/2018
+ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemName method, IWiaDrvItem.GetItemName, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname, wiamindr_lh/IWiaDrvItem::GetItemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWiaDrvItem.GetItemName
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::GetItemName method
+# IWiaDrvItem::GetItemName
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dddi_multiplane_overlay_group_caps.htm
 old-project: display
 ms.assetid: 6909579F-5387-4A35-B65B-EF77CC50DCC4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, display.d3dddi_multiplane_overlay_group_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

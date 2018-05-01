@@ -7,7 +7,7 @@ old-location: print\optitem.htm
 old-project: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POPTITEM, OPTITEM, OPTITEM structure [Print Devices], POPTITEM, POPTITEM structure pointer [Print Devices], _OPTITEM, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, print.optitem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -240,9 +240,35 @@ String identifier representing a localized, displayable option name. This can be
  
 
 
+### -field DUMMYUNIONNAME.Sel
+
+This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+
+If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
+
+
+### -field DUMMYUNIONNAME.pSel
+
+This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+
+If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
+
+
 ### -field DUMMYUNIONNAME2
 
  
+
+
+### -field DUMMYUNIONNAME2.pExtChkBox
+
+Pointer to EXTCHKBOX structure
+
+
+### -field DUMMYUNIONNAME2.pExtPush
+
+This union can be a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548781">EXTCHKBOX</a> structure, a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548795">EXTPUSH</a> structure, or <b>NULL</b>.
+
+An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not <b>NULL</b>, and if OPTIF_EXT_IS_EXTPUSH is set in <b>Flags</b>, <b>pExtPush</b> is valid. If the flag is not set, <b>pExtChkBox</b> is valid.
 
 
 ### -field pOptType
@@ -556,32 +582,6 @@ Pointer to an optional <a href="https://msdn.microsoft.com/library/windows/hardw
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
-
-
-#### - Sel
-
-This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
-
-If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
-
-
-#### - pExtChkBox
-
-Pointer to EXTCHKBOX structure
-
-
-#### - pExtPush
-
-This union can be a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548781">EXTCHKBOX</a> structure, a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548795">EXTPUSH</a> structure, or <b>NULL</b>.
-
-An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not <b>NULL</b>, and if OPTIF_EXT_IS_EXTPUSH is set in <b>Flags</b>, <b>pExtPush</b> is valid. If the flag is not set, <b>pExtChkBox</b> is valid.
-
-
-#### - pSel
-
-This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
-
-If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
 
 
 ## -remarks

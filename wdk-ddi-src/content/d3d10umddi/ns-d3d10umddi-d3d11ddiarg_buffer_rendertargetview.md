@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_buffer_rendertargetview.htm
 old-project: display
 ms.assetid: 1c89b4bd-7473-4da6-afbe-4103f3f3d7be
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11DDIARG_BUFFER_RENDERTARGETVIEW, D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_1e10bcbc-ad5c-47b4-a36d-d1d471e38a7e.xml, d3d10umddi/D3D11DDIARG_BUFFER_RENDERTARGETVIEW, display.d3d11ddiarg_buffer_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,26 +57,24 @@ The D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is use
 
 
 
-
-
-#### - ElementOffset
+### -field FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementWidth
-
-[in] The width, in elements, in the buffer. 
-
-
-#### - FirstElement
+### -field ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - NumElements
+### -field NumElements
 
 [in] The number of elements in the buffer. 
+
+
+### -field ElementWidth
+
+[in] The width, in elements, in the buffer. 
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: kernel\exacquiresharedwaitforexclusive.htm
 old-project: kernel
 ms.assetid: 745b014d-7ab4-4e07-a24c-7a74949a9d7b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ExAcquireSharedWaitForExclusive, ExAcquireSharedWaitForExclusive routine [Kernel-Mode Driver Architecture], k102_505fe2a0-5751-4481-a545-2091828463ce.xml, kernel.exacquiresharedwaitforexclusive, wdm/ExAcquireSharedWaitForExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	ExAcquireSharedWaitForExclusive
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExAcquireSharedWaitForExclusive function

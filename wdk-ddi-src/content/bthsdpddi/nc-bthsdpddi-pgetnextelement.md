@@ -7,8 +7,8 @@ old-location: bltooth\sdpgetnextelement.htm
 old-project: bltooth
 ms.assetid: 60216196-f8c7-4555-a461-4862ce6bc376
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGETNEXTELEMENT, SdpGetNextElement, SdpGetNextElement callback function [Bluetooth Devices], bltooth.sdpgetnextelement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml, sdplib/SdpGetNextElement
+ms.date: 4/27/2018
+ms.keywords: PGETNEXTELEMENT, PGETNEXTELEMENT callback, SdpGetNextElement, SdpGetNextElement callback function [Bluetooth Devices], bltooth.sdpgetnextelement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml, sdplib/SdpGetNextElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SdpGetNextElement
 product: Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PGETNEXTELEMENT callback
+# PGETNEXTELEMENT callback function
 
 
 ## -description

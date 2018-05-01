@@ -7,8 +7,8 @@ old-location: netvista\setnetbufferlistsource.htm
 old-project: netvista
 ms.assetid: 6537824A-F521-4916-AAC8-7C0E6E5F7331
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, SetNetBufferListSource, SetNetBufferListSource callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSource, netvista.setnetbufferlistsource
+ms.date: 4/25/2018
+ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback, SetNetBufferListSource, SetNetBufferListSource callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSource, netvista.setnetbufferlistsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetNetBufferListSource
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback
+# NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback function
 
 
 ## -description

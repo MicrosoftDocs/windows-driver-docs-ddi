@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UserInputRequired
-title: IPrintSchemaParameterDefinition::get_UserInputRequired method
+title: IPrintSchemaParameterDefinition::get_UserInputRequired
 author: windows-driver-content
 description: The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_userinputrequired.htm
 old-project: print
 ms.assetid: C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices], IPrintSchemaParameterDefinition interface, get_UserInputRequired, get_UserInputRequired,IPrintSchemaParameterDefinition.get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaParameterDefinition.get_UserInputRequired
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaParameterDefinition::get_UserInputRequired method
+# IPrintSchemaParameterDefinition::get_UserInputRequired
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\bda_useractivity_interval.htm
 old-project: stream
 ms.assetid: 52530081-1518-4A80-A341-DEF71DAA8AC7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*P_BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL structure [Streaming Media Devices], P_BDA_USERACTIVITY_INTERVAL, P_BDA_USERACTIVITY_INTERVAL structure pointer [Streaming Media Devices], _BDA_USERACTIVITY_INTERVAL, bdatypes/BDA_USERACTIVITY_INTERVAL, bdatypes/P_BDA_USERACTIVITY_INTERVAL, stream.bda_useractivity_interval"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

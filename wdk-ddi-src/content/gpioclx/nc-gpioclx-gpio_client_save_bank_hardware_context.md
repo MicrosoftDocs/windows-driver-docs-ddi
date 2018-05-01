@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: D2D2E231-E174-4C9F-96C3-35E744212F18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_SaveBankHardwareContext, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], GPIO.client_savebankhardwarecontext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
+ms.keywords: CLIENT_SaveBankHardwareContext, CLIENT_SaveBankHardwareContext callback, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], GPIO.client_savebankhardwarecontext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CLIENT_SaveBankHardwareContext
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback
+# GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback function
 
 
 ## -description

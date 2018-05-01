@@ -7,8 +7,8 @@ old-location: debugger\idebugsystemobjects3.htm
 old-project: debugger
 ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
+ms.date: 4/24/2018
+ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -43,7 +43,7 @@ api_name:
 -	IDebugSystemObjects3.GetCurrentSystemServerName
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSystemObjects3 interface

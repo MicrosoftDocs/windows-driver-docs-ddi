@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketsendwithexternalmdl.htm
 old-project: netvista
 ms.assetid: C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSendWithExternalMdl, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsendwithexternalmdl, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbPacketSendWithExternalMdl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketSendWithExternalMdl function

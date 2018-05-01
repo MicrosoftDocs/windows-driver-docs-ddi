@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFAction2.IsStatusSuccess
-title: IWDTFAction2::IsStatusSuccess method
+title: IWDTFAction2::IsStatusSuccess
 author: windows-driver-content
 description: Gets a value that indicates whether the last operation was successful.
 old-location: dtf\iwdtfaction2_isstatussuccess.htm
 old-project: dtf
 ms.assetid: c4e6f54f-815d-4ce1-93e1-b18663aab1b1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], IsStatusSuccess method, IWDTFAction2::IsStatusSuccess, IsStatusSuccess method [Windows Device Testing Framework], IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2 interface, IsStatusSuccess,IWDTFAction2.IsStatusSuccess, Microsoft.WDTF.IWDTFAction2.IsStatusSuccess, Microsoft::WDTF::IWDTFAction2::IsStatusSuccess, dtf.iwdtfaction2_isstatussuccess, wdtf/IWDTFAction2::IsStatusSuccess
+ms.date: 4/4/2018
+ms.keywords: IWDTFAction2 interface [Windows Device Testing Framework],IsStatusSuccess method, IWDTFAction2.IsStatusSuccess, IWDTFAction2::IsStatusSuccess, IsStatusSuccess, IsStatusSuccess method [Windows Device Testing Framework], IsStatusSuccess method [Windows Device Testing Framework],IWDTFAction2 interface, Microsoft.WDTF.IWDTFAction2.IsStatusSuccess, Microsoft::WDTF::IWDTFAction2::IsStatusSuccess, dtf.iwdtfaction2_isstatussuccess, wdtf/IWDTFAction2::IsStatusSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFAction2.IsStatusSuccess
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFAction2::IsStatusSuccess method
+# IWDTFAction2::IsStatusSuccess
 
 
 ## -description

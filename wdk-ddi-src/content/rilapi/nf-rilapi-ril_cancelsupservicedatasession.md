@@ -7,7 +7,7 @@ old-location: netvista\ril_cancelsupservicedatasession.htm
 old-project: netvista
 ms.assetid: f4b247e4-65d5-47ec-879d-9718710a7b61
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista], netvista.ril_cancelsupservicedatasession, rilapi/RIL_CancelSupServiceDataSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_CancelSupServiceDataSession
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_CancelSupServiceDataSession function

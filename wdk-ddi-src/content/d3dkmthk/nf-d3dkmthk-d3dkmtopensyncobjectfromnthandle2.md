@@ -7,7 +7,7 @@ old-location: display\d3dkmtopensyncobjectfromnthandle2.htm
 old-project: display
 ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle2, D3DKMTOpenSyncObjectFromNtHandle2 function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2, display.d3dkmtopensyncobjectfromnthandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 -	D3DKMTOpenSyncObjectFromNtHandle2
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenSyncObjectFromNtHandle2 function

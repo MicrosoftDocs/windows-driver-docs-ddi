@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, EVT_WDF_DRIVER_DEVICE_ADD, EvtDriverDeviceAdd, EvtDriverDeviceAdd callback function, kmdf.evtdriverdeviceadd, wdf.evtdriverdeviceadd, wdfdriver/EvtDriverDeviceAdd
+ms.keywords: DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, EVT_WDF_DRIVER_DEVICE_ADD, EVT_WDF_DRIVER_DEVICE_ADD callback, EvtDriverDeviceAdd, EvtDriverDeviceAdd callback function, kmdf.evtdriverdeviceadd, wdf.evtdriverdeviceadd, wdfdriver/EvtDriverDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtDriverDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DRIVER_DEVICE_ADD callback
+# EVT_WDF_DRIVER_DEVICE_ADD callback function
 
 
 ## -description

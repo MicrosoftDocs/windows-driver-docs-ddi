@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_device_descriptor.htm
 old-project: audio
 ms.assetid: 66EDD6E5-F6EB-42C9-8B68-3A19DED7DCB8
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure pointer [Audio Devices], USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure [Audio Devices], _USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, audio.usbsidebandaudio_device_descriptor, usbsidebandaudio/PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, *PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure

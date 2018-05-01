@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B142BB21-D70E-4BA2-B2C1-60468FA8378E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_GET_NEXT_EVENT, IOCTL_NFCSE_GET_NEXT_EVENT control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NEXT_EVENT, nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT, nfpdrivers.ioctl_nfcse_get_next_event
+ms.keywords: IOCTL_NFCSE_GET_NEXT_EVENT, IOCTL_NFCSE_GET_NEXT_EVENT control, IOCTL_NFCSE_GET_NEXT_EVENT control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NEXT_EVENT, nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT, nfpdrivers.ioctl_nfcse_get_next_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_NFCSE_GET_NEXT_EVENT
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_GET_NEXT_EVENT IOCTL

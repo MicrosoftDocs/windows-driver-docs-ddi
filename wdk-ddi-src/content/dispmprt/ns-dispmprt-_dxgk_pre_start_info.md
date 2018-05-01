@@ -7,7 +7,7 @@ old-location: display\dxgk_pre_start_info.htm
 old-project: display
 ms.assetid: 4CCDA951-A583-48C4-98D7-D278183D8893
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], _DXGK_PRE_START_INFO, display.dxgk_pre_start_info, dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,6 +62,11 @@ Structure to allow very simple data to be exchanged between the OS and driver wh
 This value is reserved for system use.
 
 
+### -field Input
+
+The combined UINT value operated on.
+
+
 ### -field SupportPreserveBootDisplay
 
 Flag which indicates support for preserving the timing and content of the firmware display mode across DxgkDdiStartDevice.
@@ -77,12 +82,7 @@ Indicates that the driver can maintain same CPU virtual address mapping to the U
 This value is reserved for system use.
 
 
-#### - Input
-
-The combined UINT value operated on.
-
-
-#### - Output
+### -field Output
 
 The combined UINT value operated on.
 

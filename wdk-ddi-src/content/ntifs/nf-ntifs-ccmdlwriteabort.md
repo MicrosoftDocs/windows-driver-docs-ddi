@@ -7,7 +7,7 @@ old-location: ifsk\ccmdlwriteabort.htm
 old-project: ifsk
 ms.assetid: 32b6fc14-dbaa-41d7-a1a7-a805b9a8795a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcMdlWriteAbort, CcMdlWriteAbort routine [Installable File System Drivers], ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, ifsk.ccmdlwriteabort, ntifs/CcMdlWriteAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	CcMdlWriteAbort
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcMdlWriteAbort function

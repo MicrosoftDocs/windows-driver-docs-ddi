@@ -7,7 +7,7 @@ old-location: debugger\ig_get_bus_data.htm
 old-project: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PBUSDATA, BUSDATA, BUSDATA structure [Windows Debugging], GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, _GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: BUSDATA, *PBUSDATA
-req.product: Windows 10 or later.
 ---
 
 # _GETSETBUSDATA structure

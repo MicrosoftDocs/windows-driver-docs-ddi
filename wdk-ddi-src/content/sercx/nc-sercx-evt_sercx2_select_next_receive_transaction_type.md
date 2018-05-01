@@ -7,8 +7,8 @@ old-location: serports\evtsercx2selectnextreceivetransactiontype.htm
 old-project: serports
 ms.assetid: CB4551F4-8B22-4595-8091-CB84671DC60C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SelectNextReceiveTransactionType, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE, EvtSerCx2SelectNextReceiveTransactionType, EvtSerCx2SelectNextReceiveTransactionType callback function [Serial Ports], serports.evtsercx2selectnextreceivetransactiontype
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SelectNextReceiveTransactionType, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback, EvtSerCx2SelectNextReceiveTransactionType, EvtSerCx2SelectNextReceiveTransactionType callback function [Serial Ports], serports.evtsercx2selectnextreceivetransactiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCx2SelectNextReceiveTransactionType
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback
+# EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\video_mode.htm
 old-project: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_MODE, PVIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], VIDEO_MODE, VIDEO_MODE structure [Display Devices], Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, _VIDEO_MODE, display.video_mode, ntddvdeo/PVIDEO_MODE, ntddvdeo/VIDEO_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventIndexDescriptionWide
-title: IDebugControl4::GetEventIndexDescriptionWide method
+title: IDebugControl4::GetEventIndexDescriptionWide
 author: windows-driver-content
 description: The GetEventIndexDescriptionWide method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescriptionwide.htm
 old-project: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, GetEventIndexDescriptionWide,IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
+ms.date: 4/24/2018
+ms.keywords: GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventIndexDescriptionWide method, IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.GetEventIndexDescriptionWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetEventIndexDescriptionWide method
+# IDebugControl4::GetEventIndexDescriptionWide
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.GetNameAt
-title: IWDFNamedPropertyStore::GetNameAt method
+title: IWDFNamedPropertyStore::GetNameAt
 author: windows-driver-content
 description: The GetNameAt method retrieves the name of a property.
 old-location: wdf\iwdfnamedpropertystore_getnameat.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetNameAt method, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt,IWDFNamedPropertyStore.GetNameAt, IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, GetNameAt method, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, umdf.iwdfnamedpropertystore_getnameat, wdf.iwdfnamedpropertystore_getnameat, wudfddi/IWDFNamedPropertyStore::GetNameAt
+ms.keywords: GetNameAt, GetNameAt method, GetNameAt method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNameAt method, IWDFNamedPropertyStore.GetNameAt, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, umdf.iwdfnamedpropertystore_getnameat, wdf.iwdfnamedpropertystore_getnameat, wudfddi/IWDFNamedPropertyStore::GetNameAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFNamedPropertyStore.GetNameAt
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFNamedPropertyStore::GetNameAt method
+# IWDFNamedPropertyStore::GetNameAt
 
 
 ## -description

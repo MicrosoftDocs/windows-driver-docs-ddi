@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IXpsDocument.GetThumbnail
-title: IXpsDocument::GetThumbnail method
+title: IXpsDocument::GetThumbnail
 author: windows-driver-content
 description: The GetThumbnail method gets the document thumbnail object.
 old-location: print\ixpsdocument_getthumbnail.htm
 old-project: print
 ms.assetid: 74466609-4408-4065-a607-cd338902335d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetThumbnail method [Print Devices], GetThumbnail method [Print Devices], IXpsDocument interface, GetThumbnail,IXpsDocument.GetThumbnail, IXpsDocument, IXpsDocument interface [Print Devices], GetThumbnail method, IXpsDocument::GetThumbnail, filterpipeline/IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, print.ixpsdocument_getthumbnail
+ms.date: 4/20/2018
+ms.keywords: GetThumbnail, GetThumbnail method [Print Devices], GetThumbnail method [Print Devices],IXpsDocument interface, IXpsDocument interface [Print Devices],GetThumbnail method, IXpsDocument.GetThumbnail, IXpsDocument::GetThumbnail, filterpipeline/IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, print.ixpsdocument_getthumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IXpsDocument.GetThumbnail
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IXpsDocument::GetThumbnail method
+# IXpsDocument::GetThumbnail
 
 
 ## -description

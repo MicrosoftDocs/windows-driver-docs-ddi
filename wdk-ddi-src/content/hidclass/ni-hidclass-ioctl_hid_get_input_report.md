@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 800bc24b-dfa3-4da1-b9de-9d8d6e470d7e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_INPUT_REPORT, IOCTL_HID_GET_INPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_get_input_report, hidclass/IOCTL_HID_GET_INPUT_REPORT, hidioreq_6b2d889e-4579-464f-bd03-0d55bcf99687.xml
+ms.keywords: IOCTL_HID_GET_INPUT_REPORT, IOCTL_HID_GET_INPUT_REPORT control, IOCTL_HID_GET_INPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_get_input_report, hidclass/IOCTL_HID_GET_INPUT_REPORT, hidioreq_6b2d889e-4579-464f-bd03-0d55bcf99687.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_HID_GET_INPUT_REPORT
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_INPUT_REPORT IOCTL

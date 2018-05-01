@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetLineByInlineContextWide
-title: IDebugSymbols4::GetLineByInlineContextWide method
+title: IDebugSymbols4::GetLineByInlineContextWide
 author: windows-driver-content
 description: Gets a line by inline context.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontextwide.htm
 old-project: debugger
 ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetLineByInlineContextWide method [Windows Debugging], GetLineByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, GetLineByInlineContextWide,IDebugSymbols4.GetLineByInlineContextWide, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContextWide method, IDebugSymbols4::GetLineByInlineContextWide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
+ms.date: 4/24/2018
+ms.keywords: GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], GetLineByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContextWide method, IDebugSymbols4.GetLineByInlineContextWide, IDebugSymbols4::GetLineByInlineContextWide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols4.GetLineByInlineContextWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols4::GetLineByInlineContextWide method
+# IDebugSymbols4::GetLineByInlineContextWide
 
 
 ## -description

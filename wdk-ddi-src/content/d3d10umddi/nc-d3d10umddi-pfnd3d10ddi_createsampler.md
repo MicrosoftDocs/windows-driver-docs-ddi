@@ -7,8 +7,8 @@ old-location: display\createsampler.htm
 old-project: display
 ms.assetid: 603bb033-390b-4965-b6ea-6acc2c7a8fcf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateSampler, CreateSampler callback function [Display Devices], PFND3D10DDI_CREATESAMPLER, UserModeDisplayDriverDx10_Functions_16c89dca-e337-42c7-a666-f0f4c9a6d3e3.xml, d3d10umddi/CreateSampler, display.createsampler
+ms.date: 4/16/2018
+ms.keywords: CreateSampler, CreateSampler callback function [Display Devices], PFND3D10DDI_CREATESAMPLER, PFND3D10DDI_CREATESAMPLER callback, UserModeDisplayDriverDx10_Functions_16c89dca-e337-42c7-a666-f0f4c9a6d3e3.xml, d3d10umddi/CreateSampler, display.createsampler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateSampler
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CREATESAMPLER callback
+# PFND3D10DDI_CREATESAMPLER callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\ksinterval.htm
 old-project: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSINTERVAL, KSINTERVAL, KSINTERVAL structure [Streaming Media Devices], PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, ks/KSINTERVAL, ks/PKSINTERVAL, stream.ksinterval"
 ms.prod: windows-hardware
 ms.technology: windows-devices

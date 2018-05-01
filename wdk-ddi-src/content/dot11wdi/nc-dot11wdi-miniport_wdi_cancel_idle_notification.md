@@ -7,8 +7,8 @@ old-location: netvista\miniportwdicancelidlenotification.htm
 old-project: netvista
 ms.assetid: 4C52E367-2E75-47EC-8743-F3FA2EEE25F8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION, MiniportWdiCancelIdleNotification, MiniportWdiCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCancelIdleNotification, netvista.miniportwdicancelidlenotification
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION, MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback, MiniportWdiCancelIdleNotification, MiniportWdiCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCancelIdleNotification, netvista.miniportwdicancelidlenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiCancelIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback
+# MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ril_dial_v1.htm
 old-project: netvista
 ms.assetid: 8d4967fc-bcb7-4770-92a8-aac9ef13085b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_Dial_V1, RIL_Dial_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_dial_v1, rilapi/RIL_Dial_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_Dial_V1
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_Dial_V1 function

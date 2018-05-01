@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.WriteTypedDataPhysical
-title: IDebugSymbols3::WriteTypedDataPhysical method
+title: IDebugSymbols3::WriteTypedDataPhysical
 author: windows-driver-content
 description: The WriteTypedDataPhysical method writes the value of a variable in the target computer's physical memory.
 old-location: debugger\writetypeddataphysical.htm
 old-project: debugger
 ms.assetid: 5f29249f-bb62-45d1-aa0e-108db1d7f906
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, WriteTypedDataPhysical method [Windows Debugging], WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, WriteTypedDataPhysical,IDebugSymbols3.WriteTypedDataPhysical, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, dbgeng/IDebugSymbols::WriteTypedDataPhysical, debugger.writetypeddataphysical
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols3.WriteTypedDataPhysical, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, dbgeng/IDebugSymbols::WriteTypedDataPhysical, debugger.writetypeddataphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.WriteTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::WriteTypedDataPhysical method
+# IDebugSymbols3::WriteTypedDataPhysical
 
 
 ## -description

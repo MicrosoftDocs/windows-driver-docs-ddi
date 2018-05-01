@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 18666E48-9505-448E-ABA1-536D365FC49D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_SMARTCARD_GET_STATE, IOCTL_SMARTCARD_GET_STATE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_state, winsmcrd/IOCTL_SMARTCARD_GET_STATE
+ms.keywords: IOCTL_SMARTCARD_GET_STATE, IOCTL_SMARTCARD_GET_STATE control, IOCTL_SMARTCARD_GET_STATE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_state, winsmcrd/IOCTL_SMARTCARD_GET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_SMARTCARD_GET_STATE
 product: Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SMARTCARD_GET_STATE IOCTL

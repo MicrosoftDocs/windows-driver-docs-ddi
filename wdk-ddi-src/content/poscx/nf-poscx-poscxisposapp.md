@@ -40,7 +40,7 @@ api_name:
 -	PosCxIsPosApp
 product: Windows
 targetos: Windows
-req.typenames: POS_CX_EVENT_PRIORITY
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 

@@ -7,7 +7,7 @@ old-location: netvista\rilcapstype.htm
 old-project: netvista
 ms.assetid: 78f372fc-75b2-47e8-ac3f-818b384c6d97
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILCAPSTYPE, RILCAPSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CAPSTYPE_ARG_LARGEST, RIL_CAPSTYPE_ARG_SMALLEST, RIL_CAPSTYPE_CALLSUPPORT, RIL_CAPSTYPE_MAX, RIL_CAPSTYPE_NITZNOTIFICATION, RIL_CAPSTYPE_PBMAXREAD, RIL_CAPSTYPE_PBSTORELOCATIONS, RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, RIL_CAPSTYPE_RADIOCONFIGURATIONS, RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, RIL_CAPSTYPE_SMSSUPPORT, netvista.rilcapstype, ntddrilapitypes/RILCAPSTYPE, ntddrilapitypes/RIL_CAPSTYPE_ARG_LARGEST, ntddrilapitypes/RIL_CAPSTYPE_ARG_SMALLEST, ntddrilapitypes/RIL_CAPSTYPE_CALLSUPPORT, ntddrilapitypes/RIL_CAPSTYPE_MAX, ntddrilapitypes/RIL_CAPSTYPE_NITZNOTIFICATION, ntddrilapitypes/RIL_CAPSTYPE_PBMAXREAD, ntddrilapitypes/RIL_CAPSTYPE_PBSTORELOCATIONS, ntddrilapitypes/RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, ntddrilapitypes/RIL_CAPSTYPE_RADIOCONFIGURATIONS, ntddrilapitypes/RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, ntddrilapitypes/RIL_CAPSTYPE_SMSSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

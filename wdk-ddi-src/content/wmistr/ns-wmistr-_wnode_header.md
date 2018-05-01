@@ -7,7 +7,7 @@ old-location: kernel\wnode_header.htm
 old-project: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PWNODE_HEADER, PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], WNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], _WNODE_HEADER, kernel.wnode_header, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, wmistr/PWNODE_HEADER, wmistr/WNODE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _WNODE_HEADER structure
@@ -73,6 +72,11 @@ If <b>Flags</b> is set to WNODE_FLAG_EVENT_ITEM or WNODE_FLAG_EVENT_REFERENCE, <
  
 
 
+### -field DUMMYUNIONNAME.HistoricalContext
+
+This member stores the handle to the event tracing session. 
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -91,6 +95,21 @@ This member is reserved for WMI.
 ### -field DUMMYUNIONNAME2
 
  
+
+
+### -field DUMMYUNIONNAME2.CountLost
+
+Reserved
+
+
+### -field DUMMYUNIONNAME2.KernelHandle
+
+This member is reserved for WMI.
+
+
+### -field DUMMYUNIONNAME2.TimeStamp
+
+This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
 
 
 ### -field Guid
@@ -282,26 +301,6 @@ The <b>Guid</b> member points to a GUID in memory, rather than containing the GU
 #### WNODE_FLAG_USE_MOF_PTR
 
 Data that follows the fixed members of a <b>WNODE_<i>XXX</i></b> structure consists of an array of MOF_FIELD structures, defined in Evntrace.h, that contain pointers to data and sizes rather than the data itself. The array can contain up to MAX_MOF_FIELD elements. The system logger dereferences the pointers before passing the data to the consumer This flag is valid only for blocks registered with WMIREG_FLAG_TRACED_GUID. 
-
-
-#### - CountLost
-
-Reserved
-
-
-#### - HistoricalContext
-
-This member stores the handle to the event tracing session. 
-
-
-#### - KernelHandle
-
-This member is reserved for WMI.
-
-
-#### - TimeStamp
-
-This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
 
 
 ## -remarks

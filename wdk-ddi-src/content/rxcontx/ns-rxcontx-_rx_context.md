@@ -7,7 +7,7 @@ old-location: ifsk\rx_context.htm
 old-project: ifsk
 ms.assetid: 5eb83a7a-d6dd-445f-89a8-91cdf67512af
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRX_CONTEXT, PRX_CONTEXT, PRX_CONTEXT structure pointer [Installable File System Drivers], RX_CONTEXT, RX_CONTEXT structure [Installable File System Drivers], _RX_CONTEXT, ifsk.rx_context, rxcontx/PRX_CONTEXT, rxcontx/RX_CONTEXT, rxstructures_29a918c5-d689-4e7d-84fe-dfd8901ee484.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
 ---
 
 # _RX_CONTEXT structure
@@ -203,9 +202,34 @@ If set to <b>TRUE</b>, this member specifies that the FCB paging I/O resource ha
 A member initially set to zero in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554367">RxCreateRxContext</a> routine. This member is not otherwise used by RDBSS, but it may be used by network mini-redirectors.
 
 
+### -field StoredStatus
+
+ 
+
+
+### -field StoredStatusAlignment
+
+ 
+
+
 ### -field InformationToReturn
 
  
+
+
+### -field IoStatusBlock
+
+The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
+
+
+### -field ForceLonglongAligmentDummyField
+
+A member of an unnamed union use to force proper alignment on the <b>MRxContext[MRX_CONTEXT_FIELD_COUNT]</b> member. 
+
+
+### -field MRxContext
+
+A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
 
 
 ### -field WriteOnlyOpenRetryContext
@@ -258,33 +282,29 @@ A pointer to the list entry used to serialize pipe operations on a per-file-obje
 A structure member of an unnamed union used for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a> routines. RDBSS passes information in the <b>Info</b> structure member to the network mini-redirector and the network mini-redirector returns information to RDBSS in the <b>Info</b> structure member. 
 
 
-
-#### FsInformationClass
+### -field Info.FsInformationClass
 
 A member of an unnamed union used by RDBSS to pass the type of FS_INFORMATION_CLASS that is requested to the network mini-redirector driver. RDBSS passes information in the <b>FsInformationClass</b> member when calling <b>MrxQueryVolumeInfo </b>and <b>MrxSetVolumeInfo</b>. 
 
 
-
-#### FileInformationClass
+### -field Info.FileInformationClass
 
 A member of an unnamed union used by RDBSS to indicate the type of FILE_INFORMATION_CLASS request sent to the network mini-redirector driver. RDBSS passes information in the <b>FileInformationClass</b> member when calling <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, and <b>MrxSetFileInfo</b>. 
-
-
-
-#### Length
-
-A member of an unnamed union used to pass the length of the <b>Buffer</b> member from RDBSS to the network mini-redirector driver. The <b>Length</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
-
-
-
-#### LengthRemaining
-
-A member of an unnamed union used to pass the length of information returned in the <b>Buffer</b> member from the network mini-redirector driver to RDBSS. The <b>LengthRemaining</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
 
 
 ### -field Info.Buffer
 
 A buffer used to pass data from RDBSS to the network mini-redirector driver and receive responses from the network mini-redirector driver by RDBSS. The <b>Buffer</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
+
+
+### -field Info.Length
+
+A member of an unnamed union used to pass the length of the <b>Buffer</b> member from RDBSS to the network mini-redirector driver. The <b>Length</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
+
+
+### -field Info.LengthRemaining
+
+A member of an unnamed union used to pass the length of information returned in the <b>Buffer</b> member from the network mini-redirector driver to RDBSS. The <b>LengthRemaining</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
 
 
 ### -field Info.ReplaceIfExists
@@ -698,24 +718,9 @@ A set of options set by RDBSS and passed to low I/O operations sent to the netwo
 A pointer to a LOWIO_CONTEXT structure passed to the network mini-redirector. <b>LowIoContext</b> is a member of unnamed structure used for low I/O requests sent to the network mini-redirector.
 
 
-#### - ForceLonglongAligmentDummyField
-
-A member of an unnamed union use to force proper alignment on the <b>MRxContext[MRX_CONTEXT_FIELD_COUNT]</b> member. 
-
-
 #### - FsdUid
 
 The effective user ID if <a href="https://msdn.microsoft.com/library/windows/hardware/ff554736">RxStartMinirdr</a> was called using a user-mode process thread. This member is not used by RDBSS.
-
-
-#### - IoStatusBlock
-
-The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
-
-
-#### - MRxContext
-
-A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
 
 
 ## -remarks

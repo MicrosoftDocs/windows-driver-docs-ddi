@@ -7,7 +7,7 @@ old-location: netvista\wwan_context_state.htm
 old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_CONTEXT_STATE structure

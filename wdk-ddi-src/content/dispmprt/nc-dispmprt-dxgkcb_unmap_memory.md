@@ -7,8 +7,8 @@ old-location: display\dxgkcbunmapmemory.htm
 old-project: display
 ms.assetid: 71e8eb0e-599b-44cf-955b-828f6667edf6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_UNMAP_MEMORY, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml, DxgkCbUnmapMemory, DxgkCbUnmapMemory callback function [Display Devices], display.dxgkcbunmapmemory, dispmprt/DxgkCbUnmapMemory
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_UNMAP_MEMORY, DXGKCB_UNMAP_MEMORY callback, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml, DxgkCbUnmapMemory, DxgkCbUnmapMemory callback function [Display Devices], display.dxgkcbunmapmemory, dispmprt/DxgkCbUnmapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkCbUnmapMemory
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_UNMAP_MEMORY callback
+# DXGKCB_UNMAP_MEMORY callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.TryToAcquireInterruptLock
-title: IWDFInterrupt::TryToAcquireInterruptLock method
+title: IWDFInterrupt::TryToAcquireInterruptLock
 author: windows-driver-content
 description: The TryToAcquireInterruptLock method acquires the interrupt lock if no other thread has already acquired it.
 old-location: wdf\iwdfinterrupt_trytoacquireinterruptlock.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, TryToAcquireInterruptLock method, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock method, TryToAcquireInterruptLock method, IWDFInterrupt interface, TryToAcquireInterruptLock,IWDFInterrupt.TryToAcquireInterruptLock, umdf.iwdfinterrupt_trytoacquireinterruptlock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock
+ms.keywords: IWDFInterrupt interface,TryToAcquireInterruptLock method, IWDFInterrupt.TryToAcquireInterruptLock, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock, TryToAcquireInterruptLock method, TryToAcquireInterruptLock method,IWDFInterrupt interface, umdf.iwdfinterrupt_trytoacquireinterruptlock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFInterrupt.TryToAcquireInterruptLock
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::TryToAcquireInterruptLock method
+# IWDFInterrupt::TryToAcquireInterruptLock
 
 
 ## -description

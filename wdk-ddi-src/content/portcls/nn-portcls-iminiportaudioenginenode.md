@@ -7,8 +7,8 @@ old-location: audio\iminiportaudioenginenode.htm
 old-project: audio
 ms.assetid: 58170D54-869A-49CC-865A-AB64BFB41A4B
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], described, audio.iminiportaudioenginenode, portcls/IMiniportAudioEngineNode
+ms.date: 4/16/2018
+ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices],described, audio.iminiportaudioenginenode, portcls/IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	IMiniportAudioEngineNode
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IMiniportAudioEngineNode interface

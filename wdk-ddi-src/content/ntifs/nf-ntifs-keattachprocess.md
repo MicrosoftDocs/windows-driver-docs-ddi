@@ -7,7 +7,7 @@ old-location: ifsk\keattachprocess.htm
 old-project: ifsk
 ms.assetid: 1261e65b-c862-4c99-89ed-c222b017272a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: KeAttachProcess, KeAttachProcess function [Installable File System Drivers], ifsk.keattachprocess, keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml, ntifs/KeAttachProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	KeAttachProcess
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # KeAttachProcess function

@@ -7,7 +7,7 @@ old-location: kernel\excanceltimer.htm
 old-project: kernel
 ms.assetid: 5E52550D-0A81-4C72-9A82-7C13BC3EFE00
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], kernel.excanceltimer, wdm/ExCancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	ExCancelTimer
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExCancelTimer function

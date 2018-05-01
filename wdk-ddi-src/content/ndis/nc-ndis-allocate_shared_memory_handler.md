@@ -7,8 +7,8 @@ old-location: netvista\netallocatesharedmemory.htm
 old-project: netvista
 ms.assetid: d85b4f28-707b-4525-afd8-83e1ceb2674e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
+ms.date: 4/25/2018
+ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, ALLOCATE_SHARED_MEMORY_HANDLER callback, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NetAllocateSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# ALLOCATE_SHARED_MEMORY_HANDLER callback
+# ALLOCATE_SHARED_MEMORY_HANDLER callback function
 
 
 ## -description

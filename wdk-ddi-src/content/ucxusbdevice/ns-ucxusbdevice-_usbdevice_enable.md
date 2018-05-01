@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_enable.htm
 old-project: usbref
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBDEVICE_ENABLE, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], _USBDEVICE_ENABLE, buses._usbdevice_enable, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_ENABLE structure

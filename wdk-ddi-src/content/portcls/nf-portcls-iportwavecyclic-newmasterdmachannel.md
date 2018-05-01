@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWaveCyclic.NewMasterDmaChannel
-title: IPortWaveCyclic::NewMasterDmaChannel method
+title: IPortWaveCyclic::NewMasterDmaChannel
 author: windows-driver-content
 description: The NewMasterDmaChannel method creates a new instance of a bus-master DMA channel.
 old-location: audio\iportwavecyclic_newmasterdmachannel.htm
 old-project: audio
 ms.assetid: bbd2b6e2-e332-49ae-aa18-490fd5631479
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, IPortWaveCyclic::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface, NewMasterDmaChannel,IPortWaveCyclic.NewMasterDmaChannel, audio.iportwavecyclic_newmasterdmachannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, portcls/IPortWaveCyclic::NewMasterDmaChannel
+ms.date: 4/16/2018
+ms.keywords: IPortWaveCyclic interface [Audio Devices],NewMasterDmaChannel method, IPortWaveCyclic.NewMasterDmaChannel, IPortWaveCyclic::NewMasterDmaChannel, NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_newmasterdmachannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, portcls/IPortWaveCyclic::NewMasterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPortWaveCyclic.NewMasterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWaveCyclic::NewMasterDmaChannel method
+# IPortWaveCyclic::NewMasterDmaChannel
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IFixedDocumentSequence.SetPrintTicket
-title: IFixedDocumentSequence::SetPrintTicket method
+title: IFixedDocumentSequence::SetPrintTicket
 author: windows-driver-content
 description: The SetPrintTicket method inserts a print ticket into the fixed document sequence.
 old-location: print\ifixeddocumentsequence_setprintticket.htm
 old-project: print
 ms.assetid: 636db99c-9195-4476-b1a6-a8067f27c6bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], SetPrintTicket method, IFixedDocumentSequence::SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices], IFixedDocumentSequence interface, SetPrintTicket,IFixedDocumentSequence.SetPrintTicket, filterpipeline/IFixedDocumentSequence::SetPrintTicket, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, print.ifixeddocumentsequence_setprintticket
+ms.date: 4/20/2018
+ms.keywords: IFixedDocumentSequence interface [Print Devices],SetPrintTicket method, IFixedDocumentSequence.SetPrintTicket, IFixedDocumentSequence::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices],IFixedDocumentSequence interface, filterpipeline/IFixedDocumentSequence::SetPrintTicket, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, print.ifixeddocumentsequence_setprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IFixedDocumentSequence.SetPrintTicket
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IFixedDocumentSequence::SetPrintTicket method
+# IFixedDocumentSequence::SetPrintTicket
 
 
 ## -description

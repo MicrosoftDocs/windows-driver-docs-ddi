@@ -7,7 +7,7 @@ old-location: stream\avstrminipinsetdevicestate.htm
 old-project: stream
 ms.assetid: df68dda0-6128-46c9-bf2b-562c10f9a6f1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinSetDeviceState, AVStrMiniPinSetDeviceState routine [Streaming Media Devices], PFNKSPINSETDEVICESTATE, avstclbk_5a0f9097-33fb-4047-a361-bf14ac834cc3.xml, ks/AVStrMiniPinSetDeviceState, stream.avstrminipinsetdevicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniPinSetDeviceState
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSPINSETDEVICESTATE callback
+# PFNKSPINSETDEVICESTATE callback function
 
 
 ## -description

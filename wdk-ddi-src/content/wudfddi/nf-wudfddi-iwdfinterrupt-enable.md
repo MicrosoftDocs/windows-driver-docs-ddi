@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.Enable
-title: IWDFInterrupt::Enable method
+title: IWDFInterrupt::Enable
 author: windows-driver-content
 description: The Enable method enables a specified device interrupt by calling the driver's OnInterruptEnable callback function.
 old-location: wdf\iwdfinterrupt_enable.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Enable method, Enable method, IWDFInterrupt interface, Enable,IWDFInterrupt.Enable, IWDFInterrupt, IWDFInterrupt interface, Enable method, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable
+ms.keywords: Enable, Enable method, Enable method,IWDFInterrupt interface, IWDFInterrupt interface,Enable method, IWDFInterrupt.Enable, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFInterrupt.Enable
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::Enable method
+# IWDFInterrupt::Enable
 
 
 ## -description

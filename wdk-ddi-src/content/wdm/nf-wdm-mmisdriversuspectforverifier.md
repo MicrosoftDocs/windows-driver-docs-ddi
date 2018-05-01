@@ -7,7 +7,7 @@ old-location: kernel\mmisdriversuspectforverifier.htm
 old-project: kernel
 ms.assetid: 049BDC6E-2FB2-421F-9229-320F2ED98663
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], kernel.mmisdriversuspectforverifier, wdm/MmIsDriverSuspectForVerifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	MmIsDriverSuspectForVerifier
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmIsDriverSuspectForVerifier function

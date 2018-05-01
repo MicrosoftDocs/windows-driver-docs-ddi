@@ -7,7 +7,7 @@ old-location: display\ddpixelformat.htm
 old-project: display
 ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -302,6 +302,78 @@ The surface is in RGBZ format.
 Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware. 
 
 
+### -field dwRGBBitCount
+
+Specifies the number of RGB bits per pixel (4, 8, 16, 24, or 32). 
+
+
+### -field dwYUVBitCount
+
+Specifies the number of YUV bits per pixel. 
+
+
+### -field dwZBufferBitDepth
+
+Specifies the Z-buffer bit depth (8, 16, 24, or 32 bits). 
+
+
+### -field dwAlphaBitDepth
+
+Specifies the Alpha channel bit depth. 
+
+
+### -field dwRBitMask
+
+Specifies the mask for red bits. 
+
+
+### -field dwYBitMask
+
+Specifies the mask for Y bits. 
+
+
+### -field dwGBitMask
+
+Specifies the mask for green bits. 
+
+
+### -field dwUBitMask
+
+Specifies the mask for U bits. 
+
+
+### -field dwBBitMask
+
+Specifies the mask for blue bits. 
+
+
+### -field dwVBitMask
+
+Specifies the mask for V bits. 
+
+
+### -field dwRGBAlphaBitMask
+
+ 
+
+
+### -field dwYUVAlphaBitMask
+
+ 
+
+
+### -field dwRGBZBitMask
+
+ 
+
+
+### -field dwYUVZBitMask
+
+ 
+
+
+
+
 #### - MultiSampleCaps
 
 <b>DirectX 8.0 and later versions only.</b> Structure that contains the following two members. It specifies 16-bitmasks for the number of samples per pixel for both flip (fullscreen) and blt (windowed) multisampling. It is used when specifying surfaces that can be used when performing multisample rendering (see the Remarks section). Each bit in these 16-bitmasks indicates support of multisampling with a specific number of samples. For example, bit 0 indicates the support of multisampling with only a single sample, bit 1 indicates the support of multisampling with two samples, bit 2 indicates the support of multisampling with three samples, and so on. The driver can indicate more than one supported level by combining the bits using a bitwise OR (see Remarks).
@@ -317,16 +389,6 @@ Specifies a surface format code including any of the codes in the D3DFORMAT enum
 #### wBltMSTypes
 
 <b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for windowed multisampling.
-
-
-#### - dwAlphaBitDepth
-
-Specifies the Alpha channel bit depth. 
-
-
-#### - dwBBitMask
-
-Specifies the mask for blue bits. 
 
 
 #### - dwBumpBitCount
@@ -347,11 +409,6 @@ Specifies the mask for bump map V delta bits.
 #### - dwBumpLuminanceBitMask
 
 Specifies the mask for luminance in a bump map.
-
-
-#### - dwGBitMask
-
-Specifies the mask for green bits. 
 
 
 #### - dwLuminanceAlphaBitMask
@@ -670,19 +727,9 @@ D3DFORMAT_OP_VERTEXTEXTURE
 Specifies the bits per pixel of a pixel format private to the driver (that is, not one of the standard ones defined by Microsoft Direct3D).
 
 
-#### - dwRBitMask
-
-Specifies the mask for red bits. 
-
-
 #### - dwRGBAlphaBitMask, dwYUVAlphaBitMask
 
 Specify the masks for alpha channel. 
-
-
-#### - dwRGBBitCount
-
-Specifies the number of RGB bits per pixel (4, 8, 16, 24, or 32). 
 
 
 #### - dwRGBZBitMask, dwYUVZBitMask
@@ -700,34 +747,9 @@ Specifies the bit depth of the stencil buffer. This member specifies how many bi
 Specifies the mask for stencil bits within each z-buffer pixel.
 
 
-#### - dwUBitMask
-
-Specifies the mask for U bits. 
-
-
-#### - dwVBitMask
-
-Specifies the mask for V bits. 
-
-
-#### - dwYBitMask
-
-Specifies the mask for Y bits. 
-
-
-#### - dwYUVBitCount
-
-Specifies the number of YUV bits per pixel. 
-
-
 #### - dwZBitMask
 
 Specifies the mask for Z bits.
-
-
-#### - dwZBufferBitDepth
-
-Specifies the Z-buffer bit depth (8, 16, 24, or 32 bits). 
 
 
 ## -remarks

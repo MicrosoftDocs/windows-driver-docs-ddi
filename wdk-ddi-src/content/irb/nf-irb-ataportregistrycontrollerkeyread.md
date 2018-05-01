@@ -40,7 +40,7 @@ api_name:
 -	AtaPortRegistryControllerKeyRead
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortRegistryControllerKeyRead function

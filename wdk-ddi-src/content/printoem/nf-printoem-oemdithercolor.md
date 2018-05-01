@@ -7,7 +7,7 @@ old-location: print\oemdithercolor.htm
 old-project: print
 ms.assetid: bf8c2140-8917-42af-86bf-c2f25b0c42b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMDitherColor, OEMDitherColor function [Print Devices], print.oemdithercolor, print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, printoem/OEMDitherColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	OEMDitherColor
 product: Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMDitherColor function

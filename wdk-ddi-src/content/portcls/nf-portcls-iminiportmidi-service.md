@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportMidi.Service
-title: IMiniportMidi::Service method
+title: IMiniportMidi::Service
 author: windows-driver-content
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportmidi_service.htm
 old-project: audio
 ms.assetid: 7ec2c54d-3974-43e9-9ef8-63393b2d02cd
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], Service method, IMiniportMidi::Service, Service method [Audio Devices], Service method [Audio Devices], IMiniportMidi interface, Service,IMiniportMidi.Service, audio.iminiportmidi_service, audmp-routines_e37a9a63-eaeb-4827-b534-4d73dead44fb.xml, portcls/IMiniportMidi::Service
+ms.date: 4/16/2018
+ms.keywords: IMiniportMidi interface [Audio Devices],Service method, IMiniportMidi.Service, IMiniportMidi::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportMidi interface, audio.iminiportmidi_service, audmp-routines_e37a9a63-eaeb-4827-b534-4d73dead44fb.xml, portcls/IMiniportMidi::Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportMidi.Service
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportMidi::Service method
+# IMiniportMidi::Service
 
 
 ## -description

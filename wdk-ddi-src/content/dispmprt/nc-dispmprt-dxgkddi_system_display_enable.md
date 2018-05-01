@@ -7,8 +7,8 @@ old-location: display\dxgkddisystemdisplayenable.htm
 old-project: display
 ms.assetid: D938F7F4-E1FA-4C63-A31D-5ED160276565
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DXGKDDI_SYSTEM_DISPLAY_ENABLE callback, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiSystemDisplayEnable
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_SYSTEM_DISPLAY_ENABLE callback
+# DXGKDDI_SYSTEM_DISPLAY_ENABLE callback function
 
 
 ## -description

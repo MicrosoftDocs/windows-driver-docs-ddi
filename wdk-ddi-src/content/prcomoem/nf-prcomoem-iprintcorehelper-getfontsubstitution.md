@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.GetFontSubstitution
-title: IPrintCoreHelper::GetFontSubstitution method
+title: IPrintCoreHelper::GetFontSubstitution
 author: windows-driver-content
 description: The IPrintCoreHelper::GetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
 old-location: print\iprintcorehelper_getfontsubstitution.htm
 old-project: print
 ms.assetid: 09fc48eb-b124-45b1-a796-71d9a6961e07
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices], IPrintCoreHelper interface, GetFontSubstitution,IPrintCoreHelper.GetFontSubstitution, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], GetFontSubstitution method, IPrintCoreHelper::GetFontSubstitution, prcomoem/IPrintCoreHelper::GetFontSubstitution, print.iprintcorehelper_getfontsubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml
+ms.date: 4/20/2018
+ms.keywords: GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],GetFontSubstitution method, IPrintCoreHelper.GetFontSubstitution, IPrintCoreHelper::GetFontSubstitution, prcomoem/IPrintCoreHelper::GetFontSubstitution, print.iprintcorehelper_getfontsubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintCoreHelper.GetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelper::GetFontSubstitution method
+# IPrintCoreHelper::GetFontSubstitution
 
 
 ## -description

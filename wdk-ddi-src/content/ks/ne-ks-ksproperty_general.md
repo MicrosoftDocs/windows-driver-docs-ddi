@@ -7,7 +7,7 @@ old-location: stream\ksproperty_general.htm
 old-project: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

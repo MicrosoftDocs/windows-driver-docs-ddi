@@ -7,8 +7,8 @@ old-location: stream\adapterreceivepacket.htm
 old-project: stream
 ms.assetid: 8ee658bf-2243-4b1f-b4d6-5d9b6388e972
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: AdapterReceivePacket, AdapterReceivePacket callback function [Streaming Media Devices], PADAPTER_RECEIVE_PACKET_ROUTINE, stream.adapterreceivepacket, usbcamdi/AdapterReceivePacket, usbcmdpr_4f4422ba-64f3-4eee-8450-4a3b5715b910.xml
+ms.date: 4/23/2018
+ms.keywords: AdapterReceivePacket, AdapterReceivePacket callback function [Streaming Media Devices], PADAPTER_RECEIVE_PACKET_ROUTINE, PADAPTER_RECEIVE_PACKET_ROUTINE callback, stream.adapterreceivepacket, usbcamdi/AdapterReceivePacket, usbcmdpr_4f4422ba-64f3-4eee-8450-4a3b5715b910.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	AdapterReceivePacket
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PADAPTER_RECEIVE_PACKET_ROUTINE callback
+# PADAPTER_RECEIVE_PACKET_ROUTINE callback function
 
 
 ## -description

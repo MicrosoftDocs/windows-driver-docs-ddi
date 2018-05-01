@@ -40,7 +40,7 @@ api_name:
 -	HBA_GetFcpTargetMapping
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetFcpTargetMapping function

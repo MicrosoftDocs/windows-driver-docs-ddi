@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_flash.htm
 old-project: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, stream.ksproperty_cameracontrol_flash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

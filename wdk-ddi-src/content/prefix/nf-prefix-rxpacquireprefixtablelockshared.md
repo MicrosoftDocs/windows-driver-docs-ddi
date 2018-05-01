@@ -7,7 +7,7 @@ old-location: ifsk\rxpacquireprefixtablelockshared.htm
 old-project: ifsk
 ms.assetid: 89924d1d-80c2-4778-9647-c3add9e7d013
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxpAcquirePrefixTableLockShared, RxpAcquirePrefixTableLockShared function [Installable File System Drivers], ifsk.rxpacquireprefixtablelockshared, prefix/RxpAcquirePrefixTableLockShared, rxref_340b65e8-2dba-4895-8cdf-e3464d14f5a3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RxpAcquirePrefixTableLockShared
 product: Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxpAcquirePrefixTableLockShared function

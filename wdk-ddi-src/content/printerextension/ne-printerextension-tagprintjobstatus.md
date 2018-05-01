@@ -7,7 +7,7 @@ old-location: print\printjobstatus.htm
 old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PrintJobStatus, PrintJobStatus enumeration [Print Devices], PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Complete, PrintJobStatus_Deleted, PrintJobStatus_Deleting, PrintJobStatus_Error, PrintJobStatus_Offline, PrintJobStatus_PaperOut, PrintJobStatus_Paused, PrintJobStatus_Printed, PrintJobStatus_Printing, PrintJobStatus_Restarted, PrintJobStatus_Retained, PrintJobStatus_Spooling, PrintJobStatus_UserIntervention, print.printjobstatus, printerextension/PrintJobStatus, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Complete, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Printed, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_UserIntervention, tagPrintJobStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: "<= APC_LEVEL"
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PrintJobStatus
-req.product: Windows 10 or later.
 ---
 
 # tagPrintJobStatus enumeration

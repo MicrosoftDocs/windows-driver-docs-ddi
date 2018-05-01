@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_control_connect_events.htm
 old-project: netvista
 ms.assetid: 3AA50940-A782-4A46-8E45-077BC76D41A7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CONTROL_CONNECT_EVENTS, NdkControlConnectEvents, NdkControlConnectEvents callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlConnectEvents, netvista.ndk_fn_control_connect_events
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CONTROL_CONNECT_EVENTS, NDK_FN_CONTROL_CONNECT_EVENTS callback, NdkControlConnectEvents, NdkControlConnectEvents callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlConnectEvents, netvista.ndk_fn_control_connect_events
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkControlConnectEvents
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CONTROL_CONNECT_EVENTS callback
+# NDK_FN_CONTROL_CONNECT_EVENTS callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketgetpointer.htm
 old-project: netvista
 ms.assetid: 56B9C623-2038-4DD3-AA1B-D9A6E47E06C1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketGetPointer, VmbPacketGetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbpacketgetpointer, vmbuskernelmodeclientlibapi/VmbPacketGetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbPacketGetPointer
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketGetPointer function

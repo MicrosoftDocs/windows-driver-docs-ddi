@@ -40,7 +40,7 @@ api_name:
 -	NfcCxSetLlcpConfig
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
+req.typenames: 
 ---
 
 # NfcCxSetLlcpConfig function

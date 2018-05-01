@@ -7,7 +7,7 @@ old-location: print\uff_fileheader.htm
 old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUFF_FILEHEADER, PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print.uff_fileheader, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UFF_FILEHEADER, *PUFF_FILEHEADER
-req.product: Windows 10 or later.
 ---
 
 # _UFF_FILEHEADER structure

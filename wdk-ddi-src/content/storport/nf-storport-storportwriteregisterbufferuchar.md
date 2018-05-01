@@ -41,8 +41,7 @@ api_name:
 -	StorPortWriteRegisterBufferUchar
 product: Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortWriteRegisterBufferUchar macro

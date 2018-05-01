@@ -7,8 +7,8 @@ old-location: display\destroysampler.htm
 old-project: display
 ms.assetid: 8e66de90-c336-43b4-b0ad-cb24cea3638c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DestroySampler, DestroySampler callback function [Display Devices], PFND3D10DDI_DESTROYSAMPLER, UserModeDisplayDriverDx10_Functions_814d0591-6b69-4b30-9463-3c23c62e0b6a.xml, d3d10umddi/DestroySampler, display.destroysampler
+ms.date: 4/16/2018
+ms.keywords: DestroySampler, DestroySampler callback function [Display Devices], PFND3D10DDI_DESTROYSAMPLER, PFND3D10DDI_DESTROYSAMPLER callback, UserModeDisplayDriverDx10_Functions_814d0591-6b69-4b30-9463-3c23c62e0b6a.xml, d3d10umddi/DestroySampler, display.destroysampler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DestroySampler
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_DESTROYSAMPLER callback
+# PFND3D10DDI_DESTROYSAMPLER callback function
 
 
 ## -description

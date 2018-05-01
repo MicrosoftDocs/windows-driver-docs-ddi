@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure

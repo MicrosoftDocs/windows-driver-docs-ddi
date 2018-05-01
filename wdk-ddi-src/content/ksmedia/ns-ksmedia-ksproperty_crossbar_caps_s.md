@@ -7,7 +7,7 @@ old-location: stream\ksproperty_crossbar_caps_s.htm
 old-project: stream
 ms.assetid: 65c0b401-e437-485a-99bc-75ce5296ef34
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CROSSBAR_CAPS_S, KSPROPERTY_CROSSBAR_CAPS_S, KSPROPERTY_CROSSBAR_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_CROSSBAR_CAPS_S, PKSPROPERTY_CROSSBAR_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CROSSBAR_CAPS_S, ksmedia/PKSPROPERTY_CROSSBAR_CAPS_S, stream.ksproperty_crossbar_caps_s, vidcapstruct_db0a7a6a-8f6f-45d8-9d05-c520c8396858.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

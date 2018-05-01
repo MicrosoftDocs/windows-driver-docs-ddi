@@ -40,7 +40,7 @@ api_name:
 -	HidD_GetManufacturerString
 product: Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: 
 ---
 
 # HidD_GetManufacturerString function

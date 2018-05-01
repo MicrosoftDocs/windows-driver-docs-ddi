@@ -7,8 +7,8 @@ old-location: print\iprinterbidisetrequestcallback.htm
 old-project: print
 ms.assetid: C85690D0-3CA7-46C7-B597-E36555879F08
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices], described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
+ms.date: 4/20/2018
+ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices],described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrinterBidiSetRequestCallback
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterBidiSetRequestCallback interface

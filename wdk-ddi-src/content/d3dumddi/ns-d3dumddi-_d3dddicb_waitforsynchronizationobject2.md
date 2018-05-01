@@ -7,7 +7,7 @@ old-location: display\d3dddicb_waitforsynchronizationobject2.htm
 old-project: display
 ms.assetid: b5dbd1f3-4475-41d2-879a-34618b28b485
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dddicb_waitforsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: netvista\filterrestart.htm
 old-project: netvista
 ms.assetid: 4a917824-eef1-4945-b45e-1c940bc8a50d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_RESTART, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
+ms.date: 4/25/2018
+ms.keywords: FILTER_RESTART, FILTER_RESTART callback, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterRestart
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_RESTART callback
+# FILTER_RESTART callback function
 
 
 ## -description

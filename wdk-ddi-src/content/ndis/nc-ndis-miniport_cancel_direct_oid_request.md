@@ -7,8 +7,8 @@ old-location: netvista\miniportcanceldirectoidrequest.htm
 old-project: netvista
 ms.assetid: 88639bb4-89f3-4e7f-9cce-ea541224572d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_CANCEL_DIRECT_OID_REQUEST, MiniportCancelDirectOidRequest, MiniportCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelDirectOidRequest, ndis_request_direct_ref_d98875f6-2607-4d82-ac0f-615a33c0b11e.xml, netvista.miniportcanceldirectoidrequest
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_CANCEL_DIRECT_OID_REQUEST, MINIPORT_CANCEL_DIRECT_OID_REQUEST callback, MiniportCancelDirectOidRequest, MiniportCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelDirectOidRequest, ndis_request_direct_ref_d98875f6-2607-4d82-ac0f-615a33c0b11e.xml, netvista.miniportcanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportCancelDirectOidRequest
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_CANCEL_DIRECT_OID_REQUEST callback
+# MINIPORT_CANCEL_DIRECT_OID_REQUEST callback function
 
 
 ## -description

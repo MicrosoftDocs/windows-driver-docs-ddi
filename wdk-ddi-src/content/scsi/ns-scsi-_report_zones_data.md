@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: REPORT_ZONES_DATA, *PREPORT_ZONES_DATA
-req.product: Windows 10 or later.
 ---
 
 # _REPORT_ZONES_DATA structure

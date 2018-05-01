@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsizeofpacket.htm
 old-project: netvista
 ms.assetid: 3E7EE060-4B1F-4B28-A617-5B1393CEE936
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelSizeofPacket, VmbChannelSizeofPacket function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsizeofpacket, vmbuskernelmodeclientlibapi/VmbChannelSizeofPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelSizeofPacket
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelSizeofPacket function

@@ -7,8 +7,8 @@ old-location: netvista\miniportwditxtalsend.htm
 old-project: netvista
 ms.assetid: 42489ADA-78BF-4EBF-A6EC-5484F82C46ED
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TX_TAL_SEND, MiniportWdiTxTalSend, MiniportWdiTxTalSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSend, netvista.miniportwditxtalsend
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TX_TAL_SEND, MINIPORT_WDI_TX_TAL_SEND callback, MiniportWdiTxTalSend, MiniportWdiTxTalSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSend, netvista.miniportwditxtalsend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiTxTalSend
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TX_TAL_SEND callback
+# MINIPORT_WDI_TX_TAL_SEND callback function
 
 
 ## -description

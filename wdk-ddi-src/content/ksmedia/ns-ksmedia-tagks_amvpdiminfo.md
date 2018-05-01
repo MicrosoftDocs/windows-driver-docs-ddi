@@ -7,7 +7,7 @@ old-location: stream\ks_amvpdiminfo.htm
 old-project: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, tagKS_AMVPDIMINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

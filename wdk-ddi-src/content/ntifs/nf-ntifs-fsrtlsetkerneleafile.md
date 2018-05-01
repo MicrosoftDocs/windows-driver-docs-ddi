@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlsetkerneleafile.htm
 old-project: ifsk
 ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile, ntifs/FsRtlSetKernelEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlSetKernelEaFile
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlSetKernelEaFile function

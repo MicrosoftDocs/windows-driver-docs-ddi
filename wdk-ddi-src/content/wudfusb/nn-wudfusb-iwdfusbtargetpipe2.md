@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c3df39cb-17f4-4f68-bde3-f53ba40dde85
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetPipe2, IWDFUsbTargetPipe2 interface, IWDFUsbTargetPipe2 interface, described, UMDFUSBref_835fc9c8-f01e-4b39-ab06-530f36886ea3.xml, umdf.iwdfusbtargetpipe2, wdf.iwdfusbtargetpipe2, wudfusb/IWDFUsbTargetPipe2
+ms.keywords: IWDFUsbTargetPipe2, IWDFUsbTargetPipe2 interface, IWDFUsbTargetPipe2 interface,described, UMDFUSBref_835fc9c8-f01e-4b39-ab06-530f36886ea3.xml, umdf.iwdfusbtargetpipe2, wdf.iwdfusbtargetpipe2, wudfusb/IWDFUsbTargetPipe2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -40,8 +40,7 @@ api_name:
 -	IWDFUsbTargetPipe2
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFUsbTargetPipe2 interface

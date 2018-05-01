@@ -7,8 +7,8 @@ old-location: audio\eventhandler.htm
 old-project: audio
 ms.assetid: 06239870-8ed8-49c9-a9d4-fd3e28f3ab58
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
+ms.date: 4/16/2018
+ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, PCPFNEVENT_HANDLER callback, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	EventHandler
 product: Windows
 targetos: Windows
-req.typenames: PosValueStatisticsEntry
+req.typenames: 
 ---
 
-# PCPFNEVENT_HANDLER callback
+# PCPFNEVENT_HANDLER callback function
 
 
 ## -description

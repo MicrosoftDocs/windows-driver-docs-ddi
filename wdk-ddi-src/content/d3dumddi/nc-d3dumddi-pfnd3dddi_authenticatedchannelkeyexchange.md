@@ -7,8 +7,8 @@ old-location: display\authenticatedchannelkeyexchange.htm
 old-project: display
 ms.assetid: 627f9689-1059-4f88-9005-9c7600dad686
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AuthenticatedChannelKeyExchange, AuthenticatedChannelKeyExchange callback function [Display Devices], PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE, UserModeDisplayDriver_Functions_2882c4c2-3df6-4610-9f8f-83967c485457.xml, d3dumddi/AuthenticatedChannelKeyExchange, display.authenticatedchannelkeyexchange
+ms.date: 4/16/2018
+ms.keywords: AuthenticatedChannelKeyExchange, AuthenticatedChannelKeyExchange callback function [Display Devices], PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE, PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE callback, UserModeDisplayDriver_Functions_2882c4c2-3df6-4610-9f8f-83967c485457.xml, d3dumddi/AuthenticatedChannelKeyExchange, display.authenticatedchannelkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	AuthenticatedChannelKeyExchange
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE callback
+# PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE callback function
 
 
 ## -description

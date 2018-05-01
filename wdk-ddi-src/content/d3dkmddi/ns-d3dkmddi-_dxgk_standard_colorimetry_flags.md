@@ -7,7 +7,7 @@ old-location: display\dxgk_standard_colorimetry_flags.htm
 old-project: display
 ms.assetid: 473C5D7B-8FDD-49E2-981A-00ECCA67671A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], PDXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], _DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,27 +57,27 @@ Flags describing standard colorimetry and related support.
 
 
 
-### -field Value
-
-The combined value that is operated on.
-
-
-#### - BT2020RGB
-
-Flag which indicates device support for the color space defined by BT.2020 using an RGB signal format.
-
-
-#### - BT2020YCC
+### -field BT2020YCC
 
 Flag which indicates device support for the color space defined by BT.2020 using a YCC signal format.
 
 
-#### - Reserved
+### -field BT2020RGB
+
+Flag which indicates device support for the color space defined by BT.2020 using an RGB signal format.
+
+
+### -field ST2084
+
+Flag which indicates device support for the ST.2084 EOTF.
+
+
+### -field Reserved
 
 This value is reserved for system use.
 
 
-#### - ST2084
+### -field Value
 
-Flag which indicates device support for the ST.2084 EOTF.
+The combined value that is operated on.
 

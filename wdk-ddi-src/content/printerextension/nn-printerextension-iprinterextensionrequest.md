@@ -7,8 +7,8 @@ old-location: print\iprinterextensionrequest_interface.htm
 old-project: print
 ms.assetid: 0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices], described, print.iprinterextensionrequest_interface, printerextension/IPrinterExtensionRequest
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices],described, print.iprinterextensionrequest_interface, printerextension/IPrinterExtensionRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,8 +40,7 @@ api_name:
 -	IPrinterExtensionRequest
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterExtensionRequest interface

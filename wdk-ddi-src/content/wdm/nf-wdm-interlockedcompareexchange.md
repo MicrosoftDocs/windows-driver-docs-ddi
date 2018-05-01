@@ -7,7 +7,7 @@ old-location: kernel\interlockedcompareexchange.htm
 old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,8 +45,7 @@ api_name:
 -	InterlockedCompareExchange
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # InterlockedCompareExchange function

@@ -40,8 +40,7 @@ api_name:
 -	SMARTCARD_EXTENSION
 product: Windows
 targetos: Windows
-req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION"
-req.product: Windows 10 or later.
+req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
 ---
 
 # _SMARTCARD_EXTENSION structure
@@ -100,32 +99,27 @@ Not used.
      
 
 
-
-#### Information
+### -field IoRequest.Information
 
 Contains the number of bytes returned. 
 
 
-
-#### RequestBuffer
+### -field IoRequest.RequestBuffer
 
 A pointer to the data in the user's I/O request to be sent to the card. 
 
 
-
-#### RequestBufferLength
+### -field IoRequest.RequestBufferLength
 
 Indicates the number of bytes to send to the card. 
 
 
-
-#### ReplyBuffer
+### -field IoRequest.ReplyBuffer
 
 A pointer to the buffer that holds the data that is returned by the I/O request. 
 
 
-
-#### ReplyBufferLength
+### -field IoRequest.ReplyBufferLength
 
 Indicates the number of bytes of the data that are returned by the I/O request. 
 

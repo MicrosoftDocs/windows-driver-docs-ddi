@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_BLANK_PAYLOAD structure

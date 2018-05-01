@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Add
-title: IWDTFActions2::Add method
+title: IWDTFActions2::Add
 author: windows-driver-content
 description: Add a single action to the collection.
 old-location: dtf\iwdtfactions2_add.htm
 old-project: dtf
 ms.assetid: a6361d17-419f-4e34-b36f-5258dd34cc88
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFActions2 interface, Add,IWDTFActions2.Add, IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], Add method, IWDTFActions2::Add, dtf.iwdtfactions2_add, wdtf/IWDTFActions2::Add
+ms.date: 4/4/2018
+ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Add method, IWDTFActions2.Add, IWDTFActions2::Add, dtf.iwdtfactions2_add, wdtf/IWDTFActions2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFActions2.Add
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFActions2::Add method
+# IWDTFActions2::Add
 
 
 ## -description

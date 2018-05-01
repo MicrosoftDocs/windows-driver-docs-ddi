@@ -7,7 +7,7 @@ old-location: netvista\wdi_encapsulation_type.htm
 old-project: netvista
 ms.assetid: 6EDCC69B-F156-416B-9824-5E26F9834D14
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_ENCAPSULATION_802_1H, WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], _WDI_ENCAPSULATION_TYPE, netvista.wdi_encapsulation_type, netvista.wifi_encapsulation_type, wditypes/WDI_ENCAPSULATION_802_1H, wditypes/WDI_ENCAPSULATION_RFC_1042, wditypes/WDI_ENCAPSULATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDI_ENCAPSULATION_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDI_ENCAPSULATION_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: kernel\kederegisterboundcallback.htm
 old-project: kernel
 ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.kederegisterboundcallback, wdm/KeDeregisterBoundCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeDeregisterBoundCallback
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeDeregisterBoundCallback function

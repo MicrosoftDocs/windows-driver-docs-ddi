@@ -7,7 +7,7 @@ old-location: display\d3d11ddi_3dpipelinelevel.htm
 old-project: display
 ms.assetid: 824008f2-fe83-47ea-9387-38978b98e7e4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11DDI_3DPIPELINELEVEL, D3D11DDI_3DPIPELINELEVEL enumeration [Display Devices], D3D11DDI_3DPIPELINELEVEL_10_0, D3D11DDI_3DPIPELINELEVEL_10_1, D3D11DDI_3DPIPELINELEVEL_11_0, D3D11_1DDI_3DPIPELINELEVEL_11_1, D3D11_1DDI_3DPIPELINELEVEL_9_1, D3D11_1DDI_3DPIPELINELEVEL_9_2, D3D11_1DDI_3DPIPELINELEVEL_9_3, UMDisplayDriver_Dx11param_Structs_194835cf-19d6-43d1-9c4d-726a06c0a4cb.xml, d3d10umddi/D3D11DDI_3DPIPELINELEVEL, d3d10umddi/D3D11DDI_3DPIPELINELEVEL_10_0, d3d10umddi/D3D11DDI_3DPIPELINELEVEL_10_1, d3d10umddi/D3D11DDI_3DPIPELINELEVEL_11_0, d3d10umddi/D3D11_1DDI_3DPIPELINELEVEL_11_1, d3d10umddi/D3D11_1DDI_3DPIPELINELEVEL_9_1, d3d10umddi/D3D11_1DDI_3DPIPELINELEVEL_9_2, d3d10umddi/D3D11_1DDI_3DPIPELINELEVEL_9_3, display.d3d11ddi_3dpipelinelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

@@ -7,7 +7,7 @@ old-location: ifsk\ccpurgecachesection.htm
 old-project: ifsk
 ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers], ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ifsk.ccpurgecachesection, ntifs/CcPurgeCacheSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	CcPurgeCacheSection
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcPurgeCacheSection function

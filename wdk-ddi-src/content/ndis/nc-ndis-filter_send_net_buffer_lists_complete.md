@@ -7,8 +7,8 @@ old-location: netvista\filtersendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: 1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, FilterSendNetBufferListsComplete, FilterSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_5022c19b-6433-4c57-aa68-20270400950b.xml, ndis/FilterSendNetBufferListsComplete, netvista.filtersendnetbufferlistscomplete
+ms.date: 4/25/2018
+ms.keywords: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback, FilterSendNetBufferListsComplete, FilterSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_5022c19b-6433-4c57-aa68-20270400950b.xml, ndis/FilterSendNetBufferListsComplete, netvista.filtersendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterSendNetBufferListsComplete
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback
+# FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback function
 
 
 ## -description

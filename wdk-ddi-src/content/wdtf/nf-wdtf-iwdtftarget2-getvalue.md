@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValue
-title: IWDTFTarget2::GetValue method
+title: IWDTFTarget2::GetValue
 author: windows-driver-content
 description: Returns a value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvalue.htm
 old-project: dtf
 ms.assetid: 41805e57-770b-416a-989f-25f81ee4d757
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetValue method [Windows Device Testing Framework], GetValue method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValue,IWDTFTarget2.GetValue, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValue method, IWDTFTarget2::GetValue, Microsoft.WDTF.IWDTFTarget2.GetValue, Microsoft::WDTF::IWDTFTarget2::GetValue, dtf.iwdtftarget2_getvalue, wdtf/IWDTFTarget2::GetValue
+ms.date: 4/4/2018
+ms.keywords: GetValue, GetValue method [Windows Device Testing Framework], GetValue method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValue method, IWDTFTarget2.GetValue, IWDTFTarget2::GetValue, Microsoft.WDTF.IWDTFTarget2.GetValue, Microsoft::WDTF::IWDTFTarget2::GetValue, dtf.iwdtftarget2_getvalue, wdtf/IWDTFTarget2::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFTarget2.GetValue
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::GetValue method
+# IWDTFTarget2::GetValue
 
 
 ## -description

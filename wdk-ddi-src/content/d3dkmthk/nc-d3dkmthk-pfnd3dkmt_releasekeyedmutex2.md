@@ -7,8 +7,8 @@ old-location: display\d3dkmtreleasekeyedmutex2.htm
 old-project: display
 ms.assetid: e5df165c-3d85-42b9-affe-3dcc7c46aa0b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTReleaseKeyedMutex2, D3DKMTReleaseKeyedMutex2 callback function [Display Devices], PFND3DKMT_RELEASEKEYEDMUTEX2, d3dkmthk/D3DKMTReleaseKeyedMutex2, display.d3dkmtreleasekeyedmutex2
+ms.date: 4/16/2018
+ms.keywords: D3DKMTReleaseKeyedMutex2, D3DKMTReleaseKeyedMutex2 callback function [Display Devices], PFND3DKMT_RELEASEKEYEDMUTEX2, PFND3DKMT_RELEASEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTReleaseKeyedMutex2, display.d3dkmtreleasekeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	D3DKMTReleaseKeyedMutex2
 product: Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_RELEASEKEYEDMUTEX2 callback
+# PFND3DKMT_RELEASEKEYEDMUTEX2 callback function
 
 
 ## -description

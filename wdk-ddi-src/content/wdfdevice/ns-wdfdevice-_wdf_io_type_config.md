@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_IO_TYPE_CONFIG structure

@@ -7,7 +7,7 @@ old-location: netvista\wsk_tdi_map.htm
 old-project: netvista
 ms.assetid: 4c1407e9-2e4d-41cc-8d50-017c8c2bf20f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWSK_TDI_MAP, PWSK_TDI_MAP, PWSK_TDI_MAP structure pointer [Network Drivers Starting with Windows Vista], WSK_TDI_MAP, WSK_TDI_MAP structure [Network Drivers Starting with Windows Vista], _WSK_TDI_MAP, netvista.wsk_tdi_map, wsk/PWSK_TDI_MAP, wsk/WSK_TDI_MAP, wskref_7be2eb13-c9b8-4fc8-bc00-b3d168353ed0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WSK_TDI_MAP, *PWSK_TDI_MAP
-req.product: Windows 10 or later.
 ---
 
 # _WSK_TDI_MAP structure

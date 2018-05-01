@@ -7,7 +7,7 @@ old-location: netvista\rilalphaidentifierparammask.htm
 old-project: netvista
 ms.assetid: 33f51fb2-3308-4e24-925a-b17e117b18b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask, ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REMOVE_LOCK_OPTIONS structure

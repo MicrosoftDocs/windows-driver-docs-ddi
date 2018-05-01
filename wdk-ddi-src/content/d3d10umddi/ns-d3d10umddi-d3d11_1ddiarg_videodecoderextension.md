@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_videodecoderextension.htm
 old-project: display
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, display.d3d11_1ddiarg_videodecoderextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

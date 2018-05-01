@@ -7,7 +7,7 @@ old-location: netvista\rilpersodeactivationstateparammask.htm
 old-project: netvista
 ms.assetid: 11c4388b-5c0d-4133-9c68-059d1af5c2ca
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILPERSODEACTIVATIONSTATEPARAMMASK, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PDS_ALL, RIL_PARAM_PDS_CK_ATTEMPTS, RIL_PARAM_PDS_PUK_ATTEMPTS, netvista.rilpersodeactivationstateparammask, ntddrilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_PDS_ALL, ntddrilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, ntddrilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILPERSODEACTIVATIONSTATEPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILPERSODEACTIVATIONSTATEPARAMMASK enumeration

@@ -7,8 +7,8 @@ old-location: netvista\miniportwdiidlenotification.htm
 old-project: netvista
 ms.assetid: BA050C7C-A593-469E-9212-B363F2D2A409
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_IDLE_NOTIFICATION, MiniportWdiIdleNotification, MiniportWdiIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiIdleNotification, netvista.miniportwdiidlenotification
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_IDLE_NOTIFICATION, MINIPORT_WDI_IDLE_NOTIFICATION callback, MiniportWdiIdleNotification, MiniportWdiIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiIdleNotification, netvista.miniportwdiidlenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	MiniportWdiIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_IDLE_NOTIFICATION callback
+# MINIPORT_WDI_IDLE_NOTIFICATION callback function
 
 
 ## -description

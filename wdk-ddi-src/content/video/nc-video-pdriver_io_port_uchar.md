@@ -7,8 +7,8 @@ old-location: display\svgahwioportuchar.htm
 old-project: display
 ms.assetid: 91e2dc51-0f3a-4cda-abe6-72893fd4da79
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PDRIVER_IO_PORT_UCHAR, SvgaHwIoPortUchar, SvgaHwIoPortUchar callback function [Display Devices], VideoMiniport_Functions_d926584b-82e3-463e-ad50-b04d065a1d9d.xml, display.svgahwioportuchar, video/SvgaHwIoPortUchar
+ms.date: 4/16/2018
+ms.keywords: PDRIVER_IO_PORT_UCHAR, PDRIVER_IO_PORT_UCHAR callback, SvgaHwIoPortUchar, SvgaHwIoPortUchar callback function [Display Devices], VideoMiniport_Functions_d926584b-82e3-463e-ad50-b04d065a1d9d.xml, display.svgahwioportuchar, video/SvgaHwIoPortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	SvgaHwIoPortUchar
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PDRIVER_IO_PORT_UCHAR callback
+# PDRIVER_IO_PORT_UCHAR callback function
 
 
 ## -description

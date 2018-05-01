@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_privileged_memory_region_token.htm
 old-project: netvista
 ms.assetid: A6295FEE-3633-42E7-A2EA-BA0D3C9E4101
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, NdkGetPrivilegedMemoryRegionToken, NdkGetPrivilegedMemoryRegionToken callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPrivilegedMemoryRegionToken, netvista.ndk_fn_get_privileged_memory_region_token
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback, NdkGetPrivilegedMemoryRegionToken, NdkGetPrivilegedMemoryRegionToken callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPrivilegedMemoryRegionToken, netvista.ndk_fn_get_privileged_memory_region_token
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdkGetPrivilegedMemoryRegionToken
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback
+# NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback function
 
 
 ## -description

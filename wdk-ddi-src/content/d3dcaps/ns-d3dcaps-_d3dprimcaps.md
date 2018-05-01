@@ -7,7 +7,7 @@ old-location: display\d3dprimcaps.htm
 old-project: display
 ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DPRIMCAPS, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, display.d3dprimcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

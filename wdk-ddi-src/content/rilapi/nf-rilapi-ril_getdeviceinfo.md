@@ -7,7 +7,7 @@ old-location: netvista\ril_getdeviceinfo.htm
 old-project: netvista
 ms.assetid: b125bf24-54fa-4a2e-912a-d0d0ed2a3568
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetDeviceInfo, RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdeviceinfo, rilapi/RIL_GetDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	RIL_GetDeviceInfo
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetDeviceInfo function

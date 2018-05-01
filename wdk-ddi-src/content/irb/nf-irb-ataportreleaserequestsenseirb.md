@@ -43,7 +43,7 @@ api_name:
 -	AtaPortReleaseRequestSenseIrb
 product: Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortReleaseRequestSenseIrb function

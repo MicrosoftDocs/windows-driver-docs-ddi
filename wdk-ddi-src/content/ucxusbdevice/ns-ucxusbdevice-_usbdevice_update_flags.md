@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_update_flags.htm
 old-project: usbref
 ms.assetid: 36F009C8-046B-437A-83D6-AE8D5BF51AF3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: P_USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_UPDATE_FLAGS structure

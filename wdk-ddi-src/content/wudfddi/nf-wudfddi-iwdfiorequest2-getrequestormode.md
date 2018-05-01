@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetRequestorMode
-title: IWDFIoRequest2::GetRequestorMode method
+title: IWDFIoRequest2::GetRequestorMode
 author: windows-driver-content
 description: The GetRequestorMode method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver).
 old-location: wdf\iwdfiorequest2_getrequestormode.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f918bc4-d2d0-4d5b-93c8-89f02c81a701
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetRequestorMode method, GetRequestorMode method, IWDFIoRequest2 interface, GetRequestorMode,IWDFIoRequest2.GetRequestorMode, IWDFIoRequest2, IWDFIoRequest2 interface, GetRequestorMode method, IWDFIoRequest2::GetRequestorMode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, umdf.iwdfiorequest2_getrequestormode, wdf.iwdfiorequest2_getrequestormode, wudfddi/IWDFIoRequest2::GetRequestorMode
+ms.keywords: GetRequestorMode, GetRequestorMode method, GetRequestorMode method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetRequestorMode method, IWDFIoRequest2.GetRequestorMode, IWDFIoRequest2::GetRequestorMode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, umdf.iwdfiorequest2_getrequestormode, wdf.iwdfiorequest2_getrequestormode, wudfddi/IWDFIoRequest2::GetRequestorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest2.GetRequestorMode
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::GetRequestorMode method
+# IWDFIoRequest2::GetRequestorMode
 
 
 ## -description

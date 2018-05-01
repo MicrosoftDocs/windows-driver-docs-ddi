@@ -7,7 +7,7 @@ old-location: kernel\pep_perf_state_unit.htm
 old-project: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, PepPerfStateUnitFrequency, PepPerfStateUnitMax, PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, kernel.pep_perf_state_unit, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitOther"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	PEP_PERF_STATE_UNIT
 product: Windows
 targetos: Windows
-req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT
+req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT
 ---
 
 # _PEP_PERF_STATE_UNIT enumeration

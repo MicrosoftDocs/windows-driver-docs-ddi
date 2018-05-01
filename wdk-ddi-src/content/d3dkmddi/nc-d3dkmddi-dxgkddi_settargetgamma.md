@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetgamma.htm
 old-project: display
 ms.assetid: 658EA0AA-80FC-4A45-B2EF-DFE928917E7B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_SETTARGETGAMMA, DXGKDDI_SETTARGETGAMMA callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETGAMMA, display.dxgkddi_settargetgamma
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETTARGETGAMMA, DXGKDDI_SETTARGETGAMMA callback, DXGKDDI_SETTARGETGAMMA callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETGAMMA, display.dxgkddi_settargetgamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DXGKDDI_SETTARGETGAMMA
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SETTARGETGAMMA callback
+# DXGKDDI_SETTARGETGAMMA callback function
 
 
 ## -description

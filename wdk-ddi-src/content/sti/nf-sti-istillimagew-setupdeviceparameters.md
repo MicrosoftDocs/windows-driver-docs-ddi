@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.SetupDeviceParameters
-title: IStillImageW::SetupDeviceParameters method
+title: IStillImageW::SetupDeviceParameters
 author: windows-driver-content
 description: The IStillImage::SetupDeviceParameters method allows clients of the IStillImage COM interface to modify a still image device's stored characteristics, if the device's bus type is unknown.
 old-location: image\istillimage_setupdeviceparameters.htm
 old-project: image
 ms.assetid: 8fbbe6c8-bf65-42df-a4e4-cb683b567bf7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], SetupDeviceParameters method, IStillImageW::SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices], IStillImageW interface, SetupDeviceParameters,IStillImageW.SetupDeviceParameters, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
+ms.date: 4/23/2018
+ms.keywords: IStillImageW interface [Imaging Devices],SetupDeviceParameters method, IStillImageW.SetupDeviceParameters, IStillImageW::SetupDeviceParameters, SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices],IStillImageW interface, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStillImageW.SetupDeviceParameters
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::SetupDeviceParameters method
+# IStillImageW::SetupDeviceParameters
 
 
 ## -description

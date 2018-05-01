@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE, *PWDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_IO_QUEUE_STATE enumeration

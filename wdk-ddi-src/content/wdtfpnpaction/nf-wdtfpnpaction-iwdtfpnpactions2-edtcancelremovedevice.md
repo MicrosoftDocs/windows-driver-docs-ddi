@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTCancelRemoveDevice
-title: IWDTFPNPActions2::EDTCancelRemoveDevice method
+title: IWDTFPNPActions2::EDTCancelRemoveDevice
 author: windows-driver-content
 description: Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtcancelremovedevice.htm
 old-project: dtf
 ms.assetid: 96992c25-4388-4069-9405-ebf3667c3103
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTCancelRemoveDevice,IWDTFPNPActions2.EDTCancelRemoveDevice, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTCancelRemoveDevice method, IWDTFPNPActions2::EDTCancelRemoveDevice, dtf.iwdtfpnpactions2_edtcancelremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelRemoveDevice
+ms.date: 4/4/2018
+ms.keywords: EDTCancelRemoveDevice, EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTCancelRemoveDevice method, IWDTFPNPActions2.EDTCancelRemoveDevice, IWDTFPNPActions2::EDTCancelRemoveDevice, dtf.iwdtfpnpactions2_edtcancelremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFPNPActions2.EDTCancelRemoveDevice
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::EDTCancelRemoveDevice method
+# IWDTFPNPActions2::EDTCancelRemoveDevice
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_blt_state_constriction_data.htm
 old-project: display
 ms.assetid: 5bdb39cc-18b3-4a01-b733-f308273399a1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_4759e9c4-cde3-40d9-8f13-a7437ba73eac.xml, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, display.dxvahdddi_blt_state_constriction_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

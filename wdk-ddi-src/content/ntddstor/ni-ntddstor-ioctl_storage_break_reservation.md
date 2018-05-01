@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4f6d14b1-45fd-4f45-a10a-1483c10cec12
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_BREAK_RESERVATION, IOCTL_STORAGE_BREAK_RESERVATION control code [Storage Devices], k307_c8e206c8-a186-4bd4-a68e-899c8ca652a4.xml, ntddstor/IOCTL_STORAGE_BREAK_RESERVATION, storage.ioctl_storage_break_reservation
+ms.keywords: IOCTL_STORAGE_BREAK_RESERVATION, IOCTL_STORAGE_BREAK_RESERVATION control, IOCTL_STORAGE_BREAK_RESERVATION control code [Storage Devices], k307_c8e206c8-a186-4bd4-a68e-899c8ca652a4.xml, ntddstor/IOCTL_STORAGE_BREAK_RESERVATION, storage.ioctl_storage_break_reservation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_STORAGE_BREAK_RESERVATION
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_BREAK_RESERVATION IOCTL

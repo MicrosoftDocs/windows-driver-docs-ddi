@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: E06B1444-F270-48A0-A096-E0289DD4DBBA
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_ENABLE_WAKE_ON_SX, IOCTL_HID_ENABLE_WAKE_ON_SX control code [Human Input Devices], hid.ioctl_hid_enable_wake_on_sx, hidclass/IOCTL_HID_ENABLE_WAKE_ON_SX
+ms.keywords: IOCTL_HID_ENABLE_WAKE_ON_SX, IOCTL_HID_ENABLE_WAKE_ON_SX control, IOCTL_HID_ENABLE_WAKE_ON_SX control code [Human Input Devices], hid.ioctl_hid_enable_wake_on_sx, hidclass/IOCTL_HID_ENABLE_WAKE_ON_SX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_HID_ENABLE_WAKE_ON_SX
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_ENABLE_WAKE_ON_SX IOCTL

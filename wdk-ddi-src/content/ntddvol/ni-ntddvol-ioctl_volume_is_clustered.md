@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aa8accf8-79c9-4868-b621-d468a121cb60
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control code [Storage Devices], k307_32e3c9a5-1828-4fbb-b7f1-9ddbd367f70f.xml, ntddvol/IOCTL_VOLUME_IS_CLUSTERED, storage.ioctl_volume_is_clustered
+ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL_VOLUME_IS_CLUSTERED control code [Storage Devices], k307_32e3c9a5-1828-4fbb-b7f1-9ddbd367f70f.xml, ntddvol/IOCTL_VOLUME_IS_CLUSTERED, storage.ioctl_volume_is_clustered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_VOLUME_IS_CLUSTERED
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
+req.typenames: 
 ---
 
 # IOCTL_VOLUME_IS_CLUSTERED IOCTL

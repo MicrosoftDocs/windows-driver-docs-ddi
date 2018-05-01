@@ -7,7 +7,7 @@ old-location: netvista\rilsetcallbarringstatusparams.htm
 old-project: netvista
 ms.assetid: 1e524d3d-d9dc-4d95-ad13-258cd51bc532
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallbarringstatusparams, ntddrilapitypes/RILSETCALLBARRINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILSETCALLBARRINGSTATUSPARAMS, *LPRILSETCALLBARRINGSTATUSPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILSETCALLBARRINGSTATUSPARAMS structure

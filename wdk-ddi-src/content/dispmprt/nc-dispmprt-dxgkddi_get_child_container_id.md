@@ -7,8 +7,8 @@ old-location: display\dxgkddigetchildcontainerid.htm
 old-project: display
 ms.assetid: e7073fb3-0cb7-425e-9ffb-d7eaa963a70f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DXGKDDI_GET_CHILD_CONTAINER_ID callback, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiGetChildContainerId
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_GET_CHILD_CONTAINER_ID callback
+# DXGKDDI_GET_CHILD_CONTAINER_ID callback function
 
 
 ## -description

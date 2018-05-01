@@ -7,8 +7,8 @@ old-location: display\destroyvideoprocessorenum.htm
 old-project: display
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM, d3d10umddi/pfnDestroyVideoProcessorEnum, display.destroyvideoprocessorenum, pfnDestroyVideoProcessorEnum, pfnDestroyVideoProcessorEnum callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM, PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback, d3d10umddi/pfnDestroyVideoProcessorEnum, display.destroyvideoprocessorenum, pfnDestroyVideoProcessorEnum, pfnDestroyVideoProcessorEnum callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnDestroyVideoProcessorEnum
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback
+# PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IFixedDocumentSequence.GetPrintTicket
-title: IFixedDocumentSequence::GetPrintTicket method
+title: IFixedDocumentSequence::GetPrintTicket
 author: windows-driver-content
 description: The GetPrintTicket method gets the print ticket object for the fixed document sequence.
 old-location: print\ifixeddocumentsequence_getprintticket.htm
 old-project: print
 ms.assetid: dba0ac90-a895-4daf-ba7c-b7a8a32fed19
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices], IFixedDocumentSequence interface, GetPrintTicket,IFixedDocumentSequence.GetPrintTicket, IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], GetPrintTicket method, IFixedDocumentSequence::GetPrintTicket, filterpipeline/IFixedDocumentSequence::GetPrintTicket, filterpipeline_f94c6c29-91ba-4820-ad22-12cc9604993c.xml, print.ifixeddocumentsequence_getprintticket
+ms.date: 4/20/2018
+ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices],GetPrintTicket method, IFixedDocumentSequence.GetPrintTicket, IFixedDocumentSequence::GetPrintTicket, filterpipeline/IFixedDocumentSequence::GetPrintTicket, filterpipeline_f94c6c29-91ba-4820-ad22-12cc9604993c.xml, print.ifixeddocumentsequence_getprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IFixedDocumentSequence.GetPrintTicket
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IFixedDocumentSequence::GetPrintTicket method
+# IFixedDocumentSequence::GetPrintTicket
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\classifyfn1.htm
 old-project: netvista
 ms.assetid: 128fd929-6e83-46a0-9475-e459ede58f30
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_CALLOUT_CLASSIFY_FN1, classifyFn1, classifyFn1 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn1, netvista.classifyfn1, wfp_ref_2_funct_4_callout_db29c2d0-9b7c-4737-b66f-472c78fff234.xml
+ms.date: 4/25/2018
+ms.keywords: FWPS_CALLOUT_CLASSIFY_FN1, FWPS_CALLOUT_CLASSIFY_FN1 callback, classifyFn1, classifyFn1 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn1, netvista.classifyfn1, wfp_ref_2_funct_4_callout_db29c2d0-9b7c-4737-b66f-472c78fff234.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	classifyFn1
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_CALLOUT_CLASSIFY_FN1 callback
+# FWPS_CALLOUT_CLASSIFY_FN1 callback function
 
 
 ## -description

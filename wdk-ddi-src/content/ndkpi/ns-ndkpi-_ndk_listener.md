@@ -7,7 +7,7 @@ old-location: netvista\ndk_listener.htm
 old-project: netvista
 ms.assetid: 0043DC3F-E8EE-448F-B381-C67C199CE7A7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	NDK_LISTENER
 product: Windows
 targetos: Windows
-req.typenames: NDK_LISTENER, NDK_LISTENER
+req.typenames: NDK_LISTENER
 ---
 
 # _NDK_LISTENER structure

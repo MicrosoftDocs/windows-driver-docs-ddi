@@ -7,8 +7,8 @@ old-location: netvista\evt_vmb_channel_post_started.htm
 old-project: netvista
 ms.assetid: 0F48459F-BA02-4A0E-9228-BC064A6AD150
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EVT_VMB_CHANNEL_POST_STARTED, EvtVmbChannelPostStarted, EvtVmbChannelPostStarted callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_POST_STARTED, PFN_VMB_CHANNEL_POST_STARTED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_post_started, vmbuskernelmodeclientlibapi/EvtVmbChannelPostStarted
+ms.date: 4/25/2018
+ms.keywords: EVT_VMB_CHANNEL_POST_STARTED, EVT_VMB_CHANNEL_POST_STARTED callback, EvtVmbChannelPostStarted, EvtVmbChannelPostStarted callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_POST_STARTED, PFN_VMB_CHANNEL_POST_STARTED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_post_started, vmbuskernelmodeclientlibapi/EvtVmbChannelPostStarted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	PFN_VMB_CHANNEL_POST_STARTED
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_VMB_CHANNEL_POST_STARTED callback
+# EVT_VMB_CHANNEL_POST_STARTED callback function
 
 
 ## -description

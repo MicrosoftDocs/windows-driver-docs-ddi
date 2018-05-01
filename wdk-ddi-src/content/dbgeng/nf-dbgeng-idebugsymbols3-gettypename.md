@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeName
-title: IDebugSymbols3::GetTypeName method
+title: IDebugSymbols3::GetTypeName
 author: windows-driver-content
 description: The GetTypeName method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypename.htm
 old-project: debugger
 ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging], IDebugSymbols interface, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, GetTypeName,IDebugSymbols3.GetTypeName, IDebugSymbols interface [Windows Debugging], GetTypeName method, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, IDebugSymbols2::GetTypeName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, IDebugSymbols3::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename
+ms.date: 4/24/2018
+ms.keywords: GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],IDebugSymbols interface, GetTypeName method [Windows Debugging],IDebugSymbols2 interface, GetTypeName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeName method, IDebugSymbols2 interface [Windows Debugging],GetTypeName method, IDebugSymbols2::GetTypeName, IDebugSymbols3 interface [Windows Debugging],GetTypeName method, IDebugSymbols3.GetTypeName, IDebugSymbols3::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugSymbols3.GetTypeName
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetTypeName method
+# IDebugSymbols3::GetTypeName
 
 
 ## -description

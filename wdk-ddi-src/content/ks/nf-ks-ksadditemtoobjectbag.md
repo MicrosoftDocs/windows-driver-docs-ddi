@@ -7,7 +7,7 @@ old-location: stream\ksadditemtoobjectbag.htm
 old-project: stream
 ms.assetid: 4c8b6252-8438-4cd1-81e0-02c260da0daf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAddItemToObjectBag, KsAddItemToObjectBag function [Streaming Media Devices], avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml, ks/KsAddItemToObjectBag, stream.ksadditemtoobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices

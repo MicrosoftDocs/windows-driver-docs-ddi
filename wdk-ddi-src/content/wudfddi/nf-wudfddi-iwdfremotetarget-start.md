@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Start
-title: IWDFRemoteTarget::Start method
+title: IWDFRemoteTarget::Start
 author: windows-driver-content
 description: The IWDFRemoteTarget::Start method restarts a remote I/O target that is stopped.
 old-location: wdf\iwdfremotetarget_start.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, Start method, IWDFRemoteTarget::Start, Start method, Start method, IWDFRemoteTarget interface, Start,IWDFRemoteTarget.Start, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, wdf.iwdfremotetarget_start, wudfddi/IWDFRemoteTarget::Start
+ms.keywords: IWDFRemoteTarget interface,Start method, IWDFRemoteTarget.Start, IWDFRemoteTarget::Start, Start, Start method, Start method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, wdf.iwdfremotetarget_start, wudfddi/IWDFRemoteTarget::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFRemoteTarget.Start
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::Start method
+# IWDFRemoteTarget::Start
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e7186c16-f093-4a64-aa25-03e9ce0f967e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml
+ms.keywords: AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, PSHED_PI_ATTEMPT_ERROR_RECOVERY callback, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	AttemptRecovery
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_ATTEMPT_ERROR_RECOVERY callback
+# PSHED_PI_ATTEMPT_ERROR_RECOVERY callback function
 
 
 ## -description

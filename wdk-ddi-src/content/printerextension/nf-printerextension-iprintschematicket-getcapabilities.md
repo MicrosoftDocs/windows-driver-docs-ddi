@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetCapabilities
-title: IPrintSchemaTicket::GetCapabilities method
+title: IPrintSchemaTicket::GetCapabilities
 author: windows-driver-content
 description: Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.
 old-location: print\iprintschematicket_getcapabilities.htm
 old-project: print
 ms.assetid: 5556BD5E-6489-4CCF-8C62-DDA53AD9F368
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetCapabilities method [Print Devices], GetCapabilities method [Print Devices], IPrintSchemaTicket interface, GetCapabilities,IPrintSchemaTicket.GetCapabilities, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetCapabilities method, IPrintSchemaTicket::GetCapabilities, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities
+ms.date: 4/20/2018
+ms.keywords: GetCapabilities, GetCapabilities method [Print Devices], GetCapabilities method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetCapabilities method, IPrintSchemaTicket.GetCapabilities, IPrintSchemaTicket::GetCapabilities, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintSchemaTicket.GetCapabilities
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::GetCapabilities method
+# IPrintSchemaTicket::GetCapabilities
 
 
 ## -description

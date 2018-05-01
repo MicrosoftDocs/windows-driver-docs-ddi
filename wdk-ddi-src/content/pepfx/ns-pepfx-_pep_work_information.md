@@ -7,7 +7,7 @@ old-location: kernel\pep_work_information.htm
 old-project: kernel
 ms.assetid: 7A3B2A94-AE6F-4DCC-9CDF-E2D5799C9F0D
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_WORK_INFORMATION, PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PEP_WORK_INFORMATION, pepfx/PPEP_WORK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,6 +60,33 @@ The <b>PEP_WORK_INFORMATION</b> structure describes a work item that the PEP is 
 ### -field WorkType
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186866">PEP_WORK_TYPE</a> enumeration value. This member indicates the type of work requested by the PEP, which also determines the type of structure that is contained in the unnamed union in the <b>PEP_WORK_INFORMATION</b> structure.
+
+
+### -field PowerControl
+
+ 
+
+
+### -field CompleteIdleState
+
+ 
+
+
+### -field CompletePerfState
+
+ 
+
+
+### -field AcpiNotify
+
+ 
+
+
+### -field ControlMethodComplete
+
+ 
+
+
 
 
 #### - ( unnamed union )

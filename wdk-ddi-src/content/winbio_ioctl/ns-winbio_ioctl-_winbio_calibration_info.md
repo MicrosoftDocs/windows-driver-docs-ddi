@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_CALIBRATION_INFO structure

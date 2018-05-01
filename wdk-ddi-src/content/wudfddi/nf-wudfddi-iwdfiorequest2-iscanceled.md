@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.IsCanceled
-title: IWDFIoRequest2::IsCanceled method
+title: IWDFIoRequest2::IsCanceled
 author: windows-driver-content
 description: The IsCanceled method determines whether the I/O manager has attempted to cancel an I/O request.
 old-location: wdf\iwdfiorequest2_iscanceled.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, IsCanceled method, IWDFIoRequest2::IsCanceled, IsCanceled method, IsCanceled method, IWDFIoRequest2 interface, IsCanceled,IWDFIoRequest2.IsCanceled, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, umdf.iwdfiorequest2_iscanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled
+ms.keywords: IWDFIoRequest2 interface,IsCanceled method, IWDFIoRequest2.IsCanceled, IWDFIoRequest2::IsCanceled, IsCanceled, IsCanceled method, IsCanceled method,IWDFIoRequest2 interface, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, umdf.iwdfiorequest2_iscanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest2.IsCanceled
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::IsCanceled method
+# IWDFIoRequest2::IsCanceled
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\ksevent_cameraevent.htm
 old-project: stream
 ms.assetid: FD9483A5-7112-4141-8566-80B8D010366C
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

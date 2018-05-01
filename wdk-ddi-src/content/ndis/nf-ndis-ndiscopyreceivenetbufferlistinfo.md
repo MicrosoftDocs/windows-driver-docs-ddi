@@ -7,7 +7,7 @@ old-location: netvista\ndiscopyreceivenetbufferlistinfo.htm
 old-project: netvista
 ms.assetid: 94dc33f4-06ad-4b36-9150-6fb7d491a247
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopyReceiveNetBufferListInfo, ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, netvista.ndiscopyreceivenetbufferlistinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 -	NdisCopyReceiveNetBufferListInfo
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCopyReceiveNetBufferListInfo function

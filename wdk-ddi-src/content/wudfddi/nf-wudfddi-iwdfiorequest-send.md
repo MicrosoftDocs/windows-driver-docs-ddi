@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.Send
-title: IWDFIoRequest::Send method
+title: IWDFIoRequest::Send
 author: windows-driver-content
 description: The Send method sends a request to the specified I/O target.
 old-location: wdf\iwdfiorequest_send.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, Send method, IWDFIoRequest::Send, Send method, Send method, IWDFIoRequest interface, Send,IWDFIoRequest.Send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
+ms.keywords: IWDFIoRequest interface,Send method, IWDFIoRequest.Send, IWDFIoRequest::Send, Send, Send method, Send method,IWDFIoRequest interface, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequest.Send
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::Send method
+# IWDFIoRequest::Send
 
 
 ## -description

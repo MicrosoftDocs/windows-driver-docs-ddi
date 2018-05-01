@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_NI_REQUEST_PARAM
 title: GNSS_NI_REQUEST_PARAM
 author: windows-driver-content
 description: This structure contains the NI request parameters.
-old-location: sensors\gnss_ni_request_param.htm
-old-project: sensors
+old-location: gnss\gnss_ni_request_param.htm
+old-project: gnss
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM, sensors.gnss_ni_request_param"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnss.gnss_ni_request_param, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,21 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925185">GNSS_NI
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925188">GNSS_NI_PLANE_TYPE</a> enumeration value that specifies the plane type.
 
 
+### -field SuplNiInfo
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925231">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
+
+
+### -field CpNiInfo
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925101">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
+
+
+### -field V2UplNiInfo
+
+V2Upl NI request information.
+
+
 ### -field ResponseTimeInSec
 
 The required response time, in seconds.
@@ -95,19 +110,4 @@ The required response time, in seconds.
 ### -field EmergencyLocation
 
 Indicates an emergency request, so an existing NI dialog will be dismissed and the new request will be processed immediately.
-
-
-#### - CpNiInfo
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925101">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
-
-
-#### - SuplNiInfo
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925231">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
-
-
-#### - V2UplNiInfo
-
-V2Upl NI request information.
 

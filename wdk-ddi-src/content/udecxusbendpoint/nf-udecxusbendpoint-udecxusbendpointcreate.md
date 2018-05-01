@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointcreate.htm
 old-project: usbref
 ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, udecxusbendpoint/UdecxUsbEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	UdecxUsbEndpointCreate
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUsbEndpointCreate function

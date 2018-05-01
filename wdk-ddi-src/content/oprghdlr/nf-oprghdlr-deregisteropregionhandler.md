@@ -41,7 +41,7 @@ api_name:
 -	DeRegisterOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
 # DeRegisterOpRegionHandler function

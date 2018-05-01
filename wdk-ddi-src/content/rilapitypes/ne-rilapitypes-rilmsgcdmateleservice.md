@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmateleservice.htm
 old-project: netvista
 ms.assetid: 01c45c31-2cae-4f9f-a3dc-4a164a3df670
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGCDMATELESERVICE, RILMSGCDMATELESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGTELESERVICE_BROADCAST, RIL_MSGTELESERVICE_BROADCAST_OLD, RIL_MSGTELESERVICE_MESSAGING, RIL_MSGTELESERVICE_MESSAGING_OLD, RIL_MSGTELESERVICE_PAGING, RIL_MSGTELESERVICE_SELFREG, RIL_MSGTELESERVICE_SELFREG_OLD, RIL_MSGTELESERVICE_VOICEMAIL_MWI, RIL_MSGTELESERVICE_VOICEMAIL_OLD, RIL_MSGTELESERVICE_VOICEMAIL_VMN_95, RIL_MSGTELESERVICE_WAP, RIL_MSGTELESERVICE_WAP_CT_MMS, RIL_MSGTELESERVICE_WAP_CT_OMA, RIL_MSGTELESERVICE_WAP_OLD, RIL_MSGTELESERVICE_WEMT, netvista.rilmsgcdmateleservice, ntddrilapitypes/RILMSGCDMATELESERVICE, ntddrilapitypes/RIL_MSGTELESERVICE_BROADCAST, ntddrilapitypes/RIL_MSGTELESERVICE_BROADCAST_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_MESSAGING, ntddrilapitypes/RIL_MSGTELESERVICE_MESSAGING_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_PAGING, ntddrilapitypes/RIL_MSGTELESERVICE_SELFREG, ntddrilapitypes/RIL_MSGTELESERVICE_SELFREG_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_MWI, ntddrilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_VMN_95, ntddrilapitypes/RIL_MSGTELESERVICE_WAP, ntddrilapitypes/RIL_MSGTELESERVICE_WAP_CT_MMS, ntddrilapitypes/RIL_MSGTELESERVICE_WAP_CT_OMA, ntddrilapitypes/RIL_MSGTELESERVICE_WAP_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_WEMT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: RILMSGCDMATELESERVICE
-req.product: Windows 10 or later.
 ---
 
 # RILMSGCDMATELESERVICE enumeration

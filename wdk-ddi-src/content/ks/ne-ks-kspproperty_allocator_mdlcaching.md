@@ -7,7 +7,7 @@ old-location: stream\kspproperty_allocator_mdlcaching.htm
 old-project: stream
 ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, stream.kspproperty_allocator_mdlcaching
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

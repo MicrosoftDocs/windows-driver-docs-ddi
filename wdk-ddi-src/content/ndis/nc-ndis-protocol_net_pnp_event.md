@@ -7,8 +7,8 @@ old-location: netvista\protocolnetpnpevent.htm
 old-project: netvista
 ms.assetid: 3f50bcba-c7d2-4d81-bd8b-6080e08fbe74
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_NET_PNP_EVENT, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT callback, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ProtocolNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_NET_PNP_EVENT callback
+# PROTOCOL_NET_PNP_EVENT callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\createquery.htm
 old-project: display
 ms.assetid: ac63b77b-2704-4d5b-bf1d-9d85e8a1e336
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3DDDI_CREATEQUERY, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml, d3dumddi/CreateQuery, display.createquery
+ms.date: 4/16/2018
+ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3DDDI_CREATEQUERY, PFND3DDDI_CREATEQUERY callback, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml, d3dumddi/CreateQuery, display.createquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	CreateQuery
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATEQUERY callback
+# PFND3DDDI_CREATEQUERY callback function
 
 
 ## -description

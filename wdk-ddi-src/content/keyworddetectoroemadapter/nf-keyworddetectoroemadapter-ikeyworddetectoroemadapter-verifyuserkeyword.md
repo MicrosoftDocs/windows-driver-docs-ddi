@@ -1,14 +1,14 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.VerifyUserKeyword
-title: IKeywordDetectorOemAdapter::VerifyUserKeyword method
+title: IKeywordDetectorOemAdapter::VerifyUserKeyword
 author: windows-driver-content
 description: The VerifyUserKeyword method is used by the training user experience to verify that one instance of a spoken utterance, captured during training, matches a predefined keyword within some tolerance.
 old-location: audio\ikeyworddetectoroemadapter_verifyuserkeyword.htm
 old-project: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, VerifyUserKeyword,IKeywordDetectorOemAdapter.VerifyUserKeyword, audio.ikeyworddetectoroemadapter_verifyuserkeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
+ms.date: 4/16/2018
+ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],VerifyUserKeyword method, IKeywordDetectorOemAdapter.VerifyUserKeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_verifyuserkeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKeywordDetectorOemAdapter.VerifyUserKeyword
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDID
+req.typenames: 
 ---
 
-# IKeywordDetectorOemAdapter::VerifyUserKeyword method
+# IKeywordDetectorOemAdapter::VerifyUserKeyword
 
 
 ## -description

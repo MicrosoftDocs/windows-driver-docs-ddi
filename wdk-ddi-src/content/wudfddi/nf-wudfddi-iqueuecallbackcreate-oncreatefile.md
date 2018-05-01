@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackCreate.OnCreateFile
-title: IQueueCallbackCreate::OnCreateFile method
+title: IQueueCallbackCreate::OnCreateFile
 author: windows-driver-content
 description: The OnCreateFile method is called to handle an open file request when an application opens a device through the Microsoft Win32 CreateFile function.
 old-location: wdf\iqueuecallbackcreate_oncreatefile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackCreate, IQueueCallbackCreate interface, OnCreateFile method, IQueueCallbackCreate::OnCreateFile, OnCreateFile method, OnCreateFile method, IQueueCallbackCreate interface, OnCreateFile,IQueueCallbackCreate.OnCreateFile, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, wudfddi/IQueueCallbackCreate::OnCreateFile
+ms.keywords: IQueueCallbackCreate interface,OnCreateFile method, IQueueCallbackCreate.OnCreateFile, IQueueCallbackCreate::OnCreateFile, OnCreateFile, OnCreateFile method, OnCreateFile method,IQueueCallbackCreate interface, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, wudfddi/IQueueCallbackCreate::OnCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IQueueCallbackCreate.OnCreateFile
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackCreate::OnCreateFile method
+# IQueueCallbackCreate::OnCreateFile
 
 
 ## -description

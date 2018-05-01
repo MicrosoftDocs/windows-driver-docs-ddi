@@ -7,8 +7,8 @@ old-location: debugger\idebugcontrol2.htm
 old-project: debugger
 ms.assetid: c8371bbc-cbd1-4ff4-a055-99cc6cd6f8c6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging], described, dbgeng/IDebugControl2, debugger.idebugcontrol2
+ms.date: 4/24/2018
+ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging],described, dbgeng/IDebugControl2, debugger.idebugcontrol2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugControl2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugControl2 interface

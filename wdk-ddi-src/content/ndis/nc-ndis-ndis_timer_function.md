@@ -7,8 +7,8 @@ old-location: netvista\nettimercallback.htm
 old-project: netvista
 ms.assetid: 76e59376-58a4-4e35-bac4-ec5938c88cd7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_TIMER_FUNCTION, NetTimerCallback, NetTimerCallback callback function [Network Drivers Starting with Windows Vista], ndis/NetTimerCallback, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
+ms.date: 4/25/2018
+ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NetTimerCallback, NetTimerCallback callback function [Network Drivers Starting with Windows Vista], ndis/NetTimerCallback, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NetTimerCallback
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_TIMER_FUNCTION callback
+# NDIS_TIMER_FUNCTION callback function
 
 
 ## -description

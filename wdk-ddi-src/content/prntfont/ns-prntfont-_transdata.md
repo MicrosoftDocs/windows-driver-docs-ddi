@@ -7,7 +7,7 @@ old-location: print\transdata.htm
 old-project: print
 ms.assetid: 75ddf007-0113-4967-a8d4-02fcc3cc2857
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PTRANSDATA, PTRANSDATA, PTRANSDATA structure pointer [Print Devices], TRANSDATA, TRANSDATA structure [Print Devices], _TRANSDATA, print.transdata, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, prntfont/PTRANSDATA, prntfont/TRANSDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: TRANSDATA, *PTRANSDATA
-req.product: Windows 10 or later.
 ---
 
 # _TRANSDATA structure
@@ -199,20 +198,17 @@ Character data is double-byte.
 ### -field uCode
 
 
-
-#### sCode
+### -field uCode.sCode
 
 Specifies the offset to a command string. The offset is relative to the beginning of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a> structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in <b>uType</b>.
 
 
-
-#### ubCode
+### -field uCode.ubCode
 
 Specifies a one-byte character code. Valid if the MTYPE_DIRECT flag is set in <b>uType</b>.
 
 
-
-#### ubPairs
+### -field uCode.ubPairs
 
 Specifies a two-byte character code. Valid if the MTYPE_PAIRED flag is set in <b>uType</b>.
 

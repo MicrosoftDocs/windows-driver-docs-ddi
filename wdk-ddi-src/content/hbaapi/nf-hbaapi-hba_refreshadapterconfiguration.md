@@ -40,7 +40,7 @@ api_name:
 -	HBA_RefreshAdapterConfiguration
 product: Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_RefreshAdapterConfiguration function

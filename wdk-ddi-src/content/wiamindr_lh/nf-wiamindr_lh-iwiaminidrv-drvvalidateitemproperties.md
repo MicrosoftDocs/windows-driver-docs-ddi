@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvValidateItemProperties
-title: IWiaMiniDrv::drvValidateItemProperties method
+title: IWiaMiniDrv::drvValidateItemProperties
 author: windows-driver-content
 description: The IWiaMiniDrv::drvValidateItemProperties method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
 old-location: image\iwiaminidrv_drvvalidateitemproperties.htm
 old-project: image
 ms.assetid: 12052128-9ea7-41cd-bb75-be7175e26c12
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvValidateItemProperties,IWiaMiniDrv.drvValidateItemProperties, image.iwiaminidrv_drvvalidateitemproperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvValidateItemProperties method, IWiaMiniDrv.drvValidateItemProperties, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvvalidateitemproperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWiaMiniDrv.drvValidateItemProperties
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvValidateItemProperties method
+# IWiaMiniDrv::drvValidateItemProperties
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: kernel\pcreate_thread_notify_routine.htm
 old-project: kernel
 ms.assetid: AAA62659-D12C-4EEC-8D74-6138B34128CE
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: PCREATE_THREAD_NOTIFY_ROUTINE, SetCreateThreadNotifyRoutine, SetCreateThreadNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_thread_notify_routine, ntddk/SetCreateThreadNotifyRoutine
+ms.date: 4/5/2018
+ms.keywords: PCREATE_THREAD_NOTIFY_ROUTINE, PCREATE_THREAD_NOTIFY_ROUTINE callback, SetCreateThreadNotifyRoutine, SetCreateThreadNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_thread_notify_routine, ntddk/SetCreateThreadNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetCreateThreadNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PCREATE_THREAD_NOTIFY_ROUTINE callback
+# PCREATE_THREAD_NOTIFY_ROUTINE callback function
 
 
 ## -description

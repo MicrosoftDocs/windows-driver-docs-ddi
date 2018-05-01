@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.Disable
-title: IWDFInterrupt::Disable method
+title: IWDFInterrupt::Disable
 author: windows-driver-content
 description: The Disable method disables a specified device interrupt by calling the driver's OnInterruptDisable callback function.
 old-location: wdf\iwdfinterrupt_disable.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Disable method, Disable method, IWDFInterrupt interface, Disable,IWDFInterrupt.Disable, IWDFInterrupt, IWDFInterrupt interface, Disable method, IWDFInterrupt::Disable, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable
+ms.keywords: Disable, Disable method, Disable method,IWDFInterrupt interface, IWDFInterrupt interface,Disable method, IWDFInterrupt.Disable, IWDFInterrupt::Disable, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFInterrupt.Disable
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::Disable method
+# IWDFInterrupt::Disable
 
 
 ## -description

@@ -115,7 +115,7 @@ The token value when the data it represents is considered as all zeros. This mem
 Reserved.
 
 
-#### - Token
+### -field DUMMYUNIONNAME.Token
 
 The vendor-supplied token value representing a  data set range for an offload read or write operation.
 

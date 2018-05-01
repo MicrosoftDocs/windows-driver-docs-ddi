@@ -41,8 +41,7 @@ api_name:
 -	WDF_ABS_TIMEOUT_IN_MS
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_ABS_TIMEOUT_IN_MS function

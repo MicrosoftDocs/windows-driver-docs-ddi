@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetSpecificFilterParameters
-title: IDebugControl3::GetSpecificFilterParameters method
+title: IDebugControl3::GetSpecificFilterParameters
 author: windows-driver-content
 description: The GetSpecificFilterParameters method returns the parameters for specific event filters.
 old-location: debugger\getspecificfilterparameters.htm
 old-project: debugger
 ms.assetid: d2140270-558d-4cd9-b497-f61be40c7a87
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSpecificFilterParameters method [Windows Debugging], GetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, GetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, GetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, GetSpecificFilterParameters,IDebugControl3.GetSpecificFilterParameters, IDebugControl interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl2::GetSpecificFilterParameters, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl3::GetSpecificFilterParameters, IDebugControl::GetSpecificFilterParameters, IDebugControl_ebe245a7-c76c-4b31-aa58-ccad250ed92a.xml, dbgeng/IDebugControl2::GetSpecificFilterParameters, dbgeng/IDebugControl3::GetSpecificFilterParameters, dbgeng/IDebugControl::GetSpecificFilterParameters, debugger.getspecificfilterparameters
+ms.date: 4/24/2018
+ms.keywords: GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], GetSpecificFilterParameters method [Windows Debugging],IDebugControl interface, GetSpecificFilterParameters method [Windows Debugging],IDebugControl2 interface, GetSpecificFilterParameters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging],GetSpecificFilterParameters method, IDebugControl2::GetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging],GetSpecificFilterParameters method, IDebugControl3.GetSpecificFilterParameters, IDebugControl3::GetSpecificFilterParameters, IDebugControl::GetSpecificFilterParameters, IDebugControl_ebe245a7-c76c-4b31-aa58-ccad250ed92a.xml, dbgeng/IDebugControl2::GetSpecificFilterParameters, dbgeng/IDebugControl3::GetSpecificFilterParameters, dbgeng/IDebugControl::GetSpecificFilterParameters, debugger.getspecificfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetSpecificFilterParameters
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetSpecificFilterParameters method
+# IDebugControl3::GetSpecificFilterParameters
 
 
 ## -description

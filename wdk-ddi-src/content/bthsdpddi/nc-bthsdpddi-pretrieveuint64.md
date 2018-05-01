@@ -2,13 +2,13 @@
 UID: NC:bthsdpddi.PRETRIEVEUINT64
 title: PRETRIEVEUINT64
 author: windows-driver-content
-description: The Bluetooth SdpRetrieveUint128 function is used to copy an unaligned 128-bit integer from an SDP stream.
-old-location: bltooth\sdpretrieveuint128.htm
+description: The Bluetooth SdpRetrieveUint64 function is used to copy an unaligned 64-bit integer from an SDP stream.
+old-location: bltooth\sdpretrieveuint64.htm
 old-project: bltooth
-ms.assetid: fa187750-1aed-4e74-8e98-a3b8c731f1d1
+ms.assetid: cc19dd43-447d-47c7-966e-aeb8ca792aa7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PRETRIEVEUINT64, SdpRetrieveUint128, SdpRetrieveUint128 callback function [Bluetooth Devices], bltooth.sdpretrieveuint128, bth_funcs_5377ee2b-643e-4486-9eb2-6d37bda46c85.xml, sdplib/SdpRetrieveUint128
+ms.date: 4/27/2018
+ms.keywords: PRETRIEVEUINT64, PRETRIEVEUINT64 callback, SdpRetrieveUint64, SdpRetrieveUint64 callback function [Bluetooth Devices], bltooth.sdpretrieveuint64, bth_funcs_1c4d2098-38e4-488f-bb47-d2923a3c1dfc.xml, sdplib/SdpRetrieveUint64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -37,20 +37,20 @@ api_type:
 api_location:
 -	sdplib.h
 api_name:
--	SdpRetrieveUint128
+-	SdpRetrieveUint64
 product: Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PRETRIEVEUINT64 callback
+# PRETRIEVEUINT64 callback function
 
 
 ## -description
 
 
 The Bluetooth 
-  <b>SdpRetrieveUint128</b> function is used to copy an unaligned 128-bit integer from an SDP stream.
+  <b>SdpRetrieveUint64</b> function is used to copy an unaligned 64-bit integer from an SDP stream.
 
 
 ## -parameters
@@ -60,21 +60,12 @@ The Bluetooth
 
 ### -param Stream
 
-A pointer to an unaligned 128-bit integer.
+Pointer to the source address for the unaligned 64-bit integer.
 
 
 ### -param pUint16
 
-
-
-
-
-
-
-
-#### - pUint128
-
-A pointer to an aligned variable to receive the 128-bit integer.
+Pointer to the address of an aligned variable to receive the 64-bit integer.
 
 
 ## -returns
@@ -91,7 +82,7 @@ None
 
 
 The 
-    <b>SdpRetrieveUint128</b> function does not search for the unaligned integer to copy. The 
+    <b>SdpRetrieveUint64</b> function does not search for the unaligned integer to copy. The 
     <i>Stream</i> parameter must specify the exact address of the unsigned integer to be extracted.
 
 Some processor architectures require that values be aligned in memory and will generate an error if an
@@ -100,9 +91,9 @@ Some processor architectures require that values be aligned in memory and will g
     according to local processor's alignment rules.
 
 The 
-    <b>SdpRetrieveUint128</b> function safely copies unaligned integers on computers that have alignment
+    <b>SdpRetrieveUint64</b> function safely copies unaligned integers on computers that have alignment
     requirements and efficiently copies unaligned integers on computers that do not have requirements. In
-    addition, this function works on integers that are aligned correctly.
+    addition, this function works on integers that are correctly aligned.
 
 This function has no effect on byte order.
 

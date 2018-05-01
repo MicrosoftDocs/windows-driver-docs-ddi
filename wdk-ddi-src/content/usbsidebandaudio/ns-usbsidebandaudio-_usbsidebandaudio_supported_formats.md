@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_supported_formats.htm
 old-project: audio
 ms.assetid: 69D1C328-309B-41FC-8216-971A3C6D38AF
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS structure pointer [Audio Devices], USBSIDEBANDAUDIO_SUPPORTED_FORMATS, USBSIDEBANDAUDIO_SUPPORTED_FORMATS structure [Audio Devices], _USBSIDEBANDAUDIO_SUPPORTED_FORMATS, audio.usbsidebandaudio_supported_formats, usbsidebandaudio/PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, usbsidebandaudio/USBSIDEBANDAUDIO_SUPPORTED_FORMATS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_SUPPORTED_FORMATS, *PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS
-req.product: Windows 10 or later.
 ---
 
 # _USBSIDEBANDAUDIO_SUPPORTED_FORMATS structure

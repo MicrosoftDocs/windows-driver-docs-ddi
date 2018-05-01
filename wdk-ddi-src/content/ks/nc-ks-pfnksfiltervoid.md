@@ -7,7 +7,7 @@ old-location: stream\avstrminifilterreset.htm
 old-project: stream
 ms.assetid: 8259117b-87ef-410a-955b-6f99966574a6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniFilterReset, AVStrMiniFilterReset routine [Streaming Media Devices], PFNKSFILTERVOID, avstclbk_71a3cd5d-faa7-4a7f-a341-deacfbcda051.xml, ks/AVStrMiniFilterReset, stream.avstrminifilterreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniFilterReset
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSFILTERVOID callback
+# PFNKSFILTERVOID callback function
 
 
 ## -description

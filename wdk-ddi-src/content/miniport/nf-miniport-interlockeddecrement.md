@@ -7,7 +7,7 @@ old-location: kernel\interlockeddecrement.htm
 old-project: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ api_name:
 -	InterlockedDecrement
 product: Windows
 targetos: Windows
-req.typenames: MEMORY_CACHING_TYPE
+req.typenames: 
 ---
 
 # InterlockedDecrement function

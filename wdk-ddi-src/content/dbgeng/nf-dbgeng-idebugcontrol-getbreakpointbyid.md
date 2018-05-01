@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetBreakpointById
-title: IDebugControl::GetBreakpointById method
+title: IDebugControl::GetBreakpointById
 author: windows-driver-content
 description: The GetBreakpointById method returns the breakpoint with the specified breakpoint ID.
 old-location: debugger\getbreakpointbyid.htm
 old-project: debugger
 ms.assetid: 6873609d-7f5a-474d-8b48-fee9f93c812b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetBreakpointById method [Windows Debugging], GetBreakpointById method [Windows Debugging], IDebugControl interface, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, GetBreakpointById,IDebugControl.GetBreakpointById, IDebugControl, IDebugControl interface [Windows Debugging], GetBreakpointById method, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, IDebugControl2::GetBreakpointById, IDebugControl3 interface [Windows Debugging], GetBreakpointById method, IDebugControl3::GetBreakpointById, IDebugControl::GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, dbgeng/IDebugControl2::GetBreakpointById, dbgeng/IDebugControl3::GetBreakpointById, dbgeng/IDebugControl::GetBreakpointById, debugger.getbreakpointbyid
+ms.date: 4/24/2018
+ms.keywords: GetBreakpointById, GetBreakpointById method [Windows Debugging], GetBreakpointById method [Windows Debugging],IDebugControl interface, GetBreakpointById method [Windows Debugging],IDebugControl2 interface, GetBreakpointById method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetBreakpointById method, IDebugControl.GetBreakpointById, IDebugControl2 interface [Windows Debugging],GetBreakpointById method, IDebugControl2::GetBreakpointById, IDebugControl3 interface [Windows Debugging],GetBreakpointById method, IDebugControl3::GetBreakpointById, IDebugControl::GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, dbgeng/IDebugControl2::GetBreakpointById, dbgeng/IDebugControl3::GetBreakpointById, dbgeng/IDebugControl::GetBreakpointById, debugger.getbreakpointbyid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.GetBreakpointById
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::GetBreakpointById method
+# IDebugControl::GetBreakpointById
 
 
 ## -description

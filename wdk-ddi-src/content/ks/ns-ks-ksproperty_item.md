@@ -7,7 +7,7 @@ old-location: stream\ksproperty_item.htm
 old-project: stream
 ms.assetid: 58530a72-6e07-44f5-9d7d-04bc37ff1ec9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_ITEM, KSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices], PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, ks/KSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, stream.ksproperty_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,6 +62,16 @@ Drivers use the KSPROPERTY_ITEM structure to describe how they support a propert
 Specifies the ID of the property being described.
 
 
+### -field GetPropertyHandler
+
+Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>. If <b>NULL</b>, the property cannot be read. This member is used only by drivers that use the AVStream or Stream class interfaces.
+
+
+### -field GetSupported
+
+Set to <b>TRUE</b> if this property supports get requests, <b>FALSE</b> if it does not. (The class driver fulfills the request through the SRB_GET_DEVICE_PROPERTY or SRB_GET_STREAM_PROPERTY requests.) This member is used only by minidrivers running under stream class. 
+
+
 ### -field MinProperty
 
 Specifies the minimum buffer length to hold the property identifier. This must be at least <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>).
@@ -70,6 +80,16 @@ Specifies the minimum buffer length to hold the property identifier. This must b
 ### -field MinData
 
 Specifies the minimum buffer length to hold the data read from or written to this property.
+
+
+### -field SetPropertyHandler
+
+Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567200">KStrSetPropertyHandler</a>. If <b>NULL</b>, the property cannot be set. This member is used only by drivers that use the AVStream or Stream class interfaces.
+
+
+### -field SetSupported
+
+Set to <b>TRUE</b> if this property supports set requests, <b>FALSE</b> if it does not. (The class driver fulfills the request through the SRB_SET_DEVICE_PROPERTY or SRB_SET_STREAM_PROPERTY requests.)
 
 
 ### -field Values
@@ -95,26 +115,6 @@ Provide this member only if implementing your own format for raw serialization o
 ### -field SerializedSize
 
 Specifies the size of the property when serialized in a KSPROPERTY_TYPE_SERIALIZESET request. This should be zero if the property cannot be serialized. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> for more information.
-
-
-#### - GetPropertyHandler
-
-Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>. If <b>NULL</b>, the property cannot be read. This member is used only by drivers that use the AVStream or Stream class interfaces.
-
-
-#### - GetSupported
-
-Set to <b>TRUE</b> if this property supports get requests, <b>FALSE</b> if it does not. (The class driver fulfills the request through the SRB_GET_DEVICE_PROPERTY or SRB_GET_STREAM_PROPERTY requests.) This member is used only by minidrivers running under stream class. 
-
-
-#### - SetPropertyHandler
-
-Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567200">KStrSetPropertyHandler</a>. If <b>NULL</b>, the property cannot be set. This member is used only by drivers that use the AVStream or Stream class interfaces.
-
-
-#### - SetSupported
-
-Set to <b>TRUE</b> if this property supports set requests, <b>FALSE</b> if it does not. (The class driver fulfills the request through the SRB_SET_DEVICE_PROPERTY or SRB_SET_STREAM_PROPERTY requests.)
 
 
 ## -remarks

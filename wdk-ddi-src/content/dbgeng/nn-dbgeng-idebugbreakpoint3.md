@@ -7,8 +7,8 @@ old-location: debugger\idebugbreakpoint3.htm
 old-project: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging], described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
+ms.date: 4/24/2018
+ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -40,7 +40,7 @@ api_name:
 -	IDebugBreakpoint3
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugBreakpoint3 interface

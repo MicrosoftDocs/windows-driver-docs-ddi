@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IResourceList.TranslatedList
-title: IResourceList::TranslatedList method
+title: IResourceList::TranslatedList
 author: windows-driver-content
 description: The TranslatedList method returns the list of translated resources.
 old-location: audio\iresourcelist_translatedlist.htm
 old-project: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IResourceList, IResourceList interface [Audio Devices], TranslatedList method, IResourceList::TranslatedList, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices], IResourceList interface, TranslatedList,IResourceList.TranslatedList, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList
+ms.date: 4/16/2018
+ms.keywords: IResourceList interface [Audio Devices],TranslatedList method, IResourceList.TranslatedList, IResourceList::TranslatedList, TranslatedList, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IResourceList.TranslatedList
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IResourceList::TranslatedList method
+# IResourceList::TranslatedList
 
 
 ## -description

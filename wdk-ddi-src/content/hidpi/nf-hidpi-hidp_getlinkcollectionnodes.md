@@ -41,7 +41,7 @@ api_name:
 -	HidP_GetLinkCollectionNodes
 product: Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_GetLinkCollectionNodes function

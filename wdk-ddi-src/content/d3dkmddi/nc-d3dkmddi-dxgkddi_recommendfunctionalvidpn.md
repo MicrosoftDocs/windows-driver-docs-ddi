@@ -7,8 +7,8 @@ old-location: display\dxgkddirecommendfunctionalvidpn.htm
 old-project: display
 ms.assetid: 320a77a7-d7d4-47b9-8a40-2b6e12819e4b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_RECOMMENDFUNCTIONALVIDPN, DmFunctions_9b5062a8-31fa-4351-bf10-a90f57bbaed8.xml, DxgkDdiRecommendFunctionalVidPn, DxgkDdiRecommendFunctionalVidPn callback function [Display Devices], d3dkmddi/DxgkDdiRecommendFunctionalVidPn, display.dxgkddirecommendfunctionalvidpn
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_RECOMMENDFUNCTIONALVIDPN, DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback, DmFunctions_9b5062a8-31fa-4351-bf10-a90f57bbaed8.xml, DxgkDdiRecommendFunctionalVidPn, DxgkDdiRecommendFunctionalVidPn callback function [Display Devices], d3dkmddi/DxgkDdiRecommendFunctionalVidPn, display.dxgkddirecommendfunctionalvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkDdiRecommendFunctionalVidPn
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback
+# DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback function
 
 
 ## -description

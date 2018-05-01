@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.EnableDriver
-title: IPrintOemEngine::EnableDriver method
+title: IPrintOemEngine::EnableDriver
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_enabledriver.htm
 old-project: print
 ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnableDriver method [Print Devices], EnableDriver method [Print Devices], IPrintOemEngine interface, EnableDriver,IPrintOemEngine.EnableDriver, IPrintOemEngine, IPrintOemEngine interface [Print Devices], EnableDriver method, IPrintOemEngine::EnableDriver, prcomoem/IPrintOemEngine::EnableDriver, print.iprintoemengine_enabledriver
+ms.date: 4/20/2018
+ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnableDriver method, IPrintOemEngine.EnableDriver, IPrintOemEngine::EnableDriver, prcomoem/IPrintOemEngine::EnableDriver, print.iprintoemengine_enabledriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemEngine.EnableDriver
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemEngine::EnableDriver method
+# IPrintOemEngine::EnableDriver
 
 
 ## -description

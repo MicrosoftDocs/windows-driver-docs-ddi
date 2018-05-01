@@ -7,7 +7,7 @@ old-location: display\dxgk_querysegmentin4.htm
 old-project: display
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices], _DXGK_QUERYSEGMENTIN4, d3dkmddi/DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

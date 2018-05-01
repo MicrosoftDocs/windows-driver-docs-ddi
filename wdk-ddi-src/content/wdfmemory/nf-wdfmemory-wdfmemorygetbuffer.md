@@ -43,8 +43,7 @@ api_name:
 -	WdfMemoryGetBuffer
 product: Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfMemoryGetBuffer function

@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_set_pipe_state.htm
 old-project: usbref
 ms.assetid: EB44DE6F-6B88-4F6D-B9AC-3FF7A519C047
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_set_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_set_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
 product: Windows
 targetos: Windows
-req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USBFN_SET_PIPE_STATE IOCTL

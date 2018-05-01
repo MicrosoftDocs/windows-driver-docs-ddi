@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSourceFileInformation
-title: IDebugAdvanced3::GetSourceFileInformation method
+title: IDebugAdvanced3::GetSourceFileInformation
 author: windows-driver-content
 description: The GetSourceFileInformation method returns specified information about a source file.
 old-location: debugger\getsourcefileinformation.htm
 old-project: debugger
 ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformation,IDebugAdvanced3.GetSourceFileInformation, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, dbgeng/IDebugAdvanced2::GetSourceFileInformation, dbgeng/IDebugAdvanced3::GetSourceFileInformation, debugger.getsourcefileinformation
+ms.date: 4/24/2018
+ms.keywords: GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSourceFileInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSourceFileInformation method, IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformation method, IDebugAdvanced3.GetSourceFileInformation, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, dbgeng/IDebugAdvanced2::GetSourceFileInformation, dbgeng/IDebugAdvanced3::GetSourceFileInformation, debugger.getsourcefileinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugAdvanced3.GetSourceFileInformation
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugAdvanced3::GetSourceFileInformation method
+# IDebugAdvanced3::GetSourceFileInformation
 
 
 ## -description

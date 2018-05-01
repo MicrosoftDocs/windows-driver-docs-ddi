@@ -1,14 +1,14 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.ConvertToBmp
-title: CWiauFormatConverter::ConvertToBmp method
+title: CWiauFormatConverter::ConvertToBmp
 author: windows-driver-content
 description: The CWiauFormatConverter::ConvertToBmp method converts an image to BMP format.
 old-location: image\cwiauformatconverter_converttobmp.htm
 old-project: image
 ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, CWiauFormatConverter::ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, ConvertToBmp,CWiauFormatConverter.ConvertToBmp, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, wiautil/CWiauFormatConverter::ConvertToBmp
+ms.date: 4/23/2018
+ms.keywords: CWiauFormatConverter interface [Imaging Devices],ConvertToBmp method, CWiauFormatConverter.ConvertToBmp, CWiauFormatConverter::ConvertToBmp, ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, wiautil/CWiauFormatConverter::ConvertToBmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	CWiauFormatConverter.ConvertToBmp
 product: Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiauFormatConverter::ConvertToBmp method
+# CWiauFormatConverter::ConvertToBmp
 
 
 ## -description

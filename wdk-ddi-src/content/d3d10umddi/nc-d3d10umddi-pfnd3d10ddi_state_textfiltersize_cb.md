@@ -7,8 +7,8 @@ old-location: display\pfnstatetextfiltersizecb.htm
 old-project: display
 ms.assetid: f53f73bf-8297-4c56-81f9-443d10a6b701
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_STATE_TEXTFILTERSIZE_CB, d3d10state_functions_96a0da1a-c30d-4872-a54d-b24e83d76c95.xml, d3d10umddi/pfnStateTextFilterSizeCb, display.pfnstatetextfiltersizecb, pfnStateTextFilterSizeCb, pfnStateTextFilterSizeCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_STATE_TEXTFILTERSIZE_CB, PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback, d3d10state_functions_96a0da1a-c30d-4872-a54d-b24e83d76c95.xml, d3d10umddi/pfnStateTextFilterSizeCb, display.pfnstatetextfiltersizecb, pfnStateTextFilterSizeCb, pfnStateTextFilterSizeCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	pfnStateTextFilterSizeCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback
+# PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback function
 
 
 ## -description

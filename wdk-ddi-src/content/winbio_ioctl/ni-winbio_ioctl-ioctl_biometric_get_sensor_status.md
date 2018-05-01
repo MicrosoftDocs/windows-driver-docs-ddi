@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 88a2a73b-4fce-4f7a-b73b-ab66e136320d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IOCTL_BIOMETRIC_GET_SENSOR_STATUS, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control code [Biometric Devices], biometric.ioctl_biometric_get_sensor_status, biometric_ref_74620630-37ce-4473-bb28-2fef40f885ad.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SENSOR_STATUS
+ms.keywords: IOCTL_BIOMETRIC_GET_SENSOR_STATUS, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control code [Biometric Devices], biometric.ioctl_biometric_get_sensor_status, biometric_ref_74620630-37ce-4473-bb28-2fef40f885ad.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SENSOR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_BIOMETRIC_GET_SENSOR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL

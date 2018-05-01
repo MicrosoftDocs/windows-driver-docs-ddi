@@ -7,7 +7,7 @@ old-location: kernel\kequeryunbiasedinterrupttime.htm
 old-project: kernel
 ms.assetid: 2a041946-0335-466e-b2f9-b486031e777a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture], k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, kernel.kequeryunbiasedinterrupttime, wdm/KeQueryUnbiasedInterruptTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	KeQueryUnbiasedInterruptTime
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryUnbiasedInterruptTime function

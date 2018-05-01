@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.EndTestCase
-title: IWDTFLOG2::EndTestCase method
+title: IWDTFLOG2::EndTestCase
 author: windows-driver-content
 description: Marks the end of a test case.
 old-location: dtf\iwdtflog2_endtestcase.htm
 old-project: dtf
 ms.assetid: 1932a0f0-bf76-4a8e-8b2a-e2ba2c81dc2b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EndTestCase method [Windows Device Testing Framework], EndTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, EndTestCase,IWDTFLOG2.EndTestCase, IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], EndTestCase method, IWDTFLOG2::EndTestCase, Microsoft.WDTF.IWDTFLOG2.EndTestCase, Microsoft::WDTF::IWDTFLOG2::EndTestCase, dtf.iwdtflog2_endtestcase, wdtf/IWDTFLOG2::EndTestCase
+ms.date: 4/4/2018
+ms.keywords: EndTestCase, EndTestCase method [Windows Device Testing Framework], EndTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, IWDTFLOG2 interface [Windows Device Testing Framework],EndTestCase method, IWDTFLOG2.EndTestCase, IWDTFLOG2::EndTestCase, Microsoft.WDTF.IWDTFLOG2.EndTestCase, Microsoft::WDTF::IWDTFLOG2::EndTestCase, dtf.iwdtflog2_endtestcase, wdtf/IWDTFLOG2::EndTestCase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDTFLOG2.EndTestCase
 product: Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFLOG2::EndTestCase method
+# IWDTFLOG2::EndTestCase
 
 
 ## -description

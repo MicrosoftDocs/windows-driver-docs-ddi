@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: MEMORY_REGION, *PMEMORY_REGION
-req.product: Windows 10 or later.
 ---
 
 # _MEMORY_REGION structure

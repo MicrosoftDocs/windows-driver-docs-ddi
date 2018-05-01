@@ -7,8 +7,8 @@ old-location: print\ipartfont2.htm
 old-project: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices], described, filterpipeline/IPartFont2, print.ipartfont2
+ms.date: 4/20/2018
+ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ api_name:
 -	IPartFont2.GetFontRestriction
 product: Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IPartFont2 interface

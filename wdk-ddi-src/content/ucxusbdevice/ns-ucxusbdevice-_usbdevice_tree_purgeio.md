@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_tree_purgeio.htm
 old-project: usbref
 ms.assetid: 47C442F5-7D16-4E73-8D05-82D63D5265C1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], _USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: USBDEVICE_TREE_PURGEIO, *PUSBDEVICE_TREE_PURGEIO
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_TREE_PURGEIO structure

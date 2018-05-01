@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_query_output_id_output.htm
 old-project: display
 ms.assetid: 6b4c87e5-9109-4be2-b912-4396a0e9eb10
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, display.d3d11_1ddi_authenticated_query_output_id_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

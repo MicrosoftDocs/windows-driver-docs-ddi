@@ -7,7 +7,7 @@ old-location: netvista\ndis_isolation_name.htm
 old-project: netvista
 ms.assetid: 4712F853-8819-476C-8AD9-426EA5A0802E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_ISOLATION_ID_NAME, *PNDIS_ROUTING_DOMAIN_NAME, NDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_NAME, NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], NDIS_ROUTING_DOMAIN_NAME, _NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, ntddndis/NDIS_ISOLATION_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

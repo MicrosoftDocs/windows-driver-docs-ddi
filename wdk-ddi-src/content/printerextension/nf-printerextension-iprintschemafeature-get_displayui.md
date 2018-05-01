@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_DisplayUI
-title: IPrintSchemaFeature::get_DisplayUI method
+title: IPrintSchemaFeature::get_DisplayUI
 author: windows-driver-content
 description: Gets the setting that indicates whether or not to show the print UI.
 old-location: print\iprintschemafeature_displayui.htm
 old-project: print
 ms.assetid: 47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DisplayUI property [Print Devices], DisplayUI property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature::get_DisplayUI, get_DisplayUI, get_DisplayUI,IPrintSchemaFeature.get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI
+ms.date: 4/20/2018
+ms.keywords: DisplayUI property [Print Devices], DisplayUI property [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature interface [Print Devices],DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature.get_DisplayUI, IPrintSchemaFeature::DisplayUI, IPrintSchemaFeature::get_DisplayUI, get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 -	IPrintSchemaFeature.get_DisplayUI
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaFeature::get_DisplayUI method
+# IPrintSchemaFeature::get_DisplayUI
 
 
 ## -description

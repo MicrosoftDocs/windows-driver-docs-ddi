@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IResourceList.AddEntryFromParent
-title: IResourceList::AddEntryFromParent method
+title: IResourceList::AddEntryFromParent
 author: windows-driver-content
 description: The AddEntryFromParent method adds to a resource list an entry found in the resource list's parent list.
 old-location: audio\iresourcelist_addentryfromparent.htm
 old-project: audio
 ms.assetid: 83733c17-1f1f-4be6-ae14-aa921e481a73
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AddEntryFromParent method [Audio Devices], AddEntryFromParent method [Audio Devices], IResourceList interface, AddEntryFromParent,IResourceList.AddEntryFromParent, IResourceList, IResourceList interface [Audio Devices], AddEntryFromParent method, IResourceList::AddEntryFromParent, audio.iresourcelist_addentryfromparent, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, portcls/IResourceList::AddEntryFromParent
+ms.date: 4/16/2018
+ms.keywords: AddEntryFromParent, AddEntryFromParent method [Audio Devices], AddEntryFromParent method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],AddEntryFromParent method, IResourceList.AddEntryFromParent, IResourceList::AddEntryFromParent, audio.iresourcelist_addentryfromparent, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, portcls/IResourceList::AddEntryFromParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IResourceList.AddEntryFromParent
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IResourceList::AddEntryFromParent method
+# IResourceList::AddEntryFromParent
 
 
 ## -description

@@ -43,8 +43,7 @@ api_name:
 -	WdfDeviceGetDefaultQueue
 product: Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceGetDefaultQueue function

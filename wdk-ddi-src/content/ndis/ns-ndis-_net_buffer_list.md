@@ -7,7 +7,7 @@ old-location: netvista\net_buffer_list.htm
 old-project: netvista
 ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNET_BUFFER_LIST, NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, netvista.net_buffer_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	NET_BUFFER_LIST
 product: Windows
 targetos: Windows
-req.typenames: NET_BUFFER_LIST, *PNET_BUFFER_LIST, NET_BUFFER_LIST, *PNET_BUFFER_LIST
+req.typenames: NET_BUFFER_LIST, *PNET_BUFFER_LIST
 ---
 
 # _NET_BUFFER_LIST structure
@@ -66,6 +66,18 @@ The NET_BUFFER_LIST structure specifies a linked list of
 ### -field FirstNetBuffer
 
  
+
+
+### -field Link
+
+ 
+
+
+### -field NetBufferListHeader
+
+A 
+     <a href="https://msdn.microsoft.com/49169618-c42d-4bae-b1df-1426059d60d7">
+     NET_BUFFER_LIST_HEADER</a> structure.
 
 
 ### -field Context
@@ -320,27 +332,7 @@ The current owner of the NET_BUFFER_LIST structure, either NDIS or an NDIS drive
 This set is reserved for NDIS.
 
 
-### -field NetBufferListInfo
-
-An array of values containing information that is common to all NET_BUFFER structures in the list.
-     This information is often referred to as "out-of-band (OOB) data."
-
-Use the 
-     <a href="https://msdn.microsoft.com/79327b2b-e97b-42dc-8d15-9d774c424cae">
-     NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to set and
-     get values in the 
-     <b>NetBufferListInfo</b> array.
-
-
-#### - NetBufferListHeader
-
-A 
-     <a href="https://msdn.microsoft.com/49169618-c42d-4bae-b1df-1426059d60d7">
-     NET_BUFFER_LIST_HEADER</a> structure.
-
-
-#### - Status
+### -field Status
 
 The final completion status of a network data operation on this NET_BUFFER_LIST structure.
      Miniport drivers write this value before calling the 
@@ -397,6 +389,24 @@ The miniport driver aborted the send request due to a reset.
 
 If a driver must reject send requests because it is paused, it sets the complete status in each
        affected NET_BUFFER_LIST to NDIS_STATUS_PAUSED.
+
+
+### -field NdisReserved2
+
+ 
+
+
+### -field NetBufferListInfo
+
+An array of values containing information that is common to all NET_BUFFER structures in the list.
+     This information is often referred to as "out-of-band (OOB) data."
+
+Use the 
+     <a href="https://msdn.microsoft.com/79327b2b-e97b-42dc-8d15-9d774c424cae">
+     NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to set and
+     get values in the 
+     <b>NetBufferListInfo</b> array.
 
 
 ## -remarks

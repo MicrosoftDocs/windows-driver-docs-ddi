@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AddSyntheticModuleWide
-title: IDebugSymbols3::AddSyntheticModuleWide method
+title: IDebugSymbols3::AddSyntheticModuleWide
 author: windows-driver-content
 description: The AddSyntheticModuleWide method adds a synthetic module to the module list the debugger maintains for the current process.
 old-location: debugger\addsyntheticmodulewide.htm
 old-project: debugger
 ms.assetid: dc5dc9f4-53a6-468a-907c-9b271fed83aa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddSyntheticModuleWide method [Windows Debugging], AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticModuleWide,IDebugSymbols3.AddSyntheticModuleWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method, IDebugSymbols3::AddSyntheticModuleWide, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, debugger.addsyntheticmodulewide
+ms.date: 4/24/2018
+ms.keywords: AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], AddSyntheticModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticModuleWide method, IDebugSymbols3.AddSyntheticModuleWide, IDebugSymbols3::AddSyntheticModuleWide, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, debugger.addsyntheticmodulewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugSymbols3.AddSyntheticModuleWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::AddSyntheticModuleWide method
+# IDebugSymbols3::AddSyntheticModuleWide
 
 
 ## -description

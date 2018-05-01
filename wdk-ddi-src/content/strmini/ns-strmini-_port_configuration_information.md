@@ -7,7 +7,7 @@ old-location: stream\port_configuration_information.htm
 old-project: stream
 ms.assetid: fa990867-4e2f-4940-b6fc-310ec7fc2b68
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Streaming Media Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Streaming Media Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Streaming Media Devices], strclass-struct_5cfaddef-5c60-406e-b938-697f36b6c8e1.xml, stream.port_configuration_information, strmini/PORT_CONFIGURATION_INFORMATION, strmini/PPORT_CONFIGURATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _PORT_CONFIGURATION_INFORMATION structure

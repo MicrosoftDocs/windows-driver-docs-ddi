@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugInputCallbacks.StartInput
-title: IDebugInputCallbacks::StartInput method
+title: IDebugInputCallbacks::StartInput
 author: windows-driver-content
 description: The StartInput callback method is called by the engine to indicate that it is waiting for a line of input.
 old-location: debugger\idebuginputcallbacks_startinput.htm
 old-project: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], StartInput method, IDebugInputCallbacks::StartInput, StartInput method [Windows Debugging], StartInput method [Windows Debugging], IDebugInputCallbacks interface, StartInput,IDebugInputCallbacks.StartInput, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput
+ms.date: 4/24/2018
+ms.keywords: ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks interface [Windows Debugging],StartInput method, IDebugInputCallbacks.StartInput, IDebugInputCallbacks::StartInput, StartInput, StartInput method [Windows Debugging], StartInput method [Windows Debugging],IDebugInputCallbacks interface, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugInputCallbacks.StartInput
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugInputCallbacks::StartInput method
+# IDebugInputCallbacks::StartInput
 
 
 ## -description

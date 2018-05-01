@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.Init
-title: IMiniportWaveRT::Init method
+title: IMiniportWaveRT::Init
 author: windows-driver-content
 description: The Init method initializes the WaveRT miniport driver object.
 old-location: audio\iminiportwavert_init.htm
 old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], Init method, IMiniportWaveRT::Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportWaveRT interface, Init,IMiniportWaveRT.Init, audio.iminiportwavert_init, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, portcls/IMiniportWaveRT::Init
+ms.date: 4/16/2018
+ms.keywords: IMiniportWaveRT interface [Audio Devices],Init method, IMiniportWaveRT.Init, IMiniportWaveRT::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportWaveRT interface, audio.iminiportwavert_init, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, portcls/IMiniportWaveRT::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportWaveRT.Init
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRT::Init method
+# IMiniportWaveRT::Init
 
 
 ## -description

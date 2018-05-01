@@ -7,7 +7,7 @@ old-location: kernel\islistempty.htm
 old-project: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/5/2018
 ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
@@ -40,8 +40,7 @@ api_name:
 -	IsListEmpty
 product: Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IsListEmpty function
@@ -51,16 +50,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IsListEmpty</b> routine indicates whether a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures is empty.
-
-
-## -syntax
-
-
-````
-BOOLEAN IsListEmpty(
-  _In_ const LIST_ENTRY *ListHead
-);
-````
 
 
 ## -parameters
@@ -97,25 +86,23 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IsListEmpty routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

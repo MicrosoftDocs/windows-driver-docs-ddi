@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_device_config_init.htm
 old-project: usbref
 ms.assetid: 8845f8f7-683e-487b-924b-596dbbfb98f2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], buses.ucmtcpci_device_config_init, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	UCMTCPCI_DEVICE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCMTCPCI_DEVICE_CONFIG_INIT function

@@ -7,7 +7,7 @@ old-location: display\dxva_extendedformat.htm
 old-project: display
 ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], _DXVA_ExtendedFormat, display.dxva_extendedformat, dxva/DXVA_ExtendedFormat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

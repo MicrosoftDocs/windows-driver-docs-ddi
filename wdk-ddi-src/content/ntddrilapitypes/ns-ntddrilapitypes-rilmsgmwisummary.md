@@ -7,7 +7,7 @@ old-location: netvista\rilmsgmwisummary.htm
 old-project: netvista
 ms.assetid: 5a718c4d-21c9-4dfd-844a-0053a379196d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILMSGMWISUMMARY, RILMSGMWISUMMARY, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummary, ntddrilapitypes/RILMSGMWISUMMARY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

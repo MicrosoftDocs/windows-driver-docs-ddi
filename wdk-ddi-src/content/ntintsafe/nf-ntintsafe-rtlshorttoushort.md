@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttoushort.htm
 old-project: kernel
 ms.assetid: 6FD7C994-822A-422C-82D8-768BA842B2B2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: RtlShortToUShort, RtlShortToUShort function [Kernel-Mode Driver Architecture], kernel.rtlshorttoushort, ntintsafe/RtlShortToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RtlShortToUShort
 product: Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlShortToUShort function

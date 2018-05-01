@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceChannelMute
-title: IMiniportAudioEngineNode::SetDeviceChannelMute method
+title: IMiniportAudioEngineNode::SetDeviceChannelMute
 author: windows-driver-content
 description: Sets the state of the Mute node for the audio device channel.
 old-location: audio\iminiportaudioenginenode_setdevicechannelmute.htm
 old-project: audio
 ms.assetid: 272B83D4-AACE-419D-9DD7-A1AE1C8A931A
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelMute method, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelMute,IMiniportAudioEngineNode.SetDeviceChannelMute, audio.iminiportaudioenginenode_setdevicechannelmute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute
+ms.date: 4/16/2018
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceChannelMute method, IMiniportAudioEngineNode.SetDeviceChannelMute, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], SetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdevicechannelmute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IMiniportAudioEngineNode.SetDeviceChannelMute
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::SetDeviceChannelMute method
+# IMiniportAudioEngineNode::SetDeviceChannelMute
 
 
 ## -description

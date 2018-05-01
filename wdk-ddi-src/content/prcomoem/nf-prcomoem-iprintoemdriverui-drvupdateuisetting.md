@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUI.DrvUpdateUISetting
-title: IPrintOemDriverUI::DrvUpdateUISetting method
+title: IPrintOemDriverUI::DrvUpdateUISetting
 author: windows-driver-content
 description: The IPrintOemDriverUI::DrvUpdateUISetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can notify the driver of a modified user interface option.
 old-location: print\iprintoemdriverui_drvupdateuisetting.htm
 old-project: print
 ms.assetid: f5dec76e-16ad-4df0-b3c9-f0cbfb9b8c41
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, DrvUpdateUISetting,IPrintOemDriverUI.DrvUpdateUISetting, IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method, IPrintOemDriverUI::DrvUpdateUISetting, prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, print.iprintoemdriverui_drvupdateuisetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml
+ms.date: 4/20/2018
+ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvUpdateUISetting method, IPrintOemDriverUI.DrvUpdateUISetting, IPrintOemDriverUI::DrvUpdateUISetting, prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, print.iprintoemdriverui_drvupdateuisetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrintOemDriverUI.DrvUpdateUISetting
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverUI::DrvUpdateUISetting method
+# IPrintOemDriverUI::DrvUpdateUISetting
 
 
 ## -description

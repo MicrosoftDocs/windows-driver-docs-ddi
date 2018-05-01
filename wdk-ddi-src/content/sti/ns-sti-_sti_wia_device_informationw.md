@@ -7,7 +7,7 @@ old-location: image\sti_wia_device_information.htm
 old-project: image
 ms.assetid: a1339fd5-49ec-498b-bc07-221526a57d74
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTI_WIA_DEVICE_INFORMATIONW, PSTI_WIA_DEVICE_INFORMATION, PSTI_WIA_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_WIA_DEVICE_INFORMATION, STI_WIA_DEVICE_INFORMATION structure [Imaging Devices], STI_WIA_DEVICE_INFORMATIONW, _STI_WIA_DEVICE_INFORMATIONW, image.sti_wia_device_information, sti/PSTI_WIA_DEVICE_INFORMATION, sti/STI_WIA_DEVICE_INFORMATION, stifnc_5b853150-0ce1-4ba1-bf9c-2071c6a993bc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
 ---
 
 # _STI_WIA_DEVICE_INFORMATIONW structure

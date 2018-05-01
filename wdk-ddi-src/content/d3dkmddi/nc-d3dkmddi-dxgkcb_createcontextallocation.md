@@ -7,8 +7,8 @@ old-location: display\dxgkcbcreatecontextallocation.htm
 old-project: display
 ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DXGKCB_CREATECONTEXTALLOCATION callback, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkCbCreateContextAllocation
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_CREATECONTEXTALLOCATION callback
+# DXGKCB_CREATECONTEXTALLOCATION callback function
 
 
 ## -description

@@ -71,3 +71,15 @@ Defines the <b>USHORT</b> member <b>DataLength</b>.
 
 Defines the members of <b>DUMMYUNIONNAME</b>.
 
+
+### -field DUMMYUNIONNAME.Argument
+
+ 
+
+
+### -field DUMMYUNIONNAME.Data
+
+ 
+
+
+

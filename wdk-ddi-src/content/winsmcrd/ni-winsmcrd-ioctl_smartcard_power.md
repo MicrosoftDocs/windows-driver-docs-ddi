@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1B6F95FB-E7DC-4D36-A319-F5EB576F8D7A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_SMARTCARD_POWER, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_power, winsmcrd/IOCTL_SMARTCARD_POWER
+ms.keywords: IOCTL_SMARTCARD_POWER, IOCTL_SMARTCARD_POWER control, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_power, winsmcrd/IOCTL_SMARTCARD_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,8 +40,7 @@ api_name:
 -	IOCTL_SMARTCARD_POWER
 product: Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SMARTCARD_POWER IOCTL

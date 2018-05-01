@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13d7fbc6-6f93-4ef9-abd4-f2adc4e8e23a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectGeneralRef_31761962-577a-4a53-8b55-226801f42960.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART, EvtDeviceSelfManagedIoRestart, EvtDeviceSelfManagedIoRestart callback function, kmdf.evtdeviceselfmanagediorestart, wdf.evtdeviceselfmanagediorestart, wdfdevice/EvtDeviceSelfManagedIoRestart
+ms.keywords: DFDeviceObjectGeneralRef_31761962-577a-4a53-8b55-226801f42960.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback, EvtDeviceSelfManagedIoRestart, EvtDeviceSelfManagedIoRestart callback function, kmdf.evtdeviceselfmanagediorestart, wdf.evtdeviceselfmanagediorestart, wdfdevice/EvtDeviceSelfManagedIoRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtDeviceSelfManagedIoRestart
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback
+# EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback function
 
 
 ## -description

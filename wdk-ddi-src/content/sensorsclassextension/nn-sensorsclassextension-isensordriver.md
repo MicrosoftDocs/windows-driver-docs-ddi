@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 4f468f1e-598e-46ae-b50e-28f73e73afda
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver interface [Sensor Devices], ISensorDriver interface [Sensor Devices], described, Sensor_IFaces_014342f2-5466-426b-bb11-cb4e89a7691a.xml, sensors.isensordriver, sensorsclassextension/ISensorDriver
+ms.keywords: ISensorDriver, ISensorDriver interface [Sensor Devices], ISensorDriver interface [Sensor Devices],described, Sensor_IFaces_014342f2-5466-426b-bb11-cb4e89a7691a.xml, sensors.isensordriver, sensorsclassextension/ISensorDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: SensorsClassExtension.lib
-req.dll: 
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 -	ISensorDriver
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ISensorDriver interface

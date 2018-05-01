@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.AddBreakpoint
-title: IDebugControl2::AddBreakpoint method
+title: IDebugControl2::AddBreakpoint
 author: windows-driver-content
 description: The AddBreakpoint method creates a new breakpoint for the current target.
 old-location: debugger\addbreakpoint.htm
 old-project: debugger
 ms.assetid: 08452b54-158f-4dca-86d8-34cc3f96bc62
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddBreakpoint method [Windows Debugging], AddBreakpoint method [Windows Debugging], IDebugControl interface, AddBreakpoint method [Windows Debugging], IDebugControl2 interface, AddBreakpoint method [Windows Debugging], IDebugControl3 interface, AddBreakpoint,IDebugControl2.AddBreakpoint, IDebugControl interface [Windows Debugging], AddBreakpoint method, IDebugControl2, IDebugControl2 interface [Windows Debugging], AddBreakpoint method, IDebugControl2::AddBreakpoint, IDebugControl3 interface [Windows Debugging], AddBreakpoint method, IDebugControl3::AddBreakpoint, IDebugControl::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, dbgeng/IDebugControl2::AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, debugger.addbreakpoint
+ms.date: 4/24/2018
+ms.keywords: AddBreakpoint, AddBreakpoint method [Windows Debugging], AddBreakpoint method [Windows Debugging],IDebugControl interface, AddBreakpoint method [Windows Debugging],IDebugControl2 interface, AddBreakpoint method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddBreakpoint method, IDebugControl2 interface [Windows Debugging],AddBreakpoint method, IDebugControl2.AddBreakpoint, IDebugControl2::AddBreakpoint, IDebugControl3 interface [Windows Debugging],AddBreakpoint method, IDebugControl3::AddBreakpoint, IDebugControl::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, dbgeng/IDebugControl2::AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, debugger.addbreakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 -	IDebugControl3.AddBreakpoint
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::AddBreakpoint method
+# IDebugControl2::AddBreakpoint
 
 
 ## -description

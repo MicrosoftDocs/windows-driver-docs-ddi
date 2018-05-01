@@ -7,8 +7,8 @@ old-location: display\dxgkcbgethandledata.htm
 old-project: display
 ms.assetid: 144429e5-34e6-4416-980e-2838e8f9e415
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_GETHANDLEDATA, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml, DxgkCbGetHandleData, DxgkCbGetHandleData callback function [Display Devices], d3dkmddi/DxgkCbGetHandleData, display.dxgkcbgethandledata
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_GETHANDLEDATA, DXGKCB_GETHANDLEDATA callback, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml, DxgkCbGetHandleData, DxgkCbGetHandleData callback function [Display Devices], d3dkmddi/DxgkCbGetHandleData, display.dxgkcbgethandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	DxgkCbGetHandleData
 product: Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_GETHANDLEDATA callback
+# DXGKCB_GETHANDLEDATA callback function
 
 
 ## -description

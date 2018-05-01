@@ -41,8 +41,7 @@ api_name:
 -	WdfDeviceGetDevicePowerPolicyState
 product: Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceGetDevicePowerPolicyState function

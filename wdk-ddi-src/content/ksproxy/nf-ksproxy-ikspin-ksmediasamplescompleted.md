@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsMediaSamplesCompleted
-title: IKsPin::KsMediaSamplesCompleted method
+title: IKsPin::KsMediaSamplesCompleted
 author: windows-driver-content
 description: The KsMediaSamplesCompleted method informs a pin that a stream segment completed.
 old-location: stream\ikspin_ksmediasamplescompleted.htm
 old-project: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, KsMediaSamplesCompleted,IKsPin.KsMediaSamplesCompleted, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, stream.ikspin_ksmediasamplescompleted
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsMediaSamplesCompleted method, IKsPin.KsMediaSamplesCompleted, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, stream.ikspin_ksmediasamplescompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IKsPin.KsMediaSamplesCompleted
 product: Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsMediaSamplesCompleted method
+# IKsPin::KsMediaSamplesCompleted
 
 
 ## -description

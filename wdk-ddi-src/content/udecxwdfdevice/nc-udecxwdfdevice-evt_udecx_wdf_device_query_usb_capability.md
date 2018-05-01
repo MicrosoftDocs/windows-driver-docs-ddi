@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_wdf_device_query_usb_capability.htm
 old-project: usbref
 ms.assetid: 96F3128C-C334-4531-9C86-3FA918A902AC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EvtUdecxWdfDeviceQueryUsbCapability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], buses.evt_udecx_wdf_device_query_usb_capability, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback, EvtUdecxWdfDeviceQueryUsbCapability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], buses.evt_udecx_wdf_device_query_usb_capability, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtUdecxWdfDeviceQueryUsbCapability
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback
+# EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback function
 
 
 ## -description

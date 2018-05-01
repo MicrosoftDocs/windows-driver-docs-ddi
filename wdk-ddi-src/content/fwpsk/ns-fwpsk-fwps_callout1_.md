@@ -7,7 +7,7 @@ old-location: netvista\fwps_callout1.htm
 old-project: netvista
 ms.assetid: d15c4cd4-b4f0-4363-988a-2bbb235b7b37
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_CALLOUT1, FWPS_CALLOUT1 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT1_, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, fwpsk/FWPS_CALLOUT1, netvista.fwps_callout1, wfp_ref_3_struct_3_fwps_A-E_dd7d51e7-3270-4480-8845-067c010e2fca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

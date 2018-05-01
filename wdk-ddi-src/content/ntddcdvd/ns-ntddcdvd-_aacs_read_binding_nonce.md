@@ -72,12 +72,12 @@ The number of sectors in the area for which the binding nonce is retrieved. To r
 The starting logical block address of the area for which the binding nonce is retrieved. To request the nonce for a file, the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559248">IOCTL_AACS_GENERATE_BINDING_NONCE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559262">IOCTL_AACS_READ_BINDING_NONCE</a> must set this member to MAXULONGLONG.
 
 
-#### - ForceStructureLengthToMatch64bit
-
-
-#### - Handle
+### -field Handle
 
 The file handle. Callers of IOCTL_AACS_READ_BINDING_NONCE that use file system support can set this member to a file handle. If the caller does not use file system support, this member must have a value of INVALID_HANDLE_VALUE.
+
+
+### -field ForceStructureLengthToMatch64bit
 
 
 ## -remarks

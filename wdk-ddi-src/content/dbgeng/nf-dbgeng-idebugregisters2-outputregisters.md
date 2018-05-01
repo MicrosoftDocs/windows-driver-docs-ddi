@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.OutputRegisters
-title: IDebugRegisters2::OutputRegisters method
+title: IDebugRegisters2::OutputRegisters
 author: windows-driver-content
 description: The OutputRegisters method formats and sends the target's registers to the clients as output.
 old-location: debugger\outputregisters.htm
 old-project: debugger
 ms.assetid: d1354ab7-4d7d-4cc2-8e30-763d8b881a11
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugRegisters interface [Windows Debugging], OutputRegisters method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], OutputRegisters method, IDebugRegisters2::OutputRegisters, IDebugRegisters::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging], IDebugRegisters interface, OutputRegisters method [Windows Debugging], IDebugRegisters2 interface, OutputRegisters,IDebugRegisters2.OutputRegisters, dbgeng/IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters interface [Windows Debugging],OutputRegisters method, IDebugRegisters2 interface [Windows Debugging],OutputRegisters method, IDebugRegisters2.OutputRegisters, IDebugRegisters2::OutputRegisters, IDebugRegisters::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging],IDebugRegisters interface, OutputRegisters method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 -	IDebugRegisters2.OutputRegisters
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::OutputRegisters method
+# IDebugRegisters2::OutputRegisters
 
 
 ## -description

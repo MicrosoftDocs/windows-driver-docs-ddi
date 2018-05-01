@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelstart.htm
 old-project: netvista
 ms.assetid: A318FD24-4E48-4DE4-B919-DD1D701F7EA7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelStart, VmbChannelStart function [Network Drivers Starting with Windows Vista], netvista.vmbchannelstart, vmbuskernelmodeclientlibapi/VmbChannelStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelStart
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelStart function

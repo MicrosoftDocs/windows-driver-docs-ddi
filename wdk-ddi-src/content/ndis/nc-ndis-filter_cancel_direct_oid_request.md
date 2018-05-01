@@ -7,8 +7,8 @@ old-location: netvista\filtercanceldirectoidrequest.htm
 old-project: netvista
 ms.assetid: 3587c5dc-3b4c-4aab-8c2d-cc9988373a56
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_CANCEL_DIRECT_OID_REQUEST, FilterCancelDirectOidRequest, FilterCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelDirectOidRequest, ndis_request_direct_ref_e9bd9db7-8a50-485e-9592-e43461963137.xml, netvista.filtercanceldirectoidrequest
+ms.date: 4/25/2018
+ms.keywords: FILTER_CANCEL_DIRECT_OID_REQUEST, FILTER_CANCEL_DIRECT_OID_REQUEST callback, FilterCancelDirectOidRequest, FilterCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelDirectOidRequest, ndis_request_direct_ref_e9bd9db7-8a50-485e-9592-e43461963137.xml, netvista.filtercanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	FilterCancelDirectOidRequest
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_CANCEL_DIRECT_OID_REQUEST callback
+# FILTER_CANCEL_DIRECT_OID_REQUEST callback function
 
 
 ## -description

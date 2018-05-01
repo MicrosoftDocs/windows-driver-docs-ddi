@@ -40,8 +40,7 @@ api_name:
 -	WDF_CHILD_RETRIEVE_INFO_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_RETRIEVE_CHILD_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_CHILD_RETRIEVE_INFO_INIT function

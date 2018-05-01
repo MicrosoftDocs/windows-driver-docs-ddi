@@ -7,7 +7,7 @@ old-location: kernel\pep_power_control_request.htm
 old-project: kernel
 ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_REQUEST, kernel.pep_power_control_request, pepfx/PEP_POWER_CONTROL_REQUEST, pepfx/PPEP_POWER_CONTROL_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ api_name:
 -	PEP_POWER_CONTROL_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
+req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
 ---
 
 # _PEP_POWER_CONTROL_REQUEST structure

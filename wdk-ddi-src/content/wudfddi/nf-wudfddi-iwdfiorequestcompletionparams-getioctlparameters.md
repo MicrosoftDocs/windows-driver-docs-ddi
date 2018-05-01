@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetIoctlParameters
-title: IWDFIoRequestCompletionParams::GetIoctlParameters method
+title: IWDFIoRequestCompletionParams::GetIoctlParameters
 author: windows-driver-content
 description: The GetIoctlParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfiorequestcompletionparams_getioctlparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetIoctlParameters method, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, GetIoctlParameters,IWDFIoRequestCompletionParams.GetIoctlParameters, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, IWDFIoRequestCompletionParams::GetIoctlParameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, umdf.iwdfiorequestcompletionparams_getioctlparameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters
+ms.keywords: GetIoctlParameters, GetIoctlParameters method, GetIoctlParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetIoctlParameters method, IWDFIoRequestCompletionParams.GetIoctlParameters, IWDFIoRequestCompletionParams::GetIoctlParameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, umdf.iwdfiorequestcompletionparams_getioctlparameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IWDFIoRequestCompletionParams.GetIoctlParameters
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequestCompletionParams::GetIoctlParameters method
+# IWDFIoRequestCompletionParams::GetIoctlParameters
 
 
 ## -description

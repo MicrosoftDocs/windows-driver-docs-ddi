@@ -7,7 +7,7 @@ old-location: kernel\file_network_open_information.htm
 old-project: kernel
 ms.assetid: 742fa221-70c8-410a-a582-aedf28872ada
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PFILE_NETWORK_OPEN_INFORMATION, FILE_NETWORK_OPEN_INFORMATION, FILE_NETWORK_OPEN_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_NETWORK_OPEN_INFORMATION, PFILE_NETWORK_OPEN_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_NETWORK_OPEN_INFORMATION, kernel.file_network_open_information, kstruct_b_761510b6-751c-457d-a516-cce0d9fa3027.xml, wdm/FILE_NETWORK_OPEN_INFORMATION, wdm/PFILE_NETWORK_OPEN_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: FILE_NETWORK_OPEN_INFORMATION, *PFILE_NETWORK_OPEN_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _FILE_NETWORK_OPEN_INFORMATION structure

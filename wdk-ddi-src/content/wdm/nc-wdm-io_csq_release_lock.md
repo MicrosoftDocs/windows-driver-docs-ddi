@@ -7,7 +7,7 @@ old-location: kernel\csqreleaselock.htm
 old-project: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,11 +40,10 @@ api_name:
 -	CsqReleaseLock
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IO_CSQ_RELEASE_LOCK callback
+# IO_CSQ_RELEASE_LOCK callback function
 
 
 ## -description

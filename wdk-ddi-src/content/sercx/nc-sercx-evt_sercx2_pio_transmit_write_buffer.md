@@ -7,8 +7,8 @@ old-location: serports\evtsercx2piotransmitwritebuffer.htm
 old-project: serports
 ms.assetid: 28DD175B-9869-4CFC-9BDD-172DA7E015DE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EvtSerCx2PioTransmitWriteBuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], serports.evtsercx2piotransmitwritebuffer
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback, EvtSerCx2PioTransmitWriteBuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], serports.evtsercx2piotransmitwritebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,11 +40,10 @@ api_name:
 -	EvtSerCx2PioTransmitWriteBuffer
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback
+# EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxgk_miracast_chunk_type.htm
 old-project: display
 ms.assetid: 6C44EFD1-9366-4119-945E-688176D9F5D5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_MIRACAST_CHUNK_TYPE, DXGK_MIRACAST_CHUNK_TYPE enumeration [Display Devices], DXGK_MIRACAST_CHUNK_TYPE_COLOR_CONVERT_COMPLETE, DXGK_MIRACAST_CHUNK_TYPE_ENCODE_COMPLETE, DXGK_MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_1, DXGK_MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_2, DXGK_MIRACAST_CHUNK_TYPE_FRAME_DROPPED, DXGK_MIRACAST_CHUNK_TYPE_FRAME_START, DXGK_MIRACAST_CHUNK_TYPE_UNKNOWN, _DXGK_MIRACAST_CHUNK_TYPE, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_COLOR_CONVERT_COMPLETE, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_ENCODE_COMPLETE, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_1, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_2, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_FRAME_DROPPED, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_FRAME_START, d3dukmdt/DXGK_MIRACAST_CHUNK_TYPE_UNKNOWN, display.dxgk_miracast_chunk_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

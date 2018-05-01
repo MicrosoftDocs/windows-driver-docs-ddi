@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 0b9cd546-d4ad-4e0e-92cb-7994c7327977
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PSHED_PI_SET_ERROR_SOURCE_INFO, SetErrorSourceInfo, SetErrorSourceInfo callback function [WHEA Drivers and Applications], ntddk/SetErrorSourceInfo, whea.seterrorsourceinfo, whearef_49924aa5-519d-4e23-95c5-a52264713258.xml
+ms.keywords: PSHED_PI_SET_ERROR_SOURCE_INFO, PSHED_PI_SET_ERROR_SOURCE_INFO callback, SetErrorSourceInfo, SetErrorSourceInfo callback function [WHEA Drivers and Applications], ntddk/SetErrorSourceInfo, whea.seterrorsourceinfo, whearef_49924aa5-519d-4e23-95c5-a52264713258.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	SetErrorSourceInfo
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_SET_ERROR_SOURCE_INFO callback
+# PSHED_PI_SET_ERROR_SOURCE_INFO callback function
 
 
 ## -description

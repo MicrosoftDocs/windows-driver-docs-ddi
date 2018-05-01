@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetString
-title: IPrinterPropertyBag::GetString method
+title: IPrinterPropertyBag::GetString
 author: windows-driver-content
 description: Reads a string property.
 old-location: print\iprinterpropertybag_getstring.htm
 old-project: print
 ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetString method [Print Devices], GetString method [Print Devices], IPrinterPropertyBag interface, GetString,IPrinterPropertyBag.GetString, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetString method, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
+ms.date: 4/20/2018
+ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetString method, IPrinterPropertyBag.GetString, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterPropertyBag.GetString
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterPropertyBag::GetString method
+# IPrinterPropertyBag::GetString
 
 
 ## -description

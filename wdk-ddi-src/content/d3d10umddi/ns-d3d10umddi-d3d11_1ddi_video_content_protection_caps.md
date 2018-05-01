@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_content_protection_caps.htm
 old-project: display
 ms.assetid: 31ff5dfc-72b1-4ce1-af83-cad3816a785c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, display.d3d11_1ddi_video_content_protection_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

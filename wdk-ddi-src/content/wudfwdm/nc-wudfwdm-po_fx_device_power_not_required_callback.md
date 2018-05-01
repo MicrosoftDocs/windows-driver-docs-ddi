@@ -7,7 +7,7 @@ old-location: kernel\devicepowernotrequiredcallback.htm
 old-project: kernel
 ms.assetid: 4BE1EEF7-7053-47AF-91E8-7313C3A56718
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/5/2018
 ms.keywords: DevicePowerNotRequiredCallback, DevicePowerNotRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK, kernel.devicepowernotrequiredcallback, wdm/DevicePowerNotRequiredCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,30 +40,16 @@ api_name:
 -	DevicePowerNotRequiredCallback
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK callback
+# PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK callback function
 
 
 ## -description
 
 
 The <i>DevicePowerNotRequiredCallback</i> callback routine notifies the device driver that the device is not required to stay in the D0 power state.
-
-
-## -prototype
-
-
-````
-PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK DevicePowerNotRequiredCallback;
-
-VOID DevicePowerNotRequiredCallback(
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +59,7 @@ VOID DevicePowerNotRequiredCallback(
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ## -returns
@@ -89,7 +75,7 @@ None.
 
 
 
-When PoFx calls the driver's <i>DevicePowerNotRequiredCallback</i> routine, the driver must first decide whether to initiate a transition to a low-power Dx state (by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request down the device stack) or to remain in the D0 state. Next, without waiting for any Dx transition to complete, the driver must call the <a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a> routine to notify PoFx that the driver completed its response to the <i>DevicePowerNotRequiredCallback</i> callback. The driver can call <b>PoFxCompleteDevicePowerNotRequired</b> before or after the <i>DevicePowerNotRequiredCallback</i> routine returns.
+When PoFx calls the driver's <i>DevicePowerNotRequiredCallback</i> routine, the driver must first decide whether to initiate a transition to a low-power Dx state (by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request down the device stack) or to remain in the D0 state. Next, without waiting for any Dx transition to complete, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406654">PoFxCompleteDevicePowerNotRequired</a> routine to notify PoFx that the driver completed its response to the <i>DevicePowerNotRequiredCallback</i> callback. The driver can call <b>PoFxCompleteDevicePowerNotRequired</b> before or after the <i>DevicePowerNotRequiredCallback</i> routine returns.
 
 When a device is in the D0 state, and the Fx state or active/idle condition of a component in the device changes, PoFx evaluates whether the device can enter a low-power Dx state or must remain in the D0 state. If the device can enter a low-power Dx state, PoFx calls the driver's <i>DevicePowerNotRequiredCallback</i> routine.
 
@@ -140,15 +126,6 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
@@ -160,9 +137,16 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406654">PoFxCompleteDevicePowerNotRequired</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DevicePowerNotRequiredCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

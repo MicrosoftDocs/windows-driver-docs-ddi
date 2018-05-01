@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetExpressionSyntaxByNameWide
-title: IDebugControl4::SetExpressionSyntaxByNameWide method
+title: IDebugControl4::SetExpressionSyntaxByNameWide
 author: windows-driver-content
 description: The SetExpressionSyntaxByNameWide method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbynamewide.htm
 old-project: debugger
 ms.assetid: cad4ee84-333a-49ff-a087-da0e36b87989
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method, IDebugControl4::SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, SetExpressionSyntaxByNameWide,IDebugControl4.SetExpressionSyntaxByNameWide, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, debugger.setexpressionsyntaxbynamewide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],SetExpressionSyntaxByNameWide method, IDebugControl4.SetExpressionSyntaxByNameWide, IDebugControl4::SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, debugger.setexpressionsyntaxbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IDebugControl4.SetExpressionSyntaxByNameWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::SetExpressionSyntaxByNameWide method
+# IDebugControl4::SetExpressionSyntaxByNameWide
 
 
 ## -description

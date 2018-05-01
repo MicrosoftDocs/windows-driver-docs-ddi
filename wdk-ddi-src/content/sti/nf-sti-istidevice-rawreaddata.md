@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.RawReadData
-title: IStiDevice::RawReadData method
+title: IStiDevice::RawReadData
 author: windows-driver-content
 description: The IStiDevice::RawReadData method reads data from a still image device.
 old-location: image\istidevice_rawreaddata.htm
 old-project: image
 ms.assetid: b4510fac-839b-4744-9525-2bf96c5c724e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawReadData method, IStiDevice::RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices], IStiDevice interface, RawReadData,IStiDevice.RawReadData, image.istidevice_rawreaddata, sti/IStiDevice::RawReadData, stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],RawReadData method, IStiDevice.RawReadData, IStiDevice::RawReadData, RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices],IStiDevice interface, image.istidevice_rawreaddata, sti/IStiDevice::RawReadData, stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IStiDevice.RawReadData
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::RawReadData method
+# IStiDevice::RawReadData
 
 
 ## -description

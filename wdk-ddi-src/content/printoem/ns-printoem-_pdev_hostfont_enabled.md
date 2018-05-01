@@ -7,7 +7,7 @@ old-location: print\pdev_hostfont_enabled.htm
 old-project: print
 ms.assetid: f7fc7e33-e80b-449e-a1d1-a93740cd967c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED structure [Print Devices], _PDEV_HOSTFONT_ENABLED, print.pdev_hostfont_enabled, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, printoem/PDEV_HOSTFONT_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PDEV_HOSTFONT_ENABLED
-req.product: Windows 10 or later.
 ---
 
 # _PDEV_HOSTFONT_ENABLED structure

@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsetpointer.htm
 old-project: netvista
 ms.assetid: E536B66D-EAF2-4377-8452-7D37A277E7C8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelSetPointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsetpointer, vmbuskernelmodeclientlibapi/VmbChannelSetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 -	VmbChannelSetPointer
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelSetPointer function

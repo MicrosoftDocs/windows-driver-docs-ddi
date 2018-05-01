@@ -67,6 +67,16 @@ Defines the <b>ULONG</b> member <b>Signature</b>.
 Defines the method name member of <b>DUMMYUNIONNAME</b>.
 
 
+### -field DUMMYUNIONNAME.MethodName
+
+ 
+
+
+### -field DUMMYUNIONNAME.MethodNameAsUlong
+
+ 
+
+
 ### -field StringLength
 
 Defines the <b>ULONG</b> member <b>StringLength</b>.

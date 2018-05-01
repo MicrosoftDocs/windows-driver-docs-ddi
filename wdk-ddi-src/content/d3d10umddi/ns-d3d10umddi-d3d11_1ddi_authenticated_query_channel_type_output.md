@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_query_channel_type_output.htm
 old-project: display
 ms.assetid: 2bdcc511-c176-4f8f-83fe-7a3715b60330
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT, display.d3d11_1ddi_authenticated_query_channel_type_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

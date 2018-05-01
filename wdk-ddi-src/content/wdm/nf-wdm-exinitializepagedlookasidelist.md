@@ -7,7 +7,7 @@ old-location: kernel\exinitializepagedlookasidelist.htm
 old-project: kernel
 ms.assetid: 7a6b21f1-37e3-4f73-a826-4629624ac5a9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: ExInitializePagedLookasideList, ExInitializePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_7044b56d-db76-4021-8d76-b4f157e2d783.xml, kernel.exinitializepagedlookasidelist, wdm/ExInitializePagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	ExInitializePagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExInitializePagedLookasideList function

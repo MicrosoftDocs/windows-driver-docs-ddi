@@ -7,7 +7,7 @@ old-location: stream\avstrminiallocate.htm
 old-project: stream
 ms.assetid: f718e788-306a-4dbc-96cb-a81299aafe1d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniAllocate, AVStrMiniAllocate routine [Streaming Media Devices], PFNKSDEFAULTALLOCATE, avstclbk_3ed4229c-f462-4b86-9dd4-374275f10c24.xml, ks/AVStrMiniAllocate, stream.avstrminiallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	AVStrMiniAllocate
 product: Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSDEFAULTALLOCATE callback
+# PFNKSDEFAULTALLOCATE callback function
 
 
 ## -description

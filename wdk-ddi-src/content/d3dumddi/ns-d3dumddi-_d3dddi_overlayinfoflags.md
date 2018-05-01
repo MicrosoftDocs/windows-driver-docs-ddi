@@ -7,7 +7,7 @@ old-location: display\d3dddi_overlayinfoflags.htm
 old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,7 +150,7 @@ A UINT value that specifies whether the overlay is conventional YCbCr or extende
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 20 bits (0xFFFFF000) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold one 32-bit value that identifies the type of overlay operation to perform.
 

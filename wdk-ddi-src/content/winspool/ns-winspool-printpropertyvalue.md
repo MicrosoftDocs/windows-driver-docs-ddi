@@ -7,7 +7,7 @@ old-location: print\printpropertyvalue.htm
 old-project: print
 ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: PrintPropertyValue
-req.product: Windows 10 or later.
 ---
 
 # PrintPropertyValue structure
@@ -62,6 +61,26 @@ req.product: Windows 10 or later.
 
 
 ### -field value
+
+
+### -field value.propertyByte
+
+ 
+
+
+### -field value.propertyString
+
+ 
+
+
+### -field value.propertyInt32
+
+ 
+
+
+### -field value.propertyInt64
+
+ 
 
 
 ### -field value.propertyBlob

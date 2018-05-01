@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_conversion_support_data.htm
 old-project: display
 ms.assetid: E9FA4CEB-84D3-42A6-B36A-B411922F19AE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, display.d3d12ddi_video_decode_conversion_support_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\pep_device_power_state.htm
 old-project: kernel
 ms.assetid: F5E66C33-F727-4631-89C6-413C24995A04
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/5/2018
 ms.keywords: "*PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_POWER_STATE, kernel.pep_device_power_state, pepfx/PEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

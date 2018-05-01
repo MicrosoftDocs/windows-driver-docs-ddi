@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnSurpriseRemoval
-title: IPnpCallback::OnSurpriseRemoval method
+title: IPnpCallback::OnSurpriseRemoval
 author: windows-driver-content
 description: The OnSurpriseRemoval method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
 old-location: wdf\ipnpcallback_onsurpriseremoval.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval method, OnSurpriseRemoval method, IPnpCallback interface, OnSurpriseRemoval,IPnpCallback.OnSurpriseRemoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, wudfddi/IPnpCallback::OnSurpriseRemoval
+ms.keywords: IPnpCallback interface,OnSurpriseRemoval method, IPnpCallback.OnSurpriseRemoval, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval, OnSurpriseRemoval method, OnSurpriseRemoval method,IPnpCallback interface, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, wudfddi/IPnpCallback::OnSurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPnpCallback.OnSurpriseRemoval
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallback::OnSurpriseRemoval method
+# IPnpCallback::OnSurpriseRemoval
 
 
 ## -description

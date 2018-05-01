@@ -7,7 +7,7 @@ old-location: display\d3dddicb_signalsynchronizationobject2.htm
 old-project: display
 ms.assetid: cb8df28d-1d44-446b-83a8-b4191213973d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dddicb_signalsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,16 +91,16 @@ All synchronization objects must be created on the same logical adapter as the  
 All contexts must be created for the same Direct3D device and the context that is specified by <b>hContext</b>.
 
 
-#### - CpuEventHandle
-
-[in] The handle of an event object that will be signaled when the signal command is processed. This member must be set only when <b>Flags</b>.<b>EnqueueCpuEvent</b> is specified.
-
-
-#### - FenceValue
+### -field FenceValue
 
 [in] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 This value applies only if the GPU synchronization object is of type <b>D3DDDI_FENCE</b>—namely, the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544658">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure has a value of <b>D3DDDI_FENCE</b>.
+
+
+### -field CpuEventHandle
+
+[in] The handle of an event object that will be signaled when the signal command is processed. This member must be set only when <b>Flags</b>.<b>EnqueueCpuEvent</b> is specified.
 
 
 ## -see-also

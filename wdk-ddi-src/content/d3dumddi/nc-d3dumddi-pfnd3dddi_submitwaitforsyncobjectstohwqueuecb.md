@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.htm
 old-project: display
 ms.assetid: 4FD92529-0F47-46FC-9567-D8C0A5D76728
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback
+# PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function
 
 
 ## -description

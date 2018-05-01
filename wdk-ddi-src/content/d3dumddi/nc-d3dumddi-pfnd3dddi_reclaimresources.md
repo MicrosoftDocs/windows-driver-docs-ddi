@@ -7,8 +7,8 @@ old-location: display\reclaimresources.htm
 old-project: display
 ms.assetid: F0533DBB-CB18-4556-9871-2DF4CA719172
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_RECLAIMRESOURCES, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_RECLAIMRESOURCES, PFND3DDDI_RECLAIMRESOURCES callback, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	ReclaimResources
 product: Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_RECLAIMRESOURCES callback
+# PFND3DDDI_RECLAIMRESOURCES callback function
 
 
 ## -description

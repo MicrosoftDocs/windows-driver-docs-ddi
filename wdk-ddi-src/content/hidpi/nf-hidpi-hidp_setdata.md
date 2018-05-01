@@ -41,7 +41,7 @@ api_name:
 -	HidP_SetData
 product: Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_SetData function

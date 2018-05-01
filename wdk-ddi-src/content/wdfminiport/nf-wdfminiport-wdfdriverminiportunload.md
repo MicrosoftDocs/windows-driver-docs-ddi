@@ -41,8 +41,7 @@ api_name:
 -	WdfDriverMiniportUnload
 product: Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDriverMiniportUnload function

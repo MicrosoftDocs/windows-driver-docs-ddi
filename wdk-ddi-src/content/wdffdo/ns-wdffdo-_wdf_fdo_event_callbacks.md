@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: WDF_FDO_EVENT_CALLBACKS, *PWDF_FDO_EVENT_CALLBACKS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_FDO_EVENT_CALLBACKS structure

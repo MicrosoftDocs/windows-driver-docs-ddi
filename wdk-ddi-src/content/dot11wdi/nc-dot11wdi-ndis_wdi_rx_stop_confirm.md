@@ -7,8 +7,8 @@ old-location: netvista\ndiswdirxstopconfirm.htm
 old-project: netvista
 ms.assetid: 2022915A-2717-4098-BCD8-34130A161967
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_RX_STOP_CONFIRM, NdisWdiRxStopConfirm, NdisWdiRxStopConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxStopConfirm, netvista.ndiswdirxstopconfirm
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_RX_STOP_CONFIRM, NDIS_WDI_RX_STOP_CONFIRM callback, NdisWdiRxStopConfirm, NdisWdiRxStopConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxStopConfirm, netvista.ndiswdirxstopconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,10 +40,10 @@ api_name:
 -	NdisWdiRxStopConfirm
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_RX_STOP_CONFIRM callback
+# NDIS_WDI_RX_STOP_CONFIRM callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlreleasefile.htm
 old-project: ifsk
 ms.assetid: dd3764ee-35bd-45c8-acfe-5c2acb9ea185
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlReleaseFile, FsRtlReleaseFile function [Installable File System Drivers], fsrtlref_301a078d-fbc5-4d2d-84f3-e0a1214731a9.xml, ifsk.fsrtlreleasefile, ntifs/FsRtlReleaseFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	FsRtlReleaseFile
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlReleaseFile function

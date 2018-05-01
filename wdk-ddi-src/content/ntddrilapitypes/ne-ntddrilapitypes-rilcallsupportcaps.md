@@ -7,7 +7,7 @@ old-location: netvista\rilcallsupportcaps.htm
 old-project: netvista
 ms.assetid: 1573a1bd-8c47-4fdc-89d1-242e91ff0e47
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLSUPPORTCAPS, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_CD, RIL_CAPS_CALLSUPPORT_CNAP, RIL_CAPS_CALLSUPPORT_CUG, RIL_CAPS_CALLSUPPORT_EMLPP, RIL_CAPS_CALLSUPPORT_FM, RIL_CAPS_CALLSUPPORT_MSP, RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, netvista.rilcallsupportcaps, ntddrilapitypes/RILCALLSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_ALL, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CD, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CUG, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_FM, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_MSP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
 -	APIRef

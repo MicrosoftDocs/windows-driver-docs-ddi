@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusicks.IPortDMus.RegisterServiceGroup
-title: IPortDMus::RegisterServiceGroup method
+title: IPortDMus::RegisterServiceGroup
 author: windows-driver-content
 description: The RegisterServiceGroup method registers a service group with the DMus port driver.
 old-location: audio\iportdmus_registerservicegroup.htm
 old-project: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortDMus, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus::RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices], IPortDMus interface, RegisterServiceGroup,IPortDMus.RegisterServiceGroup, audio.iportdmus_registerservicegroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
+ms.date: 4/16/2018
+ms.keywords: IPortDMus interface [Audio Devices],RegisterServiceGroup method, IPortDMus.RegisterServiceGroup, IPortDMus::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortDMus interface, audio.iportdmus_registerservicegroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,10 +40,10 @@ api_name:
 -	IPortDMus.RegisterServiceGroup
 product: Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
-# IPortDMus::RegisterServiceGroup method
+# IPortDMus::RegisterServiceGroup
 
 
 ## -description

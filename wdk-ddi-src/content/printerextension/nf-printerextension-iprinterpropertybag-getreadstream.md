@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetReadStream
-title: IPrinterPropertyBag::GetReadStream method
+title: IPrinterPropertyBag::GetReadStream
 author: windows-driver-content
 description: Gets a stream in order to read from a stream property.
 old-location: print\iprinterpropertybag_getreadstream.htm
 old-project: print
 ms.assetid: BDA58F6A-A245-4616-866C-6D1734EFB469
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterPropertyBag interface, GetReadStream,IPrinterPropertyBag.GetReadStream, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetReadStream method, IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream
+ms.date: 4/20/2018
+ms.keywords: GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetReadStream method, IPrinterPropertyBag.GetReadStream, IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,11 +40,10 @@ api_name:
 -	IPrinterPropertyBag.GetReadStream
 product: Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterPropertyBag::GetReadStream method
+# IPrinterPropertyBag::GetReadStream
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dkmtregistertrimnotification.htm
 old-project: display
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 -	D3DKMTRegisterTrimNotification
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTRegisterTrimNotification function

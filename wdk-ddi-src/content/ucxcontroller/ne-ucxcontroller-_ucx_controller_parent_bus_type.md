@@ -7,7 +7,7 @@ old-location: buses\ucx_controller_parent_bus_type.htm
 old-project: usbref
 ms.assetid: FD78074D-E128-4085-A178-0133C9256E42
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypeCustom, UcxControllerParentBusTypePci, _UCX_CONTROLLER_PARENT_BUS_TYPE, buses.ucx_controller_parent_bus_type, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypePci
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,6 @@ api_name:
 product: Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_PARENT_BUS_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _UCX_CONTROLLER_PARENT_BUS_TYPE enumeration

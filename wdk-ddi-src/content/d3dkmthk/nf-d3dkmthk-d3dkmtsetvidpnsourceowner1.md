@@ -7,8 +7,8 @@ old-location: display\d3dkmtsetvidpnsourceowner1.htm
 old-project: display
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
+ms.date: 4/16/2018
+ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ api_name:
 -	D3DKMTSetVidPnSourceOwner1
 product: Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTSetVidPnSourceOwner1 function

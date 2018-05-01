@@ -7,7 +7,7 @@ old-location: serports\sercx2piotransmitpurgefifocomplete.htm
 old-project: serports
 ms.assetid: D5877A1C-0963-4C11-B440-122182CBA624
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioTransmitPurgeFifoComplete, SerCx2PioTransmitPurgeFifoComplete, SerCx2PioTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2piotransmitpurgefifocomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,8 +40,7 @@ api_name:
 -	SerCx2PioTransmitPurgeFifoComplete
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2PioTransmitPurgeFifoComplete function
