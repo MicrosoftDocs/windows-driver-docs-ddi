@@ -142,7 +142,7 @@ Terminate the process, such as by calling the user-mode <b>TerminateProcess</b> 
 </tr>
 <tr>
 <td>
-PROCESS_VM_OPERATIONS
+PROCESS_VM_OPERATION
 
 </td>
 <td>
