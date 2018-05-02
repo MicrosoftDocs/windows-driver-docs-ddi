@@ -17,17 +17,17 @@ req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -222,43 +222,43 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/e37bb3c6-a0b6-409f-
 ### -field DxgkDdiQueryVidPnHWCapability
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a> function.
 
 
 ### -field DxgkDdiPresentDisplayOnly
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a> function.
 
 
 ### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/6AF170BF-C422-4340-8935-31A4D4F3EFA5">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/6AF170BF-C422-4340-8935-31A4D4F3EFA5">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a> function.
 
 
 ### -field DxgkDdiSystemDisplayEnable
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/D938F7F4-E1FA-4C63-A31D-5ED160276565">DxgkDdiSystemDisplayEnable</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/D938F7F4-E1FA-4C63-A31D-5ED160276565">DxgkDdiSystemDisplayEnable</a> function.
 
 
 ### -field DxgkDdiSystemDisplayWrite
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/5C0F9878-522C-4DDE-A790-54C94880F119">DxgkDdiSystemDisplayWrite</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/5C0F9878-522C-4DDE-A790-54C94880F119">DxgkDdiSystemDisplayWrite</a> function.
 
 
 ### -field DxgkDdiGetChildContainerId
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/e7073fb3-0cb7-425e-9ffb-d7eaa963a70f">DxgkDdiGetChildContainerId</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/e7073fb3-0cb7-425e-9ffb-d7eaa963a70f">DxgkDdiGetChildContainerId</a> function.
 
 
 ### -field DxgkDdiControlInterrupt
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/d6bef242-bafc-4d9e-a729-d62ccdbd2667">DxgkDdiControlInterrupt</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/d6bef242-bafc-4d9e-a729-d62ccdbd2667">DxgkDdiControlInterrupt</a> function.
 
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
 <div> </div>
@@ -266,26 +266,24 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/e37bb3c6-a0b6-409f-
 ### -field DxgkDdiSetPowerComponentFState
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/C68CC6F1-83D6-43D9-93F3-99E3A990C7D7">DxgkDdiSetPowerComponentFState</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/C68CC6F1-83D6-43D9-93F3-99E3A990C7D7">DxgkDdiSetPowerComponentFState</a> function.
 
 
 ### -field DxgkDdiPowerRuntimeControlRequest
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/56535128-3107-4fb5-b0e1-2e913c386cc2">DxgkDdiPowerRuntimeControlRequest</a> function.
+A pointer to the KMDOD's <a href="https://msdn.microsoft.com/56535128-3107-4fb5-b0e1-2e913c386cc2">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 
 ### -field DxgkDdiNotifySurpriseRemoval
 
 
-      A pointer to the KMDOD's <a href="https://msdn.microsoft.com/4e6403e7-7463-479a-8be9-4136287b375e">DxgkDdiNotifySurpriseRemoval</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
 
 
 ### -field DxgkDdiPowerRuntimeSetDeviceHandle
 
- 
-
-
+A pointer to the KMDOD's DxgkDdiPowerRuntimeSetDeviceHandle function.
 
 
 ## -remarks
