@@ -51,7 +51,7 @@ req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ## -description
 
 
-The <b>AuxKlibInitialize</b> routine initializes the <a href="https://msdn.microsoft.com/34ed3c98-6b27-47d1-bd8d-38e280abfe64">Auxiliary Kernel-Mode Library</a>.
+The <b>AuxKlibInitialize</b> routine initializes the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/aux_klib/">Auxiliary Kernel-Mode Library</a>.
 
 
 ## -parameters
