@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_NODE_S2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S2, *PKSPROPERTY_CAMERACONTROL_NODE_S2
 ---

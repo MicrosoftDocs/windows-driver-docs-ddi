@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	UnregisterEventCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

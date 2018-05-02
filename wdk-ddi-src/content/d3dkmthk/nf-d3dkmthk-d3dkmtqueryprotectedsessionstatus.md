@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTQueryProtectedSessionStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

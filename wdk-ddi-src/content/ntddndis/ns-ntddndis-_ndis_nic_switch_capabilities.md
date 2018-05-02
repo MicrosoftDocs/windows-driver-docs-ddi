@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_NIC_SWITCH_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
 ---

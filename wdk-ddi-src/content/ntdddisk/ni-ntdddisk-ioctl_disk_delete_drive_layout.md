@@ -38,7 +38,8 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_DELETE_DRIVE_LAYOUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

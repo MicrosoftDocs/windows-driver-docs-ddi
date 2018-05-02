@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	WIDTHRUN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIDTHRUN, *PWIDTHRUN
 ---

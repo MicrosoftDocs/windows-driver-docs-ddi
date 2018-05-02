@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PROPERTY_CUSTOM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PROPERTY_CUSTOM, *PNDIS_SWITCH_PROPERTY_CUSTOM
 ---

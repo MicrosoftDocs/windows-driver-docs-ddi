@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	SCO_INDICATION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS
 ---

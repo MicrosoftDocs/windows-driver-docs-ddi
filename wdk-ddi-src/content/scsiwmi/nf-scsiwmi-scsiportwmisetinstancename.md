@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	ScsiPortWmiSetInstanceName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

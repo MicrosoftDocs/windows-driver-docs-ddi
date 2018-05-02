@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REENUMERATE_SELF_INTERFACE_STANDARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REENUMERATE_SELF_INTERFACE_STANDARD, *PREENUMERATE_SELF_INTERFACE_STANDARD
 ---

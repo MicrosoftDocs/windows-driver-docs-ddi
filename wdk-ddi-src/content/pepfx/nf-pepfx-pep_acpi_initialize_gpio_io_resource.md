@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

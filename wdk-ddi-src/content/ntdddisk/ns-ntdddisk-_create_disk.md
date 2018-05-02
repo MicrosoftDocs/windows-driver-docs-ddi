@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	CREATE_DISK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CREATE_DISK, *PCREATE_DISK
 ---

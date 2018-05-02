@@ -38,7 +38,8 @@ api_location:
 -	wdfio.h
 api_name:
 -	WDF_IO_FORWARD_PROGRESS_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_FORWARD_PROGRESS_ACTION
 ---

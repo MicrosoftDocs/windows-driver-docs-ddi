@@ -38,7 +38,8 @@ api_location:
 -	ufxbase.h
 api_name:
 -	UFX_DEVICE_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
 ---
@@ -86,3 +87,8 @@ A bitmap that defines which endpoint numbers can support an IN endpoint.  Bit 0 
 
 A bitmap that defines which endpoint numbers can support an OUT endpoint.  Bit 0 indicates endpoint address 0, bit 1 indicates endpoint address 1, etc.   Bit 0 (the default control endpoint) is required to be set to 1.
 
+### -field SharesConnectors
+A boolean value that indicates the connector supports multiple connectors.
+ 
+### -field GroupId
+ The group identifier the shared connector group to which a  controller will be added.

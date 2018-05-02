@@ -38,7 +38,8 @@ api_location:
 -	aux_klib.h
 api_name:
 -	AUX_MODULE_EXTENDED_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO
 ---

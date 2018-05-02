@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_SCAN_CAPABILTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES
 ---

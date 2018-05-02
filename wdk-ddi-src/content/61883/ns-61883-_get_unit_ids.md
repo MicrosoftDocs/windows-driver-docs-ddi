@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	GET_UNIT_IDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_UNIT_IDS, *PGET_UNIT_IDS
 ---

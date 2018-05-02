@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_MPO3DDI_SUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_MPO3DDI_SUPPORT
 ---

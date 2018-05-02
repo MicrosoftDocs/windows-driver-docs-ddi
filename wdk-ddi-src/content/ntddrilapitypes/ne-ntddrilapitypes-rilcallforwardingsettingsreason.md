@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLFORWARDINGSETTINGSREASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLFORWARDINGSETTINGSREASON
 ---

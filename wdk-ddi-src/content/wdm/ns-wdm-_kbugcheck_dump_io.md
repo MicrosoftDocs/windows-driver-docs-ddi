@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KBUGCHECK_DUMP_IO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO
 ---

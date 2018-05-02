@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltGetVolumeFromName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltGetVolumeFromName</b> routine returns an opaque pointer for the volume whose name matches the value of the <i>VolumeName</i> parameter. 
+\The <b>FltGetVolumeFromName</b> routine returns an opaque pointer for the volume whose name matches the value of the <i>VolumeName</i> parameter. 
 
 
 ## -parameters
@@ -64,7 +65,7 @@ Opaque filter pointer for the caller. This parameter is required and cannot be <
 
 ### -param VolumeName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the volume name (for example, "\Device\HarddiskVolume1", "\DosDevices\D:", "\??\D:", or "D:"). This parameter is required and cannot be <b>NULL</b>. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the volume name (for example, "\Device\HarddiskVolume1", "\DosDevices\D:", "\\??\D:", or "D:"). This parameter is required and cannot be <b>NULL</b>. 
 
 
 ### -param RetVolume [out]

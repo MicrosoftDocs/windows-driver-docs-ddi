@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PORT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PORT_STATE, *PNDIS_PORT_STATE
 ---

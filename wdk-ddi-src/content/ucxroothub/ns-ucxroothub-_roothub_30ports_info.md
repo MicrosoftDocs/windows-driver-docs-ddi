@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	ROOTHUB_30PORTS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ROOTHUB_30PORTS_INFO, *PROOTHUB_30PORTS_INFO
 ---

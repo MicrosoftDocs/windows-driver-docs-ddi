@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiQueryChildRelations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

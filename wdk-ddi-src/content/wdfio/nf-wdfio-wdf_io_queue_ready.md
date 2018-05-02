@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_IO_QUEUE_READY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

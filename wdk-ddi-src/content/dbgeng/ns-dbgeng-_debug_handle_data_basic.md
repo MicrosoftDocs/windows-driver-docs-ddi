@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_HANDLE_DATA_BASIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_HANDLE_DATA_BASIC, *PDEBUG_HANDLE_DATA_BASIC
 ---

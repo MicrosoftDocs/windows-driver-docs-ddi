@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	USBSCAN_GET_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR
 ---

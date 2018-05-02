@@ -39,7 +39,8 @@ api_location:
 -	Dxapi.dll
 api_name:
 -	DxApiGetVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

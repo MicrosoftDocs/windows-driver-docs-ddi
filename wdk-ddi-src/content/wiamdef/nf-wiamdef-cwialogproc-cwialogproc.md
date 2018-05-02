@@ -38,7 +38,8 @@ api_location:
 -	Wiamdef.h
 api_name:
 -	CWiaLogProc.CWiaLogProc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

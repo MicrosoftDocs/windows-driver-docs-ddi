@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BthFreeBrb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

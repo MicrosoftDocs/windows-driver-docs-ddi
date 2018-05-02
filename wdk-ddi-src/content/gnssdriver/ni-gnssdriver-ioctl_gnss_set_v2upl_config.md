@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_SET_V2UPL_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

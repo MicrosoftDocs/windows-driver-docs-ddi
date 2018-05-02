@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmIncomingCallComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -40,7 +40,8 @@ api_location:
 -	GDI32Full.dll
 api_name:
 -	GdiGetDevmodeForPage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

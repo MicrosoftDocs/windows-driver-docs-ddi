@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_DYNAMIC_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_DYNAMIC_RANGE, *PKSAUDIO_DYNAMIC_RANGE
 ---

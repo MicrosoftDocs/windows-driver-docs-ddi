@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiGetStandardAllocationDriverData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

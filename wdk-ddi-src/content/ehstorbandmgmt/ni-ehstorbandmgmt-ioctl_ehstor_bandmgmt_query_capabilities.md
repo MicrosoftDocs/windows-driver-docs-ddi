@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

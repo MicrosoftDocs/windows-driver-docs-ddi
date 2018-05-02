@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	RouterCreatePrintAsyncNotificationChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

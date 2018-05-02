@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisInterlockedRemoveHeadList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

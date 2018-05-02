@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	WRITE_REGISTER_BUFFER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

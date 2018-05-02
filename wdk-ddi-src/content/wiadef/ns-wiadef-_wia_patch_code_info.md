@@ -38,7 +38,8 @@ api_location:
 -	wiadef.h
 api_name:
 -	WIA_PATCH_CODE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_PATCH_CODE_INFO
 ---

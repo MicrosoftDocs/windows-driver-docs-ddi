@@ -38,7 +38,8 @@ api_location:
 -	Winspool.drv
 api_name:
 -	IsValidDevmode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

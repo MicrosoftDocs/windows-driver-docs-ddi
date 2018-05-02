@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplAbort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

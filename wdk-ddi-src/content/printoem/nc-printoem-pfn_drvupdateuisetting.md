@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvUpdateUISetting
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

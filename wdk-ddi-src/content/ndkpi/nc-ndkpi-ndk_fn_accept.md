@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkAccept
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

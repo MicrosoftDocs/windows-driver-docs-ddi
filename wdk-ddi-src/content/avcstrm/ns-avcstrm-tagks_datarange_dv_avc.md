@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	KS_DATARANGE_DV_AVC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_DV_AVC, *PKS_DATARANGE_DV_AVC
 ---

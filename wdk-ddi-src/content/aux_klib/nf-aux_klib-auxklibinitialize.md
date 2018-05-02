@@ -39,7 +39,8 @@ api_location:
 -	Aux_Klib.dll
 api_name:
 -	AuxKlibInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

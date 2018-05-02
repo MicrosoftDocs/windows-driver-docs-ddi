@@ -38,7 +38,8 @@ api_location:
 -	Wdfdpc.h
 api_name:
 -	EvtDpcFunc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

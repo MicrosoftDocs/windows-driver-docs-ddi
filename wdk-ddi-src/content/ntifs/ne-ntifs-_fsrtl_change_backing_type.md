@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FSRTL_CHANGE_BACKING_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FSRTL_CHANGE_BACKING_TYPE, *PFSRTL_CHANGE_BACKING_TYPE
 ---

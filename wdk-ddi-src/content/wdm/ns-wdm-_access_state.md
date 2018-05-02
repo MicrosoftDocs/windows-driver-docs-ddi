@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	ACCESS_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACCESS_STATE, *PACCESS_STATE
 ---

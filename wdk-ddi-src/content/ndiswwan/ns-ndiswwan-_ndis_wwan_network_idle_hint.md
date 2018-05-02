@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_NETWORK_IDLE_HINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT
 ---

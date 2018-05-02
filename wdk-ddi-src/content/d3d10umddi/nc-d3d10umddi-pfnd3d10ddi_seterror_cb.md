@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	pfnSetErrorCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

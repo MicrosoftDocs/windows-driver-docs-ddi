@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_IP_ADDRESS_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_IP_ADDRESS_STATE, *PWWAN_IP_ADDRESS_STATE
 ---

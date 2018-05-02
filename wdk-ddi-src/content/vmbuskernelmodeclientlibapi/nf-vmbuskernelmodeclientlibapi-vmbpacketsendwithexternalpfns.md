@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbPacketSendWithExternalPfns
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

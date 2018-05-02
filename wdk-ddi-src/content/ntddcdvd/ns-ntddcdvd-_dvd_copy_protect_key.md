@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	DVD_COPY_PROTECT_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 ---

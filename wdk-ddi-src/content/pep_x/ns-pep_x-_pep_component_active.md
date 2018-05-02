@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_COMPONENT_ACTIVE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_COMPONENT_ACTIVE, *PPEP_COMPONENT_ACTIVE
 ---

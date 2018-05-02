@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSystemObjects
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

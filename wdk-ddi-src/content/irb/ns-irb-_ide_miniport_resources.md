@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_MINIPORT_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_MINIPORT_RESOURCES, *PIDE_MINIPORT_RESOURCES
 ---

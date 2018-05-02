@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUsbDeviceLinkPowerEntryComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

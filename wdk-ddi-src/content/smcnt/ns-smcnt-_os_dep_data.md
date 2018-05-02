@@ -38,7 +38,8 @@ api_location:
 -	smcnt.h
 api_name:
 -	OS_DEP_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OS_DEP_DATA, *POS_DEP_DATA
 ---

@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExFreePoolWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -66,6 +67,9 @@ Specifies the beginning address of a block of pool memory allocated by either <a
 
 Specifies the tag value passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a> when the block of memory was originally allocated.
 
+**NOTE**
+
+Tag must be a value from 0x20 (space) to 0x126 (tilde).
 
 ## -returns
 

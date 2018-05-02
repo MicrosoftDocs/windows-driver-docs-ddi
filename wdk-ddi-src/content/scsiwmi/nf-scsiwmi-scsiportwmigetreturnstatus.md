@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	ScsiPortWmiGetReturnStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

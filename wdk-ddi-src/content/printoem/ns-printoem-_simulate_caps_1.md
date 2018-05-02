@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	SIMULATE_CAPS_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SIMULATE_CAPS_1, *PSIMULATE_CAPS_1
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrvCallBack
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

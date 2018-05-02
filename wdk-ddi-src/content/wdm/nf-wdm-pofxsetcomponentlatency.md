@@ -38,7 +38,8 @@ api_location:
 -	Ntoskrnl.exe
 api_name:
 -	PoFxSetComponentLatency
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

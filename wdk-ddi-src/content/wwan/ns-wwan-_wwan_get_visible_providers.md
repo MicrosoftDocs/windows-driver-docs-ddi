@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_GET_VISIBLE_PROVIDERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS
 ---

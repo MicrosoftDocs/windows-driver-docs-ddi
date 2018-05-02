@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_DEVICE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR
 ---

@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UDECX_WDF_DEVICE_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	DEVICE_DATA_SET_LB_PROVISIONING_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---

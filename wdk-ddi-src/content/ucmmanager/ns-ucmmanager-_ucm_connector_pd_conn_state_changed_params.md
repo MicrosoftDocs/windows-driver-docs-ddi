@@ -38,7 +38,8 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, *PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
 ---

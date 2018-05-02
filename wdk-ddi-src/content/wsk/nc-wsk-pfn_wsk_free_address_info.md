@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskFreeAddressInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

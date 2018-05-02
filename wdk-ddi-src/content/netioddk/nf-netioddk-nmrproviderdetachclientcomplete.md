@@ -39,7 +39,8 @@ api_location:
 -	netio.dll
 api_name:
 -	NmrProviderDetachClientComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

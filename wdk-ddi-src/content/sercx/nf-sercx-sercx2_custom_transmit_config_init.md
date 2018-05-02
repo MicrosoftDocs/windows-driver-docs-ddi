@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,7 +39,8 @@ api_location:
 -	UcmCxstub.dll
 api_name:
 -	UcmConnectorPowerDirectionChanged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

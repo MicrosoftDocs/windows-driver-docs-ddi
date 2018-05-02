@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	SYSAUDIO_ATTACH_VIRTUAL_SOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_ATTACH_VIRTUAL_SOURCE, *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE
 ---

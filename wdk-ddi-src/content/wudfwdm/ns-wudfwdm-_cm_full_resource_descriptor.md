@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_FULL_RESOURCE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_FULL_RESOURCE_DESCRIPTOR, *PCM_FULL_RESOURCE_DESCRIPTOR
 ---
@@ -85,4 +86,6 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541981">CM_PART
  
 
  
+
+
 

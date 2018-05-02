@@ -38,7 +38,8 @@ api_location:
 -	UcmTcpciPortControllerRequests.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS
 ---

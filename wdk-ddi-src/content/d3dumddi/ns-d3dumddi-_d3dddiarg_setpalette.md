@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETPALETTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETPALETTE
 ---

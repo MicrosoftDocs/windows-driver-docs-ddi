@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	IAllocatorMXF.GetBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

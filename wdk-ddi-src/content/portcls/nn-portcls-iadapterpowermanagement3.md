@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IAdapterPowerManagement3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

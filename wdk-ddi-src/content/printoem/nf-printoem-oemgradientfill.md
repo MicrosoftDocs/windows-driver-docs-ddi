@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMGradientFill
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

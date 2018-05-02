@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFDeregisterFilterDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

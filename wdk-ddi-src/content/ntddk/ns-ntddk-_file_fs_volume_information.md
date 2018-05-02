@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	FILE_FS_VOLUME_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_FS_VOLUME_INFORMATION, *PFILE_FS_VOLUME_INFORMATION
 ---

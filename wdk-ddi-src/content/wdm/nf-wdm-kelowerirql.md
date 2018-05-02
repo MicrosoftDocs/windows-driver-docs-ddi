@@ -39,7 +39,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	KeLowerIrql
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

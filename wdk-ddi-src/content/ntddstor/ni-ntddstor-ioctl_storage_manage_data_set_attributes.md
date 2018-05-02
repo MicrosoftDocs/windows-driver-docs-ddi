@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

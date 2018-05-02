@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	SUB_Q_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SUB_Q_HEADER, *PSUB_Q_HEADER
 ---

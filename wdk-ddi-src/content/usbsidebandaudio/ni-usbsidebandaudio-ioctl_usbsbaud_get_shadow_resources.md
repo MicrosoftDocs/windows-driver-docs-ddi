@@ -38,7 +38,8 @@ api_location:
 -	USBSidebandAudio.h
 api_name:
 -	IOCTL_USBSBAUD_GET_SHADOW_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

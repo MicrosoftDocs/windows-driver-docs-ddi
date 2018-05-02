@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpCreateNodeInt16
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

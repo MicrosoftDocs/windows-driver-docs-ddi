@@ -38,7 +38,8 @@ api_location:
 -	lowio.h
 api_name:
 -	RxLowIoCompletion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_COLLECTION_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC
 ---

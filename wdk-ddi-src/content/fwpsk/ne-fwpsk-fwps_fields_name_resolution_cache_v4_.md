@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4
 ---

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.GetSymbolName
 -	IDebugSymbolGroup2.GetSymbolName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

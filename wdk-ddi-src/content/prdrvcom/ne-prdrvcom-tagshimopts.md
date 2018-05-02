@@ -38,7 +38,8 @@ api_location:
 -	Prdrvcom.h
 api_name:
 -	SHIMOPTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 ---

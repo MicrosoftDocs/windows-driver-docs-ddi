@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_DEVICE_SERVICE_SESSION_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE
 ---

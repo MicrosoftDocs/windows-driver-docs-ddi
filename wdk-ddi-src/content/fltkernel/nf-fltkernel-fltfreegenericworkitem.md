@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltFreeGenericWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

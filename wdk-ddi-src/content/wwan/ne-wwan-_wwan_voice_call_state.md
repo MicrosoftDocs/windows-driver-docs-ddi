@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_VOICE_CALL_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE
 ---

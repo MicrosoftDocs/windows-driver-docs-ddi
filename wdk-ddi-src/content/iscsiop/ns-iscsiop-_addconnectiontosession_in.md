@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	AddConnectionToSession_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddConnectionToSession_IN, *PAddConnectionToSession_IN
 ---

@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_POWER_COMPONENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_POWER_COMPONENT_TYPE
 ---

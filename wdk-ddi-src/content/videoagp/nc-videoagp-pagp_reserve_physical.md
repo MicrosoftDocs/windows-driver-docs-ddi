@@ -38,7 +38,8 @@ api_location:
 -	videoagp.h
 api_name:
 -	AgpReservePhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

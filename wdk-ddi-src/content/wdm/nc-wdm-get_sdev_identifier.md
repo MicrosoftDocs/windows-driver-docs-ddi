@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	GET_SDEV_IDENTIFIER callback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

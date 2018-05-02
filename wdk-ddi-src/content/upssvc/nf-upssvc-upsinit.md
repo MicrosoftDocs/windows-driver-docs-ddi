@@ -38,7 +38,8 @@ api_location:
 -	Upssvc.h
 api_name:
 -	UPSInit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

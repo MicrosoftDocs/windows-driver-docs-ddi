@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_PM_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES
 ---

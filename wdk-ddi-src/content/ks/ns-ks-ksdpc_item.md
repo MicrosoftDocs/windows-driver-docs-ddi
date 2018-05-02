@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDPC_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDPC_ITEM, *PKSDPC_ITEM
 ---

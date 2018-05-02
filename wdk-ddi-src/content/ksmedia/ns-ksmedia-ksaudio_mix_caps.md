@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_MIX_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIX_CAPS, *PKSAUDIO_MIX_CAPS
 ---

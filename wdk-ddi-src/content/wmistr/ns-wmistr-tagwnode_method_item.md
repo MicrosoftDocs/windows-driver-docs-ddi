@@ -38,7 +38,8 @@ api_location:
 -	wmistr.h
 api_name:
 -	WNODE_METHOD_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_METHOD_ITEM, *PWNODE_METHOD_ITEM
 ---

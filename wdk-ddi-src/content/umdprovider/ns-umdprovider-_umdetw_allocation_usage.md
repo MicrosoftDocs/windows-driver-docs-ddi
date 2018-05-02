@@ -38,7 +38,8 @@ api_location:
 -	umdprovider.h
 api_name:
 -	UMDETW_ALLOCATION_USAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 ---

@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetExceptionFilterParameters
 -	IDebugControl2.GetExceptionFilterParameters
 -	IDebugControl3.GetExceptionFilterParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

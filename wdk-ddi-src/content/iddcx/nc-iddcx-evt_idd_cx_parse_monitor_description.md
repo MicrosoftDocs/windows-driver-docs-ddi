@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

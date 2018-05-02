@@ -38,7 +38,8 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	UCM_CONNECTOR_PD_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG
 ---

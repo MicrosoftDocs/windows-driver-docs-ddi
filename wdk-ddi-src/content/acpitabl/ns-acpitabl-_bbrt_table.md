@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	BBRT_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BBRT_TABLE, *PBBRT_TABLE
 ---

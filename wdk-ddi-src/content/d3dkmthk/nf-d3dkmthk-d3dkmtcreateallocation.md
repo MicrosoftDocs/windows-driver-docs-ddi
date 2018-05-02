@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateAllocation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

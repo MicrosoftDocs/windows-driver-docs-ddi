@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_PNP_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PNP_STATE
 ---

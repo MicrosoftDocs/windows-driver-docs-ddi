@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	READ_PORT_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

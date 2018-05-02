@@ -38,7 +38,8 @@ api_location:
 -	wdfdmatransaction.h
 api_name:
 -	EvtProgramDma
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

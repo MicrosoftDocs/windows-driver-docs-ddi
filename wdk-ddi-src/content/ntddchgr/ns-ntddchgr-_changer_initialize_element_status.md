@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	CHANGER_INITIALIZE_ELEMENT_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANGER_INITIALIZE_ELEMENT_STATUS, *PCHANGER_INITIALIZE_ELEMENT_STATUS
 ---

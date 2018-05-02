@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WDF_GET_CONTEXT_TYPE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

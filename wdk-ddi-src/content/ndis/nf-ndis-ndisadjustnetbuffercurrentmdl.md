@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAdjustNetBufferCurrentMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_PROVIDER_EXTERNAL_INFO_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1
 ---

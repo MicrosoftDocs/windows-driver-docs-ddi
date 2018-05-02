@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

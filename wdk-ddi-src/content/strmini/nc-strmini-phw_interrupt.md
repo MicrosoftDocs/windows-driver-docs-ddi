@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StrMiniInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

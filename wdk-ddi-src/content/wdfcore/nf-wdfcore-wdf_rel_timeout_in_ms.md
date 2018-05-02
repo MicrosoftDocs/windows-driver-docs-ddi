@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_REL_TIMEOUT_IN_MS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

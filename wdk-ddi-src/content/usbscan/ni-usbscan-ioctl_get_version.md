@@ -38,7 +38,8 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_GET_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

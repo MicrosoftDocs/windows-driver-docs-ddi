@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DXGK_CHILD_CONTAINER_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CHILD_CONTAINER_ID, *PDXGK_CHILD_CONTAINER_ID
 ---

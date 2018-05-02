@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDEVICE_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDEVICE_DISPATCH, *PKSDEVICE_DISPATCH
 ---

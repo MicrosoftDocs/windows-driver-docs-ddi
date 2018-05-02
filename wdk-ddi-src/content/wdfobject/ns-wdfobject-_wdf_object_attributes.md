@@ -38,7 +38,8 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WDF_OBJECT_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_ATTRIBUTES, *PWDF_OBJECT_ATTRIBUTES
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Hdaudio.h
 api_name:
 -	AllocateDmaBufferWithNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

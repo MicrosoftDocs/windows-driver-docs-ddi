@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni2.GetImplementedMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

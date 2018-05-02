@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

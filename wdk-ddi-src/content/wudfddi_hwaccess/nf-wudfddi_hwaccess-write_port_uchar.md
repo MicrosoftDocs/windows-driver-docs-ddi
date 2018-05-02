@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	WRITE_PORT_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Gpio.h
 api_name:
 -	IOCTL_GPIO_WRITE_PINS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

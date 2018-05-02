@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_DEVICE_POWER_CAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
 ---

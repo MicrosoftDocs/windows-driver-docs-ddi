@@ -38,7 +38,8 @@ api_location:
 -	fltuserstructures.h
 api_name:
 -	INSTANCE_AGGREGATE_STANDARD_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---

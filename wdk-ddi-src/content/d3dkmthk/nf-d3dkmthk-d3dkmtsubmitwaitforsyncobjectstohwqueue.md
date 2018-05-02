@@ -38,7 +38,8 @@ api_location:
 -	tbd
 api_name:
 -	D3DKMTSubmitWaitForSyncObjectsToHwQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

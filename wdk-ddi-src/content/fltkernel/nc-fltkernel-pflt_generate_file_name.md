@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	GenerateFileNameCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

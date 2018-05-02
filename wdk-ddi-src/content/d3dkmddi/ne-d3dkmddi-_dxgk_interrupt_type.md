@@ -16,19 +16,19 @@ req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_INTERRUPT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_INTERRUPT_TYPE
 ---
@@ -66,7 +67,7 @@ A direct memory access (DMA) buffer is completed by using a fence identifier. Th
 
 A preemption request is completed. The driver must supply the preemption fence identifier in the <b>PreemptionFenceId</b> member and the latest fence identifier that hardware completed (not preempted) in the <b>LastCompletedFenceId</b> member of the <b>DmaPreempted</b> structure in the union that is contained in the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure in a call to the <a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a> function.
 
-The GPU scheduler determines that the graphics hardware preempted all of the commands between the preemption request and the submission with the latest fence identifier. 
+The GPU scheduler determines that the graphics hardware preempted all of the commands between the preemption request and the submission with the latest fence identifier.
 
 
 ### -field DXGK_INTERRUPT_CRTC_VSYNC
@@ -117,19 +118,23 @@ Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY2
 
+A Vsync has completed in a display miniport driver that supports multiplane overlays. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_MONITORED_FENCE_SIGNALED
 
+The interrupt type should be raised when the monitored fence is signaled. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_HWQUEUE_PAGE_FAULTED
 
+The interrupt type should be raised when the hardware queue page has faulted. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_HWCONTEXTLIST_SWITCH_COMPLETED
 
+The interrupt type should be raised when the hardware context list switch has completed. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED
 
-This interrupt type should be raised when the periodic monitored fence is signaled. 
+This interrupt type should be raised when the periodic monitored fence is signaled.
 
 Supported starting with Windows 10.
 
@@ -142,6 +147,17 @@ The display miniport driver can optionally provide private data that the user-mo
 
 Supported starting with Windows 8.1.
 
+### -field DXGK_INTERRUPT_SCHEDULING_LOG_INTERRUPT
+
+Raised during a scheduling log interrupt. Supported starting with Windows 10.
+
+### -field DXGK_INTERRUPT_GPU_ENGINE_TIMEOUT
+
+Raised when the GPU engine has timed out. Supported starting with Windows 10.
+
+### -field DXGK_INTERRUPT_SUSPEND_CONTEXT_COMPLETED
+
+Raised when the the suspend context has completed. Supported starting with Windows 10.
 
 ## -see-also
 

@@ -38,7 +38,8 @@ api_location:
 -	scavengr.h
 api_name:
 -	RxScavengeFobxsForNetRoot
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

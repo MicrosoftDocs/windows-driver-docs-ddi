@@ -39,7 +39,8 @@ api_location:
 -	ksproxy.h.dll
 api_name:
 -	IKsObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

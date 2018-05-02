@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortWritePortBufferUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

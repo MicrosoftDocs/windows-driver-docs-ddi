@@ -38,7 +38,8 @@ api_location:
 -	videoagp.h
 api_name:
 -	AgpCommitPhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_CONTROL_GET_CONFIGURATION_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

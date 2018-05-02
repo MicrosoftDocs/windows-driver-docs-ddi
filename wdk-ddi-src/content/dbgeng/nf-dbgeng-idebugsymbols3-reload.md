@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.Reload
 -	IDebugSymbols2.Reload
 -	IDebugSymbols3.Reload
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	GetPrintProcessorCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

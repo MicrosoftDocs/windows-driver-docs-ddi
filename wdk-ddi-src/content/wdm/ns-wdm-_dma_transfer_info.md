@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DMA_TRANSFER_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMA_TRANSFER_INFO, *PDMA_TRANSFER_INFO
 ---

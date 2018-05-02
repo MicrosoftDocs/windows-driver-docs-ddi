@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Used to create a write buffer. 
+Used to create a write buffer.
 
 
 ## -parameters
@@ -59,6 +60,7 @@ Used to create a write buffer.
 
 ### -param Arg1
 
+A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Count
 
@@ -74,10 +76,6 @@ The parameters for the write buffer.
 
 The modes for the write buffer.
 
-
-#### - hDrvCommandList
-
-The command list.
 
 
 ## -returns

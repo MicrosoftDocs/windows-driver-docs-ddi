@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCorePS2.GetFeatureAttribute
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

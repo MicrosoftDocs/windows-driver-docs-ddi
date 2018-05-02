@@ -38,7 +38,8 @@ api_location:
 -	miniport.h
 api_name:
 -	GROUP_AFFINITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 ---

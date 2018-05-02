@@ -38,7 +38,8 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SendSupServiceData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

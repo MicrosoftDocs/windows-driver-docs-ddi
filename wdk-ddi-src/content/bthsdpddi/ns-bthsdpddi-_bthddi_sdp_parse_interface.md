@@ -38,7 +38,8 @@ api_location:
 -	bthsdpddi.h
 api_name:
 -	BTHDDI_SDP_PARSE_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHDDI_SDP_PARSE_INTERFACE, *PBTHDDI_SDP_PARSE_INTERFACE
 ---

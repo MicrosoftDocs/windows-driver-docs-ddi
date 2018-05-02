@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdrm.h
 api_name:
 -	STREAMING_CONTROL_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE
 ---

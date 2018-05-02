@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskSocketConnect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

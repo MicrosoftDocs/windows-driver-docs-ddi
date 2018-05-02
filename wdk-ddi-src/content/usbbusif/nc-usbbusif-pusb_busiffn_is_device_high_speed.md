@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	IsDeviceHighSpeed
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

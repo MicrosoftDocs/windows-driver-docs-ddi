@@ -39,7 +39,8 @@ api_location:
 -	Wdffileobject.h
 api_name:
 -	WDF_FILE_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 ---

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaFeature.SelectedOption
 -	IPrintSchemaFeature.put_SelectedOption
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	USBCAMD_SetIsoPipeState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

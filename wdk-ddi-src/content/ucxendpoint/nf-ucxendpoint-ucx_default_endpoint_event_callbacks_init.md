@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

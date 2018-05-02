@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	SES_CONFIGURATION_DIAGNOSTIC_PAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE
 ---

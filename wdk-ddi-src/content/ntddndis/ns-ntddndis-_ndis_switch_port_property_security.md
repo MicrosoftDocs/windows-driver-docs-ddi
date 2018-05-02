@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_PROPERTY_SECURITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_SECURITY, *PNDIS_SWITCH_PORT_PROPERTY_SECURITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	KEY_VIRTUALIZATION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_VIRTUALIZATION_INFORMATION, *PKEY_VIRTUALIZATION_INFORMATION
 ---

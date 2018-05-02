@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

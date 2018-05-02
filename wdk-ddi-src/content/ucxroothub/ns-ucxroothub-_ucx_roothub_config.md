@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	UCX_ROOTHUB_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
 ---

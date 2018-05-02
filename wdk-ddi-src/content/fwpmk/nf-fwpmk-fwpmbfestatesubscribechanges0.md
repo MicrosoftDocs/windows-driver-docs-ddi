@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpmBfeStateSubscribeChanges0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

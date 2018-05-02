@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_SYSTEM_PROCESSOR_INFO_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SYSTEM_PROCESSOR_INFO_EX, *PNDIS_SYSTEM_PROCESSOR_INFO_EX
 ---

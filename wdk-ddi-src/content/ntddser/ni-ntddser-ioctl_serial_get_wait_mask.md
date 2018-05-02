@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_WAIT_MASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

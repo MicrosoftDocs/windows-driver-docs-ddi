@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_OPERATION_REGISTRATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_OPERATION_REGISTRATION, *PFLT_OPERATION_REGISTRATION
 ---

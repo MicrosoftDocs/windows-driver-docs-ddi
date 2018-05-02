@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoDecoderBeginFrame
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

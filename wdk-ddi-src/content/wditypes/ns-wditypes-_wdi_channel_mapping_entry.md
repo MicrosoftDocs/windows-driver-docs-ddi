@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_CHANNEL_MAPPING_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_CHANNEL_MAPPING_ENTRY, *PWDI_CHANNEL_MAPPING_ENTRY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_PORT_I2C_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE
 ---

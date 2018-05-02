@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	KEY_VALUE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_ENTRY, *PKEY_VALUE_ENTRY
 ---

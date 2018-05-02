@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKMDT_OPM_REQUESTED_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_REQUESTED_INFORMATION, *PDXGKMDT_OPM_REQUESTED_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl3.SetNextEventIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

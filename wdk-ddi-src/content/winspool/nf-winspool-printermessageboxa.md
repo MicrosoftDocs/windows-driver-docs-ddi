@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	PrinterMessageBoxA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

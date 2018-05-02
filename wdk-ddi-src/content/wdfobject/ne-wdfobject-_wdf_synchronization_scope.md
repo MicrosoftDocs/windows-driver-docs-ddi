@@ -38,7 +38,8 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WDF_SYNCHRONIZATION_SCOPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 ---

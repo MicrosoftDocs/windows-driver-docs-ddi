@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_CONNECT_VER3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_CONNECT_VER3, *PCMP_CONNECT_VER3
 ---

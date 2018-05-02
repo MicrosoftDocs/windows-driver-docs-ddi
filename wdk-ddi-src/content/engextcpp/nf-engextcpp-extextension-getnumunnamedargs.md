@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtExtension.GetNumUnnamedArgs
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

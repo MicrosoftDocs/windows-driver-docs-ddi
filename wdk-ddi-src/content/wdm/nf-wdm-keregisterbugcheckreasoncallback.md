@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeRegisterBugCheckReasonCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

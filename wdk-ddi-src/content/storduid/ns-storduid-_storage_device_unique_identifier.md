@@ -38,7 +38,8 @@ api_location:
 -	storduid.h
 api_name:
 -	STORAGE_DEVICE_UNIQUE_IDENTIFIER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 ---

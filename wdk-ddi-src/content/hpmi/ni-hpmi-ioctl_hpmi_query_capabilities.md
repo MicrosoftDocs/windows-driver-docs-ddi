@@ -38,7 +38,8 @@ api_location:
 -	hpmi.h
 api_name:
 -	IOCTL_HPMI_QUERY_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -135,4 +136,5 @@ subsequent IOCTL calls.
  
 
  
+
 

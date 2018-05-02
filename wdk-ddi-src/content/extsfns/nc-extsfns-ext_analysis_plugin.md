@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	_EFN_Analyze
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

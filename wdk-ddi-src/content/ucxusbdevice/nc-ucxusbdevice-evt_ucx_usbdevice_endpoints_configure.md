@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

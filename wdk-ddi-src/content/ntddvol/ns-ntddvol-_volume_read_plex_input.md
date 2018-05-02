@@ -38,7 +38,8 @@ api_location:
 -	ntddvol.h
 api_name:
 -	VOLUME_READ_PLEX_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---

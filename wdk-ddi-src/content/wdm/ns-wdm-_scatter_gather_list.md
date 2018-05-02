@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	SCATTER_GATHER_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCATTER_GATHER_LIST, *PSCATTER_GATHER_LIST
 ---

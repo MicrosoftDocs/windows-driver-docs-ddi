@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_PRECONNECT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO
 ---
@@ -97,4 +98,5 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
  
 
  
+
 

@@ -39,7 +39,8 @@ api_location:
 -	Mcd.dll
 api_name:
 -	ChangerClassInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

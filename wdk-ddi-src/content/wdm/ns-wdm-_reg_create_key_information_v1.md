@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_CREATE_KEY_INFORMATION_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1
 ---

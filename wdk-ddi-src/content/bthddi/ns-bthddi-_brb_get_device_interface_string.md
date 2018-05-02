@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_GET_DEVICE_INTERFACE_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

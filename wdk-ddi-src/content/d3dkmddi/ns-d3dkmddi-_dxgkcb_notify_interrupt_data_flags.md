@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
 ---

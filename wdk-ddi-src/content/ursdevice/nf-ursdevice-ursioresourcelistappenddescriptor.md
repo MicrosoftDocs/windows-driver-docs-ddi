@@ -39,7 +39,8 @@ api_location:
 -	Urscxstub.dll
 api_name:
 -	UrsIoResourceListAppendDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

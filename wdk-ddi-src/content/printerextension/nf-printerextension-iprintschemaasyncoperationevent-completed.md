@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaAsyncOperationEvent.Completed
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

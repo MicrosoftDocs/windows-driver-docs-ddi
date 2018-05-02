@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	ATA_PASS_THROUGH_DIRECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT
 ---

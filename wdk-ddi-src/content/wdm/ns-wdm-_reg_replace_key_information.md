@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_REPLACE_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION
 ---

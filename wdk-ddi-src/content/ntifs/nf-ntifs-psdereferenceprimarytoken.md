@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsDereferencePrimaryToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

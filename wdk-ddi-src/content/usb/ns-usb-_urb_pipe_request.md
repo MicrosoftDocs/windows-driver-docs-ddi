@@ -38,7 +38,8 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_PIPE_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

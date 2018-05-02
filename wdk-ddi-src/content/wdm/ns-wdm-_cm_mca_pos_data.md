@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CM_MCA_POS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_MCA_POS_DATA, *PCM_MCA_POS_DATA
 ---

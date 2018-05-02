@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_BASE_STATIONS_INFO_REQ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_BASE_STATIONS_INFO_REQ, *PNDIS_WWAN_BASE_STATIONS_INFO_REQ
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_NIC_SWITCH_VPORT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_VPORT_STATE, *PNDIS_NIC_SWITCH_VPORT_STATE
 ---

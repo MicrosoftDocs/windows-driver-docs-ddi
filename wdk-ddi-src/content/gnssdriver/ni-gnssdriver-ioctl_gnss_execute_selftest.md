@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_EXECUTE_SELFTEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

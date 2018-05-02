@@ -48,7 +48,8 @@ api_name:
 -	IDebugSymbols3.GetSourceEntryStringWide
 -	IDebugSymbols3.GetSourceEntryOffsetRegions
 -	IDebugSymbols3.GetSourceEntryBySourceEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

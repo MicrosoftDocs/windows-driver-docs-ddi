@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_GET_MEDIA_TYPES_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

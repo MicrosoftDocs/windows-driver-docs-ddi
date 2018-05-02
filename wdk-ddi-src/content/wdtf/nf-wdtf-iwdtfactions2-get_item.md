@@ -37,8 +37,10 @@ api_type:
 api_location:
 -	wdtf.h
 api_name:
--	IWDTFActions2.Item
-product: Windows
+-	IWDTFDeviceDepot2.Item
+-	IWDTFDeviceDepot2.get_Item
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -84,5 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
  
 
- 
 

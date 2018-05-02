@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	OPEN_REPARSE_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST
 ---

@@ -38,7 +38,8 @@ api_location:
 -	UdecxUsbDevice.h
 api_name:
 -	UDECX_USB_ENDPOINT_INIT_AND_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
 ---

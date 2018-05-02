@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_FC4STATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	BUS_INTERFACE_REFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdfrequest.h
 api_name:
 -	EvtRequestCancel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

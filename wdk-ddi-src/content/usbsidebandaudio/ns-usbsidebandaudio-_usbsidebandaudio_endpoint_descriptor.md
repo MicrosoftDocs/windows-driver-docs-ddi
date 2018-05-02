@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 ---

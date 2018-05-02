@@ -38,7 +38,8 @@ api_location:
 -	srb.h
 api_name:
 -	SCSI_WMI_REQUEST_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK
 ---

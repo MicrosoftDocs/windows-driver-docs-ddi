@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_TXRX_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_CAPABILITIES, *PWDI_TXRX_CAPABILITIES
 ---

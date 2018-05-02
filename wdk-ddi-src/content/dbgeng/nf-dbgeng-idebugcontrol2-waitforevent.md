@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.WaitForEvent
 -	IDebugControl2.WaitForEvent
 -	IDebugControl3.WaitForEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NdisTcpOffloadEventHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

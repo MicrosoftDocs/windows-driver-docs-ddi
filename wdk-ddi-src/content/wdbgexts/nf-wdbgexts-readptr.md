@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	ReadPtr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

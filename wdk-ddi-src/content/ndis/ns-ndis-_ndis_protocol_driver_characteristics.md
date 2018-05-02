@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS
 ---

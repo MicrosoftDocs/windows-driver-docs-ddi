@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.CreateProcessAndAttach2Wide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

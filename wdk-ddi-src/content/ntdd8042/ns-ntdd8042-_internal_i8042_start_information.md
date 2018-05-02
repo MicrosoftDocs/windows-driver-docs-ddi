@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	INTERNAL_I8042_START_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ucxendpoint.h
 api_name:
 -	UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY
 ---

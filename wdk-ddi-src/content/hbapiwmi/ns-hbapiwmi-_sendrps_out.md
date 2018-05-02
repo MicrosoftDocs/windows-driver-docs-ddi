@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendRPS_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendRPS_OUT, *PSendRPS_OUT
 ---

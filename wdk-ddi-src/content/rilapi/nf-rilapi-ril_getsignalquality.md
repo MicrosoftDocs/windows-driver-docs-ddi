@@ -38,7 +38,8 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetSignalQuality
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

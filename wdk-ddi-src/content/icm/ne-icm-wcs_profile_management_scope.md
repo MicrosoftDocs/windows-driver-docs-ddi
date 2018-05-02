@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	WCS_PROFILE_MANAGEMENT_SCOPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---

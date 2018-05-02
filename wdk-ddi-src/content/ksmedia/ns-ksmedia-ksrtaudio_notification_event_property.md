@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, *PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 ---

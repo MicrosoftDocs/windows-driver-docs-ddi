@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	INTERRUPT_SYNCHRONIZATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERRUPT_SYNCHRONIZATION_MODE
 ---

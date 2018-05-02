@@ -38,7 +38,8 @@ api_location:
 -	Ucmtcpciportcontrollerrequests.h
 api_name:
 -	IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wudfinterrupt.h
 api_name:
 -	WUDF_INTERRUPT_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

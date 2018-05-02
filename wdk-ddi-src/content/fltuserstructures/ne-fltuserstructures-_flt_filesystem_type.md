@@ -38,7 +38,8 @@ api_location:
 -	fltUserStructures.h
 api_name:
 -	FLT_FILESYSTEM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_FILESYSTEM_TYPE, *PFLT_FILESYSTEM_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_ABORTIO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO
 ---

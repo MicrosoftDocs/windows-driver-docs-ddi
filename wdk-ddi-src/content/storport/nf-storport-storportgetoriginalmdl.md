@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortGetOriginalMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

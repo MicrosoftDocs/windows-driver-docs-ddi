@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoOpenDeviceInterfaceRegistryKey
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -67,7 +68,7 @@ Pointer to a string identifying the device interface instance. This string was o
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the access the caller requires to the key, such as KEY_READ, KEY_WRITE, or KEY_ALL_ACCESS. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> for a description of each KEY_<i>XXX</i> access right. 
 
 
-### -param DeviceInterfaceKey [out]
+### -param DeviceInterfaceRegKey [out]
 
 Pointer to a returned handle to the requested registry key if the call is successful. 
 

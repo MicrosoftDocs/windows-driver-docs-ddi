@@ -17,17 +17,17 @@ req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DxgkDdiGetBrightnessCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,19 +53,33 @@ req.typenames:
 Retrieves brightness control capabilities of an integrated display panel.
 
 
+## -prototype
+
+
+````
+DXGK_BRIGHTNESS_GET_CAPS DxgkDdiGetBrightnessCaps;
+
+NTSTATUS* DxgkDdiGetBrightnessCaps(
+  _In_ PVOID                Context,
+  _In_ DXGK_BRIGHTNESS_CAPS *BrightnessCaps
+)
+{ ... }
+````
+
+
 ## -parameters
 
 
 
 
-### -param Context [in]
+### -param Context
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param *BrightnessCaps [in]
+### -param *BrightnessCaps
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/jj128359">DXGK_BRIGHTNESS_CAPS</a> structure that represents the brightness control capabilities of the display panel.
+[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a> structure that represents the brightness control capabilities of the display panel.
 
 
 ## -returns
@@ -95,15 +110,16 @@ This function should be made pageable.
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj128359">DXGK_BRIGHTNESS_CAPS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
+
 

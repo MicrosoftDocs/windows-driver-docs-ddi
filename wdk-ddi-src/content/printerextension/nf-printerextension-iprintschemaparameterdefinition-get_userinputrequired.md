@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaParameterDefinition.UserInputRequired
 -	IPrintSchemaParameterDefinition.get_UserInputRequired
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

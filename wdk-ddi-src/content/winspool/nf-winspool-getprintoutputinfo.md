@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	GetPrintOutputInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

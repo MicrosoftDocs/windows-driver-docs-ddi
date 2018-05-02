@@ -38,7 +38,8 @@ api_location:
 -	rxworkq.h
 api_name:
 -	RxDispatchToWorkerThread
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

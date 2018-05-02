@@ -16,19 +16,19 @@ req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_PRESENT_MODEL is supported beginning with the Windows 7 operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_PRESENT_MODEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_PRESENT_MODEL
 ---
@@ -49,7 +50,24 @@ req.typenames: D3DKMT_PRESENT_MODEL
 ## -description
 
 
-The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation. 
+The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation.
+
+
+## -syntax
+
+
+````
+typedef enum _D3DKMT_PRESENT_MODEL {
+  D3DKMT_PM_UNINITIALIZED           = 0,
+  D3DKMT_PM_REDIRECTED_GDI          = 1,
+  D3DKMT_PM_REDIRECTED_FLIP         = 2,
+  D3DKMT_PM_REDIRECTED_BLT          = 3,
+  D3DKMT_PM_REDIRECTED_VISTABLT     = 4,
+  D3DKMT_PM_SCREENCAPTUREFENCE      = 5,
+  D3DKMT_PM_REDIRECTED_GDI_SYSMEM   = 6,
+  D3DKMT_PM_REDIRECTED_COMPOSITION  = 7
+} D3DKMT_PRESENT_MODEL;
+````
 
 
 ## -enum-fields
@@ -59,22 +77,22 @@ The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the mode
 
 ### -field D3DKMT_PM_UNINITIALIZED
 
-The present-operation model is not initialized. 
+The present-operation model is not initialized.
 
 
 ### -field D3DKMT_PM_REDIRECTED_GDI
 
-The present-operation model is redirected GDI. 
+The present-operation model is redirected GDI.
 
 
 ### -field D3DKMT_PM_REDIRECTED_FLIP
 
-The present-operation model is redirected flip. 
+The present-operation model is redirected flip.
 
 
 ### -field D3DKMT_PM_REDIRECTED_BLT
 
-The present-operation model is redirected bit-block transfer (bitblt). 
+The present-operation model is redirected bit-block transfer (bitblt).
 
 
 ### -field D3DKMT_PM_REDIRECTED_VISTABLT
@@ -84,12 +102,12 @@ The present-operation model is redirected Windows Vista bitblt.
 
 ### -field D3DKMT_PM_SCREENCAPTUREFENCE
 
-The present-operation model is screen capture through a fence. 
+The present-operation model is screen capture through a fence.
 
 
 ### -field D3DKMT_PM_REDIRECTED_GDI_SYSMEM
 
-The present-operation model is redirected system GDI. 
+The present-operation model is redirected system GDI.
 
 
 ### -field D3DKMT_PM_REDIRECTED_COMPOSITION
@@ -100,15 +118,17 @@ The present-operation model is redirected composition swap chain presentation. T
 ### -field D3DKMT_PM_SURFACECOMPLETE
 
 
+### -field D3DKMT_PM_FLIPMANAGER :
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  
+
 

@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIEW_INSTANCING_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIEW_INSTANCING_DESC
 ---

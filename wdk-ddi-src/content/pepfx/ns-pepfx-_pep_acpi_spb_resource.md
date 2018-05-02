@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_SPB_RESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE
 ---

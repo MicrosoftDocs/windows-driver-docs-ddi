@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_MGMT_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_MGMT_HEADER, *PUSBDEVICE_MGMT_HEADER
 ---

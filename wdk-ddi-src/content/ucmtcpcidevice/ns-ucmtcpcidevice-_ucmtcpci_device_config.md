@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpcidevice.h
 api_name:
 -	UCMTCPCI_DEVICE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG
 ---

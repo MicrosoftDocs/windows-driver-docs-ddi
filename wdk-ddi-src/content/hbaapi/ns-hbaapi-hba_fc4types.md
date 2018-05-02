@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_FC4TYPES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_FC4TYPES, *PHBA_FC4TYPES
 ---

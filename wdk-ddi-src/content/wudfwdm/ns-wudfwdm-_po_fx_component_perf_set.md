@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PO_FX_COMPONENT_PERF_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET
 ---
@@ -135,4 +136,6 @@ Most drivers are expected to define a single set of performance states per compo
  
 
  
+
+
 

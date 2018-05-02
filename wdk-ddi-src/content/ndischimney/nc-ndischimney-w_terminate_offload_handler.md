@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	MiniportTerminateOffload
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

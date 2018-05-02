@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	AddPrintDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

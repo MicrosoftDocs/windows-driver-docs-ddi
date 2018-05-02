@@ -38,7 +38,8 @@ api_location:
 -	wudfddi.h
 api_name:
 -	IQueueCallbackStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

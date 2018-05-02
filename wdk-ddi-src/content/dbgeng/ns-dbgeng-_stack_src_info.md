@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	STACK_SRC_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STACK_SRC_INFO, *PSTACK_SRC_INFO
 ---

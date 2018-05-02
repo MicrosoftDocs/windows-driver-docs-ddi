@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelCleanup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

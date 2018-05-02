@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	INDICATION_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INDICATION_CODE, *PINDICATION_CODE
 ---

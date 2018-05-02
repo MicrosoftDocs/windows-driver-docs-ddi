@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortWritePortUlong
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdfchildlist.h
 api_name:
 -	WDF_CHILD_RETRIEVE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 ---

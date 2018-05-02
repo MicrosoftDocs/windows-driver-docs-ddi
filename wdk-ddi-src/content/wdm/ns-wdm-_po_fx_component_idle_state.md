@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PO_FX_COMPONENT_IDLE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_COMPONENT_IDLE_STATE, *PPO_FX_COMPONENT_IDLE_STATE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdfrequest.h
 api_name:
 -	WDF_REQUEST_PARAMETERS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCbCatNExW
 -	RtlStringCbCatNExA
 -	RtlStringCbCatNExW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

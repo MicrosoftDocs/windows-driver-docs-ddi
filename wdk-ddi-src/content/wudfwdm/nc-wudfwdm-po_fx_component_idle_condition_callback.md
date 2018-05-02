@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	ComponentIdleConditionCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -142,4 +143,6 @@ The PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK function type is defined in the Wdm.
  
 
  
+
+
 

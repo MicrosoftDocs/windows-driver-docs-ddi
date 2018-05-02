@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PDEV_USE_TRUE_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDEV_USE_TRUE_COLOR
 ---

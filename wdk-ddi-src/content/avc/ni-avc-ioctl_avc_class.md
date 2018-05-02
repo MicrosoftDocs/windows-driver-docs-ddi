@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	IOCTL_AVC_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -223,4 +224,5 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
  
 
  
+
 

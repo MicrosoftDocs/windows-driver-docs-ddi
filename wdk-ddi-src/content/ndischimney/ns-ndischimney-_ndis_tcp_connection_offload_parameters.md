@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 ---
@@ -160,9 +161,8 @@ A ULONG value that the TCP/IP driver stack sets to indicate the number of ticks 
 Reserved for future use.
      
 
-If you are an independent hardware vendor (IHV) and you want to implement nondefault congestion
-     control algorithms, for example Compound TCP, contact Microsoft at 
-     <a href="mailto:offloadt@microsoft.com">External TCP Offload Triage</a>.
+If you are an independent hardware vendor (IHV) and you want to implement nondefault congestion control algorithms, for example Compound TCP, contact Microsoft at <a href="mailto:offloadt@microsoft.com">External TCP Offload Triage</a>.
+
 
 
 ## -remarks

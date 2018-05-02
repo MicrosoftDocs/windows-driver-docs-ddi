@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_NFCIP_TGT_MODE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_NFCIP_TGT_MODE_CONFIG, *PNFC_CX_NFCIP_TGT_MODE_CONFIG
 ---

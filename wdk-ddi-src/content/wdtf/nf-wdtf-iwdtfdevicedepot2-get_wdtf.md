@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFDeviceDepot2.WDTF
 -	IWDTFDeviceDepot2.get_WDTF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

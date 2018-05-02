@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionContextCollection.GetAt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

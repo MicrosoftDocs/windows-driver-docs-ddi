@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasWritePageBufToFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

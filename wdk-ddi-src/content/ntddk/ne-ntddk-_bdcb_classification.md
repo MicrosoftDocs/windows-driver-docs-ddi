@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	BDCB_CLASSIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDCB_CLASSIFICATION, *PBDCB_CLASSIFICATION
 ---

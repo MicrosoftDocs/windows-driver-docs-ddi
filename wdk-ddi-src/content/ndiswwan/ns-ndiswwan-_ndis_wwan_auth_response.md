@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_AUTH_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE
 ---

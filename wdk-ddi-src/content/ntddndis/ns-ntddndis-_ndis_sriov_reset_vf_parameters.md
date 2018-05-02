@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SRIOV_RESET_VF_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_RESET_VF_PARAMETERS, *PNDIS_SRIOV_RESET_VF_PARAMETERS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PO_FX_DEVICE_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_DEVICE_V2, *PPO_FX_DEVICE_V2
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_PROPERTY_STORE_RETRIEVE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_RETRIEVE_FLAGS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSLIST_ENTRY_LOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSLIST_ENTRY_LOCATION
 ---

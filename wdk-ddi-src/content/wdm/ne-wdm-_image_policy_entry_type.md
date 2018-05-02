@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IMAGE_POLICY_ENTRY_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_ENTRY_TYPE
 ---
@@ -114,8 +115,12 @@ Reserved.
 
 Reserved.
 
+### -field ImagePolicyEntryTypeOverride
+
+Reserved.
 
 ### -field ImagePolicyEntryTypeMaximum
 
 Reserved.
+
 

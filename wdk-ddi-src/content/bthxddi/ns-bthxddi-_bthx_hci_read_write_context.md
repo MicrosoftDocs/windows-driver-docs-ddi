@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	BTHX_HCI_READ_WRITE_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT
 ---

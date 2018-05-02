@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_CONNECT_REQUEST0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_CONNECT_REQUEST0
 ---

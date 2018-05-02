@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_PACKET_SERVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE
 ---

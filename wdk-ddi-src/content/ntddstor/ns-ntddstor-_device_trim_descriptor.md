@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	DEVICE_TRIM_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR
 ---

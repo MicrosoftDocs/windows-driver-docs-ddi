@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsvSwitchNotifyComplete0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

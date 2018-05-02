@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_CAN_SUSTAIN_AP_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_CAN_SUSTAIN_AP_REASON
 ---

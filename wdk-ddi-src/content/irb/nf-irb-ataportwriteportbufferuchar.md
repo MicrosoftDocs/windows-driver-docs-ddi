@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortWritePortBufferUchar
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

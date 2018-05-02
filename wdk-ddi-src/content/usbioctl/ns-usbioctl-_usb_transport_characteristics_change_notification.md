@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 ---

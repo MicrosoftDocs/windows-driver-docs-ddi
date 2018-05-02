@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	INQUIRYDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INQUIRYDATA, *PINQUIRYDATA
 ---

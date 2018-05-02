@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_GET_POLL_FREQUENCY_MSEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

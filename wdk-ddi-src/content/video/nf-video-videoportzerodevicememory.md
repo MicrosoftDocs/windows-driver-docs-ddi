@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortZeroDeviceMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

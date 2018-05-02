@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_TABLE_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
 ---

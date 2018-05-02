@@ -39,7 +39,8 @@ api_location:
 -	Msgpioclxstub.dll
 api_name:
 -	GPIO_CLX_UnregisterClient
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

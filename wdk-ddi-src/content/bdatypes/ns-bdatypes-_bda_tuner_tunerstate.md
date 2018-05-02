@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_TUNER_TUNERSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE
 ---

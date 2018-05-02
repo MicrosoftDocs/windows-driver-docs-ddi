@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwCreateFile
 -	NtCreateFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

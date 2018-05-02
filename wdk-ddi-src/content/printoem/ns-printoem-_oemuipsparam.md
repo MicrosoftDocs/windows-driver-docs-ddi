@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUIPSPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMUIPSPARAM, *POEMUIPSPARAM
 ---

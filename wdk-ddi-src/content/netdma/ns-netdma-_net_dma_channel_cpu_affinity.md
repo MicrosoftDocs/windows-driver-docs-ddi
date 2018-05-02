@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NET_DMA_CHANNEL_CPU_AFFINITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_PROVIDER_DATAGRAM_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_DATAGRAM_DISPATCH, *PWSK_PROVIDER_DATAGRAM_DISPATCH
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_RESUME_AUDIO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallbackHardwareInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

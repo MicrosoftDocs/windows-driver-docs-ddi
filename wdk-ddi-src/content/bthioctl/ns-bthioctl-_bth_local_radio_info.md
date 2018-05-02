@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_LOCAL_RADIO_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO
 ---

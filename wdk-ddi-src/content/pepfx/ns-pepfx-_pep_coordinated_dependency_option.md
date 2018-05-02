@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_COORDINATED_DEPENDENCY_OPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_COORDINATED_DEPENDENCY_OPTION, *PPEP_COORDINATED_DEPENDENCY_OPTION
 ---

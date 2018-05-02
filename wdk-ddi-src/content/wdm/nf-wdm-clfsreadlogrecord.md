@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsReadLogRecord
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

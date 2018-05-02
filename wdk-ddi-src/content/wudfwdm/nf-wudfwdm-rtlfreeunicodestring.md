@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlFreeUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -93,4 +94,6 @@ This routine does not release the ANSI string buffer passed to <b>RtlAnsiStringT
  
 
  
+
+
 

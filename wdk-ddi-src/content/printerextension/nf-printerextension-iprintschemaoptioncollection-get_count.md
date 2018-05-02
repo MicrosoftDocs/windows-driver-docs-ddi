@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaOptionCollection.Count
 -	IPrintSchemaOptionCollection.get_Count
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	EXT_SET_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_SET_PARAMETERS, *PEXT_SET_PARAMETERS
 ---

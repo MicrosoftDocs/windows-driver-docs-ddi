@@ -38,7 +38,8 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_MPIO_PASS_THROUGH_PATH_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

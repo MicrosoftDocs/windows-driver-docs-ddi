@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 ---

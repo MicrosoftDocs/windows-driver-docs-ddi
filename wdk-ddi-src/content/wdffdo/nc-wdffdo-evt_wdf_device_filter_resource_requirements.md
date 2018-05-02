@@ -38,7 +38,8 @@ api_location:
 -	Wdffdo.h
 api_name:
 -	EvtDeviceFilterXxxResourceRequirements
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

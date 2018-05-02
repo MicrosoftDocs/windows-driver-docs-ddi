@@ -38,7 +38,8 @@ api_location:
 -	Wmilib.h
 api_name:
 -	DpWmiSetDataBlock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

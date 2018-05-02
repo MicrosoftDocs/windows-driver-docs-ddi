@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

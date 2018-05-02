@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SLOT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SLOT_INFO, *PWWAN_SLOT_INFO
 ---

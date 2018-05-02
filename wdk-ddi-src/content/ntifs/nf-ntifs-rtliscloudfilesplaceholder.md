@@ -38,7 +38,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlIsCloudFilesPlaceholder
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

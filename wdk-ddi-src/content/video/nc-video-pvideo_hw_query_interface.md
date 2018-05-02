@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	HwVidQueryInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

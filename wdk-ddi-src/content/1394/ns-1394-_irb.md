@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB, *PIRB
 ---

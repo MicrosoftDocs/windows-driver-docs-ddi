@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCbLengthW
 -	RtlStringCbLengthA
 -	RtlStringCbLengthW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

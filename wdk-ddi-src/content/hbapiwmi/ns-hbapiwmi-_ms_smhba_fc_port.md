@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MS_SMHBA_FC_Port
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_FC_Port, *PMS_SMHBA_FC_Port
 ---

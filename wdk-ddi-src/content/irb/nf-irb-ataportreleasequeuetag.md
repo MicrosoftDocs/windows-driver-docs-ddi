@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortReleaseQueueTag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

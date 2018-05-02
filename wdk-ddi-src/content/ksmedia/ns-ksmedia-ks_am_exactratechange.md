@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AM_ExactRateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
 ---

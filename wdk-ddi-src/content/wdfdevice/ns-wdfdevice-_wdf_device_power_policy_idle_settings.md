@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ---

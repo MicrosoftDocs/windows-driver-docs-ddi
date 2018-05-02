@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IOCTL_1394_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

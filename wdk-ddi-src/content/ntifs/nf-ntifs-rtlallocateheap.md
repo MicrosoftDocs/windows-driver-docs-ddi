@@ -39,7 +39,8 @@ api_location:
 -	ntdll.dll
 api_name:
 -	RtlAllocateHeap
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

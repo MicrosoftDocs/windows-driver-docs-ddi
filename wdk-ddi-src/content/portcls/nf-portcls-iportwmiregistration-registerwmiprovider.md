@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IPortWMIRegistration.RegisterWMIProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

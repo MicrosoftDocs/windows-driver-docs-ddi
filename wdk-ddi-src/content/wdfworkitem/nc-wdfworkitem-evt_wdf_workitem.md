@@ -38,7 +38,8 @@ api_location:
 -	Wdfworkitem.h
 api_name:
 -	EvtWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

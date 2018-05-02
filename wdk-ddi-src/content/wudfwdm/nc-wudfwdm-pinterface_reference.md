@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	InterfaceReference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -99,4 +100,6 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
  
 
  
+
+
 

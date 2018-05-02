@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
 ---

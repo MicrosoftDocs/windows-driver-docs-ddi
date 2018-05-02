@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetPortAttributesByWWN_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT
 ---

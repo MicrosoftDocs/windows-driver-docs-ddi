@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortFreeRegistryBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

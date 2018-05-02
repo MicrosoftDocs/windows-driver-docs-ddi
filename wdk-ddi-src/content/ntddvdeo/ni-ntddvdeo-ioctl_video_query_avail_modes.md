@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_QUERY_AVAIL_MODES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

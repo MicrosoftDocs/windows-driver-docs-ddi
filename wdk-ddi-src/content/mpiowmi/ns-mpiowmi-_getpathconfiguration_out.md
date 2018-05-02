@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	GetPathConfiguration_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Spb.h
 api_name:
 -	SpbIoctl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SpbIoctl, *PSpbIoctl
 ---

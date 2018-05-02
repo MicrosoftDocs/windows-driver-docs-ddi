@@ -40,7 +40,8 @@ api_name:
 -	IDebugSystemObjects2.SetImplicitThreadDataOffset
 -	IDebugSystemObjects3.SetImplicitThreadDataOffset
 -	IDebugSystemObjects4.SetImplicitThreadDataOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

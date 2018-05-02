@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXSESSION_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
 ---

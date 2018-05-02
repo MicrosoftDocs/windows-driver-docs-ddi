@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ---

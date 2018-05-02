@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	REG_SET_VALUE_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_SET_VALUE_KEY_INFORMATION, *PREG_SET_VALUE_KEY_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFWorkItem.GetParentObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	USBSidebandAudio.h
 api_name:
 -	IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

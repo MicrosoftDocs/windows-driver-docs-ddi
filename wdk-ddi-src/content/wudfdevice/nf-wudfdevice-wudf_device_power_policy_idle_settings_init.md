@@ -38,7 +38,8 @@ api_location:
 -	Wudfdevice.h
 api_name:
 -	WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

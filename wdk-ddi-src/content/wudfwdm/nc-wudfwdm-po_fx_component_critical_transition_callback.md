@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	ComponentCriticalTransitionCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -111,4 +112,6 @@ A PEP can call this routine at IRQL TBD.
  
 
  
+
+
 

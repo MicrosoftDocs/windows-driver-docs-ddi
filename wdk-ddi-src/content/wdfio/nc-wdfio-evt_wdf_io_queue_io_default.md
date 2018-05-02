@@ -38,7 +38,8 @@ api_location:
 -	Wdfio.h
 api_name:
 -	EvtIoDefault
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

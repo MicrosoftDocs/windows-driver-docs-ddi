@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSTIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTIME, *PKSTIME
 ---

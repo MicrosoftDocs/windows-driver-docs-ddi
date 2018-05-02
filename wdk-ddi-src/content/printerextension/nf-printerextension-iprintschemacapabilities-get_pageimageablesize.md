@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaCapabilities.PageImageableSize
 -	IPrintSchemaCapabilities.get_PageImageableSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

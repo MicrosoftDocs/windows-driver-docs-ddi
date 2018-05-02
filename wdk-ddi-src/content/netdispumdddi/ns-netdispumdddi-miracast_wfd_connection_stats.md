@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_WFD_CONNECTION_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_WFD_CONNECTION_STATS
 ---

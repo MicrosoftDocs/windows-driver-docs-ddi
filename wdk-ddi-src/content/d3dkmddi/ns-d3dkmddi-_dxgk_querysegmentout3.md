@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_QUERYSEGMENTOUT3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_QUERYSEGMENTOUT3
 ---

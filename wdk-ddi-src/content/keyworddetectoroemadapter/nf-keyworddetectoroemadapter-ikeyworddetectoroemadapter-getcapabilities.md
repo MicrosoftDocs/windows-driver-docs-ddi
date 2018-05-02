@@ -38,7 +38,8 @@ api_location:
 -	KeywordDetectorOemAdapter.h
 api_name:
 -	IKeywordDetectorOemAdapter.GetCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

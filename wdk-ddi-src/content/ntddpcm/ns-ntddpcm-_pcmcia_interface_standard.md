@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	PCMCIA_INTERFACE_STANDARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_INTERFACE_STANDARD, *PPCMCIA_INTERFACE_STANDARD
 ---

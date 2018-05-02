@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	GetNextChunkData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

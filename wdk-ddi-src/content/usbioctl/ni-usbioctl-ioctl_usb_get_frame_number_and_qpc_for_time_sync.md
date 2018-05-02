@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

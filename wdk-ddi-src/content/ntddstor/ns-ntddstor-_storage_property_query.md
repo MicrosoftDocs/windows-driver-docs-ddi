@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_PROPERTY_QUERY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY
 ---

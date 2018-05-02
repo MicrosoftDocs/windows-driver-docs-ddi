@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	pfnCreateShaderCacheSession
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,7 +55,9 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 
 ## -parameters
 
+### -param hDevice
 
+The handle of a device.
 
 
 ### -param Arg1
@@ -76,15 +79,10 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 
 The handle of a cache session.
 
-
-#### - hDevice
-
-The handle of a device.
-
-
-#### - hRTCacheSession
+### -param hRTCacheSession
 
 The handle of the cache session for the driver to use when it calls back into the runtime.
+
 
 
 ## -returns

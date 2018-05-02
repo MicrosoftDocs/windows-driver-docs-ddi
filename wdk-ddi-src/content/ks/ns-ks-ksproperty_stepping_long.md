@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_STEPPING_LONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_STEPPING_LONG, *PKSPROPERTY_STEPPING_LONG
 ---

@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	RemoveRADIUSServer_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN
 ---

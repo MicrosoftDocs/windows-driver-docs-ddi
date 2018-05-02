@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES
 ---
@@ -172,17 +173,20 @@ Do not display the device in the user interface. If this bit is set, the device 
 
 
 ### -field Reserved1
-
+Reserved for system use.
 
 ### -field WakeFromInterrupt
-
- 
-
+Indicates whether the driver or ACPI is responsible for handling the wake event. If set, the driver is responsible for handling the wake event. ACPI arms the device when it receives an IRP_MN_WAIT_WAKE IRP, but does not connect the interrupt, complete the IRP to notify the device stack of a wake event.
 
 ### -field SecureDevice
-
+Indicates whether the device is a secure device.
  
+### -field ChildOfVgaEnabledBridge
+For a VGA device, indicates whether the parent bridge has the VGA decoding bit set.
+ 
+### -field DecodeIoOnBoot
 
+Indictates whether the device has IO decode enabled on boot. 
 
 ### -field Reserved
 

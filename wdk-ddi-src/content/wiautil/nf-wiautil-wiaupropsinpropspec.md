@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauPropsInPropSpec
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

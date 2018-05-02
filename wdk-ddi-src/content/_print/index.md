@@ -2,19 +2,20 @@
 UID: TP:print
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Print
+# Print devices
 
 
-Overview of the Print technology.
 
-To develop Print, you need these headers:
+Overview of the Print devices technology.
+
+To develop Print devices, you need these headers:
 
  * [bidispl.h](..\bidispl\index.md)
  * [compstui.h](..\compstui\index.md)
@@ -37,7 +38,7 @@ To develop Print, you need these headers:
  * [winspool.h](..\winspool\index.md)
  * [xpsrassvc.h](..\xpsrassvc\index.md)
 
-
+For the programming guide, see [Print devices](https://docs.microsoft.com/en-us/windows-hardware/drivers/print).
 
 
 This section lists functions, structures, methods, and properties used in printer drivers and spooler components.

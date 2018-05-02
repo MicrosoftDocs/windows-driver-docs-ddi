@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PERSISTENCE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO
 ---

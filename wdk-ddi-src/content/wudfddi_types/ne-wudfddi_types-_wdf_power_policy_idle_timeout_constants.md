@@ -38,7 +38,8 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_CALLBACK_CONSTRAINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---

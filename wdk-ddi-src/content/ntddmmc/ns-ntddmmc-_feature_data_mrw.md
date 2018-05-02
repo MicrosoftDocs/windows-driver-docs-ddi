@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_MRW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_MRW, *PFEATURE_DATA_MRW
 ---

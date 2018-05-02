@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_HD_SPLIT_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES
 ---

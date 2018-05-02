@@ -38,7 +38,8 @@ api_location:
 -	Mountdev.h
 api_name:
 -	IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

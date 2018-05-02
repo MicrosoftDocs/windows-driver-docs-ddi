@@ -38,7 +38,8 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	EvUcxControllerStopTrackingForTimeSync
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

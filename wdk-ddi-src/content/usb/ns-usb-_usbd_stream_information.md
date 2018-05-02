@@ -38,7 +38,8 @@ api_location:
 -	Usb.h
 api_name:
 -	USBD_STREAM_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION
 ---

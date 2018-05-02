@@ -38,7 +38,8 @@ api_location:
 -	hpmi.h
 api_name:
 -	IOCTL_HPMI_BATTERY_UTILIZATION_HINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -141,4 +142,5 @@ TBD
  
 
  
+
 

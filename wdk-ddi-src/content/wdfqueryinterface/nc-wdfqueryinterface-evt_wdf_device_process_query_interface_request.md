@@ -38,7 +38,8 @@ api_location:
 -	WdfQueryInterface.h
 api_name:
 -	EvtDeviceProcessQueryInterfaceRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

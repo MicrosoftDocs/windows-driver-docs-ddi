@@ -2,7 +2,7 @@
 UID: TP:wdf
 ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/23/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,13 +11,13 @@ ms.topic: portal
 
 # Windows Driver Framework
 
-
-Overview of the Windows Driver Framework technology.
+## -description
 
 To develop Windows Driver Framework, you need these headers:
 
- * [miniport.h](..\miniport\index.md)
- * [ntpoapi.h](..\ntpoapi\index.md)
+ * [wdf.h](..\wdf\index.md)
+ * [wdfassert.h](..\wdfassert\index.md)
+ * [wdfbugcodes.h](..\wdfbugcodes\index.md)
  * [wdfchildlist.h](..\wdfchildlist\index.md)
  * [wdfcollection.h](..\wdfcollection\index.md)
  * [wdfcommonbuffer.h](..\wdfcommonbuffer\index.md)
@@ -32,6 +32,7 @@ To develop Windows Driver Framework, you need these headers:
  * [wdfdriver.h](..\wdfdriver\index.md)
  * [wdffdo.h](..\wdffdo\index.md)
  * [wdffileobject.h](..\wdffileobject\index.md)
+ * [wdffuncenum.h](..\wdffuncenum\index.md)
  * [wdfhwaccess.h](..\wdfhwaccess\index.md)
  * [wdfinstaller.h](..\wdfinstaller\index.md)
  * [wdfinterrupt.h](..\wdfinterrupt\index.md)
@@ -48,12 +49,12 @@ To develop Windows Driver Framework, you need these headers:
  * [wdfstring.h](..\wdfstring\index.md)
  * [wdfsync.h](..\wdfsync\index.md)
  * [wdftimer.h](..\wdftimer\index.md)
+ * [wdftriage.h](..\wdftriage\index.md)
  * [wdftypes.h](..\wdftypes\index.md)
  * [wdfusb.h](..\wdfusb\index.md)
  * [wdfverifier.h](..\wdfverifier\index.md)
  * [wdfwmi.h](..\wdfwmi\index.md)
  * [wdfworkitem.h](..\wdfworkitem\index.md)
- * [wdm.h](..\wdm\index.md)
  * [wudfddi.h](..\wudfddi\index.md)
  * [wudfddi_hwaccess.h](..\wudfddi_hwaccess\index.md)
  * [wudfddi_types.h](..\wudfddi_types\index.md)
@@ -63,4172 +64,1200 @@ To develop Windows Driver Framework, you need these headers:
  * [wudfwdm.h](..\wudfwdm\index.md)
  * [wudfworkitem.h](..\wudfworkitem\index.md)
 
-For the programming guide, see [Windows Driver Framework](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf).
+For the programming guide, see [Windows Driver Framework](https://docs.microsoft.com/windows-hardware/drivers/wdf).
 
 The following table lists all of the Windows Driver Frameworks (WDF) callbacks, methods, and macros, and their availability in KMDF and UMDF version 2.
 
-For a list of framework objects and mode availability, see Summary of Framework Objects.
+For a list of framework objects and mode availability, see [Summary of Framework Objects](https://docs.microsoft.com/windows-hardware/drivers/wdf/summary-of-framework-objects).
 
-<table>
-<tr>
-<th>Name</th>
-<th>Minimum KMDF Version</th>
-<th>Minimum UMDF Version</th>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistaddressdescriptioncleanup"><i>EvtChildListAddressDescriptionCleanup</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistaddressdescriptioncopy"><i>EvtChildListAddressDescriptionCopy</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistaddressdescriptionduplicate"><i>EvtChildListAddressDescriptionDuplicate</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistcreatedevice"><i>EvtChildListCreateDevice</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistdevicereenumerated"><i>EvtChildListDeviceReenumerated</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptioncleanup"><i>EvtChildListIdentificationDescriptionCleanup</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptioncompare"><i>EvtChildListIdentificationDescriptionCompare</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptioncopy"><i>EvtChildListIdentificationDescriptionCopy</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistidentificationdescriptionduplicate"><i>EvtChildListIdentificationDescriptionDuplicate</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtchildlistscanforchildren"><i>EvtChildListScanForChildren</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtcleanupcallback"><i>EvtCleanupCallback</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_post_d0_exit"><i>EvtCompanionPostD0Exit</i></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_post_release_hardware"><i>EvtCompanionPostReleaseHardware</i></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_pre_d0_entry"><i>EvtCompanionPreD0Entry</i></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evt_wdf_companion_pre_prepare_hardware"><i>EvtCompanionPrePrepareHardware</i></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdestroycallback"><i>EvtDestroyCallback</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicearmwakefroms0"><i>EvtDeviceArmWakeFromS0</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicearmwakefromsx"><i>EvtDeviceArmWakeFromSx</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicearmwakefromsxwithreason"><i>EvtDeviceArmWakeFromSxWithReason</i></mshelp:link>
-</td>
-<td>1.7</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviced0entry"><i>EvtDeviceD0Entry</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviced0entrypostinterruptsenabled"><i>EvtDeviceD0EntryPostInterruptsEnabled</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviced0exit"><i>EvtDeviceD0Exit</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviced0exitpreinterruptsdisabled"><i>EvtDeviceD0ExitPreInterruptsDisabled</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicedisablewakeatbus"><i>EvtDeviceDisableWakeAtBus</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicedisarmwakefroms0"><i>EvtDeviceDisarmWakeFromS0</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicedisarmwakefromsx"><i>EvtDeviceDisarmWakeFromSx</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceeject"><i>EvtDeviceEject</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceenablewakeatbus"><i>EvtDeviceEnableWakeAtBus</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicefilecreate"><i>EvtDeviceFileCreate</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicefilteraddresourcerequirements"><i>EvtDeviceFilterAddResourceRequirements</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicefilterremoveresourcerequirements"><i>EvtDeviceFilterRemoveResourceRequirements</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicepnpstatechange"><i>EvtDevicePnpStateChange</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicepowerpolicystatechange"><i>EvtDevicePowerPolicyStateChange</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicepowerstatechange"><i>EvtDevicePowerStateChange</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicepreparehardware"><i>EvtDevicePrepareHardware</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceprocessqueryinterfacerequest"><i>EvtDeviceProcessQueryInterfaceRequest</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicequeryremove"><i>EvtDeviceQueryRemove</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicequerystop"><i>EvtDeviceQueryStop</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicerelationsquery"><i>EvtDeviceRelationsQuery</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicereleasehardware"><i>EvtDeviceReleaseHardware</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceremoveaddedresources"><i>EvtDeviceRemoveAddedResources</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicereportedmissing"><i>EvtDeviceReportedMissing</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceresourcerequirementsquery"><i>EvtDeviceResourceRequirementsQuery</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceresourcesquery"><i>EvtDeviceResourcesQuery</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagediocleanup"><i>EvtDeviceSelfManagedIoCleanup</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagedioflush"><i>EvtDeviceSelfManagedIoFlush</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagedioinit"><i>EvtDeviceSelfManagedIoInit</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagediorestart"><i>EvtDeviceSelfManagedIoRestart</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceselfmanagediosuspend"><i>EvtDeviceSelfManagedIoSuspend</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicesetlock"><i>EvtDeviceSetLock</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceshutdownnotification"><i>EvtDeviceShutdownNotification</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicesurpriseremoval"><i>EvtDeviceSurpriseRemoval</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceusagenotification"><i>EvtDeviceUsageNotification</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdeviceusagenotificationex"><i>EvtDeviceUsageNotificationEx</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicewakefroms0triggered"><i>EvtDeviceWakeFromS0Triggered</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicewakefromsxtriggered"><i>EvtDeviceWakeFromSxTriggered</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmirpdispatch"><i>EvtDeviceWdmIrpDispatch</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.17</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmirppreprocess"><i>EvtDeviceWdmIrpPreprocess</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmpostpofxregisterdevice"><i>EvtDeviceWdmPostPoFxRegisterDevice</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdevicewdmprepofxunregisterdevice"><i>EvtDeviceWdmPrePoFxUnregisterDevice</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerdisable"><i>EvtDmaEnablerDisable</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerenable"><i>EvtDmaEnablerEnable</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerfill"><i>EvtDmaEnablerFill</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerflush"><i>EvtDmaEnablerFlush</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerselfmanagediostart"><i>EvtDmaEnablerSelfManagedIoStart</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmaenablerselfmanagediostop"><i>EvtDmaEnablerSelfManagedIoStop</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmatransactionconfiguredmachannel"><i>EvtDmaTransactionConfigureDmaChannel</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdmatransactiondmatransfercomplete"><i>EvtDmaTransactionDmaTransferComplete</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdpcfunc"><i>EvtDpcFunc</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdriverdeviceadd"><i>EvtDriverDeviceAdd</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtdriverunload"><i>EvtDriverUnload</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtfilecleanup"><i>EvtFileCleanup</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtfileclose"><i>EvtFileClose</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtinterruptdisable"><i>EvtInterruptDisable</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtinterruptdpc"><i>EvtInterruptDpc</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtinterruptenable"><i>EvtInterruptEnable</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtinterruptisr"><i>EvtInterruptIsr</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtinterruptsynchronize"><i>EvtInterruptSynchronize</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtinterruptworkitem"><i>EvtInterruptWorkItem</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtioallocaterequestresources"><i>EvtIoAllocateRequestResources</i></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtioallocateresourcesforreservedrequest"><i>EvtIoAllocateResourcesForReservedRequest</i></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiocanceledonqueue"><i>EvtIoCanceledOnQueue</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiodefault"><i>EvtIoDefault</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiodevicecontrol"><i>EvtIoDeviceControl</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtioincallercontext"><i>EvtIoInCallerContext</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiointernaldevicecontrol"><i>EvtIoInternalDeviceControl</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtioqueuestate"><i>EvtIoQueueState</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtioread"><i>EvtIoRead</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtioresume"><i>EvtIoResume</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiostop"><i>EvtIoStop</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiotargetqueryremove"><i>EvtIoTargetQueryRemove</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiotargetremovecanceled"><i>EvtIoTargetRemoveCanceled</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiotargetremovecomplete"><i>EvtIoTargetRemoveComplete</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiowdmirpforforwardprogress"><i>EvtIoWdmIrpForForwardProgress</i></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtiowrite"><i>EvtIoWrite</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtprogramdma"><i>EvtProgramDma</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtrequestcancel"><i>EvtRequestCancel</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtrequestimpersonate"><i>EvtRequestImpersonate</i></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtreservedma"><i>EvtReserveDma</i></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evt_wdf_task_queue_task_execute_sync"><i>EvtTaskQueueTaskExecuteSync</i></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evttimerfunc"><i>EvtTimerFunc</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtusbtargetpipereadcomplete"><i>EvtUsbTargetPipeReadComplete</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtusbtargetpipereadersfailed"><i>EvtUsbTargetPipeReadersFailed</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtwmiinstanceexecutemethod"><i>EvtWmiInstanceExecuteMethod</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtwmiinstancequeryinstance"><i>EvtWmiInstanceQueryInstance</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtwmiinstancesetinstance"><i>EvtWmiInstanceSetInstance</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtwmiinstancesetitem"><i>EvtWmiInstanceSetItem</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtwmiproviderfunctioncontrol"><i>EvtWmiProviderFunctionControl</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.evtworkitem"><i>EvtWorkItem</i></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistaddorupdatechilddescriptionaspresent"><b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistbeginiteration"><b>WdfChildListBeginIteration</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistbeginscan"><b>WdfChildListBeginScan</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistcreate"><b>WdfChildListCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistenditeration"><b>WdfChildListEndIteration</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistendscan"><b>WdfChildListEndScan</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistgetdevice"><b>WdfChildListGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistrequestchildeject"><b>WdfChildListRequestChildEject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistretrieveaddressdescription"><b>WdfChildListRetrieveAddressDescription</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistretrievenextdevice"><b>WdfChildListRetrieveNextDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistretrievepdo"><b>WdfChildListRetrievePdo</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistupdateallchilddescriptionsaspresent"><b>WdfChildListUpdateAllChildDescriptionsAsPresent</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfchildlistupdatechilddescriptionasmissing"><b>WdfChildListUpdateChildDescriptionAsMissing</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistappenddescriptor"><b>WdfCmResourceListAppendDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistgetcount"><b>WdfCmResourceListGetCount</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistgetdescriptor"><b>WdfCmResourceListGetDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistinsertdescriptor"><b>WdfCmResourceListInsertDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistremove"><b>WdfCmResourceListRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcmresourcelistremovebydescriptor"><b>WdfCmResourceListRemoveByDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectionadd"><b>WdfCollectionAdd</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectioncreate"><b>WdfCollectionCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetcount"><b>WdfCollectionGetCount</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetfirstitem"><b>WdfCollectionGetFirstItem</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetitem"><b>WdfCollectionGetItem</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectiongetlastitem"><b>WdfCollectionGetLastItem</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectionremove"><b>WdfCollectionRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcollectionremoveitem"><b>WdfCollectionRemoveItem</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffercreate"><b>WdfCommonBufferCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffercreatewithconfig"><b>WdfCommonBufferCreateWithConfig</b></mshelp:link>
-</td>
-<td>1.1</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffergetalignedlogicaladdress"><b>WdfCommonBufferGetAlignedLogicalAddress</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffergetalignedvirtualaddress"><b>WdfCommonBufferGetAlignedVirtualAddress</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcommonbuffergetlength"><b>WdfCommonBufferGetLength</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcompanioncreate"><b>WdfCompanionCreate</b></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcompanioncreatetaskqueue"><b>WdfCompanionCreateTaskQueue</b></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcompaniontargetsendtasksynchronously"><b>WdfCompanionTargetSendTaskSynchronously</b></mshelp:link>
-</td>
-<td>1.23</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcompaniontargetwdmgetcompanionprocess"><b>WdfCompanionTargetWdmGetCompanionProcess</b></mshelp:link>
-</td>
-<td>1.23</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcompanionwdmgetsecuredevicehandle"><b>WdfCompanionWdmGetSecureDeviceHandle</b></mshelp:link>
-</td>
-<td></td>
-<td>2.23</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcontroldeviceinitallocate"><b>WdfControlDeviceInitAllocate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcontroldeviceinitsetshutdownnotification"><b>WdfControlDeviceInitSetShutdownNotification</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfcontrolfinishinitializing"><b>WdfControlFinishInitializing</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceadddependentusagedeviceobject"><b>WdfDeviceAddDependentUsageDeviceObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceaddqueryinterface"><b>WdfDeviceAddQueryInterface</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceaddremovalrelationsphysicaldevice"><b>WdfDeviceAddRemovalRelationsPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceallocandqueryinterfaceproperty"><b>WdfDeviceAllocAndQueryInterfaceProperty</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceallocandqueryproperty"><b>WdfDeviceAllocAndQueryProperty</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceallocandquerypropertyex"><b>WdfDeviceAllocAndQueryPropertyEx</b></mshelp:link>
-</td>
-<td>1.13</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassigninterfaceproperty"><b>WdfDeviceAssignInterfaceProperty</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassignmofresourcename"><b>WdfDeviceAssignMofResourceName</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassignproperty"><b>WdfDeviceAssignProperty</b></mshelp:link>
-</td>
-<td>1.13</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassigns0idlesettings"><b>WdfDeviceAssignS0IdleSettings</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceassignsxwakesettings"><b>WdfDeviceAssignSxWakeSettings</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceclearremovalrelationsdevices"><b>WdfDeviceClearRemovalRelationsDevices</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceconfigurerequestdispatching"><b>WdfDeviceConfigureRequestDispatching</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceconfigurewdmirpdispatchcallback"><b>WdfDeviceConfigureWdmIrpDispatchCallback</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.17</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicecreate"><b>WdfDeviceCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicecreatedeviceinterface"><b>WdfDeviceCreateDeviceInterface</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicecreatesymboliclink"><b>WdfDeviceCreateSymbolicLink</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceenqueuerequest"><b>WdfDeviceEnqueueRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetalignmentrequirement"><b>WdfDeviceGetAlignmentRequirement</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetcharacteristics"><b>WdfDeviceGetCharacteristics</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdefaultqueue"><b>WdfDeviceGetDefaultQueue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicepnpstate"><b>WdfDeviceGetDevicePnpState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicepowerpolicystate"><b>WdfDeviceGetDevicePowerPolicyState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicepowerstate"><b>WdfDeviceGetDevicePowerState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicestackiotype"><b>WdfDeviceGetDeviceStackIoType</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdevicestate"><b>WdfDeviceGetDeviceState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetdriver"><b>WdfDeviceGetDriver</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetfileobject"><b>WdfDeviceGetFileObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegethardwareregistermappedaddress"><b>WdfDeviceGetHardwareRegisterMappedAddress</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetiotarget"><b>WdfDeviceGetIoTarget</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicegetsystempoweraction"><b>WdfDeviceGetSystemPowerAction</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceindicatewakestatus"><b>WdfDeviceIndicateWakeStatus</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitassignname"><b>WdfDeviceInitAssignName</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitassignsddlstring"><b>WdfDeviceInitAssignSDDLString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitassignwdmirppreprocesscallback"><b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitfree"><b>WdfDeviceInitFree</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitregisterpnpstatechangecallback"><b>WdfDeviceInitRegisterPnpStateChangeCallback</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitregisterpowerpolicystatechangecallback"><b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitregisterpowerstatechangecallback"><b>WdfDeviceInitRegisterPowerStateChangeCallback</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetcharacteristics"><b>WdfDeviceInitSetCharacteristics</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetdeviceclass"><b>WdfDeviceInitSetDeviceClass</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetdevicetype"><b>WdfDeviceInitSetDeviceType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetexclusive"><b>WdfDeviceInitSetExclusive</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetfileobjectconfig"><b>WdfDeviceInitSetFileObjectConfig</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetioincallercontextcallback"><b>WdfDeviceInitSetIoInCallerContextCallback</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetiotype"><b>WdfDeviceInitSetIoType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetiotypeex"><b>WdfDeviceInitSetIoTypeEx</b></mshelp:link>
-</td>
-<td>1.13</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpnppowereventcallbacks"><b>WdfDeviceInitSetPnpPowerEventCallbacks</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerinrush"><b>WdfDeviceInitSetPowerInrush</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowernotpageable"><b>WdfDeviceInitSetPowerNotPageable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerpageable"><b>WdfDeviceInitSetPowerPageable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerpolicyeventcallbacks"><b>WdfDeviceInitSetPowerPolicyEventCallbacks</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetpowerpolicyownership"><b>WdfDeviceInitSetPowerPolicyOwnership</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetreleasehardwareorderonfailure"><b>WdfDeviceInitSetReleaseHardwareOrderOnFailure</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetremovelockoptions"><b>WdfDeviceInitSetRemoveLockOptions</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinitsetrequestattributes"><b>WdfDeviceInitSetRequestAttributes</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinterfacedereferencenoop"><b>WdfDeviceInterfaceDereferenceNoOp</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceinterfacereferencenoop"><b>WdfDeviceInterfaceReferenceNoOp</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicemapiospace"><b>WdfDeviceMapIoSpace</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceminiportcreate"><b>WdfDeviceMiniportCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceopendevicemapkey"><b>WdfDeviceOpenDevicemapKey</b></mshelp:link>
-</td>
-<td>1.15</td>
-<td>2.15</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceopenregistrykey"><b>WdfDeviceOpenRegistryKey</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicepostevent"><b>WdfDevicePostEvent</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicequeryinterfaceproperty"><b>WdfDeviceQueryInterfaceProperty</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicequeryproperty"><b>WdfDeviceQueryProperty</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicequerypropertyex"><b>WdfDeviceQueryPropertyEx</b></mshelp:link>
-</td>
-<td>1.13</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicereadfromhardware"><b>WdfDeviceReadFromHardware</b></mshelp:link>
-</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceremovedependentusagedeviceobject"><b>WdfDeviceRemoveDependentUsageDeviceObject</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceremoveremovalrelationsphysicaldevice"><b>WdfDeviceRemoveRemovalRelationsPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceresumeidle"><b>WdfDeviceResumeIdle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceresumeidlewithtag"><b>WdfDeviceResumeIdleWithTag</b></mshelp:link>
-</td>
-<td>1.15</td>
-<td>2.15</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceretrievedeviceinterfacestring"><b>WdfDeviceRetrieveDeviceInterfaceString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceretrievedevicename"><b>WdfDeviceRetrieveDeviceName</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetalignmentrequirement"><b>WdfDeviceSetAlignmentRequirement</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetbusinformationforchildren"><b>WdfDeviceSetBusInformationForChildren</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetcharacteristics"><b>WdfDeviceSetCharacteristics</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetdeviceinterfacestate"><b>WdfDeviceSetDeviceInterfaceState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetdevicestate"><b>WdfDeviceSetDeviceState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetfailed"><b>WdfDeviceSetFailed</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetpnpcapabilities"><b>WdfDeviceSetPnpCapabilities</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetpowercapabilities"><b>WdfDeviceSetPowerCapabilities</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetspecialfilesupport"><b>WdfDeviceSetSpecialFileSupport</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicesetstaticstopremove"><b>WdfDeviceSetStaticStopRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicestopidle"><b>WdfDeviceStopIdle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicestopidlewithtag"><b>WdfDeviceStopIdleWithTag</b></mshelp:link>
-</td>
-<td>1.15</td>
-<td>2.15</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdeviceunmapiospace"><b>WdfDeviceUnmapIoSpace</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmassignpowerframeworksettings"><b>WdfDeviceWdmAssignPowerFrameworkSettings</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmdispatchirp"><b>WdfDeviceWdmDispatchIrp</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.17</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmdispatchirptoioqueue"><b>WdfDeviceWdmDispatchIrpToIoQueue</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.17</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmdispatchpreprocessedirp"><b>WdfDeviceWdmDispatchPreprocessedIrp</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmgetattacheddevice"><b>WdfDeviceWdmGetAttachedDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmgetdeviceobject"><b>WdfDeviceWdmGetDeviceObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewdmgetphysicaldevice"><b>WdfDeviceWdmGetPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevicewritetohardware"><b>WdfDeviceWriteToHardware</b></mshelp:link>
-</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevstateisnp"><b>WdfDevStateIsNP</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdevstatenormalize"><b>WdfDevStateNormalize</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablerconfiguresystemprofile"><b>WdfDmaEnablerConfigureSystemProfile</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablercreate"><b>WdfDmaEnablerCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablergetfragmentlength"><b>WdfDmaEnablerGetFragmentLength</b></mshelp:link>
-</td>
-<td>1.1</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablergetmaximumlength"><b>WdfDmaEnablerGetMaximumLength</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablergetmaximumscattergatherelements"><b>WdfDmaEnablerGetMaximumScatterGatherElements</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablersetmaximumscattergatherelements"><b>WdfDmaEnablerSetMaximumScatterGatherElements</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmaenablerwdmgetdmaadapter"><b>WdfDmaEnablerWdmGetDmaAdapter</b></mshelp:link>
-</td>
-<td>1.5</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionallocateresources"><b>WdfDmaTransactionAllocateResources</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioncancel"><b>WdfDmaTransactionCancel</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioncreate"><b>WdfDmaTransactionCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiondmacompleted"><b>WdfDmaTransactionDmaCompleted</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiondmacompletedfinal"><b>WdfDmaTransactionDmaCompletedFinal</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiondmacompletedwithlength"><b>WdfDmaTransactionDmaCompletedWithLength</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionexecute"><b>WdfDmaTransactionExecute</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionfreeresources"><b>WdfDmaTransactionFreeResources</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetbytestransferred"><b>WdfDmaTransactionGetBytesTransferred</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetcurrentdmatransferlength"><b>WdfDmaTransactionGetCurrentDmaTransferLength</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetdevice"><b>WdfDmaTransactionGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongetrequest"><b>WdfDmaTransactionGetRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactiongettransferinfo"><b>WdfDmaTransactionGetTransferInfo</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioninitialize"><b>WdfDmaTransactionInitialize</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioninitializeusingoffset"><b>WdfDmaTransactionInitializeUsingOffset</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactioninitializeusingrequest"><b>WdfDmaTransactionInitializeUsingRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionrelease"><b>WdfDmaTransactionRelease</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetchannelconfigurationcallback"><b>WdfDmaTransactionSetChannelConfigurationCallback</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetdeviceaddressoffset"><b>WdfDmaTransactionSetDeviceAddressOffset</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetimmediateexecution"><b>WdfDmaTransactionSetImmediateExecution</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetmaximumlength"><b>WdfDmaTransactionSetMaximumLength</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsetsingletransferrequirement"><b>WdfDmaTransactionSetSingleTransferRequirement</b></mshelp:link>
-</td>
-<td>1.19</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionsettransfercompletecallback"><b>WdfDmaTransactionSetTransferCompleteCallback</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionstopsystemtransfer"><b>WdfDmaTransactionStopSystemTransfer</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdmatransactionwdmgettransfercontext"><b>WdfDmaTransactionWdmGetTransferContext</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdpccancel"><b>WdfDpcCancel</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdpccreate"><b>WdfDpcCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdpcenqueue"><b>WdfDpcEnqueue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdpcgetparentobject"><b>WdfDpcGetParentObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdpcwdmgetdpc"><b>WdfDpcWdmGetDpc</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdrivercreate"><b>WdfDriverCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdrivergetregistrypath"><b>WdfDriverGetRegistryPath</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdriverisversionavailable"><b>WdfDriverIsVersionAvailable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdriverminiportunload"><b>WdfDriverMiniportUnload</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdriveropenparametersregistrykey"><b>WdfDriverOpenParametersRegistryKey</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdriverregistertraceinfo"><b>WdfDriverRegisterTraceInfo</b></mshelp:link>
-</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdriverretrieveversionstring"><b>WdfDriverRetrieveVersionString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfdriverwdmgetdriverobject"><b>WdfDriverWdmGetDriverObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoaddstaticchild"><b>WdfFdoAddStaticChild</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdogetdefaultchildlist"><b>WdfFdoGetDefaultChildList</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitallocandqueryproperty"><b>WdfFdoInitAllocAndQueryProperty</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitallocandquerypropertyex"><b>WdfFdoInitAllocAndQueryPropertyEx</b></mshelp:link>
-</td>
-<td>1.13</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitopenregistrykey"><b>WdfFdoInitOpenRegistryKey</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitqueryproperty"><b>WdfFdoInitQueryProperty</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitquerypropertyex"><b>WdfFdoInitQueryPropertyEx</b></mshelp:link>
-</td>
-<td>1.13</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitsetdefaultchildlistconfig"><b>WdfFdoInitSetDefaultChildListConfig</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitseteventcallbacks"><b>WdfFdoInitSetEventCallbacks</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitsetfilter"><b>WdfFdoInitSetFilter</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoinitwdmgetphysicaldevice"><b>WdfFdoInitWdmGetPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdolockstaticchildlistforiteration"><b>WdfFdoLockStaticChildListForIteration</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoqueryforinterface"><b>WdfFdoQueryForInterface</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdoretrievenextstaticchild"><b>WdfFdoRetrieveNextStaticChild</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffdounlockstaticchildlistfromiteration"><b>WdfFdoUnlockStaticChildListFromIteration</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetdevice"><b>WdfFileObjectGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetfilename"><b>WdfFileObjectGetFileName</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetflags"><b>WdfFileObjectGetFlags</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetinitiatorprocessid"><b>WdfFileObjectGetInitiatorProcessId</b></mshelp:link>
-</td>
-<td>1.21
-            </td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffileobjectgetrelatedfileobject"><b>WdfFileObjectGetRelatedFileObject</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdffileobjectwdmgetfileobject"><b>WdfFileObjectWdmGetFileObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfgetdriver"><b>WdfGetDriver</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfgettriageinfo"><b>WdfGetTriageInfo</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptacquirelock"><b>WdfInterruptAcquireLock</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptcreate"><b>WdfInterruptCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptdisable"><b>WdfInterruptDisable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptenable"><b>WdfInterruptEnable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptgetdevice"><b>WdfInterruptGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptgetinfo"><b>WdfInterruptGetInfo</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptqueuedpcforisr"><b>WdfInterruptQueueDpcForIsr</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptqueueworkitemforisr"><b>WdfInterruptQueueWorkItemForIsr</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptreleaselock"><b>WdfInterruptReleaseLock</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptreportactive"><b>WdfInterruptReportActive</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptreportinactive"><b>WdfInterruptReportInactive</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptsetextendedpolicy"><b>WdfInterruptSetExtendedPolicy</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptsetpolicy"><b>WdfInterruptSetPolicy</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptsynchronize"><b>WdfInterruptSynchronize</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterrupttrytoacquirelock"><b>WdfInterruptTryToAcquireLock</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfinterruptwdmgetinterrupt"><b>WdfInterruptWdmGetInterrupt</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueueassignforwardprogresspolicy"><b>WdfIoQueueAssignForwardProgressPolicy</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuecreate"><b>WdfIoQueueCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuedrain"><b>WdfIoQueueDrain</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuedrainsynchronously"><b>WdfIoQueueDrainSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuefindrequest"><b>WdfIoQueueFindRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuegetdevice"><b>WdfIoQueueGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuegetstate"><b>WdfIoQueueGetState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuepurge"><b>WdfIoQueuePurge</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuepurgesynchronously"><b>WdfIoQueuePurgeSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuereadynotify"><b>WdfIoQueueReadyNotify</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueueretrievefoundrequest"><b>WdfIoQueueRetrieveFoundRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueueretrievenextrequest"><b>WdfIoQueueRetrieveNextRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueueretrieverequestbyfileobject"><b>WdfIoQueueRetrieveRequestByFileObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestart"><b>WdfIoQueueStart</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestop"><b>WdfIoQueueStop</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestopandpurge"><b>WdfIoQueueStopAndPurge</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestopandpurgesynchronously"><b>WdfIoQueueStopAndPurgeSynchronously</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioqueuestopsynchronously"><b>WdfIoQueueStopSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistappenddescriptor"><b>WdfIoResourceListAppendDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistcreate"><b>WdfIoResourceListCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistgetcount"><b>WdfIoResourceListGetCount</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistgetdescriptor"><b>WdfIoResourceListGetDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistinsertdescriptor"><b>WdfIoResourceListInsertDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistremove"><b>WdfIoResourceListRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistremovebydescriptor"><b>WdfIoResourceListRemoveByDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcelistupdatedescriptor"><b>WdfIoResourceListUpdateDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistappendioreslist"><b>WdfIoResourceRequirementsListAppendIoResList</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistgetcount"><b>WdfIoResourceRequirementsListGetCount</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistgetioreslist"><b>WdfIoResourceRequirementsListGetIoResList</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistinsertioreslist"><b>WdfIoResourceRequirementsListInsertIoResList</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistremove"><b>WdfIoResourceRequirementsListRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistremovebyioreslist"><b>WdfIoResourceRequirementsListRemoveByIoResList</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistsetinterfacetype"><b>WdfIoResourceRequirementsListSetInterfaceType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfioresourcerequirementslistsetslotnumber"><b>WdfIoResourceRequirementsListSetSlotNumber</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetallocandquerytargetproperty"><b>WdfIoTargetAllocAndQueryTargetProperty</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetclose"><b>WdfIoTargetClose</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetcloseforqueryremove"><b>WdfIoTargetCloseForQueryRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetcreate"><b>WdfIoTargetCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforinternalioctl"><b>WdfIoTargetFormatRequestForInternalIoctl</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforinternalioctlothers"><b>WdfIoTargetFormatRequestForInternalIoctlOthers</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforioctl"><b>WdfIoTargetFormatRequestForIoctl</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforread"><b>WdfIoTargetFormatRequestForRead</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetformatrequestforwrite"><b>WdfIoTargetFormatRequestForWrite</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetgetdevice"><b>WdfIoTargetGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetgetstate"><b>WdfIoTargetGetState</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetopen"><b>WdfIoTargetOpen</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetpurge"><b>WdfIoTargetPurge</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetqueryforinterface"><b>WdfIoTargetQueryForInterface</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetquerytargetproperty"><b>WdfIoTargetQueryTargetProperty</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendinternalioctlotherssynchronously"><b>WdfIoTargetSendInternalIoctlOthersSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendinternalioctlsynchronously"><b>WdfIoTargetSendInternalIoctlSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendioctlsynchronously"><b>WdfIoTargetSendIoctlSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendreadsynchronously"><b>WdfIoTargetSendReadSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetsendwritesynchronously"><b>WdfIoTargetSendWriteSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetstart"><b>WdfIoTargetStart</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetstop"><b>WdfIoTargetStop</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetdeviceobject"><b>WdfIoTargetWdmGetTargetDeviceObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetfilehandle"><b>WdfIoTargetWdmGetTargetFileHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.15</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetfileobject"><b>WdfIoTargetWdmGetTargetFileObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfiotargetwdmgettargetphysicaldevice"><b>WdfIoTargetWdmGetTargetPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdflookasidelistcreate"><b>WdfLookasideListCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemoryassignbuffer"><b>WdfMemoryAssignBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemorycopyfrombuffer"><b>WdfMemoryCopyFromBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemorycopytobuffer"><b>WdfMemoryCopyToBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemorycreate"><b>WdfMemoryCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemorycreatefromlookaside"><b>WdfMemoryCreateFromLookaside</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemorycreatepreallocated"><b>WdfMemoryCreatePreallocated</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfmemorygetbuffer"><b>WdfMemoryGetBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectacquirelock"><b>WdfObjectAcquireLock</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectaddcustomtype"><b>WdfObjectAddCustomType</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectaddcustomtypewithdata"><b>WdfObjectAddCustomTypeWithData</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectallocatecontext"><b>WdfObjectAllocateContext</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectcontextgetobject"><b>WdfObjectContextGetObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectcreate"><b>WdfObjectCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectdelete"><b>WdfObjectDelete</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectdereference"><b>WdfObjectDereference</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectdereferenceactual"><b>WdfObjectDereferenceActual</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectdereferencewithtag"><b>WdfObjectDereferenceWithTag</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectgetcustomtypedata"><b>WdfObjectGetCustomTypeData</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectgettypedcontext"><b>WdfObjectGetTypedContext</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectgettypedcontextworker"><b>WdfObjectGetTypedContextWorker</b></mshelp:link>
-</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectiscustomtype"><b>WdfObjectIsCustomType</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectquery"><b>WdfObjectQuery</b></mshelp:link>
-</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectreference"><b>WdfObjectReference</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectreferenceactual"><b>WdfObjectReferenceActual</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectreferencewithtag"><b>WdfObjectReferenceWithTag</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfobjectreleaselock"><b>WdfObjectReleaseLock</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoaddejectionrelationsphysicaldevice"><b>WdfPdoAddEjectionRelationsPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoclearejectionrelationsdevices"><b>WdfPdoClearEjectionRelationsDevices</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdogetparent"><b>WdfPdoGetParent</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitaddcompatibleid"><b>WdfPdoInitAddCompatibleID</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitadddevicetext"><b>WdfPdoInitAddDeviceText</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitaddhardwareid"><b>WdfPdoInitAddHardwareID</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitallocate"><b>WdfPdoInitAllocate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitallowforwardingrequesttoparent"><b>WdfPdoInitAllowForwardingRequestToParent</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassigncontainerid"><b>WdfPdoInitAssignContainerID</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassigndeviceid"><b>WdfPdoInitAssignDeviceID</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassigninstanceid"><b>WdfPdoInitAssignInstanceID</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitassignrawdevice"><b>WdfPdoInitAssignRawDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitsetdefaultlocale"><b>WdfPdoInitSetDefaultLocale</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoinitseteventcallbacks"><b>WdfPdoInitSetEventCallbacks</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdomarkmissing"><b>WdfPdoMarkMissing</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoremoveejectionrelationsphysicaldevice"><b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdorequesteject"><b>WdfPdoRequestEject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoretrieveaddressdescription"><b>WdfPdoRetrieveAddressDescription</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoretrieveidentificationdescription"><b>WdfPdoRetrieveIdentificationDescription</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpdoupdateaddressdescription"><b>WdfPdoUpdateAddressDescription</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpostdeviceinstall"><b>WdfPostDeviceInstall</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpostdeviceremove"><b>WdfPostDeviceRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpredeviceinstall"><b>WdfPreDeviceInstall</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpredeviceinstallex"><b>WdfPreDeviceInstallEx</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfpredeviceremove"><b>WdfPreDeviceRemove</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignmemory"><b>WdfRegistryAssignMemory</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignmultistring"><b>WdfRegistryAssignMultiString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignstring"><b>WdfRegistryAssignString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignulong"><b>WdfRegistryAssignULong</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignunicodestring"><b>WdfRegistryAssignUnicodeString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryassignvalue"><b>WdfRegistryAssignValue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryclose"><b>WdfRegistryClose</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistrycreatekey"><b>WdfRegistryCreateKey</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryopenkey"><b>WdfRegistryOpenKey</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryquerymemory"><b>WdfRegistryQueryMemory</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryquerymultistring"><b>WdfRegistryQueryMultiString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryquerystring"><b>WdfRegistryQueryString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryqueryulong"><b>WdfRegistryQueryULong</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryqueryunicodestring"><b>WdfRegistryQueryUnicodeString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryqueryvalue"><b>WdfRegistryQueryValue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryremovekey"><b>WdfRegistryRemoveKey</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistryremovevalue"><b>WdfRegistryRemoveValue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfregistrywdmgethandle"><b>WdfRegistryWdmGetHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestallocatetimer"><b>WdfRequestAllocateTimer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestcancelsentrequest"><b>WdfRequestCancelSentRequest</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestchangetarget"><b>WdfRequestChangeTarget</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestcomplete"><b>WdfRequestComplete</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestcompletewithinformation"><b>WdfRequestCompleteWithInformation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestcompletewithpriorityboost"><b>WdfRequestCompleteWithPriorityBoost</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestcreate"><b>WdfRequestCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestcreatefromirp"><b>WdfRequestCreateFromIrp</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestformatrequestusingcurrenttype"><b>WdfRequestFormatRequestUsingCurrentType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestforwardtoioqueue"><b>WdfRequestForwardToIoQueue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestforwardtoparentdeviceioqueue"><b>WdfRequestForwardToParentDeviceIoQueue</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetcompletionparams"><b>WdfRequestGetCompletionParams</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgeteffectiveiotype"><b>WdfRequestGetEffectiveIoType</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetfileobject"><b>WdfRequestGetFileObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetinformation"><b>WdfRequestGetInformation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetioqueue"><b>WdfRequestGetIoQueue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetparameters"><b>WdfRequestGetParameters</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetrequestormode"><b>WdfRequestGetRequestorMode</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetrequestorprocessid"><b>WdfRequestGetRequestorProcessId</b></mshelp:link>
-</td>
-<td>1.21
-            </td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetstatus"><b>WdfRequestGetStatus</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestgetusermodeinitiatedio"><b>WdfRequestGetUserModeDriverInitiatedIo</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestimpersonate"><b>WdfRequestImpersonate</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestiscanceled"><b>WdfRequestIsCanceled</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestisfrom32bitprocess"><b>WdfRequestIsFrom32BitProcess</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestisfromusermodedriver"><b>WdfRequestIsFromUserModeDriver</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestisreserved"><b>WdfRequestIsReserved</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestmarkcancelable"><b>WdfRequestMarkCancelable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestmarkcancelableex"><b>WdfRequestMarkCancelableEx</b></mshelp:link>
-</td>
-<td>1.9</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestprobeandlockuserbufferforread"><b>WdfRequestProbeAndLockUserBufferForRead</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestprobeandlockuserbufferforwrite"><b>WdfRequestProbeAndLockUserBufferForWrite</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestrequeue"><b>WdfRequestRequeue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveactivityid"><b>WdfRequestRetrieveActivityId</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveinputbuffer"><b>WdfRequestRetrieveInputBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveinputmemory"><b>WdfRequestRetrieveInputMemory</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveinputwdmmdl"><b>WdfRequestRetrieveInputWdmMdl</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveoutputbuffer"><b>WdfRequestRetrieveOutputBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveoutputmemory"><b>WdfRequestRetrieveOutputMemory</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveoutputwdmmdl"><b>WdfRequestRetrieveOutputWdmMdl</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveunsafeuserinputbuffer"><b>WdfRequestRetrieveUnsafeUserInputBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestretrieveunsafeuseroutputbuffer"><b>WdfRequestRetrieveUnsafeUserOutputBuffer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestreuse"><b>WdfRequestReuse</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestsend"><b>WdfRequestSend</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetactivityid"><b>WdfRequestSetActivityId</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetcompletionroutine"><b>WdfRequestSetCompletionRoutine</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetinformation"><b>WdfRequestSetInformation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestsetusermodedriverinitiatedio"><b>WdfRequestSetUserModeDriverInitiatedIo</b></mshelp:link>
-</td>
-<td></td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequeststopacknowledge"><b>WdfRequestStopAcknowledge</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestunmarkcancelable"><b>WdfRequestUnmarkCancelable</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestwdmformatusingstacklocation"><b>WdfRequestWdmFormatUsingStackLocation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfrequestwdmgetirp"><b>WdfRequestWdmGetIrp</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfspinlockacquire"><b>WdfSpinLockAcquire</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfspinlockcreate"><b>WdfSpinLockCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfspinlockrelease"><b>WdfSpinLockRelease</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfstringcreate"><b>WdfStringCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfstringgetunicodestring"><b>WdfStringGetUnicodeString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdftimercreate"><b>WdfTimerCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdftimergetparentobject"><b>WdfTimerGetParentObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdftimerstart"><b>WdfTimerStart</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdftimerstop"><b>WdfTimerStop</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetconfiguredpipe"><b>WdfUsbInterfaceGetConfiguredPipe</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetconfiguredsettingindex"><b>WdfUsbInterfaceGetConfiguredSettingIndex</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetdescriptor"><b>WdfUsbInterfaceGetDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetendpointinformation"><b>WdfUsbInterfaceGetEndpointInformation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetinterfacenumber"><b>WdfUsbInterfaceGetInterfaceNumber</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetnumconfiguredpipes"><b>WdfUsbInterfaceGetNumConfiguredPipes</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetnumendpoints"><b>WdfUsbInterfaceGetNumEndpoints</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfacegetnumsettings"><b>WdfUsbInterfaceGetNumSettings</b></mshelp:link>
-</td>
-<td>1.5</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbinterfaceselectsetting"><b>WdfUsbInterfaceSelectSetting</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceallocandquerystring"><b>WdfUsbTargetDeviceAllocAndQueryString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreate"><b>WdfUsbTargetDeviceCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreateisochurb"><b>WdfUsbTargetDeviceCreateIsochUrb</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreateurb"><b>WdfUsbTargetDeviceCreateUrb</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecreatewithparameters"><b>WdfUsbTargetDeviceCreateWithParameters</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicecycleportsynchronously"><b>WdfUsbTargetDeviceCyclePortSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforcontroltransfer"><b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforcycleport"><b>WdfUsbTargetDeviceFormatRequestForCyclePort</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforstring"><b>WdfUsbTargetDeviceFormatRequestForString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceformatrequestforurb"><b>WdfUsbTargetDeviceFormatRequestForUrb</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetdevicedescriptor"><b>WdfUsbTargetDeviceGetDeviceDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetinterface"><b>WdfUsbTargetDeviceGetInterface</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetiotarget"><b>WdfUsbTargetDeviceGetIoTarget</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicegetnuminterfaces"><b>WdfUsbTargetDeviceGetNumInterfaces</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceisconnectedsynchronous"><b>WdfUsbTargetDeviceIsConnectedSynchronous</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicequerystring"><b>WdfUsbTargetDeviceQueryString</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicequeryusbcapability"><b>WdfUsbTargetDeviceQueryUsbCapability</b></mshelp:link>
-</td>
-<td>1.11</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceresetportsynchronously"><b>WdfUsbTargetDeviceResetPortSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceretrieveconfigdescriptor"><b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceretrievecurrentframenumber"><b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceretrieveinformation"><b>WdfUsbTargetDeviceRetrieveInformation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceselectconfig"><b>WdfUsbTargetDeviceSelectConfig</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceselectconfigtype"><b>WdfUsbTargetDeviceSelectConfigType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdeviceselectsettingtype"><b>WdfUsbTargetDeviceSelectSettingType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicesendcontroltransfersynchronously"><b>WdfUsbTargetDeviceSendControlTransferSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicesendurbsynchronously"><b>WdfUsbTargetDeviceSendUrbSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetdevicewdmgetconfigurationhandle"><b>WdfUsbTargetDeviceWdmGetConfigurationHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeabortsynchronously"><b>WdfUsbTargetPipeAbortSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeconfigcontinuousreader"><b>WdfUsbTargetPipeConfigContinuousReader</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforabort"><b>WdfUsbTargetPipeFormatRequestForAbort</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforread"><b>WdfUsbTargetPipeFormatRequestForRead</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforreset"><b>WdfUsbTargetPipeFormatRequestForReset</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforurb"><b>WdfUsbTargetPipeFormatRequestForUrb</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeformatrequestforwrite"><b>WdfUsbTargetPipeFormatRequestForWrite</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipegetinformation"><b>WdfUsbTargetPipeGetInformation</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipegetiotarget"><b>WdfUsbTargetPipeGetIoTarget</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipegettype"><b>WdfUsbTargetPipeGetType</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeisinendpoint"><b>WdfUsbTargetPipeIsInEndpoint</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipeisoutendpoint"><b>WdfUsbTargetPipeIsOutEndpoint</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipereadsynchronously"><b>WdfUsbTargetPipeReadSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpiperesetsynchronously"><b>WdfUsbTargetPipeResetSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipesendurbsynchronously"><b>WdfUsbTargetPipeSendUrbSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipesetnomaximumpacketsizecheck"><b>WdfUsbTargetPipeSetNoMaximumPacketSizeCheck</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipewdmgetpipehandle"><b>WdfUsbTargetPipeWdmGetPipeHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfusbtargetpipewritesynchronously"><b>WdfUsbTargetPipeWriteSynchronously</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfverifierdbgbreakpoint"><b>WdfVerifierDbgBreakPoint</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfverifierkebugcheck"><b>WdfVerifierKeBugCheck</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwaitlockacquire"><b>WdfWaitLockAcquire</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwaitlockcreate"><b>WdfWaitLockCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwaitlockrelease"><b>WdfWaitLockRelease</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwdmdevicegetwdfdevicehandle"><b>WdfWdmDeviceGetWdfDeviceHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwdmdrivergetwdfdriverhandle"><b>WdfWdmDriverGetWdfDriverHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancecreate"><b>WdfWmiInstanceCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancederegister"><b>WdfWmiInstanceDeregister</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancefireevent"><b>WdfWmiInstanceFireEvent</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancegetdevice"><b>WdfWmiInstanceGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstancegetprovider"><b>WdfWmiInstanceGetProvider</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiinstanceregister"><b>WdfWmiInstanceRegister</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiprovidercreate"><b>WdfWmiProviderCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiprovidergetdevice"><b>WdfWmiProviderGetDevice</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiprovidergettracinghandle"><b>WdfWmiProviderGetTracingHandle</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfwmiproviderisenabled"><b>WdfWmiProviderIsEnabled</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfworkitemcreate"><b>WdfWorkItemCreate</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfworkitemenqueue"><b>WdfWorkItemEnqueue</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfworkitemflush"><b>WdfWorkItemFlush</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>
-<mshelp:link tabindex="0" keywords="wdf.wdfworkitemgetparentobject"><b>WdfWorkItemGetParentObject</b></mshelp:link>
-</td>
-<td>1.0</td>
-<td>2.0</td>
-</tr>
-</table>
+|Name|Minimum KMDF Version|Minimum UMDF Version|
+|--- |--- |--- |
+|[_EvtChildListAddressDescriptionCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff540823)|1.0|
+|[_EvtChildListAddressDescriptionCopy_](https://msdn.microsoft.com/library/windows/hardware/ff540824)|1.0|
+|[_EvtChildListAddressDescriptionDuplicate_](https://msdn.microsoft.com/library/windows/hardware/ff540826)|1.0|
+|[_EvtChildListCreateDevice_](https://msdn.microsoft.com/library/windows/hardware/ff540828)|1.0|
+|[_EvtChildListDeviceReenumerated_](https://msdn.microsoft.com/library/windows/hardware/ff540830)|1.0|
+|[_EvtChildListIdentificationDescriptionCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff540832)|1.0|
+|[_EvtChildListIdentificationDescriptionCompare_](https://msdn.microsoft.com/library/windows/hardware/ff540833)|1.0|
+|[_EvtChildListIdentificationDescriptionCopy_](https://msdn.microsoft.com/library/windows/hardware/ff540834)|1.0|
+|[_EvtChildListIdentificationDescriptionDuplicate_](https://msdn.microsoft.com/library/windows/hardware/ff540836)|1.0|
+|[_EvtChildListScanForChildren_](https://msdn.microsoft.com/library/windows/hardware/ff540838)|1.0|
+|[_EvtCleanupCallback_](https://msdn.microsoft.com/library/windows/hardware/ff540840)|1.0|2.0|
+|[_EvtCompanionPostD0Exit_](https://msdn.microsoft.com/library/windows/hardware/mt827299)|2.23|
+|[_EvtCompanionPostReleaseHardware_](https://msdn.microsoft.com/library/windows/hardware/mt827300)|2.23|
+|[_EvtCompanionPreD0Entry_](https://msdn.microsoft.com/library/windows/hardware/mt827301)|2.23|
+|[_EvtCompanionPrePrepareHardware_](https://msdn.microsoft.com/library/windows/hardware/mt827302)|2.23|
+|[_EvtDestroyCallback_](https://msdn.microsoft.com/library/windows/hardware/ff540841)|1.0|2.0|
+|[_EvtDeviceArmWakeFromS0_](https://msdn.microsoft.com/library/windows/hardware/ff540843)|1.0|2.0|
+|[_EvtDeviceArmWakeFromSx_](https://msdn.microsoft.com/library/windows/hardware/ff540844)|1.0|2.0|
+|[_EvtDeviceArmWakeFromSxWithReason_](https://msdn.microsoft.com/library/windows/hardware/ff540846)|1.7|2.0|
+|[_EvtDeviceD0Entry_](https://msdn.microsoft.com/library/windows/hardware/ff540848)|1.0|2.0|
+|[_EvtDeviceD0EntryPostInterruptsEnabled_](https://msdn.microsoft.com/library/windows/hardware/ff540853)|1.0|2.0|
+|[_EvtDeviceD0Exit_](https://msdn.microsoft.com/library/windows/hardware/ff540855)|1.0|2.0|
+|[_EvtDeviceD0ExitPreInterruptsDisabled_](https://msdn.microsoft.com/library/windows/hardware/ff540856)|1.0|2.0|
+|[_EvtDeviceDisableWakeAtBus_](https://msdn.microsoft.com/library/windows/hardware/ff540858)|1.0|
+|[_EvtDeviceDisarmWakeFromS0_](https://msdn.microsoft.com/library/windows/hardware/ff540860)|1.0|2.0|
+|[_EvtDeviceDisarmWakeFromSx_](https://msdn.microsoft.com/library/windows/hardware/ff540862)|1.0|2.0|
+|[_EvtDeviceEject_](https://msdn.microsoft.com/library/windows/hardware/ff540863)|1.0|
+|[_EvtDeviceEnableWakeAtBus_](https://msdn.microsoft.com/library/windows/hardware/ff540866)|1.0|
+|[_EvtDeviceFileCreate_](https://msdn.microsoft.com/library/windows/hardware/ff540868)|1.0|2.0|
+|[_EvtDeviceFilterAddResourceRequirements_](https://msdn.microsoft.com/library/windows/hardware/ff540870)|1.0|
+|[_EvtDeviceFilterRemoveResourceRequirements_](https://msdn.microsoft.com/library/windows/hardware/ff540872)|1.0|
+|[_EvtDevicePnpStateChange_](https://msdn.microsoft.com/library/windows/hardware/ff540874)|1.0|
+|[_EvtDevicePowerPolicyStateChange_](https://msdn.microsoft.com/library/windows/hardware/ff540876)|1.0|
+|[_EvtDevicePowerStateChange_](https://msdn.microsoft.com/library/windows/hardware/ff540878)|1.0|
+|[_EvtDevicePrepareHardware_](https://msdn.microsoft.com/library/windows/hardware/ff540880)|1.0|2.0|
+|[_EvtDeviceProcessQueryInterfaceRequest_](https://msdn.microsoft.com/library/windows/hardware/ff540882)|1.0|
+|[_EvtDeviceQueryRemove_](https://msdn.microsoft.com/library/windows/hardware/ff540883)|1.0|2.0|
+|[_EvtDeviceQueryStop_](https://msdn.microsoft.com/library/windows/hardware/ff540885)|1.0|2.0|
+|[_EvtDeviceRelationsQuery_](https://msdn.microsoft.com/library/windows/hardware/ff540886)|1.0|2.0|
+|[_EvtDeviceReleaseHardware_](https://msdn.microsoft.com/library/windows/hardware/ff540890)|1.0|2.0|
+|[_EvtDeviceRemoveAddedResources_](https://msdn.microsoft.com/library/windows/hardware/ff540892)|1.0|
+|[_EvtDeviceReportedMissing_](https://msdn.microsoft.com/library/windows/hardware/hh406360)|1.11|
+|[_EvtDeviceResourceRequirementsQuery_](https://msdn.microsoft.com/library/windows/hardware/ff540894)|1.0|
+|[_EvtDeviceResourcesQuery_](https://msdn.microsoft.com/library/windows/hardware/ff540895)|1.0|
+|[_EvtDeviceSelfManagedIoCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff540898)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoFlush_](https://msdn.microsoft.com/library/windows/hardware/ff540901)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoInit_](https://msdn.microsoft.com/library/windows/hardware/ff540902)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoRestart_](https://msdn.microsoft.com/library/windows/hardware/ff540905)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoSuspend_](https://msdn.microsoft.com/library/windows/hardware/ff540907)|1.0|2.0|
+|[_EvtDeviceSetLock_](https://msdn.microsoft.com/library/windows/hardware/ff540909)|1.0|
+|[_EvtDeviceShutdownNotification_](https://msdn.microsoft.com/library/windows/hardware/ff540911)|1.0|
+|[_EvtDeviceSurpriseRemoval_](https://msdn.microsoft.com/library/windows/hardware/ff540913)|1.0|2.0|
+|[_EvtDeviceUsageNotification_](https://msdn.microsoft.com/library/windows/hardware/ff540915)|1.0|2.0|
+|[_EvtDeviceUsageNotificationEx_](https://msdn.microsoft.com/library/windows/hardware/hh406365)|1.11|2.0|
+|[_EvtDeviceWakeFromS0Triggered_](https://msdn.microsoft.com/library/windows/hardware/ff540919)|1.0|2.0|
+|[_EvtDeviceWakeFromSxTriggered_](https://msdn.microsoft.com/library/windows/hardware/ff540923)|1.0|2.0|
+|[_EvtDeviceWdmIrpDispatch_](https://msdn.microsoft.com/library/windows/hardware/hh406404)|1.11|2.17|
+|[_EvtDeviceWdmIrpPreprocess_](https://msdn.microsoft.com/library/windows/hardware/ff540925)|1.0|
+|[_EvtDeviceWdmPostPoFxRegisterDevice_](https://msdn.microsoft.com/library/windows/hardware/hh406408)|1.11|
+|[_EvtDeviceWdmPrePoFxUnregisterDevice_](https://msdn.microsoft.com/library/windows/hardware/hh406411)|1.11|
+|[_EvtDmaEnablerDisable_](https://msdn.microsoft.com/library/windows/hardware/ff540927)|1.0|
+|[_EvtDmaEnablerEnable_](https://msdn.microsoft.com/library/windows/hardware/ff540929)|1.0|
+|[_EvtDmaEnablerFill_](https://msdn.microsoft.com/library/windows/hardware/ff540932)|1.0|
+|[_EvtDmaEnablerFlush_](https://msdn.microsoft.com/library/windows/hardware/ff541655)|1.0|
+|[_EvtDmaEnablerSelfManagedIoStart_](https://msdn.microsoft.com/library/windows/hardware/ff541663)|1.0|
+|[_EvtDmaEnablerSelfManagedIoStop_](https://msdn.microsoft.com/library/windows/hardware/ff541677)|1.0|
+|[_EvtDmaTransactionConfigureDmaChannel_](https://msdn.microsoft.com/library/windows/hardware/hh406414)|1.11|
+|[_EvtDmaTransactionDmaTransferComplete_](https://msdn.microsoft.com/library/windows/hardware/hh406418)|1.11|
+|[_EvtDpcFunc_](https://msdn.microsoft.com/library/windows/hardware/ff541683)|1.0|
+|[_EvtDriverDeviceAdd_](https://msdn.microsoft.com/library/windows/hardware/ff541693)|1.0|2.0|
+|[_EvtDriverUnload_](https://msdn.microsoft.com/library/windows/hardware/ff541694)|1.0|2.0|
+|[_EvtFileCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff541700)|1.0|2.0|
+|[_EvtFileClose_](https://msdn.microsoft.com/library/windows/hardware/ff541702)|1.0|2.0|
+|[_EvtInterruptDisable_](https://msdn.microsoft.com/library/windows/hardware/ff541714)|1.0|2.0|
+|[_EvtInterruptDpc_](https://msdn.microsoft.com/library/windows/hardware/ff541721)|1.0|2.0|
+|[_EvtInterruptEnable_](https://msdn.microsoft.com/library/windows/hardware/ff541730)|1.0|2.0|
+|[_EvtInterruptIsr_](https://msdn.microsoft.com/library/windows/hardware/ff541735)|1.0|2.0|
+|[_EvtInterruptSynchronize_](https://msdn.microsoft.com/library/windows/hardware/ff541742)|1.0|2.0|
+|[_EvtInterruptWorkItem_](https://msdn.microsoft.com/library/windows/hardware/hh406422)|1.11|2.0|
+|[_EvtIoAllocateRequestResources_](https://msdn.microsoft.com/library/windows/hardware/ff541747)|1.9|
+|[_EvtIoAllocateResourcesForReservedRequest_](https://msdn.microsoft.com/library/windows/hardware/ff541751)|1.9|
+|[_EvtIoCanceledOnQueue_](https://msdn.microsoft.com/library/windows/hardware/ff541756)|1.0|2.0|
+|[_EvtIoDefault_](https://msdn.microsoft.com/library/windows/hardware/ff541757)|1.0|2.0|
+|[_EvtIoDeviceControl_](https://msdn.microsoft.com/library/windows/hardware/ff541758)|1.0|2.0|
+|[_EvtIoInCallerContext_](https://msdn.microsoft.com/library/windows/hardware/ff541764)|1.0|
+|[_EvtIoInternalDeviceControl_](https://msdn.microsoft.com/library/windows/hardware/ff541768)|1.0|2.0|
+|[_EvtIoQueueState_](https://msdn.microsoft.com/library/windows/hardware/ff541771)|1.0|2.0|
+|[_EvtIoRead_](https://msdn.microsoft.com/library/windows/hardware/ff541776)|1.0|2.0|
+|[_EvtIoResume_](https://msdn.microsoft.com/library/windows/hardware/ff541779)|1.0|2.0|
+|[_EvtIoStop_](https://msdn.microsoft.com/library/windows/hardware/ff541788)|1.0|2.0|
+|[_EvtIoTargetQueryRemove_](https://msdn.microsoft.com/library/windows/hardware/ff541793)|1.0|2.0|
+|[_EvtIoTargetRemoveCanceled_](https://msdn.microsoft.com/library/windows/hardware/ff541800)|1.0|2.0|
+|[_EvtIoTargetRemoveComplete_](https://msdn.microsoft.com/library/windows/hardware/ff541806)|1.0|2.0|
+|[_EvtIoWdmIrpForForwardProgress_](https://msdn.microsoft.com/library/windows/hardware/ff541808)|1.9|
+|[_EvtIoWrite_](https://msdn.microsoft.com/library/windows/hardware/ff541813)|1.0|2.0|
+|[_EvtProgramDma_](https://msdn.microsoft.com/library/windows/hardware/ff541816)|1.0|
+|[_EvtRequestCancel_](https://msdn.microsoft.com/library/windows/hardware/ff541817)|1.0|2.0|
+|[_EvtRequestImpersonate_](https://msdn.microsoft.com/library/windows/hardware/dn265581)|2.0|
+|[_EvtReserveDma_](https://msdn.microsoft.com/library/windows/hardware/hh406425)|1.11|
+|[_EvtTaskQueueTaskExecuteSync_](https://msdn.microsoft.com/library/windows/hardware/mt827303)|2.23|
+|[_EvtTimerFunc_](https://msdn.microsoft.com/library/windows/hardware/ff541823)|1.0|2.0|
+|[_EvtUsbTargetPipeReadComplete_](https://msdn.microsoft.com/library/windows/hardware/ff541826)|1.0|2.0|
+|[_EvtUsbTargetPipeReadersFailed_](https://msdn.microsoft.com/library/windows/hardware/ff541832)|1.0|2.0|
+|[_EvtWmiInstanceExecuteMethod_](https://msdn.microsoft.com/library/windows/hardware/ff541836)|1.0|
+|[_EvtWmiInstanceQueryInstance_](https://msdn.microsoft.com/library/windows/hardware/ff541843)|1.0|
+|[_EvtWmiInstanceSetInstance_](https://msdn.microsoft.com/library/windows/hardware/ff541847)|1.0|
+|[_EvtWmiInstanceSetItem_](https://msdn.microsoft.com/library/windows/hardware/ff541852)|1.0|
+|[_EvtWmiProviderFunctionControl_](https://msdn.microsoft.com/library/windows/hardware/ff541855)|1.0|
+|[_EvtWorkItem_](https://msdn.microsoft.com/library/windows/hardware/ff541859)|1.0|2.0|
+|[**WdfChildListAddOrUpdateChildDescriptionAsPresent**](https://msdn.microsoft.com/library/windows/hardware/ff545591)|1.0|
+|[**WdfChildListBeginIteration**](https://msdn.microsoft.com/library/windows/hardware/ff545601)|1.0|
+|[**WdfChildListBeginScan**](https://msdn.microsoft.com/library/windows/hardware/ff545608)|1.0|
+|[**WdfChildListCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545615)|1.0|
+|[**WdfChildListEndIteration**](https://msdn.microsoft.com/library/windows/hardware/ff545618)|1.0|
+|[**WdfChildListEndScan**](https://msdn.microsoft.com/library/windows/hardware/ff545626)|1.0|
+|[**WdfChildListGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff545636)|1.0|
+|[**WdfChildListRequestChildEject**](https://msdn.microsoft.com/library/windows/hardware/ff545641)|1.0|
+|[**WdfChildListRetrieveAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff545648)|1.0|
+|[**WdfChildListRetrieveNextDevice**](https://msdn.microsoft.com/library/windows/hardware/ff545655)|1.0|
+|[**WdfChildListRetrievePdo**](https://msdn.microsoft.com/library/windows/hardware/ff545663)|1.0|
+|[**WdfChildListUpdateAllChildDescriptionsAsPresent**](https://msdn.microsoft.com/library/windows/hardware/ff545667)|1.0|
+|[**WdfChildListUpdateChildDescriptionAsMissing**](https://msdn.microsoft.com/library/windows/hardware/ff545674)|1.0|
+|[**WdfCmResourceListAppendDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545683)|1.0|
+|[**WdfCmResourceListGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff545687)|1.0|2.0|
+|[**WdfCmResourceListGetDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545688)|1.0|2.0|
+|[**WdfCmResourceListInsertDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545698)|1.0|
+|[**WdfCmResourceListRemove**](https://msdn.microsoft.com/library/windows/hardware/ff545704)|1.0|
+|[**WdfCmResourceListRemoveByDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545717)|1.0|
+|[**WdfCollectionAdd**](https://msdn.microsoft.com/library/windows/hardware/ff545732)|1.0|2.0|
+|[**WdfCollectionCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545747)|1.0|2.0|
+|[**WdfCollectionGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff545759)|1.0|2.0|
+|[**WdfCollectionGetFirstItem**](https://msdn.microsoft.com/library/windows/hardware/ff545763)|1.0|2.0|
+|[**WdfCollectionGetItem**](https://msdn.microsoft.com/library/windows/hardware/ff545770)|1.0|2.0|
+|[**WdfCollectionGetLastItem**](https://msdn.microsoft.com/library/windows/hardware/ff545775)|1.0|2.0|
+|[**WdfCollectionRemove**](https://msdn.microsoft.com/library/windows/hardware/ff545784)|1.0|2.0|
+|[**WdfCollectionRemoveItem**](https://msdn.microsoft.com/library/windows/hardware/ff545792)|1.0|2.0|
+|[**WdfCommonBufferCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545800)|1.0|
+|[**WdfCommonBufferCreateWithConfig**](https://msdn.microsoft.com/library/windows/hardware/ff545805)|1.1|
+|[**WdfCommonBufferGetAlignedLogicalAddress**](https://msdn.microsoft.com/library/windows/hardware/ff545814)|1.0|
+|[**WdfCommonBufferGetAlignedVirtualAddress**](https://msdn.microsoft.com/library/windows/hardware/ff545820)|1.0|
+|[**WdfCommonBufferGetLength**](https://msdn.microsoft.com/library/windows/hardware/ff545828)|1.0|
+|[**WdfCompanionCreate**](https://msdn.microsoft.com/library/windows/hardware/mt812804)|2.23|
+|[**WdfCompanionCreateTaskQueue**](https://msdn.microsoft.com/library/windows/hardware/mt812805)|2.23|
+|[**WdfCompanionTargetSendTaskSynchronously**](https://msdn.microsoft.com/library/windows/hardware/mt812806)|1.23|
+|[**WdfCompanionTargetWdmGetCompanionProcess**](https://msdn.microsoft.com/library/windows/hardware/mt812807)|1.23|
+|[**WdfCompanionWdmGetSecureDeviceHandle**](https://msdn.microsoft.com/library/windows/hardware/mt812808)|2.23|
+|[**WdfControlDeviceInitAllocate**](https://msdn.microsoft.com/library/windows/hardware/ff545841)|1.0|
+|[**WdfControlDeviceInitSetShutdownNotification**](https://msdn.microsoft.com/library/windows/hardware/ff545847)|1.0|
+|[**WdfControlFinishInitializing**](https://msdn.microsoft.com/library/windows/hardware/ff545854)|1.0|
+|[**WdfDeviceAddDependentUsageDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff545864)|1.0|
+|[**WdfDeviceAddQueryInterface**](https://msdn.microsoft.com/library/windows/hardware/ff545870)|1.0|
+|[**WdfDeviceAddRemovalRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff545875)|1.0|
+|[**WdfDeviceAllocAndQueryInterfaceProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265598)|2.0|
+|[**WdfDeviceAllocAndQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff545882)|1.0|2.0|
+|[**WdfDeviceAllocAndQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265599)|1.13|2.0|
+|[**WdfDeviceAssignInterfaceProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265600)|2.0|
+|[**WdfDeviceAssignMofResourceName**](https://msdn.microsoft.com/library/windows/hardware/ff545897)|1.0|
+|[**WdfDeviceAssignProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265601)|1.13|2.0|
+|[**WdfDeviceAssignS0IdleSettings**](https://msdn.microsoft.com/library/windows/hardware/ff545903)|1.0|2.0|
+|[**WdfDeviceAssignSxWakeSettings**](https://msdn.microsoft.com/library/windows/hardware/ff545909)|1.0|2.0|
+|[**WdfDeviceClearRemovalRelationsDevices**](https://msdn.microsoft.com/library/windows/hardware/ff545914)|1.0|
+|[**WdfDeviceConfigureRequestDispatching**](https://msdn.microsoft.com/library/windows/hardware/ff545920)|1.0|2.0|
+|[**WdfDeviceConfigureWdmIrpDispatchCallback**](https://msdn.microsoft.com/library/windows/hardware/hh451093)|1.11|2.17|
+|[**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926)|1.0|2.0|
+|[**WdfDeviceCreateDeviceInterface**](https://msdn.microsoft.com/library/windows/hardware/ff545935)|1.0|2.0|
+|[**WdfDeviceCreateSymbolicLink**](https://msdn.microsoft.com/library/windows/hardware/ff545939)|1.0|2.0|
+|[**WdfDeviceEnqueueRequest**](https://msdn.microsoft.com/library/windows/hardware/ff545945)|1.0|
+|[**WdfDeviceGetAlignmentRequirement**](https://msdn.microsoft.com/library/windows/hardware/ff545953)|1.0|
+|[**WdfDeviceGetCharacteristics**](https://msdn.microsoft.com/library/windows/hardware/ff545960)|1.0|
+|[**WdfDeviceGetDefaultQueue**](https://msdn.microsoft.com/library/windows/hardware/ff545965)|1.0|2.0|
+|[**WdfDeviceGetDevicePnpState**](https://msdn.microsoft.com/library/windows/hardware/ff545969)|1.0|
+|[**WdfDeviceGetDevicePowerPolicyState**](https://msdn.microsoft.com/library/windows/hardware/ff545974)|1.0|
+|[**WdfDeviceGetDevicePowerState**](https://msdn.microsoft.com/library/windows/hardware/ff545985)|1.0|
+|[**WdfDeviceGetDeviceStackIoType**](https://msdn.microsoft.com/library/windows/hardware/dn265602)|2.0|
+|[**WdfDeviceGetDeviceState**](https://msdn.microsoft.com/library/windows/hardware/ff545994)|1.0|2.0|
+|[**WdfDeviceGetDriver**](https://msdn.microsoft.com/library/windows/hardware/ff545998)|1.0|2.0|
+|[**WdfDeviceGetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff546007)|1.0|
+|[**WdfDeviceGetHardwareRegisterMappedAddress**](https://msdn.microsoft.com/library/windows/hardware/dn265603)|2.0|
+|[**WdfDeviceGetIoTarget**](https://msdn.microsoft.com/library/windows/hardware/ff546017)|1.0|2.0|
+|[**WdfDeviceGetSystemPowerAction**](https://msdn.microsoft.com/library/windows/hardware/ff546022)|1.9|2.0|
+|[**WdfDeviceIndicateWakeStatus**](https://msdn.microsoft.com/library/windows/hardware/ff546025)|1.0|
+|[**WdfDeviceInitAssignName**](https://msdn.microsoft.com/library/windows/hardware/ff546029)|1.0|
+|[**WdfDeviceInitAssignSDDLString**](https://msdn.microsoft.com/library/windows/hardware/ff546035)|1.0|
+|[**WdfDeviceInitAssignWdmIrpPreprocessCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546043)|1.0|
+|[**WdfDeviceInitFree**](https://msdn.microsoft.com/library/windows/hardware/ff546050)|1.0|
+|[**WdfDeviceInitRegisterPnpStateChangeCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546057)|1.0|
+|[**WdfDeviceInitRegisterPowerPolicyStateChangeCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546066)|1.0|
+|[**WdfDeviceInitRegisterPowerStateChangeCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546071)|1.0|
+|[**WdfDeviceInitSetCharacteristics**](https://msdn.microsoft.com/library/windows/hardware/ff546074)|1.0|
+|[**WdfDeviceInitSetDeviceClass**](https://msdn.microsoft.com/library/windows/hardware/ff546084)|1.0|
+|[**WdfDeviceInitSetDeviceType**](https://msdn.microsoft.com/library/windows/hardware/ff546090)|1.0|
+|[**WdfDeviceInitSetExclusive**](https://msdn.microsoft.com/library/windows/hardware/ff546097)|1.0|
+|[**WdfDeviceInitSetFileObjectConfig**](https://msdn.microsoft.com/library/windows/hardware/ff546107)|1.0|2.0|
+|[**WdfDeviceInitSetIoInCallerContextCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546119)|1.0|
+|[**WdfDeviceInitSetIoType**](https://msdn.microsoft.com/library/windows/hardware/ff546128)|1.0|2.0|
+|[**WdfDeviceInitSetIoTypeEx**](https://msdn.microsoft.com/library/windows/hardware/dn265604)|1.13|2.0|
+|[**WdfDeviceInitSetPnpPowerEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff546135)|1.0|2.0|
+|[**WdfDeviceInitSetPowerInrush**](https://msdn.microsoft.com/library/windows/hardware/ff546142)|1.0|
+|[**WdfDeviceInitSetPowerNotPageable**](https://msdn.microsoft.com/library/windows/hardware/ff546147)|1.0|
+|[**WdfDeviceInitSetPowerPageable**](https://msdn.microsoft.com/library/windows/hardware/ff546766)|1.0|
+|[**WdfDeviceInitSetPowerPolicyEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff546774)|1.0|2.0|
+|[**WdfDeviceInitSetPowerPolicyOwnership**](https://msdn.microsoft.com/library/windows/hardware/ff546776)|1.0|2.0|
+|[**WdfDeviceInitSetReleaseHardwareOrderOnFailure**](https://msdn.microsoft.com/library/windows/hardware/hh706196)|1.11|2.0|
+|[**WdfDeviceInitSetRemoveLockOptions**](https://msdn.microsoft.com/library/windows/hardware/hh451095)|1.11|
+|[**WdfDeviceInitSetRequestAttributes**](https://msdn.microsoft.com/library/windows/hardware/ff546786)|1.0|2.0|
+|[**WdfDeviceInterfaceDereferenceNoOp**](https://msdn.microsoft.com/library/windows/hardware/ff546790)|1.0|
+|[**WdfDeviceInterfaceReferenceNoOp**](https://msdn.microsoft.com/library/windows/hardware/ff546796)|1.0|
+|[**WdfDeviceMapIoSpace**](https://msdn.microsoft.com/library/windows/hardware/dn265605)|2.0|
+|[**WdfDeviceMiniportCreate**](https://msdn.microsoft.com/library/windows/hardware/ff546802)|1.0|
+|[**WdfDeviceOpenDevicemapKey**](https://msdn.microsoft.com/library/windows/hardware/dn932458)|1.15|2.15|
+|[**WdfDeviceOpenRegistryKey**](https://msdn.microsoft.com/library/windows/hardware/ff546804)|1.0|2.0|
+|[**WdfDevicePostEvent**](https://msdn.microsoft.com/library/windows/hardware/dn265606)|2.0|
+|[**WdfDeviceQueryInterfaceProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265607)|2.0|
+|[**WdfDeviceQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff546820)|1.0|2.0|
+|[**WdfDeviceQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265608)|1.13|2.0|
+|[**WdfDeviceReadFromHardware**](https://msdn.microsoft.com/library/windows/hardware/dn265609)|
+|[**WdfDeviceRemoveDependentUsageDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff546829)|1.9|
+|[**WdfDeviceRemoveRemovalRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff546834)|1.0|
+|[**WdfDeviceResumeIdle**](https://msdn.microsoft.com/library/windows/hardware/ff546838)|1.0|2.0|
+|[**WdfDeviceResumeIdleWithTag**](https://msdn.microsoft.com/library/windows/hardware/dn932459)|1.15|2.15|
+|[**WdfDeviceRetrieveDeviceInterfaceString**](https://msdn.microsoft.com/library/windows/hardware/ff546842)|1.0|2.0|
+|[**WdfDeviceRetrieveDeviceName**](https://msdn.microsoft.com/library/windows/hardware/ff546853)|1.0|
+|[**WdfDeviceSetAlignmentRequirement**](https://msdn.microsoft.com/library/windows/hardware/ff546861)|1.0|
+|[**WdfDeviceSetBusInformationForChildren**](https://msdn.microsoft.com/library/windows/hardware/ff546868)|1.0|
+|[**WdfDeviceSetCharacteristics**](https://msdn.microsoft.com/library/windows/hardware/ff546872)|1.0|
+|[**WdfDeviceSetDeviceInterfaceState**](https://msdn.microsoft.com/library/windows/hardware/ff546878)|1.0|2.0|
+|[**WdfDeviceSetDeviceState**](https://msdn.microsoft.com/library/windows/hardware/ff546884)|1.0|2.0|
+|[**WdfDeviceSetFailed**](https://msdn.microsoft.com/library/windows/hardware/ff546890)|1.0|2.0|
+|[**WdfDeviceSetPnpCapabilities**](https://msdn.microsoft.com/library/windows/hardware/ff546898)|1.0|2.0|
+|[**WdfDeviceSetPowerCapabilities**](https://msdn.microsoft.com/library/windows/hardware/ff546901)|1.0|2.0|
+|[**WdfDeviceSetSpecialFileSupport**](https://msdn.microsoft.com/library/windows/hardware/ff546903)|1.0|
+|[**WdfDeviceSetStaticStopRemove**](https://msdn.microsoft.com/library/windows/hardware/ff546915)|1.0|2.0|
+|[**WdfDeviceStopIdle**](https://msdn.microsoft.com/library/windows/hardware/ff546921)|1.0|2.0|
+|[**WdfDeviceStopIdleWithTag**](https://msdn.microsoft.com/library/windows/hardware/dn932460)|1.15|2.15|
+|[**WdfDeviceUnmapIoSpace**](https://msdn.microsoft.com/library/windows/hardware/dn265610)|2.0|
+|[**WdfDeviceWdmAssignPowerFrameworkSettings**](https://msdn.microsoft.com/library/windows/hardware/hh451097)|1.11|
+|[**WdfDeviceWdmDispatchIrp**](https://msdn.microsoft.com/library/windows/hardware/hh451100)|1.11|2.17|
+|[**WdfDeviceWdmDispatchIrpToIoQueue**](https://msdn.microsoft.com/library/windows/hardware/hh451105)|1.11|2.17|
+|[**WdfDeviceWdmDispatchPreprocessedIrp**](https://msdn.microsoft.com/library/windows/hardware/ff546927)|1.0|
+|[**WdfDeviceWdmGetAttachedDevice**](https://msdn.microsoft.com/library/windows/hardware/ff546934)|1.0|
+|[**WdfDeviceWdmGetDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff546942)|1.0|
+|[**WdfDeviceWdmGetPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff546946)|1.0|
+|[**WdfDeviceWriteToHardware**](https://msdn.microsoft.com/library/windows/hardware/dn265611)|
+|[**WdfDevStateIsNP**](https://msdn.microsoft.com/library/windows/hardware/ff546958)|1.0|2.0|
+|[**WdfDevStateNormalize**](https://msdn.microsoft.com/library/windows/hardware/ff546966)|1.0|2.0|
+|[**WdfDmaEnablerConfigureSystemProfile**](https://msdn.microsoft.com/library/windows/hardware/hh451108)|1.11|
+|[**WdfDmaEnablerCreate**](https://msdn.microsoft.com/library/windows/hardware/ff546983)|1.0|
+|[**WdfDmaEnablerGetFragmentLength**](https://msdn.microsoft.com/library/windows/hardware/ff546986)|1.1|
+|[**WdfDmaEnablerGetMaximumLength**](https://msdn.microsoft.com/library/windows/hardware/ff546994)|1.0|
+|[**WdfDmaEnablerGetMaximumScatterGatherElements**](https://msdn.microsoft.com/library/windows/hardware/ff547005)|1.0|
+|[**WdfDmaEnablerSetMaximumScatterGatherElements**](https://msdn.microsoft.com/library/windows/hardware/ff547014)|1.0|
+|[**WdfDmaEnablerWdmGetDmaAdapter**](https://msdn.microsoft.com/library/windows/hardware/ff547020)|1.5|
+|[**WdfDmaTransactionAllocateResources**](https://msdn.microsoft.com/library/windows/hardware/hh451123)|1.11|
+|[**WdfDmaTransactionCancel**](https://msdn.microsoft.com/library/windows/hardware/hh451127)|1.11|
+|[**WdfDmaTransactionCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547027)|1.0|
+|[**WdfDmaTransactionDmaCompleted**](https://msdn.microsoft.com/library/windows/hardware/ff547039)|1.0|
+|[**WdfDmaTransactionDmaCompletedFinal**](https://msdn.microsoft.com/library/windows/hardware/ff547049)|1.0|
+|[**WdfDmaTransactionDmaCompletedWithLength**](https://msdn.microsoft.com/library/windows/hardware/ff547052)|1.0|
+|[**WdfDmaTransactionExecute**](https://msdn.microsoft.com/library/windows/hardware/ff547062)|1.0|
+|[**WdfDmaTransactionFreeResources**](https://msdn.microsoft.com/library/windows/hardware/hh451177)|1.11|
+|[**WdfDmaTransactionGetBytesTransferred**](https://msdn.microsoft.com/library/windows/hardware/ff547072)|1.0|
+|[**WdfDmaTransactionGetCurrentDmaTransferLength**](https://msdn.microsoft.com/library/windows/hardware/ff547081)|1.0|
+|[**WdfDmaTransactionGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547085)|1.0|
+|[**WdfDmaTransactionGetRequest**](https://msdn.microsoft.com/library/windows/hardware/ff547094)|1.0|
+|[**WdfDmaTransactionGetTransferInfo**](https://msdn.microsoft.com/library/windows/hardware/hh451179)|1.11|
+|[**WdfDmaTransactionInitialize**](https://msdn.microsoft.com/library/windows/hardware/ff547099)|1.0|
+|[**WdfDmaTransactionInitializeUsingOffset**](https://msdn.microsoft.com/library/windows/hardware/hh451182)|1.11|
+|[**WdfDmaTransactionInitializeUsingRequest**](https://msdn.microsoft.com/library/windows/hardware/ff547107)|1.0|
+|[**WdfDmaTransactionRelease**](https://msdn.microsoft.com/library/windows/hardware/ff547114)|1.0|
+|[**WdfDmaTransactionSetChannelConfigurationCallback**](https://msdn.microsoft.com/library/windows/hardware/hh451184)|1.11|
+|[**WdfDmaTransactionSetDeviceAddressOffset**](https://msdn.microsoft.com/library/windows/hardware/hh451188)|1.11|
+|[**WdfDmaTransactionSetImmediateExecution**](https://msdn.microsoft.com/library/windows/hardware/hh451190)|1.11|
+|[**WdfDmaTransactionSetMaximumLength**](https://msdn.microsoft.com/library/windows/hardware/ff547127)|1.0|
+|[**WdfDmaTransactionSetSingleTransferRequirement**](https://msdn.microsoft.com/library/windows/hardware/mt734973)|1.19|
+|[**WdfDmaTransactionSetTransferCompleteCallback**](https://msdn.microsoft.com/library/windows/hardware/hh439261)|1.11|
+|[**WdfDmaTransactionStopSystemTransfer**](https://msdn.microsoft.com/library/windows/hardware/hh439264)|1.11|
+|[**WdfDmaTransactionWdmGetTransferContext**](https://msdn.microsoft.com/library/windows/hardware/hh439267)|1.11|
+|[**WdfDpcCancel**](https://msdn.microsoft.com/library/windows/hardware/ff547130)|1.0|
+|[**WdfDpcCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547140)|1.0|
+|[**WdfDpcEnqueue**](https://msdn.microsoft.com/library/windows/hardware/ff547148)|1.0|
+|[**WdfDpcGetParentObject**](https://msdn.microsoft.com/library/windows/hardware/ff547157)|1.0|
+|[**WdfDpcWdmGetDpc**](https://msdn.microsoft.com/library/windows/hardware/ff547167)|1.0|
+|[**WdfDriverCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547175)|1.0|2.0|
+|[**WdfDriverGetRegistryPath**](https://msdn.microsoft.com/library/windows/hardware/ff547187)|1.0|2.0|
+|[**WdfDriverIsVersionAvailable**](https://msdn.microsoft.com/library/windows/hardware/ff547190)|1.0|2.0|
+|[**WdfDriverMiniportUnload**](https://msdn.microsoft.com/library/windows/hardware/ff547193)|1.0|
+|[**WdfDriverOpenParametersRegistryKey**](https://msdn.microsoft.com/library/windows/hardware/ff547202)|1.0|2.0|
+|[**WdfDriverRegisterTraceInfo**](https://msdn.microsoft.com/library/windows/hardware/ff547206)|
+|[**WdfDriverRetrieveVersionString**](https://msdn.microsoft.com/library/windows/hardware/ff547211)|1.0|2.0|
+|[**WdfDriverWdmGetDriverObject**](https://msdn.microsoft.com/library/windows/hardware/ff547218)|1.0|
+|[**WdfFdoAddStaticChild**](https://msdn.microsoft.com/library/windows/hardware/ff547225)|1.0|
+|[**WdfFdoGetDefaultChildList**](https://msdn.microsoft.com/library/windows/hardware/ff547235)|1.0|
+|[**WdfFdoInitAllocAndQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff547239)|1.0|2.0|
+|[**WdfFdoInitAllocAndQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265612)|1.13|2.0|
+|[**WdfFdoInitOpenRegistryKey**](https://msdn.microsoft.com/library/windows/hardware/ff547249)|1.0|2.0|
+|[**WdfFdoInitQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff547254)|1.0|2.0|
+|[**WdfFdoInitQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265613)|1.13|2.0|
+|[**WdfFdoInitSetDefaultChildListConfig**](https://msdn.microsoft.com/library/windows/hardware/ff547258)|1.0|
+|[**WdfFdoInitSetEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff547268)|1.0|
+|[**WdfFdoInitSetFilter**](https://msdn.microsoft.com/library/windows/hardware/ff547273)|1.0|2.0|
+|[**WdfFdoInitWdmGetPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547281)|1.0|
+|[**WdfFdoLockStaticChildListForIteration**](https://msdn.microsoft.com/library/windows/hardware/ff547282)|1.0|
+|[**WdfFdoQueryForInterface**](https://msdn.microsoft.com/library/windows/hardware/ff547289)|1.0|
+|[**WdfFdoRetrieveNextStaticChild**](https://msdn.microsoft.com/library/windows/hardware/ff547293)|1.0|
+|[**WdfFdoUnlockStaticChildListFromIteration**](https://msdn.microsoft.com/library/windows/hardware/ff547297)|1.0|
+|[**WdfFileObjectGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547302)|1.0|2.0|
+|[**WdfFileObjectGetFileName**](https://msdn.microsoft.com/library/windows/hardware/ff547310)|1.0|2.0|
+|[**WdfFileObjectGetFlags**](https://msdn.microsoft.com/library/windows/hardware/ff547316)|1.0|
+|[**WdfFileObjectGetInitiatorProcessId**](https://msdn.microsoft.com/library/windows/hardware/dn265614)|1.21|2.0|
+|[**WdfFileObjectGetRelatedFileObject**](https://msdn.microsoft.com/library/windows/hardware/dn265615)|2.0|
+|[**WdfFileObjectWdmGetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff547324)|1.0|
+|[**WdfGetDriver**](https://msdn.microsoft.com/library/windows/hardware/ff547336)|1.0|2.0|
+|[**WdfGetTriageInfo**](https://msdn.microsoft.com/library/windows/hardware/hh706200)|1.11|2.0|
+|[**WdfInterruptAcquireLock**](https://msdn.microsoft.com/library/windows/hardware/ff547340)|1.0|2.0|
+|[**WdfInterruptCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547345)|1.0|2.0|
+|[**WdfInterruptDisable**](https://msdn.microsoft.com/library/windows/hardware/ff547351)|1.0|2.0|
+|[**WdfInterruptEnable**](https://msdn.microsoft.com/library/windows/hardware/ff547354)|1.0|2.0|
+|[**WdfInterruptGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547358)|1.0|2.0|
+|[**WdfInterruptGetInfo**](https://msdn.microsoft.com/library/windows/hardware/ff547367)|1.0|2.0|
+|[**WdfInterruptQueueDpcForIsr**](https://msdn.microsoft.com/library/windows/hardware/ff547371)|1.0|2.0|
+|[**WdfInterruptQueueWorkItemForIsr**](https://msdn.microsoft.com/library/windows/hardware/hh439270)|1.11|2.0|
+|[**WdfInterruptReleaseLock**](https://msdn.microsoft.com/library/windows/hardware/ff547376)|1.0|2.0|
+|[**WdfInterruptReportActive**](https://msdn.microsoft.com/library/windows/hardware/hh439273)|1.11|
+|[**WdfInterruptReportInactive**](https://msdn.microsoft.com/library/windows/hardware/hh439277)|1.11|
+|[**WdfInterruptSetExtendedPolicy**](https://msdn.microsoft.com/library/windows/hardware/ff547381)|1.9|2.0|
+|[**WdfInterruptSetPolicy**](https://msdn.microsoft.com/library/windows/hardware/ff547387)|1.0|2.0|
+|[**WdfInterruptSynchronize**](https://msdn.microsoft.com/library/windows/hardware/ff547389)|1.0|2.0|
+|[**WdfInterruptTryToAcquireLock**](https://msdn.microsoft.com/library/windows/hardware/hh439284)|1.11|2.0|
+|[**WdfInterruptWdmGetInterrupt**](https://msdn.microsoft.com/library/windows/hardware/ff547393)|1.0|
+|[**WdfIoQueueAssignForwardProgressPolicy**](https://msdn.microsoft.com/library/windows/hardware/ff547395)|1.9|
+|[**WdfIoQueueCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547401)|1.0|2.0|
+|[**WdfIoQueueDrain**](https://msdn.microsoft.com/library/windows/hardware/ff547406)|1.0|2.0|
+|[**WdfIoQueueDrainSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff547412)|1.0|2.0|
+|[**WdfIoQueueFindRequest**](https://msdn.microsoft.com/library/windows/hardware/ff547415)|1.0|2.0|
+|[**WdfIoQueueGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547421)|1.0|2.0|
+|[**WdfIoQueueGetState**](https://msdn.microsoft.com/library/windows/hardware/ff548437)|1.0|2.0|
+|[**WdfIoQueuePurge**](https://msdn.microsoft.com/library/windows/hardware/ff548442)|1.0|2.0|
+|[**WdfIoQueuePurgeSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548449)|1.0|2.0|
+|[**WdfIoQueueReadyNotify**](https://msdn.microsoft.com/library/windows/hardware/ff548452)|1.0|2.0|
+|[**WdfIoQueueRetrieveFoundRequest**](https://msdn.microsoft.com/library/windows/hardware/ff548456)|1.0|2.0|
+|[**WdfIoQueueRetrieveNextRequest**](https://msdn.microsoft.com/library/windows/hardware/ff548462)|1.0|2.0|
+|[**WdfIoQueueRetrieveRequestByFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff548470)|1.0|2.0|
+|[**WdfIoQueueStart**](https://msdn.microsoft.com/library/windows/hardware/ff548478)|1.0|2.0|
+|[**WdfIoQueueStop**](https://msdn.microsoft.com/library/windows/hardware/ff548482)|1.0|2.0|
+|[**WdfIoQueueStopAndPurge**](https://msdn.microsoft.com/library/windows/hardware/hh439289)|1.11|2.0|
+|[**WdfIoQueueStopAndPurgeSynchronously**](https://msdn.microsoft.com/library/windows/hardware/hh439293)|1.11|2.0|
+|[**WdfIoQueueStopSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548489)|1.0|2.0|
+|[**WdfIoResourceListAppendDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548498)|1.0|
+|[**WdfIoResourceListCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548502)|1.0|
+|[**WdfIoResourceListGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff548506)|1.0|
+|[**WdfIoResourceListGetDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548510)|1.0|
+|[**WdfIoResourceListInsertDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548513)|1.0|
+|[**WdfIoResourceListRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548523)|1.0|
+|[**WdfIoResourceListRemoveByDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548528)|1.0|
+|[**WdfIoResourceListUpdateDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548533)|1.0|
+|[**WdfIoResourceRequirementsListAppendIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548537)|1.0|
+|[**WdfIoResourceRequirementsListGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff548545)|1.0|
+|[**WdfIoResourceRequirementsListGetIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548553)|1.0|
+|[**WdfIoResourceRequirementsListInsertIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548560)|1.0|
+|[**WdfIoResourceRequirementsListRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548570)|1.0|
+|[**WdfIoResourceRequirementsListRemoveByIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548575)|1.0|
+|[**WdfIoResourceRequirementsListSetInterfaceType**](https://msdn.microsoft.com/library/windows/hardware/ff548577)|1.0|
+|[**WdfIoResourceRequirementsListSetSlotNumber**](https://msdn.microsoft.com/library/windows/hardware/ff548579)|1.0|
+|[**WdfIoTargetAllocAndQueryTargetProperty**](https://msdn.microsoft.com/library/windows/hardware/ff548585)|1.0|
+|[**WdfIoTargetClose**](https://msdn.microsoft.com/library/windows/hardware/ff548586)|1.0|2.0|
+|[**WdfIoTargetCloseForQueryRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548589)|1.0|2.0|
+|[**WdfIoTargetCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548591)|1.0|2.0|
+|[**WdfIoTargetFormatRequestForInternalIoctl**](https://msdn.microsoft.com/library/windows/hardware/ff548595)|1.0|
+|[**WdfIoTargetFormatRequestForInternalIoctlOthers**](https://msdn.microsoft.com/library/windows/hardware/ff548599)|1.0|
+|[**WdfIoTargetFormatRequestForIoctl**](https://msdn.microsoft.com/library/windows/hardware/ff548604)|1.0|2.0|
+|[**WdfIoTargetFormatRequestForRead**](https://msdn.microsoft.com/library/windows/hardware/ff548612)|1.0|2.0|
+|[**WdfIoTargetFormatRequestForWrite**](https://msdn.microsoft.com/library/windows/hardware/ff548620)|1.0|2.0|
+|[**WdfIoTargetGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548625)|1.0|2.0|
+|[**WdfIoTargetGetState**](https://msdn.microsoft.com/library/windows/hardware/ff548631)|1.0|2.0|
+|[**WdfIoTargetOpen**](https://msdn.microsoft.com/library/windows/hardware/ff548634)|1.0|2.0|
+|[**WdfIoTargetPurge**](https://msdn.microsoft.com/library/windows/hardware/hh439338)|1.11|2.0|
+|[**WdfIoTargetQueryForInterface**](https://msdn.microsoft.com/library/windows/hardware/ff548640)|1.0|
+|[**WdfIoTargetQueryTargetProperty**](https://msdn.microsoft.com/library/windows/hardware/ff548646)|1.0|
+|[**WdfIoTargetSendInternalIoctlOthersSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548651)|1.0|
+|[**WdfIoTargetSendInternalIoctlSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548656)|1.0|
+|[**WdfIoTargetSendIoctlSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548660)|1.0|2.0|
+|[**WdfIoTargetSendReadSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548669)|1.0|2.0|
+|[**WdfIoTargetSendWriteSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548672)|1.0|2.0|
+|[**WdfIoTargetStart**](https://msdn.microsoft.com/library/windows/hardware/ff548677)|1.0|2.0|
+|[**WdfIoTargetStop**](https://msdn.microsoft.com/library/windows/hardware/ff548680)|1.0|2.0|
+|[**WdfIoTargetWdmGetTargetDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff548682)|1.0|
+|[**WdfIoTargetWdmGetTargetFileHandle**](https://msdn.microsoft.com/library/windows/hardware/ff548683)|1.0|2.15|
+|[**WdfIoTargetWdmGetTargetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff548686)|1.0|
+|[**WdfIoTargetWdmGetTargetPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548691)|1.0|
+|[**WdfLookasideListCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548694)|1.0|
+|[**WdfMemoryAssignBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548697)|1.0|2.0|
+|[**WdfMemoryCopyFromBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548701)|1.0|2.0|
+|[**WdfMemoryCopyToBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548703)|1.0|2.0|
+|[**WdfMemoryCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548706)|1.0|2.0|
+|[**WdfMemoryCreateFromLookaside**](https://msdn.microsoft.com/library/windows/hardware/ff548709)|1.0|
+|[**WdfMemoryCreatePreallocated**](https://msdn.microsoft.com/library/windows/hardware/ff548712)|1.0|2.0|
+|[**WdfMemoryGetBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548715)|1.0|2.0|
+|[**WdfObjectAcquireLock**](https://msdn.microsoft.com/library/windows/hardware/ff548721)|1.0|2.0|
+|[**WdfObjectAddCustomType**](https://msdn.microsoft.com/library/windows/hardware/hh439344)|1.11|2.0|
+|[**WdfObjectAddCustomTypeWithData**](https://msdn.microsoft.com/library/windows/hardware/hh439350)|1.11|2.0|
+|[**WdfObjectAllocateContext**](https://msdn.microsoft.com/library/windows/hardware/ff548723)|1.0|2.0|
+|[**WdfObjectContextGetObject**](https://msdn.microsoft.com/library/windows/hardware/ff548727)|1.0|2.0|
+|[**WdfObjectCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548730)|1.0|2.0|
+|[**WdfObjectDelete**](https://msdn.microsoft.com/library/windows/hardware/ff548734)|1.0|2.0|
+|[**WdfObjectDereference**](https://msdn.microsoft.com/library/windows/hardware/ff548739)|1.0|2.0|
+|[**WdfObjectDereferenceActual**](https://msdn.microsoft.com/library/windows/hardware/ff548743)|1.0|2.0|
+|[**WdfObjectDereferenceWithTag**](https://msdn.microsoft.com/library/windows/hardware/ff548746)|1.0|2.0|
+|[**WdfObjectGetCustomTypeData**](https://msdn.microsoft.com/library/windows/hardware/hh439356)|1.11|2.0|
+|[**WdfObjectGetTypedContext**](https://msdn.microsoft.com/library/windows/hardware/ff548749)|1.0|2.0|
+|[**WdfObjectGetTypedContextWorker**](https://msdn.microsoft.com/library/windows/hardware/ff548751)|
+|[**WdfObjectIsCustomType**](https://msdn.microsoft.com/library/windows/hardware/hh439362)|1.11|2.0|
+|[**WdfObjectQuery**](https://msdn.microsoft.com/library/windows/hardware/ff548752)|
+|[**WdfObjectReference**](https://msdn.microsoft.com/library/windows/hardware/ff548758)|1.0|2.0|
+|[**WdfObjectReferenceActual**](https://msdn.microsoft.com/library/windows/hardware/ff548760)|1.0|2.0|
+|[**WdfObjectReferenceWithTag**](https://msdn.microsoft.com/library/windows/hardware/ff548763)|1.0|2.0|
+|[**WdfObjectReleaseLock**](https://msdn.microsoft.com/library/windows/hardware/ff548765)|1.0|2.0|
+|[**WdfPdoAddEjectionRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548770)|1.0|
+|[**WdfPdoClearEjectionRelationsDevices**](https://msdn.microsoft.com/library/windows/hardware/ff548771)|1.0|
+|[**WdfPdoGetParent**](https://msdn.microsoft.com/library/windows/hardware/ff548774)|1.0|
+|[**WdfPdoInitAddCompatibleID**](https://msdn.microsoft.com/library/windows/hardware/ff548776)|1.0|
+|[**WdfPdoInitAddDeviceText**](https://msdn.microsoft.com/library/windows/hardware/ff548780)|1.0|
+|[**WdfPdoInitAddHardwareID**](https://msdn.microsoft.com/library/windows/hardware/ff548784)|1.0|
+|[**WdfPdoInitAllocate**](https://msdn.microsoft.com/library/windows/hardware/ff548786)|1.0|
+|[**WdfPdoInitAllowForwardingRequestToParent**](https://msdn.microsoft.com/library/windows/hardware/ff548789)|1.9|
+|[**WdfPdoInitAssignContainerID**](https://msdn.microsoft.com/library/windows/hardware/ff548792)|1.9|
+|[**WdfPdoInitAssignDeviceID**](https://msdn.microsoft.com/library/windows/hardware/ff548797)|1.0|
+|[**WdfPdoInitAssignInstanceID**](https://msdn.microsoft.com/library/windows/hardware/ff548799)|1.0|
+|[**WdfPdoInitAssignRawDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548802)|1.0|
+|[**WdfPdoInitSetDefaultLocale**](https://msdn.microsoft.com/library/windows/hardware/ff548803)|1.0|
+|[**WdfPdoInitSetEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff548805)|1.0|
+|[**WdfPdoMarkMissing**](https://msdn.microsoft.com/library/windows/hardware/ff548809)|1.0|
+|[**WdfPdoRemoveEjectionRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548814)|1.0|
+|[**WdfPdoRequestEject**](https://msdn.microsoft.com/library/windows/hardware/ff548817)|1.0|
+|[**WdfPdoRetrieveAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548820)|1.0|
+|[**WdfPdoRetrieveIdentificationDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548824)|1.0|
+|[**WdfPdoUpdateAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548826)|1.0|
+|[**WdfPostDeviceInstall**](https://msdn.microsoft.com/library/windows/hardware/ff548829)|1.0|
+|[**WdfPostDeviceRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548833)|1.0|
+|[**WdfPreDeviceInstall**](https://msdn.microsoft.com/library/windows/hardware/ff548835)|1.0|
+|[**WdfPreDeviceInstallEx**](https://msdn.microsoft.com/library/windows/hardware/ff548839)|1.9|
+|[**WdfPreDeviceRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548840)|1.0|
+|[**WdfRegistryAssignMemory**](https://msdn.microsoft.com/library/windows/hardware/ff549901)|1.0|2.0|
+|[**WdfRegistryAssignMultiString**](https://msdn.microsoft.com/library/windows/hardware/ff549903)|1.0|2.0|
+|[**WdfRegistryAssignString**](https://msdn.microsoft.com/library/windows/hardware/ff549906)|1.0|2.0|
+|[**WdfRegistryAssignULong**](https://msdn.microsoft.com/library/windows/hardware/ff549910)|1.0|2.0|
+|[**WdfRegistryAssignUnicodeString**](https://msdn.microsoft.com/library/windows/hardware/ff549912)|1.0|2.0|
+|[**WdfRegistryAssignValue**](https://msdn.microsoft.com/library/windows/hardware/ff549913)|1.0|2.0|
+|[**WdfRegistryClose**](https://msdn.microsoft.com/library/windows/hardware/ff549914)|1.0|2.0|
+|[**WdfRegistryCreateKey**](https://msdn.microsoft.com/library/windows/hardware/ff549917)|1.0|2.0|
+|[**WdfRegistryOpenKey**](https://msdn.microsoft.com/library/windows/hardware/ff549919)|1.0|2.0|
+|[**WdfRegistryQueryMemory**](https://msdn.microsoft.com/library/windows/hardware/ff549920)|1.0|2.0|
+|[**WdfRegistryQueryMultiString**](https://msdn.microsoft.com/library/windows/hardware/ff549921)|1.0|2.0|
+|[**WdfRegistryQueryString**](https://msdn.microsoft.com/library/windows/hardware/ff549923)|1.0|2.0|
+|[**WdfRegistryQueryULong**](https://msdn.microsoft.com/library/windows/hardware/ff549925)|1.0|2.0|
+|[**WdfRegistryQueryUnicodeString**](https://msdn.microsoft.com/library/windows/hardware/ff549927)|1.0|2.0|
+|[**WdfRegistryQueryValue**](https://msdn.microsoft.com/library/windows/hardware/ff549928)|1.0|2.0|
+|[**WdfRegistryRemoveKey**](https://msdn.microsoft.com/library/windows/hardware/ff549930)|1.0|2.0|
+|[**WdfRegistryRemoveValue**](https://msdn.microsoft.com/library/windows/hardware/ff549932)|1.0|2.0|
+|[**WdfRegistryWdmGetHandle**](https://msdn.microsoft.com/library/windows/hardware/ff549935)|1.0|2.0|
+|[**WdfRequestAllocateTimer**](https://msdn.microsoft.com/library/windows/hardware/ff549938)|1.0|2.0|
+|[**WdfRequestCancelSentRequest**](https://msdn.microsoft.com/library/windows/hardware/ff549941)|1.0|2.0|
+|[**WdfRequestChangeTarget**](https://msdn.microsoft.com/library/windows/hardware/ff549943)|1.0|2.0|
+|[**WdfRequestComplete**](https://msdn.microsoft.com/library/windows/hardware/ff549945)|1.0|2.0|
+|[**WdfRequestCompleteWithInformation**](https://msdn.microsoft.com/library/windows/hardware/ff549948)|1.0|2.0|
+|[**WdfRequestCompleteWithPriorityBoost**](https://msdn.microsoft.com/library/windows/hardware/ff549949)|1.0|
+|[**WdfRequestCreate**](https://msdn.microsoft.com/library/windows/hardware/ff549951)|1.0|2.0|
+|[**WdfRequestCreateFromIrp**](https://msdn.microsoft.com/library/windows/hardware/ff549953)|1.0|
+|[**WdfRequestFormatRequestUsingCurrentType**](https://msdn.microsoft.com/library/windows/hardware/ff549955)|1.0|2.0|
+|[**WdfRequestForwardToIoQueue**](https://msdn.microsoft.com/library/windows/hardware/ff549958)|1.0|2.0|
+|[**WdfRequestForwardToParentDeviceIoQueue**](https://msdn.microsoft.com/library/windows/hardware/ff549959)|1.9|
+|[**WdfRequestGetCompletionParams**](https://msdn.microsoft.com/library/windows/hardware/ff549961)|1.0|2.0|
+|[**WdfRequestGetEffectiveIoType**](https://msdn.microsoft.com/library/windows/hardware/dn265616)|2.0|
+|[**WdfRequestGetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff549963)|1.0|2.0|
+|[**WdfRequestGetInformation**](https://msdn.microsoft.com/library/windows/hardware/ff549965)|1.0|2.0|
+|[**WdfRequestGetIoQueue**](https://msdn.microsoft.com/library/windows/hardware/ff549968)|1.0|2.0|
+|[**WdfRequestGetParameters**](https://msdn.microsoft.com/library/windows/hardware/ff549969)|1.0|2.0|
+|[**WdfRequestGetRequestorMode**](https://msdn.microsoft.com/library/windows/hardware/ff549971)|1.0|2.0|
+|[**WdfRequestGetRequestorProcessId**](https://msdn.microsoft.com/library/windows/hardware/dn265617)|1.21|2.0|
+|[**WdfRequestGetStatus**](https://msdn.microsoft.com/library/windows/hardware/ff549974)|1.0|2.0|
+|[**WdfRequestGetUserModeDriverInitiatedIo**](https://msdn.microsoft.com/library/windows/hardware/dn265618)|2.0|
+|[**WdfRequestImpersonate**](https://msdn.microsoft.com/library/windows/hardware/dn265619)|2.0|
+|[**WdfRequestIsCanceled**](https://msdn.microsoft.com/library/windows/hardware/ff549976)|1.0|2.0|
+|[**WdfRequestIsFrom32BitProcess**](https://msdn.microsoft.com/library/windows/hardware/ff549978)|1.0|2.0|
+|[**WdfRequestIsFromUserModeDriver**](https://msdn.microsoft.com/library/windows/hardware/dn265620)|2.0|
+|[**WdfRequestIsReserved**](https://msdn.microsoft.com/library/windows/hardware/ff549980)|1.9|
+|[**WdfRequestMarkCancelable**](https://msdn.microsoft.com/library/windows/hardware/ff549983)|1.0|2.0|
+|[**WdfRequestMarkCancelableEx**](https://msdn.microsoft.com/library/windows/hardware/ff549984)|1.9|2.0|
+|[**WdfRequestProbeAndLockUserBufferForRead**](https://msdn.microsoft.com/library/windows/hardware/ff549987)|1.0|
+|[**WdfRequestProbeAndLockUserBufferForWrite**](https://msdn.microsoft.com/library/windows/hardware/ff549989)|1.0|
+|[**WdfRequestRequeue**](https://msdn.microsoft.com/library/windows/hardware/ff550012)|1.0|2.0|
+|[**WdfRequestRetrieveActivityId**](https://msdn.microsoft.com/library/windows/hardware/dn265621)|2.0|
+|[**WdfRequestRetrieveInputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550014)|1.0|2.0|
+|[**WdfRequestRetrieveInputMemory**](https://msdn.microsoft.com/library/windows/hardware/ff550015)|1.0|2.0|
+|[**WdfRequestRetrieveInputWdmMdl**](https://msdn.microsoft.com/library/windows/hardware/ff550016)|1.0|
+|[**WdfRequestRetrieveOutputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550018)|1.0|2.0|
+|[**WdfRequestRetrieveOutputMemory**](https://msdn.microsoft.com/library/windows/hardware/ff550019)|1.0|2.0|
+|[**WdfRequestRetrieveOutputWdmMdl**](https://msdn.microsoft.com/library/windows/hardware/ff550021)|1.0|
+|[**WdfRequestRetrieveUnsafeUserInputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550022)|1.0|
+|[**WdfRequestRetrieveUnsafeUserOutputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550024)|1.0|
+|[**WdfRequestReuse**](https://msdn.microsoft.com/library/windows/hardware/ff550026)|1.0|2.0|
+|[**WdfRequestSend**](https://msdn.microsoft.com/library/windows/hardware/ff550027)|1.0|2.0|
+|[**WdfRequestSetActivityId**](https://msdn.microsoft.com/library/windows/hardware/dn265622)|2.0|
+|[**WdfRequestSetCompletionRoutine**](https://msdn.microsoft.com/library/windows/hardware/ff550030)|1.0|2.0|
+|[**WdfRequestSetInformation**](https://msdn.microsoft.com/library/windows/hardware/ff550032)|1.0|2.0|
+|[**WdfRequestSetUserModeDriverInitiatedIo**](https://msdn.microsoft.com/library/windows/hardware/dn265623)|2.0|
+|[**WdfRequestStopAcknowledge**](https://msdn.microsoft.com/library/windows/hardware/ff550033)|1.0|2.0|
+|[**WdfRequestUnmarkCancelable**](https://msdn.microsoft.com/library/windows/hardware/ff550035)|1.0|2.0|
+|[**WdfRequestWdmFormatUsingStackLocation**](https://msdn.microsoft.com/library/windows/hardware/ff550036)|1.0|
+|[**WdfRequestWdmGetIrp**](https://msdn.microsoft.com/library/windows/hardware/ff550037)|1.0|
+|[**WdfSpinLockAcquire**](https://msdn.microsoft.com/library/windows/hardware/ff550040)|1.0|2.0|
+|[**WdfSpinLockCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550042)|1.0|2.0|
+|[**WdfSpinLockRelease**](https://msdn.microsoft.com/library/windows/hardware/ff550044)|1.0|2.0|
+|[**WdfStringCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550046)|1.0|2.0|
+|[**WdfStringGetUnicodeString**](https://msdn.microsoft.com/library/windows/hardware/ff550049)|1.0|2.0|
+|[**WdfTimerCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550050)|1.0|2.0|
+|[**WdfTimerGetParentObject**](https://msdn.microsoft.com/library/windows/hardware/ff550052)|1.0|2.0|
+|[**WdfTimerStart**](https://msdn.microsoft.com/library/windows/hardware/ff550054)|1.0|2.0|
+|[**WdfTimerStop**](https://msdn.microsoft.com/library/windows/hardware/ff550056)|1.0|2.0|
+|[**WdfUsbInterfaceGetConfiguredPipe**](https://msdn.microsoft.com/library/windows/hardware/ff550057)|1.0|2.0|
+|[**WdfUsbInterfaceGetConfiguredSettingIndex**](https://msdn.microsoft.com/library/windows/hardware/ff550059)|1.0|2.0|
+|[**WdfUsbInterfaceGetDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff550060)|1.0|2.0|
+|[**WdfUsbInterfaceGetEndpointInformation**](https://msdn.microsoft.com/library/windows/hardware/ff550063)|1.0|2.0|
+|[**WdfUsbInterfaceGetInterfaceNumber**](https://msdn.microsoft.com/library/windows/hardware/ff550065)|1.0|2.0|
+|[**WdfUsbInterfaceGetNumConfiguredPipes**](https://msdn.microsoft.com/library/windows/hardware/ff550066)|1.0|2.0|
+|[**WdfUsbInterfaceGetNumEndpoints**](https://msdn.microsoft.com/library/windows/hardware/ff550068)|1.0|2.0|
+|[**WdfUsbInterfaceGetNumSettings**](https://msdn.microsoft.com/library/windows/hardware/ff550070)|1.5|2.0|
+|[**WdfUsbInterfaceSelectSetting**](https://msdn.microsoft.com/library/windows/hardware/ff550073)|1.0|2.0|
+|[**WdfUsbTargetDeviceAllocAndQueryString**](https://msdn.microsoft.com/library/windows/hardware/ff550074)|1.0|2.0|
+|[**WdfUsbTargetDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550077)|1.0|2.0|
+|[**WdfUsbTargetDeviceCreateIsochUrb**](https://msdn.microsoft.com/library/windows/hardware/hh439420)|1.11|
+|[**WdfUsbTargetDeviceCreateUrb**](https://msdn.microsoft.com/library/windows/hardware/hh439423)|1.11|
+|[**WdfUsbTargetDeviceCreateWithParameters**](https://msdn.microsoft.com/library/windows/hardware/hh439428)|1.11|2.0|
+|[**WdfUsbTargetDeviceCyclePortSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550080)|1.0|
+|[**WdfUsbTargetDeviceFormatRequestForControlTransfer**](https://msdn.microsoft.com/library/windows/hardware/ff550082)|1.0|2.0|
+|[**WdfUsbTargetDeviceFormatRequestForCyclePort**](https://msdn.microsoft.com/library/windows/hardware/ff550084)|1.0|
+|[**WdfUsbTargetDeviceFormatRequestForString**](https://msdn.microsoft.com/library/windows/hardware/ff550086)|1.0|2.0|
+|[**WdfUsbTargetDeviceFormatRequestForUrb**](https://msdn.microsoft.com/library/windows/hardware/ff550088)|1.0|
+|[**WdfUsbTargetDeviceGetDeviceDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff550090)|1.0|2.0|
+|[**WdfUsbTargetDeviceGetInterface**](https://msdn.microsoft.com/library/windows/hardware/ff550092)|1.0|2.0|
+|[**WdfUsbTargetDeviceGetIoTarget**](https://msdn.microsoft.com/library/windows/hardware/ff550093)|1.0|2.0|
+|[**WdfUsbTargetDeviceGetNumInterfaces**](https://msdn.microsoft.com/library/windows/hardware/ff550094)|1.0|2.0|
+|[**WdfUsbTargetDeviceIsConnectedSynchronous**](https://msdn.microsoft.com/library/windows/hardware/ff550095)|1.0|
+|[**WdfUsbTargetDeviceQueryString**](https://msdn.microsoft.com/library/windows/hardware/ff550096)|1.0|2.0|
+|[**WdfUsbTargetDeviceQueryUsbCapability**](https://msdn.microsoft.com/library/windows/hardware/hh439434)|1.11|2.0|
+|[**WdfUsbTargetDeviceResetPortSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550097)|1.0|2.0|
+|[**WdfUsbTargetDeviceRetrieveConfigDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff550098)|1.0|2.0|
+|[**WdfUsbTargetDeviceRetrieveCurrentFrameNumber**](https://msdn.microsoft.com/library/windows/hardware/ff550099)|1.0|
+|[**WdfUsbTargetDeviceRetrieveInformation**](https://msdn.microsoft.com/library/windows/hardware/ff550100)|1.0|2.0|
+|[**WdfUsbTargetDeviceSelectConfig**](https://msdn.microsoft.com/library/windows/hardware/ff550101)|1.0|2.0|
+|[**WdfUsbTargetDeviceSelectConfigType**](https://msdn.microsoft.com/library/windows/hardware/ff550102)|1.0|2.0|
+|[**WdfUsbTargetDeviceSelectSettingType**](https://msdn.microsoft.com/library/windows/hardware/ff550103)|1.0|2.0|
+|[**WdfUsbTargetDeviceSendControlTransferSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550104)|1.0|2.0|
+|[**WdfUsbTargetDeviceSendUrbSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550105)|1.0|
+|[**WdfUsbTargetDeviceWdmGetConfigurationHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551127)|1.0|
+|[**WdfUsbTargetPipeAbortSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551129)|1.0|2.0|
+|[**WdfUsbTargetPipeConfigContinuousReader**](https://msdn.microsoft.com/library/windows/hardware/ff551130)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForAbort**](https://msdn.microsoft.com/library/windows/hardware/ff551132)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForRead**](https://msdn.microsoft.com/library/windows/hardware/ff551136)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForReset**](https://msdn.microsoft.com/library/windows/hardware/ff551138)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForUrb**](https://msdn.microsoft.com/library/windows/hardware/ff551139)|1.0|
+|[**WdfUsbTargetPipeFormatRequestForWrite**](https://msdn.microsoft.com/library/windows/hardware/ff551141)|1.0|2.0|
+|[**WdfUsbTargetPipeGetInformation**](https://msdn.microsoft.com/library/windows/hardware/ff551142)|1.0|2.0|
+|[**WdfUsbTargetPipeGetIoTarget**](https://msdn.microsoft.com/library/windows/hardware/ff551146)|1.0|2.0|
+|[**WdfUsbTargetPipeGetType**](https://msdn.microsoft.com/library/windows/hardware/ff551148)|1.0|2.0|
+|[**WdfUsbTargetPipeIsInEndpoint**](https://msdn.microsoft.com/library/windows/hardware/ff551151)|1.0|2.0|
+|[**WdfUsbTargetPipeIsOutEndpoint**](https://msdn.microsoft.com/library/windows/hardware/ff551153)|1.0|2.0|
+|[**WdfUsbTargetPipeReadSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551155)|1.0|2.0|
+|[**WdfUsbTargetPipeResetSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551156)|1.0|2.0|
+|[**WdfUsbTargetPipeSendUrbSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551158)|1.0|
+|[**WdfUsbTargetPipeSetNoMaximumPacketSizeCheck**](https://msdn.microsoft.com/library/windows/hardware/ff551160)|1.0|2.0|
+|[**WdfUsbTargetPipeWdmGetPipeHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551162)|1.0|
+|[**WdfUsbTargetPipeWriteSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551163)|1.0|2.0|
+|[**WdfVerifierDbgBreakPoint**](https://msdn.microsoft.com/library/windows/hardware/ff551164)|1.0|2.0|
+|[**WdfVerifierKeBugCheck**](https://msdn.microsoft.com/library/windows/hardware/ff551166)|1.0|2.0|
+|[**WdfWaitLockAcquire**](https://msdn.microsoft.com/library/windows/hardware/ff551168)|1.0|2.0|
+|[**WdfWaitLockCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551171)|1.0|2.0|
+|[**WdfWaitLockRelease**](https://msdn.microsoft.com/library/windows/hardware/ff551173)|1.0|2.0|
+|[**WdfWdmDeviceGetWdfDeviceHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551175)|1.0|
+|[**WdfWdmDriverGetWdfDriverHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551176)|1.0|
+|[**WdfWmiInstanceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551178)|1.0|
+|[**WdfWmiInstanceDeregister**](https://msdn.microsoft.com/library/windows/hardware/ff551179)|1.0|
+|[**WdfWmiInstanceFireEvent**](https://msdn.microsoft.com/library/windows/hardware/ff551182)|1.0|
+|[**WdfWmiInstanceGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff551184)|1.0|
+|[**WdfWmiInstanceGetProvider**](https://msdn.microsoft.com/library/windows/hardware/ff551187)|1.0|
+|[**WdfWmiInstanceRegister**](https://msdn.microsoft.com/library/windows/hardware/ff551190)|1.0|
+|[**WdfWmiProviderCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551193)|1.0|
+|[**WdfWmiProviderGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff551195)|1.0|
+|[**WdfWmiProviderGetTracingHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551198)|1.0|
+|[**WdfWmiProviderIsEnabled**](https://msdn.microsoft.com/library/windows/hardware/ff551200)|1.0|
+|[**WdfWorkItemCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551201)|1.0|2.0|
+|[**WdfWorkItemEnqueue**](https://msdn.microsoft.com/library/windows/hardware/ff551203)|1.0|2.0|
+|[**WdfWorkItemFlush**](https://msdn.microsoft.com/library/windows/hardware/ff551204)|1.0|2.0|
+|[**WdfWorkItemGetParentObject**](https://msdn.microsoft.com/library/windows/hardware/ff551207)|1.0|2.0|
 
-Send comments about this topic to Microsoft
-
+|Name|Minimum KMDF Version|Minimum UMDF Version|
+|--- |--- |--- |
+|[_EvtChildListAddressDescriptionCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff540823)|1.0|
+|[_EvtChildListAddressDescriptionCopy_](https://msdn.microsoft.com/library/windows/hardware/ff540824)|1.0|
+|[_EvtChildListAddressDescriptionDuplicate_](https://msdn.microsoft.com/library/windows/hardware/ff540826)|1.0|
+|[_EvtChildListCreateDevice_](https://msdn.microsoft.com/library/windows/hardware/ff540828)|1.0|
+|[_EvtChildListDeviceReenumerated_](https://msdn.microsoft.com/library/windows/hardware/ff540830)|1.0|
+|[_EvtChildListIdentificationDescriptionCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff540832)|1.0|
+|[_EvtChildListIdentificationDescriptionCompare_](https://msdn.microsoft.com/library/windows/hardware/ff540833)|1.0|
+|[_EvtChildListIdentificationDescriptionCopy_](https://msdn.microsoft.com/library/windows/hardware/ff540834)|1.0|
+|[_EvtChildListIdentificationDescriptionDuplicate_](https://msdn.microsoft.com/library/windows/hardware/ff540836)|1.0|
+|[_EvtChildListScanForChildren_](https://msdn.microsoft.com/library/windows/hardware/ff540838)|1.0|
+|[_EvtCleanupCallback_](https://msdn.microsoft.com/library/windows/hardware/ff540840)|1.0|2.0|
+|[_EvtCompanionPostD0Exit_](https://msdn.microsoft.com/library/windows/hardware/mt827299)|2.23|
+|[_EvtCompanionPostReleaseHardware_](https://msdn.microsoft.com/library/windows/hardware/mt827300)|2.23|
+|[_EvtCompanionPreD0Entry_](https://msdn.microsoft.com/library/windows/hardware/mt827301)|2.23|
+|[_EvtCompanionPrePrepareHardware_](https://msdn.microsoft.com/library/windows/hardware/mt827302)|2.23|
+|[_EvtDestroyCallback_](https://msdn.microsoft.com/library/windows/hardware/ff540841)|1.0|2.0|
+|[_EvtDeviceArmWakeFromS0_](https://msdn.microsoft.com/library/windows/hardware/ff540843)|1.0|2.0|
+|[_EvtDeviceArmWakeFromSx_](https://msdn.microsoft.com/library/windows/hardware/ff540844)|1.0|2.0|
+|[_EvtDeviceArmWakeFromSxWithReason_](https://msdn.microsoft.com/library/windows/hardware/ff540846)|1.7|2.0|
+|[_EvtDeviceD0Entry_](https://msdn.microsoft.com/library/windows/hardware/ff540848)|1.0|2.0|
+|[_EvtDeviceD0EntryPostInterruptsEnabled_](https://msdn.microsoft.com/library/windows/hardware/ff540853)|1.0|2.0|
+|[_EvtDeviceD0Exit_](https://msdn.microsoft.com/library/windows/hardware/ff540855)|1.0|2.0|
+|[_EvtDeviceD0ExitPreInterruptsDisabled_](https://msdn.microsoft.com/library/windows/hardware/ff540856)|1.0|2.0|
+|[_EvtDeviceDisableWakeAtBus_](https://msdn.microsoft.com/library/windows/hardware/ff540858)|1.0|
+|[_EvtDeviceDisarmWakeFromS0_](https://msdn.microsoft.com/library/windows/hardware/ff540860)|1.0|2.0|
+|[_EvtDeviceDisarmWakeFromSx_](https://msdn.microsoft.com/library/windows/hardware/ff540862)|1.0|2.0|
+|[_EvtDeviceEject_](https://msdn.microsoft.com/library/windows/hardware/ff540863)|1.0|
+|[_EvtDeviceEnableWakeAtBus_](https://msdn.microsoft.com/library/windows/hardware/ff540866)|1.0|
+|[_EvtDeviceFileCreate_](https://msdn.microsoft.com/library/windows/hardware/ff540868)|1.0|2.0|
+|[_EvtDeviceFilterAddResourceRequirements_](https://msdn.microsoft.com/library/windows/hardware/ff540870)|1.0|
+|[_EvtDeviceFilterRemoveResourceRequirements_](https://msdn.microsoft.com/library/windows/hardware/ff540872)|1.0|
+|[_EvtDevicePnpStateChange_](https://msdn.microsoft.com/library/windows/hardware/ff540874)|1.0|
+|[_EvtDevicePowerPolicyStateChange_](https://msdn.microsoft.com/library/windows/hardware/ff540876)|1.0|
+|[_EvtDevicePowerStateChange_](https://msdn.microsoft.com/library/windows/hardware/ff540878)|1.0|
+|[_EvtDevicePrepareHardware_](https://msdn.microsoft.com/library/windows/hardware/ff540880)|1.0|2.0|
+|[_EvtDeviceProcessQueryInterfaceRequest_](https://msdn.microsoft.com/library/windows/hardware/ff540882)|1.0|
+|[_EvtDeviceQueryRemove_](https://msdn.microsoft.com/library/windows/hardware/ff540883)|1.0|2.0|
+|[_EvtDeviceQueryStop_](https://msdn.microsoft.com/library/windows/hardware/ff540885)|1.0|2.0|
+|[_EvtDeviceRelationsQuery_](https://msdn.microsoft.com/library/windows/hardware/ff540886)|1.0|2.0|
+|[_EvtDeviceReleaseHardware_](https://msdn.microsoft.com/library/windows/hardware/ff540890)|1.0|2.0|
+|[_EvtDeviceRemoveAddedResources_](https://msdn.microsoft.com/library/windows/hardware/ff540892)|1.0|
+|[_EvtDeviceReportedMissing_](https://msdn.microsoft.com/library/windows/hardware/hh406360)|1.11|
+|[_EvtDeviceResourceRequirementsQuery_](https://msdn.microsoft.com/library/windows/hardware/ff540894)|1.0|
+|[_EvtDeviceResourcesQuery_](https://msdn.microsoft.com/library/windows/hardware/ff540895)|1.0|
+|[_EvtDeviceSelfManagedIoCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff540898)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoFlush_](https://msdn.microsoft.com/library/windows/hardware/ff540901)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoInit_](https://msdn.microsoft.com/library/windows/hardware/ff540902)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoRestart_](https://msdn.microsoft.com/library/windows/hardware/ff540905)|1.0|2.0|
+|[_EvtDeviceSelfManagedIoSuspend_](https://msdn.microsoft.com/library/windows/hardware/ff540907)|1.0|2.0|
+|[_EvtDeviceSetLock_](https://msdn.microsoft.com/library/windows/hardware/ff540909)|1.0|
+|[_EvtDeviceShutdownNotification_](https://msdn.microsoft.com/library/windows/hardware/ff540911)|1.0|
+|[_EvtDeviceSurpriseRemoval_](https://msdn.microsoft.com/library/windows/hardware/ff540913)|1.0|2.0|
+|[_EvtDeviceUsageNotification_](https://msdn.microsoft.com/library/windows/hardware/ff540915)|1.0|2.0|
+|[_EvtDeviceUsageNotificationEx_](https://msdn.microsoft.com/library/windows/hardware/hh406365)|1.11|2.0|
+|[_EvtDeviceWakeFromS0Triggered_](https://msdn.microsoft.com/library/windows/hardware/ff540919)|1.0|2.0|
+|[_EvtDeviceWakeFromSxTriggered_](https://msdn.microsoft.com/library/windows/hardware/ff540923)|1.0|2.0|
+|[_EvtDeviceWdmIrpDispatch_](https://msdn.microsoft.com/library/windows/hardware/hh406404)|1.11|2.17|
+|[_EvtDeviceWdmIrpPreprocess_](https://msdn.microsoft.com/library/windows/hardware/ff540925)|1.0|
+|[_EvtDeviceWdmPostPoFxRegisterDevice_](https://msdn.microsoft.com/library/windows/hardware/hh406408)|1.11|
+|[_EvtDeviceWdmPrePoFxUnregisterDevice_](https://msdn.microsoft.com/library/windows/hardware/hh406411)|1.11|
+|[_EvtDmaEnablerDisable_](https://msdn.microsoft.com/library/windows/hardware/ff540927)|1.0|
+|[_EvtDmaEnablerEnable_](https://msdn.microsoft.com/library/windows/hardware/ff540929)|1.0|
+|[_EvtDmaEnablerFill_](https://msdn.microsoft.com/library/windows/hardware/ff540932)|1.0|
+|[_EvtDmaEnablerFlush_](https://msdn.microsoft.com/library/windows/hardware/ff541655)|1.0|
+|[_EvtDmaEnablerSelfManagedIoStart_](https://msdn.microsoft.com/library/windows/hardware/ff541663)|1.0|
+|[_EvtDmaEnablerSelfManagedIoStop_](https://msdn.microsoft.com/library/windows/hardware/ff541677)|1.0|
+|[_EvtDmaTransactionConfigureDmaChannel_](https://msdn.microsoft.com/library/windows/hardware/hh406414)|1.11|
+|[_EvtDmaTransactionDmaTransferComplete_](https://msdn.microsoft.com/library/windows/hardware/hh406418)|1.11|
+|[_EvtDpcFunc_](https://msdn.microsoft.com/library/windows/hardware/ff541683)|1.0|
+|[_EvtDriverDeviceAdd_](https://msdn.microsoft.com/library/windows/hardware/ff541693)|1.0|2.0|
+|[_EvtDriverUnload_](https://msdn.microsoft.com/library/windows/hardware/ff541694)|1.0|2.0|
+|[_EvtFileCleanup_](https://msdn.microsoft.com/library/windows/hardware/ff541700)|1.0|2.0|
+|[_EvtFileClose_](https://msdn.microsoft.com/library/windows/hardware/ff541702)|1.0|2.0|
+|[_EvtInterruptDisable_](https://msdn.microsoft.com/library/windows/hardware/ff541714)|1.0|2.0|
+|[_EvtInterruptDpc_](https://msdn.microsoft.com/library/windows/hardware/ff541721)|1.0|2.0|
+|[_EvtInterruptEnable_](https://msdn.microsoft.com/library/windows/hardware/ff541730)|1.0|2.0|
+|[_EvtInterruptIsr_](https://msdn.microsoft.com/library/windows/hardware/ff541735)|1.0|2.0|
+|[_EvtInterruptSynchronize_](https://msdn.microsoft.com/library/windows/hardware/ff541742)|1.0|2.0|
+|[_EvtInterruptWorkItem_](https://msdn.microsoft.com/library/windows/hardware/hh406422)|1.11|2.0|
+|[_EvtIoAllocateRequestResources_](https://msdn.microsoft.com/library/windows/hardware/ff541747)|1.9|
+|[_EvtIoAllocateResourcesForReservedRequest_](https://msdn.microsoft.com/library/windows/hardware/ff541751)|1.9|
+|[_EvtIoCanceledOnQueue_](https://msdn.microsoft.com/library/windows/hardware/ff541756)|1.0|2.0|
+|[_EvtIoDefault_](https://msdn.microsoft.com/library/windows/hardware/ff541757)|1.0|2.0|
+|[_EvtIoDeviceControl_](https://msdn.microsoft.com/library/windows/hardware/ff541758)|1.0|2.0|
+|[_EvtIoInCallerContext_](https://msdn.microsoft.com/library/windows/hardware/ff541764)|1.0|
+|[_EvtIoInternalDeviceControl_](https://msdn.microsoft.com/library/windows/hardware/ff541768)|1.0|2.0|
+|[_EvtIoQueueState_](https://msdn.microsoft.com/library/windows/hardware/ff541771)|1.0|2.0|
+|[_EvtIoRead_](https://msdn.microsoft.com/library/windows/hardware/ff541776)|1.0|2.0|
+|[_EvtIoResume_](https://msdn.microsoft.com/library/windows/hardware/ff541779)|1.0|2.0|
+|[_EvtIoStop_](https://msdn.microsoft.com/library/windows/hardware/ff541788)|1.0|2.0|
+|[_EvtIoTargetQueryRemove_](https://msdn.microsoft.com/library/windows/hardware/ff541793)|1.0|2.0|
+|[_EvtIoTargetRemoveCanceled_](https://msdn.microsoft.com/library/windows/hardware/ff541800)|1.0|2.0|
+|[_EvtIoTargetRemoveComplete_](https://msdn.microsoft.com/library/windows/hardware/ff541806)|1.0|2.0|
+|[_EvtIoWdmIrpForForwardProgress_](https://msdn.microsoft.com/library/windows/hardware/ff541808)|1.9|
+|[_EvtIoWrite_](https://msdn.microsoft.com/library/windows/hardware/ff541813)|1.0|2.0|
+|[_EvtProgramDma_](https://msdn.microsoft.com/library/windows/hardware/ff541816)|1.0|
+|[_EvtRequestCancel_](https://msdn.microsoft.com/library/windows/hardware/ff541817)|1.0|2.0|
+|[_EvtRequestImpersonate_](https://msdn.microsoft.com/library/windows/hardware/dn265581)|2.0|
+|[_EvtReserveDma_](https://msdn.microsoft.com/library/windows/hardware/hh406425)|1.11|
+|[_EvtTaskQueueTaskExecuteSync_](https://msdn.microsoft.com/library/windows/hardware/mt827303)|2.23|
+|[_EvtTimerFunc_](https://msdn.microsoft.com/library/windows/hardware/ff541823)|1.0|2.0|
+|[_EvtUsbTargetPipeReadComplete_](https://msdn.microsoft.com/library/windows/hardware/ff541826)|1.0|2.0|
+|[_EvtUsbTargetPipeReadersFailed_](https://msdn.microsoft.com/library/windows/hardware/ff541832)|1.0|2.0|
+|[_EvtWmiInstanceExecuteMethod_](https://msdn.microsoft.com/library/windows/hardware/ff541836)|1.0|
+|[_EvtWmiInstanceQueryInstance_](https://msdn.microsoft.com/library/windows/hardware/ff541843)|1.0|
+|[_EvtWmiInstanceSetInstance_](https://msdn.microsoft.com/library/windows/hardware/ff541847)|1.0|
+|[_EvtWmiInstanceSetItem_](https://msdn.microsoft.com/library/windows/hardware/ff541852)|1.0|
+|[_EvtWmiProviderFunctionControl_](https://msdn.microsoft.com/library/windows/hardware/ff541855)|1.0|
+|[_EvtWorkItem_](https://msdn.microsoft.com/library/windows/hardware/ff541859)|1.0|2.0|
+|[**WdfChildListAddOrUpdateChildDescriptionAsPresent**](https://msdn.microsoft.com/library/windows/hardware/ff545591)|1.0|
+|[**WdfChildListBeginIteration**](https://msdn.microsoft.com/library/windows/hardware/ff545601)|1.0|
+|[**WdfChildListBeginScan**](https://msdn.microsoft.com/library/windows/hardware/ff545608)|1.0|
+|[**WdfChildListCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545615)|1.0|
+|[**WdfChildListEndIteration**](https://msdn.microsoft.com/library/windows/hardware/ff545618)|1.0|
+|[**WdfChildListEndScan**](https://msdn.microsoft.com/library/windows/hardware/ff545626)|1.0|
+|[**WdfChildListGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff545636)|1.0|
+|[**WdfChildListRequestChildEject**](https://msdn.microsoft.com/library/windows/hardware/ff545641)|1.0|
+|[**WdfChildListRetrieveAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff545648)|1.0|
+|[**WdfChildListRetrieveNextDevice**](https://msdn.microsoft.com/library/windows/hardware/ff545655)|1.0|
+|[**WdfChildListRetrievePdo**](https://msdn.microsoft.com/library/windows/hardware/ff545663)|1.0|
+|[**WdfChildListUpdateAllChildDescriptionsAsPresent**](https://msdn.microsoft.com/library/windows/hardware/ff545667)|1.0|
+|[**WdfChildListUpdateChildDescriptionAsMissing**](https://msdn.microsoft.com/library/windows/hardware/ff545674)|1.0|
+|[**WdfCmResourceListAppendDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545683)|1.0|
+|[**WdfCmResourceListGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff545687)|1.0|2.0|
+|[**WdfCmResourceListGetDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545688)|1.0|2.0|
+|[**WdfCmResourceListInsertDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545698)|1.0|
+|[**WdfCmResourceListRemove**](https://msdn.microsoft.com/library/windows/hardware/ff545704)|1.0|
+|[**WdfCmResourceListRemoveByDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff545717)|1.0|
+|[**WdfCollectionAdd**](https://msdn.microsoft.com/library/windows/hardware/ff545732)|1.0|2.0|
+|[**WdfCollectionCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545747)|1.0|2.0|
+|[**WdfCollectionGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff545759)|1.0|2.0|
+|[**WdfCollectionGetFirstItem**](https://msdn.microsoft.com/library/windows/hardware/ff545763)|1.0|2.0|
+|[**WdfCollectionGetItem**](https://msdn.microsoft.com/library/windows/hardware/ff545770)|1.0|2.0|
+|[**WdfCollectionGetLastItem**](https://msdn.microsoft.com/library/windows/hardware/ff545775)|1.0|2.0|
+|[**WdfCollectionRemove**](https://msdn.microsoft.com/library/windows/hardware/ff545784)|1.0|2.0|
+|[**WdfCollectionRemoveItem**](https://msdn.microsoft.com/library/windows/hardware/ff545792)|1.0|2.0|
+|[**WdfCommonBufferCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545800)|1.0|
+|[**WdfCommonBufferCreateWithConfig**](https://msdn.microsoft.com/library/windows/hardware/ff545805)|1.1|
+|[**WdfCommonBufferGetAlignedLogicalAddress**](https://msdn.microsoft.com/library/windows/hardware/ff545814)|1.0|
+|[**WdfCommonBufferGetAlignedVirtualAddress**](https://msdn.microsoft.com/library/windows/hardware/ff545820)|1.0|
+|[**WdfCommonBufferGetLength**](https://msdn.microsoft.com/library/windows/hardware/ff545828)|1.0|
+|[**WdfCompanionCreate**](https://msdn.microsoft.com/library/windows/hardware/mt812804)|2.23|
+|[**WdfCompanionCreateTaskQueue**](https://msdn.microsoft.com/library/windows/hardware/mt812805)|2.23|
+|[**WdfCompanionTargetSendTaskSynchronously**](https://msdn.microsoft.com/library/windows/hardware/mt812806)|1.23|
+|[**WdfCompanionTargetWdmGetCompanionProcess**](https://msdn.microsoft.com/library/windows/hardware/mt812807)|1.23|
+|[**WdfCompanionWdmGetSecureDeviceHandle**](https://msdn.microsoft.com/library/windows/hardware/mt812808)|2.23|
+|[**WdfControlDeviceInitAllocate**](https://msdn.microsoft.com/library/windows/hardware/ff545841)|1.0|
+|[**WdfControlDeviceInitSetShutdownNotification**](https://msdn.microsoft.com/library/windows/hardware/ff545847)|1.0|
+|[**WdfControlFinishInitializing**](https://msdn.microsoft.com/library/windows/hardware/ff545854)|1.0|
+|[**WdfDeviceAddDependentUsageDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff545864)|1.0|
+|[**WdfDeviceAddQueryInterface**](https://msdn.microsoft.com/library/windows/hardware/ff545870)|1.0|
+|[**WdfDeviceAddRemovalRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff545875)|1.0|
+|[**WdfDeviceAllocAndQueryInterfaceProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265598)|2.0|
+|[**WdfDeviceAllocAndQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff545882)|1.0|2.0|
+|[**WdfDeviceAllocAndQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265599)|1.13|2.0|
+|[**WdfDeviceAssignInterfaceProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265600)|2.0|
+|[**WdfDeviceAssignMofResourceName**](https://msdn.microsoft.com/library/windows/hardware/ff545897)|1.0|
+|[**WdfDeviceAssignProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265601)|1.13|2.0|
+|[**WdfDeviceAssignS0IdleSettings**](https://msdn.microsoft.com/library/windows/hardware/ff545903)|1.0|2.0|
+|[**WdfDeviceAssignSxWakeSettings**](https://msdn.microsoft.com/library/windows/hardware/ff545909)|1.0|2.0|
+|[**WdfDeviceClearRemovalRelationsDevices**](https://msdn.microsoft.com/library/windows/hardware/ff545914)|1.0|
+|[**WdfDeviceConfigureRequestDispatching**](https://msdn.microsoft.com/library/windows/hardware/ff545920)|1.0|2.0|
+|[**WdfDeviceConfigureWdmIrpDispatchCallback**](https://msdn.microsoft.com/library/windows/hardware/hh451093)|1.11|2.17|
+|[**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926)|1.0|2.0|
+|[**WdfDeviceCreateDeviceInterface**](https://msdn.microsoft.com/library/windows/hardware/ff545935)|1.0|2.0|
+|[**WdfDeviceCreateSymbolicLink**](https://msdn.microsoft.com/library/windows/hardware/ff545939)|1.0|2.0|
+|[**WdfDeviceEnqueueRequest**](https://msdn.microsoft.com/library/windows/hardware/ff545945)|1.0|
+|[**WdfDeviceGetAlignmentRequirement**](https://msdn.microsoft.com/library/windows/hardware/ff545953)|1.0|
+|[**WdfDeviceGetCharacteristics**](https://msdn.microsoft.com/library/windows/hardware/ff545960)|1.0|
+|[**WdfDeviceGetDefaultQueue**](https://msdn.microsoft.com/library/windows/hardware/ff545965)|1.0|2.0|
+|[**WdfDeviceGetDevicePnpState**](https://msdn.microsoft.com/library/windows/hardware/ff545969)|1.0|
+|[**WdfDeviceGetDevicePowerPolicyState**](https://msdn.microsoft.com/library/windows/hardware/ff545974)|1.0|
+|[**WdfDeviceGetDevicePowerState**](https://msdn.microsoft.com/library/windows/hardware/ff545985)|1.0|
+|[**WdfDeviceGetDeviceStackIoType**](https://msdn.microsoft.com/library/windows/hardware/dn265602)|2.0|
+|[**WdfDeviceGetDeviceState**](https://msdn.microsoft.com/library/windows/hardware/ff545994)|1.0|2.0|
+|[**WdfDeviceGetDriver**](https://msdn.microsoft.com/library/windows/hardware/ff545998)|1.0|2.0|
+|[**WdfDeviceGetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff546007)|1.0|
+|[**WdfDeviceGetHardwareRegisterMappedAddress**](https://msdn.microsoft.com/library/windows/hardware/dn265603)|2.0|
+|[**WdfDeviceGetIoTarget**](https://msdn.microsoft.com/library/windows/hardware/ff546017)|1.0|2.0|
+|[**WdfDeviceGetSystemPowerAction**](https://msdn.microsoft.com/library/windows/hardware/ff546022)|1.9|2.0|
+|[**WdfDeviceIndicateWakeStatus**](https://msdn.microsoft.com/library/windows/hardware/ff546025)|1.0|
+|[**WdfDeviceInitAssignName**](https://msdn.microsoft.com/library/windows/hardware/ff546029)|1.0|
+|[**WdfDeviceInitAssignSDDLString**](https://msdn.microsoft.com/library/windows/hardware/ff546035)|1.0|
+|[**WdfDeviceInitAssignWdmIrpPreprocessCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546043)|1.0|
+|[**WdfDeviceInitFree**](https://msdn.microsoft.com/library/windows/hardware/ff546050)|1.0|
+|[**WdfDeviceInitRegisterPnpStateChangeCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546057)|1.0|
+|[**WdfDeviceInitRegisterPowerPolicyStateChangeCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546066)|1.0|
+|[**WdfDeviceInitRegisterPowerStateChangeCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546071)|1.0|
+|[**WdfDeviceInitSetCharacteristics**](https://msdn.microsoft.com/library/windows/hardware/ff546074)|1.0|
+|[**WdfDeviceInitSetDeviceClass**](https://msdn.microsoft.com/library/windows/hardware/ff546084)|1.0|
+|[**WdfDeviceInitSetDeviceType**](https://msdn.microsoft.com/library/windows/hardware/ff546090)|1.0|
+|[**WdfDeviceInitSetExclusive**](https://msdn.microsoft.com/library/windows/hardware/ff546097)|1.0|
+|[**WdfDeviceInitSetFileObjectConfig**](https://msdn.microsoft.com/library/windows/hardware/ff546107)|1.0|2.0|
+|[**WdfDeviceInitSetIoInCallerContextCallback**](https://msdn.microsoft.com/library/windows/hardware/ff546119)|1.0|
+|[**WdfDeviceInitSetIoType**](https://msdn.microsoft.com/library/windows/hardware/ff546128)|1.0|2.0|
+|[**WdfDeviceInitSetIoTypeEx**](https://msdn.microsoft.com/library/windows/hardware/dn265604)|1.13|2.0|
+|[**WdfDeviceInitSetPnpPowerEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff546135)|1.0|2.0|
+|[**WdfDeviceInitSetPowerInrush**](https://msdn.microsoft.com/library/windows/hardware/ff546142)|1.0|
+|[**WdfDeviceInitSetPowerNotPageable**](https://msdn.microsoft.com/library/windows/hardware/ff546147)|1.0|
+|[**WdfDeviceInitSetPowerPageable**](https://msdn.microsoft.com/library/windows/hardware/ff546766)|1.0|
+|[**WdfDeviceInitSetPowerPolicyEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff546774)|1.0|2.0|
+|[**WdfDeviceInitSetPowerPolicyOwnership**](https://msdn.microsoft.com/library/windows/hardware/ff546776)|1.0|2.0|
+|[**WdfDeviceInitSetReleaseHardwareOrderOnFailure**](https://msdn.microsoft.com/library/windows/hardware/hh706196)|1.11|2.0|
+|[**WdfDeviceInitSetRemoveLockOptions**](https://msdn.microsoft.com/library/windows/hardware/hh451095)|1.11|
+|[**WdfDeviceInitSetRequestAttributes**](https://msdn.microsoft.com/library/windows/hardware/ff546786)|1.0|2.0|
+|[**WdfDeviceInterfaceDereferenceNoOp**](https://msdn.microsoft.com/library/windows/hardware/ff546790)|1.0|
+|[**WdfDeviceInterfaceReferenceNoOp**](https://msdn.microsoft.com/library/windows/hardware/ff546796)|1.0|
+|[**WdfDeviceMapIoSpace**](https://msdn.microsoft.com/library/windows/hardware/dn265605)|2.0|
+|[**WdfDeviceMiniportCreate**](https://msdn.microsoft.com/library/windows/hardware/ff546802)|1.0|
+|[**WdfDeviceOpenDevicemapKey**](https://msdn.microsoft.com/library/windows/hardware/dn932458)|1.15|2.15|
+|[**WdfDeviceOpenRegistryKey**](https://msdn.microsoft.com/library/windows/hardware/ff546804)|1.0|2.0|
+|[**WdfDevicePostEvent**](https://msdn.microsoft.com/library/windows/hardware/dn265606)|2.0|
+|[**WdfDeviceQueryInterfaceProperty**](https://msdn.microsoft.com/library/windows/hardware/dn265607)|2.0|
+|[**WdfDeviceQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff546820)|1.0|2.0|
+|[**WdfDeviceQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265608)|1.13|2.0|
+|[**WdfDeviceReadFromHardware**](https://msdn.microsoft.com/library/windows/hardware/dn265609)|
+|[**WdfDeviceRemoveDependentUsageDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff546829)|1.9|
+|[**WdfDeviceRemoveRemovalRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff546834)|1.0|
+|[**WdfDeviceResumeIdle**](https://msdn.microsoft.com/library/windows/hardware/ff546838)|1.0|2.0|
+|[**WdfDeviceResumeIdleWithTag**](https://msdn.microsoft.com/library/windows/hardware/dn932459)|1.15|2.15|
+|[**WdfDeviceRetrieveDeviceInterfaceString**](https://msdn.microsoft.com/library/windows/hardware/ff546842)|1.0|2.0|
+|[**WdfDeviceRetrieveDeviceName**](https://msdn.microsoft.com/library/windows/hardware/ff546853)|1.0|
+|[**WdfDeviceSetAlignmentRequirement**](https://msdn.microsoft.com/library/windows/hardware/ff546861)|1.0|
+|[**WdfDeviceSetBusInformationForChildren**](https://msdn.microsoft.com/library/windows/hardware/ff546868)|1.0|
+|[**WdfDeviceSetCharacteristics**](https://msdn.microsoft.com/library/windows/hardware/ff546872)|1.0|
+|[**WdfDeviceSetDeviceInterfaceState**](https://msdn.microsoft.com/library/windows/hardware/ff546878)|1.0|2.0|
+|[**WdfDeviceSetDeviceState**](https://msdn.microsoft.com/library/windows/hardware/ff546884)|1.0|2.0|
+|[**WdfDeviceSetFailed**](https://msdn.microsoft.com/library/windows/hardware/ff546890)|1.0|2.0|
+|[**WdfDeviceSetPnpCapabilities**](https://msdn.microsoft.com/library/windows/hardware/ff546898)|1.0|2.0|
+|[**WdfDeviceSetPowerCapabilities**](https://msdn.microsoft.com/library/windows/hardware/ff546901)|1.0|2.0|
+|[**WdfDeviceSetSpecialFileSupport**](https://msdn.microsoft.com/library/windows/hardware/ff546903)|1.0|
+|[**WdfDeviceSetStaticStopRemove**](https://msdn.microsoft.com/library/windows/hardware/ff546915)|1.0|2.0|
+|[**WdfDeviceStopIdle**](https://msdn.microsoft.com/library/windows/hardware/ff546921)|1.0|2.0|
+|[**WdfDeviceStopIdleWithTag**](https://msdn.microsoft.com/library/windows/hardware/dn932460)|1.15|2.15|
+|[**WdfDeviceUnmapIoSpace**](https://msdn.microsoft.com/library/windows/hardware/dn265610)|2.0|
+|[**WdfDeviceWdmAssignPowerFrameworkSettings**](https://msdn.microsoft.com/library/windows/hardware/hh451097)|1.11|
+|[**WdfDeviceWdmDispatchIrp**](https://msdn.microsoft.com/library/windows/hardware/hh451100)|1.11|2.17|
+|[**WdfDeviceWdmDispatchIrpToIoQueue**](https://msdn.microsoft.com/library/windows/hardware/hh451105)|1.11|2.17|
+|[**WdfDeviceWdmDispatchPreprocessedIrp**](https://msdn.microsoft.com/library/windows/hardware/ff546927)|1.0|
+|[**WdfDeviceWdmGetAttachedDevice**](https://msdn.microsoft.com/library/windows/hardware/ff546934)|1.0|
+|[**WdfDeviceWdmGetDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff546942)|1.0|
+|[**WdfDeviceWdmGetPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff546946)|1.0|
+|[**WdfDeviceWriteToHardware**](https://msdn.microsoft.com/library/windows/hardware/dn265611)|
+|[**WdfDevStateIsNP**](https://msdn.microsoft.com/library/windows/hardware/ff546958)|1.0|2.0|
+|[**WdfDevStateNormalize**](https://msdn.microsoft.com/library/windows/hardware/ff546966)|1.0|2.0|
+|[**WdfDmaEnablerConfigureSystemProfile**](https://msdn.microsoft.com/library/windows/hardware/hh451108)|1.11|
+|[**WdfDmaEnablerCreate**](https://msdn.microsoft.com/library/windows/hardware/ff546983)|1.0|
+|[**WdfDmaEnablerGetFragmentLength**](https://msdn.microsoft.com/library/windows/hardware/ff546986)|1.1|
+|[**WdfDmaEnablerGetMaximumLength**](https://msdn.microsoft.com/library/windows/hardware/ff546994)|1.0|
+|[**WdfDmaEnablerGetMaximumScatterGatherElements**](https://msdn.microsoft.com/library/windows/hardware/ff547005)|1.0|
+|[**WdfDmaEnablerSetMaximumScatterGatherElements**](https://msdn.microsoft.com/library/windows/hardware/ff547014)|1.0|
+|[**WdfDmaEnablerWdmGetDmaAdapter**](https://msdn.microsoft.com/library/windows/hardware/ff547020)|1.5|
+|[**WdfDmaTransactionAllocateResources**](https://msdn.microsoft.com/library/windows/hardware/hh451123)|1.11|
+|[**WdfDmaTransactionCancel**](https://msdn.microsoft.com/library/windows/hardware/hh451127)|1.11|
+|[**WdfDmaTransactionCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547027)|1.0|
+|[**WdfDmaTransactionDmaCompleted**](https://msdn.microsoft.com/library/windows/hardware/ff547039)|1.0|
+|[**WdfDmaTransactionDmaCompletedFinal**](https://msdn.microsoft.com/library/windows/hardware/ff547049)|1.0|
+|[**WdfDmaTransactionDmaCompletedWithLength**](https://msdn.microsoft.com/library/windows/hardware/ff547052)|1.0|
+|[**WdfDmaTransactionExecute**](https://msdn.microsoft.com/library/windows/hardware/ff547062)|1.0|
+|[**WdfDmaTransactionFreeResources**](https://msdn.microsoft.com/library/windows/hardware/hh451177)|1.11|
+|[**WdfDmaTransactionGetBytesTransferred**](https://msdn.microsoft.com/library/windows/hardware/ff547072)|1.0|
+|[**WdfDmaTransactionGetCurrentDmaTransferLength**](https://msdn.microsoft.com/library/windows/hardware/ff547081)|1.0|
+|[**WdfDmaTransactionGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547085)|1.0|
+|[**WdfDmaTransactionGetRequest**](https://msdn.microsoft.com/library/windows/hardware/ff547094)|1.0|
+|[**WdfDmaTransactionGetTransferInfo**](https://msdn.microsoft.com/library/windows/hardware/hh451179)|1.11|
+|[**WdfDmaTransactionInitialize**](https://msdn.microsoft.com/library/windows/hardware/ff547099)|1.0|
+|[**WdfDmaTransactionInitializeUsingOffset**](https://msdn.microsoft.com/library/windows/hardware/hh451182)|1.11|
+|[**WdfDmaTransactionInitializeUsingRequest**](https://msdn.microsoft.com/library/windows/hardware/ff547107)|1.0|
+|[**WdfDmaTransactionRelease**](https://msdn.microsoft.com/library/windows/hardware/ff547114)|1.0|
+|[**WdfDmaTransactionSetChannelConfigurationCallback**](https://msdn.microsoft.com/library/windows/hardware/hh451184)|1.11|
+|[**WdfDmaTransactionSetDeviceAddressOffset**](https://msdn.microsoft.com/library/windows/hardware/hh451188)|1.11|
+|[**WdfDmaTransactionSetImmediateExecution**](https://msdn.microsoft.com/library/windows/hardware/hh451190)|1.11|
+|[**WdfDmaTransactionSetMaximumLength**](https://msdn.microsoft.com/library/windows/hardware/ff547127)|1.0|
+|[**WdfDmaTransactionSetSingleTransferRequirement**](https://msdn.microsoft.com/library/windows/hardware/mt734973)|1.19|
+|[**WdfDmaTransactionSetTransferCompleteCallback**](https://msdn.microsoft.com/library/windows/hardware/hh439261)|1.11|
+|[**WdfDmaTransactionStopSystemTransfer**](https://msdn.microsoft.com/library/windows/hardware/hh439264)|1.11|
+|[**WdfDmaTransactionWdmGetTransferContext**](https://msdn.microsoft.com/library/windows/hardware/hh439267)|1.11|
+|[**WdfDpcCancel**](https://msdn.microsoft.com/library/windows/hardware/ff547130)|1.0|
+|[**WdfDpcCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547140)|1.0|
+|[**WdfDpcEnqueue**](https://msdn.microsoft.com/library/windows/hardware/ff547148)|1.0|
+|[**WdfDpcGetParentObject**](https://msdn.microsoft.com/library/windows/hardware/ff547157)|1.0|
+|[**WdfDpcWdmGetDpc**](https://msdn.microsoft.com/library/windows/hardware/ff547167)|1.0|
+|[**WdfDriverCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547175)|1.0|2.0|
+|[**WdfDriverGetRegistryPath**](https://msdn.microsoft.com/library/windows/hardware/ff547187)|1.0|2.0|
+|[**WdfDriverIsVersionAvailable**](https://msdn.microsoft.com/library/windows/hardware/ff547190)|1.0|2.0|
+|[**WdfDriverMiniportUnload**](https://msdn.microsoft.com/library/windows/hardware/ff547193)|1.0|
+|[**WdfDriverOpenParametersRegistryKey**](https://msdn.microsoft.com/library/windows/hardware/ff547202)|1.0|2.0|
+|[**WdfDriverRegisterTraceInfo**](https://msdn.microsoft.com/library/windows/hardware/ff547206)|
+|[**WdfDriverRetrieveVersionString**](https://msdn.microsoft.com/library/windows/hardware/ff547211)|1.0|2.0|
+|[**WdfDriverWdmGetDriverObject**](https://msdn.microsoft.com/library/windows/hardware/ff547218)|1.0|
+|[**WdfFdoAddStaticChild**](https://msdn.microsoft.com/library/windows/hardware/ff547225)|1.0|
+|[**WdfFdoGetDefaultChildList**](https://msdn.microsoft.com/library/windows/hardware/ff547235)|1.0|
+|[**WdfFdoInitAllocAndQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff547239)|1.0|2.0|
+|[**WdfFdoInitAllocAndQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265612)|1.13|2.0|
+|[**WdfFdoInitOpenRegistryKey**](https://msdn.microsoft.com/library/windows/hardware/ff547249)|1.0|2.0|
+|[**WdfFdoInitQueryProperty**](https://msdn.microsoft.com/library/windows/hardware/ff547254)|1.0|2.0|
+|[**WdfFdoInitQueryPropertyEx**](https://msdn.microsoft.com/library/windows/hardware/dn265613)|1.13|2.0|
+|[**WdfFdoInitSetDefaultChildListConfig**](https://msdn.microsoft.com/library/windows/hardware/ff547258)|1.0|
+|[**WdfFdoInitSetEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff547268)|1.0|
+|[**WdfFdoInitSetFilter**](https://msdn.microsoft.com/library/windows/hardware/ff547273)|1.0|2.0|
+|[**WdfFdoInitWdmGetPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547281)|1.0|
+|[**WdfFdoLockStaticChildListForIteration**](https://msdn.microsoft.com/library/windows/hardware/ff547282)|1.0|
+|[**WdfFdoQueryForInterface**](https://msdn.microsoft.com/library/windows/hardware/ff547289)|1.0|
+|[**WdfFdoRetrieveNextStaticChild**](https://msdn.microsoft.com/library/windows/hardware/ff547293)|1.0|
+|[**WdfFdoUnlockStaticChildListFromIteration**](https://msdn.microsoft.com/library/windows/hardware/ff547297)|1.0|
+|[**WdfFileObjectGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547302)|1.0|2.0|
+|[**WdfFileObjectGetFileName**](https://msdn.microsoft.com/library/windows/hardware/ff547310)|1.0|2.0|
+|[**WdfFileObjectGetFlags**](https://msdn.microsoft.com/library/windows/hardware/ff547316)|1.0|
+|[**WdfFileObjectGetInitiatorProcessId**](https://msdn.microsoft.com/library/windows/hardware/dn265614)|1.21|2.0|
+|[**WdfFileObjectGetRelatedFileObject**](https://msdn.microsoft.com/library/windows/hardware/dn265615)|2.0|
+|[**WdfFileObjectWdmGetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff547324)|1.0|
+|[**WdfGetDriver**](https://msdn.microsoft.com/library/windows/hardware/ff547336)|1.0|2.0|
+|[**WdfGetTriageInfo**](https://msdn.microsoft.com/library/windows/hardware/hh706200)|1.11|2.0|
+|[**WdfInterruptAcquireLock**](https://msdn.microsoft.com/library/windows/hardware/ff547340)|1.0|2.0|
+|[**WdfInterruptCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547345)|1.0|2.0|
+|[**WdfInterruptDisable**](https://msdn.microsoft.com/library/windows/hardware/ff547351)|1.0|2.0|
+|[**WdfInterruptEnable**](https://msdn.microsoft.com/library/windows/hardware/ff547354)|1.0|2.0|
+|[**WdfInterruptGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547358)|1.0|2.0|
+|[**WdfInterruptGetInfo**](https://msdn.microsoft.com/library/windows/hardware/ff547367)|1.0|2.0|
+|[**WdfInterruptQueueDpcForIsr**](https://msdn.microsoft.com/library/windows/hardware/ff547371)|1.0|2.0|
+|[**WdfInterruptQueueWorkItemForIsr**](https://msdn.microsoft.com/library/windows/hardware/hh439270)|1.11|2.0|
+|[**WdfInterruptReleaseLock**](https://msdn.microsoft.com/library/windows/hardware/ff547376)|1.0|2.0|
+|[**WdfInterruptReportActive**](https://msdn.microsoft.com/library/windows/hardware/hh439273)|1.11|
+|[**WdfInterruptReportInactive**](https://msdn.microsoft.com/library/windows/hardware/hh439277)|1.11|
+|[**WdfInterruptSetExtendedPolicy**](https://msdn.microsoft.com/library/windows/hardware/ff547381)|1.9|2.0|
+|[**WdfInterruptSetPolicy**](https://msdn.microsoft.com/library/windows/hardware/ff547387)|1.0|2.0|
+|[**WdfInterruptSynchronize**](https://msdn.microsoft.com/library/windows/hardware/ff547389)|1.0|2.0|
+|[**WdfInterruptTryToAcquireLock**](https://msdn.microsoft.com/library/windows/hardware/hh439284)|1.11|2.0|
+|[**WdfInterruptWdmGetInterrupt**](https://msdn.microsoft.com/library/windows/hardware/ff547393)|1.0|
+|[**WdfIoQueueAssignForwardProgressPolicy**](https://msdn.microsoft.com/library/windows/hardware/ff547395)|1.9|
+|[**WdfIoQueueCreate**](https://msdn.microsoft.com/library/windows/hardware/ff547401)|1.0|2.0|
+|[**WdfIoQueueDrain**](https://msdn.microsoft.com/library/windows/hardware/ff547406)|1.0|2.0|
+|[**WdfIoQueueDrainSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff547412)|1.0|2.0|
+|[**WdfIoQueueFindRequest**](https://msdn.microsoft.com/library/windows/hardware/ff547415)|1.0|2.0|
+|[**WdfIoQueueGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff547421)|1.0|2.0|
+|[**WdfIoQueueGetState**](https://msdn.microsoft.com/library/windows/hardware/ff548437)|1.0|2.0|
+|[**WdfIoQueuePurge**](https://msdn.microsoft.com/library/windows/hardware/ff548442)|1.0|2.0|
+|[**WdfIoQueuePurgeSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548449)|1.0|2.0|
+|[**WdfIoQueueReadyNotify**](https://msdn.microsoft.com/library/windows/hardware/ff548452)|1.0|2.0|
+|[**WdfIoQueueRetrieveFoundRequest**](https://msdn.microsoft.com/library/windows/hardware/ff548456)|1.0|2.0|
+|[**WdfIoQueueRetrieveNextRequest**](https://msdn.microsoft.com/library/windows/hardware/ff548462)|1.0|2.0|
+|[**WdfIoQueueRetrieveRequestByFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff548470)|1.0|2.0|
+|[**WdfIoQueueStart**](https://msdn.microsoft.com/library/windows/hardware/ff548478)|1.0|2.0|
+|[**WdfIoQueueStop**](https://msdn.microsoft.com/library/windows/hardware/ff548482)|1.0|2.0|
+|[**WdfIoQueueStopAndPurge**](https://msdn.microsoft.com/library/windows/hardware/hh439289)|1.11|2.0|
+|[**WdfIoQueueStopAndPurgeSynchronously**](https://msdn.microsoft.com/library/windows/hardware/hh439293)|1.11|2.0|
+|[**WdfIoQueueStopSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548489)|1.0|2.0|
+|[**WdfIoResourceListAppendDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548498)|1.0|
+|[**WdfIoResourceListCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548502)|1.0|
+|[**WdfIoResourceListGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff548506)|1.0|
+|[**WdfIoResourceListGetDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548510)|1.0|
+|[**WdfIoResourceListInsertDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548513)|1.0|
+|[**WdfIoResourceListRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548523)|1.0|
+|[**WdfIoResourceListRemoveByDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548528)|1.0|
+|[**WdfIoResourceListUpdateDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff548533)|1.0|
+|[**WdfIoResourceRequirementsListAppendIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548537)|1.0|
+|[**WdfIoResourceRequirementsListGetCount**](https://msdn.microsoft.com/library/windows/hardware/ff548545)|1.0|
+|[**WdfIoResourceRequirementsListGetIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548553)|1.0|
+|[**WdfIoResourceRequirementsListInsertIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548560)|1.0|
+|[**WdfIoResourceRequirementsListRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548570)|1.0|
+|[**WdfIoResourceRequirementsListRemoveByIoResList**](https://msdn.microsoft.com/library/windows/hardware/ff548575)|1.0|
+|[**WdfIoResourceRequirementsListSetInterfaceType**](https://msdn.microsoft.com/library/windows/hardware/ff548577)|1.0|
+|[**WdfIoResourceRequirementsListSetSlotNumber**](https://msdn.microsoft.com/library/windows/hardware/ff548579)|1.0|
+|[**WdfIoTargetAllocAndQueryTargetProperty**](https://msdn.microsoft.com/library/windows/hardware/ff548585)|1.0|
+|[**WdfIoTargetClose**](https://msdn.microsoft.com/library/windows/hardware/ff548586)|1.0|2.0|
+|[**WdfIoTargetCloseForQueryRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548589)|1.0|2.0|
+|[**WdfIoTargetCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548591)|1.0|2.0|
+|[**WdfIoTargetFormatRequestForInternalIoctl**](https://msdn.microsoft.com/library/windows/hardware/ff548595)|1.0|
+|[**WdfIoTargetFormatRequestForInternalIoctlOthers**](https://msdn.microsoft.com/library/windows/hardware/ff548599)|1.0|
+|[**WdfIoTargetFormatRequestForIoctl**](https://msdn.microsoft.com/library/windows/hardware/ff548604)|1.0|2.0|
+|[**WdfIoTargetFormatRequestForRead**](https://msdn.microsoft.com/library/windows/hardware/ff548612)|1.0|2.0|
+|[**WdfIoTargetFormatRequestForWrite**](https://msdn.microsoft.com/library/windows/hardware/ff548620)|1.0|2.0|
+|[**WdfIoTargetGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548625)|1.0|2.0|
+|[**WdfIoTargetGetState**](https://msdn.microsoft.com/library/windows/hardware/ff548631)|1.0|2.0|
+|[**WdfIoTargetOpen**](https://msdn.microsoft.com/library/windows/hardware/ff548634)|1.0|2.0|
+|[**WdfIoTargetPurge**](https://msdn.microsoft.com/library/windows/hardware/hh439338)|1.11|2.0|
+|[**WdfIoTargetQueryForInterface**](https://msdn.microsoft.com/library/windows/hardware/ff548640)|1.0|
+|[**WdfIoTargetQueryTargetProperty**](https://msdn.microsoft.com/library/windows/hardware/ff548646)|1.0|
+|[**WdfIoTargetSendInternalIoctlOthersSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548651)|1.0|
+|[**WdfIoTargetSendInternalIoctlSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548656)|1.0|
+|[**WdfIoTargetSendIoctlSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548660)|1.0|2.0|
+|[**WdfIoTargetSendReadSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548669)|1.0|2.0|
+|[**WdfIoTargetSendWriteSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff548672)|1.0|2.0|
+|[**WdfIoTargetStart**](https://msdn.microsoft.com/library/windows/hardware/ff548677)|1.0|2.0|
+|[**WdfIoTargetStop**](https://msdn.microsoft.com/library/windows/hardware/ff548680)|1.0|2.0|
+|[**WdfIoTargetWdmGetTargetDeviceObject**](https://msdn.microsoft.com/library/windows/hardware/ff548682)|1.0|
+|[**WdfIoTargetWdmGetTargetFileHandle**](https://msdn.microsoft.com/library/windows/hardware/ff548683)|1.0|2.15|
+|[**WdfIoTargetWdmGetTargetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff548686)|1.0|
+|[**WdfIoTargetWdmGetTargetPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548691)|1.0|
+|[**WdfLookasideListCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548694)|1.0|
+|[**WdfMemoryAssignBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548697)|1.0|2.0|
+|[**WdfMemoryCopyFromBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548701)|1.0|2.0|
+|[**WdfMemoryCopyToBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548703)|1.0|2.0|
+|[**WdfMemoryCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548706)|1.0|2.0|
+|[**WdfMemoryCreateFromLookaside**](https://msdn.microsoft.com/library/windows/hardware/ff548709)|1.0|
+|[**WdfMemoryCreatePreallocated**](https://msdn.microsoft.com/library/windows/hardware/ff548712)|1.0|2.0|
+|[**WdfMemoryGetBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff548715)|1.0|2.0|
+|[**WdfObjectAcquireLock**](https://msdn.microsoft.com/library/windows/hardware/ff548721)|1.0|2.0|
+|[**WdfObjectAddCustomType**](https://msdn.microsoft.com/library/windows/hardware/hh439344)|1.11|2.0|
+|[**WdfObjectAddCustomTypeWithData**](https://msdn.microsoft.com/library/windows/hardware/hh439350)|1.11|2.0|
+|[**WdfObjectAllocateContext**](https://msdn.microsoft.com/library/windows/hardware/ff548723)|1.0|2.0|
+|[**WdfObjectContextGetObject**](https://msdn.microsoft.com/library/windows/hardware/ff548727)|1.0|2.0|
+|[**WdfObjectCreate**](https://msdn.microsoft.com/library/windows/hardware/ff548730)|1.0|2.0|
+|[**WdfObjectDelete**](https://msdn.microsoft.com/library/windows/hardware/ff548734)|1.0|2.0|
+|[**WdfObjectDereference**](https://msdn.microsoft.com/library/windows/hardware/ff548739)|1.0|2.0|
+|[**WdfObjectDereferenceActual**](https://msdn.microsoft.com/library/windows/hardware/ff548743)|1.0|2.0|
+|[**WdfObjectDereferenceWithTag**](https://msdn.microsoft.com/library/windows/hardware/ff548746)|1.0|2.0|
+|[**WdfObjectGetCustomTypeData**](https://msdn.microsoft.com/library/windows/hardware/hh439356)|1.11|2.0|
+|[**WdfObjectGetTypedContext**](https://msdn.microsoft.com/library/windows/hardware/ff548749)|1.0|2.0|
+|[**WdfObjectGetTypedContextWorker**](https://msdn.microsoft.com/library/windows/hardware/ff548751)|
+|[**WdfObjectIsCustomType**](https://msdn.microsoft.com/library/windows/hardware/hh439362)|1.11|2.0|
+|[**WdfObjectQuery**](https://msdn.microsoft.com/library/windows/hardware/ff548752)|
+|[**WdfObjectReference**](https://msdn.microsoft.com/library/windows/hardware/ff548758)|1.0|2.0|
+|[**WdfObjectReferenceActual**](https://msdn.microsoft.com/library/windows/hardware/ff548760)|1.0|2.0|
+|[**WdfObjectReferenceWithTag**](https://msdn.microsoft.com/library/windows/hardware/ff548763)|1.0|2.0|
+|[**WdfObjectReleaseLock**](https://msdn.microsoft.com/library/windows/hardware/ff548765)|1.0|2.0|
+|[**WdfPdoAddEjectionRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548770)|1.0|
+|[**WdfPdoClearEjectionRelationsDevices**](https://msdn.microsoft.com/library/windows/hardware/ff548771)|1.0|
+|[**WdfPdoGetParent**](https://msdn.microsoft.com/library/windows/hardware/ff548774)|1.0|
+|[**WdfPdoInitAddCompatibleID**](https://msdn.microsoft.com/library/windows/hardware/ff548776)|1.0|
+|[**WdfPdoInitAddDeviceText**](https://msdn.microsoft.com/library/windows/hardware/ff548780)|1.0|
+|[**WdfPdoInitAddHardwareID**](https://msdn.microsoft.com/library/windows/hardware/ff548784)|1.0|
+|[**WdfPdoInitAllocate**](https://msdn.microsoft.com/library/windows/hardware/ff548786)|1.0|
+|[**WdfPdoInitAllowForwardingRequestToParent**](https://msdn.microsoft.com/library/windows/hardware/ff548789)|1.9|
+|[**WdfPdoInitAssignContainerID**](https://msdn.microsoft.com/library/windows/hardware/ff548792)|1.9|
+|[**WdfPdoInitAssignDeviceID**](https://msdn.microsoft.com/library/windows/hardware/ff548797)|1.0|
+|[**WdfPdoInitAssignInstanceID**](https://msdn.microsoft.com/library/windows/hardware/ff548799)|1.0|
+|[**WdfPdoInitAssignRawDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548802)|1.0|
+|[**WdfPdoInitSetDefaultLocale**](https://msdn.microsoft.com/library/windows/hardware/ff548803)|1.0|
+|[**WdfPdoInitSetEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff548805)|1.0|
+|[**WdfPdoMarkMissing**](https://msdn.microsoft.com/library/windows/hardware/ff548809)|1.0|
+|[**WdfPdoRemoveEjectionRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548814)|1.0|
+|[**WdfPdoRequestEject**](https://msdn.microsoft.com/library/windows/hardware/ff548817)|1.0|
+|[**WdfPdoRetrieveAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548820)|1.0|
+|[**WdfPdoRetrieveIdentificationDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548824)|1.0|
+|[**WdfPdoUpdateAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548826)|1.0|
+|[**WdfPostDeviceInstall**](https://msdn.microsoft.com/library/windows/hardware/ff548829)|1.0|
+|[**WdfPostDeviceRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548833)|1.0|
+|[**WdfPreDeviceInstall**](https://msdn.microsoft.com/library/windows/hardware/ff548835)|1.0|
+|[**WdfPreDeviceInstallEx**](https://msdn.microsoft.com/library/windows/hardware/ff548839)|1.9|
+|[**WdfPreDeviceRemove**](https://msdn.microsoft.com/library/windows/hardware/ff548840)|1.0|
+|[**WdfRegistryAssignMemory**](https://msdn.microsoft.com/library/windows/hardware/ff549901)|1.0|2.0|
+|[**WdfRegistryAssignMultiString**](https://msdn.microsoft.com/library/windows/hardware/ff549903)|1.0|2.0|
+|[**WdfRegistryAssignString**](https://msdn.microsoft.com/library/windows/hardware/ff549906)|1.0|2.0|
+|[**WdfRegistryAssignULong**](https://msdn.microsoft.com/library/windows/hardware/ff549910)|1.0|2.0|
+|[**WdfRegistryAssignUnicodeString**](https://msdn.microsoft.com/library/windows/hardware/ff549912)|1.0|2.0|
+|[**WdfRegistryAssignValue**](https://msdn.microsoft.com/library/windows/hardware/ff549913)|1.0|2.0|
+|[**WdfRegistryClose**](https://msdn.microsoft.com/library/windows/hardware/ff549914)|1.0|2.0|
+|[**WdfRegistryCreateKey**](https://msdn.microsoft.com/library/windows/hardware/ff549917)|1.0|2.0|
+|[**WdfRegistryOpenKey**](https://msdn.microsoft.com/library/windows/hardware/ff549919)|1.0|2.0|
+|[**WdfRegistryQueryMemory**](https://msdn.microsoft.com/library/windows/hardware/ff549920)|1.0|2.0|
+|[**WdfRegistryQueryMultiString**](https://msdn.microsoft.com/library/windows/hardware/ff549921)|1.0|2.0|
+|[**WdfRegistryQueryString**](https://msdn.microsoft.com/library/windows/hardware/ff549923)|1.0|2.0|
+|[**WdfRegistryQueryULong**](https://msdn.microsoft.com/library/windows/hardware/ff549925)|1.0|2.0|
+|[**WdfRegistryQueryUnicodeString**](https://msdn.microsoft.com/library/windows/hardware/ff549927)|1.0|2.0|
+|[**WdfRegistryQueryValue**](https://msdn.microsoft.com/library/windows/hardware/ff549928)|1.0|2.0|
+|[**WdfRegistryRemoveKey**](https://msdn.microsoft.com/library/windows/hardware/ff549930)|1.0|2.0|
+|[**WdfRegistryRemoveValue**](https://msdn.microsoft.com/library/windows/hardware/ff549932)|1.0|2.0|
+|[**WdfRegistryWdmGetHandle**](https://msdn.microsoft.com/library/windows/hardware/ff549935)|1.0|2.0|
+|[**WdfRequestAllocateTimer**](https://msdn.microsoft.com/library/windows/hardware/ff549938)|1.0|2.0|
+|[**WdfRequestCancelSentRequest**](https://msdn.microsoft.com/library/windows/hardware/ff549941)|1.0|2.0|
+|[**WdfRequestChangeTarget**](https://msdn.microsoft.com/library/windows/hardware/ff549943)|1.0|2.0|
+|[**WdfRequestComplete**](https://msdn.microsoft.com/library/windows/hardware/ff549945)|1.0|2.0|
+|[**WdfRequestCompleteWithInformation**](https://msdn.microsoft.com/library/windows/hardware/ff549948)|1.0|2.0|
+|[**WdfRequestCompleteWithPriorityBoost**](https://msdn.microsoft.com/library/windows/hardware/ff549949)|1.0|
+|[**WdfRequestCreate**](https://msdn.microsoft.com/library/windows/hardware/ff549951)|1.0|2.0|
+|[**WdfRequestCreateFromIrp**](https://msdn.microsoft.com/library/windows/hardware/ff549953)|1.0|
+|[**WdfRequestFormatRequestUsingCurrentType**](https://msdn.microsoft.com/library/windows/hardware/ff549955)|1.0|2.0|
+|[**WdfRequestForwardToIoQueue**](https://msdn.microsoft.com/library/windows/hardware/ff549958)|1.0|2.0|
+|[**WdfRequestForwardToParentDeviceIoQueue**](https://msdn.microsoft.com/library/windows/hardware/ff549959)|1.9|
+|[**WdfRequestGetCompletionParams**](https://msdn.microsoft.com/library/windows/hardware/ff549961)|1.0|2.0|
+|[**WdfRequestGetEffectiveIoType**](https://msdn.microsoft.com/library/windows/hardware/dn265616)|2.0|
+|[**WdfRequestGetFileObject**](https://msdn.microsoft.com/library/windows/hardware/ff549963)|1.0|2.0|
+|[**WdfRequestGetInformation**](https://msdn.microsoft.com/library/windows/hardware/ff549965)|1.0|2.0|
+|[**WdfRequestGetIoQueue**](https://msdn.microsoft.com/library/windows/hardware/ff549968)|1.0|2.0|
+|[**WdfRequestGetParameters**](https://msdn.microsoft.com/library/windows/hardware/ff549969)|1.0|2.0|
+|[**WdfRequestGetRequestorMode**](https://msdn.microsoft.com/library/windows/hardware/ff549971)|1.0|2.0|
+|[**WdfRequestGetRequestorProcessId**](https://msdn.microsoft.com/library/windows/hardware/dn265617)|1.21|2.0|
+|[**WdfRequestGetStatus**](https://msdn.microsoft.com/library/windows/hardware/ff549974)|1.0|2.0|
+|[**WdfRequestGetUserModeDriverInitiatedIo**](https://msdn.microsoft.com/library/windows/hardware/dn265618)|2.0|
+|[**WdfRequestImpersonate**](https://msdn.microsoft.com/library/windows/hardware/dn265619)|2.0|
+|[**WdfRequestIsCanceled**](https://msdn.microsoft.com/library/windows/hardware/ff549976)|1.0|2.0|
+|[**WdfRequestIsFrom32BitProcess**](https://msdn.microsoft.com/library/windows/hardware/ff549978)|1.0|2.0|
+|[**WdfRequestIsFromUserModeDriver**](https://msdn.microsoft.com/library/windows/hardware/dn265620)|2.0|
+|[**WdfRequestIsReserved**](https://msdn.microsoft.com/library/windows/hardware/ff549980)|1.9|
+|[**WdfRequestMarkCancelable**](https://msdn.microsoft.com/library/windows/hardware/ff549983)|1.0|2.0|
+|[**WdfRequestMarkCancelableEx**](https://msdn.microsoft.com/library/windows/hardware/ff549984)|1.9|2.0|
+|[**WdfRequestProbeAndLockUserBufferForRead**](https://msdn.microsoft.com/library/windows/hardware/ff549987)|1.0|
+|[**WdfRequestProbeAndLockUserBufferForWrite**](https://msdn.microsoft.com/library/windows/hardware/ff549989)|1.0|
+|[**WdfRequestRequeue**](https://msdn.microsoft.com/library/windows/hardware/ff550012)|1.0|2.0|
+|[**WdfRequestRetrieveActivityId**](https://msdn.microsoft.com/library/windows/hardware/dn265621)|2.0|
+|[**WdfRequestRetrieveInputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550014)|1.0|2.0|
+|[**WdfRequestRetrieveInputMemory**](https://msdn.microsoft.com/library/windows/hardware/ff550015)|1.0|2.0|
+|[**WdfRequestRetrieveInputWdmMdl**](https://msdn.microsoft.com/library/windows/hardware/ff550016)|1.0|
+|[**WdfRequestRetrieveOutputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550018)|1.0|2.0|
+|[**WdfRequestRetrieveOutputMemory**](https://msdn.microsoft.com/library/windows/hardware/ff550019)|1.0|2.0|
+|[**WdfRequestRetrieveOutputWdmMdl**](https://msdn.microsoft.com/library/windows/hardware/ff550021)|1.0|
+|[**WdfRequestRetrieveUnsafeUserInputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550022)|1.0|
+|[**WdfRequestRetrieveUnsafeUserOutputBuffer**](https://msdn.microsoft.com/library/windows/hardware/ff550024)|1.0|
+|[**WdfRequestReuse**](https://msdn.microsoft.com/library/windows/hardware/ff550026)|1.0|2.0|
+|[**WdfRequestSend**](https://msdn.microsoft.com/library/windows/hardware/ff550027)|1.0|2.0|
+|[**WdfRequestSetActivityId**](https://msdn.microsoft.com/library/windows/hardware/dn265622)|2.0|
+|[**WdfRequestSetCompletionRoutine**](https://msdn.microsoft.com/library/windows/hardware/ff550030)|1.0|2.0|
+|[**WdfRequestSetInformation**](https://msdn.microsoft.com/library/windows/hardware/ff550032)|1.0|2.0|
+|[**WdfRequestSetUserModeDriverInitiatedIo**](https://msdn.microsoft.com/library/windows/hardware/dn265623)|2.0|
+|[**WdfRequestStopAcknowledge**](https://msdn.microsoft.com/library/windows/hardware/ff550033)|1.0|2.0|
+|[**WdfRequestUnmarkCancelable**](https://msdn.microsoft.com/library/windows/hardware/ff550035)|1.0|2.0|
+|[**WdfRequestWdmFormatUsingStackLocation**](https://msdn.microsoft.com/library/windows/hardware/ff550036)|1.0|
+|[**WdfRequestWdmGetIrp**](https://msdn.microsoft.com/library/windows/hardware/ff550037)|1.0|
+|[**WdfSpinLockAcquire**](https://msdn.microsoft.com/library/windows/hardware/ff550040)|1.0|2.0|
+|[**WdfSpinLockCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550042)|1.0|2.0|
+|[**WdfSpinLockRelease**](https://msdn.microsoft.com/library/windows/hardware/ff550044)|1.0|2.0|
+|[**WdfStringCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550046)|1.0|2.0|
+|[**WdfStringGetUnicodeString**](https://msdn.microsoft.com/library/windows/hardware/ff550049)|1.0|2.0|
+|[**WdfTimerCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550050)|1.0|2.0|
+|[**WdfTimerGetParentObject**](https://msdn.microsoft.com/library/windows/hardware/ff550052)|1.0|2.0|
+|[**WdfTimerStart**](https://msdn.microsoft.com/library/windows/hardware/ff550054)|1.0|2.0|
+|[**WdfTimerStop**](https://msdn.microsoft.com/library/windows/hardware/ff550056)|1.0|2.0|
+|[**WdfUsbInterfaceGetConfiguredPipe**](https://msdn.microsoft.com/library/windows/hardware/ff550057)|1.0|2.0|
+|[**WdfUsbInterfaceGetConfiguredSettingIndex**](https://msdn.microsoft.com/library/windows/hardware/ff550059)|1.0|2.0|
+|[**WdfUsbInterfaceGetDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff550060)|1.0|2.0|
+|[**WdfUsbInterfaceGetEndpointInformation**](https://msdn.microsoft.com/library/windows/hardware/ff550063)|1.0|2.0|
+|[**WdfUsbInterfaceGetInterfaceNumber**](https://msdn.microsoft.com/library/windows/hardware/ff550065)|1.0|2.0|
+|[**WdfUsbInterfaceGetNumConfiguredPipes**](https://msdn.microsoft.com/library/windows/hardware/ff550066)|1.0|2.0|
+|[**WdfUsbInterfaceGetNumEndpoints**](https://msdn.microsoft.com/library/windows/hardware/ff550068)|1.0|2.0|
+|[**WdfUsbInterfaceGetNumSettings**](https://msdn.microsoft.com/library/windows/hardware/ff550070)|1.5|2.0|
+|[**WdfUsbInterfaceSelectSetting**](https://msdn.microsoft.com/library/windows/hardware/ff550073)|1.0|2.0|
+|[**WdfUsbTargetDeviceAllocAndQueryString**](https://msdn.microsoft.com/library/windows/hardware/ff550074)|1.0|2.0|
+|[**WdfUsbTargetDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff550077)|1.0|2.0|
+|[**WdfUsbTargetDeviceCreateIsochUrb**](https://msdn.microsoft.com/library/windows/hardware/hh439420)|1.11|
+|[**WdfUsbTargetDeviceCreateUrb**](https://msdn.microsoft.com/library/windows/hardware/hh439423)|1.11|
+|[**WdfUsbTargetDeviceCreateWithParameters**](https://msdn.microsoft.com/library/windows/hardware/hh439428)|1.11|2.0|
+|[**WdfUsbTargetDeviceCyclePortSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550080)|1.0|
+|[**WdfUsbTargetDeviceFormatRequestForControlTransfer**](https://msdn.microsoft.com/library/windows/hardware/ff550082)|1.0|2.0|
+|[**WdfUsbTargetDeviceFormatRequestForCyclePort**](https://msdn.microsoft.com/library/windows/hardware/ff550084)|1.0|
+|[**WdfUsbTargetDeviceFormatRequestForString**](https://msdn.microsoft.com/library/windows/hardware/ff550086)|1.0|2.0|
+|[**WdfUsbTargetDeviceFormatRequestForUrb**](https://msdn.microsoft.com/library/windows/hardware/ff550088)|1.0|
+|[**WdfUsbTargetDeviceGetDeviceDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff550090)|1.0|2.0|
+|[**WdfUsbTargetDeviceGetInterface**](https://msdn.microsoft.com/library/windows/hardware/ff550092)|1.0|2.0|
+|[**WdfUsbTargetDeviceGetIoTarget**](https://msdn.microsoft.com/library/windows/hardware/ff550093)|1.0|2.0|
+|[**WdfUsbTargetDeviceGetNumInterfaces**](https://msdn.microsoft.com/library/windows/hardware/ff550094)|1.0|2.0|
+|[**WdfUsbTargetDeviceIsConnectedSynchronous**](https://msdn.microsoft.com/library/windows/hardware/ff550095)|1.0|
+|[**WdfUsbTargetDeviceQueryString**](https://msdn.microsoft.com/library/windows/hardware/ff550096)|1.0|2.0|
+|[**WdfUsbTargetDeviceQueryUsbCapability**](https://msdn.microsoft.com/library/windows/hardware/hh439434)|1.11|2.0|
+|[**WdfUsbTargetDeviceResetPortSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550097)|1.0|2.0|
+|[**WdfUsbTargetDeviceRetrieveConfigDescriptor**](https://msdn.microsoft.com/library/windows/hardware/ff550098)|1.0|2.0|
+|[**WdfUsbTargetDeviceRetrieveCurrentFrameNumber**](https://msdn.microsoft.com/library/windows/hardware/ff550099)|1.0|
+|[**WdfUsbTargetDeviceRetrieveInformation**](https://msdn.microsoft.com/library/windows/hardware/ff550100)|1.0|2.0|
+|[**WdfUsbTargetDeviceSelectConfig**](https://msdn.microsoft.com/library/windows/hardware/ff550101)|1.0|2.0|
+|[**WdfUsbTargetDeviceSelectConfigType**](https://msdn.microsoft.com/library/windows/hardware/ff550102)|1.0|2.0|
+|[**WdfUsbTargetDeviceSelectSettingType**](https://msdn.microsoft.com/library/windows/hardware/ff550103)|1.0|2.0|
+|[**WdfUsbTargetDeviceSendControlTransferSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550104)|1.0|2.0|
+|[**WdfUsbTargetDeviceSendUrbSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff550105)|1.0|
+|[**WdfUsbTargetDeviceWdmGetConfigurationHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551127)|1.0|
+|[**WdfUsbTargetPipeAbortSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551129)|1.0|2.0|
+|[**WdfUsbTargetPipeConfigContinuousReader**](https://msdn.microsoft.com/library/windows/hardware/ff551130)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForAbort**](https://msdn.microsoft.com/library/windows/hardware/ff551132)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForRead**](https://msdn.microsoft.com/library/windows/hardware/ff551136)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForReset**](https://msdn.microsoft.com/library/windows/hardware/ff551138)|1.0|2.0|
+|[**WdfUsbTargetPipeFormatRequestForUrb**](https://msdn.microsoft.com/library/windows/hardware/ff551139)|1.0|
+|[**WdfUsbTargetPipeFormatRequestForWrite**](https://msdn.microsoft.com/library/windows/hardware/ff551141)|1.0|2.0|
+|[**WdfUsbTargetPipeGetInformation**](https://msdn.microsoft.com/library/windows/hardware/ff551142)|1.0|2.0|
+|[**WdfUsbTargetPipeGetIoTarget**](https://msdn.microsoft.com/library/windows/hardware/ff551146)|1.0|2.0|
+|[**WdfUsbTargetPipeGetType**](https://msdn.microsoft.com/library/windows/hardware/ff551148)|1.0|2.0|
+|[**WdfUsbTargetPipeIsInEndpoint**](https://msdn.microsoft.com/library/windows/hardware/ff551151)|1.0|2.0|
+|[**WdfUsbTargetPipeIsOutEndpoint**](https://msdn.microsoft.com/library/windows/hardware/ff551153)|1.0|2.0|
+|[**WdfUsbTargetPipeReadSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551155)|1.0|2.0|
+|[**WdfUsbTargetPipeResetSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551156)|1.0|2.0|
+|[**WdfUsbTargetPipeSendUrbSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551158)|1.0|
+|[**WdfUsbTargetPipeSetNoMaximumPacketSizeCheck**](https://msdn.microsoft.com/library/windows/hardware/ff551160)|1.0|2.0|
+|[**WdfUsbTargetPipeWdmGetPipeHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551162)|1.0|
+|[**WdfUsbTargetPipeWriteSynchronously**](https://msdn.microsoft.com/library/windows/hardware/ff551163)|1.0|2.0|
+|[**WdfVerifierDbgBreakPoint**](https://msdn.microsoft.com/library/windows/hardware/ff551164)|1.0|2.0|
+|[**WdfVerifierKeBugCheck**](https://msdn.microsoft.com/library/windows/hardware/ff551166)|1.0|2.0|
+|[**WdfWaitLockAcquire**](https://msdn.microsoft.com/library/windows/hardware/ff551168)|1.0|2.0|
+|[**WdfWaitLockCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551171)|1.0|2.0|
+|[**WdfWaitLockRelease**](https://msdn.microsoft.com/library/windows/hardware/ff551173)|1.0|2.0|
+|[**WdfWdmDeviceGetWdfDeviceHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551175)|1.0|
+|[**WdfWdmDriverGetWdfDriverHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551176)|1.0|
+|[**WdfWmiInstanceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551178)|1.0|
+|[**WdfWmiInstanceDeregister**](https://msdn.microsoft.com/library/windows/hardware/ff551179)|1.0|
+|[**WdfWmiInstanceFireEvent**](https://msdn.microsoft.com/library/windows/hardware/ff551182)|1.0|
+|[**WdfWmiInstanceGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff551184)|1.0|
+|[**WdfWmiInstanceGetProvider**](https://msdn.microsoft.com/library/windows/hardware/ff551187)|1.0|
+|[**WdfWmiInstanceRegister**](https://msdn.microsoft.com/library/windows/hardware/ff551190)|1.0|
+|[**WdfWmiProviderCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551193)|1.0|
+|[**WdfWmiProviderGetDevice**](https://msdn.microsoft.com/library/windows/hardware/ff551195)|1.0|
+|[**WdfWmiProviderGetTracingHandle**](https://msdn.microsoft.com/library/windows/hardware/ff551198)|1.0|
+|[**WdfWmiProviderIsEnabled**](https://msdn.microsoft.com/library/windows/hardware/ff551200)|1.0|
+|[**WdfWorkItemCreate**](https://msdn.microsoft.com/library/windows/hardware/ff551201)|1.0|2.0|
+|[**WdfWorkItemEnqueue**](https://msdn.microsoft.com/library/windows/hardware/ff551203)|1.0|2.0|
+|[**WdfWorkItemFlush**](https://msdn.microsoft.com/library/windows/hardware/ff551204)|1.0|2.0|
+|[**WdfWorkItemGetParentObject**](https://msdn.microsoft.com/library/windows/hardware/ff551207)|1.0|2.0|

@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WdfDeviceRetrieveCompanionTarget
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

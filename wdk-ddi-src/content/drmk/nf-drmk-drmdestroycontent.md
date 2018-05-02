@@ -39,7 +39,8 @@ api_location:
 -	Drmk.dll
 api_name:
 -	DrmDestroyContent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

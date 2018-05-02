@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.ReadBusData
 -	IDebugDataSpaces3.ReadBusData
 -	IDebugDataSpaces4.ReadBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

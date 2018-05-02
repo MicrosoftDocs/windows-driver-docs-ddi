@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_EVENT_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
 ---

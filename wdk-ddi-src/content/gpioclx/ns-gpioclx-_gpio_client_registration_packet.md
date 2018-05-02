@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_CLIENT_REGISTRATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_CLIENT_REGISTRATION_PACKET, *PGPIO_CLIENT_REGISTRATION_PACKET
 ---

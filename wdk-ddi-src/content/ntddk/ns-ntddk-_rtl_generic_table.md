@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	RTL_GENERIC_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RTL_GENERIC_TABLE
 ---

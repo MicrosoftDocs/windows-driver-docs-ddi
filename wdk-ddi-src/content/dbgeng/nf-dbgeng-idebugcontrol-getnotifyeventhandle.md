@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetNotifyEventHandle
 -	IDebugControl2.GetNotifyEventHandle
 -	IDebugControl3.GetNotifyEventHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

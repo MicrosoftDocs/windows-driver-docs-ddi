@@ -40,7 +40,8 @@ api_name:
 -	IDebugClient3.CreateProcessWide
 -	IDebugClient4.CreateProcessWide
 -	IDebugClient5.CreateProcessWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

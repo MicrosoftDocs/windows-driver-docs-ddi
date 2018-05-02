@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	POINTER_SEARCH_PHYSICAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POINTER_SEARCH_PHYSICAL, *PPOINTER_SEARCH_PHYSICAL
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Evntrace.h
 api_name:
 -	EVENT_TRACE_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
 ---

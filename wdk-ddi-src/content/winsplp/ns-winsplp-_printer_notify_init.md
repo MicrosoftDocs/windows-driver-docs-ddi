@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	PRINTER_NOTIFY_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, *LPPRINTER_NOTIFY_INIT
 ---

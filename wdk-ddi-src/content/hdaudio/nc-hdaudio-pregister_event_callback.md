@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	RegisterEventCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

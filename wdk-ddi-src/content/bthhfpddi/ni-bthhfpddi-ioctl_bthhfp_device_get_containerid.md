@@ -38,7 +38,8 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

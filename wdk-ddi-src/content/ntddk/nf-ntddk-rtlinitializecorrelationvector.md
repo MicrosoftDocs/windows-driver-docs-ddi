@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitializeCorrelationVector
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

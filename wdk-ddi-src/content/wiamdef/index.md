@@ -2,7 +2,7 @@
 UID: NA:wiamdef
 ms.assetid: d89bcd90-a043-33c1-b090-5984bd2940ed
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Imaging devices. For more information, see
+
+
+This header is used by image. For more information, see:
+
 - [Imaging devices](../_image/index.md)
 
 The Windows Image Acquisition (WIA) driver services library is a system-supplied component that provides helper functions for WIA minidrivers. A minidriver can call driver services library helper functions to perform tasks such as the following:

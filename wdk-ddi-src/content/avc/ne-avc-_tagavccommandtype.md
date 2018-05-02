@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AvcCommandType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AvcCommandType
 ---
@@ -99,4 +100,5 @@ Specifies a general inquiry command type. This permits a controller to query a t
  
 
  
+
 

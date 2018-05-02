@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	OFFLOAD_ALGO_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
 ---

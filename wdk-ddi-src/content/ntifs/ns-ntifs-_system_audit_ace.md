@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SYSTEM_AUDIT_ACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_AUDIT_ACE
 ---

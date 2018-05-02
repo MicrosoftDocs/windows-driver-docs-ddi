@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_SECURITY_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SECURITY_CONTEXT, *PIO_SECURITY_CONTEXT
 ---

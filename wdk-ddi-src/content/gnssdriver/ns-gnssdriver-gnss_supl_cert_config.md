@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_CERT_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KBUGCHECK_SECONDARY_DUMP_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA
 ---

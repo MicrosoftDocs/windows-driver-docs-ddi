@@ -40,7 +40,8 @@ api_name:
 -	IDebugSystemObjects2.SetImplicitProcessDataOffset
 -	IDebugSystemObjects3.SetImplicitProcessDataOffset
 -	IDebugSystemObjects4.SetImplicitProcessDataOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UcmTcpciPortControllerAlert
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	MiniportTcpOffloadReceiveReturn
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

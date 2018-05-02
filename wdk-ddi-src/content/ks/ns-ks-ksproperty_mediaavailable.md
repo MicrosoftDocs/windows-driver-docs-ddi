@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_MEDIAAVAILABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE
 ---

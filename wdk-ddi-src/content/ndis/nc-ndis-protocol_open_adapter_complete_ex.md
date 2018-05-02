@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolOpenAdapterCompleteEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

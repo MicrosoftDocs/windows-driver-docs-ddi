@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	BMP_IMAGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 ---

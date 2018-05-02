@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 ---

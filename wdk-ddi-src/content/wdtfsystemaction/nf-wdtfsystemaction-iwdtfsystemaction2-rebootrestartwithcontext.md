@@ -38,7 +38,8 @@ api_location:
 -	WDTFSystemAction.Interop.dll
 api_name:
 -	IWDTFSystemAction2.RebootRestartWithContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

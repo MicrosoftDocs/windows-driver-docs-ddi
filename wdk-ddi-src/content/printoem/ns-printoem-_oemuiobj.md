@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUIOBJ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMUIOBJ, *POEMUIOBJ
 ---

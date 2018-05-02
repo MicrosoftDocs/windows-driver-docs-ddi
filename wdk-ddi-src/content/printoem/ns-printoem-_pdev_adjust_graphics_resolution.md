@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PDEV_ADJUST_GRAPHICS_RESOLUTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDEV_ADJUST_GRAPHICS_RESOLUTION, *PPDEV_ADJUST_GRAPHICS_RESOLUTION
 ---

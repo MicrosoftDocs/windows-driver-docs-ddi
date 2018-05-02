@@ -38,7 +38,8 @@ api_location:
 -	wdtf.h
 api_name:
 -	IWDTFActions2.EnableObjectLogging
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

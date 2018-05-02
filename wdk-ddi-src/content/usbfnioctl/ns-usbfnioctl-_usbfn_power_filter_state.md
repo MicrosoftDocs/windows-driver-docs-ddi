@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	USBFN_POWER_FILTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
 ---

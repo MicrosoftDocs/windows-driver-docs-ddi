@@ -38,7 +38,8 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_SCSI_RESCAN_BUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

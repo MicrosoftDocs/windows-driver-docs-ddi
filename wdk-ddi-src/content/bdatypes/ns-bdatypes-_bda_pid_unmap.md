@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_PID_UNMAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_PID_UNMAP, *PBDA_PID_UNMAP
 ---

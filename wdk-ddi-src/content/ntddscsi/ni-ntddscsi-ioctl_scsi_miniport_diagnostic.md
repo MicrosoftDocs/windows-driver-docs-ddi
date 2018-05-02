@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	IOCTL_SCSI_MINIPORT_DIAGNOSTIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	POOL_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POOL_TYPE
 ---
@@ -219,4 +220,6 @@ Reserved for exclusive use by the operating system.
  
 
  
+
+
 

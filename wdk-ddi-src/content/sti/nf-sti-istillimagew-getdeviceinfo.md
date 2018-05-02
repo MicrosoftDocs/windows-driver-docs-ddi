@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.GetDeviceInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

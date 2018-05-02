@@ -38,7 +38,8 @@ api_location:
 -	Ucxendpoint.h
 api_name:
 -	UCX_ENDPOINT_CHARACTERISTIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC
 ---

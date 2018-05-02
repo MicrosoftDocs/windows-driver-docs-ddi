@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlIntegerToUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -188,4 +189,6 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
  
 
  
+
+
 

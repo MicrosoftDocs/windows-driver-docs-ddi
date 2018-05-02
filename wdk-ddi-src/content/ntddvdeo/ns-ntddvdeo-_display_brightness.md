@@ -38,7 +38,8 @@ api_location:
 -	ntddvdeo.h
 api_name:
 -	DISPLAY_BRIGHTNESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS
 ---

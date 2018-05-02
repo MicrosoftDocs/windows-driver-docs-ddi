@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_STREAM_DATA_OFFSET0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_STREAM_DATA_OFFSET0
 ---

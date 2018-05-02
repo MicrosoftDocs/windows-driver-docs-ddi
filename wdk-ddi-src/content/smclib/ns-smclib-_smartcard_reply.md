@@ -38,7 +38,8 @@ api_location:
 -	Smclib.h
 api_name:
 -	SMARTCARD_REPLY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
 ---

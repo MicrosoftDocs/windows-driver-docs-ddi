@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_CHANNEL_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE
 ---

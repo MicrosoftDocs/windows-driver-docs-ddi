@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetCodeLevel
 -	IDebugControl2.SetCodeLevel
 -	IDebugControl3.SetCodeLevel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSAUTOMATION_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUTOMATION_TABLE, *PKSAUTOMATION_TABLE
 ---

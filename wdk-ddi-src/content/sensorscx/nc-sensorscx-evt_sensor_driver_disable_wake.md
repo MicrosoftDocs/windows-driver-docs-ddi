@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "_requires_same_"
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EVT_SENSOR_DRIVER_DISABLE_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Callback to disable wake for the sensor. 
+Callback to disable wake for the sensor.
 
 
 ## -parameters
@@ -57,9 +58,9 @@ Callback to disable wake for the sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to the sensor object
+A reference to the sensor object.
 
 
 ## -returns

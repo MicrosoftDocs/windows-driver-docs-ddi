@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIATYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIATYPE
 ---

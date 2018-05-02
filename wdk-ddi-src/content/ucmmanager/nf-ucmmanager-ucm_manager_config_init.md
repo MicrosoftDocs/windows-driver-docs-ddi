@@ -38,7 +38,8 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	UCM_MANAGER_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

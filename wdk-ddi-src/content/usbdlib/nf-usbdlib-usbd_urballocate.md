@@ -39,7 +39,8 @@ api_location:
 -	Usbdex.dll
 api_name:
 -	USBD_UrbAllocate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -100,7 +101,7 @@ You must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406
 
 #### Examples
 
-The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously.
+The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously. For the implementation of the SubmitUrbSync function, see the example section in [How to Submit an URB](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/send-requests-to-the-usb-driver-stack).
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

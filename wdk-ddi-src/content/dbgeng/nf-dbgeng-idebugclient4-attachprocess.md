@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.AttachProcess
 -	IDebugClient4.AttachProcess
 -	IDebugClient5.AttachProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

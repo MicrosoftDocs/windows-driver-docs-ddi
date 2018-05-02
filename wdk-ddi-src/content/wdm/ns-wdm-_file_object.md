@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_OBJECT, *PFILE_OBJECT
 ---

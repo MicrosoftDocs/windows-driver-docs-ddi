@@ -39,7 +39,8 @@ api_location:
 -	nfccxstub.dll
 api_name:
 -	NFC_CX_RF_DISCOVERY_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

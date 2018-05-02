@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGK_MONITORLINKINFO_USAGEHINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO_USAGEHINTS, *PDXGK_MONITORLINKINFO_USAGEHINTS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_DRIVER_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DRIVER_CAPS, *PNDIS_WWAN_DRIVER_CAPS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
 ---

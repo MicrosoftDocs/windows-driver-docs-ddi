@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSWAVE_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSWAVE_BUFFER, *PKSWAVE_BUFFER
 ---

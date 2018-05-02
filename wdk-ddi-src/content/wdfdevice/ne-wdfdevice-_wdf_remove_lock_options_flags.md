@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_REMOVE_LOCK_OPTIONS_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REMOVE_LOCK_OPTIONS_FLAGS
 ---

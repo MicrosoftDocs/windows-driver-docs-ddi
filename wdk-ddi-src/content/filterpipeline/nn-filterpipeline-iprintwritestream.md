@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintWriteStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

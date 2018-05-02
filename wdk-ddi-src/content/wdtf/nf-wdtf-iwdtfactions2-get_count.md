@@ -37,8 +37,10 @@ api_type:
 api_location:
 -	wdtf.h
 api_name:
--	IWDTFActions2.Count
-product: Windows
+-	IWDTFDeviceDepot2.Count
+-	IWDTFDeviceDepot2.get_Count
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -80,4 +82,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
  
 
  
+
 

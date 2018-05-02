@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnAllocateCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

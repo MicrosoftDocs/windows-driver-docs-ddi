@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SetRNIDMgmtInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

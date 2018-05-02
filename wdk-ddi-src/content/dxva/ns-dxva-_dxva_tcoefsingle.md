@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_TCoefSingle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_TCoefSingle, *LPDXVA_TCoefSingle
 ---

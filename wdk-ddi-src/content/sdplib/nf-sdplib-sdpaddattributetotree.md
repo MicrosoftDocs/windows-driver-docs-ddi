@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpAddAttributeToTree
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_CIPHER_ALGORITHM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_ALGORITHM
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetFCPStatistics
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

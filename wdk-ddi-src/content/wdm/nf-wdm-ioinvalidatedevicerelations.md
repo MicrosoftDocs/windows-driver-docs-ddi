@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoInvalidateDeviceRelations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdftimer.h
 api_name:
 -	WDF_TIMER_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
 ---

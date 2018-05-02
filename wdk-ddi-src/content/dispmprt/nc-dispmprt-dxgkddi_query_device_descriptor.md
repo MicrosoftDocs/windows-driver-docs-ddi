@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiQueryDeviceDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

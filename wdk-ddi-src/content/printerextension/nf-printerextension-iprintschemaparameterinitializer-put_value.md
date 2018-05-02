@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaParameterInitializer.Value
 -	IPrintSchemaParameterInitializer.put_Value
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	EvtSpbControllerIoRead
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

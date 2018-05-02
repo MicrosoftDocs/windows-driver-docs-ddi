@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	*NDIS_PD_FLUSH_QUEUE_HANDLER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

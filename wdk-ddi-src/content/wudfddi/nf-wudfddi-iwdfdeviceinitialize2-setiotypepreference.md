@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDeviceInitialize2.SetIoTypePreference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

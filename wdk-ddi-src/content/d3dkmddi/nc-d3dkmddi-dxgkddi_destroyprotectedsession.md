@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_DESTROYPROTECTEDSESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

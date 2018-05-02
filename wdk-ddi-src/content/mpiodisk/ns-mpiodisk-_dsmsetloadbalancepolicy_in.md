@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	DsmSetLoadBalancePolicy_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN
 ---

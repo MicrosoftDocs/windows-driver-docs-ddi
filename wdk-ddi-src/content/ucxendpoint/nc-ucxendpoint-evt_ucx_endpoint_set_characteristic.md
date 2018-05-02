@@ -38,7 +38,8 @@ api_location:
 -	Ucxendpoint.h
 api_name:
 -	EvtUcxEndpointSetCharacteristic
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

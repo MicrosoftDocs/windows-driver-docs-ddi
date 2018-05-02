@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DC_OPEN_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA
 ---

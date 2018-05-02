@@ -38,7 +38,8 @@ api_location:
 -	wdfchildlist.h
 api_name:
 -	WDF_RETRIEVE_CHILD_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 ---

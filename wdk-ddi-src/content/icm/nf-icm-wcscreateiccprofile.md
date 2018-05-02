@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsCreateIccProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

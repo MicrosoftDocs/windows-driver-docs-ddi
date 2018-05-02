@@ -38,7 +38,8 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_DISCONNECT_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortWavePciStream.ReleaseMapping
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

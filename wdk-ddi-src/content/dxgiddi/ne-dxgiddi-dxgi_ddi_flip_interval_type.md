@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_FLIP_INTERVAL_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_FLIP_INTERVAL_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	OFFLOAD_SECURITY_ASSOCIATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

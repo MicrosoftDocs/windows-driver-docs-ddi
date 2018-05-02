@@ -39,7 +39,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	WRITE_PORT_BUFFER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

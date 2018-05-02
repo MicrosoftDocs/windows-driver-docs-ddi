@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_NUMBER, *PFEATURE_NUMBER
 ---

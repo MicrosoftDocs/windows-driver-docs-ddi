@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	HwVidTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

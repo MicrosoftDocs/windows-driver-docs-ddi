@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.StartProcessServer
 -	IDebugClient4.StartProcessServer
 -	IDebugClient5.StartProcessServer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

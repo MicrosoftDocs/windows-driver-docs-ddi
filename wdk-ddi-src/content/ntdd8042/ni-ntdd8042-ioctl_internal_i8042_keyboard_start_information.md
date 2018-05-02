@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

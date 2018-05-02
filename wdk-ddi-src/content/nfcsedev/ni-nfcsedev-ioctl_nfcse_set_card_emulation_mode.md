@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_SET_CARD_EMULATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,7 +39,8 @@ api_location:
 -	ucmtcpcicxstub.dll
 api_name:
 -	UcmTcpciDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	RECORDER_LOG_CREATE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	WDTFSystemAction.Interop.dll
 api_name:
 -	IWDTFSystemAction2.PowerTracingStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

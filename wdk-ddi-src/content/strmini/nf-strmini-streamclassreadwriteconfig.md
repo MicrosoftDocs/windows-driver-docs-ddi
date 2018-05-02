@@ -39,7 +39,8 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassReadWriteConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

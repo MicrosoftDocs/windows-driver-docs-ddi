@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	IOCTL_ACPI_ASYNC_EVAL_METHOD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

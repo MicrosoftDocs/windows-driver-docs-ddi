@@ -38,7 +38,8 @@ api_location:
 -	Pshed.dll
 api_name:
 -	PshedRegisterPlugin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

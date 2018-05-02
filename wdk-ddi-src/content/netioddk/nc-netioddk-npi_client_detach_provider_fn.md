@@ -38,7 +38,8 @@ api_location:
 -	netioddk.h
 api_name:
 -	PNPI_CLIENT_DETACH_PROVIDER_FN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

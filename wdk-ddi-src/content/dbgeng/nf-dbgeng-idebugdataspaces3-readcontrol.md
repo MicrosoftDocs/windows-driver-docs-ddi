@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.ReadControl
 -	IDebugDataSpaces3.ReadControl
 -	IDebugDataSpaces4.ReadControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

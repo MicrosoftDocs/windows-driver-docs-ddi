@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwRecoverEnlistment
 -	NtRecoverEnlistment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

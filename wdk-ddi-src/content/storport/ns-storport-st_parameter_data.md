@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	ST_PARAMETER_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
 ---

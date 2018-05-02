@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCONFPARTICIPANTSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS
 ---

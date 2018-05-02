@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl2.SendRecvXMLString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

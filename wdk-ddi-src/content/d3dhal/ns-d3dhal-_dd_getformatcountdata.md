@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	DD_GETFORMATCOUNTDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_GETFORMATCOUNTDATA
 ---

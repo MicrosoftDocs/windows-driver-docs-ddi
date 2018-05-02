@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	TCP_OFFLOAD_STATE_CACHED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATE_CACHED, *PTCP_OFFLOAD_STATE_CACHED
 ---

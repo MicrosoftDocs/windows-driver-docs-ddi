@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlIntPtrToUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -141,4 +142,6 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5648
  
 
  
+
+
 

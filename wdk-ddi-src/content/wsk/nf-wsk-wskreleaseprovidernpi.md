@@ -39,7 +39,8 @@ api_location:
 -	Netio.dll
 api_name:
 -	WskReleaseProviderNPI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

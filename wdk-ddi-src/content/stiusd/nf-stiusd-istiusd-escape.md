@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.Escape
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_CONTINUOUS_READER_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG
 ---

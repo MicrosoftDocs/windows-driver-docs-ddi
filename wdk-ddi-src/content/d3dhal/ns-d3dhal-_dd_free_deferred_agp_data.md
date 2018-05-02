@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	DD_FREE_DEFERRED_AGP_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_FREE_DEFERRED_AGP_DATA
 ---

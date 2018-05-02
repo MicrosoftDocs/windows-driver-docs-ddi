@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DxgkDdiUnload
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

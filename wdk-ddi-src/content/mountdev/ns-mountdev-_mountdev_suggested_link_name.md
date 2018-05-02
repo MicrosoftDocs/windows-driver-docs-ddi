@@ -38,7 +38,8 @@ api_location:
 -	mountdev.h
 api_name:
 -	MOUNTDEV_SUGGESTED_LINK_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME
 ---

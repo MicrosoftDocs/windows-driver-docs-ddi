@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfTimerStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -78,12 +79,11 @@ If the value is negative, the time period is relative to the current system time
 <li>If the value is positive, the time period specifies an absolute time (which is actually relative to January 1, 1601).</li>
 </ul>
 
+[!Warning]  If you set the **UseHighResolutionTimer** member of  [WDF_TIMER_CONFIG](ns-wdftimer-_wdf_timer_config.md) to **WdfTrue**, you must call **WdfTimerStart** with the *DueTime* parameter set to a negative value.  Otherwise, the call causes the system to crash.
 
-<div class="alert"><b>Warning</b>  If you set the <b>UseHighResolutionTimer</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552519">WDF_TIMER_CONFIG</a> to <b>WdfTrue</b>, you must call <b>WdfTimerStart</b> with the <i>DueTime</i> parameter set to a negative value.  Otherwise, the call causes the system to crash.</div>
-<div> </div>
 Relative times are not affected by any changes to the system time that might occur within the specified time period. Absolute times do reflect system time changes.
 
-The framework provides <a href="https://msdn.microsoft.com/E7D5564D-7BAA-412E-959F-3655B963B4C1">time conversion functions</a> that convert time values into system time units.
+The framework provides [time conversion functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdftimer/) that convert time values into system time units.
 
 
 

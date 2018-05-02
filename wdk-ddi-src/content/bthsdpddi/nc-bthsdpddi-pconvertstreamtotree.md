@@ -38,7 +38,8 @@ api_location:
 -	BthSdpddi.h
 api_name:
 -	SdpConvertStreamToTree
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

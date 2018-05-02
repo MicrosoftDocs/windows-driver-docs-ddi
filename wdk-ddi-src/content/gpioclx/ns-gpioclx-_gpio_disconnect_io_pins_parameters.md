@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_DISCONNECT_IO_PINS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS
 ---

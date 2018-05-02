@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_QUERY_SOC_SUBSYSTEM_COUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_SOC_SUBSYSTEM_COUNT, *PPEP_QUERY_SOC_SUBSYSTEM_COUNT
 ---

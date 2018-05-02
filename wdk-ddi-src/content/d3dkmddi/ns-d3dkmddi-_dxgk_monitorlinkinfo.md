@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MONITORLINKINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO
 ---
@@ -59,10 +60,14 @@ This structure was defined in WDDM 2.1, however the usage hints and capabilities
 
 ### -field UsageHints
 
-Hints to the driver on the intended usage of the display device.
+[in] Hints to the driver on the intended usage of the display device.
 
 
 ### -field Capabilities
 
-Flags which describe the capabilities for driving the monitor.
+[out] Flags which describe the capabilities for driving the monitor.
 
+
+### -field DitheringSupport
+
+[out] A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE field containing the flags for each wire-format. The driver should set the wire-format bit for each format where the driver and hardware supports dithering beneficial to image quality when the source pixel format contains is higher precision that than the wire-format.

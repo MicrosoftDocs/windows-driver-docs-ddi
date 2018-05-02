@@ -38,8 +38,9 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	ISensorClassExtension.Uninitialize
-product: Windows
+-	Uninitialize
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

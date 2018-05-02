@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_FORMAT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FORMAT_INFO, *PAVCSTRM_FORMAT_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdtfpnpaction.h
 api_name:
 -	IWDTFPNPActions2.EDTTryStopDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

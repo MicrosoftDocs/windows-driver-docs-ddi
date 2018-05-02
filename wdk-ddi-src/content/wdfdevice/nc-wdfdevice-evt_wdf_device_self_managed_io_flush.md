@@ -38,7 +38,8 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceSelfManagedIoFlush
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

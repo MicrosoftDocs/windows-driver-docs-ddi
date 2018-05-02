@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

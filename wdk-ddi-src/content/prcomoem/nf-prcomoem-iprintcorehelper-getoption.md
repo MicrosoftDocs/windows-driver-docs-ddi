@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelper.GetOption
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

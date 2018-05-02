@@ -38,7 +38,8 @@ api_location:
 -	tcpxcv.h
 api_name:
 -	CONFIG_INFO_DATA_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1
 ---

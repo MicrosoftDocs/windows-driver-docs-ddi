@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

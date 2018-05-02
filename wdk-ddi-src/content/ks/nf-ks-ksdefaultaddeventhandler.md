@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDefaultAddEventHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

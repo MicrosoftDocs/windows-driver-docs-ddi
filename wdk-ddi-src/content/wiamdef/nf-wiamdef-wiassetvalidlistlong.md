@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasSetValidListLong
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

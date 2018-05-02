@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	MP_STORAGE_DIAGNOSTIC_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL
 ---

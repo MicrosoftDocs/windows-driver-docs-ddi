@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	KEY_CACHED_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_CACHED_INFORMATION, *PKEY_CACHED_INFORMATION
 ---

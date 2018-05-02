@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	InitializeObjectAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -229,4 +230,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
  
 
  
+
+
 

@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FinalizeErrorRecord
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

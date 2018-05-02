@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_EVENT_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_AUTH_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_SWITCH_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS
 ---

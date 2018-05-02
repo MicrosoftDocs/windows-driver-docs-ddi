@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_REGISTER_ULONG64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

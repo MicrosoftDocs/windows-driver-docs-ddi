@@ -38,7 +38,8 @@ api_location:
 -	wiamdef.h
 api_name:
 -	WIAS_ASSERT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_PLATFORM_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
 ---

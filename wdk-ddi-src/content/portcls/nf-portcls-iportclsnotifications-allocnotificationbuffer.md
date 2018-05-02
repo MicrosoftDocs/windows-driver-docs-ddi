@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	IPortClsNotifications.AllocNotificationBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

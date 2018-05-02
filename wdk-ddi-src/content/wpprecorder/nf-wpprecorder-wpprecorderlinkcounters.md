@@ -38,7 +38,8 @@ api_location:
 -	wpprecorder.h
 api_name:
 -	imp_WppRecorderLinkCounters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

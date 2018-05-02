@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IAdapterPowerManagement.PowerChangeState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

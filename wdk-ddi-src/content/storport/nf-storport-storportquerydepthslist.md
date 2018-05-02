@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortQueryDepthSList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	ENDPOINT_RESET_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ENDPOINT_RESET_FLAGS
 ---

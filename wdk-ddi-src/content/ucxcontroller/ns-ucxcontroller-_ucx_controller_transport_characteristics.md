@@ -38,7 +38,8 @@ api_location:
 -	UcxController.h
 api_name:
 -	UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 ---

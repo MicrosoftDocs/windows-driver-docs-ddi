@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_XPF_CONTEXT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO
 ---

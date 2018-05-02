@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NEIGHBOR_OFFLOAD_STATE_CONST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NEIGHBOR_OFFLOAD_STATE_CONST, *PNEIGHBOR_OFFLOAD_STATE_CONST
 ---

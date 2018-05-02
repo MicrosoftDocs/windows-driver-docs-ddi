@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PSCRIPT5_PRIVATE_DEVMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE
 ---

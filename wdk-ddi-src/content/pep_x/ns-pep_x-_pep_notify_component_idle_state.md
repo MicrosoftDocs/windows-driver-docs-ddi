@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_NOTIFY_COMPONENT_IDLE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_NOTIFY_COMPONENT_IDLE_STATE, *PPEP_NOTIFY_COMPONENT_IDLE_STATE
 ---

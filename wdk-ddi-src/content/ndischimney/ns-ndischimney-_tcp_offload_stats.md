@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	TCP_OFFLOAD_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
 ---

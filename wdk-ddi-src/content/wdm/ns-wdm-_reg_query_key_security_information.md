@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	REG_QUERY_KEY_SECURITY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_QUERY_KEY_SECURITY_INFORMATION, *PREG_QUERY_KEY_SECURITY_INFORMATION
 ---

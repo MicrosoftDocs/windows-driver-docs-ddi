@@ -38,8 +38,9 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	ISensorDriver.OnGetProperties
-product: Windows
+-	OnGetProperties
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

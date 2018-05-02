@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSVPSURFACEPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS
 ---

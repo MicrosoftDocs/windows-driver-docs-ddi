@@ -38,7 +38,8 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

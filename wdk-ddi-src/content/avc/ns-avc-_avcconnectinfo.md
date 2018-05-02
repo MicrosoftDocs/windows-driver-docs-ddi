@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVCCONNECTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCCONNECTINFO, *PAVCCONNECTINFO
 ---
@@ -105,4 +106,5 @@ This structure is used only as member inside the <a href="https://msdn.microsoft
  
 
  
+
 

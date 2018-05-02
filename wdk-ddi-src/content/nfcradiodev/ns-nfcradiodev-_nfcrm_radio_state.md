@@ -38,7 +38,8 @@ api_location:
 -	nfcradiodev.h
 api_name:
 -	NFCRM_RADIO_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE
 ---

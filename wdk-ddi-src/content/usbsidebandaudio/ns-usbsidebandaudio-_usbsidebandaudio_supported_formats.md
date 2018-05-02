@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_SUPPORTED_FORMATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_SUPPORTED_FORMATS, *PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS
 ---

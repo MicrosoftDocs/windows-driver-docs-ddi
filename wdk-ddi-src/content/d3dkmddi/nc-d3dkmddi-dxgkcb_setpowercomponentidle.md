@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DxgkCbSetPowerComponentIdle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DevicePowerNotRequiredCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -149,4 +150,6 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
  
 
  
+
+
 

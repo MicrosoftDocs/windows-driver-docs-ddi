@@ -38,7 +38,8 @@ api_location:
 -	ufxproprietarycharger.h
 api_name:
 -	PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSETCALLFORWARDINGSTATUSPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETCALLFORWARDINGSTATUSPARAMS, *LPRILSETCALLFORWARDINGSTATUSPARAMS
 ---

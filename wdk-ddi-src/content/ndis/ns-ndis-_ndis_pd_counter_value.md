@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NDIS_PD_COUNTER_VALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PD_COUNTER_VALUE, *PNDIS_PD_COUNTER_VALUE
 ---

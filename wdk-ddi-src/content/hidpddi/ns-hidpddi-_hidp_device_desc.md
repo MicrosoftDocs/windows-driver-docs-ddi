@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_DEVICE_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC
 ---

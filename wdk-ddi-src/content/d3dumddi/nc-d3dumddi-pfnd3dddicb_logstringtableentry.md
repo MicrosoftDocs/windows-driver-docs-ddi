@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	LogMarkerStringTableEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

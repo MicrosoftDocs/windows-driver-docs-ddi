@@ -39,7 +39,8 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbRequestCaptureIoOtherTransferList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

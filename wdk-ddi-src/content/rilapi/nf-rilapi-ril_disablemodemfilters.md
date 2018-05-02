@@ -38,7 +38,8 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_DisableModemFilters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

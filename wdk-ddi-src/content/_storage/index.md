@@ -2,7 +2,7 @@
 UID: TP:storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,11 +12,14 @@ ms.topic: portal
 # Storage
 
 
+
 Overview of the Storage technology.
 
 To develop Storage, you need these headers:
 
  * [ata.h](..\ata\index.md)
+ * [classpnp.h](..\classpnp\index.md)
+ * [dsm.h](..\dsm\index.md)
  * [ehstorbandmgmt.h](..\ehstorbandmgmt\index.md)
  * [ehstorioctl.h](..\ehstorioctl\index.md)
  * [hbaapi.h](..\hbaapi\index.md)
@@ -29,6 +32,7 @@ To develop Storage, you need these headers:
  * [iscsiop.h](..\iscsiop\index.md)
  * [iscsiprf.h](..\iscsiprf\index.md)
  * [mcd.h](..\mcd\index.md)
+ * [miniport.h](..\miniport\index.md)
  * [minitape.h](..\minitape\index.md)
  * [mountdev.h](..\mountdev\index.md)
  * [mountmgr.h](..\mountmgr\index.md)
@@ -40,20 +44,20 @@ To develop Storage, you need these headers:
  * [ntddchgr.h](..\ntddchgr\index.md)
  * [ntdddisk.h](..\ntdddisk\index.md)
  * [ntdddump.h](..\ntdddump\index.md)
- * [ntddk.h](..\ntddk\index.md)
  * [ntddmmc.h](..\ntddmmc\index.md)
  * [ntddscsi.h](..\ntddscsi\index.md)
  * [ntddstor.h](..\ntddstor\index.md)
  * [ntddtape.h](..\ntddtape\index.md)
  * [ntddvol.h](..\ntddvol\index.md)
+ * [nvme.h](..\nvme\index.md)
  * [scsi.h](..\scsi\index.md)
  * [scsiwmi.h](..\scsiwmi\index.md)
  * [srb.h](..\srb\index.md)
  * [storduid.h](..\storduid\index.md)
  * [storport.h](..\storport\index.md)
- * [strmini.h](..\strmini\index.md)
+ * [storswtr.h](..\storswtr\index.md)
+ * [stortrce.h](..\stortrce\index.md)
  * [ufs.h](..\ufs\index.md)
- * [wmidata.h](..\wmidata\index.md)
 
 For the programming guide, see [Storage](https://docs.microsoft.com/en-us/windows-hardware/drivers/storage).
 
@@ -202,14 +206,6 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [HBA_SetBindingSupport function](..\hbaapi\nf-hbaapi-hba_setbindingsupport.md) | The HBA_SetBindingSupport routine enables the indicated set of capabilities on the adapter. |
 | [HBA_SetPersistentBindingV2 function](..\hbaapi\nf-hbaapi-hba_setpersistentbindingv2.md) | The HBA_SetPersistentBindingV2 routine establishes a set of bindings between operating system and fibre channel protocol (FCP) identifiers for the logical units that the HBA can enumerate on the specified port. |
 | [HBA_SetRNIDMgmtInfo function](..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md) | The HBA_SetRNIDMgmtInfo routine programs the HBA to return the indicated request node identification information data (RNID). |
-| [IoCreateDisk function](..\ntddk\nf-ntddk-iocreatedisk.md) | The IoCreateDisk routine initializes a raw disk by creating a new partition table. |
-| [IoReadDiskSignature function](..\ntddk\nf-ntddk-ioreaddisksignature.md) | The IoReadDiskSignature routine reads the disk signature information for the partition table of a disk. |
-| [IoReadPartitionTable function](..\ntddk\nf-ntddk-ioreadpartitiontable.md) | The IoReadPartitionTable routine is obsolete and is provided only to support existing drivers. |
-| [IoReadPartitionTableEx function](..\ntddk\nf-ntddk-ioreadpartitiontableex.md) | The IoReadPartitionTableEx routine reads a list of partitions on a disk having a specified sector size and creates an entry in the partition list for each recognized partition. |
-| [IoSetPartitionInformation function](..\ntddk\nf-ntddk-iosetpartitioninformation.md) | The IoSetPartitionInformation routine is obsolete and is provided only to support existing drivers. |
-| [IoSetPartitionInformationEx function](..\ntddk\nf-ntddk-iosetpartitioninformationex.md) | For the disk represented by DeviceObject, the IoSetPartitionInformationEx routine initializes a partition table entry with the information specified in the SET_PARTITION_INFORMATION_EX structure. |
-| [IoWritePartitionTable function](..\ntddk\nf-ntddk-iowritepartitiontable.md) | The IoWritePartitionTable routine is obsolete and is provided only to support existing drivers. |
-| [IoWritePartitionTableEx function](..\ntddk\nf-ntddk-iowritepartitiontableex.md) | The IoWritePartitionTableEx routine writes partition tables from the entries in the partition list buffer for each partition on the disk represented by the given device object. |
 | [ScsiDebugPrint function](..\minitape\nf-minitape-scsidebugprint.md) | The ScsiDebugPrint routine prints debug information with a level of verbosity based on global values set in the kernel debugger or set in the registry and initialized when the system boots. |
 | [ScsiDebugPrint function](..\srb\nf-srb-scsidebugprint.md) | The ScsiDebugPrint routine prints debug information with a level of verbosity based on global values set in the kernel debugger or set in the registry and initialized when the system boots. |
 | [ScsiPortCompleteRequest function](..\srb\nf-srb-scsiportcompleterequest.md) | The ScsiPortCompleteRequest routine completes all of the active requests for the given SCSI bus, controller, or LU, including a request being processed by the calling miniport driver routine.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. |
@@ -362,7 +358,7 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [StorPortRegistryRead function](..\storport\nf-storport-storportregistryread.md) | The StorPortRegistryRead routine reads the registry data for the indicated device and value. |
 | [StorPortRegistryReadAdapterKey function](..\storport\nf-storport-storportregistryreadadapterkey.md) | The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... |
 | [StorPortRegistryWrite function](..\storport\nf-storport-storportregistrywrite.md) | The StorPortRegistryWrite routine is called by the miniport driver to convert the registry data contained in a specified buffer from ASCII to Unicode and to then write the data to the miniport driver's per-HBA storage area. |
-| [StorPortRegistryWriteAdapterKey function](..\storport\nf-storport-storportregistrywriteadapterkey.md) | The StorPortRegistryWriteAdapterKey routine is called by the miniport driver to write the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... |
+| [StorPortRegistryWriteAdapterKey function](..\storport\nf-storport-storportregistrywriteadapterkey.md) | The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... |
 | [StorPortReleaseMSISpinLock function](..\storport\nf-storport-storportreleasemsispinlock.md) | The StorPortReleaseMSISpinLock routine releases a previously acquired message signaled interrupt (MSI) spin lock for the specified message. |
 | [StorPortReleaseSpinLock function](..\storport\nf-storport-storportreleasespinlock.md) | The StorPortReleaseSpinLock routine releases a spinlock acquired by StorPortAcquireSpinLock. |
 | [StorPortRequestTimer function](..\storport\nf-storport-storportrequesttimer.md) | Schedules a callback event for a Storport timer context object. |
@@ -535,7 +531,6 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [_AACS_VOLUME_ID structure](..\ntddcdvd\ns-ntddcdvd-_aacs_volume_id.md) | The AACS_VOLUME_ID structure contains an Advanced Access Content System (AACS) volume ID and the corresponding message authentication code (MAC). |
 | [_ACCESS_RANGE structure](..\srb\ns-srb-_access_range.md) | An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. |
 | [_ACCESS_RANGE structure](..\storport\ns-storport-_access_range.md) | An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. |
-| [_ACCESS_RANGE structure](..\strmini\ns-strmini-_access_range.md) | An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. |
 | [_ATA_PASS_THROUGH_DIRECT structure](..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md) | The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded ATA command to the target device. |
 | [_ATA_PASS_THROUGH_EX structure](..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md) | The ATA_PASS_THROUGH_EX structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH request to instruct the port driver to send an embedded ATA command to the target device. |
 | [_ATA_ZONE_DESCRIPTOR structure](..\ata\ns-ata-_ata_zone_descriptor.md) | This structure is for internal use only and should not be called from your code. |
@@ -630,7 +625,6 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [_DISK_INT13_INFO structure](..\ntdddisk\ns-ntdddisk-_disk_int13_info.md) | The DISK_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an INT13 format. |
 | [_DISK_PARTITION_INFO structure](..\ntdddisk\ns-ntdddisk-_disk_partition_info.md) | The DISK_PARTITION_INFO structure is used to report information about the disk's partition table. |
 | [_DISK_PERFORMANCE structure](..\ntdddisk\ns-ntdddisk-_disk_performance.md) | The DISK_PERFORMANCE structure is used in conjunction with the IOCTL_DISK_PERFORMANCE request to collect summary disk statistics for purposes of measuring disk performance. |
-| [_DISK_SIGNATURE structure](..\ntddk\ns-ntddk-_disk_signature.md) | DISK_SIGNATURE contains the disk signature information for a disk's partition table. |
 | [_DRIVERSTATUS structure](..\ntdddisk\ns-ntdddisk-_driverstatus.md) | The DRIVERSTATUS structure is used in conjunction with the SENDCMDOUTPARAMS structure and the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command. |
 | [_DRIVE_LAYOUT_INFORMATION structure](..\ntdddisk\ns-ntdddisk-_drive_layout_information.md) | The DRIVE_LAYOUT_INFORMATION structure is obsolete and is provided only to support existing drivers. |
 | [_DRIVE_LAYOUT_INFORMATION_EX structure](..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md) | The DRIVE_LAYOUT_INFORMATION_EX structure is used to report information about the driver layout. |
@@ -748,7 +742,6 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [_HBAScsiID structure](..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md) | The HBAScsiID structure contains information generated by the operating system that uniquely identifies a logical unit. |
 | [_HW_INITIALIZATION_DATA structure](..\srb\ns-srb-_hw_initialization_data.md) | Each SCSI miniport driver's DriverEntry routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. |
 | [_HW_INITIALIZATION_DATA structure](..\storport\ns-storport-_hw_initialization_data.md) | The HW_INITIALIZATION_DATA (Storport) structure contains information particular to each miniport driver and the hardware that the miniport driver manages. |
-| [_HW_INITIALIZATION_DATA structure](..\strmini\ns-strmini-_hw_initialization_data.md) | Each SCSI miniport driver's DriverEntry routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. |
 | [_HYBRID_INFORMATION structure](..\ntddscsi\ns-ntddscsi-_hybrid_information.md) | The HYBRID_INFORMATION structure contains hybrid disk capability information. |
 | [_IDENTIFY_DEVICE_DATA structure](..\ata\ns-ata-_identify_device_data.md) | The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
 | [_IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure](..\ata\ns-ata-_identify_device_data_log_page_zoned_device_info.md) | Note  This structure is for internal use only and should not be called from your code. . |
@@ -899,7 +892,6 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [_PERSISTENT_RESERVE_COMMAND structure](..\ntddstor\ns-ntddstor-_persistent_reserve_command.md) | The PERSISTENT_RESERVE_COMMAND structure is used together with the IOCTL_STORAGE_PERSISTENT_RESERVE_IN and IOCTL_STORAGE_PERSISTENT_RESERVE_OUT requests to obtain and control information about persistent reservations and reservation keys that are active within a device server. |
 | [_PORT_CONFIGURATION_INFORMATION structure](..\srb\ns-srb-_port_configuration_information.md) | PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA. |
 | [_PORT_CONFIGURATION_INFORMATION structure](..\storport\ns-storport-_port_configuration_information.md) | PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA. |
-| [_PORT_CONFIGURATION_INFORMATION structure](..\strmini\ns-strmini-_port_configuration_information.md) | PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA. |
 | [_PingIPAddress_IN structure](..\iscsimgt\ns-iscsimgt-_pingipaddress_in.md) | The PingIPAddress_IN structure holds the input data for the PingIPAddress method. |
 | [_PingIPAddress_OUT structure](..\iscsimgt\ns-iscsimgt-_pingipaddress_out.md) | The PingIPAddress_OUT structure holds the output data for the PingIPAddress method. |
 | [_READ_ELEMENT_ADDRESS_INFO structure](..\ntddchgr\ns-ntddchgr-_read_element_address_info.md) | This structure is to retrieve changer elements based on a search criterion specified in a call to the ChangerQueryVolumeTags routine. |
@@ -1228,7 +1220,6 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [_WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure](..\minitape\ns-minitape-_windows_block_device_token_limits_descriptor.md) | The WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure is the third party copy descriptor for Windows systems. |
 | [_WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure](..\scsi\ns-scsi-_windows_block_device_token_limits_descriptor.md) | The WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure is the third party copy descriptor for Windows systems. |
 | [_WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure](..\storport\ns-storport-_windows_block_device_token_limits_descriptor.md) | The WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure is the third party copy descriptor for Windows systems. |
-| [_WMI_CHANGER_PROBLEM_DEVICE_ERROR structure](..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md) | When the ChangerPerformDiagnostics routine performs diagnostic tests on a changer device it returns the results in a WMI_CHANGER_PROBLEM_DEVICE_ERROR structure. |
 | [_ZONE_DESCRIPTIOR structure](..\minitape\ns-minitape-_zone_descriptior.md) | Note  This structure is for internal use only and should not be called from your code. . |
 | [_ZONE_DESCRIPTIOR structure](..\scsi\ns-scsi-_zone_descriptior.md) | Note  This structure is for internal use only and should not be called from your code. . |
 | [_ZONE_DESCRIPTIOR structure](..\storport\ns-storport-_zone_descriptior.md) | Note  This structure is for internal use only and should not be called from your code. . |
@@ -1259,7 +1250,17 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [IDE_CONTROL_ACTION enumeration](..\irb\ne-irb-ide_control_action.md) | The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a IdeHwControl routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
 | [IDE_DEVICE_TYPE enumeration](..\irb\ne-irb-ide_device_type.md) | The IDE_DEVICE_TYPE enumeration type indicates the device type.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
 | [IDE_POWER_STATE enumeration](..\irb\ne-irb-ide_power_state.md) | The IDE_POWER_STATE enumeration type indicates that power state of the device. |
+| [ISCSIIPADDRESSTYPE enumeration](..\iscsidef\ne-iscsidef-iscsiipaddresstype.md) | The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address. |
+| [ISCSI_ADAPTER_EVENT_CODE enumeration](..\iscsiop\ne-iscsiop-iscsi_adapter_event_code.md) | The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event. |
+| [ISCSI_AUTH_TYPES enumeration](..\iscsidef\ne-iscsidef-iscsi_auth_types.md) | The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection. |
+| [ISCSI_DIGEST_TYPES enumeration](..\iscsidef\ne-iscsidef-iscsi_digest_types.md) | The ISCSI_DIGEST_TYPES enumeration indicates the digest type. |
+| [ISCSI_ENCRYPTION_TYPES enumeration](..\iscsicfg\ne-iscsicfg-iscsi_encryption_types.md) | The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported. |
+| [ISCSI_NIC_LINKSTATE enumeration](..\iscsicfg\ne-iscsicfg-iscsi_nic_linkstate.md) | The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the network or not. |
+| [LOGINSESSIONTYPE enumeration](..\iscsiop\ne-iscsiop-loginsessiontype.md) | The LOGINSESSIONTYPE enumeration indicates the type of logon session. |
 | [SCSIWMI_ENABLE_DISABLE_CONTROL enumeration](..\scsiwmi\ne-scsiwmi-scsiwmi_enable_disable_control.md) | The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable. |
+| [STOR_POWER_ACTION enumeration](..\minitape\ne-minitape-stor_power_action.md) | The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. |
+| [STOR_POWER_ACTION enumeration](..\srb\ne-srb-stor_power_action.md) | The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. |
+| [STOR_POWER_ACTION enumeration](..\storport\ne-storport-stor_power_action.md) | The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. |
 | [UFS_ATTRIBUTES_DESCRIPTOR enumeration](..\ufs\ne-ufs-ufs_attributes_descriptor.md) | UFS_ATTRIBUTES_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors. |
 | [UFS_FLAGS_DESCRIPTOR enumeration](..\ufs\ne-ufs-ufs_flags_descriptor.md) | UFS_FLAGS_DESCRIPTOR describes the different types of flags used by Universal Flash Storage (UFS) descriptors. |
 | [UFS_PURGE_STATUS enumeration](..\ufs\ne-ufs-ufs_purge_status.md) | Specifies the current status of a purge operation. |

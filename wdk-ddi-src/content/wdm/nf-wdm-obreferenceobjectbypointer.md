@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObReferenceObjectByPointer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_BIDIRECTIONAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
 ---

@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_UNKNOWN_TOKEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_UNKNOWN_TOKEN, *PHIDP_UNKNOWN_TOKEN
 ---

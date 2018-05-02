@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_RESET_INTERFACE_STANDARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_RESET_INTERFACE_STANDARD, *PDEVICE_RESET_INTERFACE_STANDARD
 ---

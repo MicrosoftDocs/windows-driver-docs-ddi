@@ -38,7 +38,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	KeConvertPerformanceCounterToAuxiliaryCounter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

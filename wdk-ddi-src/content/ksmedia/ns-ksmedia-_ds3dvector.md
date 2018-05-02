@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	DS3DVECTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DS3DVECTOR, *PDS3DVECTOR
 ---

@@ -38,7 +38,8 @@ api_location:
 -	winspool.h
 api_name:
 -	BIDI_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 ---

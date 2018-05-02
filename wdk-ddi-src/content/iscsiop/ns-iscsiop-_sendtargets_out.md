@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SendTargets_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendTargets_OUT, *PSendTargets_OUT
 ---

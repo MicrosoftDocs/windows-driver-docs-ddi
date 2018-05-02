@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	AddDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,7 +39,8 @@ api_location:
 -	Fwpkclnt.dll
 api_name:
 -	FwpsCalloutRegister1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

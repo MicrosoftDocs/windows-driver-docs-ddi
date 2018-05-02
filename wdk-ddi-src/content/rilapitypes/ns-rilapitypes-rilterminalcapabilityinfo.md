@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILTERMINALCAPABILITYINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILTERMINALCAPABILITYINFO, *LPRILTERMINALCAPABILITYINFO
 ---

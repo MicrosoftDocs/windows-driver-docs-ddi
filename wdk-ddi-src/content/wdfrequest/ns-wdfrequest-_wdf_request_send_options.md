@@ -38,7 +38,8 @@ api_location:
 -	wdfrequest.h
 api_name:
 -	WDF_REQUEST_SEND_OPTIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 ---

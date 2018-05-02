@@ -38,7 +38,8 @@ api_location:
 -	midatlax.h
 api_name:
 -	RxMapMidToContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

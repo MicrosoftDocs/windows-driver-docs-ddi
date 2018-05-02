@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsControl.KsEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

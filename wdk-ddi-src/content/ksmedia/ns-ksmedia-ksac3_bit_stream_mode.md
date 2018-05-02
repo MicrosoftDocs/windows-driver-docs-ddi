@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAC3_BIT_STREAM_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE
 ---

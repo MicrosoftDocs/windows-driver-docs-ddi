@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	SCSI_ADAPTER_BUS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO
 ---

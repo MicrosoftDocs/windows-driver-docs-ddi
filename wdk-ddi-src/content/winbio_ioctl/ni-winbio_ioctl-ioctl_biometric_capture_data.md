@@ -38,7 +38,8 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_CAPTURE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

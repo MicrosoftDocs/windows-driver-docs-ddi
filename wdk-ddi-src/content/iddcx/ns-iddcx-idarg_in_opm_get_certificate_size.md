@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_OPM_GET_CERTIFICATE_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

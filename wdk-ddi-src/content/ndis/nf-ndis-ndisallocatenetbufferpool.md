@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateNetBufferPool
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

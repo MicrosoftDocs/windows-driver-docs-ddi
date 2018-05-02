@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_POWER_MODE_REASON_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_POWER_MODE_REASON_CODE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Compstui.h
 api_name:
 -	OPTCOMBO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPTCOMBO, *POPTCOMBO
 ---

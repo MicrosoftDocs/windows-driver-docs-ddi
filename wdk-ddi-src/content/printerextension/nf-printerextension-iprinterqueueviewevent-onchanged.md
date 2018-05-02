@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueueViewEvent.OnChanged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

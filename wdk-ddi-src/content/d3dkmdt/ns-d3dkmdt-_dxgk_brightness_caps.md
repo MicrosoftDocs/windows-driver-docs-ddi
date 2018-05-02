@@ -17,18 +17,18 @@ req.include-header: D3dkmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmdt.h
 api_name:
 -	DXGK_BRIGHTNESS_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_BRIGHTNESS_CAPS
 ---
@@ -70,6 +71,9 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
 
+### -field NitsBrightness
+
+[in] Nit-based brightness support. If NitsBrightness is set, then the display brightness is calibrated to correspond to absolute brightness levels measured in nits.  Calibrated data provided to the Display Driver by OEMs should be taken with an On Pixel Ratio (OPR) percentage of 100% where each pixel is set to an RGB value of (255, 255, 255) or floating point equivalent.  If it is not set, then the OS is aware that the levels exposed by GetNitRanges do not necessarily represent the actual luminance of the display.
 
 ### -field Reserved
 

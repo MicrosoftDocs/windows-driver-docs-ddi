@@ -38,7 +38,8 @@ api_location:
 -	Wmilib.h
 api_name:
 -	DpWmiFunctionControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

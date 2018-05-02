@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	STACK_SYM_FRAME_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STACK_SYM_FRAME_INFO, *PSTACK_SYM_FRAME_INFO
 ---

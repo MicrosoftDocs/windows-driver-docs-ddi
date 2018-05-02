@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
 ---

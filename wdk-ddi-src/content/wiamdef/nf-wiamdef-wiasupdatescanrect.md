@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasUpdateScanRect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_GSM_NMR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_GSM_NMR, *PWWAN_GSM_NMR
 ---

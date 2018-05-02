@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetGenerationalGuid_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT
 ---

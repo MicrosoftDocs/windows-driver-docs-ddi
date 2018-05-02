@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NET_DMA_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
 ---

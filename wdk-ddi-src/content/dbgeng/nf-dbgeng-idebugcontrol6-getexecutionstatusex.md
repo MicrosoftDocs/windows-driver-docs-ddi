@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl6.GetExecutionStatusEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

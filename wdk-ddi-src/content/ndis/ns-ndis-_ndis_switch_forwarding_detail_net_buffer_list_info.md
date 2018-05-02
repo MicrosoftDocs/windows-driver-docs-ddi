@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, *PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
 ---

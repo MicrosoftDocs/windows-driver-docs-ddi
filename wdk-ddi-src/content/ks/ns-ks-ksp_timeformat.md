@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_TIMEFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_TIMEFORMAT, *PKSP_TIMEFORMAT
 ---

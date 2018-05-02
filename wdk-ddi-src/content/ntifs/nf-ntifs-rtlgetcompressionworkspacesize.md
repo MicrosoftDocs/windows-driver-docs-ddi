@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlGetCompressionWorkSpaceSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,18 +60,8 @@ The <b>RtlGetCompressionWorkSpaceSize</b> function is used to determine the corr
 
 ### -param CompressionFormatAndEngine [in]
 
-Bitmask specifying the compression format and engine type. This parameter must be set to one of the following bitwise OR combinations:
+Bitmask specifying the compression format and engine type. This parameter must be set to a valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
-<ul>
-<li>
-COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD
-
-</li>
-<li>
-COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_MAXIMUM
-
-</li>
-</ul>
 The meanings of these, and other related values, are as follows:
 
 <table>
@@ -79,61 +70,81 @@ The meanings of these, and other related values, are as follows:
 <th>Meaning</th>
 </tr>
 <tr>
-<td>
-COMPRESSION_FORMAT_NONE
-
+<td width="40%"><a id="COMPRESSION_FORMAT_NONE"></a><a id="compression_format_none"></a><dl>
+<dt><b>COMPRESSION_FORMAT_NONE</b></dt>
+</dl>
 </td>
-<td>
+<td width="60%">
 Not supported by this function.
 
 </td>
 </tr>
 <tr>
-<td>
-COMPRESSION_FORMAT_DEFAULT
-
+<td width="40%"><a id="COMPRESSION_FORMAT_DEFAULT"></a><a id="compression_format_default"></a><dl>
+<dt><b>COMPRESSION_FORMAT_DEFAULT</b></dt>
+</dl>
 </td>
-<td>
+<td width="60%">
 Not supported by this function.
 
 </td>
 </tr>
 <tr>
-<td>
-COMPRESSION_FORMAT_LZNT1
-
+<td width="40%"><a id="COMPRESSION_FORMAT_LZNT1"></a><a id="compression_format_lznt1"></a><dl>
+<dt><b>COMPRESSION_FORMAT_LZNT1</b></dt>
+</dl>
 </td>
-<td>
-Specifies that compression should be performed. This value is required.
-
-</td>
-</tr>
-<tr>
-<td>
-COMPRESSION_ENGINE_STANDARD
-
-</td>
-<td>
-Data is compressed using an algorithm which provides a balance between data compression and performance. This value cannot be used with COMPRESSION_ENGINE_MAXIMUM.
+<td width="60%">
+The function will perform LZ compression.
 
 </td>
 </tr>
 <tr>
-<td>
-COMPRESSION_ENGINE_MAXIMUM
-
+<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS"></a><a id="compression_format_xpress"></a><dl>
+<dt><b>COMPRESSION_FORMAT_XPRESS</b></dt>
+</dl>
 </td>
-<td>
-Data is compressed using an algorithm which provides maximum data compression but with relatively slower performance. This value cannot be used with COMPRESSION_ENGINE_STANDARD.
+<td width="60%">
+The function will perform Xpress compression.
 
 </td>
 </tr>
 <tr>
-<td>
-COMPRESSION_ENGINE_HIBER
+<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS_HUFF"></a><a id="compression_format_xpress_huff"></a><dl>
+<dt><b>COMPRESSION_FORMAT_XPRESS_HUFF</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function will perform Xpress Huffman compression.
 
 </td>
-<td>
+</tr>
+<tr>
+<td width="40%"><a id="COMPRESSION_ENGINE_STANDARD"></a><a id="compression_engine_standard"></a><dl>
+<dt><b>COMPRESSION_ENGINE_STANDARD</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provides a balance between data compression and performance. This value cannot be used with COMPRESSION_ENGINE_MAXIMUM.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COMPRESSION_ENGINE_MAXIMUM"></a><a id="compression_engine_maximum"></a><dl>
+<dt><b>COMPRESSION_ENGINE_MAXIMUM</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provides maximum data compression but with relatively slower performance. This value cannot be used with COMPRESSION_ENGINE_STANDARD.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COMPRESSION_ENGINE_HIBER"></a><a id="compression_engine_hiber"></a><dl>
+<dt><b>COMPRESSION_ENGINE_HIBER</b></dt>
+</dl>
+</td>
+<td width="60%">
 Not supported by this function.
 
 </td>
@@ -197,7 +208,9 @@ An invalid compression format was specified via the <i>CompressionFormatAndEngin
 
 
 <ul>
-<li>COMPRESSION_FORMAT_LZNT1 </li>
+<li>COMPRESSION_FORMAT_LZNT1</li>
+<li>COMPRESSION_FORMAT_XPRESS</li>
+<li>COMPRESSION_FORMAT_XPRESS_HUFF</li>
 <li>COMPRESSION_FORMAT_NONE (in this case, STATUS_INVALID_PARAMETER is returned) 
 </li>
 <li>COMPRESSION_FORMAT_DEFAULT (in this case, STATUS_INVALID_PARAMETER is returned) </li>

@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	IOCTL_ACPI_EVAL_METHOD_V2_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

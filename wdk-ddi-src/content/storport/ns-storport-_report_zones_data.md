@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	REPORT_ZONES_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REPORT_ZONES_DATA, *PREPORT_ZONES_DATA
 ---

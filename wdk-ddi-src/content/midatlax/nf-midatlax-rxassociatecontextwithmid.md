@@ -38,7 +38,8 @@ api_location:
 -	midatlax.h
 api_name:
 -	RxAssociateContextWithMid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

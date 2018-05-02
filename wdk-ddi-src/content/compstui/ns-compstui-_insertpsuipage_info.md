@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	INSERTPSUIPAGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO
 ---

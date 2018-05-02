@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetEventBuffer_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetEventBuffer_OUT, *PGetEventBuffer_OUT
 ---

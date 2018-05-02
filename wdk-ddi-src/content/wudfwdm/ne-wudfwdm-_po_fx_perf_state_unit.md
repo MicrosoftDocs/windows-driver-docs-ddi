@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PO_FX_PERF_STATE_UNIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 ---
@@ -99,4 +100,6 @@ The <b>Unit</b> member of the <a href="https://msdn.microsoft.com/library/window
  
 
  
+
+
 

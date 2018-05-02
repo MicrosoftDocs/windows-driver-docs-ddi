@@ -38,7 +38,8 @@ api_location:
 -	bdasup.h
 api_name:
 -	BDA_FILTER_TEMPLATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
 ---

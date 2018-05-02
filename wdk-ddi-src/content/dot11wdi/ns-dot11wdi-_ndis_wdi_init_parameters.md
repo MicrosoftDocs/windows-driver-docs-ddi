@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	NDIS_WDI_INIT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS
 ---

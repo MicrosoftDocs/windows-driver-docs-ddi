@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	ClearErrorRecord
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

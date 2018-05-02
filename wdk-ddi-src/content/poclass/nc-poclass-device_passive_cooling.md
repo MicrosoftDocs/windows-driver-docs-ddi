@@ -38,7 +38,8 @@ api_location:
 -	Poclass.h
 api_name:
 -	PassiveCooling
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

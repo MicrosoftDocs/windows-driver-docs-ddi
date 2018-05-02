@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_TXRX_PEER_CFG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG
 ---

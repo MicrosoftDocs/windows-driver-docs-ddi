@@ -38,7 +38,8 @@ api_location:
 -	usbspec.h
 api_name:
 -	USB_CONFIGURATION_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
 ---

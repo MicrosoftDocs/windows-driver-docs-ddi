@@ -38,7 +38,8 @@ api_location:
 -	prefix.h
 api_name:
 -	RxpAcquirePrefixTableLockShared
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

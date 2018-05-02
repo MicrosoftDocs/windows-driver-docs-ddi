@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	TARGET_DEVICE_REMOVAL_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TARGET_DEVICE_REMOVAL_NOTIFICATION, *PTARGET_DEVICE_REMOVAL_NOTIFICATION
 ---

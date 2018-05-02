@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.RemoveSymbolByName
 -	IDebugSymbolGroup2.RemoveSymbolByName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

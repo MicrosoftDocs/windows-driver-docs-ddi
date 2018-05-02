@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_IPSEC_OFFLOAD_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_IPSEC_OFFLOAD_V1, *PNDIS_IPSEC_OFFLOAD_V1
 ---

@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplClose
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

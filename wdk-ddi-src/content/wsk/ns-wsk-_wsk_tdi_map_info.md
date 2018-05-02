@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_TDI_MAP_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO
 ---

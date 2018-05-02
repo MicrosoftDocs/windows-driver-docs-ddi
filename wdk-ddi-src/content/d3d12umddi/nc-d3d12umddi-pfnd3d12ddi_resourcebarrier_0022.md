@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnResourceBarrier
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <i>pfnResourceBarrier</i> callback function supports resource barriers. 
+The <i>pfnResourceBarrier</i> callback function supports resource barriers.
 
 
 ## -parameters
@@ -59,6 +60,7 @@ The <i>pfnResourceBarrier</i> callback function supports resource barriers.
 
 ### -param Arg1
 
+A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Count
 
@@ -97,7 +99,7 @@ This callback function does not return a value.
 
 
 
-Access this callback function by using a command list functions structure, such as the <b>D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_0020</b> structure. 
+Access this callback function by using a command list functions structure, such as the <b>D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_0020</b> structure.
 
 
 

@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_DISCONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT
 ---

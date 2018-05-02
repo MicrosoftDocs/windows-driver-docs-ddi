@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveCyclicStream.SetState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	NfcCx.dll
 api_name:
 -	NfcCxDeviceDeinitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

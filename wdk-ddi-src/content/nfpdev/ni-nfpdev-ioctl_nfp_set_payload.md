@@ -38,7 +38,8 @@ api_location:
 -	nfpdev.h
 api_name:
 -	IOCTL_NFP_SET_PAYLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

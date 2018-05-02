@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	PFN_UCM_CONNECTOR_GET_OPERATING_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

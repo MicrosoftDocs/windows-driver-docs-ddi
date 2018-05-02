@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_INT13_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_INT13_INFO, *PDISK_INT13_INFO
 ---

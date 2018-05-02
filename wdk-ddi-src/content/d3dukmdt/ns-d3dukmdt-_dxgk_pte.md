@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGK_PTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---

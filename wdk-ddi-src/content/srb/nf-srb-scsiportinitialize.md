@@ -39,7 +39,8 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_INTEGRATEDDISPLAYFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS
 ---

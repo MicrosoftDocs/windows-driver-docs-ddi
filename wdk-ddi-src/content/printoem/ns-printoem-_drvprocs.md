@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DRVPROCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRVPROCS, *PDRVPROCS
 ---

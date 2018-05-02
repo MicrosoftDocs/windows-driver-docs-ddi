@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasReadMultiple
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	SOC_SUBSYSTEM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOC_SUBSYSTEM_TYPE, *PSOC_SUBSYSTEM_TYPE
 ---
@@ -67,22 +68,24 @@ The <b>SybsysType</b> member of the <a href="https://msdn.microsoft.com/library/
 
 
 ### -field SOC_SUBSYS_WIRELESS_MODEM
-
+Wireless modem.
 
 ### -field SOC_SUBSYS_AUDIO_DSP
 
-Audio digital signal processor (DSP)
+Audio digital signal processor (DSP).
 
 
 ### -field SOC_SUBSYS_WIRELSS_CONNECTIVITY
 
-Wireless connectivity
+Wireless connectivity.
 
 
 ### -field SOC_SUBSYS_SENSORS
 
-Sensors
+Sensors.
 
+### -field SOC_SUBSYS_COMPUTE_DSP : 
+Compute digital signal processor (DSP).
 
 ### -field SOC_SUBSYS_VENDOR_DEFINED
 
@@ -91,5 +94,5 @@ Subsystem types in the range 0x10000 through 0x80000000 are reserved for indepen
 
 #### - SOC_SUBSYSTEM_WIRELESS_MODEM
 
-Wireless modem
+Wireless modem.
 

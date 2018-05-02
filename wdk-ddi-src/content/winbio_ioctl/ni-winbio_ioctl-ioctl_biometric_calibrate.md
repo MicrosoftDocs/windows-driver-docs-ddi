@@ -38,7 +38,8 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_CALIBRATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

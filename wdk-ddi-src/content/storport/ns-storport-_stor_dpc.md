@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_DPC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_DPC, *PSTOR_DPC
 ---

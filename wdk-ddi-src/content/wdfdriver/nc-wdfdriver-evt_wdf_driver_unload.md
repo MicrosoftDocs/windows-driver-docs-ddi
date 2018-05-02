@@ -38,7 +38,8 @@ api_location:
 -	Wdfdriver.h
 api_name:
 -	EvtDriverUnload
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

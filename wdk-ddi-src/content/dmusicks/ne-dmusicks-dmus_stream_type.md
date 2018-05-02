@@ -38,7 +38,8 @@ api_location:
 -	Dmusicks.h
 api_name:
 -	DMUS_STREAM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---

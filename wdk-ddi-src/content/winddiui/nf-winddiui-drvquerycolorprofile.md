@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvQueryColorProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

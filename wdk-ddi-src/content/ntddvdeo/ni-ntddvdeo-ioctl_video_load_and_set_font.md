@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_LOAD_AND_SET_FONT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

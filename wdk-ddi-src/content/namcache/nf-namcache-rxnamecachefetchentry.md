@@ -38,7 +38,8 @@ api_location:
 -	namcache.h
 api_name:
 -	RxNameCacheFetchEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

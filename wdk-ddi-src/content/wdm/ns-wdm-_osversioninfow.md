@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	RTL_OSVERSIONINFOW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_CACHE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 ---

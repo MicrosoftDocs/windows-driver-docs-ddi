@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	UcxUsbDeviceCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,7 +39,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	DeleteJobNamedProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

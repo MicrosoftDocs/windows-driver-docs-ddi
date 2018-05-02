@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	ZONE_DESCRIPTIOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 ---

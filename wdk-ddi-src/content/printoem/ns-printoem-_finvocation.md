@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	FINVOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FINVOCATION, *PFINVOCATION
 ---

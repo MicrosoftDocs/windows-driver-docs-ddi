@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---
@@ -213,4 +214,5 @@ This function code is available to both peer and virtual instances of <i>avc.sys
  
 
  
+
 

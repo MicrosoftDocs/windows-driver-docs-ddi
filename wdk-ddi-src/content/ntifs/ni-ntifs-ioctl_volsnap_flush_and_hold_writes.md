@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

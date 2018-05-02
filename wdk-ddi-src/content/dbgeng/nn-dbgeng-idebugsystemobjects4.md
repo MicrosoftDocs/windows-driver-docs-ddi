@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSystemObjects4
 -	IDebugSystemObjects4.GetCurrentSystemServerNameWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

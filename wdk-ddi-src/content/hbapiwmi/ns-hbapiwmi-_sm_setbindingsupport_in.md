@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SetBindingSupport_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN
 ---

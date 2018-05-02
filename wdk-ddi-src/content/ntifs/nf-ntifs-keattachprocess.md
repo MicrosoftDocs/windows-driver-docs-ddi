@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	KeAttachProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

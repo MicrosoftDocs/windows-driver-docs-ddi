@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_P2P_ACTION_FRAME_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_P2P_ACTION_FRAME_TYPE
 ---

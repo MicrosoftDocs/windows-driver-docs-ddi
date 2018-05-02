@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.GetModuleByIndex
 -	IDebugSymbols2.GetModuleByIndex
 -	IDebugSymbols3.GetModuleByIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

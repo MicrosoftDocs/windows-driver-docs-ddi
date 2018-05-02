@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS
 ---

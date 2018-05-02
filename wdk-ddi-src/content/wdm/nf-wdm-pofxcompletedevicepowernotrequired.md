@@ -38,7 +38,8 @@ api_location:
 -	Ntoskrnl.exe
 api_name:
 -	PoFxCompleteDevicePowerNotRequired
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

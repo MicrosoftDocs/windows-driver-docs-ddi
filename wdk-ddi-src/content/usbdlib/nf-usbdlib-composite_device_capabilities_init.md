@@ -39,7 +39,8 @@ api_location:
 -	Usbdex.dll
 api_name:
 -	COMPOSITE_DEVICE_CAPABILITIES_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

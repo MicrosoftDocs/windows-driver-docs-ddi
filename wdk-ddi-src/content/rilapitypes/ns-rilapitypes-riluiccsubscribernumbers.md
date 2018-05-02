@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCSUBSCRIBERNUMBERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
 req.product: Windows 10 or later.

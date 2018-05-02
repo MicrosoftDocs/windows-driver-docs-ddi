@@ -38,7 +38,8 @@ api_location:
 -	Wdfpdo.h
 api_name:
 -	EvtDeviceReportedMissing
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

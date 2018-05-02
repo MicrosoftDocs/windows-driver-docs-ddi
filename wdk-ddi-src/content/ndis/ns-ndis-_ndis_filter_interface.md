@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_FILTER_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_INTERFACE, *PNDIS_FILTER_INTERFACE
 ---

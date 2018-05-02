@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ---

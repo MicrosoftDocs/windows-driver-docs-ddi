@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDIALPARAMS_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDIALPARAMS_V2, *LPRILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS
 ---

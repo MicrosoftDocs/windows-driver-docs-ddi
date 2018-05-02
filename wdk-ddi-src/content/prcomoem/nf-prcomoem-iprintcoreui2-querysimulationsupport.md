@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreUI2.QuerySimulationSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

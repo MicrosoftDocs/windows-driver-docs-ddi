@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFLongNumbers2.Item
 -	IWDTFLongNumbers2.get_Item
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdfchildlist.h
 api_name:
 -	WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, *PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMANAGECALLSPARAMS_V3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMANAGECALLSPARAMS_V3, *LPRILMANAGECALLSPARAMS_V3
 ---

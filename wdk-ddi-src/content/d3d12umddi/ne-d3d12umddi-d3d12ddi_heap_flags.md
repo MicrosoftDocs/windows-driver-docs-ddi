@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_HEAP_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_HEAP_FLAGS
 ---
@@ -49,7 +50,7 @@ req.typenames: D3D12DDI_HEAP_FLAGS
 ## -description
 
 
-Contains Direct3D 12 heap flags. 
+Contains Direct3D 12 heap flags.
 
 
 ## -enum-fields
@@ -64,7 +65,7 @@ No flags.
 
 ### -field D3D12DDI_HEAP_FLAG_NON_RT_DS_TEXTURES
 
-The heap supports resources allocated for other than Render Target (RT) and Depth-Stencil (DS) textures. 
+The heap supports resources allocated for other than Render Target (RT) and Depth-Stencil (DS) textures.
 
 
 ### -field D3D12DDI_HEAP_FLAG_BUFFERS
@@ -74,7 +75,7 @@ The heap supports resources allocated for buffers.
 
 ### -field D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE
 
-The heap supports resources allocated for coherent systemwide. 
+The heap supports resources allocated for coherent systemwide.
 
 
 ### -field D3D12DDI_HEAP_FLAG_PRIMARY
@@ -86,8 +87,7 @@ The heap supports resources allocated for primary.
 
 The heap supports resources allocated for RT and DS textures.
 
+### -field D3D12DDI_HEAP_FLAG_0041_DENY_L0_DEMOTION
 
-#### - D3D12DDI_HEAP_FLAG_CONTENT_PROTECTION
-
-The heap supports resources allocated for content protection.
+Supports transparent demotion to system memory by restricting the supported memory segments for the heap.
 

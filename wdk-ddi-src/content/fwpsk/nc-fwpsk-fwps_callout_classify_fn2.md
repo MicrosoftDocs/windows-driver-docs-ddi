@@ -38,7 +38,8 @@ api_location:
 -	Fwpsk.h
 api_name:
 -	classifyFn2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

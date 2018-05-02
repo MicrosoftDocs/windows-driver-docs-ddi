@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortReadStateEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

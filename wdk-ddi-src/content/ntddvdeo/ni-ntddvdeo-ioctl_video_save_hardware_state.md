@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_SAVE_HARDWARE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

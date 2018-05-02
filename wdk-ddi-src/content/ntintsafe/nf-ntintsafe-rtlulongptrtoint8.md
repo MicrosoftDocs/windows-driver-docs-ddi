@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongPtrToInt8
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

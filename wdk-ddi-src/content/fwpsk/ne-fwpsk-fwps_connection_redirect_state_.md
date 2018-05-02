@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_CONNECTION_REDIRECT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_CONNECTION_REDIRECT_STATE
 ---

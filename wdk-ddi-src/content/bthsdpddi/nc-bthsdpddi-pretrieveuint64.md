@@ -37,8 +37,9 @@ api_type:
 api_location:
 -	sdplib.h
 api_name:
--	SdpRetrieveUint64
-product: Windows
+-	SdpRetrieveUint128
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

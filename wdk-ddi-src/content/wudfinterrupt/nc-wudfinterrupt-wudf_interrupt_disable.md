@@ -38,7 +38,8 @@ api_location:
 -	Wudfinterrupt.h
 api_name:
 -	OnInterruptDisable
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

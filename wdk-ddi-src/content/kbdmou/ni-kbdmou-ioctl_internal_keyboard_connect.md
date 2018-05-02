@@ -38,7 +38,8 @@ api_location:
 -	kbdmou.h
 api_name:
 -	IOCTL_INTERNAL_KEYBOARD_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

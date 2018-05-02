@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_NDK_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES
 ---

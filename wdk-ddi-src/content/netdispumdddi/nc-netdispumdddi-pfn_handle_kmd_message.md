@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	HandleKernelModeMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

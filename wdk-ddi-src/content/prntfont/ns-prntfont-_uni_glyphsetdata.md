@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	UNI_GLYPHSETDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA
 ---

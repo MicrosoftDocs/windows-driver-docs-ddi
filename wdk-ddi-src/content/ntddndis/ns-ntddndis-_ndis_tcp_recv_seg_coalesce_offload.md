@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, *PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
 ---

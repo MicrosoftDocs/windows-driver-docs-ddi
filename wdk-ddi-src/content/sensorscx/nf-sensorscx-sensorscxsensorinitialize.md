@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SensorsCxSensorInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

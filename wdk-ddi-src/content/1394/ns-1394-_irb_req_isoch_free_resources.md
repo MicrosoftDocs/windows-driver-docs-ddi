@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_FREE_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_FREE_RESOURCES
 ---

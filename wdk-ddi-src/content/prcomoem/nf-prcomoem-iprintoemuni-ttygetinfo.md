@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.TTYGetInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

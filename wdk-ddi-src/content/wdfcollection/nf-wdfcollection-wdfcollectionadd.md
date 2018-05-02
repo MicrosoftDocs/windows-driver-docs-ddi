@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfCollectionAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

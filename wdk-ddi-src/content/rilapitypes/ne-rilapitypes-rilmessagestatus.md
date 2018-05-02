@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMESSAGESTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGESTATUS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	oemrilapitypes.h
 api_name:
 -	RILDEVSPECIFICGETTOKEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_MEMBERSHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_MEMBERSHEADER, *PKSPROPERTY_MEMBERSHEADER
 ---

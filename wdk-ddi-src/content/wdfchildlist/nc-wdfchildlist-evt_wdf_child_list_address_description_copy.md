@@ -38,7 +38,8 @@ api_location:
 -	WdfChildlist.h
 api_name:
 -	EvtChildListAddressDescriptionCopy
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

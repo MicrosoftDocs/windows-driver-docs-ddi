@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	CDROM_TOC_CD_TEXT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_TOC_CD_TEXT_DATA, *PCDROM_TOC_CD_TEXT_DATA
 ---

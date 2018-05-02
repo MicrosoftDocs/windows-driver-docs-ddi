@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwQueryInformationEnlistment
 -	NtQueryInformationEnlistment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

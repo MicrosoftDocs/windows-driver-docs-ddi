@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_PATH_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_PATH_INFORMATION, *PMPIO_PATH_INFORMATION
 ---

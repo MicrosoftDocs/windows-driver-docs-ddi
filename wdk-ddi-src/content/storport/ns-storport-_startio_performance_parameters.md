@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STARTIO_PERFORMANCE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS
 ---

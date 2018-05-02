@@ -39,7 +39,8 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassGetDmaBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

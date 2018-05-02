@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RSS_SET_INDIRECTION_ENTRIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RSS_SET_INDIRECTION_ENTRIES, *PNDIS_RSS_SET_INDIRECTION_ENTRIES
 ---
@@ -48,9 +49,12 @@ req.typenames: NDIS_RSS_SET_INDIRECTION_ENTRIES, *PNDIS_RSS_SET_INDIRECTION_ENTR
 
 ## -description
 
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> RSSv2 is preview only in Windows 10, version 1803.
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-<div class="alert"><b>Warning</b>  RSSv2 is preview only in Windows 10, version 1709.</div><div> </div>The <b>NDIS_RSS_SET_INDIRECTION_ENTRIES</b> structure represents a set of actions, where each action moves a single entry of the Receive Side Scaling (RSS) indirection table of a specified VPort to a specified target CPU. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries">OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES</a> OID, which is a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID</a> for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>.
+The <b>NDIS_RSS_SET_INDIRECTION_ENTRIES</b> structure represents a set of actions, where each action moves a single entry of the Receive Side Scaling (RSS) indirection table of a specified VPort to a specified target CPU. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries">OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES</a> OID, which is a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID</a> for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>.
 
 
 ## -struct-fields
@@ -64,7 +68,7 @@ The
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RSS_SET_INDIRECTION_ENTRIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
-     <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>. 
+     <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_SET_INDIRECTION_ENTRIES</b>. 
 
 For NDIS  6.80 and later drivers, set the 
      <b>Revision</b> member to <b>NDIS_RSS_SET_INDIRECTION_ENTRIES_REVISION_1</b> and the 
@@ -73,7 +77,7 @@ For NDIS  6.80 and later drivers, set the
 
 ### -field Flags
 
-A <b>ULONG</b> value that contains a bitwise OR of flags. This member qualifies the other members of this structure, as well as the array processing policy. In Windows 10, version 1709, no flags are defined for this member.
+A <b>ULONG</b> value that contains a bitwise OR of flags. This member qualifies the other members of this structure, as well as the array processing policy. In Windows 10, version 1803, no flags are defined for this member.
 
 
 ### -field RssEntrySize

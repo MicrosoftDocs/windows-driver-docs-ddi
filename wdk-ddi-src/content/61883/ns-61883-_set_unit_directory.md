@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	SET_UNIT_DIRECTORY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY
 ---

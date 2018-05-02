@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_VALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_VALUE, *PKSCAMERA_EXTENDEDPROP_VALUE
 ---

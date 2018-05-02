@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IsListEmpty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -105,4 +106,6 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
  
 
  
+
+
 

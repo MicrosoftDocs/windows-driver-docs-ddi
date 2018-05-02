@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_DISPLAYMODELIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DISPLAYMODELIST
 ---

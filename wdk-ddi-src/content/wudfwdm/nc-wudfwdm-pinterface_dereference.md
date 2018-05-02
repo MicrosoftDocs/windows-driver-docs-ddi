@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	InterfaceDereference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -99,4 +100,6 @@ The driver that imports the interface is responsible for calling the <i>Interfac
  
 
  
+
+
 

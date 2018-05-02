@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDATAFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 ---

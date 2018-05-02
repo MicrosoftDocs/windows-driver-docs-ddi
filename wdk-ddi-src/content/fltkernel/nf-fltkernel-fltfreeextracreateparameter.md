@@ -38,7 +38,8 @@ api_location:
 -	FltMgr.sys
 api_name:
 -	FltFreeExtraCreateParameter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

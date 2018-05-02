@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_START_FIXSESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

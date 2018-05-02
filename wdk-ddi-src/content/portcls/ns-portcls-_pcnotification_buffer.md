@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	PCNOTIFICATION_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCNOTIFICATION_BUFFER, *PPCNOTIFICATION_BUFFER
 ---

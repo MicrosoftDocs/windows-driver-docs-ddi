@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_REQUEST_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET
 ---

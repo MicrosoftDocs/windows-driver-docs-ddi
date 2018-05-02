@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCorePS2.EnumFeatures
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

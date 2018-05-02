@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetFC3MgmtInfo_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT
 ---

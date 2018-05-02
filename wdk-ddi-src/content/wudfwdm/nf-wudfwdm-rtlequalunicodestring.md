@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlEqualUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -91,4 +92,6 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
  
 
  
+
+
 

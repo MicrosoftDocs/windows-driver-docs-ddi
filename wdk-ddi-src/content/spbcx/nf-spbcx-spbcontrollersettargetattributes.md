@@ -39,7 +39,8 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbControllerSetTargetAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

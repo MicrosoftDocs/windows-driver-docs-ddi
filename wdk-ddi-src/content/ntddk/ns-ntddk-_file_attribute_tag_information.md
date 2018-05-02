@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FILE_ATTRIBUTE_TAG_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION
 ---

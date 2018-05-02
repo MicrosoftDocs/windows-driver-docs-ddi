@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetBindingCapability_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetBindingCapability_IN, *PGetBindingCapability_IN
 ---

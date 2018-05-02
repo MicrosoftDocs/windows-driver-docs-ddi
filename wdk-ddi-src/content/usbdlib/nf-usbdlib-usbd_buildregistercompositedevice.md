@@ -39,7 +39,8 @@ api_location:
 -	Usbdex.dll
 api_name:
 -	USBD_BuildRegisterCompositeDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

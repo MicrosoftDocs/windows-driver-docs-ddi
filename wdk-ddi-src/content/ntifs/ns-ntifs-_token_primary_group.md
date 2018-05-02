@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	TOKEN_PRIMARY_GROUP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP
 ---

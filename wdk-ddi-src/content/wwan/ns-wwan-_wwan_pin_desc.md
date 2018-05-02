@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_PIN_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_PIN_DESC, *PWWAN_PIN_DESC
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	*NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

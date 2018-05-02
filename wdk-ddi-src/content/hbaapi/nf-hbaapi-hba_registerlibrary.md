@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_RegisterLibrary
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -33,12 +33,13 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	dbgeng.h
+-	dbgeng.dll
 api_name:
 -	DebugConnect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

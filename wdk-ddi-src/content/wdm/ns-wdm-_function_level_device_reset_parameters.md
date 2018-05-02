@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, *PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 ---

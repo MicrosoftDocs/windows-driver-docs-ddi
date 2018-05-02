@@ -13,7 +13,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: usbdlib.h
-req.include-header: 
+req.include-header: usbdlib.h, usb.h
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -41,7 +41,8 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	USBD_CreateHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

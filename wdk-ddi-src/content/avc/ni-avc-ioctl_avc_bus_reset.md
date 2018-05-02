@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	IOCTL_AVC_BUS_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -161,4 +162,5 @@ Must be called at IRQL = PASSIVE_LEVEL
  
 
  
+
 

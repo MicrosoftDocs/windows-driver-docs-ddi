@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	HBAFCPID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBAFCPID, *PHBAFCPID
 ---

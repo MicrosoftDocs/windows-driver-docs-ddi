@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, *PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
 ---

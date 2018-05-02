@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ReleaseController
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

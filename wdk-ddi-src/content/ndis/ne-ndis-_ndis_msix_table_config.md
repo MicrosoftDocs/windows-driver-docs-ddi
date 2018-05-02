@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_MSIX_TABLE_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MSIX_TABLE_OPERATION, *PNDIS_MSIX_TABLE_OPERATION
 ---

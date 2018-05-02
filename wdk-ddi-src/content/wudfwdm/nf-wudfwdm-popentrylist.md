@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PopEntryList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -97,4 +98,6 @@ Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b
  
 
  
+
+
 

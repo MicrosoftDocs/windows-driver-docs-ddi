@@ -38,7 +38,8 @@ api_location:
 -	Wdftimer.h
 api_name:
 -	EvtTimerFunc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

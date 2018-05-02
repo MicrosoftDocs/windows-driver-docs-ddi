@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_CompressionCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_CompressionCaps
 ---

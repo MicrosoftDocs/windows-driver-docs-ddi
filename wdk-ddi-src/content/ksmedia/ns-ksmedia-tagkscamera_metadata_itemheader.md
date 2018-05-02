@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSCAMERA_METADATA_ITEMHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_METADATA_ITEMHEADER, *PKSCAMERA_METADATA_ITEMHEADER
 ---

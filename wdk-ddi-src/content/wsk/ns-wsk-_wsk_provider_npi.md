@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_PROVIDER_NPI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_NPI, *PWSK_PROVIDER_NPI
 ---

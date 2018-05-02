@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	MAGNETOMETER_ACCURACY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MAGNETOMETER_ACCURACY
 ---

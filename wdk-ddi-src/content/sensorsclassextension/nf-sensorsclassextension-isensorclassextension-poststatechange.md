@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	ISensorClassExtension.PostStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

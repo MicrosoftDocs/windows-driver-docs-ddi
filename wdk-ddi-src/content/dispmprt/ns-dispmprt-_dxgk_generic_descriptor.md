@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_GENERIC_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR
 ---

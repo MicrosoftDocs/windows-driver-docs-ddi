@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
 ---

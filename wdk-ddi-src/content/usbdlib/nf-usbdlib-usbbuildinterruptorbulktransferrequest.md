@@ -38,7 +38,8 @@ api_location:
 -	usbdlib.h
 api_name:
 -	UsbBuildInterruptOrBulkTransferRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

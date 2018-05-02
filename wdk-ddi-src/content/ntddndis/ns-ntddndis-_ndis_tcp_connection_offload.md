@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_TCP_CONNECTION_OFFLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
 ---
@@ -118,6 +119,7 @@ Reserved for future use.
 If you are an independent hardware vendor (IHV) and you want to implement nondefault congestion
      control algorithms, for example Compound TCP, contact Microsoft at 
      <a href="mailto:offloadt@microsoft.com">External TCP Offload Triage</a>.
+
 
 
 ### -field TcpConnectionOffloadCapacity

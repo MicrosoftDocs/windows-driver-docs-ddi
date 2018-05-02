@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	VRAM_SURFACE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO
 ---

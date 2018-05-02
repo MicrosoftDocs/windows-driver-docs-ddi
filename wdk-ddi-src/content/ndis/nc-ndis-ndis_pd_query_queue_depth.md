@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	*NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_USSD_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_USSD_EVENT, *PNDIS_WWAN_USSD_EVENT
 ---

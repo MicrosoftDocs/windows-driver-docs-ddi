@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NET_BUFFER_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_LIST, *PNET_BUFFER_LIST
 ---

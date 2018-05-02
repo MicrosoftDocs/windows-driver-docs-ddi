@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	AV_PCR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AV_PCR, *PAV_PCR
 ---

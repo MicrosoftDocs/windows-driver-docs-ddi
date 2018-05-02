@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_ENUM_ENDPOINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

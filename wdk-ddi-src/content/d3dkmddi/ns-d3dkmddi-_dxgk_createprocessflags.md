@@ -17,18 +17,18 @@ req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_CREATEPROCESSFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CREATEPROCESSFLAGS
 ---
@@ -69,8 +70,11 @@ Indicates that a GDI process is being created.
 
 ### -field VirtualMachineProcess
 
- 
+The virtual machine DXG process created during a call to DxgkDdiCreateProcess. Note that each virtual machine DXG process will belong to the same EPROCESS as the same virtual machine worker process.
 
+### -field VirtualMachineWorkerProcess
+
+The virtual machine worker process created during a call to DxgkDdiCreateProcess. Note that because no rendering or driver resource is created in this process context, the driver might skip allocating certain resources.
 
 ### -field Reserved
 

@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	IPSEC_OFFLOAD_V2_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_OPERATION, *PIPSEC_OFFLOAD_V2_OPERATION
 ---

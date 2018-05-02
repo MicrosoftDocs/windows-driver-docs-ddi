@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSTELEPHONY_CALLCONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL
 ---

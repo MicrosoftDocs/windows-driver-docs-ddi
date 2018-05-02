@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IImpersonateCallback.OnImpersonate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

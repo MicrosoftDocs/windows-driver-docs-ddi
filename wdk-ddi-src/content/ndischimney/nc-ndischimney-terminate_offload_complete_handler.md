@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	ProtocolTerminateOffloadComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

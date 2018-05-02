@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	ExInitializeWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

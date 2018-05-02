@@ -38,7 +38,8 @@ api_location:
 -	d3dcaps.h
 api_name:
 -	D3DTRANSFORMCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 ---

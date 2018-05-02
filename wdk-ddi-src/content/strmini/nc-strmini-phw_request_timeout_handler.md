@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StrMiniRequestTimeout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

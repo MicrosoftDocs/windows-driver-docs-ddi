@@ -38,7 +38,8 @@ api_location:
 -	D3dkmdt.h
 api_name:
 -	DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 ---

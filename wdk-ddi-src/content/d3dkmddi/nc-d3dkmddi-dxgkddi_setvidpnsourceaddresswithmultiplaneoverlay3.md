@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

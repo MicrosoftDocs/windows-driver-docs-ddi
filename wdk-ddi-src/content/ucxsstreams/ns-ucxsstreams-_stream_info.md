@@ -38,7 +38,8 @@ api_location:
 -	ucxsstreams.h
 api_name:
 -	STREAM_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_INFO, *PSTREAM_INFO
 ---

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFDriverPackageAction2.HasCatalog
 -	IWDTFDriverPackageAction2.get_HasCatalog
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

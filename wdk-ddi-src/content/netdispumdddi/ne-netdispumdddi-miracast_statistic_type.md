@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_STATISTIC_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_STATISTIC_TYPE
 ---

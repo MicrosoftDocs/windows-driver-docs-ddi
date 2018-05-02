@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.GetSymbolModule
 -	IDebugSymbols2.GetSymbolModule
 -	IDebugSymbols3.GetSymbolModule
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

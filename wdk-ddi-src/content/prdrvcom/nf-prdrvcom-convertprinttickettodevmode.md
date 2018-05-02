@@ -38,7 +38,8 @@ api_location:
 -	prdrvcom.h
 api_name:
 -	IPrintTicketProvider.ConvertPrintTicketToDevMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

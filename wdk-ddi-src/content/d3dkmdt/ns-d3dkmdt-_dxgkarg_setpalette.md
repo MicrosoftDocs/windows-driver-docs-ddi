@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKARG_SETPALETTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETPALETTE
 ---

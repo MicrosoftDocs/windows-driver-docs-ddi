@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_WRITE_ONCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE
 ---

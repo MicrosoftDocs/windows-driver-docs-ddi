@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_GET_INDICATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_GET_INDICATOR, *PWINBIO_GET_INDICATOR
 ---

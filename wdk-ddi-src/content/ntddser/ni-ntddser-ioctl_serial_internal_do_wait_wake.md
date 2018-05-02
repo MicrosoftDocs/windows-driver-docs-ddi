@@ -38,7 +38,8 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

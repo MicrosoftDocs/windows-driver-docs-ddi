@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.WriteDumpFile
 -	IDebugClient4.WriteDumpFile
 -	IDebugClient5.WriteDumpFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

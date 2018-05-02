@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PushEntryList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -102,4 +103,6 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
  
 
  
+
+
 

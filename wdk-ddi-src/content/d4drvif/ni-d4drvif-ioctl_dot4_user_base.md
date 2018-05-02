@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	IOCTL_DOT4_USER_BASE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

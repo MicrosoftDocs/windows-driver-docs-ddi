@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_REGISTER_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
 ---

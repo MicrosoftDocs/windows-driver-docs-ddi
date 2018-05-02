@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FltCbdqRemoveIo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

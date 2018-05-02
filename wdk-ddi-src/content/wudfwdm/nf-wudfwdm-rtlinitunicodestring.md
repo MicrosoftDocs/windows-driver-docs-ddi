@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -124,4 +125,6 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
  
 
  
+
+
 

@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_INTEGRATED_DISPLAY_CHILD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
 ---

@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_IRB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_IRB, *PAVC_IRB
 ---
@@ -92,4 +93,5 @@ This structure is included at the head of the AVC_COMMAND_IRB and AVC_MULTIFUNC_
  
 
  
+
 

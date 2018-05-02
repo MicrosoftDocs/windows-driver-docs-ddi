@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFailureAnalysis2.NextEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

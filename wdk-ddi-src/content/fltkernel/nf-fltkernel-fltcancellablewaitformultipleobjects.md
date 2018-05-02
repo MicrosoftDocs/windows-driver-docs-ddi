@@ -39,7 +39,8 @@ api_location:
 -	fltmgr.dll
 api_name:
 -	FltCancellableWaitForMultipleObjects
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

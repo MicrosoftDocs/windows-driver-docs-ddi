@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	ProtocolTcpOffloadEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

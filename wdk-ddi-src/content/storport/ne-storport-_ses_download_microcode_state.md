@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	SES_DOWNLOAD_MICROCODE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 ---

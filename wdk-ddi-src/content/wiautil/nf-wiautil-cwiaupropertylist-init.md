@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.Init
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

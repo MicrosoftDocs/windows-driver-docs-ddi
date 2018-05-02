@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_NODE_CONNECTION_DRIVERKEY_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_NODE_CONNECTION_DRIVERKEY_NAME, *PUSB_NODE_CONNECTION_DRIVERKEY_NAME
 ---

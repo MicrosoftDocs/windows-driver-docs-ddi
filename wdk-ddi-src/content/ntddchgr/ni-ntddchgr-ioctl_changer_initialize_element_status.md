@@ -38,7 +38,8 @@ api_location:
 -	Ntddchgr.h
 api_name:
 -	IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGOUTSUBMITVPFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGOUTSUBMITVPFORMAT
 ---

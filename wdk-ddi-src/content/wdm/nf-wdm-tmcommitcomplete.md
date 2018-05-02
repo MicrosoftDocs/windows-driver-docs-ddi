@@ -40,7 +40,8 @@ api_location:
 -	tm.sys
 api_name:
 -	TmCommitComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

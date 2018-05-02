@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGK_PTE_PAGE_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE_PAGE_SIZE
 ---

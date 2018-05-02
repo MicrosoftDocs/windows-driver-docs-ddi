@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbols2.GetConstantName
 -	IDebugSymbols3.GetConstantName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

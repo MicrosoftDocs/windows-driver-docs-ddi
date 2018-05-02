@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	SCSIWMIGUIDREGINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
 ---

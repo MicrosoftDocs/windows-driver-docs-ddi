@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONNECTION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS
 ---

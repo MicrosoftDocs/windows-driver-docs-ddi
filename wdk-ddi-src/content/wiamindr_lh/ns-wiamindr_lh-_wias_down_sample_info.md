@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	WIAS_DOWN_SAMPLE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO
 ---

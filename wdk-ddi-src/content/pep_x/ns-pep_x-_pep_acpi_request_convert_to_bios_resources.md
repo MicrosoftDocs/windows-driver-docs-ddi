@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
 ---

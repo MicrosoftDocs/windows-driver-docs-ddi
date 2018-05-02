@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	SCO_RETRANSMISSION_EFFORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCO_RETRANSMISSION_EFFORT, *PSCO_RETRANSMISSION_EFFORT
 ---

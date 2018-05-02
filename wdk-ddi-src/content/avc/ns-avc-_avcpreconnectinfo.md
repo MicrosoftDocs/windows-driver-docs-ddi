@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVCPRECONNECTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCPRECONNECTINFO, *PAVCPRECONNECTINFO
 ---
@@ -111,4 +112,5 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
  
 
  
+
 

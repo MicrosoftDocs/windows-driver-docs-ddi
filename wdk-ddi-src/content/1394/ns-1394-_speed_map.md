@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SPEED_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPEED_MAP, *PSPEED_MAP
 ---

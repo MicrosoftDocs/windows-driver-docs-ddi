@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.SearchVirtual
 -	IDebugDataSpaces3.SearchVirtual
 -	IDebugDataSpaces4.SearchVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

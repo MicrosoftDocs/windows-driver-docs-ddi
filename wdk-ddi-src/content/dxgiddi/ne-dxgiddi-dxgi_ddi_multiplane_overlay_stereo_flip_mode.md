@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 ---

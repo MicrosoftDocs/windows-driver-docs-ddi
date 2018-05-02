@@ -38,7 +38,8 @@ api_location:
 -	rxtimer.h
 api_name:
 -	RxCancelTimerRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

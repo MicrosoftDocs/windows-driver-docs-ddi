@@ -38,7 +38,8 @@ api_location:
 -	Hdaudio.h
 api_name:
 -	HDAudioUnsolicitedResponseCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

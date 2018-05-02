@@ -38,7 +38,8 @@ api_location:
 -	Hidport.h
 api_name:
 -	IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

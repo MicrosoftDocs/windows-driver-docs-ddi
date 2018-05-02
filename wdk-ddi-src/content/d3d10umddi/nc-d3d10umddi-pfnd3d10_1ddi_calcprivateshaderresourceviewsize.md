@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CalcPrivateShaderResourceViewSize_d3d10_1_
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

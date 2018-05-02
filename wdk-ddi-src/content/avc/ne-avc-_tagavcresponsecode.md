@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AvcResponseCode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AvcResponseCode
 ---
@@ -114,4 +115,5 @@ Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED<
  
 
  
+
 

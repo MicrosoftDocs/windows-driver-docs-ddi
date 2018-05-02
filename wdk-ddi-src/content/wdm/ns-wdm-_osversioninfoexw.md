@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	RTL_OSVERSIONINFOEXW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 ---
@@ -311,6 +312,28 @@ The following table summarizes the version information that is returned by suppo
 <th>dwMajorVersion</th>
 <th>dwMinorVersion</th>
 <th>Other</th>
+</tr>
+<tr>
+<td>
+Windows 10
+
+</td>
+<td>
+10.0
+
+</td>
+<td>
+10
+
+</td>
+<td>
+0
+
+</td>
+<td>
+<b>wProductType</b> == VER_NT_WORKSTATION
+
+</td>
 </tr>
 <tr>
 <td>

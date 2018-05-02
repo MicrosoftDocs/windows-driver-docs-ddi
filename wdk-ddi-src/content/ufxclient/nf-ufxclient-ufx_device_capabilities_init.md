@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UFX_DEVICE_CAPABILITIES_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

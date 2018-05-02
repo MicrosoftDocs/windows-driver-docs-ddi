@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	LPI_STATE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 ---

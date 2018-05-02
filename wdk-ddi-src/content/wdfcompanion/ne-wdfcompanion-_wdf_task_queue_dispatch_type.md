@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WDF_TASK_QUEUE_DISPATCH_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 ---

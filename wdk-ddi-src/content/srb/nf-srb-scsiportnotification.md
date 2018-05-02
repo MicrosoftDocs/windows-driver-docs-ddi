@@ -41,7 +41,8 @@ api_location:
 -	storport.dll
 api_name:
 -	ScsiPortNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

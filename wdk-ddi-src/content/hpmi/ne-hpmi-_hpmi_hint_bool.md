@@ -38,7 +38,8 @@ api_location:
 -	hpmi.h
 api_name:
 -	HPMI_HINT_BOOL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
 ---
@@ -96,4 +97,5 @@ Value is not used.
  
 
  
+
 

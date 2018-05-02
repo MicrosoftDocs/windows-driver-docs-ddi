@@ -38,7 +38,8 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_INTERNAL_SERENUM_REMOVE_SELF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

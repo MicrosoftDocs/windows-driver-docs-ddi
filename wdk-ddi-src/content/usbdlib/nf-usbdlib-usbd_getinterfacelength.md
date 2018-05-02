@@ -39,7 +39,8 @@ api_location:
 -	Usbd.dll
 api_name:
 -	USBD_GetInterfaceLength
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

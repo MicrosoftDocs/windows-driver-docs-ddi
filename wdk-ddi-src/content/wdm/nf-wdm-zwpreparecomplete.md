@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwPrepareComplete
 -	NtPrepareComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

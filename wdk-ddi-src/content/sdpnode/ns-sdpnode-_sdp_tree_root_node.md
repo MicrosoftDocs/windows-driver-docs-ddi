@@ -38,7 +38,8 @@ api_location:
 -	sdpnode.h
 api_name:
 -	SDP_TREE_ROOT_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE
 ---

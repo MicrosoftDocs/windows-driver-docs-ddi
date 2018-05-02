@@ -38,7 +38,8 @@ api_location:
 -	USBSidebandAudio.h
 api_name:
 -	IOCTL_USBSBAUD_GET_ENDPOINT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

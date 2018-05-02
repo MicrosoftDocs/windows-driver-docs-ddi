@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_MAC_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS
 ---

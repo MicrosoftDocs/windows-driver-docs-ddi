@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_SPPAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
 ---

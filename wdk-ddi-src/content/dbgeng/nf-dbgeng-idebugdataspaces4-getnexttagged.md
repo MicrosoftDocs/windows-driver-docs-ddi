@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugDataSpaces3.GetNextTagged
 -	IDebugDataSpaces4.GetNextTagged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

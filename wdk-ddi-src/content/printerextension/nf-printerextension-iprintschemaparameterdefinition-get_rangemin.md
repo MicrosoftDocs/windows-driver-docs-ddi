@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaParameterDefinition.RangeMin
 -	IPrintSchemaParameterDefinition.get_RangeMin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

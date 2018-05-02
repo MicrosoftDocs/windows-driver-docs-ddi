@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_MUTE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMLineTo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

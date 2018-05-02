@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CLFS_STREAM_ID_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLFS_STREAM_ID_INFORMATION, *PCLFS_STREAM_ID_INFORMATION, PPCLFS_STREAM_ID_INFORMATION
 ---

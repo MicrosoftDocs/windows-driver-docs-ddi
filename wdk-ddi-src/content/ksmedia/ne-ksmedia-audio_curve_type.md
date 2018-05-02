@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	AUDIO_CURVE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AUDIO_CURVE_TYPE
 ---
@@ -105,7 +106,7 @@ for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
 
 And the following diagram shows a graphical representation of the preceding pseudocode for setting the volume level.
 
-<img alt="Graphical representation of volume level curve" src="images/curve_type.png"/>
+<img alt="Graphical representation of volume level curve" src="images/curve-type.png"/>
 
 
 

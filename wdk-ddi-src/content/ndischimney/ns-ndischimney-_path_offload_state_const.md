@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	PATH_OFFLOAD_STATE_CONST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PATH_OFFLOAD_STATE_CONST, *PPATH_OFFLOAD_STATE_CONST
 ---

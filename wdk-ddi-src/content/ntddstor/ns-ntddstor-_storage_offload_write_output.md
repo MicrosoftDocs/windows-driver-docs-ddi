@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_OFFLOAD_WRITE_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT
 ---

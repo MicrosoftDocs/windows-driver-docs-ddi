@@ -39,7 +39,8 @@ api_location:
 -	Ucxstubs.dll
 api_name:
 -	UcxControllerSetIdStrings
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

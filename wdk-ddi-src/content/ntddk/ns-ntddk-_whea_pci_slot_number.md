@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PCI_SLOT_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER
 ---

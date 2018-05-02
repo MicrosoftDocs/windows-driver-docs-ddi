@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KsCreateAllocator2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

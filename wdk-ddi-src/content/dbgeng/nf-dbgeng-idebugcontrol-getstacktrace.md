@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetStackTrace
 -	IDebugControl2.GetStackTrace
 -	IDebugControl3.GetStackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

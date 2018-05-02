@@ -39,7 +39,8 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaStartChanges
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

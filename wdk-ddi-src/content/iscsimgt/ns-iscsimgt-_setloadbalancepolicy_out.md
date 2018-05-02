@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	SetLoadBalancePolicy_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT
 ---

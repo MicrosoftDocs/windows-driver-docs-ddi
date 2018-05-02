@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_QOS_CLASSIFICATION_ELEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT
 ---

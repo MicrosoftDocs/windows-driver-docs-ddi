@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCbCopyNW
 -	RtlStringCbCopyNA
 -	RtlStringCbCopyNW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

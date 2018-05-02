@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	FilterPause
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

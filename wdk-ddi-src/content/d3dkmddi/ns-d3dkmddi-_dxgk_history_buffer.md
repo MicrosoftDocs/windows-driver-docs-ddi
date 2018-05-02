@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_HISTORY_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_HISTORY_BUFFER
 ---

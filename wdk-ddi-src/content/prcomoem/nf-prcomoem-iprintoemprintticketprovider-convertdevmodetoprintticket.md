@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -115,4 +116,5 @@ The DEVMODEW structure fields that correlate with the part of the DEVMODEW struc
  
 
  
+
 

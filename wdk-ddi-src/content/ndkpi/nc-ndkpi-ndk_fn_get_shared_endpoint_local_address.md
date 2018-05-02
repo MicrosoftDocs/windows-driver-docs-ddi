@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkGetSharedEndpointLocalAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

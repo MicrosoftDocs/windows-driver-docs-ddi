@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_BUS_RESET_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST
 ---

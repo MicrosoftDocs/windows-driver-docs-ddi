@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugControl4.OutputPromptWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

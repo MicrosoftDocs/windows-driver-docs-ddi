@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetNumberEventFilters
 -	IDebugControl2.GetNumberEventFilters
 -	IDebugControl3.GetNumberEventFilters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

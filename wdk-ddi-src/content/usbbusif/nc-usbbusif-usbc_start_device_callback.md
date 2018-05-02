@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	UsbcStartDeviceCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	OBJECT_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
 ---
@@ -247,4 +248,6 @@ Driver routines that run in a process context other than that of the system proc
  
 
  
+
+
 

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterQueue.Handle
 -	IPrinterQueue.get_Handle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

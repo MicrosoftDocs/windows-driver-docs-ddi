@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.Disassemble
 -	IDebugControl2.Disassemble
 -	IDebugControl3.Disassemble
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

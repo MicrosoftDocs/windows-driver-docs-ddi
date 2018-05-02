@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	Ioctl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

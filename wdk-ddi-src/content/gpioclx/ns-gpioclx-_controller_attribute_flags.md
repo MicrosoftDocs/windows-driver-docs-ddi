@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CONTROLLER_ATTRIBUTE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS
 ---

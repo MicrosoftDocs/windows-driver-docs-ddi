@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

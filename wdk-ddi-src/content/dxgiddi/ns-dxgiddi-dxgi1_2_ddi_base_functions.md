@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI1_2_DDI_BASE_FUNCTIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI1_2_DDI_BASE_FUNCTIONS
 ---

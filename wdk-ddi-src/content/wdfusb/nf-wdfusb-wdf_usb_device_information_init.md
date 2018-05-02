@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_DEVICE_INFORMATION_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

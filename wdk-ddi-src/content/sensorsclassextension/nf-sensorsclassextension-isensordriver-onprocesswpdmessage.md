@@ -38,8 +38,9 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	ISensorDriver.OnProcessWpdMessage
-product: Windows
+-	OnProcessWpdMessage
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

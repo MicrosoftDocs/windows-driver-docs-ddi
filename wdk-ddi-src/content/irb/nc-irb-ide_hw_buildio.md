@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IdeHwBuildIo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

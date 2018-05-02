@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetLogMask
 -	IDebugControl2.SetLogMask
 -	IDebugControl3.SetLogMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

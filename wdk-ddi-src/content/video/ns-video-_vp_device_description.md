@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VP_DEVICE_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION
 ---

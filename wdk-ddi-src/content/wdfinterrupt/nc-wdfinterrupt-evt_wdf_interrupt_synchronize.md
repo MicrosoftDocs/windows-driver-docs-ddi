@@ -38,7 +38,8 @@ api_location:
 -	Wdfinterrupt.h
 api_name:
 -	EvtInterruptSynchronize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

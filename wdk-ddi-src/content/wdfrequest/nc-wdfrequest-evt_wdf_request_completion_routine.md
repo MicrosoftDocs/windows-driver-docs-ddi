@@ -38,7 +38,8 @@ api_location:
 -	Wdfrequest.h
 api_name:
 -	CompletionRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

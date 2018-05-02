@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
 ---

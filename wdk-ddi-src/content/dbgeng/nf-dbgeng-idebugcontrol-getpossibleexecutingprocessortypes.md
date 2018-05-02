@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetPossibleExecutingProcessorTypes
 -	IDebugControl2.GetPossibleExecutingProcessorTypes
 -	IDebugControl3.GetPossibleExecutingProcessorTypes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

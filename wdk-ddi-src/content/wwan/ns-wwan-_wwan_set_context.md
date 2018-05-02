@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SET_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT
 ---

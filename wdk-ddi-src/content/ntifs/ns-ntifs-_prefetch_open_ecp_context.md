@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	PREFETCH_OPEN_ECP_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT
 ---

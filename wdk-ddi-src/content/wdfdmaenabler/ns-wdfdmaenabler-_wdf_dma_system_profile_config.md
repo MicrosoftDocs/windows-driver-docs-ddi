@@ -38,7 +38,8 @@ api_location:
 -	wdfdmaenabler.h
 api_name:
 -	WDF_DMA_SYSTEM_PROFILE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 ---

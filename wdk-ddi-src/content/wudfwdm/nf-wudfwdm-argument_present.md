@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	ARGUMENT_PRESENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_DVBT2_L1_SIGNALLING_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_DVBT2_L1_SIGNALLING_DATA, *PBDA_DVBT2_L1_SIGNALLING_DATA
 ---

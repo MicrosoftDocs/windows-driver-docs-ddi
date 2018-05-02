@@ -38,7 +38,8 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceUsageNotificationEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

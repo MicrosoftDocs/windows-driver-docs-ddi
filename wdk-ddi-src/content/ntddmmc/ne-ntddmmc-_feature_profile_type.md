@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_PROFILE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_PROFILE_TYPE, *PFEATURE_PROFILE_TYPE
 ---

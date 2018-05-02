@@ -38,7 +38,8 @@ api_location:
 -	Winsmcrd.h
 api_name:
 -	IOCTL_SMARTCARD_SWALLOW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

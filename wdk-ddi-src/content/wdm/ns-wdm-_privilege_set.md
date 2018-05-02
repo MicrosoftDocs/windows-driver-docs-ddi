@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PRIVILEGE_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRIVILEGE_SET, *PPRIVILEGE_SET
 ---

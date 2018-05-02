@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	IOCTL_STORAGE_PROTOCOL_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

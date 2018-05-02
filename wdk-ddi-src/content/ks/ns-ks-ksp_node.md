@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_NODE, *PKSP_NODE
 ---

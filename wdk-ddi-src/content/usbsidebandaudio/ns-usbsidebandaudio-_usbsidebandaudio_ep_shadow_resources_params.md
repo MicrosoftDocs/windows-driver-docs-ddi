@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_PARAMS, *PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_PARAMS
 ---

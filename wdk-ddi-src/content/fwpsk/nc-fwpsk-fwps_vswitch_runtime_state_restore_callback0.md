@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	vSwitchRuntimeStateRestoreNotifyFn
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

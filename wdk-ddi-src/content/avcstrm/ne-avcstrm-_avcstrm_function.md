@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FUNCTION
 ---

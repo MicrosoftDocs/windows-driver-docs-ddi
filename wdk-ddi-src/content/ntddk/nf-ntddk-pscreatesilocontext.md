@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsCreateSiloContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_UNLOAD_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION
 ---

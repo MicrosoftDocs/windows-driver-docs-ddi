@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	LOCK_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LOCK_OPERATION
 ---

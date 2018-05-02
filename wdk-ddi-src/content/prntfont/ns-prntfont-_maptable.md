@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	MAPTABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MAPTABLE, *PMAPTABLE
 ---

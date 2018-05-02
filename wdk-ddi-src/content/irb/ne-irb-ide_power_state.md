@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---

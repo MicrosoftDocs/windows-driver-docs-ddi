@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_ARRAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY
 ---

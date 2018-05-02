@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITOR, *LPMONITOR
 ---

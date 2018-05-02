@@ -43,7 +43,8 @@ api_name:
 -	IPrintOemEngine.EnablePDEV
 -	IPrintOemEngine.DisablePDEV
 -	IPrintOemEngine.ResetPDEV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

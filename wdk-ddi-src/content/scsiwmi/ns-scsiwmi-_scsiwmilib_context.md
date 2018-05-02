@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	SCSI_WMILIB_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_WMILIB_CONTEXT, *PSCSI_WMILIB_CONTEXT
 ---

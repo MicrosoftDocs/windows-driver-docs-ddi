@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugControl2.GetCurrentSystemUpTime
 -	IDebugControl3.GetCurrentSystemUpTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

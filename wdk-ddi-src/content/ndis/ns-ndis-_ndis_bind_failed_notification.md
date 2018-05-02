@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_BIND_FAILED_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_BIND_FAILED_NOTIFICATION, *PNDIS_BIND_FAILED_NOTIFICATION
 ---

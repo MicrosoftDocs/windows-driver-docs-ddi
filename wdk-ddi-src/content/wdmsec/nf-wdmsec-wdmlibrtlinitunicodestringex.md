@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	WdmlibRtlInitUnicodeStringEx
 -	RtlInitUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

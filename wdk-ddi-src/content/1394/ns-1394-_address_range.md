@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	ADDRESS_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
 ---

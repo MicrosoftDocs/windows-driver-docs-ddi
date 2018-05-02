@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	AtaPortAllocateQueueTag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

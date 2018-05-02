@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	BUS_INTERFACE_MEDIUMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS
 ---

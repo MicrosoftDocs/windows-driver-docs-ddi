@@ -38,7 +38,8 @@ api_location:
 -	lowio.h
 api_name:
 -	RxLowIoGetBufferAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

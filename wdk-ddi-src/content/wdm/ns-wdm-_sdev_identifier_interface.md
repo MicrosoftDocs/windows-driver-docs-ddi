@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	SDEV_IDENTIFIER_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDEV_IDENTIFIER_INTERFACE, *PSDEV_IDENTIFIER_INTERFACE
 ---

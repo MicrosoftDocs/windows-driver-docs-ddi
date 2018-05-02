@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_COMPANION_POST_D0_EXIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

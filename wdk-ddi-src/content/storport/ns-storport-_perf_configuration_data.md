@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	PERF_CONFIGURATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
 ---

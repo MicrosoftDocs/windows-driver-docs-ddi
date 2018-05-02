@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_LIST_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_LIST_HEADER, *PWWAN_LIST_HEADER
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	HARDWARE_COUNTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HARDWARE_COUNTER, *PHARDWARE_COUNTER
 ---

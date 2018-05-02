@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BASEBAND_CHANNEL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
 ---

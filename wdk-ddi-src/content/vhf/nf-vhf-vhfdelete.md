@@ -39,7 +39,8 @@ api_location:
 -	vhfKm.dll
 api_name:
 -	VhfDelete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

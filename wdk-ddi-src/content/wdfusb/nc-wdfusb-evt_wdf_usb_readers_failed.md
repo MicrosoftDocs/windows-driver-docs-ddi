@@ -38,7 +38,8 @@ api_location:
 -	WdfUsb.h
 api_name:
 -	EvtUsbTargetPipeReadersFailed
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

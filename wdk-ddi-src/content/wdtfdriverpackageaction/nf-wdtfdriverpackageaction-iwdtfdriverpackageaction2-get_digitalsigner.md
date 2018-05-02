@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFDriverPackageAction2.DigitalSigner
 -	IWDTFDriverPackageAction2.get_DigitalSigner
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_IO_QUEUE_PURGED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	iscsicfg.h
 api_name:
 -	MSiSCSI_RADIUSConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 ---

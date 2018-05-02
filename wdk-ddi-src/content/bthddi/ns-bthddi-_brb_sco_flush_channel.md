@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_FLUSH_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

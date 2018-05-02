@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FAST_IO_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FAST_IO_DISPATCH, *PFAST_IO_DISPATCH
 ---

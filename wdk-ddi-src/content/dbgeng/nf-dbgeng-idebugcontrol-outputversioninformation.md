@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.OutputVersionInformation
 -	IDebugControl2.OutputVersionInformation
 -	IDebugControl3.OutputVersionInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_REGISTER_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

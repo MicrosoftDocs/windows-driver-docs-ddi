@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	INTERFACE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERFACE_TYPE, *PINTERFACE_TYPE
 ---

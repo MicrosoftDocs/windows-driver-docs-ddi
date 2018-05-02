@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_RECORD_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 ---

@@ -38,7 +38,8 @@ api_location:
 -	rxstruc.h
 api_name:
 -	RxUnregisterMinirdr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

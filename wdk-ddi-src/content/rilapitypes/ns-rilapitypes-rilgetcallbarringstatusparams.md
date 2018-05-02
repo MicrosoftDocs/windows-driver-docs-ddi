@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGETCALLBARRINGSTATUSPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGETCALLBARRINGSTATUSPARAMS, *LPRILGETCALLBARRINGSTATUSPARAMS
 ---

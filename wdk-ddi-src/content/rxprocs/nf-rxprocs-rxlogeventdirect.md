@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxLogEventDirect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

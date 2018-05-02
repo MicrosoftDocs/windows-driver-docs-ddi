@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_CLASS_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE
 ---

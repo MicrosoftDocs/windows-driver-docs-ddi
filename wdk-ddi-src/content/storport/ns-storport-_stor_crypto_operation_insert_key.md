@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_CRYPTO_OPERATION_INSERT_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_INSERT_KEY, *PSTOR_CRYPTO_OPERATION_INSERT_KEY
 ---

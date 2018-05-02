@@ -38,7 +38,8 @@ api_location:
 -	Ucxendpoint.h
 api_name:
 -	UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 ---

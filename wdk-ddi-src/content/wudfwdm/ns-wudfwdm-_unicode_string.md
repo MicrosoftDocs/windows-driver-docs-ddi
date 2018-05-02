@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	UNICODE_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNICODE_STRING
 ---
@@ -142,4 +143,6 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
  
 
  
+
+
 

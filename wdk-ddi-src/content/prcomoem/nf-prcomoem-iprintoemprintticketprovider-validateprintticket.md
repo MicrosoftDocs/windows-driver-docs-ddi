@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -89,4 +90,5 @@ If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>
  
 
  
+
 

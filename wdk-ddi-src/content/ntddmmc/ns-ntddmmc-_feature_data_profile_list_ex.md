@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_PROFILE_LIST_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX
 ---

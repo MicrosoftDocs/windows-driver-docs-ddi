@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.HasUnnamedArg
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

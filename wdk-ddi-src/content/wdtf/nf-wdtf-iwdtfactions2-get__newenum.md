@@ -37,8 +37,10 @@ api_type:
 api_location:
 -	wdtf.h
 api_name:
--	IWDTFActions2._NewEnum
-product: Windows
+-	IWDTFDeviceDepot2._NewEnum
+-	IWDTFDeviceDepot2.get__NewEnum
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -95,4 +97,5 @@ For more information about how ATL implements this functionality, see the
  
 
  
+
 

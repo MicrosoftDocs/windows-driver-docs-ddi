@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

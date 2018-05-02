@@ -38,7 +38,8 @@ api_location:
 -	SensorsClassExtension.h
 api_name:
 -	MagnetometerAccuracy
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MagnetometerAccuracy
 ---

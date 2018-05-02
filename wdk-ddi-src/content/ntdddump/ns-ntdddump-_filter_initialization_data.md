@@ -38,7 +38,8 @@ api_location:
 -	ntdddump.h
 api_name:
 -	FILTER_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---

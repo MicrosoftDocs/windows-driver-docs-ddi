@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGenerateEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

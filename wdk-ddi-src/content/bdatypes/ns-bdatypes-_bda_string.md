@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_STRING, *PBDA_STRING
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_FULL_EA_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION
 ---

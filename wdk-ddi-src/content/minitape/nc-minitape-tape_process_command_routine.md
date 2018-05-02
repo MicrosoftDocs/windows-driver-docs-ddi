@@ -38,7 +38,8 @@ api_location:
 -	minitape.h
 api_name:
 -	(*TAPE_PROCESS_COMMAND_ROUTINE)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

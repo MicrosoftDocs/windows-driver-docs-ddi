@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	POWER_PLATFORM_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_PLATFORM_INFORMATION, *PPOWER_PLATFORM_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	NfcCx.dll
 api_name:
 -	NfcCxNciReadNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

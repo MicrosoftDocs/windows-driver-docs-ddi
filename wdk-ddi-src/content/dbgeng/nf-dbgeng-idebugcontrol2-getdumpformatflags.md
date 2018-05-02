@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugControl2.GetDumpFormatFlags
 -	IDebugControl3.GetDumpFormatFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

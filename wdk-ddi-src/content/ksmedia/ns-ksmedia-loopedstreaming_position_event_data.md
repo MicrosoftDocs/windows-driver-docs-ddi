@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	LOOPEDSTREAMING_POSITION_EVENT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LOOPEDSTREAMING_POSITION_EVENT_DATA, *PLOOPEDSTREAMING_POSITION_EVENT_DATA
 ---

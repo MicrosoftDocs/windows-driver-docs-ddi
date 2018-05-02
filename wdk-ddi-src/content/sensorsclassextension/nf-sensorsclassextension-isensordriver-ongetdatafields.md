@@ -38,8 +38,9 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	ISensorDriver.OnGetDataFields
-product: Windows
+-	OnGetDataFields
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

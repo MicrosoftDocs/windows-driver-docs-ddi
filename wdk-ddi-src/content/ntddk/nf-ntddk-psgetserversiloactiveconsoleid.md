@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsGetServerSiloActiveConsoleId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

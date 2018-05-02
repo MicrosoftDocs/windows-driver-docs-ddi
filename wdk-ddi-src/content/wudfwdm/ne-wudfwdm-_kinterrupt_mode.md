@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	KINTERRUPT_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KINTERRUPT_MODE
 ---
@@ -93,4 +94,6 @@ The interrupt mode is an electrical characteristic of the interrupt. A device si
  
 
  
+
+
 

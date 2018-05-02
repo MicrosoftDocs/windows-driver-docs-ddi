@@ -38,7 +38,8 @@ api_location:
 -	Ufxclient.h
 api_name:
 -	PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

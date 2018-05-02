@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAcquirePushLockShared
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -58,16 +59,7 @@ The <b>FltAcquirePushLockShared</b> routine acquires the given push lock for sha
 
 
 
-### -param Lock
-
-TBD
-
-
-
-
-
-
-#### - PushLock [in, out]
+### -param Lock [in, out]
 
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 

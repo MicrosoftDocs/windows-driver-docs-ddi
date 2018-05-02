@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_INITIATE_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE
 ---

@@ -16,19 +16,19 @@ req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTAcquireKeyedMutex is supported beginning with the Windows 7 operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTAcquireKeyedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,7 +58,7 @@ The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
 
 
 
-### -param *
+### -param *pData [in, out]
 
 
 
@@ -89,7 +90,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 </dl>
 </td>
 <td width="60%">
-The keyed mutex object was successfully acquired. 
+The keyed mutex object was successfully acquired.
 
 </td>
 </tr>

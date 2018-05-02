@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PowerOnDumpDeviceCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

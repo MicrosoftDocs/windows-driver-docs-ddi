@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrErrorReportingType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrErrorReportingType
 ---

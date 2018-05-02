@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_CONNECT_IO_PINS_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 ---

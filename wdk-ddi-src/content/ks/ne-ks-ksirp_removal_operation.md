@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSIRP_REMOVAL_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSIRP_REMOVAL_OPERATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DRIVER_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_OBJECT, *PDRIVER_OBJECT
 ---

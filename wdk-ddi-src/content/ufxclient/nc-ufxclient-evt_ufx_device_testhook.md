@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	EVT_UFX_DEVICE_TESTHOOK callback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

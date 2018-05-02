@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_DIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_DIRECTION, *PUSBFN_DIRECTION
 ---

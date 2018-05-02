@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

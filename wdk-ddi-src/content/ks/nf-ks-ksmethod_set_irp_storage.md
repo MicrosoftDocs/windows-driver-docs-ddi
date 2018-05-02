@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSMETHOD_SET_IRP_STORAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

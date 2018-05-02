@@ -38,7 +38,8 @@ api_location:
 -	Usbspec.h
 api_name:
 -	USB_DEVICE_SPEED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_SPEED
 ---

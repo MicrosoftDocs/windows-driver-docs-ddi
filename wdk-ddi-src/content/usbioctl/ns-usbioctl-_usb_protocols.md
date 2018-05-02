@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_PROTOCOLS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_PROTOCOLS, *PUSB_PROTOCOLS
 ---

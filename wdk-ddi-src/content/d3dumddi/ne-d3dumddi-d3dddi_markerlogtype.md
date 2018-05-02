@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_MARKERLOGTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_MARKERLOGTYPE
 ---

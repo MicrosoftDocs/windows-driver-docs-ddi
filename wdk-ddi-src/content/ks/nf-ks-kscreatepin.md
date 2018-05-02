@@ -40,7 +40,8 @@ api_location:
 -	ksuser.dll
 api_name:
 -	KsCreatePin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

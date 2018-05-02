@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUni.DrvWriteAbortBuf
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

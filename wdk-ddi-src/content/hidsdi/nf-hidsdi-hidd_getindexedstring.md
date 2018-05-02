@@ -38,7 +38,8 @@ api_location:
 -	Hid.dll
 api_name:
 -	HidD_GetIndexedString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

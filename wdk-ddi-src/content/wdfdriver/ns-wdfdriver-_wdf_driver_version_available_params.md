@@ -38,7 +38,8 @@ api_location:
 -	wdfdriver.h
 api_name:
 -	WDF_DRIVER_VERSION_AVAILABLE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 ---

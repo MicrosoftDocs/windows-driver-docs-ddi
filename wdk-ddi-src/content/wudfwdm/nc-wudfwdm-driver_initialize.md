@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DriverEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -143,4 +144,6 @@ The DRIVER_INITIALIZE function type is defined in the Wdm.h header file. To more
  
 
  
+
+
 

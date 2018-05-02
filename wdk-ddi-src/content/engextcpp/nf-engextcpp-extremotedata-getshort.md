@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.GetShort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

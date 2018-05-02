@@ -38,7 +38,8 @@ api_location:
 -	Ntddtape.h
 api_name:
 -	IOCTL_TAPE_CREATE_PARTITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

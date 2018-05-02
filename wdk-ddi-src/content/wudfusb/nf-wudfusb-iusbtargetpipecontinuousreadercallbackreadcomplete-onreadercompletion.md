@@ -38,7 +38,8 @@ api_location:
 -	wudfusb.h
 api_name:
 -	IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,9 @@ api_type:
 api_location:
 -	Dispmprt.h
 api_name:
--	DxgkCbMiracastSendMessage
-product: Windows
+-	DxgkCbMiracastSendMessageCallback
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

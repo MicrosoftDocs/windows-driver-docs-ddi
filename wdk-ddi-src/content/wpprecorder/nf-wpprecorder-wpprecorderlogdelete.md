@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	imp_WppRecorderLogDelete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTHCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTHCAPS, *PSYNTHCAPS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRANSACTIONMANAGER_LOG_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTIONMANAGER_LOG_INFORMATION, *PTRANSACTIONMANAGER_LOG_INFORMATION
 ---

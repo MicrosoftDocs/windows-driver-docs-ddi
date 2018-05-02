@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.GetFieldOffset
 -	IDebugSymbols2.GetFieldOffset
 -	IDebugSymbols3.GetFieldOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

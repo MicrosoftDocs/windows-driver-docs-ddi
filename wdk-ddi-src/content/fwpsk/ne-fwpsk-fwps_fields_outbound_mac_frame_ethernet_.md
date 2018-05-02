@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET
 ---

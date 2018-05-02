@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ---

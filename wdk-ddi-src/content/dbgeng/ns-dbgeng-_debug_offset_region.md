@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_OFFSET_REGION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION
 ---

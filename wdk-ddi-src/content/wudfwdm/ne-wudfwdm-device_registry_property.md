@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_REGISTRY_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_REGISTRY_PROPERTY
 ---
@@ -135,4 +136,6 @@ The <b>DEVICE_REGISTRY_PROPERTY</b> enumeration identifies device properties tha
  
 
  
+
+
 

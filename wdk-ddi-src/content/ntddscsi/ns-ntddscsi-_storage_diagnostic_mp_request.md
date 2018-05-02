@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	STORAGE_DIAGNOSTIC_MP_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ---

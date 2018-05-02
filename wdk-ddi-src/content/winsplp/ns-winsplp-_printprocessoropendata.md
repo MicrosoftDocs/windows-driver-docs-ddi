@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	PRINTPROCESSOROPENDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA
 ---

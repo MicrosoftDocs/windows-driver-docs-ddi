@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_EXEMPTION_ACTION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_EXEMPTION_ACTION_TYPE
 ---

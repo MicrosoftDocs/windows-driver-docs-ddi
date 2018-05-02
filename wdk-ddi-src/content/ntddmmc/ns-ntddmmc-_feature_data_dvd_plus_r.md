@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_DVD_PLUS_R
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R
 ---

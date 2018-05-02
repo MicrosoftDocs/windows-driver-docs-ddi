@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlAppendUnicodeStringToString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -126,4 +127,6 @@ The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller 
  
 
  
+
+
 

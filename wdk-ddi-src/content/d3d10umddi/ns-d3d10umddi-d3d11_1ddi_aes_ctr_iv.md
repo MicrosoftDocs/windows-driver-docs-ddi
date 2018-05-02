@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11_1DDI_AES_CTR_IV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_AES_CTR_IV
 ---

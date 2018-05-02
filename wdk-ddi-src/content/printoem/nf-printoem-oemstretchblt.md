@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStretchBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

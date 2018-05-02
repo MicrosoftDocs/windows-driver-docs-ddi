@@ -38,7 +38,8 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_GET_CURRENT_FRAME_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.OnSessionAccessible
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

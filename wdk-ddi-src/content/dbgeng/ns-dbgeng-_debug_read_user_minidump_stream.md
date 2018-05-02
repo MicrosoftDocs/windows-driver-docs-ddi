@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_READ_USER_MINIDUMP_STREAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM
 ---

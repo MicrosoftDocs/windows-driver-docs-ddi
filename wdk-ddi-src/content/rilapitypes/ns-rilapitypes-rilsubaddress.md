@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSUBADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSUBADDRESS, *LPRILSUBADDRESS
 ---

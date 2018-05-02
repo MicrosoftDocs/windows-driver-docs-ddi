@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	HwStorWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

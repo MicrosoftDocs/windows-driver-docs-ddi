@@ -38,7 +38,8 @@ api_location:
 -	USBSidebandAudio.h
 api_name:
 -	IOCTL_USBSBAUD_SET_VOLUME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

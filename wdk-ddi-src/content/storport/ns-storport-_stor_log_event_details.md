@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_LOG_EVENT_DETAILS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS
 ---

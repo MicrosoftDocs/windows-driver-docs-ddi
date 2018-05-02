@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_STATUS_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK"
 ---
@@ -113,4 +114,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
  
 
  
+
+
 

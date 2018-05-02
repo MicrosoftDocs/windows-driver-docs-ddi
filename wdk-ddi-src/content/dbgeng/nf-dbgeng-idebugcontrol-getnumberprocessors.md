@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetNumberProcessors
 -	IDebugControl2.GetNumberProcessors
 -	IDebugControl3.GetNumberProcessors
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

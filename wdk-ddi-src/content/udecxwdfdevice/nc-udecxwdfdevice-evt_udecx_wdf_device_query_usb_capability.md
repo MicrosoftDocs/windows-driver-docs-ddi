@@ -38,7 +38,8 @@ api_location:
 -	UdecxWdfDevice.h
 api_name:
 -	EvtUdecxWdfDeviceQueryUsbCapability
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

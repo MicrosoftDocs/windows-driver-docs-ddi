@@ -38,7 +38,8 @@ api_location:
 -	Hid.dll
 api_name:
 -	HidD_GetSerialNumberString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

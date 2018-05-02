@@ -2,7 +2,7 @@
 UID: TP:parports
 ms.assetid: 38f4cf0c-2fc1-3909-83b7-bf354cf904c1
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,10 +12,13 @@ ms.topic: portal
 # Parallel Ports
 
 
+
 Overview of the Parallel Ports technology.
 
 To develop Parallel Ports, you need these headers:
 
+ * [gpio.h](..\gpio\index.md)
+ * [gpioclx.h](..\gpioclx\index.md)
  * [ntddpar.h](..\ntddpar\index.md)
  * [ntddser.h](..\ntddser\index.md)
  * [parallel.h](..\parallel\index.md)

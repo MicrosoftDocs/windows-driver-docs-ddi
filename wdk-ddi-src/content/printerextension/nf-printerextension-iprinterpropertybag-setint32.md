@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterPropertyBag.SetInt32
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -40,7 +40,8 @@ api_name:
 -	OB_OPERATION_REGISTRATION
 -	PsProcessType
 -	PsThreadType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION
 ---

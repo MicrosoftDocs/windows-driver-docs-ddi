@@ -38,8 +38,9 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	ISensorClassExtension.CleanupFile
-product: Windows
+-	CleanupFile
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

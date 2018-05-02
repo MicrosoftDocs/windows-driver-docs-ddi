@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_GETREADPACKET_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_GETREADPACKET_INFO, *PKSRTAUDIO_GETREADPACKET_INFO
 ---

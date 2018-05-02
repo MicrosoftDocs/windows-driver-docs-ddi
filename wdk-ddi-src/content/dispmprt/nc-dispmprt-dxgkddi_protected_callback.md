@@ -16,18 +16,18 @@ req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkProtectedCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,22 @@ req.typenames:
 ## -description
 
 
-The <i>DxgkProtectedCallback</i> callback routine is implemented by the display miniport driver and is called by <a href="https://msdn.microsoft.com/e74e79fe-3b36-427e-ae0b-4072a0438c4e">DxgkCbExcludeAdapterAccess</a> during a protected state when all access to the display adapter is prevented.
+The <i>DxgkProtectedCallback</i> callback routine is implemented by the display miniport driver and is called by <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a> during a protected state when all access to the display adapter is prevented.
+
+
+## -prototype
+
+
+````
+DXGKDDI_PROTECTED_CALLBACK DxgkProtectedCallback;
+
+VOID DxgkProtectedCallback(
+  _In_ const PVOID    MiniportDeviceContext,
+  _In_       PVOID    ProtectedCallbackContext,
+  _In_       NTSTATUS ProtectionStatus
+)
+{ ... }
+````
 
 
 ## -parameters
@@ -57,14 +73,11 @@ The <i>DxgkProtectedCallback</i> callback routine is implemented by the display 
 
 
 
-### -param PVOID
-
-
 ### -param ProtectedCallbackContext [in]
 
 
-      A pointer to driver-defined information that was specified in a previous call to <a href="https://msdn.microsoft.com/e74e79fe-3b36-427e-ae0b-4072a0438c4e">DxgkCbExcludeAdapterAccess</a>.
-     
+      A pointer to driver-defined information that was specified in a previous call to <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>.
+
 
 
 ### -param ProtectionStatus [in]
@@ -74,7 +87,8 @@ Status of the display adapter's protected state. If STATUS_SUCCESS, the adapter 
 
 #### - MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem. 
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+
 
 
 ## -returns
@@ -121,11 +135,12 @@ The adapter, including its registers and display mode, is maintained in the prop
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/e74e79fe-3b36-427e-ae0b-4072a0438c4e">DxgkCbExcludeAdapterAccess</a>
  
 
  
+
 

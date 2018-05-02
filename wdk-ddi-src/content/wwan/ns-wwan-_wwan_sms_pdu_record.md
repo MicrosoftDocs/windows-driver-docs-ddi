@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SMS_PDU_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD
 ---

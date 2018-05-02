@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DXGK_SPB_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
 ---

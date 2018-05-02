@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, *PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	PUBLIC_OBJECT_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION
 ---

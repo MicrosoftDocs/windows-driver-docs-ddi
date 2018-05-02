@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	BDA_TRANSPORT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO
 ---

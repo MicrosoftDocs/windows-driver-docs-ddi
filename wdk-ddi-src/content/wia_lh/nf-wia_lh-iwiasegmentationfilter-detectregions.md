@@ -38,7 +38,8 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaSegmentationFilter.DetectRegions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

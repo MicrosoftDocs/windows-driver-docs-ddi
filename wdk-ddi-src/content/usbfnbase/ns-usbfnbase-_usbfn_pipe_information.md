@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_PIPE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_PIPE_INFORMATION, *PUSBFN_PIPE_INFORMATION
 ---

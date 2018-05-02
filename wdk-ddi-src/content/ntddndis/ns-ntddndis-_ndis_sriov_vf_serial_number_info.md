@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, *PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO
 ---

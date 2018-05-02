@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	STORAGE_SET_READ_AHEAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_SET_READ_AHEAD, *PSTORAGE_SET_READ_AHEAD
 ---

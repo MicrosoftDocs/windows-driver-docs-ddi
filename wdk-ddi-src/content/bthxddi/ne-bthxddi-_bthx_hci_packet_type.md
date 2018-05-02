@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	BTHX_HCI_PACKET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_HCI_PACKET_TYPE
 ---

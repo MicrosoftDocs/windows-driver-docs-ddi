@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlUnicodeStringToInteger
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -186,4 +187,6 @@ A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/
  
 
  
+
+
 

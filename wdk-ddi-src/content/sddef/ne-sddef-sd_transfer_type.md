@@ -38,7 +38,8 @@ api_location:
 -	sddef.h
 api_name:
 -	SD_TRANSFER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_TRANSFER_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	REASSIGN_BLOCKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
 ---

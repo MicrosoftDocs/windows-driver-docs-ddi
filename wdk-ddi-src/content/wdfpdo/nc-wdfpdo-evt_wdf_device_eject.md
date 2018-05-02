@@ -38,7 +38,8 @@ api_location:
 -	Wdfpdo.h
 api_name:
 -	EvtDeviceEject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

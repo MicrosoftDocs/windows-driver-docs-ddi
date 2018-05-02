@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	(*MINIPORT_WDI_START_OPERATION_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

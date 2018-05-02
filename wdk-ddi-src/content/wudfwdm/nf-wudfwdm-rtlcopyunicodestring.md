@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlCopyUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -107,4 +108,6 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
  
 
  
+
+
 

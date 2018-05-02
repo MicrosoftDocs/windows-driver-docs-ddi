@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCchCatNW
 -	RtlStringCchCatNA
 -	RtlStringCchCatNW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

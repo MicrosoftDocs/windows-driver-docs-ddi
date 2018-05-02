@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_POSITIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS
 ---

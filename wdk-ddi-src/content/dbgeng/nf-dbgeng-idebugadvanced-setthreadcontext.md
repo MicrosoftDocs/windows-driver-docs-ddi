@@ -40,7 +40,8 @@ api_name:
 -	IDebugAdvanced.SetThreadContext
 -	IDebugAdvanced2.SetThreadContext
 -	IDebugAdvanced3.SetThreadContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

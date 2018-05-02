@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SerCx2CustomReceiveTransactionReportProgress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

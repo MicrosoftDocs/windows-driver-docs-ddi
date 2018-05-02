@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwOpenSymbolicLinkObject
 -	NtOpenSymbolicLinkObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

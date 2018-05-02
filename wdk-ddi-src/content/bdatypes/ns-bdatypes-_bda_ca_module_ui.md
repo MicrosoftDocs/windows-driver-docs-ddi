@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_CA_MODULE_UI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI
 ---

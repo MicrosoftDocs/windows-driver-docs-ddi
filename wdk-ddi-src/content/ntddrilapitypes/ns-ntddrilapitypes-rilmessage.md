@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMESSAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGE, *LPRILMESSAGE
 ---

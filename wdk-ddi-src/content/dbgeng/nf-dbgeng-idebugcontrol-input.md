@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugControl.Input
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

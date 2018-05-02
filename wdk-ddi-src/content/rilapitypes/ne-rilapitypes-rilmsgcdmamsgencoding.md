@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGENCODING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMAMSGENCODING
 ---

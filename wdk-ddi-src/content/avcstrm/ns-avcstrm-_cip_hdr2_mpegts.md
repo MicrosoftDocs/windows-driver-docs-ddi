@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR2_MPEGTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS
 ---

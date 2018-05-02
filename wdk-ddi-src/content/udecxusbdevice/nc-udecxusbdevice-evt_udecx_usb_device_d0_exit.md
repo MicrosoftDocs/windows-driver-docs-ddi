@@ -38,7 +38,8 @@ api_location:
 -	udecxusbdevice.h
 api_name:
 -	EvtUsbDeviceLinkPowerExit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

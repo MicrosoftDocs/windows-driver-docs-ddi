@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizationFactory1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

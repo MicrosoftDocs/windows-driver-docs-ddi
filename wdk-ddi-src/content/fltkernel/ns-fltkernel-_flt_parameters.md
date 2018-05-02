@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_PARAMETERS, *PFLT_PARAMETERS
 ---

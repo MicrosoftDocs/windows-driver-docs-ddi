@@ -38,7 +38,8 @@ api_location:
 -	ufxbase.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

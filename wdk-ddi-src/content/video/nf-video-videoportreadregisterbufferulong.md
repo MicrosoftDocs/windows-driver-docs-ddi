@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortReadRegisterBufferUlong
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

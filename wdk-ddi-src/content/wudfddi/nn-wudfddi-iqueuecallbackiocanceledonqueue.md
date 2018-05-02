@@ -38,7 +38,8 @@ api_location:
 -	wudfddi.h
 api_name:
 -	IQueueCallbackIoCanceledOnQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

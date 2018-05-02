@@ -38,7 +38,8 @@ api_location:
 -	Wdfio.h
 api_name:
 -	EvtIoAllocateResourcesForReservedRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

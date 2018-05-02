@@ -38,7 +38,8 @@ api_location:
 -	mxdc.h
 api_name:
 -	MxdcGetPDEVAdjustment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

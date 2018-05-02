@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_CHILD_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_CHILD_STATE, *PVIDEO_CHILD_STATE
 ---

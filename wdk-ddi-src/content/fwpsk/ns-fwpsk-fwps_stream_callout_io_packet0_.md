@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_STREAM_CALLOUT_IO_PACKET0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_STREAM_CALLOUT_IO_PACKET0
 ---

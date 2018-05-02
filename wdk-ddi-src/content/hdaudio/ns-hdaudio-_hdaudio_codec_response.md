@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	HDAUDIO_CODEC_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE
 ---

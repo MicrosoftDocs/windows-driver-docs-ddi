@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	ATTRIBUTE_INFO_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1
 ---

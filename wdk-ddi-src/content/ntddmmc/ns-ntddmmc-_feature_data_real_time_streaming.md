@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_REAL_TIME_STREAMING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_REAL_TIME_STREAMING, *PFEATURE_DATA_REAL_TIME_STREAMING
 ---

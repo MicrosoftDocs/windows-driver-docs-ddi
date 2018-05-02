@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_DVD_SEND_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

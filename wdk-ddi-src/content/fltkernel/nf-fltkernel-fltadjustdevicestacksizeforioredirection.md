@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAdjustDeviceStackSizeForIoRedirection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

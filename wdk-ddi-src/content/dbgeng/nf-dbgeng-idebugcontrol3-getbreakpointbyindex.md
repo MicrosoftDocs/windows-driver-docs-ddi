@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetBreakpointByIndex
 -	IDebugControl2.GetBreakpointByIndex
 -	IDebugControl3.GetBreakpointByIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

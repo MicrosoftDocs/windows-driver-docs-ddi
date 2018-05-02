@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SMS_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS
 ---

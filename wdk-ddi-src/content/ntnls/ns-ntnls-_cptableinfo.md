@@ -38,7 +38,8 @@ api_location:
 -	Ntnls.h
 api_name:
 -	CPTABLEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CPTABLEINFO, *PCPTABLEINFO
 ---

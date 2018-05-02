@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetOutputCallbacks
 -	IDebugClient4.GetOutputCallbacks
 -	IDebugClient5.GetOutputCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	InsertTailList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -118,4 +119,6 @@ Callers of <b>InsertTailList</b> can be running at any IRQL. If <b>InsertTailLis
  
 
  
+
+
 

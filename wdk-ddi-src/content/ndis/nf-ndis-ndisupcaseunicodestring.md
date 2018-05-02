@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisUpcaseUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

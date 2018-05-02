@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
 ---

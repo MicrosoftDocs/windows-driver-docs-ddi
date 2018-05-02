@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_PM_WAKE_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON
 ---

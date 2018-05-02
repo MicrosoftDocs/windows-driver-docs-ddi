@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceClearRemovalRelationsDevices
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

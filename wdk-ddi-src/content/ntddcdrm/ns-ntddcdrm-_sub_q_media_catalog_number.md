@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	SUB_Q_MEDIA_CATALOG_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SUB_Q_MEDIA_CATALOG_NUMBER, *PSUB_Q_MEDIA_CATALOG_NUMBER
 ---

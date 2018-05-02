@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DEVICE_IO_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
 ---

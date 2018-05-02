@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrDataEncryption
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrDataEncryption
 ---

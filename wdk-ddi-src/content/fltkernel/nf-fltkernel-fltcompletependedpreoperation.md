@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltCompletePendedPreOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

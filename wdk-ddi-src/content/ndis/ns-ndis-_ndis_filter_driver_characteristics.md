@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_FILTER_DRIVER_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_DRIVER_CHARACTERISTICS, *PNDIS_FILTER_DRIVER_CHARACTERISTICS
 ---
@@ -393,24 +394,11 @@ The entry point of the caller's
 
 ### -field SynchronousOidRequestHandler
 
-<div class="alert"><b>Warning</b>  In Windows 10, version 1709, Synchronous OID requests are supported only for miniport and protocol drivers. Filter drivers cannot make Synchronous OID request calls in Windows 10, version 1709.</div>
-<div> </div>
-This member is reserved.
-
+The entry point of the caller's [*FilterSynchronousOidRequest*](nf-ndis-filter_synchronous_oid_request.md) function. To bypass this function, set this member to **NULL**.
 
 ### -field SynchronousOidRequestCompleteHandler
 
- 
-
-
-
-
-#### - SynchronousOidRequestHandlerComplete
-
-<div class="alert"><b>Warning</b>  In Windows 10, version 1709, Synchronous OID requests are supported only for miniport and protocol drivers. Filter drivers cannot make Synchronous OID request calls in Windows 10, version 1709.</div>
-<div> </div>
-This member is reserved.
-
+The entry point of the caller's [*FilterSynchronousOidRequestComplete*](nf-ndis-filter_synchronous_oid_request_complete.md) function. To bypass this function, set this member to **NULL**.
 
 ## -remarks
 

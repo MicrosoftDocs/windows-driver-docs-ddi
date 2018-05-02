@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_FILTER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVD_YUV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVD_YUV, *PKS_DVD_YUV
 ---

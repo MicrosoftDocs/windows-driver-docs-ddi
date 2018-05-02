@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	SetLoadImageNotifyRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,7 +51,7 @@ req.typenames:
 
 
 Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. 
-<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://msdn.microsoft.com/c01b3fd9-7f4e-4d1a-a726-b31b0eebf094">Best Practices</a>. </div><div> </div>
+<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
 
 ## -parameters
 

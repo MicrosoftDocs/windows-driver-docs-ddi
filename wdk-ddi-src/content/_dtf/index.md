@@ -2,31 +2,61 @@
 UID: TP:dtf
 ms.assetid: d5452dd2-c8e3-30e9-8760-2f451dbe92d2
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Dtf
+# Windows Device Testing Framework (WDTF)
 
 
-Overview of the Dtf technology.
 
-To develop Dtf, you need these headers:
+Overview of the Windows Device Testing Framework (WDTF) technology.
 
+To develop Windows Device Testing Framework (WDTF), you need these headers:
+
+ * [comtracing.h](..\comtracing\index.md)
+ * [interruption.h](..\interruption\index.md)
+ * [itestresource.h](..\itestresource\index.md)
+ * [log.h](..\log\index.md)
+ * [logcontext.h](..\logcontext\index.md)
+ * [logcontroller.h](..\logcontroller\index.md)
+ * [logtestresults.h](..\logtestresults\index.md)
+ * [preservelasterror.h](..\preservelasterror\index.md)
+ * [resourcelist.h](..\resourcelist\index.md)
+ * [runtimeparameters.h](..\runtimeparameters\index.md)
+ * [screencapture.h](..\screencapture\index.md)
+ * [te.common.h](..\te.common\index.md)
+ * [testdata.h](..\testdata\index.md)
+ * [testnotification.h](..\testnotification\index.md)
+ * [throw.h](..\throw\index.md)
+ * [tracing.h](..\tracing\index.md)
+ * [verify.h](..\verify\index.md)
  * [wdtf.h](..\wdtf\index.md)
  * [wdtfdriverpackageaction.h](..\wdtfdriverpackageaction\index.md)
  * [wdtfdriversetupdeviceaction.h](..\wdtfdriversetupdeviceaction\index.md)
  * [wdtfdriversetupsystemaction.h](..\wdtfdriversetupsystemaction\index.md)
  * [wdtfedtaction.h](..\wdtfedtaction\index.md)
  * [wdtfinterfaces.h](..\wdtfinterfaces\index.md)
+ * [wdtfinterfacessup.h](..\wdtfinterfacessup\index.md)
+ * [wdtflogging.h](..\wdtflogging\index.md)
  * [wdtfpnpaction.h](..\wdtfpnpaction\index.md)
  * [wdtfsimulatedbatterysystemaction.h](..\wdtfsimulatedbatterysystemaction\index.md)
  * [wdtfsystemaction.h](..\wdtfsystemaction\index.md)
+ * [wex.common.h](..\wex.common\index.md)
+ * [wex.logger.h](..\wex.logger\index.md)
+ * [wexassert.h](..\wexassert\index.md)
+ * [wexdebug.h](..\wexdebug\index.md)
+ * [wexexception.h](..\wexexception\index.md)
+ * [wexlogtrace.h](..\wexlogtrace\index.md)
+ * [wexstring.h](..\wexstring\index.md)
+ * [wextestclass.h](..\wextestclass\index.md)
+ * [wextypes.h](..\wextypes\index.md)
+ * [wppdefs.h](..\wppdefs\index.md)
 
-
+For the programming guide, see [Windows Device Testing Framework (WDTF)](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdtf).
 
 ## Enumerations
 
@@ -146,13 +176,13 @@ To develop Dtf, you need these headers:
 | [IWDTFLOG2::StartTestCase method](..\wdtf\nf-wdtf-iwdtflog2-starttestcase.md) | Marks the start of a test case. |
 | [IWDTFLongNumbers2::Add method](..\wdtf\nf-wdtf-iwdtflongnumbers2-add.md) | Adds a single long number to the collection. |
 | [IWDTFLongNumbers2::Remove method](..\wdtf\nf-wdtf-iwdtflongnumbers2-remove.md) | Removes a long number from the collection. |
-| [IWDTFLongNumbers2::get_Count method](..\wdtf\nf-wdtf-iwdtflongnumbers2-get_count.md) | Gets the number of devices that are currently provided by the DeviceDepot. |
-| [IWDTFLongNumbers2::get_Item method](..\wdtf\nf-wdtf-iwdtflongnumbers2-get_item.md) | Gets an individual device in the DeviceDepot. |
+| [IWDTFLongNumbers2::get_Count method](..\wdtf\nf-wdtf-iwdtflongnumbers2-get_count.md) | Gets the number of long numbers in the collection. |
+| [IWDTFLongNumbers2::get_Item method](..\wdtf\nf-wdtf-iwdtflongnumbers2-get_item.md) | Gets an individual long number in the collection. |
 | [IWDTFLongNumbers2::get__NewEnum method](..\wdtf\nf-wdtf-iwdtflongnumbers2-get__newenum.md) | Gets a new iteration variable that the For Each loop structure implicitly uses. |
 | [IWDTFNumbers2::Add method](..\wdtf\nf-wdtf-iwdtfnumbers2-add.md) | Adds a single number to the collection. |
 | [IWDTFNumbers2::Remove method](..\wdtf\nf-wdtf-iwdtfnumbers2-remove.md) | Removes a number from the collection. |
-| [IWDTFNumbers2::get_Count method](..\wdtf\nf-wdtf-iwdtfnumbers2-get_count.md) | Gets the number of devices that are currently provided by the DeviceDepot. |
-| [IWDTFNumbers2::get_Item method](..\wdtf\nf-wdtf-iwdtfnumbers2-get_item.md) | Gets an individual device in the DeviceDepot. |
+| [IWDTFNumbers2::get_Count method](..\wdtf\nf-wdtf-iwdtfnumbers2-get_count.md) | Gets the number of numbers in the collection. |
+| [IWDTFNumbers2::get_Item method](..\wdtf\nf-wdtf-iwdtfnumbers2-get_item.md) | Gets an individual number in the collection. |
 | [IWDTFNumbers2::get__NewEnum method](..\wdtf\nf-wdtf-iwdtfnumbers2-get__newenum.md) | Gets a new iteration variable that the For Each loop structure implicitly uses. |
 | [IWDTFPNPAction2::DisableDevice method](..\wdtfpnpaction\nf-wdtfpnpaction-iwdtfpnpaction2-disabledevice.md) | Disables the target device. |
 | [IWDTFPNPAction2::EDTCancelRemoveDevice method](..\wdtfpnpaction\nf-wdtfpnpaction-iwdtfpnpaction2-edtcancelremovedevice.md) | Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device. |
@@ -200,8 +230,8 @@ To develop Dtf, you need these headers:
 | [IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-setsimulatedbatterytodc.md) | Sets the simulated battery status to DC power. |
 | [IWDTFStrings2::Add method](..\wdtf\nf-wdtf-iwdtfstrings2-add.md) | Adds a single string to the collection. |
 | [IWDTFStrings2::Remove method](..\wdtf\nf-wdtf-iwdtfstrings2-remove.md) | Removes a string from the collection. |
-| [IWDTFStrings2::get_Count method](..\wdtf\nf-wdtf-iwdtfstrings2-get_count.md) | Gets the number of devices that are currently provided by the DeviceDepot. |
-| [IWDTFStrings2::get_Item method](..\wdtf\nf-wdtf-iwdtfstrings2-get_item.md) | Gets an individual device in the DeviceDepot. |
+| [IWDTFStrings2::get_Count method](..\wdtf\nf-wdtf-iwdtfstrings2-get_count.md) | Gets the number of strings in the collection. |
+| [IWDTFStrings2::get_Item method](..\wdtf\nf-wdtf-iwdtfstrings2-get_item.md) | Gets an individual string in the collection. |
 | [IWDTFStrings2::get__NewEnum method](..\wdtf\nf-wdtf-iwdtfstrings2-get__newenum.md) | Gets a new iteration variable that the For Each loop structure implicitly uses. |
 | [IWDTFSystemAction2::ConnectedStandby method](..\wdtfsystemaction\nf-wdtfsystemaction-iwdtfsystemaction2-connectedstandby.md) | Puts the system into Connected Standby state and exits Connected Standby state after the desired time has passed. This method only works on a computer that supports Always On Always Connected (AOAC). |
 | [IWDTFSystemAction2::GetFirstSleepState method](..\wdtfsystemaction\nf-wdtfsystemaction-iwdtfsystemaction2-getfirstsleepstate.md) | Returns the first supported sleep state. |
@@ -246,7 +276,7 @@ To develop Dtf, you need these headers:
 | [IWDTFTargets2::Query method](..\wdtf\nf-wdtf-iwdtftargets2-query.md) | Returns a subset of the items in the collection. |
 | [IWDTFTargets2::QuerySingle method](..\wdtf\nf-wdtf-iwdtftargets2-querysingle.md) | Returns a single item from the collection. |
 | [IWDTFTargets2::Remove method](..\wdtf\nf-wdtf-iwdtftargets2-remove.md) | Removes an item from the collection. |
-| [IWDTFTargets2::get_Count method](..\wdtf\nf-wdtf-iwdtftargets2-get_count.md) | Gets the number of devices that are currently provided by the DeviceDepot. |
-| [IWDTFTargets2::get_Item method](..\wdtf\nf-wdtf-iwdtftargets2-get_item.md) | Gets an individual device in the DeviceDepot. |
+| [IWDTFTargets2::get_Count method](..\wdtf\nf-wdtf-iwdtftargets2-get_count.md) | Gets the number of items in this collection. |
+| [IWDTFTargets2::get_Item method](..\wdtf\nf-wdtf-iwdtftargets2-get_item.md) | Gets an individual item in the collection. |
 | [IWDTFTargets2::get_WDTF method](..\wdtf\nf-wdtf-iwdtftargets2-get_wdtf.md) | Gets the main WDTF aggregation object. |
 | [IWDTFTargets2::get__NewEnum method](..\wdtf\nf-wdtf-iwdtftargets2-get__newenum.md) | Gets a new iteration variable that the For Each loop structure implicitly uses. |

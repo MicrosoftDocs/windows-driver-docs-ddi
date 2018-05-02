@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisReadConfiguration
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,7 +39,8 @@ api_location:
 -	wdm.h
 api_name:
 -	FILE_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS
 ---
@@ -471,15 +472,24 @@ This is a special version of the <b>FileRenameInformation</b> operation that is 
 
 ### -field FileDesiredStorageClassInformation
 
+A [FILE_DESIRED_STORAGE_CLASS_INFORMATION] structure, declared in ntifs.h.  This value is available starting with Windows 10, version 1709. 
 
 ### -field FileStatInformation
 
+A [**FILE_STAT_INFORMATION**](ntifs\ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
 
 ### -field FileMemoryPartitionInformation
 
+A [**FILE_MEMORY_PARTITION_INFORMATION**](ntifs\ns-ntifs-_file_memory_partition_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+
+
+### -field FileStatLxInformation 
+A [**FILE_STAT_LX_INFORMATION**](ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update. 
+
+### -field FileCaseSensitiveInformation 
+A [**FILE_CASE_SENSITIVE_INFORMATION**](ntifs\ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileMaximumInformation
-
 
 This value is reserved for system use. This value is available starting with Windows 7.
 

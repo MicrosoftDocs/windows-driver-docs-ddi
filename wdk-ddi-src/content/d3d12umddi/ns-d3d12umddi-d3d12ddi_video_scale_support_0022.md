@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_SCALE_SUPPORT_0022
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 ---
@@ -79,7 +80,7 @@ The smallest output height that can be scaled to.  The smallest allowed value is
 
 ### -field Flags
 
- 
+
 
 
 

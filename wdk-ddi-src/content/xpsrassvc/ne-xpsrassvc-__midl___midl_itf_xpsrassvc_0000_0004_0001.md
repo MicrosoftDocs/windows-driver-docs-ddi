@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	XPSRAS_BACKGROUND_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSMPEGVID_RECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 ---

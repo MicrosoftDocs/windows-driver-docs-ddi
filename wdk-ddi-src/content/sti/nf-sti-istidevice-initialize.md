@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

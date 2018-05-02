@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_COPY_PROTECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

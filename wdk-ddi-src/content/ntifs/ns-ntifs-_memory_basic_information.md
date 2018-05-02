@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	MEMORY_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 ---

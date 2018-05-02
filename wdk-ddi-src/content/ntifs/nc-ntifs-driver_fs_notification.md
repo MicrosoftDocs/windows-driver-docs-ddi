@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	PDRIVER_FS_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

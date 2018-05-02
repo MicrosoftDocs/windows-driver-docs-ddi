@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaNUpOption.PagesPerSheet
 -	IPrintSchemaNUpOption.get_PagesPerSheet
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

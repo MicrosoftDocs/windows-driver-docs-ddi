@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

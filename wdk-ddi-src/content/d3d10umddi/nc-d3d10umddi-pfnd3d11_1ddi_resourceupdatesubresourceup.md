@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	DefaultConstantBufferUpdateSubresourceUP(D3D11_1)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

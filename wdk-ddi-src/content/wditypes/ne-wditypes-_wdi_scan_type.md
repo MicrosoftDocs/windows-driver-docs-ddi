@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_SCAN_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_SCAN_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	RTL_SPLAY_LINKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RTL_SPLAY_LINKS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltIsIoRedirectionAllowedForOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

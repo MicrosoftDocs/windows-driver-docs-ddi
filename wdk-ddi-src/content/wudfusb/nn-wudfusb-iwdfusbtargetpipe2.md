@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

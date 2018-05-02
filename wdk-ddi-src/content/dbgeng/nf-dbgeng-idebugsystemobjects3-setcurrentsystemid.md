@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.SetCurrentSystemId
 -	IDebugSystemObjects4.SetCurrentSystemId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

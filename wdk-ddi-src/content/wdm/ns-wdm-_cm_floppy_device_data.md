@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_FLOPPY_DEVICE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA
 ---

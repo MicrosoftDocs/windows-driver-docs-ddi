@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorInitializeTracing
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

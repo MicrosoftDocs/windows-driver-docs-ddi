@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice3.AssignS0IdleSettingsEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

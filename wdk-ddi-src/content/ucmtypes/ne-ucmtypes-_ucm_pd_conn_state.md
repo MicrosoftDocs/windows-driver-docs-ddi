@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_CONN_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_PD_CONN_STATE
 ---

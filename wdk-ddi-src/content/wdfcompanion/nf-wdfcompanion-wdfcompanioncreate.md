@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfCompanionCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

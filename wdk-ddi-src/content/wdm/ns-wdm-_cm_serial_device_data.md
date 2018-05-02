@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CM_SERIAL_DEVICE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_SERIAL_DEVICE_DATA, *PCM_SERIAL_DEVICE_DATA
 ---

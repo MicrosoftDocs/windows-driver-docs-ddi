@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmRegisterSap
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

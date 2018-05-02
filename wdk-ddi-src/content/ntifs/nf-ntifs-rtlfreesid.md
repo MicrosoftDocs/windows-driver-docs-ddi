@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	RtlFreeSid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

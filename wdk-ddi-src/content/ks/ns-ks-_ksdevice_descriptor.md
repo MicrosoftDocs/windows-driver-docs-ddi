@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDEVICE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR
 ---

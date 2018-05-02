@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	FILE_ALL_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_ALL_INFORMATION, *PFILE_ALL_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	EvtNfcCxWriteNciPacket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

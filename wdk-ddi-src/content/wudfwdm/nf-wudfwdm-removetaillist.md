@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	RemoveTailList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -105,4 +106,6 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
  
 
  
+
+
 

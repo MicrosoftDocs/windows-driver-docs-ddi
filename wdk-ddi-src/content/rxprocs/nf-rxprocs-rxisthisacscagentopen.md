@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxIsThisACscAgentOpen
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

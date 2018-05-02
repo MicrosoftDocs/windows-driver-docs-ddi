@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 ---

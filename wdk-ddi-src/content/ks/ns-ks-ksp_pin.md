@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_PIN, *PKSP_PIN
 ---

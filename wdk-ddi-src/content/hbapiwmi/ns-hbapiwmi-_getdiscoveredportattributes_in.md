@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetDiscoveredPortAttributes_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetDiscoveredPortAttributes_IN, *PGetDiscoveredPortAttributes_IN
 ---

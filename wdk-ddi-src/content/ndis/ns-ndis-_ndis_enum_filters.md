@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_ENUM_FILTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_ENUM_FILTERS, *PNDIS_ENUM_FILTERS
 ---

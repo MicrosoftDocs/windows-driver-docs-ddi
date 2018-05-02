@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequestContainer.AddRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

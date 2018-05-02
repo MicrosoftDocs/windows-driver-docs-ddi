@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

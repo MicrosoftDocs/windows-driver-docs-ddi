@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	UcxEndpointNoPingResponseError
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

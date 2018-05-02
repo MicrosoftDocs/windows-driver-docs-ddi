@@ -38,7 +38,8 @@ api_location:
 -	WdfIoTarget.h
 api_name:
 -	EvtIoTargetRemoveComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

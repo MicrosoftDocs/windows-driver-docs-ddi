@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	RetrieveSubObject(D3D11_1)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

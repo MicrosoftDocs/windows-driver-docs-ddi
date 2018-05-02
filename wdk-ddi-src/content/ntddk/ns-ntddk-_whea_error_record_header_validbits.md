@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_RECORD_HEADER_VALIDBITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_RECORD_HEADER_VALIDBITS, *PWHEA_ERROR_RECORD_HEADER_VALIDBITS
 ---

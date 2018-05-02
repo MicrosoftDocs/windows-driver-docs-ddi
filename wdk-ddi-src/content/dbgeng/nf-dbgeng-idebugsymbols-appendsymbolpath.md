@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.AppendSymbolPath
 -	IDebugSymbols2.AppendSymbolPath
 -	IDebugSymbols3.AppendSymbolPath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

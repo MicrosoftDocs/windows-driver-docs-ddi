@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PM_PROTOCOL_OFFLOAD_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PM_PROTOCOL_OFFLOAD_TYPE, *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE
 ---

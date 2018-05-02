@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_ADAPTER_INIT_FINISHED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetContextFromName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

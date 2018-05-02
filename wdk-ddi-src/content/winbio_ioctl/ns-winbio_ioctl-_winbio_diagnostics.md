@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_DIAGNOSTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS
 ---

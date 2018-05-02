@@ -39,7 +39,8 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlUnicodeStringInitEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

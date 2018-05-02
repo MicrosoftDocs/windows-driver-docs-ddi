@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_TYPEC_OPERATING_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_TYPEC_OPERATING_MODE
 ---

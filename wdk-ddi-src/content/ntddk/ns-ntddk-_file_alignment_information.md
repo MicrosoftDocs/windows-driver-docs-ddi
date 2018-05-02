@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FILE_ALIGNMENT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_ALIGNMENT_INFORMATION, *PFILE_ALIGNMENT_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	LUID_AND_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
 ---

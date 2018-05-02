@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSOBJECT_CREATE_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSOBJECT_CREATE_ITEM, *PKSOBJECT_CREATE_ITEM
 ---

@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	QueryBusTimeEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_AddTarget_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_AddTarget_IN, *PSM_AddTarget_IN
 ---

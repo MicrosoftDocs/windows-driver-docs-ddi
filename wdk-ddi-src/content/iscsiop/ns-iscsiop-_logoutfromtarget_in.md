@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	LogoutFromTarget_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LogoutFromTarget_IN, *PLogoutFromTarget_IN
 ---

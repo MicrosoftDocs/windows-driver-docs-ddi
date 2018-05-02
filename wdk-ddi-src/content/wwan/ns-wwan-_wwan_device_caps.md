@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_DEVICE_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_CAPS, *PWWAN_DEVICE_CAPS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSCAMERA_PROFILE_CONCURRENCYINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYINFO
 ---

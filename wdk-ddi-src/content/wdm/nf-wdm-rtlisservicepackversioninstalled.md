@@ -39,7 +39,8 @@ api_location:
 -	Rtlver.dll
 api_name:
 -	RtlIsServicePackVersionInstalled
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

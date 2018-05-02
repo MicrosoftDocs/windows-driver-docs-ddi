@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdrm.h
 api_name:
 -	CDROM_OPC_INFO_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE
 ---

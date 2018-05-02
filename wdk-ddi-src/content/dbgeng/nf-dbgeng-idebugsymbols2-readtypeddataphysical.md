@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.ReadTypedDataPhysical
 -	IDebugSymbols2.ReadTypedDataPhysical
 -	IDebugSymbols3.ReadTypedDataPhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

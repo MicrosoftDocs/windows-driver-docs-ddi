@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObDereferenceObjectWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

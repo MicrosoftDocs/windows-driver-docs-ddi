@@ -38,7 +38,8 @@ api_location:
 -	bthsdpddi.h
 api_name:
 -	BTHDDI_SDP_NODE_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE
 ---

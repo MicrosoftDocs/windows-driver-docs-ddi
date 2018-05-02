@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 ---

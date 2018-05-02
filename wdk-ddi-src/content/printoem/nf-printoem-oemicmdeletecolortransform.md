@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMIcmDeleteColorTransform
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

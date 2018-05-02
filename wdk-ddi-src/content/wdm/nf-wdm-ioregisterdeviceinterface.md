@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoRegisterDeviceInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoRegisterDeviceInterface</b> routine registers a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>, if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
+The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 
 
 ## -parameters

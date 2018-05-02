@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CM_PARTIAL_RESOURCE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
 ---
@@ -1191,4 +1192,6 @@ A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus
  
 
  
+
+
 

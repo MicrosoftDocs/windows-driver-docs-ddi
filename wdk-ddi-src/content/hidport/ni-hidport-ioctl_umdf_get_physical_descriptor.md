@@ -38,7 +38,8 @@ api_location:
 -	Hidport.h
 api_name:
 -	IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

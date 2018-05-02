@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwLoadDriver
 -	NtLoadDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -60,7 +61,7 @@ The <b>ZwLoadDriver</b> routine loads a driver into the system.
 
 ### -param DriverServiceName [in]
 
-Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\</b><i>DriverName</i>, where <i>DriverName</i> is the name of the driver. 
+Pointer to a counted Unicode string that specifies a path to the driver's registry key, \Registry\Machine\System\CurrentControlSet\Services\\<_DriverName_>, where <_DriverName_> is the name of the driver. 
 
 
 ## -returns

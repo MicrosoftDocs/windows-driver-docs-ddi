@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_DRIVER_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---

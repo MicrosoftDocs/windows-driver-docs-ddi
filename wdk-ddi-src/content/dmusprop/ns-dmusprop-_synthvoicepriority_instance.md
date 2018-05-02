@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTHVOICEPRIORITY_INSTANCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE
 ---

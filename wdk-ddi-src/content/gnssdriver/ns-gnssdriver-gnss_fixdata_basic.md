@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXDATA_BASIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
 ---

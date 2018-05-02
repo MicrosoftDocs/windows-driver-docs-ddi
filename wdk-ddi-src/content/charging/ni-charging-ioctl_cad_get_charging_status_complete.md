@@ -38,7 +38,8 @@ api_location:
 -	charging.h
 api_name:
 -	IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

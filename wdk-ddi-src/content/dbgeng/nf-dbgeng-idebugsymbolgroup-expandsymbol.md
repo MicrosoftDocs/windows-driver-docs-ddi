@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.ExpandSymbol
 -	IDebugSymbolGroup2.ExpandSymbol
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

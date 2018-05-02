@@ -38,7 +38,8 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_WRITE_REGISTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

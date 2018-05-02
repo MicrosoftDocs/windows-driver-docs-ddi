@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.BindPrinter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -171,4 +172,5 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
  
 
  
+
 

@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeQueryAdapterStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

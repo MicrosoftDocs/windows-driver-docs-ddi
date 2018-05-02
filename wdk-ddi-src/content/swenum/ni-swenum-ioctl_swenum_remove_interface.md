@@ -38,7 +38,8 @@ api_location:
 -	swenum.h
 api_name:
 -	IOCTL_SWENUM_REMOVE_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

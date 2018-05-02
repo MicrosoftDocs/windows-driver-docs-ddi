@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_FCPBINDING2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_FCPBINDING2, *PHBA_FCPBINDING2
 ---

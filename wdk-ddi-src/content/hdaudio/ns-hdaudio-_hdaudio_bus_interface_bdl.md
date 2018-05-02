@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	HDAUDIO_BUS_INTERFACE_BDL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_BUS_INTERFACE_BDL, *PHDAUDIO_BUS_INTERFACE_BDL
 ---

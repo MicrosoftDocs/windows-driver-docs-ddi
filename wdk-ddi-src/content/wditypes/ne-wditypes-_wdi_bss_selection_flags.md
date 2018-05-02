@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_BSS_SELECTION_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_BSS_SELECTION_FLAGS
 ---

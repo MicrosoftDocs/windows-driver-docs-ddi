@@ -38,7 +38,8 @@ api_location:
 -	Ata.h
 api_name:
 -	ATA_ZONE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
 ---

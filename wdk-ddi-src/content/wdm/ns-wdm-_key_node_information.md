@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KEY_NODE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_NODE_INFORMATION, *PKEY_NODE_INFORMATION
 ---

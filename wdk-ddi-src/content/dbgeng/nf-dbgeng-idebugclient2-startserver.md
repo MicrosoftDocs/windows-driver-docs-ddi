@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.StartServer
 -	IDebugClient4.StartServer
 -	IDebugClient5.StartServer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

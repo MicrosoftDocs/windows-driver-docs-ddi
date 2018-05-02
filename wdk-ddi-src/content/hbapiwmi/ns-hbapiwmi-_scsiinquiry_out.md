@@ -38,7 +38,8 @@ api_location:
 -	Hbapiwmi.h
 api_name:
 -	ScsiInquiry_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
 ---

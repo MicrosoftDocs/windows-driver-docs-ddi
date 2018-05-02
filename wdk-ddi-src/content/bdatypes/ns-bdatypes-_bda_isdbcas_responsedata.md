@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_ISDBCAS_RESPONSEDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_ISDBCAS_RESPONSEDATA, *PBDA_ISDBCAS_RESPONSEDATA
 ---

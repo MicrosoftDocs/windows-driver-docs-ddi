@@ -41,7 +41,8 @@ api_name:
 -	IDebugClient3.WaitForProcessServerEnd
 -	IDebugClient4.WaitForProcessServerEnd
 -	IDebugClient5.WaitForProcessServerEnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_SET_MODEM_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_REMOVE_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

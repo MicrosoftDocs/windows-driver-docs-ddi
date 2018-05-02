@@ -38,7 +38,8 @@ api_location:
 -	usbprint.h
 api_name:
 -	IOCTL_USBPRINT_GET_LPT_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

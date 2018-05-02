@@ -41,7 +41,8 @@ api_name:
 -	IKsPin.KsReceiveAllocator
 -	IKsPin.KsRenegotiateAllocator
 -	IKsPin.KsQualityNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

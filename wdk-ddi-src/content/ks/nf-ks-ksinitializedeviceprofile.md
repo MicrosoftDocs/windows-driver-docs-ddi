@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsInitializeDeviceProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

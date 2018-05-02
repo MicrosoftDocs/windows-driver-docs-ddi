@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_RADIO_MEASUREMENT_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_RADIO_MEASUREMENT_ACTION
 ---

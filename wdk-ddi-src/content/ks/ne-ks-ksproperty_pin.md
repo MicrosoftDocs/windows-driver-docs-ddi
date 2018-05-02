@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_PIN
 ---

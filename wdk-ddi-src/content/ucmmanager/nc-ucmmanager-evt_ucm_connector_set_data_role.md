@@ -38,7 +38,8 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	PFN_UCM_CONNECTOR_SET_DATA_ROLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

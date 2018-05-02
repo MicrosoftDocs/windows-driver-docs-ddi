@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	USAGE_AND_PAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---

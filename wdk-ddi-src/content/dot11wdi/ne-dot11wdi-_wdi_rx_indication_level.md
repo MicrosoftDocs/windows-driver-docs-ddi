@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_RX_INDICATION_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_RX_INDICATION_LEVEL
 ---

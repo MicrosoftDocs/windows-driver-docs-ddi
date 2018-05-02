@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisFreeToNPagedLookasideList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	oemrilapitypes.h
 api_name:
 -	RIL_DEVSPECIFIC_CMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RIL_DEVSPECIFIC_CMD
 ---

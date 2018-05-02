@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

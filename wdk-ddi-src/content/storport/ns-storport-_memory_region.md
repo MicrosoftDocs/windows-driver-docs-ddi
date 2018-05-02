@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	MEMORY_REGION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_REGION, *PMEMORY_REGION
 ---

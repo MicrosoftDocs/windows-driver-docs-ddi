@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CLS_LOG_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLS_LOG_INFORMATION_CLASS, *PCLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS
 ---

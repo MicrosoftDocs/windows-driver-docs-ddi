@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisWriteRegisterUchar
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

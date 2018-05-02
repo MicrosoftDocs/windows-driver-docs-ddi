@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPS.Command
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

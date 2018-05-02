@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 ---

@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NET_DMA_PNP_NOTIFICATION_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---

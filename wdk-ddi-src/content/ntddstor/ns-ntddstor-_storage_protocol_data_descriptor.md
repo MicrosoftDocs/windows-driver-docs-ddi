@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_PROTOCOL_DATA_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
 ---

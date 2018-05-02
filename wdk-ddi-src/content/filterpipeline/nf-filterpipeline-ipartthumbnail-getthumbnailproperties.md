@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartThumbnail.GetThumbnailProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

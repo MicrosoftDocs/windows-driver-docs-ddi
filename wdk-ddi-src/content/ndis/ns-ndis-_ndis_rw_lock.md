@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_RW_LOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RW_LOCK, *PNDIS_RW_LOCK
 ---

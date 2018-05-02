@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlSplay
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

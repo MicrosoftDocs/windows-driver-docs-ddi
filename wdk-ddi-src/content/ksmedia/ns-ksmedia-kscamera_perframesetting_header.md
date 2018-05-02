@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_PERFRAMESETTING_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER
 ---

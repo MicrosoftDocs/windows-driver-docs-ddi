@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_GET_TEXT_COMPLETIONS_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_GET_TEXT_COMPLETIONS_IN, *PDEBUG_GET_TEXT_COMPLETIONS_IN
 ---

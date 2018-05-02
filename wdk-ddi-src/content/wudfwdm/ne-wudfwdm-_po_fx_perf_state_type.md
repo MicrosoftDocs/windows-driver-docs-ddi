@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PO_FX_PERF_STATE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_TYPE, *PPO_FX_PERF_STATE_TYPE
 ---
@@ -94,4 +95,6 @@ The <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/window
  
 
  
+
+
 

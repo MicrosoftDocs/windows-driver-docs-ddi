@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_POWER_ROLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_POWER_ROLE
 ---

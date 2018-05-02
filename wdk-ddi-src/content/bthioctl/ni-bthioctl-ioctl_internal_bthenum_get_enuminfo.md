@@ -38,7 +38,8 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

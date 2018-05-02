@@ -38,7 +38,8 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceD0ExitPreInterruptsDisabled
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

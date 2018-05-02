@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltUninitializeOplock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

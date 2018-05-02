@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	ScsiPortWmiFireAdapterEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

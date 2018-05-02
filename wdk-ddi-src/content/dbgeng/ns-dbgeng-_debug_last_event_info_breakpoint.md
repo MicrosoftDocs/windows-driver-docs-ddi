@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_LAST_EVENT_INFO_BREAKPOINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_BREAKPOINT, *PDEBUG_LAST_EVENT_INFO_BREAKPOINT
 ---

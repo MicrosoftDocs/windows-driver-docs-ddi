@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

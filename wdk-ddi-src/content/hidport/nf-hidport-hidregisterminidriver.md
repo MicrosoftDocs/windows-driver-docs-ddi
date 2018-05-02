@@ -39,7 +39,8 @@ api_location:
 -	Hid.dll
 api_name:
 -	HidRegisterMinidriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

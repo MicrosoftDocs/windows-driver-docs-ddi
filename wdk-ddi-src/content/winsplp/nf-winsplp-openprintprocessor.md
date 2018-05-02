@@ -39,7 +39,8 @@ api_location:
 -	Nwprint.dll
 api_name:
 -	OpenPrintProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Stiusd.h
 api_name:
 -	IStiUSD.UnLockDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

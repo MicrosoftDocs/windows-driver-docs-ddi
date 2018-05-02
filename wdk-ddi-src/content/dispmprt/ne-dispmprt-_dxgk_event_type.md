@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE
 ---

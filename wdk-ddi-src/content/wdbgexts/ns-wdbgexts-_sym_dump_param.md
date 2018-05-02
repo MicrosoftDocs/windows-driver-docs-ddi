@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	SYM_DUMP_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
 ---

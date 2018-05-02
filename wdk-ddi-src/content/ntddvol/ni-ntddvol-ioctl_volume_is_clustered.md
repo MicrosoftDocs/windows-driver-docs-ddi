@@ -38,7 +38,8 @@ api_location:
 -	Ntddvol.h
 api_name:
 -	IOCTL_VOLUME_IS_CLUSTERED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

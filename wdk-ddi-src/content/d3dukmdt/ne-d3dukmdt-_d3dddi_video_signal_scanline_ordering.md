@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 ---

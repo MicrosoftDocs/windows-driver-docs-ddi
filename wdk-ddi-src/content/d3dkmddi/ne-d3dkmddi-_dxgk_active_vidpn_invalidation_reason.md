@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 ---

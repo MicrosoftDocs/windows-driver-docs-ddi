@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSTELEPHONY_PROVIDERCHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
 ---

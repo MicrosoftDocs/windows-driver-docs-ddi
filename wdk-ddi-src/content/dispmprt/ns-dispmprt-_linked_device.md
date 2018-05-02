@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	LINKED_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LINKED_DEVICE, *PLINKED_DEVICE
 ---

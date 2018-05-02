@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_CALLBACK_DATA_QUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_CALLBACK_DATA_QUEUE, *PFLT_CALLBACK_DATA_QUEUE
 ---

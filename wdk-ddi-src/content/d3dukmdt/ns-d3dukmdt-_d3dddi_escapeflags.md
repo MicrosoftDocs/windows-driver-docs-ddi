@@ -16,19 +16,19 @@ req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_ESCAPEFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_ESCAPEFLAGS
 ---
@@ -98,18 +99,17 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 ### -field NoAdapterSynchronization
 
- 
+
 
 
 ### -field VirtualMachineData
 
- 
+Indicates that [DxgkDdiEscape](..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
 
 
 ### -field Reserved2
 
- 
-
+This member is reserved and should be set to zero.
 
 ### -field Reserved
 

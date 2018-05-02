@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_READ_BINDING_NONCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

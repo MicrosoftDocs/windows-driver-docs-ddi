@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_GLYPHWIDTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH
 ---

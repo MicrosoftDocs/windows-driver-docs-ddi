@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 ---

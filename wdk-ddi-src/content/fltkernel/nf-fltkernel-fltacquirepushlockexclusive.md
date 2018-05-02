@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAcquirePushLockExclusive
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

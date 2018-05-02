@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetSystemVersionStringWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

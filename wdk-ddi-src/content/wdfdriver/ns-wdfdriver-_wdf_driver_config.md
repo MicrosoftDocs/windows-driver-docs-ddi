@@ -38,7 +38,8 @@ api_location:
 -	wdfdriver.h
 api_name:
 -	WDF_DRIVER_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG
 ---

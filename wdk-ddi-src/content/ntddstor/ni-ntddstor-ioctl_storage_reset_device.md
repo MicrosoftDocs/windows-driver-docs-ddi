@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_RESET_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

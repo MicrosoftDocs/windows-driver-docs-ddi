@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	IOCTL_REDIR_QUERY_PATH_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

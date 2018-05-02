@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_TCP_IP_CHECKSUM_OFFLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_IP_CHECKSUM_OFFLOAD, *PNDIS_TCP_IP_CHECKSUM_OFFLOAD
 ---

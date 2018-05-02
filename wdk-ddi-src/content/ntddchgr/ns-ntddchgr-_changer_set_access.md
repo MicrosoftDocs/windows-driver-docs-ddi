@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	CHANGER_SET_ACCESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
 ---

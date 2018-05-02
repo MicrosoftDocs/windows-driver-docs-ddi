@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbConvertVmbusHandleToKernelHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

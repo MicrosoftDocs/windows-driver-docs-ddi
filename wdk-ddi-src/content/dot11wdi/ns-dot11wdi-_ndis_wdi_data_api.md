@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	NDIS_WDI_DATA_API
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API
 ---
@@ -162,7 +163,7 @@ The entry point of the <a href="https://msdn.microsoft.com/828C181F-918A-4674-B6
 
 ### -field TxQuerySuspectFrameCompleteStatus
 
- 
+The entry point of the [NdisWdiTxQuerySuspectFrameCompleteStatus](nc-dot11wdi-ndis_wdi_tx_query_suspect_frame_complete_status.md) callback function.
 
 
 

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_AER_ROOTPORT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_AER_ROOTPORT_DESCRIPTOR, *PWHEA_AER_ROOTPORT_DESCRIPTOR
 ---

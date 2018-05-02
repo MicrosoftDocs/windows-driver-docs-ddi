@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_MODEM_CONFIG_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON
 ---
@@ -65,11 +66,6 @@ Default value that can be used if other optional reasons are not supported.
 ### -field WwanModemConfigReasonSIMDetected
 
 Required. A SIM card was detected by a modem.
-
-
-### -field WwanModemConfigReasonSIMRemoved
-
-Optional. A SIM card was removed.
 
 
 ### -field WwanModemConfigReasonNOSIM

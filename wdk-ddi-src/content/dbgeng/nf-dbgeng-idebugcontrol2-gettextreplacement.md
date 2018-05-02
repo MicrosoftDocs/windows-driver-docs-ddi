@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugControl2.GetTextReplacement
 -	IDebugControl3.GetTextReplacement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

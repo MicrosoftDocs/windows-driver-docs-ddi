@@ -39,7 +39,8 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_DriverEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

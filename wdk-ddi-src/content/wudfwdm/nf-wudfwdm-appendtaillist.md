@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	AppendTailList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -148,4 +149,6 @@ The <code>MyAppendTailList</code> function in this code example treats both the 
  
 
  
+
+
 

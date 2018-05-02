@@ -2,7 +2,7 @@
 UID: NA:61883
 ms.assetid: e401eb24-793e-3800-b0b7-55496f44fbb8
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,8 +13,11 @@ ms.topic: portal
 
 
 
-This header is used by IEEE. For more information, see
-- [IEEE](../_IEEE/index.md)
+
+
+This header is used by ieee. For more information, see:
+
+- [IEEE 1394 bus](../_ieee/index.md)
 
 An IEC-61883 client driver must communicate with its device by submitting IRPs down the device stack to the IEC-61883 protocol driver. 
 

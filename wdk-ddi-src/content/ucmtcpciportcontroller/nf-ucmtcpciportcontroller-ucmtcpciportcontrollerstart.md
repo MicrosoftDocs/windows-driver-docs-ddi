@@ -39,7 +39,8 @@ api_location:
 -	ucmtcpcicxstub.dll
 api_name:
 -	UcmTcpciPortControllerStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

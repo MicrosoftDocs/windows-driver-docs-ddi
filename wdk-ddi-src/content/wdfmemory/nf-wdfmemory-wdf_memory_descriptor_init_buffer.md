@@ -38,7 +38,8 @@ api_location:
 -	wdfmemory.h
 api_name:
 -	WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

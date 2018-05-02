@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

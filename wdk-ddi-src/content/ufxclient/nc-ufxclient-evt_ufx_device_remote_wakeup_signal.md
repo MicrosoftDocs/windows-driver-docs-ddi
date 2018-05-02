@@ -38,7 +38,8 @@ api_location:
 -	Ufxclient.h
 api_name:
 -	PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

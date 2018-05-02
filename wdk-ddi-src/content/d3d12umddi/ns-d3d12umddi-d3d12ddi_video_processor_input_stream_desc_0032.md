@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 ---
@@ -84,13 +85,12 @@ The frame rate of the input video stream, specified as a DXGI_RATIONAL structure
 
 ### -field SourceSizeRange
 
-Describes the minimum and maximum source rectangle size.  Video processor should allocate to handle all cases within the range.
+Describes the minimum and maximum source rectangle size. Video processor should allocate to handle all cases within the range.
 
 
 ### -field DestinationSizeRange
 
- 
-
+Describes the minimum and maximum destination rectangle size. Video processor should allocate to handle all cases within the range.
 
 ### -field EnableOrientation
 
@@ -142,7 +142,6 @@ The number of future frames.
 Enables or disables automatic processing features on the video processor.
 
 
-#### - DestinationSizeRanges
 
-Describes the minimum and maximum destination rectangle size.  Video processor should allocate to handle all cases within the range.
+
 

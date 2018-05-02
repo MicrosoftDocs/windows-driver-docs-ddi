@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DXGK_OPM_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_OPM_INTERFACE, *PDXGK_OPM_INTERFACE
 ---

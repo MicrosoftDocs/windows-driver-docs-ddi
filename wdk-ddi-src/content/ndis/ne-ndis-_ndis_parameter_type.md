@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_PARAMETER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE
 ---

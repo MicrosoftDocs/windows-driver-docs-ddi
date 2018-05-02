@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_TCP_LARGE_SEND_OFFLOAD_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V1, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
 ---

@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_SENSOR_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
 ---

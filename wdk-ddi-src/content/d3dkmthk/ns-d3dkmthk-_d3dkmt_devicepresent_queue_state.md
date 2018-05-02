@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DEVICEPRESENT_QUEUE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 ---

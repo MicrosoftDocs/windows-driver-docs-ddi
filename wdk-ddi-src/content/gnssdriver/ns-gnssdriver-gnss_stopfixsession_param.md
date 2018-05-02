@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_STOPFIXSESSION_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM
 ---

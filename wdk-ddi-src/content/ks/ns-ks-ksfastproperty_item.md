@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSFASTPROPERTY_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 ---

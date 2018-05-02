@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_SEVERITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_SEVERITY, *PWHEA_ERROR_SEVERITY
 ---

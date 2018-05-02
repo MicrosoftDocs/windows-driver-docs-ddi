@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_OFFLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_OFFLOAD, *PNDIS_OFFLOAD
 ---

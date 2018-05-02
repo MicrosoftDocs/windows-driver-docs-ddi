@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetThreadIdByProcessor
 -	IDebugSystemObjects3.GetThreadIdByProcessor
 -	IDebugSystemObjects4.GetThreadIdByProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

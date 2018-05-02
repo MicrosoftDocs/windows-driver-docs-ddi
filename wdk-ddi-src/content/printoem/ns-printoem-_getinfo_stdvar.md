@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_STDVAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_STDVAR, *PGETINFO_STDVAR
 ---

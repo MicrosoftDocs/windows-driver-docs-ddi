@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMTEnumAdapters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

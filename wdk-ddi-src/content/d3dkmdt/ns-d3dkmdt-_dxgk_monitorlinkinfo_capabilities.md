@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGK_MONITORLINKINFO_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
 ---
@@ -59,8 +60,8 @@ Flags which describe the capabilities for driving the monitor.
 
 ### -field Stereo
 
-If TRUE and resources are not constrained by other paths, stereo display modes are supported.
 
+Value.
 
 ### -field WideColorSpace
 
@@ -74,17 +75,17 @@ If TRUE, the driver supports all of the above WideColorSpace gamut functionality
 
 ### -field DynamicColorSpace
 
-If TRUE, the display miniport driver supports seamless changing of the color space on this display if no other attributes are changed which would cause a glitch. If FALSE, seamless changing of color space is not supported. 
+If TRUE, the display miniport driver supports seamless changing of the wire format bits per color channel on this display if no other attributes are changed which would cause a glitch. If FALSE, seamless changing of bits per color channel is not supported.
 
 
 ### -field DynamicBitsPerColorChannel
 
-If TRUE, the display miniport driver supports seamless changing of the wire format bits per color channel on this display if no other attributes are changed which would cause a glitch. If FALSE, seamless changing of bits per color channel is not supported. 
+If TRUE, the display miniport driver supports seamless changing of the wire format color encoding on this display if no other attributes are changed which would cause a glitch. If FALSE, seamless changing of color encoding is not supported.
 
 
 ### -field DynamicColorEncodingFormat
 
-If TRUE, the display miniport driver supports seamless changing of the wire format color encoding on this display if no other attributes are changed which would cause a glitch. If FALSE, seamless changing of color encoding is not supported. 
+If TRUE, the display miniport driver supports seamless changing of the color space on this display if no other attributes are changed which would cause a glitch. If FALSE, seamless changing of color space is not supported.
 
 
 ### -field DedicatedTimingGeneration
@@ -105,3 +106,10 @@ This value is reserved for system use.
 
 
 
+### -field TargetIndependentPrimary
+
+
+### -field SyncLockIdentical
+
+
+### -field Hdr10Plus

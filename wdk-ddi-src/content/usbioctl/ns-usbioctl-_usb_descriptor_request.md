@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_DESCRIPTOR_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST
 ---

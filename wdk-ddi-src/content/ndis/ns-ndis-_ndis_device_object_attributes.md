@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_DEVICE_OBJECT_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES
 ---

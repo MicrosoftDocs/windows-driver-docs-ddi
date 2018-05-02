@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaDeregisterProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

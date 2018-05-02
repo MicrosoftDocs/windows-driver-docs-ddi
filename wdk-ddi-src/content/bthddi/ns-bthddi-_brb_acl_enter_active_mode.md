@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_ACL_ENTER_ACTIVE_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

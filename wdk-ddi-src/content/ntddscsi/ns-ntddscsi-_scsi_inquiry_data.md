@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	SCSI_INQUIRY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA
 ---

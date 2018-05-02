@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamFreeBandwidth
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

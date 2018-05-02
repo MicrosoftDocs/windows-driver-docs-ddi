@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcUnregisterAdapterPnpManagement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

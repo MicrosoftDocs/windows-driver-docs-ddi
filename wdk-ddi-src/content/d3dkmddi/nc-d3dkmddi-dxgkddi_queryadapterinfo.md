@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiQueryAdapterInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

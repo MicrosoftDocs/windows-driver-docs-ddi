@@ -38,7 +38,8 @@ api_location:
 -	Pmi.h
 api_name:
 -	IOCTL_PMI_REGISTER_EVENT_NOTIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

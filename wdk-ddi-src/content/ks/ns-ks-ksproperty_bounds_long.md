@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_BOUNDS_LONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_BOUNDS_LONG, *PKSPROPERTY_BOUNDS_LONG
 ---

@@ -38,7 +38,8 @@ api_location:
 -	sdpnode.h
 api_name:
 -	SDP_NODE_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDP_NODE_HEADER, *PSDP_NODE_HEADER
 ---

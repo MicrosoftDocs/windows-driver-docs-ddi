@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxpReferenceNetFcb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

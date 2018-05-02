@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	PFN_VMB_PACKET_COMPLETION_ROUTINE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

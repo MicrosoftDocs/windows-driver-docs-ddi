@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTargets2.Remove
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

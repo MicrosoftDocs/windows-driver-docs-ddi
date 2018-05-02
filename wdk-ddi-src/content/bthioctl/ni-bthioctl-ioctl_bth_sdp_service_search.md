@@ -38,7 +38,8 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_SERVICE_SEARCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

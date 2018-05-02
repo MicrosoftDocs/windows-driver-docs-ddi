@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeQueryActiveProcessors
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

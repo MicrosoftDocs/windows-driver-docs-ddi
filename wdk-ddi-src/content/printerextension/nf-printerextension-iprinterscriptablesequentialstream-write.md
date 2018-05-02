@@ -38,7 +38,8 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrinterScriptableSequentialStream.Write
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

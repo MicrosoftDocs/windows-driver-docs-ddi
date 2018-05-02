@@ -38,7 +38,8 @@ api_location:
 -	Pepfx.h
 api_name:
 -	PEP_PPM_QUERY_DOMAIN_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO
 ---
@@ -84,6 +85,11 @@ If PROCESSOR_DOMAIN_COORDIANTION_HW_ALL coordination is not used: this field is 
 
 On output, this value is TRUE if the PEP supports the requirements of scheduler directed performance transitions for this domain, FALSE otherwise. 
 
+### -field AffinitizePerfSet
+
+On output, this value is TRUE if the PEP requires the PEP_NOTIFY_PPM_PERF_SET or PEP_NOTIFY_PPM_PERF_SET_STATE notification to execute on the processor changing frequency, or FALSE if the PEP allows these notifications to execute on any processor.
+If PROCESSOR_DOMAIN_COORDIANTION_SW_ANY coordination is used: the PEP_NOTIFY_PPM_PERF_SET or PEP_NOTIFY_PPM_PERF_SET_STATE notification will execute on a processor in the domain.
+
 
 ### -field WorstCaseTransitionLatency
 
@@ -100,7 +106,7 @@ On output, this value indicates the worst case overhead (PEP code execution time
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
+[Processor power management (PPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-notifications)
  
 
  

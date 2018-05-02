@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwCommitTransaction
 -	NtCommitTransaction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

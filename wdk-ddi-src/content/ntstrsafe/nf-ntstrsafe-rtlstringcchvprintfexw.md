@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCchVPrintfExW
 -	RtlStringCchVPrintfExA
 -	RtlStringCchVPrintfExW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

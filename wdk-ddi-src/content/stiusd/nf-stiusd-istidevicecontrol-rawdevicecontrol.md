@@ -38,7 +38,8 @@ api_location:
 -	Stiusd.h
 api_name:
 -	IStiDeviceControl.RawDeviceControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

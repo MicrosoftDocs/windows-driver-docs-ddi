@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_TEMPLATE_PIN_JOINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TEMPLATE_PIN_JOINT, *PBDA_TEMPLATE_PIN_JOINT
 ---

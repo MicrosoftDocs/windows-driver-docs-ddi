@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_DRIVER_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS
 ---

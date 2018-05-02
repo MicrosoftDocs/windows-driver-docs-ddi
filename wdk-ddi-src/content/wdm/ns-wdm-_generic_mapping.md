@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	GENERIC_MAPPING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GENERIC_MAPPING
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Bidispl.h
 api_name:
 -	IBidiRequestContainer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

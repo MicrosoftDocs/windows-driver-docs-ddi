@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFStrings2.Count
 -	IWDTFStrings2.get_Count
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIENCRYPTED_BLOCK_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIENCRYPTED_BLOCK_INFO
 ---

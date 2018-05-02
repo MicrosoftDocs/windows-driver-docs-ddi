@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_PORT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_PORT_TYPE, *PUSBFN_PORT_TYPE
 ---

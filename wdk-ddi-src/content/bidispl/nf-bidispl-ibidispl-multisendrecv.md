@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl.MultiSendRecv
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

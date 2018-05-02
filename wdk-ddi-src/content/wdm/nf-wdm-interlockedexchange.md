@@ -43,7 +43,8 @@ api_location:
 -	MinKernelBase.dll
 api_name:
 -	InterlockedExchange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

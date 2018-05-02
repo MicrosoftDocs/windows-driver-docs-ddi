@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetExceptionFilterSecondCommand
 -	IDebugControl2.SetExceptionFilterSecondCommand
 -	IDebugControl3.SetExceptionFilterSecondCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

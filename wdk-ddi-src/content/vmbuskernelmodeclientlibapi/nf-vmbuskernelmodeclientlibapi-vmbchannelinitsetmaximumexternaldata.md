@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelInitSetMaximumExternalData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

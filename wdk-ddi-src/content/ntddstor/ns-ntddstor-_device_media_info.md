@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	DEVICE_MEDIA_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
 ---

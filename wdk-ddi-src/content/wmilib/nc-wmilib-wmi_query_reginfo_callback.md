@@ -38,7 +38,8 @@ api_location:
 -	Wmilib.h
 api_name:
 -	DpWmiQueryReginfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

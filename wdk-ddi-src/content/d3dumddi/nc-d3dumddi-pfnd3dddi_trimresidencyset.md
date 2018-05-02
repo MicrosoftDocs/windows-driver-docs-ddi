@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	pfnTrimResidencySet
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

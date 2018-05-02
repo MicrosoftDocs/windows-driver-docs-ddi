@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsDataTypeHandler.KsSetMediaType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

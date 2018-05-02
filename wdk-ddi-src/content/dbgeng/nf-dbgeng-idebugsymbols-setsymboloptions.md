@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.SetSymbolOptions
 -	IDebugSymbols2.SetSymbolOptions
 -	IDebugSymbols3.SetSymbolOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

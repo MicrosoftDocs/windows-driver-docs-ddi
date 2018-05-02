@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlAppendUnicodeToString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -129,4 +130,6 @@ The <i>Destination</i> buffer must be resident if the caller is running at IRQL 
  
 
  
+
+
 

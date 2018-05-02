@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtExtension.GetRawArgStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

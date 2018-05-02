@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltReleasePushLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,16 +58,7 @@ The <b>FltReleasePushLock</b> routine releases a specified push lock owned by th
 
 
 
-### -param Lock
-
-TBD
-
-
-
-
-
-
-#### - PushLock [in, out]
+### -param Lock [in, out]
 
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 

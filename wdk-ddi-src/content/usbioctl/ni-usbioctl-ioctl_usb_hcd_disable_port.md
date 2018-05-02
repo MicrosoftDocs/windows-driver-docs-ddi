@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_HCD_DISABLE_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

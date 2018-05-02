@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_RemoveTarget_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT
 ---

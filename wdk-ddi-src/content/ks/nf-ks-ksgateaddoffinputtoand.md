@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsGateAddOffInputToAnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_STANDARD_COLORIMETRY_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAGS
 ---

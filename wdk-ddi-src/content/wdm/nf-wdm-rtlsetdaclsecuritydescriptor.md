@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlSetDaclSecurityDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

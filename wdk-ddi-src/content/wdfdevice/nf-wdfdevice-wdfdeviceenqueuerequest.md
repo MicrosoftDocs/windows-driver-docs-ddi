@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceEnqueueRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

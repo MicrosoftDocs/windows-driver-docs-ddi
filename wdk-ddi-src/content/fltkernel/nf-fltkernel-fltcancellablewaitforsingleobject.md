@@ -39,7 +39,8 @@ api_location:
 -	wdfilter.sys
 api_name:
 -	FltCancellableWaitForSingleObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	Int10CallBios
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

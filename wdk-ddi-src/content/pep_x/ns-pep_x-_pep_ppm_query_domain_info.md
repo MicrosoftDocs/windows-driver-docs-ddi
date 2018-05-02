@@ -38,7 +38,8 @@ api_location:
 -	Pepfx.h
 api_name:
 -	PEP_PPM_QUERY_DOMAIN_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO
 ---
@@ -83,6 +84,9 @@ If PROCESSOR_DOMAIN_COORDIANTION_HW_ALL coordination is not used: this field is 
 ### -field SchedulerDirectedTransitionsSupported
 
 On output, this value is TRUE if the PEP supports the requirements of scheduler directed performance transitions for this domain, FALSE otherwise. 
+
+### -field AffinitizePerfSet
+
 
 
 ### -field WorstCaseTransitionLatency

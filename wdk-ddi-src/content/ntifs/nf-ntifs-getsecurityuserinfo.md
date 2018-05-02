@@ -39,7 +39,8 @@ api_location:
 -	ksecdd.dll
 api_name:
 -	GetSecurityUserInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

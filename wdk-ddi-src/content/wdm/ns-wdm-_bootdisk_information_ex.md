@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	BOOTDISK_INFORMATION_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX
 ---

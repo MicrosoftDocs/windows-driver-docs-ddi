@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_HWREGISTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER
 ---

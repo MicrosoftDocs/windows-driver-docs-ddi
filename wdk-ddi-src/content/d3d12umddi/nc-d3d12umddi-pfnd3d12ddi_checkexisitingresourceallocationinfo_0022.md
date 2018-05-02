@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnCheckExistingResourceAllocationInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,6 +60,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt799844"
 
 ### -param Arg1
 
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
@@ -84,7 +86,7 @@ A resource handle.
 
 #### - pInfo [out]
 
-Information for resource allocation. 
+Information for resource allocation.
 
 
 ## -returns

@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FwpsOpenToken0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

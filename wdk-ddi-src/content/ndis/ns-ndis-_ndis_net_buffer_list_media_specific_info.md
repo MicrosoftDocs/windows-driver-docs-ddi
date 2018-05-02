@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, *PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO
 ---

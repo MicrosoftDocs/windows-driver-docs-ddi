@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	POWER_THROTTLING_THREAD_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_THROTTLING_THREAD_STATE, *PPOWER_THROTTLING_THREAD_STATE
 ---

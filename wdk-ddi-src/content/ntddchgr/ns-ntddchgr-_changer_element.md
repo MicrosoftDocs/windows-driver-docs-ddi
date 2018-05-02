@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	CHANGER_ELEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 ---

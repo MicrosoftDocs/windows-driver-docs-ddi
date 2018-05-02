@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExLocalTimeToSystemTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_GLITCH_CAUSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GLITCH_CAUSE
 ---

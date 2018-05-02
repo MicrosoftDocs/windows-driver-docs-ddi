@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_SUPPORTED_CARD_TYPES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_SUPPORTED_CARD_TYPES, *PMSR_SUPPORTED_CARD_TYPES
 ---

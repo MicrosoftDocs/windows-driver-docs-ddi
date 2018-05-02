@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IOCTL_KS_RESET_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

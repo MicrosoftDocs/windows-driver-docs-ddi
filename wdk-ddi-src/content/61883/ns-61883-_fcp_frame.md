@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	FCP_FRAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FCP_FRAME, *PFCP_FRAME
 ---

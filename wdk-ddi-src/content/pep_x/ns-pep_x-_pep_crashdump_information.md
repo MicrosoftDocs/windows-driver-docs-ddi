@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_CRASHDUMP_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
 ---

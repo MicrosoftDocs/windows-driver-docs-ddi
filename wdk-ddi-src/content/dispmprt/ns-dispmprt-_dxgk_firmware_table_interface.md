@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_FIRMWARE_TABLE_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_FIRMWARE_TABLE_INTERFACE, *PDXGK_FIRMWARE_TABLE_INTERFACE
 ---

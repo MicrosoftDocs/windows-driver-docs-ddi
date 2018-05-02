@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.StartProcessServerWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	UcxRootHubPortChanged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

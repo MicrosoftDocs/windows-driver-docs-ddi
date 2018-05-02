@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

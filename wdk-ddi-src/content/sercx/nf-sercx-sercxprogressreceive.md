@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxProgressReceive
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

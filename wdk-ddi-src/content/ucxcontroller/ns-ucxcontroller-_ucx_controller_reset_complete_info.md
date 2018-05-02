@@ -38,7 +38,8 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	UCX_CONTROLLER_RESET_COMPLETE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_RESET_COMPLETE_INFO, *PUCX_CONTROLLER_RESET_COMPLETE_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortInterlockedPopEntrySList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
