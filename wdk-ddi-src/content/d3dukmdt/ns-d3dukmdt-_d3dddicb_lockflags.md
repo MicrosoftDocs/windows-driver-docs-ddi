@@ -7,7 +7,7 @@ old-location: display\d3dddicb_lockflags.htm
 old-project: display
 ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS structure [Display Devices], D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, _D3DDDICB_LOCKFLAGS, d3dukmdt/D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -176,7 +176,7 @@ Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>V
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFF800) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDICB_LOCKFLAGS that can hold one 32-bit value that identifies how to lock an allocation.
 

@@ -7,8 +7,8 @@ old-location: display\getvideodecoderbuffertypecount.htm
 old-project: display
 ms.assetid: 3528ac03-55cf-4e02-ae42-69b736684147
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT, d3d10umddi/pfnGetVideoDecoderBufferTypeCount, display.getvideodecoderbuffertypecount, pfnGetVideoDecoderBufferTypeCount, pfnGetVideoDecoderBufferTypeCount callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT, PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback, d3d10umddi/pfnGetVideoDecoderBufferTypeCount, display.getvideodecoderbuffertypecount, pfnGetVideoDecoderBufferTypeCount, pfnGetVideoDecoderBufferTypeCount callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback
+# PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback function
 
 
 ## -description

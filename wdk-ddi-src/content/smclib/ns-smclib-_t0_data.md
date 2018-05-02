@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: T0_DATA, *PT0_DATA
-req.product: Windows 10 or later.
 ---
 
 # _T0_DATA structure

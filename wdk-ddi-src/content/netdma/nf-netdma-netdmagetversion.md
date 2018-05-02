@@ -7,7 +7,7 @@ old-location: netvista\netdmagetversion.htm
 old-project: netvista
 ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: 
 ---
 
 # NetDmaGetVersion function

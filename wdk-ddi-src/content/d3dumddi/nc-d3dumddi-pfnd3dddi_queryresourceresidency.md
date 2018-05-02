@@ -7,8 +7,8 @@ old-location: display\queryresourceresidency.htm
 old-project: display
 ms.assetid: 5b9a2a59-b2d1-468e-998b-902bc2a75cb3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_QUERYRESOURCERESIDENCY, QueryResourceResidency, QueryResourceResidency callback function [Display Devices], UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml, d3dumddi/QueryResourceResidency, display.queryresourceresidency
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_QUERYRESOURCERESIDENCY, PFND3DDDI_QUERYRESOURCERESIDENCY callback, QueryResourceResidency, QueryResourceResidency callback function [Display Devices], UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml, d3dumddi/QueryResourceResidency, display.queryresourceresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_QUERYRESOURCERESIDENCY callback
+# PFND3DDDI_QUERYRESOURCERESIDENCY callback function
 
 
 ## -description

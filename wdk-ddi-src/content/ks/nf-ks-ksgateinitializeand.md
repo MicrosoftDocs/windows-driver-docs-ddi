@@ -7,7 +7,7 @@ old-location: stream\ksgateinitializeand.htm
 old-project: stream
 ms.assetid: ac03889a-1e02-4852-8ed9-487674c6e0de
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateInitializeAnd, KsGateInitializeAnd function [Streaming Media Devices], avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, ks/KsGateInitializeAnd, stream.ksgateinitializeand
 ms.prod: windows-hardware
 ms.technology: windows-devices

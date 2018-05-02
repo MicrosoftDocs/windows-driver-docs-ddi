@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.OutputServersWide
-title: IDebugClient5::OutputServersWide method
+title: IDebugClient5::OutputServersWide
 author: windows-driver-content
 description: The OutputServersWide method lists the servers running on a given computer.
 old-location: debugger\outputserverswide.htm
 old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], OutputServersWide method, IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], OutputServersWide method [Windows Debugging], IDebugClient5 interface, OutputServersWide,IDebugClient5.OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],OutputServersWide method, IDebugClient5.OutputServersWide, IDebugClient5::OutputServersWide, OutputServersWide, OutputServersWide method [Windows Debugging], OutputServersWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::OutputServersWide method
+# IDebugClient5::OutputServersWide
 
 
 ## -description

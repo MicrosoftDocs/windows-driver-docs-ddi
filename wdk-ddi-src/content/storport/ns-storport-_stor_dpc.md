@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_DPC, *PSTOR_DPC
-req.product: Windows 10 or later.
 ---
 
 # _STOR_DPC structure

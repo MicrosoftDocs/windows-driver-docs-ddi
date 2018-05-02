@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.Silence
-title: IMiniportWaveCyclicStream::Silence method
+title: IMiniportWaveCyclicStream::Silence
 author: windows-driver-content
 description: The Silence method is used to copy silence samples to a specified buffer.
 old-location: audio\iminiportwavecyclicstream_silence.htm
 old-project: audio
 ms.assetid: e2acf3f5-d054-44c4-8ab9-ffd1b934f700
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], Silence method, IMiniportWaveCyclicStream::Silence, Silence method [Audio Devices], Silence method [Audio Devices], IMiniportWaveCyclicStream interface, Silence,IMiniportWaveCyclicStream.Silence, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence
+ms.date: 4/16/2018
+ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],Silence method, IMiniportWaveCyclicStream.Silence, IMiniportWaveCyclicStream::Silence, Silence, Silence method [Audio Devices], Silence method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveCyclicStream::Silence method
+# IMiniportWaveCyclicStream::Silence
 
 
 ## -description

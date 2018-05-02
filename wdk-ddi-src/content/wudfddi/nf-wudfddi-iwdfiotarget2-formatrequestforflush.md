@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget2.FormatRequestForFlush
-title: IWDFIoTarget2::FormatRequestForFlush method
+title: IWDFIoTarget2::FormatRequestForFlush
 author: windows-driver-content
 description: The FormatRequestForFlush method builds an I/O request for a flush operation but does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforflush.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28509e28-0e81-4531-947c-9ce452564682
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: FormatRequestForFlush method, FormatRequestForFlush method, IWDFIoTarget2 interface, FormatRequestForFlush,IWDFIoTarget2.FormatRequestForFlush, IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, umdf.iwdfiotarget2_formatrequestforflush, wdf.iwdfiotarget2_formatrequestforflush, wudfddi/IWDFIoTarget2::FormatRequestForFlush
+ms.keywords: FormatRequestForFlush, FormatRequestForFlush method, FormatRequestForFlush method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForFlush method, IWDFIoTarget2.FormatRequestForFlush, IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, umdf.iwdfiotarget2_formatrequestforflush, wdf.iwdfiotarget2_formatrequestforflush, wudfddi/IWDFIoTarget2::FormatRequestForFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget2::FormatRequestForFlush method
+# IWDFIoTarget2::FormatRequestForFlush
 
 
 ## -description

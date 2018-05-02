@@ -7,7 +7,7 @@ old-location: netvista\fwpsinjectmacreceiveasync0.htm
 old-project: netvista
 ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsInjectMacReceiveAsync0, FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacSendAsync0, netvista.fwpsinjectmacreceiveasync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsInjectMacReceiveAsync0 function

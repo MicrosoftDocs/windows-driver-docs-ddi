@@ -7,7 +7,7 @@ old-location: sensors\sensorscxstatechange.htm
 old-project: sensors
 ms.assetid: E6897994-51C7-4278-9CCE-9B7E9DD408D7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensors.sensorscxstatechange, sensorscx/SensorsCxStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxStateChange function

@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_POWER_DEVICE_STATE enumeration

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SECURITY_IMPERSONATION_LEVEL
-req.product: Windows 10 or later.
 ---
 
 # _SECURITY_IMPERSONATION_LEVEL enumeration

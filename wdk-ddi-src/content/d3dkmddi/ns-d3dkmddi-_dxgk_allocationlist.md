@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationlist.htm
 old-project: display
 ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -61,6 +61,28 @@ The <b>DXGK_ALLOCATIONLIST</b> structure describes an allocation specification t
 ### -field hDeviceSpecificAllocation
 
 [in/out] An open handle to the allocation that is being referenced (that is, the handle that the driver returned in the <b>hDeviceSpecificAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561983">DXGK_OPENALLOCATIONINFO</a> structure for the allocation in a call to the driver's <a href="https://msdn.microsoft.com/551154d7-950d-40e5-810b-8d803c1731ca">DxgkDdiOpenAllocation</a> function).
+
+
+### -field WriteOperation
+
+ 
+
+
+### -field SegmentId
+
+ 
+
+
+### -field Reserved
+
+ 
+
+
+### -field VirtualAddress
+
+[in/out] A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address.
+
+Supported starting with Windows 10.
 
 
 ### -field PhysicalAddress
@@ -99,13 +121,6 @@ Setting this member is equivalent to setting the second through sixth bit of a 3
 [in] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that is reserved. This member should be set to 0.
 
 Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros. 
-
-
-#### - VirtualAddress
-
-[in/out] A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address.
-
-Supported starting with Windows 10.
 
 
 ## -remarks

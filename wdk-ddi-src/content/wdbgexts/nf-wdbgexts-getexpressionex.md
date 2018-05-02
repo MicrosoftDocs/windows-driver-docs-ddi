@@ -7,7 +7,7 @@ old-location: debugger\getexpressionex.htm
 old-project: debugger
 ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetExpressionEx function

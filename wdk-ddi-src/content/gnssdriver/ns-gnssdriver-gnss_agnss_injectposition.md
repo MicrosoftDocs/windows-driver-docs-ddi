@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_AGNSS_INJECTPOSITION
 title: GNSS_AGNSS_INJECTPOSITION
 author: windows-driver-content
 description: This structure defines the format for AGNSS position injection.
-old-location: sensors\gnss_agnss_injectposition.htm
-old-project: sensors
+old-location: gnss\gnss_agnss_injectposition.htm
+old-project: gnss
 ms.assetid: 1FB73F94-F8F3-409F-8B34-3CD303512AD0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION structure [Sensor Devices], PGNSS_AGNSS_INJECTPOSITION, PGNSS_AGNSS_INJECTPOSITION structure pointer [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECTPOSITION, gnssdriver/PGNSS_AGNSS_INJECTPOSITION, sensors.gnss_agnss_injectposition"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION structure [Sensor Devices], PGNSS_AGNSS_INJECTPOSITION, PGNSS_AGNSS_INJECTPOSITION structure pointer [Sensor Devices], gnss.gnss_agnss_injectposition, gnssdriver/GNSS_AGNSS_INJECTPOSITION, gnssdriver/PGNSS_AGNSS_INJECTPOSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,7 +7,7 @@ old-location: netvista\wsk_inspect_id.htm
 old-project: netvista
 ms.assetid: 54578dc5-a88f-4649-adbd-6a5e1e31e7b3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWSK_INSPECT_ID, PWSK_INSPECT_ID, PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], _WSK_INSPECT_ID, netvista.wsk_inspect_id, wsk/PWSK_INSPECT_ID, wsk/WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WSK_INSPECT_ID, *PWSK_INSPECT_ID
-req.product: Windows 10 or later.
 ---
 
 # _WSK_INSPECT_ID structure

@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
-req.product: Windows 10 or later.
 ---
 
 # POPULATE_TOKEN_HEADER structure

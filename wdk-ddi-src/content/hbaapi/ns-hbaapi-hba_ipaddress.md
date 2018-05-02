@@ -66,14 +66,12 @@ Indicates the version of the IP protocol in use.
 ### -field ipaddress
 
 
-
-#### ipv4address
+### -field ipaddress.ipv4address
 
 Contains a dotted decimal IP4 address if version 4 of the IP protocol is in use. 
 
 
-
-#### ipv6address
+### -field ipaddress.ipv6address
 
 Contains a dotted decimal IP6 address if version 6 of the IP protocol is in use. 
 

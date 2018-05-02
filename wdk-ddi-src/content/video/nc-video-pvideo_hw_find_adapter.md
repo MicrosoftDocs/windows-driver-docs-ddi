@@ -7,8 +7,8 @@ old-location: display\hwvidfindadapter.htm
 old-project: display
 ms.assetid: 8c880eff-4b4c-439e-9239-f2343c1fe084
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
+ms.date: 4/16/2018
+ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER callback, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_HW_FIND_ADAPTER callback
+# PVIDEO_HW_FIND_ADAPTER callback function
 
 
 ## -description

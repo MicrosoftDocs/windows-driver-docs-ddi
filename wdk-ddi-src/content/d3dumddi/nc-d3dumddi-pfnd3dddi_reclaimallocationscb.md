@@ -7,8 +7,8 @@ old-location: display\pfnreclaimallocationscb.htm
 old-project: display
 ms.assetid: BAC27F24-B348-48D5-9E9B-20897B4D8E2D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_RECLAIMALLOCATIONSCB, d3dumddi/pfnReclaimAllocationsCb, display.pfnreclaimallocationscb, pfnReclaimAllocationsCb, pfnReclaimAllocationsCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_RECLAIMALLOCATIONSCB, d3dumddi/pfnReclaimAllocationsCb, display.pfnreclaimallocationscb, pfnReclaimAllocationsCb, pfnReclaimAllocationsCb callback, pfnReclaimAllocationsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_RECLAIMALLOCATIONSCB callback
+# PFND3DDDI_RECLAIMALLOCATIONSCB callback function
 
 
 ## -description

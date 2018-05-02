@@ -7,7 +7,7 @@ old-location: display\d3dkmt_render.htm
 old-project: display
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, _D3DKMT_RENDER, d3dkmthk/D3DKMT_RENDER, display.d3dkmt_render
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,16 @@ The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 ## -struct-fields
 
 
+
+
+### -field hDevice
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the command buffer is rendered to. A device handle is supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function in the union that D3DKMT_RENDER contains for compatibility with Microsoft Direct3D version 10.
+
+
+### -field hContext
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context that the command buffer is rendered to.
 
 
 ### -field CommandOffset
@@ -172,16 +182,6 @@ This member is available beginning with Windows 7.
 This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
-
-
-#### - hContext
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context that the command buffer is rendered to.
-
-
-#### - hDevice
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the command buffer is rendered to. A device handle is supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function in the union that D3DKMT_RENDER contains for compatibility with Microsoft Direct3D version 10.
 
 
 ## -see-also

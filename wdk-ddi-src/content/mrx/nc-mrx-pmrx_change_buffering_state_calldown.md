@@ -7,7 +7,7 @@ old-location: ifsk\mrxcompletebufferingstatechangerequest.htm
 old-project: ifsk
 ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback
+# PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function
 
 
 ## -description

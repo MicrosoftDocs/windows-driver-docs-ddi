@@ -7,7 +7,7 @@ old-location: kernel\irp.htm
 old-project: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIRP, IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], _IRP, kernel.irp, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, wdm/PIRP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IRP
-req.product: Windows 10 or later.
 ---
 
 # _IRP structure
@@ -142,14 +141,17 @@ IRP_UM_DRIVER_INITIATED_IO
 ### -field AssociatedIrp
 
 
-
-#### MasterIrp
+### -field AssociatedIrp.MasterIrp
 
 Pointer to the master IRP in an IRP that was created by a highest-level driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549397">IoMakeAssociatedIrp</a>.
 
 
+### -field AssociatedIrp.IrpCount
 
-#### SystemBuffer
+ 
+
+
+### -field AssociatedIrp.SystemBuffer
 
 Pointer to a system-space buffer.
 
@@ -159,7 +161,7 @@ If the driver is using buffered I/O, the buffer's purpose is determined by the I
 
 
 
-##### IRP_MJ_READ
+##### SystemBuffer.IRP_MJ_READ
 
 The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure.
 
@@ -167,7 +169,7 @@ The buffer receives data from the device or driver. The buffer's length is speci
 
 
 
-##### IRP_MJ_WRITE
+##### SystemBuffer.IRP_MJ_WRITE
 
 The buffer supplies data for the device or driver. The buffer's length is specified by <b>Parameters.Write.Length</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
 
@@ -175,7 +177,7 @@ The buffer supplies data for the device or driver. The buffer's length is specif
 
 
 
-##### IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
+##### SystemBuffer.IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
 
 The buffer represents both the input and output buffers that are supplied to <b>DeviceIoControl</b> and <b>IoBuildDeviceIoControlRequest</b>. Output data overwrites input data.
 
@@ -266,7 +268,22 @@ Contains the IRQL at which a driver is running when <a href="https://msdn.micros
  
 
 
+### -field Overlay.AsynchronousParameters.UserApcRoutine
+
+ 
+
+
+### -field Overlay.AsynchronousParameters.IssuingProcess
+
+ 
+
+
 ### -field Overlay.AsynchronousParameters.UserApcContext
+
+ 
+
+
+### -field Overlay.AllocationSize
 
  
 
@@ -293,16 +310,9 @@ For METHOD_BUFFERED, the driver should use the buffer pointed to by <b>Irp-&gt;A
 ### -field Tail.Overlay
 
 
-
-##### Overlay.DeviceQueueEntry
+### -field Tail.Overlay.DeviceQueueEntry
 
 If IRPs are queued in the device queue associated with the driver's device object, this field links IRPs in the device queue. These links can be used only while the driver is processing the IRP.
-
-
-
-##### Overlay.ListEntry
-
-If a driver manages its own internal queues of IRPs, it uses this field to link one IRP to the next. These links can be used only while the driver is holding the IRP in its queue or is processing the IRP.
 
 
 ### -field Tail.Overlay.DriverContext
@@ -320,6 +330,11 @@ A pointer to the caller's thread control block (TCB). For requests that originat
  
 
 
+### -field Tail.Overlay.ListEntry
+
+If a driver manages its own internal queues of IRPs, it uses this field to link one IRP to the next. These links can be used only while the driver is holding the IRP in its queue or is processing the IRP.
+
+
 ### -field Tail.Overlay.CurrentStackLocation
 
  
@@ -331,6 +346,16 @@ A pointer to the caller's thread control block (TCB). For requests that originat
 
 
 ### -field Tail.Overlay.OriginalFileObject
+
+ 
+
+
+### -field Tail.Apc
+
+ 
+
+
+### -field Tail.CompletionKey
 
  
 

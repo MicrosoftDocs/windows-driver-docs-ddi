@@ -7,7 +7,7 @@ old-location: display\video_public_access_ranges.htm
 old-project: display
 ms.assetid: 78912da9-ab02-459c-97b0-477949d4a71d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], VIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, _VIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

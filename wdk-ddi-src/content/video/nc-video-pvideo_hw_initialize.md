@@ -7,8 +7,8 @@ old-location: display\hwvidinitialize.htm
 old-project: display
 ms.assetid: 0e43de21-59e5-4368-8ea2-34fa52e99950
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidInitialize, HwVidInitialize callback function [Display Devices], PVIDEO_HW_INITIALIZE, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml, display.hwvidinitialize, video/HwVidInitialize
+ms.date: 4/16/2018
+ms.keywords: HwVidInitialize, HwVidInitialize callback function [Display Devices], PVIDEO_HW_INITIALIZE, PVIDEO_HW_INITIALIZE callback, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml, display.hwvidinitialize, video/HwVidInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_HW_INITIALIZE callback
+# PVIDEO_HW_INITIALIZE callback function
 
 
 ## -description

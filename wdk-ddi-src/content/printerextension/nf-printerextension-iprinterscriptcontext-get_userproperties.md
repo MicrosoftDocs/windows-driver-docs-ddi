@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_UserProperties
-title: IPrinterScriptContext::get_UserProperties method
+title: IPrinterScriptContext::get_UserProperties
 author: windows-driver-content
 description: Provides access to the user property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_userproperties.htm
 old-project: print
 ms.assetid: 6F181350-41A3-4592-BB72-1E3AD6FEC748
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], UserProperties property, IPrinterScriptContext.UserProperties, IPrinterScriptContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices], IPrinterScriptContext interface, get_UserProperties, get_UserProperties,IPrinterScriptContext.get_UserProperties, print.iprinterscriptcontext_userproperties, printerextension/IPrinterScriptContext::UserProperties, printerextension/IPrinterScriptContext::get_UserProperties
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptContext interface [Print Devices],UserProperties property, IPrinterScriptContext.UserProperties, IPrinterScriptContext.get_UserProperties, IPrinterScriptContext::UserProperties, IPrinterScriptContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices],IPrinterScriptContext interface, get_UserProperties, print.iprinterscriptcontext_userproperties, printerextension/IPrinterScriptContext::UserProperties, printerextension/IPrinterScriptContext::get_UserProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptContext::get_UserProperties method
+# IPrinterScriptContext::get_UserProperties
 
 
 ## -description

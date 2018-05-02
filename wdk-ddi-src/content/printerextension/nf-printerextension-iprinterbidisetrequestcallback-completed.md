@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterBidiSetRequestCallback.Completed
-title: IPrinterBidiSetRequestCallback::Completed method
+title: IPrinterBidiSetRequestCallback::Completed
 author: windows-driver-content
 description: Invoked when the Bidi “Set”” operation is completed.
 old-location: print\iprinterbidisetrequestcallback_completed.htm
 old-project: print
 ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Completed method [Print Devices], Completed method [Print Devices], IPrinterBidiSetRequestCallback interface, Completed,IPrinterBidiSetRequestCallback.Completed, IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], Completed method, IPrinterBidiSetRequestCallback::Completed, print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed
+ms.date: 4/20/2018
+ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback interface [Print Devices],Completed method, IPrinterBidiSetRequestCallback.Completed, IPrinterBidiSetRequestCallback::Completed, print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterBidiSetRequestCallback::Completed method
+# IPrinterBidiSetRequestCallback::Completed
 
 
 ## -description

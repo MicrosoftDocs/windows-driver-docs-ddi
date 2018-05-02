@@ -7,7 +7,7 @@ old-location: kernel\zwrecoverresourcemanager.htm
 old-project: kernel
 ms.assetid: 976ea17c-db43-487d-a378-3d65d12ddc98
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtRecoverResourceManager, ZwRecoverResourceManager, ZwRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwrecoverresourcemanager, ktm_ref_88d3ee88-7520-4942-95cc-38e53ab14044.xml, wdm/NtRecoverResourceManager, wdm/ZwRecoverResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwRecoverResourceManager function

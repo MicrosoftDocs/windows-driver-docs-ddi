@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetAudioEngineDescriptor
-title: IMiniportAudioEngineNode::GetAudioEngineDescriptor method
+title: IMiniportAudioEngineNode::GetAudioEngineDescriptor
 author: windows-driver-content
 description: Gets the descriptor for the audio engine node.
 old-location: audio\iminiportaudioenginenode_getaudioenginedescriptor.htm
 old-project: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, GetAudioEngineDescriptor,IMiniportAudioEngineNode.GetAudioEngineDescriptor, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor
+ms.date: 4/16/2018
+ms.keywords: GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetAudioEngineDescriptor method, IMiniportAudioEngineNode.GetAudioEngineDescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetAudioEngineDescriptor method
+# IMiniportAudioEngineNode::GetAudioEngineDescriptor
 
 
 ## -description

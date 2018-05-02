@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.SetCurrentSystemId
-title: IDebugSystemObjects4::SetCurrentSystemId method
+title: IDebugSystemObjects4::SetCurrentSystemId
 author: windows-driver-content
 description: The SetCurrentSystemId method makes the specified target the current target.
 old-location: debugger\setcurrentsystemid.htm
 old-project: debugger
 ms.assetid: 95b761ff-ca78-4793-b5eb-a9ff35a963d3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], SetCurrentSystemId method, IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentSystemId method, IDebugSystemObjects4::SetCurrentSystemId, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, SetCurrentSystemId method [Windows Debugging], SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, SetCurrentSystemId,IDebugSystemObjects4.SetCurrentSystemId, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, debugger.setcurrentsystemid
+ms.date: 4/24/2018
+ms.keywords: IDebugSystemObjects3 interface [Windows Debugging],SetCurrentSystemId method, IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging],SetCurrentSystemId method, IDebugSystemObjects4.SetCurrentSystemId, IDebugSystemObjects4::SetCurrentSystemId, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], SetCurrentSystemId method [Windows Debugging],IDebugSystemObjects3 interface, SetCurrentSystemId method [Windows Debugging],IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, debugger.setcurrentsystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects4::SetCurrentSystemId method
+# IDebugSystemObjects4::SetCurrentSystemId
 
 
 ## -description

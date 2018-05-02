@@ -7,8 +7,8 @@ old-location: print\ibidirequest.htm
 old-project: print
 ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices], described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
+ms.date: 4/20/2018
+ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices],described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: Bidispl.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
 # IBidiRequest interface

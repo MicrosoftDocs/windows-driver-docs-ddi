@@ -7,7 +7,7 @@ old-location: hid\output_packet.htm
 old-project: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*POUTPUT_PACKET, OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], _OUTPUT_PACKET, hid.output_packet, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, ntdd8042/OUTPUT_PACKET, ntdd8042/POUTPUT_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

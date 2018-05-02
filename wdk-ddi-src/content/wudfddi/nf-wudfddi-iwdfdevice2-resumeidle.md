@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.ResumeIdle
-title: IWDFDevice2::ResumeIdle method
+title: IWDFDevice2::ResumeIdle
 author: windows-driver-content
 description: The ResumeIdle method informs the framework that the device is not in use and can be placed in a device low-power state if it remains idle.
 old-location: wdf\iwdfdevice2_resumeidle.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice2, IWDFDevice2 interface, ResumeIdle method, IWDFDevice2::ResumeIdle, ResumeIdle method, ResumeIdle method, IWDFDevice2 interface, ResumeIdle,IWDFDevice2.ResumeIdle, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, umdf.iwdfdevice2_resumeidle, wdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle
+ms.keywords: IWDFDevice2 interface,ResumeIdle method, IWDFDevice2.ResumeIdle, IWDFDevice2::ResumeIdle, ResumeIdle, ResumeIdle method, ResumeIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, umdf.iwdfdevice2_resumeidle, wdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice2::ResumeIdle method
+# IWDFDevice2::ResumeIdle
 
 
 ## -description

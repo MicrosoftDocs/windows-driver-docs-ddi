@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IResourceList.UntranslatedList
-title: IResourceList::UntranslatedList method
+title: IResourceList::UntranslatedList
 author: windows-driver-content
 description: The UntranslatedList method returns the list of untranslated resources.
 old-location: audio\iresourcelist_untranslatedlist.htm
 old-project: audio
 ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IResourceList, IResourceList interface [Audio Devices], UntranslatedList method, IResourceList::UntranslatedList, UntranslatedList method [Audio Devices], UntranslatedList method [Audio Devices], IResourceList interface, UntranslatedList,IResourceList.UntranslatedList, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList
+ms.date: 4/16/2018
+ms.keywords: IResourceList interface [Audio Devices],UntranslatedList method, IResourceList.UntranslatedList, IResourceList::UntranslatedList, UntranslatedList, UntranslatedList method [Audio Devices], UntranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IResourceList::UntranslatedList method
+# IResourceList::UntranslatedList
 
 
 ## -description

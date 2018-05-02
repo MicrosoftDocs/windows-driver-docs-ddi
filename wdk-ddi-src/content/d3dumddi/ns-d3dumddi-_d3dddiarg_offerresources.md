@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_offerresources.htm
 old-project: display
 ms.assetid: 3c5e5dae-14f6-47b9-8c27-48ecc73a43ef
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES structure [Display Devices], _D3DDDIARG_OFFERRESOURCES, d3dumddi/D3DDDIARG_OFFERRESOURCES, display.d3dddiarg_offerresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

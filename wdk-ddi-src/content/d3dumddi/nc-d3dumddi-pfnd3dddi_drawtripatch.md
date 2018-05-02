@@ -7,8 +7,8 @@ old-location: display\drawtripatch.htm
 old-project: display
 ms.assetid: 98e5f2c5-2795-4226-b5c0-9498b37c22df
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch
+ms.date: 4/16/2018
+ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, PFND3DDDI_DRAWTRIPATCH callback, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DRAWTRIPATCH callback
+# PFND3DDDI_DRAWTRIPATCH callback function
 
 
 ## -description

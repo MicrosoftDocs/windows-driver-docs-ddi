@@ -7,8 +7,8 @@ old-location: debugger\_efn_analyze.htm
 old-project: debugger
 ms.assetid: 8D7FB040-871F-4F31-83E3-BAD7584C0589
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EXT_ANALYSIS_PLUGIN, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze
+ms.date: 4/24/2018
+ms.keywords: EXT_ANALYSIS_PLUGIN, EXT_ANALYSIS_PLUGIN callback, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
+req.typenames: 
 ---
 
-# EXT_ANALYSIS_PLUGIN callback
+# EXT_ANALYSIS_PLUGIN callback function
 
 
 ## -description

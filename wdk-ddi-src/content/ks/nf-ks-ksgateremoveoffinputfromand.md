@@ -7,7 +7,7 @@ old-location: stream\ksgateremoveoffinputfromand.htm
 old-project: stream
 ms.assetid: 37f463bb-6b7a-4262-9e4b-3650025acb7c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateRemoveOffInputFromAnd, KsGateRemoveOffInputFromAnd function [Streaming Media Devices], avfunc_604705b6-08f8-4048-8b29-f89b645f971a.xml, ks/KsGateRemoveOffInputFromAnd, stream.ksgateremoveoffinputfromand
 ms.prod: windows-hardware
 ms.technology: windows-devices

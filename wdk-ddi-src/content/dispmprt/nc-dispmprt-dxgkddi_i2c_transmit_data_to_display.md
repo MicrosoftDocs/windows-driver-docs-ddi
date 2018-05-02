@@ -7,8 +7,8 @@ old-location: display\dxgkddii2ctransmitdatatodisplay.htm
 old-project: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback
+# DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback function
 
 
 ## -description

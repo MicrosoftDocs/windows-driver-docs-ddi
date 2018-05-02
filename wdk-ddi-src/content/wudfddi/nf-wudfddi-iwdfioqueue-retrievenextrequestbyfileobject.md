@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.RetrieveNextRequestByFileObject
-title: IWDFIoQueue::RetrieveNextRequestByFileObject method
+title: IWDFIoQueue::RetrieveNextRequestByFileObject
 author: windows-driver-content
 description: The RetrieveNextRequestByFileObject method retrieves from an I/O queue the next I/O request whose file object matches the specified file object.
 old-location: wdf\iwdfioqueue_retrievenextrequestbyfileobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, RetrieveNextRequestByFileObject,IWDFIoQueue.RetrieveNextRequestByFileObject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
+ms.keywords: IWDFIoQueue interface,RetrieveNextRequestByFileObject method, IWDFIoQueue.RetrieveNextRequestByFileObject, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject method,IWDFIoQueue interface, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::RetrieveNextRequestByFileObject method
+# IWDFIoQueue::RetrieveNextRequestByFileObject
 
 
 ## -description

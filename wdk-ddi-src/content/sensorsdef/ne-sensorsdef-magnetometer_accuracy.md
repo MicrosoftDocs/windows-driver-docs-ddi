@@ -7,7 +7,7 @@ old-location: sensors\magnetometer_accuracy.htm
 old-project: sensors
 ms.assetid: BC8D4FB1-69F4-4FAE-BA90-7CCB57D4A6C4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: MAGNETOMETER_ACCURACY, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], MagnetometerAccuracy_Approximate, MagnetometerAccuracy_High, MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Unreliable, sensors.magnetometer_accuracy, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, sensorsdef/MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unknown, sensorsdef/MagnetometerAccuracy_Unreliable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: MAGNETOMETER_ACCURACY
-req.product: Windows 10 or later.
 ---
 
 # MAGNETOMETER_ACCURACY enumeration

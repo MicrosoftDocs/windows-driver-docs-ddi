@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources
-title: IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources method
+title: IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
 author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and assign new resources to the target device.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevicerequestnewresources.htm
 old-project: dtf
 ms.assetid: 20f1ff95-55d3-46d2-816b-edf2b42e6e86
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDeviceRequestNewResources,IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method, IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpactions2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
+ms.date: 4/4/2018
+ms.keywords: EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDeviceRequestNewResources method, IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources, IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpactions2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources method
+# IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\hw_stream_header.htm
 old-project: stream
 ms.assetid: 1931c640-666b-4db5-8d05-eab43ae96665
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PHW_STREAM_HEADER, HW_STREAM_HEADER, HW_STREAM_HEADER structure [Streaming Media Devices], PHW_STREAM_HEADER, PHW_STREAM_HEADER structure pointer [Streaming Media Devices], _HW_STREAM_HEADER, strclass-struct_bf41c526-276a-4e94-9d27-97177a3164bc.xml, stream.hw_stream_header, strmini/HW_STREAM_HEADER, strmini/PHW_STREAM_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: HW_STREAM_HEADER, *PHW_STREAM_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _HW_STREAM_HEADER structure

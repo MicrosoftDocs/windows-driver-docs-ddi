@@ -7,8 +7,8 @@ old-location: print\drvgetstandardvariable.htm
 old-project: print
 ms.assetid: 743d8e3c-3115-4c2d-b7f3-6f99ba684693
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable
+ms.date: 4/20/2018
+ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, PFN_DrvGetStandardVariable callback, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvGetStandardVariable callback
+# PFN_DrvGetStandardVariable callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: buses\ucmconnectorpdsourcecaps.htm
 old-project: usbref
 ms.assetid: 7C52EE60-7903-42A7-B535-9B8ED7A4B021
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcmConnectorPdSourceCaps, UcmConnectorPdSourceCaps method [Buses], buses.ucmconnectorpdsourcecaps, ucmmanager/UcmConnectorPdSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmConnectorPdSourceCaps function

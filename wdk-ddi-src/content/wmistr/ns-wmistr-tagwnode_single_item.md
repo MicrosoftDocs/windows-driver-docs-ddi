@@ -7,7 +7,7 @@ old-location: kernel\wnode_single_item.htm
 old-project: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PWNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_single_item, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, tagWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WNODE_SINGLE_ITEM, *PWNODE_SINGLE_ITEM
-req.product: Windows 10 or later.
 ---
 
 # tagWNODE_SINGLE_ITEM structure

@@ -7,8 +7,8 @@ old-location: image\istidevicecontrol_interface_methods.htm
 old-project: image
 ms.assetid: de58597a-d10a-45b3-bf75-539e5cd00535
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], IStiDeviceControl interface [Imaging Devices], described, image.istidevicecontrol_interface_methods, stifnc_532906f7-46b9-4874-8099-6be551e77711.xml, stiusd/IStiDeviceControl
+ms.date: 4/23/2018
+ms.keywords: IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], IStiDeviceControl interface [Imaging Devices],described, image.istidevicecontrol_interface_methods, stifnc_532906f7-46b9-4874-8099-6be551e77711.xml, stiusd/IStiDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IStiDeviceControl interface

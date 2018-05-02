@@ -7,7 +7,7 @@ old-location: ifsk\mrxarefilesaliased.htm
 old-project: ifsk
 ms.assetid: 273266b3-98f4-4c93-a06b-8e149440ad24
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxAreFilesAliased, MRxAreFilesAliased routine [Installable File System Drivers], PMRX_CHKFCB_CALLDOWN, ifsk.mrxarefilesaliased, mrx/MRxAreFilesAliased, mrxref_5d6e6988-84d7-43ac-860e-4f184686a9e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CHKFCB_CALLDOWN callback
+# PMRX_CHKFCB_CALLDOWN callback function
 
 
 ## -description

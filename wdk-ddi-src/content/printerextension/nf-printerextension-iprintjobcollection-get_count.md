@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.get_Count
-title: IPrintJobCollection::get_Count method
+title: IPrintJobCollection::get_Count
 author: windows-driver-content
 description: Gets the number of jobs in the print queue.
 old-location: print\iprintjobcollection_count.htm
 old-project: print
 ms.assetid: B44C8023-CB5F-4381-8A75-CA086E989BAC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Count property [Print Devices], Count property [Print Devices], IPrintJobCollection interface, IPrintJobCollection, IPrintJobCollection interface [Print Devices], Count property, IPrintJobCollection.Count, IPrintJobCollection::get_Count, get_Count,IPrintJobCollection.get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count
+ms.date: 4/20/2018
+ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],Count property, IPrintJobCollection.Count, IPrintJobCollection.get_Count, IPrintJobCollection::Count, IPrintJobCollection::get_Count, get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintJobCollection::get_Count method
+# IPrintJobCollection::get_Count
 
 
 ## -description

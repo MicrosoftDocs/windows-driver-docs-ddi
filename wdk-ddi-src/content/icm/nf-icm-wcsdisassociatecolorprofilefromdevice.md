@@ -7,7 +7,7 @@ old-location: print\wcsdisassociatecolorprofilefromdevice.htm
 old-project: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsDisassociateColorProfileFromDevice function

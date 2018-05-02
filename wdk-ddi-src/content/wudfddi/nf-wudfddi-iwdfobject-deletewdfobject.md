@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.DeleteWdfObject
-title: IWDFObject::DeleteWdfObject method
+title: IWDFObject::DeleteWdfObject
 author: windows-driver-content
 description: The DeleteWdfObject method deletes a previously created Microsoft Windows Driver Frameworks (WDF) object.
 old-location: wdf\iwdfobject_deletewdfobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DeleteWdfObject method, DeleteWdfObject method, IWDFObject interface, DeleteWdfObject,IWDFObject.DeleteWdfObject, IWDFObject, IWDFObject interface, DeleteWdfObject method, IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, umdf.iwdfobject_deletewdfobject, wdf.iwdfobject_deletewdfobject, wudfddi/IWDFObject::DeleteWdfObject
+ms.keywords: DeleteWdfObject, DeleteWdfObject method, DeleteWdfObject method,IWDFObject interface, IWDFObject interface,DeleteWdfObject method, IWDFObject.DeleteWdfObject, IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, umdf.iwdfobject_deletewdfobject, wdf.iwdfobject_deletewdfobject, wudfddi/IWDFObject::DeleteWdfObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFObject::DeleteWdfObject method
+# IWDFObject::DeleteWdfObject
 
 
 ## -description

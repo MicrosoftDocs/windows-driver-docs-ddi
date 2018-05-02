@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsEtwHelper.MiniportWriteEtwEvent
-title: IPortClsEtwHelper::MiniportWriteEtwEvent method
+title: IPortClsEtwHelper::MiniportWriteEtwEvent
 author: windows-driver-content
 description: The MiniportWriteEtwEvent method is used by an audio miniport driver for providing the information about an Event Tracing for Windows (ETW) event.
 old-location: audio\iportclsetwhelper_miniportwriteetwevent.htm
 old-project: audio
 ms.assetid: 7E0C1140-35AA-424F-8229-21B4F4E1EBDF
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], MiniportWriteEtwEvent method, IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], MiniportWriteEtwEvent method [Audio Devices], IPortClsEtwHelper interface, MiniportWriteEtwEvent,IPortClsEtwHelper.MiniportWriteEtwEvent, audio.iportclsetwhelper_miniportwriteetwevent, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
+ms.date: 4/16/2018
+ms.keywords: IPortClsEtwHelper interface [Audio Devices],MiniportWriteEtwEvent method, IPortClsEtwHelper.MiniportWriteEtwEvent, IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], MiniportWriteEtwEvent method [Audio Devices],IPortClsEtwHelper interface, audio.iportclsetwhelper_miniportwriteetwevent, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsEtwHelper::MiniportWriteEtwEvent method
+# IPortClsEtwHelper::MiniportWriteEtwEvent
 
 
 ## -description

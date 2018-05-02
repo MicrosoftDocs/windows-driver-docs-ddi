@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_multiplane_overlay_attributes.htm
 old-project: display
 ms.assetid: 0bd7f866-d103-449a-b614-d123c040b2da
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], display.dxgi_ddi_multiplane_overlay_attributes, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices

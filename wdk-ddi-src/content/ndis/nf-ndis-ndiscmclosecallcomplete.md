@@ -7,7 +7,7 @@ old-location: netvista\ndiscmclosecallcomplete.htm
 old-project: netvista
 ms.assetid: caf248e0-ec9a-4c85-86f7-f35c715c6e39
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmCloseCallComplete, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml, ndis/NdisCmCloseCallComplete, netvista.ndiscmclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmCloseCallComplete function

@@ -7,7 +7,7 @@ old-location: ifsk\fltfindextracreateparameter.htm
 old-project: ifsk
 ms.assetid: bfa38f16-55cf-40a9-b271-65d784d5156e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_6f7f8d49-a0b3-4a32-9a51-d31ab84baf8a.xml, FltFindExtraCreateParameter, FltFindExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltFindExtraCreateParameter, ifsk.fltfindextracreateparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltFindExtraCreateParameter function

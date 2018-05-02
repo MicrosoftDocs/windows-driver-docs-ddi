@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_qp_with_srq.htm
 old-project: netvista
 ms.assetid: B3AAC8BE-E874-48C7-9DF6-0C9A6BDBB9B5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CREATE_QP_WITH_SRQ, NdkCreateQpWithSrq, NdkCreateQpWithSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQpWithSrq, netvista.ndk_fn_create_qp_with_srq
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_QP_WITH_SRQ, NDK_FN_CREATE_QP_WITH_SRQ callback, NdkCreateQpWithSrq, NdkCreateQpWithSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQpWithSrq, netvista.ndk_fn_create_qp_with_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_QP_WITH_SRQ callback
+# NDK_FN_CREATE_QP_WITH_SRQ callback function
 
 
 ## -description

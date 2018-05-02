@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberExpressionSyntaxes
-title: IDebugControl3::GetNumberExpressionSyntaxes method
+title: IDebugControl3::GetNumberExpressionSyntaxes
 author: windows-driver-content
 description: The GetNumberExpressionSyntaxes method returns the number of expression syntaxes that are supported by the engine.
 old-location: debugger\getnumberexpressionsyntaxes.htm
 old-project: debugger
 ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, GetNumberExpressionSyntaxes,IDebugControl3.GetNumberExpressionSyntaxes, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes
+ms.date: 4/24/2018
+ms.keywords: GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetNumberExpressionSyntaxes method, IDebugControl3.GetNumberExpressionSyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetNumberExpressionSyntaxes method
+# IDebugControl3::GetNumberExpressionSyntaxes
 
 
 ## -description

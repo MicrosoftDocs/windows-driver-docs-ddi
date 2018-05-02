@@ -7,7 +7,7 @@ old-location: bltooth\pcm_data_format.htm
 old-project: bltooth
 ms.assetid: 50B76D96-120C-4C86-89ED-7F298E50B1A4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PPCM_DATA_FORMAT, PCM_DATA_FORMAT, PCM_DATA_FORMAT enumeration [Bluetooth Devices], PPCM_DATA_FORMAT, PPCM_DATA_FORMAT enumeration pointer [Bluetooth Devices], _PCM_DATA_FORMAT, bltooth.pcm_data_format, bthddi/, bthddi/PCM_DATA_FORMAT, bthddi/PPCM_DATA_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

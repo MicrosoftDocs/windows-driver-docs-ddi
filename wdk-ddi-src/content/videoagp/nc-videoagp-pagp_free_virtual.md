@@ -7,8 +7,8 @@ old-location: display\agpfreevirtual.htm
 old-project: display
 ms.assetid: a6f689ab-8cf1-4207-af2b-30957500c190
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual
+ms.date: 4/16/2018
+ms.keywords: AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL callback, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PAGP_FREE_VIRTUAL callback
+# PAGP_FREE_VIRTUAL callback function
 
 
 ## -description

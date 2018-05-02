@@ -7,7 +7,7 @@ old-location: stream\avc_peer_do_locator.htm
 old-project: stream
 ms.assetid: a1ef8626-1920-422b-a0ed-4da9ac495f74
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVC_PEER_DO_LOCATOR, AVC_PEER_DO_LOCATOR, AVC_PEER_DO_LOCATOR structure [Streaming Media Devices], PAVC_PEER_DO_LOCATOR, PAVC_PEER_DO_LOCATOR structure pointer [Streaming Media Devices], _AVC_PEER_DO_LOCATOR, avc/AVC_PEER_DO_LOCATOR, avc/PAVC_PEER_DO_LOCATOR, avcref_6e8543dc-a712-4031-8f48-cf789d320551.xml, stream.avc_peer_do_locator"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.typenames: AVC_PEER_DO_LOCATOR, *PAVC_PEER_DO_LOCATOR
 The AVC_PEER_DO_LOCATOR describes nonvirtual (peer) instances of <i>avc.sys</i>.
 
 
-## -syntax
-
-
-````
-typedef struct _AVC_PEER_DO_LOCATOR {
-  NODE_ADDRESS   NodeAddress;
-  ULONG          Generation;
-  PDEVICE_OBJECT DeviceObject;
-} AVC_PEER_DO_LOCATOR, *PAVC_PEER_DO_LOCATOR;
-````
-
-
 ## -struct-fields
 
 
@@ -100,11 +88,10 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
 
 
 
@@ -112,6 +99,7 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
  
 
  

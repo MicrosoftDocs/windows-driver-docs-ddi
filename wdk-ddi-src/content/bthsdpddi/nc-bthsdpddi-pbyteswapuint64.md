@@ -7,8 +7,8 @@ old-location: bltooth\sdpbyteswapuint64.htm
 old-project: bltooth
 ms.assetid: aa3c83fb-72fb-4709-8c5d-982814ddbcd0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PBYTESWAPUINT64, SdpByteSwapUint64, SdpByteSwapUint64 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint64, bth_funcs_b5fdae49-077b-43f8-a4c2-cd380422d560.xml, sdplib/SdpByteSwapUint64
+ms.date: 4/27/2018
+ms.keywords: PBYTESWAPUINT64, PBYTESWAPUINT64 callback, SdpByteSwapUint64, SdpByteSwapUint64 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint64, bth_funcs_b5fdae49-077b-43f8-a4c2-cd380422d560.xml, sdplib/SdpByteSwapUint64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PBYTESWAPUINT64 callback
+# PBYTESWAPUINT64 callback function
 
 
 ## -description

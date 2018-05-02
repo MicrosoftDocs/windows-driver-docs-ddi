@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: BCCD3046-A7CE-4CD7-82A5-78F0A3684BA4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt
+ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_ENABLE_INTERRUPT callback
+# GPIO_CLIENT_ENABLE_INTERRUPT callback function
 
 
 ## -description

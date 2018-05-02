@@ -7,7 +7,7 @@ old-location: netvista\fwpscalloutunregisterbyid0.htm
 old-project: netvista
 ms.assetid: 81e7e704-c387-48a0-a222-cae751bba1d3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsCalloutUnregisterById0, FwpsCalloutUnregisterById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterById0, netvista.fwpscalloutunregisterbyid0, wfp_ref_2_funct_3_fwps_C_7bfae7f1-e5f2-4361-bbc0-6c5fef63a267.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsCalloutUnregisterById0 function

@@ -7,7 +7,7 @@ old-location: kernel\auxklibgetimageexportdirectory.htm
 old-project: kernel
 ms.assetid: 994ba853-88b6-4456-8fdb-3199979df05e
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: AuxKlibGetImageExportDirectory, AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetImageExportDirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, kernel.auxklibgetimageexportdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+req.typenames: 
 ---
 
 # AuxKlibGetImageExportDirectory function

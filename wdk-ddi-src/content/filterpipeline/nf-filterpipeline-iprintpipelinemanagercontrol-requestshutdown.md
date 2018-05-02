@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineManagerControl.RequestShutdown
-title: IPrintPipelineManagerControl::RequestShutdown method
+title: IPrintPipelineManagerControl::RequestShutdown
 author: windows-driver-content
 description: The RequestShutdown method requests that a pipeline be shut down.
 old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
 old-project: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, RequestShutdown,IPrintPipelineManagerControl.RequestShutdown, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
+ms.date: 4/20/2018
+ms.keywords: IPrintPipelineManagerControl interface [Print Devices],RequestShutdown method, IPrintPipelineManagerControl.RequestShutdown, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices],IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPrintPipelineManagerControl::RequestShutdown method
+# IPrintPipelineManagerControl::RequestShutdown
 
 
 ## -description

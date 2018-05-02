@@ -7,7 +7,7 @@ old-location: print\freeprintnamedpropertyarray.htm
 old-project: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # FreePrintNamedPropertyArray function

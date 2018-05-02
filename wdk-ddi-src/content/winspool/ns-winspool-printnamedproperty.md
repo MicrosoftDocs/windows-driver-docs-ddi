@@ -7,7 +7,7 @@ old-location: print\printnamedproperty.htm
 old-project: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PrintNamedProperty
-req.product: Windows 10 or later.
 ---
 
 # PrintNamedProperty structure

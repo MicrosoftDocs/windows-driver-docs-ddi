@@ -7,8 +7,8 @@ old-location: audio\ioctl_usbsbaud_get_device_descriptor.htm
 old-project: audio
 ms.assetid: DD254D2A-BFB4-4CE6-93E0-37AB0AB2CAE6
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR, IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR control code [Audio Devices], audio.ioctl_usbsbaud_get_device_descriptor, usbsidebandaudio/IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR
+ms.date: 4/16/2018
+ms.keywords: IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR, IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR control, IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR control code [Audio Devices], audio.ioctl_usbsbaud_get_device_descriptor, usbsidebandaudio/IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBSBAUD_GET_DEVICE_DESCRIPTOR IOCTL

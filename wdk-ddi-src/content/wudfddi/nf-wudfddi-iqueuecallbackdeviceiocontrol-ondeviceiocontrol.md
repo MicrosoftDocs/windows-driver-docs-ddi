@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackDeviceIoControl.OnDeviceIoControl
-title: IQueueCallbackDeviceIoControl::OnDeviceIoControl method
+title: IQueueCallbackDeviceIoControl::OnDeviceIoControl
 author: windows-driver-content
 description: The OnDeviceIoControl method is called to handle a device I/O control request when an application performs a specific operation on a device through the Microsoft Win32 OnDeviceIoControl function.
 old-location: wdf\iqueuecallbackdeviceiocontrol_ondeviceiocontrol.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ed0eac1a-8e41-44c3-a538-9ec48492425f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackDeviceIoControl, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl method, IQueueCallbackDeviceIoControl::OnDeviceIoControl, OnDeviceIoControl method, OnDeviceIoControl method, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl,IQueueCallbackDeviceIoControl.OnDeviceIoControl, UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl
+ms.keywords: IQueueCallbackDeviceIoControl interface,OnDeviceIoControl method, IQueueCallbackDeviceIoControl.OnDeviceIoControl, IQueueCallbackDeviceIoControl::OnDeviceIoControl, OnDeviceIoControl, OnDeviceIoControl method, OnDeviceIoControl method,IQueueCallbackDeviceIoControl interface, UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackDeviceIoControl::OnDeviceIoControl method
+# IQueueCallbackDeviceIoControl::OnDeviceIoControl
 
 
 ## -description

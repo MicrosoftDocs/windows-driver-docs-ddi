@@ -7,8 +7,8 @@ old-location: display\destroydecodedevice.htm
 old-project: display
 ms.assetid: 3685e58b-8d67-4b01-a8a0-8a794d653637
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DestroyDecodeDevice, DestroyDecodeDevice callback function [Display Devices], PFND3DDDI_DESTROYDECODEDEVICE, UserModeDisplayDriver_Functions_1a057944-edfe-4010-8726-9ac1deef11e6.xml, d3dumddi/DestroyDecodeDevice, display.destroydecodedevice
+ms.date: 4/16/2018
+ms.keywords: DestroyDecodeDevice, DestroyDecodeDevice callback function [Display Devices], PFND3DDDI_DESTROYDECODEDEVICE, PFND3DDDI_DESTROYDECODEDEVICE callback, UserModeDisplayDriver_Functions_1a057944-edfe-4010-8726-9ac1deef11e6.xml, d3dumddi/DestroyDecodeDevice, display.destroydecodedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYDECODEDEVICE callback
+# PFND3DDDI_DESTROYDECODEDEVICE callback function
 
 
 ## -description

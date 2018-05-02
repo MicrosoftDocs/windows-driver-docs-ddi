@@ -7,7 +7,7 @@ old-location: netvista\vmbserverchannelinitsettargetinterfaceid.htm
 old-project: netvista
 ms.assetid: 09123845-F734-48B6-A593-0368CD195379
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbServerChannelInitSetTargetInterfaceId, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsettargetinterfaceid, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbServerChannelInitSetTargetInterfaceId function

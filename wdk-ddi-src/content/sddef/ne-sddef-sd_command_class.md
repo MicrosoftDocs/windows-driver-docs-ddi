@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SD_COMMAND_CLASS
-req.product: Windows 10 or later.
 ---
 
 # SD_COMMAND_CLASS enumeration

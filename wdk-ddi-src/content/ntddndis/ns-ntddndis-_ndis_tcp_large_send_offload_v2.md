@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_large_send_offload_v2.htm
 old-project: netvista
 ms.assetid: e53e5771-a3ca-4867-a0ac-65adb66e574c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -67,15 +67,13 @@ A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv4 inf
      
 
 
-
-#### Encapsulation
+### -field IPv4.Encapsulation
 
 Encapsulation settings for IPv4. For more information about this member, see the following
        Remarks section.
 
 
-
-#### MaxOffLoadSize
+### -field IPv4.MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -84,8 +82,7 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-
-#### MinSegmentCount
+### -field IPv4.MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to the hardware for segmentation. The transport will not offload a large packet to the
@@ -102,15 +99,13 @@ A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv6 inf
      
 
 
-
-#### Encapsulation
+### -field IPv6.Encapsulation
 
 Encapsulation settings for IPv6. For more information about this member, see the following
        Remarks section.
 
 
-
-#### MaxOffLoadSize
+### -field IPv6.MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -119,8 +114,7 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-
-#### MinSegmentCount
+### -field IPv6.MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to a NIC for segmentation. The transport will not offload a large packet to the
@@ -130,15 +124,13 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        packets.
 
 
-
-#### IpExtensionHeadersSupported
+### -field IPv6.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can segment a
        large TCP packet whose IP header contains IPv6 extension headers.
 
 
-
-#### TcpOptionsSupported
+### -field IPv6.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport driver can segment a
        large TCP packet whose TCP header contains TCP options or to indicate that this capability is enabled

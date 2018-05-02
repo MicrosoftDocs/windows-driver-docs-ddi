@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueueEvent.OnBidiResponseReceived
-title: IPrinterQueueEvent::OnBidiResponseReceived method
+title: IPrinterQueueEvent::OnBidiResponseReceived
 author: windows-driver-content
 description: Called when a bidi response is received.
 old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
 old-project: print
 ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueueEvent, IPrinterQueueEvent interface [Print Devices], OnBidiResponseReceived method, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent interface, OnBidiResponseReceived,IPrinterQueueEvent.OnBidiResponseReceived, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueueEvent interface [Print Devices],OnBidiResponseReceived method, IPrinterQueueEvent.OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices],IPrinterQueueEvent interface, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueueEvent::OnBidiResponseReceived method
+# IPrinterQueueEvent::OnBidiResponseReceived
 
 
 ## -description

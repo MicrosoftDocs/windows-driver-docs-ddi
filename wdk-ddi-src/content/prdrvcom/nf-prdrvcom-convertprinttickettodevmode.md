@@ -7,8 +7,8 @@ old-location: print\iprintticketprovider_convertprinttickettodevmode.htm
 old-project: print
 ms.assetid: 59457b51-5ab5-4e20-a608-a71c799eeeb9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode method [Print Devices], ConvertPrintTicketToDevMode method [Print Devices], IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, IPrintTicketProvider::ConvertPrintTicketToDevMode, prdrvcom/IPrintTicketProvider::ConvertPrintTicketToDevMode, print.iprintticketprovider_convertprinttickettodevmode, print_ticket-package_5d7b3ff3-0c39-4896-986a-ae2306543644.xml
+ms.date: 4/20/2018
+ms.keywords: ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode method [Print Devices], ConvertPrintTicketToDevMode method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],ConvertPrintTicketToDevMode method, IPrintTicketProvider::ConvertPrintTicketToDevMode, prdrvcom/IPrintTicketProvider::ConvertPrintTicketToDevMode, print.iprintticketprovider_convertprinttickettodevmode, print_ticket-package_5d7b3ff3-0c39-4896-986a-ae2306543644.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ConvertPrintTicketToDevMode function

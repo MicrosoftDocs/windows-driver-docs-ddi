@@ -7,7 +7,7 @@ old-location: ifsk\fltcurrentoplock.htm
 old-project: ifsk
 ms.assetid: e503b016-3271-4cce-a7fc-09c04b56716d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_cda1ee2b-1ce2-40a3-8e55-25846f59f611.xml, FltCurrentOplock, FltCurrentOplock routine [Installable File System Drivers], fltkernel/FltCurrentOplock, ifsk.fltcurrentoplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCurrentOplock function

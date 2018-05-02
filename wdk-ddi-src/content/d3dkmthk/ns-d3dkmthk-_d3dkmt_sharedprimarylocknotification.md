@@ -7,7 +7,7 @@ old-location: display\d3dkmt_sharedprimarylocknotification.htm
 old-project: display
 ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, display.d3dkmt_sharedprimarylocknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\ndisifquerybindingifindex.htm
 old-project: netvista
 ms.assetid: 08f31584-b3ea-4e6e-b8ce-17813ca7c06b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisIfQueryBindingIfIndex function

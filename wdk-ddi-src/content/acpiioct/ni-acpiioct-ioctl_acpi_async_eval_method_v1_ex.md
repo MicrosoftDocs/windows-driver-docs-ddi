@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 52201F43-7556-4A63-B1B1-47DAE0A5C098
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v1_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX
+ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX control, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v1_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
+req.typenames: 
 ---
 
 # IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX IOCTL

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_video_getcaps.htm
 old-project: display
 ms.assetid: 6875B754-115F-481D-8D46-2A383BA6B5E7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_VIDEO_GETCAPS, d3d12umddi/pfnGetCaps, display.pfnd3d12ddi_video_getcaps, pfnGetCaps, pfnGetCaps callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_VIDEO_GETCAPS, PFND3D12DDI_VIDEO_GETCAPS callback, d3d12umddi/pfnGetCaps, display.pfnd3d12ddi_video_getcaps, pfnGetCaps, pfnGetCaps callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_VIDEO_GETCAPS callback
+# PFND3D12DDI_VIDEO_GETCAPS callback function
 
 
 ## -description

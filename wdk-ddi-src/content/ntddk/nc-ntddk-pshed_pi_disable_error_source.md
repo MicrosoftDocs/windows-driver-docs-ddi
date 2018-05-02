@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 062927db-9581-447a-820b-82687710ea8d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DisableErrorSource, DisableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_DISABLE_ERROR_SOURCE, ntddk/DisableErrorSource, whea.disableerrorsource, whearef_41df46d2-6f6e-47aa-8296-cdc9223a9f26.xml
+ms.keywords: DisableErrorSource, DisableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_DISABLE_ERROR_SOURCE, PSHED_PI_DISABLE_ERROR_SOURCE callback, ntddk/DisableErrorSource, whea.disableerrorsource, whearef_41df46d2-6f6e-47aa-8296-cdc9223a9f26.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_DISABLE_ERROR_SOURCE callback
+# PSHED_PI_DISABLE_ERROR_SOURCE callback function
 
 
 ## -description

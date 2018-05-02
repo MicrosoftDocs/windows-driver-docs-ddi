@@ -7,7 +7,7 @@ old-location: buses\usb_node_information.htm
 old-project: usbref
 ms.assetid: 56d30c25-00e7-4edf-af06-64519eb5f755
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], _USB_NODE_INFORMATION, buses.usb_node_information, usbioctl/PUSB_NODE_INFORMATION, usbioctl/USB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _USB_NODE_INFORMATION structure
@@ -69,14 +68,12 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540028">USB_HUB
 The members of the <b>u</b> union are as follows:
 
 
-
-#### HubInformation
+### -field u.HubInformation
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540020">USB_HUB_INFORMATION</a> structure that contains information about a parent hub device.
 
 
-
-#### MiParentInformation
+### -field u.MiParentInformation
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540075">USB_MI_PARENT_INFORMATION</a> structure that contains information about a parent non-hub, composite device.
 

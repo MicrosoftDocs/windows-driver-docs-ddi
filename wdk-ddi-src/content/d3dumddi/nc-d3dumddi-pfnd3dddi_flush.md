@@ -7,8 +7,8 @@ old-location: display\flush.htm
 old-project: display
 ms.assetid: 0c1a9a60-de17-41d1-b31d-c1d3c95d8121
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Flush, Flush callback function [Display Devices], PFND3DDDI_FLUSH, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml, d3dumddi/Flush, display.flush
+ms.date: 4/16/2018
+ms.keywords: Flush, Flush callback function [Display Devices], PFND3DDDI_FLUSH, PFND3DDDI_FLUSH callback, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml, d3dumddi/Flush, display.flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FLUSH callback
+# PFND3DDDI_FLUSH callback function
 
 
 ## -description

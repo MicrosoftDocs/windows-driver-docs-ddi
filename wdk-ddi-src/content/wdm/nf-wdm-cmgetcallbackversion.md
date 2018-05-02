@@ -7,7 +7,7 @@ old-location: kernel\cmgetcallbackversion.htm
 old-project: kernel
 ms.assetid: 4b7aba14-bc6a-4d3d-bcc5-53fd122794a1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: CmGetCallbackVersion, CmGetCallbackVersion routine [Kernel-Mode Driver Architecture], ConfigMgrRef_f15e2e9c-8b84-40b2-abb4-b37a6d38f920.xml, kernel.cmgetcallbackversion, wdm/CmGetCallbackVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # CmGetCallbackVersion function

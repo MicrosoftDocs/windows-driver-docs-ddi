@@ -7,8 +7,8 @@ old-location: netvista\netfreemdl.htm
 old-project: netvista
 ms.assetid: a92b2de9-231d-4dcc-8220-857063a35eb1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NET_BUFFER_FREE_MDL_HANDLER, NetFreeMdl, NetFreeMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeMdl, ndis_netbuf_functions_ref_a005ffba-5557-4d9b-a647-63e9e06fa8ef.xml, netvista.netfreemdl
+ms.date: 4/25/2018
+ms.keywords: NET_BUFFER_FREE_MDL_HANDLER, NET_BUFFER_FREE_MDL_HANDLER callback, NetFreeMdl, NetFreeMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeMdl, ndis_netbuf_functions_ref_a005ffba-5557-4d9b-a647-63e9e06fa8ef.xml, netvista.netfreemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NET_BUFFER_FREE_MDL_HANDLER callback
+# NET_BUFFER_FREE_MDL_HANDLER callback function
 
 
 ## -description

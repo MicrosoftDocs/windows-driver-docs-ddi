@@ -7,8 +7,8 @@ old-location: display\dxgkddiformathistorybuffer.htm
 old-project: display
 ms.assetid: 84417629-5C12-4CB5-B147-0A558A4F9090
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_FORMATHISTORYBUFFER, DxgkDdiFormatHistoryBuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], d3dkmddi/DxgkDdiFormatHistoryBuffer, display.dxgkddiformathistorybuffer
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_FORMATHISTORYBUFFER, DXGKDDI_FORMATHISTORYBUFFER callback, DxgkDdiFormatHistoryBuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], d3dkmddi/DxgkDdiFormatHistoryBuffer, display.dxgkddiformathistorybuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_FORMATHISTORYBUFFER callback
+# DXGKDDI_FORMATHISTORYBUFFER callback function
 
 
 ## -description

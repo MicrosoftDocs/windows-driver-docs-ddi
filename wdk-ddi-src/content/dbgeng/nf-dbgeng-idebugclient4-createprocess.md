@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.CreateProcess
-title: IDebugClient4::CreateProcess method
+title: IDebugClient4::CreateProcess
 author: windows-driver-content
 description: The CreateProcess method creates a process from the specified command line.
 old-location: debugger\createprocess.htm
 old-project: debugger
 ms.assetid: 0c70c1f8-3c1c-4401-a7c4-14dc9bd0af04
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging], IDebugClient interface, CreateProcess method [Windows Debugging], IDebugClient2 interface, CreateProcess method [Windows Debugging], IDebugClient3 interface, CreateProcess method [Windows Debugging], IDebugClient4 interface, CreateProcess method [Windows Debugging], IDebugClient5 interface, CreateProcess,IDebugClient4.CreateProcess, IDebugClient interface [Windows Debugging], CreateProcess method, IDebugClient2 interface [Windows Debugging], CreateProcess method, IDebugClient2::CreateProcess, IDebugClient3 interface [Windows Debugging], CreateProcess method, IDebugClient3::CreateProcess, IDebugClient4, IDebugClient4 interface [Windows Debugging], CreateProcess method, IDebugClient4::CreateProcess, IDebugClient5 interface [Windows Debugging], CreateProcess method, IDebugClient5::CreateProcess, IDebugClient::CreateProcess, IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, dbgeng/IDebugClient2::CreateProcess, dbgeng/IDebugClient3::CreateProcess, dbgeng/IDebugClient4::CreateProcess, dbgeng/IDebugClient5::CreateProcess, dbgeng/IDebugClient::CreateProcess, debugger.createprocess
+ms.date: 4/24/2018
+ms.keywords: CreateProcess, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging],IDebugClient interface, CreateProcess method [Windows Debugging],IDebugClient2 interface, CreateProcess method [Windows Debugging],IDebugClient3 interface, CreateProcess method [Windows Debugging],IDebugClient4 interface, CreateProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],CreateProcess method, IDebugClient2 interface [Windows Debugging],CreateProcess method, IDebugClient2::CreateProcess, IDebugClient3 interface [Windows Debugging],CreateProcess method, IDebugClient3::CreateProcess, IDebugClient4 interface [Windows Debugging],CreateProcess method, IDebugClient4.CreateProcess, IDebugClient4::CreateProcess, IDebugClient5 interface [Windows Debugging],CreateProcess method, IDebugClient5::CreateProcess, IDebugClient::CreateProcess, IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, dbgeng/IDebugClient2::CreateProcess, dbgeng/IDebugClient3::CreateProcess, dbgeng/IDebugClient4::CreateProcess, dbgeng/IDebugClient5::CreateProcess, dbgeng/IDebugClient::CreateProcess, debugger.createprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,10 +45,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::CreateProcess method
+# IDebugClient4::CreateProcess
 
 
 ## -description

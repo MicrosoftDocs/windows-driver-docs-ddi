@@ -7,7 +7,7 @@ old-location: stream\stream_data_intersect_info.htm
 old-project: stream
 ms.assetid: 92a37945-4b7c-4d10-a071-ae1584590692
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO structure pointer [Streaming Media Devices], STREAM_DATA_INTERSECT_INFO, STREAM_DATA_INTERSECT_INFO structure [Streaming Media Devices], _STREAM_DATA_INTERSECT_INFO, strclass-struct_28443f9e-3daf-4a83-be5e-de1868590510.xml, stream.stream_data_intersect_info, strmini/PSTREAM_DATA_INTERSECT_INFO, strmini/STREAM_DATA_INTERSECT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STREAM_DATA_INTERSECT_INFO, *PSTREAM_DATA_INTERSECT_INFO
-req.product: Windows 10 or later.
 ---
 
 # _STREAM_DATA_INTERSECT_INFO structure

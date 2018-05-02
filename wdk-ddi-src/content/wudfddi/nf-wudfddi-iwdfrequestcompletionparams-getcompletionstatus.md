@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRequestCompletionParams.GetCompletionStatus
-title: IWDFRequestCompletionParams::GetCompletionStatus method
+title: IWDFRequestCompletionParams::GetCompletionStatus
 author: windows-driver-content
 description: The GetCompletionStatus method retrieves the completion status of an I/O request.
 old-location: wdf\iwdfrequestcompletionparams_getcompletionstatus.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8959fc25-2477-485a-aa40-10d6228cb476
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetCompletionStatus method, GetCompletionStatus method, IWDFRequestCompletionParams interface, GetCompletionStatus,IWDFRequestCompletionParams.GetCompletionStatus, IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, GetCompletionStatus method, IWDFRequestCompletionParams::GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, umdf.iwdfrequestcompletionparams_getcompletionstatus, wdf.iwdfrequestcompletionparams_getcompletionstatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
+ms.keywords: GetCompletionStatus, GetCompletionStatus method, GetCompletionStatus method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetCompletionStatus method, IWDFRequestCompletionParams.GetCompletionStatus, IWDFRequestCompletionParams::GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, umdf.iwdfrequestcompletionparams_getcompletionstatus, wdf.iwdfrequestcompletionparams_getcompletionstatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRequestCompletionParams::GetCompletionStatus method
+# IWDFRequestCompletionParams::GetCompletionStatus
 
 
 ## -description

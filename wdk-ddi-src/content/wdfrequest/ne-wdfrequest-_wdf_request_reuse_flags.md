@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_REUSE_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REQUEST_REUSE_FLAGS enumeration

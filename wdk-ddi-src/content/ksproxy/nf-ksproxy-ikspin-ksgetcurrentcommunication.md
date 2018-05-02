@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsGetCurrentCommunication
-title: IKsPin::KsGetCurrentCommunication method
+title: IKsPin::KsGetCurrentCommunication
 author: windows-driver-content
 description: The KsGetCurrentCommunication method retrieves the current communication direction, interface, and medium of a pin.
 old-location: stream\ikspin_ksgetcurrentcommunication.htm
 old-project: stream
 ms.assetid: 3fca9bf5-5430-4877-846e-e796e54991a2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsGetCurrentCommunication method, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface, KsGetCurrentCommunication,IKsPin.KsGetCurrentCommunication, ksproxy/IKsPin::KsGetCurrentCommunication, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, stream.ikspin_ksgetcurrentcommunication
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsGetCurrentCommunication method, IKsPin.KsGetCurrentCommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], KsGetCurrentCommunication method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsGetCurrentCommunication, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, stream.ikspin_ksgetcurrentcommunication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsGetCurrentCommunication method
+# IKsPin::KsGetCurrentCommunication
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_rts.htm
 old-project: serports
 ms.assetid: a3ce8e93-12b1-4f84-82e5-0a384ac44f66
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_SET_RTS, IOCTL_SERIAL_SET_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_RTS, serports.ioctl_serial_set_rts, serref_bda4eddb-8ddc-4fd6-83ac-c4b6516fe949.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_SET_RTS, IOCTL_SERIAL_SET_RTS control, IOCTL_SERIAL_SET_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_RTS, serports.ioctl_serial_set_rts, serref_bda4eddb-8ddc-4fd6-83ac-c4b6516fe949.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_SET_RTS IOCTL

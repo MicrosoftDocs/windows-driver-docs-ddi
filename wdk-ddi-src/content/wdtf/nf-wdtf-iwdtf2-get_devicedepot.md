@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTF2.get_DeviceDepot
-title: IWDTF2::get_DeviceDepot method
+title: IWDTF2::get_DeviceDepot
 author: windows-driver-content
 description: Gets the DeviceDepot object.
 old-location: dtf\iwdtf2_devicedepot.htm
 old-project: dtf
 ms.assetid: 9bff0ac6-149e-4a40-a6e0-a3156c3d6af5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DeviceDepot property [Windows Device Testing Framework], DeviceDepot property [Windows Device Testing Framework], IWDTF2 interface, IWDTF2, IWDTF2 interface [Windows Device Testing Framework], DeviceDepot property, IWDTF2.DeviceDepot, IWDTF2::get_DeviceDepot, Microsoft.WDTF.IWDTF2.DeviceDepot, Microsoft::WDTF::IWDTF2::DeviceDepot, dtf.iwdtf2_devicedepot, get_DeviceDepot,IWDTF2.get_DeviceDepot, wdtf/IWDTF2::DeviceDepot, wdtf/IWDTF2::get_DeviceDepot
+ms.date: 4/4/2018
+ms.keywords: DeviceDepot property [Windows Device Testing Framework], DeviceDepot property [Windows Device Testing Framework],IWDTF2 interface, IWDTF2 interface [Windows Device Testing Framework],DeviceDepot property, IWDTF2.DeviceDepot, IWDTF2.get_DeviceDepot, IWDTF2::DeviceDepot, IWDTF2::get_DeviceDepot, Microsoft.WDTF.IWDTF2.DeviceDepot, Microsoft::WDTF::IWDTF2::DeviceDepot, dtf.iwdtf2_devicedepot, get_DeviceDepot, wdtf/IWDTF2::DeviceDepot, wdtf/IWDTF2::get_DeviceDepot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTF2::get_DeviceDepot method
+# IWDTF2::get_DeviceDepot
 
 
 ## -description

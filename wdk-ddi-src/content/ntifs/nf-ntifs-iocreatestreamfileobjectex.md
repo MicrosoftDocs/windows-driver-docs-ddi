@@ -7,7 +7,7 @@ old-location: ifsk\iocreatestreamfileobjectex.htm
 old-project: ifsk
 ms.assetid: 1ecf4536-9669-4437-8919-3c7b0e4a9183
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml, ntifs/IoCreateStreamFileObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoCreateStreamFileObjectEx function

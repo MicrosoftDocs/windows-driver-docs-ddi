@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_device_request_disconnect.htm
 old-project: audio
 ms.assetid: BC28F8FC-5C0A-4999-89C1-FE25FD68B9FF
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_disconnect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_disconnect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT IOCTL

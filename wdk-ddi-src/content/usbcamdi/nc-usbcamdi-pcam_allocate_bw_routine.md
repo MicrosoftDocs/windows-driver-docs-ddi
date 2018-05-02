@@ -7,8 +7,8 @@ old-location: stream\camallocatebandwidth.htm
 old-project: stream
 ms.assetid: 0dd01bf7-04a8-4d20-982a-1ec81076583f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
+ms.date: 4/23/2018
+ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, PCAM_ALLOCATE_BW_ROUTINE callback, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_ALLOCATE_BW_ROUTINE callback
+# PCAM_ALLOCATE_BW_ROUTINE callback function
 
 
 ## -description

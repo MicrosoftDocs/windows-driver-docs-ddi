@@ -7,8 +7,8 @@ old-location: display\getcryptokeyexchangetype.htm
 old-project: display
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
+ms.date: 4/16/2018
+ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback
+# PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback function
 
 
 ## -description

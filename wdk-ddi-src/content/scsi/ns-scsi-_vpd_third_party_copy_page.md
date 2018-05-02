@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE
-req.product: Windows 10 or later.
 ---
 
 # _VPD_THIRD_PARTY_COPY_PAGE structure

@@ -7,7 +7,7 @@ old-location: kernel\exinitializeresourcelite.htm
 old-project: kernel
 ms.assetid: be18a6e6-863d-4a0c-9bcd-a36ace0b54fe
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ExInitializeResourceLite, ExInitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_3264d595-09fb-4165-8147-4f805fb55557.xml, kernel.exinitializeresourcelite, wdm/ExInitializeResourceLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExInitializeResourceLite function

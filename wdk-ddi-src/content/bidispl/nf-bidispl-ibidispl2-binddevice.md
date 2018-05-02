@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiSpl2.BindDevice
-title: IBidiSpl2::BindDevice method
+title: IBidiSpl2::BindDevice
 author: windows-driver-content
 description: The BindDevice method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the OpenPrinter function.
 old-location: print\ibidispl2_ibidispl2__binddevice.htm
 old-project: print
 ms.assetid: c5bd238d-4b85-4463-aa73-ff3a7798ccff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice method [Print Devices], BindDevice method [Print Devices], IBidiSpl2 interface, BindDevice,IBidiSpl2.BindDevice, IBidiSpl2, IBidiSpl2 interface [Print Devices], BindDevice method, IBidiSpl2::BindDevice, _win32_IBidiSpl2_BindDevice, bidispl/IBidiSpl2::BindDevice, gdi.ibidispl2_ibidispl2__binddevice, print.ibidispl2_ibidispl2__binddevice
+ms.date: 4/20/2018
+ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl2 interface, IBidiSpl2 interface [Print Devices],BindDevice method, IBidiSpl2.BindDevice, IBidiSpl2::BindDevice, _win32_IBidiSpl2_BindDevice, bidispl/IBidiSpl2::BindDevice, gdi.ibidispl2_ibidispl2__binddevice, print.ibidispl2_ibidispl2__binddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiSpl2::BindDevice method
+# IBidiSpl2::BindDevice
 
 
 ## -description

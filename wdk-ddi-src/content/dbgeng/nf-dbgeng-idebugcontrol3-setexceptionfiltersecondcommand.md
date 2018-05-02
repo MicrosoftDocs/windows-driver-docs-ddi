@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExceptionFilterSecondCommand
-title: IDebugControl3::SetExceptionFilterSecondCommand method
+title: IDebugControl3::SetExceptionFilterSecondCommand
 author: windows-driver-content
 description: The SetExceptionFilterSecondCommand method sets the command that will be executed by the debugger engine on the second chance of a specified exception.
 old-location: debugger\setexceptionfiltersecondcommand.htm
 old-project: debugger
 ms.assetid: c95fa025-9455-4a8e-99ef-84030255575c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl::SetExceptionFilterSecondCommand, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, SetExceptionFilterSecondCommand method [Windows Debugging], SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, SetExceptionFilterSecondCommand,IDebugControl3.SetExceptionFilterSecondCommand, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, debugger.setexceptionfiltersecondcommand
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl3.SetExceptionFilterSecondCommand, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl::SetExceptionFilterSecondCommand, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, SetExceptionFilterSecondCommand, SetExceptionFilterSecondCommand method [Windows Debugging], SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, debugger.setexceptionfiltersecondcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::SetExceptionFilterSecondCommand method
+# IDebugControl3::SetExceptionFilterSecondCommand
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ndis_msix_table_operation.htm
 old-project: netvista
 ms.assetid: 7d1a4bb6-5db8-48b0-9be3-7468360951a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigMax, NdisMSIXTableConfigSetTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MSIX_TABLE_CONFIG, ndis/NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMaskTableEntry, ndis/NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigSetTableEntry, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, netvista.ndis_msix_table_operation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

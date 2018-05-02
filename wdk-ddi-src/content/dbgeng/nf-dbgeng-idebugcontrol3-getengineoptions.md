@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEngineOptions
-title: IDebugControl3::GetEngineOptions method
+title: IDebugControl3::GetEngineOptions
 author: windows-driver-content
 description: The GetEngineOptions method returns the engine's options.
 old-location: debugger\getengineoptions.htm
 old-project: debugger
 ms.assetid: a64645da-e11a-4568-9865-64eb7463892c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEngineOptions method [Windows Debugging], GetEngineOptions method [Windows Debugging], IDebugControl interface, GetEngineOptions method [Windows Debugging], IDebugControl2 interface, GetEngineOptions method [Windows Debugging], IDebugControl3 interface, GetEngineOptions,IDebugControl3.GetEngineOptions, IDebugControl interface [Windows Debugging], GetEngineOptions method, IDebugControl2 interface [Windows Debugging], GetEngineOptions method, IDebugControl2::GetEngineOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEngineOptions method, IDebugControl3::GetEngineOptions, IDebugControl::GetEngineOptions, IDebugControl_75edd4f2-c81d-408d-a61a-3c2fcf5932e6.xml, dbgeng/IDebugControl2::GetEngineOptions, dbgeng/IDebugControl3::GetEngineOptions, dbgeng/IDebugControl::GetEngineOptions, debugger.getengineoptions
+ms.date: 4/24/2018
+ms.keywords: GetEngineOptions, GetEngineOptions method [Windows Debugging], GetEngineOptions method [Windows Debugging],IDebugControl interface, GetEngineOptions method [Windows Debugging],IDebugControl2 interface, GetEngineOptions method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEngineOptions method, IDebugControl2 interface [Windows Debugging],GetEngineOptions method, IDebugControl2::GetEngineOptions, IDebugControl3 interface [Windows Debugging],GetEngineOptions method, IDebugControl3.GetEngineOptions, IDebugControl3::GetEngineOptions, IDebugControl::GetEngineOptions, IDebugControl_75edd4f2-c81d-408d-a61a-3c2fcf5932e6.xml, dbgeng/IDebugControl2::GetEngineOptions, dbgeng/IDebugControl3::GetEngineOptions, dbgeng/IDebugControl::GetEngineOptions, debugger.getengineoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetEngineOptions method
+# IDebugControl3::GetEngineOptions
 
 
 ## -description

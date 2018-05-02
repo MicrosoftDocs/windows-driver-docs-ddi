@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryBySourceEntry
-title: IDebugSymbols3::GetSourceEntryBySourceEntry method
+title: IDebugSymbols3::GetSourceEntryBySourceEntry
 author: windows-driver-content
 description: Allows navigation within the source entries.
 old-location: debugger\idebugsymbols3_getsourceentrybysourceentry.htm
 old-project: debugger
 ms.assetid: 4ED5D2DC-8D31-458A-80F2-F681DC375769
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSourceEntryBySourceEntry method [Windows Debugging], GetSourceEntryBySourceEntry method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryBySourceEntry,IDebugSymbols3.GetSourceEntryBySourceEntry, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryBySourceEntry method, IDebugSymbols3::GetSourceEntryBySourceEntry, dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, debugger.idebugsymbols3_getsourceentrybysourceentry
+ms.date: 4/24/2018
+ms.keywords: GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], GetSourceEntryBySourceEntry method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryBySourceEntry method, IDebugSymbols3.GetSourceEntryBySourceEntry, IDebugSymbols3::GetSourceEntryBySourceEntry, dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, debugger.idebugsymbols3_getsourceentrybysourceentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSourceEntryBySourceEntry method
+# IDebugSymbols3::GetSourceEntryBySourceEntry
 
 
 ## -description

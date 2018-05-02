@@ -7,7 +7,7 @@ old-location: sensors\sensor_property_list.htm
 old-project: sensors
 ms.assetid: 03E03BB9-95DB-49C0-AF14-FFF1998C98A7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices], SENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], sensors.sensor_property_list, sensorsdef/PSENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST
-req.product: Windows 10 or later.
 ---
 
 # SENSOR_PROPERTY_LIST structure

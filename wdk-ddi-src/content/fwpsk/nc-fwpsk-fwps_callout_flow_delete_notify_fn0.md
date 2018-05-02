@@ -7,8 +7,8 @@ old-location: netvista\flowdeletefn.htm
 old-project: netvista
 ms.assetid: 65449a23-da5d-4884-b98e-030461eb019a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0, flowDeleteFn, flowDeleteFn callback function [Network Drivers Starting with Windows Vista], fwpsk/flowDeleteFn, netvista.flowdeletefn, wfp_ref_2_funct_4_callout_b89bd091-32f2-4d86-a394-84aa027219f7.xml
+ms.date: 4/25/2018
+ms.keywords: FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0, FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback, flowDeleteFn, flowDeleteFn callback function [Network Drivers Starting with Windows Vista], fwpsk/flowDeleteFn, netvista.flowdeletefn, wfp_ref_2_funct_4_callout_b89bd091-32f2-4d86-a394-84aa027219f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback
+# FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback function
 
 
 ## -description

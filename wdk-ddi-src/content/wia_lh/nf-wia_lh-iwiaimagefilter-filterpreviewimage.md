@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaImageFilter.FilterPreviewImage
-title: IWiaImageFilter::FilterPreviewImage method
+title: IWiaImageFilter::FilterPreviewImage
 author: windows-driver-content
 description: The IWiaImageFilter::FilterPreviewImage method is called by the WIA Preview component, when an application calls the IWiaPreview::UpdatePreview method.
 old-location: image\iwiaimagefilter_filterpreviewimage.htm
 old-project: image
 ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface, FilterPreviewImage,IWiaImageFilter.FilterPreviewImage, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage
+ms.date: 4/23/2018
+ms.keywords: FilterPreviewImage, FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices],IWiaImageFilter interface, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter interface [Imaging Devices],FilterPreviewImage method, IWiaImageFilter.FilterPreviewImage, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaImageFilter::FilterPreviewImage method
+# IWiaImageFilter::FilterPreviewImage
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: print\binary_container.htm
 old-project: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PBINARY_CONTAINER, BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], PBINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], _BINARY_CONTAINER, print.binary_container, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/BINARY_CONTAINER, winspool/PBINARY_CONTAINER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: BINARY_CONTAINER, *PBINARY_CONTAINER
-req.product: Windows 10 or later.
 ---
 
 # _BINARY_CONTAINER structure

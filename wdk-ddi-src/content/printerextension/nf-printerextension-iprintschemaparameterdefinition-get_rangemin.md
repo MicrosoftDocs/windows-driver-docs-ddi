@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_RangeMin
-title: IPrintSchemaParameterDefinition::get_RangeMin method
+title: IPrintSchemaParameterDefinition::get_RangeMin
 author: windows-driver-content
 description: The RangeMin property gets the minimum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemin.htm
 old-project: print
 ms.assetid: ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, RangeMin property [Print Devices], RangeMin property [Print Devices], IPrintSchemaParameterDefinition interface, get_RangeMin, get_RangeMin,IPrintSchemaParameterDefinition.get_RangeMin, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition.get_RangeMin, IPrintSchemaParameterDefinition::RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, RangeMin property [Print Devices], RangeMin property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMin, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaParameterDefinition::get_RangeMin method
+# IPrintSchemaParameterDefinition::get_RangeMin
 
 
 ## -description

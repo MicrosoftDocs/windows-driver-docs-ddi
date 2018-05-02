@@ -7,8 +7,8 @@ old-location: display\pfnupdategpuvirtualaddresscb.htm
 old-project: display
 ms.assetid: 99D075A0-4483-47D1-BA24-80C45BFF407A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, d3dumddi/pfnUpdateGpuVirtualAddressCb, display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnUpdateGpuVirtualAddressCb, display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback
+# PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback function
 
 
 ## -description

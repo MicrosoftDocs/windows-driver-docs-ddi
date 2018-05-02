@@ -7,8 +7,8 @@ old-location: netvista\fwps_vswitch_filter_engine_reorder_callback0.htm
 old-project: netvista
 ms.assetid: 2526E8BD-316F-4B8D-9CC4-66F4E3B7D708
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0, fwpsk/vSwitchFilterEngineReorderNotifyRn, netvista.fwps_vswitch_filter_engine_reorder_callback0, vSwitchFilterEngineReorderNotifyRn, vSwitchFilterEngineReorderNotifyRn callback function [Network Drivers Starting with Windows Vista]
+ms.date: 4/25/2018
+ms.keywords: FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0, FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback, fwpsk/vSwitchFilterEngineReorderNotifyRn, netvista.fwps_vswitch_filter_engine_reorder_callback0, vSwitchFilterEngineReorderNotifyRn, vSwitchFilterEngineReorderNotifyRn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback
+# FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function
 
 
 ## -description

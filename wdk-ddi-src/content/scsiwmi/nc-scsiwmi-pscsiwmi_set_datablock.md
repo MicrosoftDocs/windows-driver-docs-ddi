@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
+ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, PSCSIWMI_SET_DATABLOCK callback, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PSCSIWMI_SET_DATABLOCK callback
+# PSCSIWMI_SET_DATABLOCK callback function
 
 
 ## -description

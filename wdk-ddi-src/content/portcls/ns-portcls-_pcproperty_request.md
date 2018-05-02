@@ -7,7 +7,7 @@ old-location: audio\pcproperty_request.htm
 old-project: audio
 ms.assetid: 3683735d-ce00-4615-9782-dee9f4753cc7
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, PCPROPERTY_REQUEST structure [Audio Devices], PPCPROPERTY_REQUEST, PPCPROPERTY_REQUEST structure pointer [Audio Devices], _PCPROPERTY_REQUEST, audio.pcproperty_request, audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, portcls/PCPROPERTY_REQUEST, portcls/PPCPROPERTY_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST
+req.typenames: PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST
 ---
 
 # _PCPROPERTY_REQUEST structure

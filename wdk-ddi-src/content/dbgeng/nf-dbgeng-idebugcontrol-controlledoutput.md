@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.ControlledOutput
-title: IDebugControl::ControlledOutput method
+title: IDebugControl::ControlledOutput
 author: windows-driver-content
 description: The ControlledOutput method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutput.htm
 old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging], IDebugControl interface, ControlledOutput method [Windows Debugging], IDebugControl2 interface, ControlledOutput method [Windows Debugging], IDebugControl3 interface, ControlledOutput,IDebugControl.ControlledOutput, IDebugControl, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl2::ControlledOutput, IDebugControl3 interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, dbgeng/IDebugControl2::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput
+ms.date: 4/24/2018
+ms.keywords: ControlledOutput, ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging],IDebugControl interface, ControlledOutput method [Windows Debugging],IDebugControl2 interface, ControlledOutput method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ControlledOutput method, IDebugControl.ControlledOutput, IDebugControl2 interface [Windows Debugging],ControlledOutput method, IDebugControl2::ControlledOutput, IDebugControl3 interface [Windows Debugging],ControlledOutput method, IDebugControl3::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, dbgeng/IDebugControl2::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::ControlledOutput method
+# IDebugControl::ControlledOutput
 
 
 ## -description

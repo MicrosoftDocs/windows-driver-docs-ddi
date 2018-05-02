@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.ForwardToIoQueue
-title: IWDFIoRequest::ForwardToIoQueue method
+title: IWDFIoRequest::ForwardToIoQueue
 author: windows-driver-content
 description: The ForwardToIoQueue method forwards (that is, requeues) an I/O request to one of the calling driver's I/O queues.
 old-location: wdf\iwdfiorequest_forwardtoioqueue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: ForwardToIoQueue method, ForwardToIoQueue method, IWDFIoRequest interface, ForwardToIoQueue,IWDFIoRequest.ForwardToIoQueue, IWDFIoRequest, IWDFIoRequest interface, ForwardToIoQueue method, IWDFIoRequest::ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue
+ms.keywords: ForwardToIoQueue, ForwardToIoQueue method, ForwardToIoQueue method,IWDFIoRequest interface, IWDFIoRequest interface,ForwardToIoQueue method, IWDFIoRequest.ForwardToIoQueue, IWDFIoRequest::ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::ForwardToIoQueue method
+# IWDFIoRequest::ForwardToIoQueue
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: hid\hidp_button_caps.htm
 old-project: hid
 ms.assetid: d3d77679-6749-4ef5-a8f2-91639587144a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS structure [Human Input Devices], PHIDP_BUTTON_CAPS, PHIDP_BUTTON_CAPS structure pointer [Human Input Devices], _HIDP_BUTTON_CAPS, hid.hidp_button_caps, hidpi/HIDP_BUTTON_CAPS, hidpi/PHIDP_BUTTON_CAPS, hidstrct_0fa7f0ef-afc7-482a-bcf0-c8c78c3d18f7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

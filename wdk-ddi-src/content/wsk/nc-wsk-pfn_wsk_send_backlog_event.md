@@ -7,8 +7,8 @@ old-location: netvista\wsksendbacklogevent.htm
 old-project: netvista
 ms.assetid: e944af6f-6753-48b0-b3f6-0709f24e3ff0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, PFN_WSK_SEND_BACKLOG_EVENT callback, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_SEND_BACKLOG_EVENT callback
+# PFN_WSK_SEND_BACKLOG_EVENT callback function
 
 
 ## -description

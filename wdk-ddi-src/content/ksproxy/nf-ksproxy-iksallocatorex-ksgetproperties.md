@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsGetProperties
-title: IKsAllocatorEx::KsGetProperties method
+title: IKsAllocatorEx::KsGetProperties
 author: windows-driver-content
 description: Returns the properties for an allocator.
 old-location: stream\iksallocatorex_ksgetproperties.htm
 old-project: stream
 ms.assetid: 82F2FE7D-D02B-47A1-8FC7-2D5CFC4CADA1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], KsGetProperties method, IKsAllocatorEx::KsGetProperties, KsGetProperties method [Streaming Media Devices], KsGetProperties method [Streaming Media Devices], IKsAllocatorEx interface, KsGetProperties,IKsAllocatorEx.KsGetProperties, ksproxy/IKsAllocatorEx::KsGetProperties, stream.iksallocatorex_ksgetproperties
+ms.date: 4/23/2018
+ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsGetProperties method, IKsAllocatorEx.KsGetProperties, IKsAllocatorEx::KsGetProperties, KsGetProperties, KsGetProperties method [Streaming Media Devices], KsGetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsGetProperties, stream.iksallocatorex_ksgetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocatorEx::KsGetProperties method
+# IKsAllocatorEx::KsGetProperties
 
 
 ## -description

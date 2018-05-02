@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function

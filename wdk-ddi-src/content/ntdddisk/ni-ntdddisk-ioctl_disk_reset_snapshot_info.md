@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b22b00de-4711-4896-a21c-33fbc7b1d64e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, storage.ioctl_disk_reset_snapshot_info
+ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, storage.ioctl_disk_reset_snapshot_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL

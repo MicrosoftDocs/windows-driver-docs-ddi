@@ -7,8 +7,8 @@ old-location: netvista\protocolcmaddparty.htm
 old-project: netvista
 ms.assetid: 06aa5ff6-974c-43dd-8395-bc1a1a8421d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_ADD_PARTY, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_ADD_PARTY, PROTOCOL_CM_ADD_PARTY callback, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_ADD_PARTY callback
+# PROTOCOL_CM_ADD_PARTY callback function
 
 
 ## -description

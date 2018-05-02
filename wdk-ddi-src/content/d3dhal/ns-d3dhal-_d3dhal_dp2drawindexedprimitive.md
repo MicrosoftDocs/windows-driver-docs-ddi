@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2drawindexedprimitive.htm
 old-project: display
 ms.assetid: b28290c7-2c02-4422-af7b-4188d6f54b54
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE structure pointer [Display Devices], _D3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dstrct_61b06507-bfbe-4733-ac52-03d27bac0a07.xml, display.d3dhal_dp2drawindexedprimitive"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: print\iprintschemaoptioncollection.htm
 old-project: print
 ms.assetid: ED0FD042-EB42-4F4B-AF9C-B8F56909ED66
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices], described, print.iprintschemaoptioncollection, printerextension/IPrintSchemaOptionCollection
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices],described, print.iprintschemaoptioncollection, printerextension/IPrintSchemaOptionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaOptionCollection interface

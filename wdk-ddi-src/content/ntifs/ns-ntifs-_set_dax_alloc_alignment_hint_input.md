@@ -13,9 +13,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
-req.include-header: 
+req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

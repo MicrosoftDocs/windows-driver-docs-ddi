@@ -7,8 +7,8 @@ old-location: display\i2cread.htm
 old-project: display
 ms.assetid: 1418ec29-be67-46af-b6db-0b534ecafb37
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: I2CRead, I2CRead callback function [Display Devices], PI2C_READ, VideoPort_Functions_cb73b3b1-1646-43ef-ac61-5a14c9a53b9b.xml, display.i2cread, video/I2CRead
+ms.date: 4/16/2018
+ms.keywords: I2CRead, I2CRead callback function [Display Devices], PI2C_READ, PI2C_READ callback, VideoPort_Functions_cb73b3b1-1646-43ef-ac61-5a14c9a53b9b.xml, display.i2cread, video/I2CRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PI2C_READ callback
+# PI2C_READ callback function
 
 
 ## -description

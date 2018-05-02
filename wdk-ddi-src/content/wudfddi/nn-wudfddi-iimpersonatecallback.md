@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 811cb070-9cbe-4906-9db0-ee8316cc18c9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IImpersonateCallback, IImpersonateCallback interface, IImpersonateCallback interface, described, UMDFRequestObjectRef_a92c4df0-b16b-4fc0-b858-4b2cdd59c3b2.xml, umdf.iimpersonatecallback, wdf.iimpersonatecallback, wudfddi/IImpersonateCallback
+ms.keywords: IImpersonateCallback, IImpersonateCallback interface, IImpersonateCallback interface,described, UMDFRequestObjectRef_a92c4df0-b16b-4fc0-b858-4b2cdd59c3b2.xml, umdf.iimpersonatecallback, wdf.iimpersonatecallback, wudfddi/IImpersonateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IImpersonateCallback interface

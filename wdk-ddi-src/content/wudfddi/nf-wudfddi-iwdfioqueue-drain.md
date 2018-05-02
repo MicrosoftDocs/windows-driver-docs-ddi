@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Drain
-title: IWDFIoQueue::Drain method
+title: IWDFIoQueue::Drain
 author: windows-driver-content
 description: The Drain method directs the queue to reject new incoming I/O requests and allow already-queued requests to be delivered to the driver for processing.
 old-location: wdf\iwdfioqueue_drain.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Drain method, Drain method, IWDFIoQueue interface, Drain,IWDFIoQueue.Drain, IWDFIoQueue, IWDFIoQueue interface, Drain method, IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, wdf.iwdfioqueue_drain, wudfddi/IWDFIoQueue::Drain
+ms.keywords: Drain, Drain method, Drain method,IWDFIoQueue interface, IWDFIoQueue interface,Drain method, IWDFIoQueue.Drain, IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, wdf.iwdfioqueue_drain, wudfddi/IWDFIoQueue::Drain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::Drain method
+# IWDFIoQueue::Drain
 
 
 ## -description

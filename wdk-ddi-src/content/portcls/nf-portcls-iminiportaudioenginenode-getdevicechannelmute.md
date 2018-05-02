@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelMute
-title: IMiniportAudioEngineNode::GetDeviceChannelMute method
+title: IMiniportAudioEngineNode::GetDeviceChannelMute
 author: windows-driver-content
 description: Gets the state of the Mute node for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelmute.htm
 old-project: audio
 ms.assetid: 60CEBF40-25D3-49F0-A4BF-40440E1A3EE6
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetDeviceChannelMute method [Audio Devices], GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelMute,IMiniportAudioEngineNode.GetDeviceChannelMute, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelMute method, IMiniportAudioEngineNode::GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute
+ms.date: 4/16/2018
+ms.keywords: GetDeviceChannelMute, GetDeviceChannelMute method [Audio Devices], GetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelMute method, IMiniportAudioEngineNode.GetDeviceChannelMute, IMiniportAudioEngineNode::GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetDeviceChannelMute method
+# IMiniportAudioEngineNode::GetDeviceChannelMute
 
 
 ## -description

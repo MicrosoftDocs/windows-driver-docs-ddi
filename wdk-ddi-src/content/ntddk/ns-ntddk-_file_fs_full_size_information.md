@@ -7,7 +7,7 @@ old-location: ifsk\file_fs_full_size_information.htm
 old-project: ifsk
 ms.assetid: 4a37bfed-cf8e-4c97-a9fe-a44d910bed92
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_FULL_SIZE_INFORMATION, fileinformationstructures_7ba05d64-c04e-48cf-84f1-48ad8de5d35b.xml, ifsk.file_fs_full_size_information, ntddk/FILE_FS_FULL_SIZE_INFORMATION, ntddk/PFILE_FS_FULL_SIZE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

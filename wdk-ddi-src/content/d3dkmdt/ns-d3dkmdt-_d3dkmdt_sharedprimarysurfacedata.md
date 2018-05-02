@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_sharedprimarysurfacedata.htm
 old-project: display
 ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_lockasync.htm
 old-project: display
 ms.assetid: dfe2ab95-e494-430d-81c7-8f209a37024f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices], UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, _D3DDDIARG_LOCKASYNC, d3dumddi/D3DDDIARG_LOCKASYNC, display.d3dddiarg_lockasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,6 +75,21 @@ The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the r
 <div class="alert"><b>Note</b>    Some flags are mutually exclusive with other flags. For more information, see the following Remarks section.</div>
 <div> </div>
 
+### -field Range
+
+[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+
+
+### -field Area
+
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+
+
+### -field Box
+
+[in] A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+
+
 ### -field hCookie
 
 [out] A handle that represents the renamed resource. This handle is valid only if the <b>Discard</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies. 
@@ -100,21 +115,6 @@ The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the r
 This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
-
-
-#### - Area
-
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
-
-
-#### - Box
-
-[in] A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
-
-
-#### - Range
-
-[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
 
 ## -remarks

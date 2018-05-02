@@ -7,7 +7,7 @@ old-location: display\d3dddicb_setdisplayprivatedriverformat.htm
 old-project: display
 ms.assetid: b10b020d-f18c-403d-b1ee-79552d18ad4e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3D_param_Structs_e953e85b-93cb-46c0-bab8-6d414568b153.xml, _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, d3dumddi/D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dddicb_setdisplayprivatedriverformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

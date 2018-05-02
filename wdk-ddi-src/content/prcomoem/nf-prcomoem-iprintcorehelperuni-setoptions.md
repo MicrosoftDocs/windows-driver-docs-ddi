@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.SetOptions
-title: IPrintCoreHelperUni::SetOptions method
+title: IPrintCoreHelperUni::SetOptions
 author: windows-driver-content
 description: The IPrintCoreHelperUni::SetOptions method sets multiple feature-option pairs at the same time.
 old-location: print\iprintcorehelperuni_setoptions.htm
 old-project: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetOptions method, IPrintCoreHelperUni::SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelperUni interface, SetOptions,IPrintCoreHelperUni.SetOptions, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreHelperUni interface [Print Devices],SetOptions method, IPrintCoreHelperUni.SetOptions, IPrintCoreHelperUni::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::SetOptions method
+# IPrintCoreHelperUni::SetOptions
 
 
 ## -description

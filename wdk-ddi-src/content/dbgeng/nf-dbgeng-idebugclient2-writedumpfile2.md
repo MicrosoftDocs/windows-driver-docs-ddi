@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient2.WriteDumpFile2
-title: IDebugClient2::WriteDumpFile2 method
+title: IDebugClient2::WriteDumpFile2
 author: windows-driver-content
 description: The WriteDumpFile2 method creates a user-mode or kernel-modecrash dump file.
 old-location: debugger\writedumpfile2.htm
 old-project: debugger
 ms.assetid: a6cdefc2-8670-485d-979a-8a270dad1c0b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient2, IDebugClient2 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient2::WriteDumpFile2, IDebugClient3 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient3::WriteDumpFile2, IDebugClient4 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, IDebugClient5 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, WriteDumpFile2 method [Windows Debugging], WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient3 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient4 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient5 interface, WriteDumpFile2,IDebugClient2.WriteDumpFile2, dbgeng/IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, debugger.writedumpfile2
+ms.date: 4/24/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient2.WriteDumpFile2, IDebugClient2::WriteDumpFile2, IDebugClient3 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient3::WriteDumpFile2, IDebugClient4 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, IDebugClient5 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, WriteDumpFile2, WriteDumpFile2 method [Windows Debugging], WriteDumpFile2 method [Windows Debugging],IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging],IDebugClient3 interface, WriteDumpFile2 method [Windows Debugging],IDebugClient4 interface, WriteDumpFile2 method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, debugger.writedumpfile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient2::WriteDumpFile2 method
+# IDebugClient2::WriteDumpFile2
 
 
 ## -description

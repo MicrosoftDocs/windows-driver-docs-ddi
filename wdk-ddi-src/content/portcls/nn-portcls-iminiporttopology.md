@@ -7,8 +7,8 @@ old-location: audio\iminiporttopology.htm
 old-project: audio
 ms.assetid: f66129df-07c4-4472-aa14-6c4d9578a92d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportTopology, IMiniportTopology interface [Audio Devices], IMiniportTopology interface [Audio Devices], described, audio.iminiporttopology, audmp-routines_c2137cf2-ab04-4b0b-aeda-d50fe3225324.xml, portcls/IMiniportTopology
+ms.date: 4/16/2018
+ms.keywords: IMiniportTopology, IMiniportTopology interface [Audio Devices], IMiniportTopology interface [Audio Devices],described, audio.iminiporttopology, audmp-routines_c2137cf2-ab04-4b0b-aeda-d50fe3225324.xml, portcls/IMiniportTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IMiniportTopology interface

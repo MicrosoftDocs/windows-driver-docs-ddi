@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES
-req.product: Windows 10 or later.
 ---
 
 # _STOR_DEVICE_CAPABILITIES structure

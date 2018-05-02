@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveAssemblyOptions
-title: IDebugControl3::RemoveAssemblyOptions method
+title: IDebugControl3::RemoveAssemblyOptions
 author: windows-driver-content
 description: The RemoveAssemblyOptions method turns off some of the assembly and disassembly options.
 old-location: debugger\removeassemblyoptions.htm
 old-project: debugger
 ms.assetid: 0352b418-26ee-4f35-a171-1b456a115014
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], RemoveAssemblyOptions method, IDebugControl3::RemoveAssemblyOptions, IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml, RemoveAssemblyOptions method [Windows Debugging], RemoveAssemblyOptions method [Windows Debugging], IDebugControl3 interface, RemoveAssemblyOptions,IDebugControl3.RemoveAssemblyOptions, dbgeng/IDebugControl3::RemoveAssemblyOptions, debugger.removeassemblyoptions
+ms.date: 4/24/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging],RemoveAssemblyOptions method, IDebugControl3.RemoveAssemblyOptions, IDebugControl3::RemoveAssemblyOptions, IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml, RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], RemoveAssemblyOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::RemoveAssemblyOptions, debugger.removeassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::RemoveAssemblyOptions method
+# IDebugControl3::RemoveAssemblyOptions
 
 
 ## -description

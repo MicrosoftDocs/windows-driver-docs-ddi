@@ -7,8 +7,8 @@ old-location: display\calcprivategeometryshaderwithstreamoutput_d3d11_1_.htm
 old-project: display
 ms.assetid: 316e30b9-eb06-483c-a124-476b4308cf5f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CalcPrivateGeometryShaderWithStreamOutput(D3D11_1), CalcPrivateGeometryShaderWithStreamOutput(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT, d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput(D3D11_1), display.calcprivategeometryshaderwithstreamoutput_d3d11_1_, display.pfncalcprivategeometryshaderwithstreamoutput
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateGeometryShaderWithStreamOutput(D3D11_1), CalcPrivateGeometryShaderWithStreamOutput(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput(D3D11_1), display.calcprivategeometryshaderwithstreamoutput_d3d11_1_, display.pfncalcprivategeometryshaderwithstreamoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback
+# PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback function
 
 
 ## -description

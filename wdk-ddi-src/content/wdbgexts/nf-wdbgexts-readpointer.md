@@ -7,7 +7,7 @@ old-location: debugger\readpointer.htm
 old-project: debugger
 ms.assetid: 354b1854-2b3b-4fcf-81cb-fd24595cd9bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: ReadPointer, ReadPointer function [Windows Debugging], WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer, wdbgexts/ReadPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ReadPointer function

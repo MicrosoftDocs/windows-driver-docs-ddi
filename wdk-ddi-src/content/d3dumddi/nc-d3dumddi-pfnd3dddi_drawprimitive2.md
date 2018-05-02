@@ -7,8 +7,8 @@ old-location: display\drawprimitive2.htm
 old-project: display
 ms.assetid: a81080f0-fbb3-4616-9324-642b60befcb3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DrawPrimitive2, DrawPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWPRIMITIVE2, UserModeDisplayDriver_Functions_5c08f7ff-b74c-4389-9b35-2f24f9468b5d.xml, d3dumddi/DrawPrimitive2, display.drawprimitive2
+ms.date: 4/16/2018
+ms.keywords: DrawPrimitive2, DrawPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWPRIMITIVE2, PFND3DDDI_DRAWPRIMITIVE2 callback, UserModeDisplayDriver_Functions_5c08f7ff-b74c-4389-9b35-2f24f9468b5d.xml, d3dumddi/DrawPrimitive2, display.drawprimitive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DRAWPRIMITIVE2 callback
+# PFND3DDDI_DRAWPRIMITIVE2 callback function
 
 
 ## -description

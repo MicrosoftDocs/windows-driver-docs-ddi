@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 729A2361-6FE1-4096-AC8B-3D042326EE5C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, IWDFInterrupt interface, described, umdf.iwdfinterrupt, wdf.iwdfinterrupt, wudfddi/IWDFInterrupt
+ms.keywords: IWDFInterrupt, IWDFInterrupt interface, IWDFInterrupt interface,described, umdf.iwdfinterrupt, wdf.iwdfinterrupt, wudfddi/IWDFInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFInterrupt interface

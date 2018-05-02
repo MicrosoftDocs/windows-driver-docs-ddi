@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roi_exposure.htm
 old-project: stream
 ms.assetid: DE57E69E-6589-4336-BB3E-50715D6D5332
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, stream.kscamera_extendedprop_roi_exposure, tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

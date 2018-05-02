@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_POLARITY enumeration

@@ -7,8 +7,8 @@ old-location: display\dxgkddi_getpostcompositioncaps.htm
 old-project: display
 ms.assetid: B79959EC-A064-4B35-98EF-5B032AF5D4B4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_GETPOSTCOMPOSITIONCAPS, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS, display.dxgkddi_getpostcompositioncaps
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_GETPOSTCOMPOSITIONCAPS, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS, display.dxgkddi_getpostcompositioncaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_GETPOSTCOMPOSITIONCAPS callback
+# DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function
 
 
 ## -description

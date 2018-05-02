@@ -7,7 +7,7 @@ old-location: kernel\ioisvalidirpstatus.htm
 old-project: kernel
 ms.assetid: 0A995357-A578-41C6-A1B8-ABD251C16C83
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, ntddk/IoIsValidIrpStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoIsValidIrpStatus function

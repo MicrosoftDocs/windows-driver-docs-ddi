@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D7348DC-1114-4346-9486-FCCE2C0F3E0F
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Storage Devices], ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, storage.ioctl_storage_set_temperature_threshold
+ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Storage Devices], ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, storage.ioctl_storage_set_temperature_threshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL

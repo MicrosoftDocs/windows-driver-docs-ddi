@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_evaluate_control_method.htm
 old-project: kernel
 ms.assetid: FFCC5947-1DD5-4AD5-A414-94BDC013D1A7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -90,6 +90,16 @@ The <b>PEP_ACPI_EVALUATE_CONTROL_METHOD</b> structure specifies an ACPI control 
 </tr>
 </table>
  
+
+
+### -field MethodName
+
+ 
+
+
+### -field MethodNameString
+
+ 
 
 
 ### -field MethodStatus

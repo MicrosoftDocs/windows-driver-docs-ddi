@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove
-title: IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove method
+title: IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteTargetQueryRemove event callback function determines whether a remote I/O target's device can be stopped and removed.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetqueryremove.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10a9510a-a11c-46fa-adb8-b122f6c571f4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove method, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove,IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
+ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove method, OnRemoteTargetQueryRemove method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove method
+# IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 
 
 ## -description

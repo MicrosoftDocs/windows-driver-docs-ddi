@@ -7,8 +7,8 @@ old-location: netvista\protocolclregistersapcomplete.htm
 old-project: netvista
 ms.assetid: b0a2a224-3353-4f20-b14f-ed5d633a6ead
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, PROTOCOL_CL_REGISTER_SAP_COMPLETE callback, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_REGISTER_SAP_COMPLETE callback
+# PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Flush
-title: IWDFUsbTargetPipe::Flush method
+title: IWDFUsbTargetPipe::Flush
 author: windows-driver-content
 description: The Flush method discards any data that WinUsb saved when the device returned more data than the client requested.
 old-location: wdf\iwdfusbtargetpipe_flush.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Flush method, Flush method, IWDFUsbTargetPipe interface, Flush,IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Flush method, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush
+ms.keywords: Flush, Flush method, Flush method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Flush method, IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::Flush method
+# IWDFUsbTargetPipe::Flush
 
 
 ## -description

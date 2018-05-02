@@ -7,7 +7,7 @@ old-location: ifsk\fltgettransactioncontext.htm
 old-project: ifsk
 ms.assetid: fcd41baf-43ff-4f3a-8211-9fb5cb1cd2fd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_11458006-a870-473b-9d1b-ab7a97af09b3.xml, FltGetTransactionContext, FltGetTransactionContext routine [Installable File System Drivers], fltkernel/FltGetTransactionContext, ifsk.fltgettransactioncontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetTransactionContext function

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.RetrieveUsbPipeObject
-title: IWDFUsbInterface::RetrieveUsbPipeObject method
+title: IWDFUsbInterface::RetrieveUsbPipeObject
 author: windows-driver-content
 description: The RetrieveUsbPipeObject method retrieves a USB pipe object for the specified pipe index.
 old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, RetrieveUsbPipeObject method, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method, IWDFUsbInterface interface, RetrieveUsbPipeObject,IWDFUsbInterface.RetrieveUsbPipeObject, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
+ms.keywords: IWDFUsbInterface interface,RetrieveUsbPipeObject method, IWDFUsbInterface.RetrieveUsbPipeObject, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method,IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbInterface::RetrieveUsbPipeObject method
+# IWDFUsbInterface::RetrieveUsbPipeObject
 
 
 ## -description

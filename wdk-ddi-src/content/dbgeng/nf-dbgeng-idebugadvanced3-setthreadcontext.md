@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.SetThreadContext
-title: IDebugAdvanced3::SetThreadContext method
+title: IDebugAdvanced3::SetThreadContext
 author: windows-driver-content
 description: The SetThreadContext method sets the current thread context.
 old-location: debugger\setthreadcontext.htm
 old-project: debugger
 ms.assetid: eaaaa9d7-ba6d-4379-b721-74c92375ea05
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugAdvanced interface [Windows Debugging], SetThreadContext method, IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced2::SetThreadContext, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced3::SetThreadContext, IDebugAdvanced::SetThreadContext, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, SetThreadContext method [Windows Debugging], SetThreadContext method [Windows Debugging], IDebugAdvanced interface, SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, SetThreadContext,IDebugAdvanced3.SetThreadContext, dbgeng/IDebugAdvanced2::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced::SetThreadContext, debugger.setthreadcontext
+ms.date: 4/24/2018
+ms.keywords: IDebugAdvanced interface [Windows Debugging],SetThreadContext method, IDebugAdvanced2 interface [Windows Debugging],SetThreadContext method, IDebugAdvanced2::SetThreadContext, IDebugAdvanced3 interface [Windows Debugging],SetThreadContext method, IDebugAdvanced3.SetThreadContext, IDebugAdvanced3::SetThreadContext, IDebugAdvanced::SetThreadContext, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, SetThreadContext, SetThreadContext method [Windows Debugging], SetThreadContext method [Windows Debugging],IDebugAdvanced interface, SetThreadContext method [Windows Debugging],IDebugAdvanced2 interface, SetThreadContext method [Windows Debugging],IDebugAdvanced3 interface, dbgeng/IDebugAdvanced2::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced::SetThreadContext, debugger.setthreadcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugAdvanced3::SetThreadContext method
+# IDebugAdvanced3::SetThreadContext
 
 
 ## -description

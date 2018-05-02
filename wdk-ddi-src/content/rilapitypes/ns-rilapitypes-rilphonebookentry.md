@@ -7,7 +7,7 @@ old-location: netvista\rilphonebookentry.htm
 old-project: netvista
 ms.assetid: 2741d992-624a-4fd1-a1b5-57fb39c42f84
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookentry, ntddrilapitypes/RILPHONEBOOKENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY
-req.product: Windows 10 or later.
 ---
 
 # RILPHONEBOOKENTRY structure

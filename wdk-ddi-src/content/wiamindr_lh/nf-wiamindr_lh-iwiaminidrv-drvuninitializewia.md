@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvUnInitializeWia
-title: IWiaMiniDrv::drvUnInitializeWia method
+title: IWiaMiniDrv::drvUnInitializeWia
 author: windows-driver-content
 description: The IWiaMiniDrv::drvUnInitializeWia method releases resources held by the minidriver.
 old-location: image\iwiaminidrv_drvuninitializewia.htm
 old-project: image
 ms.assetid: 974de3b5-c129-42ee-a522-071c26726cf1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia,IWiaMiniDrv.drvUnInitializeWia, image.iwiaminidrv_drvuninitializewia, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvUnInitializeWia method, IWiaMiniDrv.drvUnInitializeWia, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, drvUnInitializeWia, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvuninitializewia, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvUnInitializeWia method
+# IWiaMiniDrv::drvUnInitializeWia
 
 
 ## -description

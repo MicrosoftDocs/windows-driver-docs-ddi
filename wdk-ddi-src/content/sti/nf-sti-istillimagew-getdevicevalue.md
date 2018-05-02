@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceValue
-title: IStillImageW::GetDeviceValue method
+title: IStillImageW::GetDeviceValue
 author: windows-driver-content
 description: The IStillImage::GetDeviceValue method returns registry information associated with a specified still image device.
 old-location: image\istillimage_getdevicevalue.htm
 old-project: image
 ms.assetid: 506c50fa-f162-4b30-bfb9-91987e064c39
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices], IStillImageW interface, GetDeviceValue,IStillImageW.GetDeviceValue, IStillImageW, IStillImageW interface [Imaging Devices], GetDeviceValue method, IStillImageW::GetDeviceValue, image.istillimage_getdevicevalue, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml
+ms.date: 4/23/2018
+ms.keywords: GetDeviceValue, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceValue method, IStillImageW.GetDeviceValue, IStillImageW::GetDeviceValue, image.istillimage_getdevicevalue, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::GetDeviceValue method
+# IStillImageW::GetDeviceValue
 
 
 ## -description

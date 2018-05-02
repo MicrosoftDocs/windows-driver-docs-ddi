@@ -7,8 +7,8 @@ old-location: display\pfnd3dwddm2_2ddi_shadercache_addref_release_cb.htm
 old-project: display
 ms.assetid: 2CE40805-D530-47EF-B251-DB3878208504
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB, d3d10umddi/pfnShaderCacheAddRefCb, display.pfnd3dwddm2_2ddi_shadercache_addref_release_cb, pfnShaderCacheAddRefCb, pfnShaderCacheAddRefCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback, d3d10umddi/pfnShaderCacheAddRefCb, display.pfnd3dwddm2_2ddi_shadercache_addref_release_cb, pfnShaderCacheAddRefCb, pfnShaderCacheAddRefCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback
+# PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback function
 
 
 ## -description

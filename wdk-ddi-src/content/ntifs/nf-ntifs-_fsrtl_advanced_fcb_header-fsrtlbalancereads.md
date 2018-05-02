@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlbalancereads.htm
 old-project: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlBalanceReads function

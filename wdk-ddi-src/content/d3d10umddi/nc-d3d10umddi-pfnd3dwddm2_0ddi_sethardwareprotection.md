@@ -7,8 +7,8 @@ old-location: display\sethardwareprotection.htm
 old-project: display
 ms.assetid: 9D41C504-1F84-4F1A-B767-D3B423A8AA46
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, d3d10umddi/pfnSetHardwareProtection, display.sethardwareprotection, pfnSetHardwareProtection, pfnSetHardwareProtection callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback, d3d10umddi/pfnSetHardwareProtection, display.sethardwareprotection, pfnSetHardwareProtection, pfnSetHardwareProtection callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback
+# PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\d3dkmtchangesurfacepointer.htm
 old-project: display
 ms.assetid: 3db4e04b-2707-4eb1-a249-2714304246a8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback function [Display Devices], OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, PFND3DKMT_CHANGESURFACEPOINTER, d3dkmthk/D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer
+ms.date: 4/16/2018
+ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback function [Display Devices], OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, PFND3DKMT_CHANGESURFACEPOINTER, PFND3DKMT_CHANGESURFACEPOINTER callback, d3dkmthk/D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_CHANGESURFACEPOINTER callback
+# PFND3DKMT_CHANGESURFACEPOINTER callback function
 
 
 ## -description

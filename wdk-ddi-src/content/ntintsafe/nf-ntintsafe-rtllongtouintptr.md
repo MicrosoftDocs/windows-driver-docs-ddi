@@ -7,7 +7,7 @@ old-location: kernel\rtllongtouintptr.htm
 old-project: kernel
 ms.assetid: 901DA09A-ED1C-4884-AE4A-2D251942754C
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongToUIntPtr, RtlLongToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtllongtouintptr, ntintsafe/RtlLongToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongToUIntPtr function

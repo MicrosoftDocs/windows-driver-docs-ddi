@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetEventFilterCommandWide
-title: IDebugControl4::SetEventFilterCommandWide method
+title: IDebugControl4::SetEventFilterCommandWide
 author: windows-driver-content
 description: The SetEventFilterCommandWide method sets a debugger command for the engine to execute when a specified event occurs.
 old-location: debugger\seteventfiltercommandwide.htm
 old-project: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, SetEventFilterCommandWide,IDebugControl4.SetEventFilterCommandWide, dbgeng/IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],SetEventFilterCommandWide method, IDebugControl4.SetEventFilterCommandWide, IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::SetEventFilterCommandWide method
+# IDebugControl4::SetEventFilterCommandWide
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_video_process_frame.htm
 old-project: display
 ms.assetid: C4908916-D91F-4E89-A17B-87ABF3546C6A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, d3d12umddi/pfnProcessFrame, display.pfnd3d12ddi_video_process_frame, pfnProcessFrame, pfnProcessFrame callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 callback, d3d12umddi/pfnProcessFrame, display.pfnd3d12ddi_video_process_frame, pfnProcessFrame, pfnProcessFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 callback
+# PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 callback function
 
 
 ## -description

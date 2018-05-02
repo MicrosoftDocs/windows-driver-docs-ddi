@@ -7,7 +7,7 @@ old-location: display\docking_state.htm
 old-project: display
 ms.assetid: 4e051d49-57ae-43c8-a894-a6c2c277dce9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DOCKING_STATE, DOCKING_STATE enumeration [Display Devices], DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, DockStateDocked, DockStateUnDocked, DockStateUnknown, DockStateUnsupported, display.docking_state, dispmprt/DOCKING_STATE, dispmprt/DockStateDocked, dispmprt/DockStateUnDocked, dispmprt/DockStateUnknown, dispmprt/DockStateUnsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

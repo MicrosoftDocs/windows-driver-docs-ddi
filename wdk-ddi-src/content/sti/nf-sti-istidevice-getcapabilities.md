@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.GetCapabilities
-title: IStiDevice::GetCapabilities method
+title: IStiDevice::GetCapabilities
 author: windows-driver-content
 description: The IStiDevice::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istidevice_getcapabilities.htm
 old-project: image
 ms.assetid: 4c5d8834-a78d-443e-bfec-1d9fcddb9331
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices], IStiDevice interface, GetCapabilities,IStiDevice.GetCapabilities, IStiDevice, IStiDevice interface [Imaging Devices], GetCapabilities method, IStiDevice::GetCapabilities, image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml
+ms.date: 4/23/2018
+ms.keywords: GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetCapabilities method, IStiDevice.GetCapabilities, IStiDevice::GetCapabilities, image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::GetCapabilities method
+# IStiDevice::GetCapabilities
 
 
 ## -description

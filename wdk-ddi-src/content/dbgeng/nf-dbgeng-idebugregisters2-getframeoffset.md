@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetFrameOffset
-title: IDebugRegisters2::GetFrameOffset method
+title: IDebugRegisters2::GetFrameOffset
 author: windows-driver-content
 description: The GetFrameOffset method returns the location of the stack frame for the current function.
 old-location: debugger\getframeoffset.htm
 old-project: debugger
 ms.assetid: 09473106-3ab8-43ee-a424-2930b6bd3fcf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging], IDebugRegisters interface, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset,IDebugRegisters2.GetFrameOffset, IDebugRegisters interface [Windows Debugging], GetFrameOffset method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, IDebugRegisters2::GetFrameOffset, IDebugRegisters::GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, dbgeng/IDebugRegisters2::GetFrameOffset, dbgeng/IDebugRegisters::GetFrameOffset, debugger.getframeoffset
+ms.date: 4/24/2018
+ms.keywords: GetFrameOffset, GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging],IDebugRegisters interface, GetFrameOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetFrameOffset method, IDebugRegisters2 interface [Windows Debugging],GetFrameOffset method, IDebugRegisters2.GetFrameOffset, IDebugRegisters2::GetFrameOffset, IDebugRegisters::GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, dbgeng/IDebugRegisters2::GetFrameOffset, dbgeng/IDebugRegisters::GetFrameOffset, debugger.getframeoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetFrameOffset method
+# IDebugRegisters2::GetFrameOffset
 
 
 ## -description

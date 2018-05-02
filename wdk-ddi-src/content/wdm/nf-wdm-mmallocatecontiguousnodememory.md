@@ -7,7 +7,7 @@ old-location: kernel\mmallocatecontiguousnodememory.htm
 old-project: kernel
 ms.assetid: 08960797-4846-46D4-8DD9-3A935EAD7D48
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmAllocateContiguousNodeMemory function

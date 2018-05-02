@@ -7,7 +7,7 @@ old-location: kernel\porequestpowerirp.htm
 old-project: kernel
 ms.assetid: 99330348-bcc2-4a89-96f8-e1b67d9ebe25
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PoRequestPowerIrp, PoRequestPowerIrp routine [Kernel-Mode Driver Architecture], kernel.porequestpowerirp, portn_d417d88c-2f6d-4af9-b7de-455dfcc1b9df.xml, wdm/PoRequestPowerIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PoRequestPowerIrp function

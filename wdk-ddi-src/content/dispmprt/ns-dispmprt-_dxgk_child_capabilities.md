@@ -7,7 +7,7 @@ old-location: display\dxgk_child_capabilities.htm
 old-project: display
 ms.assetid: 6ab6a505-ad02-4dce-8061-bba13081208a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES structure [Display Devices], DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, PDXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], _DXGK_CHILD_CAPABILITIES, display.dxgk_child_capabilities, dispmprt/DXGK_CHILD_CAPABILITIES, dispmprt/PDXGK_CHILD_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -65,16 +65,9 @@ The DXGK_CHILD_CAPABILITIES structure contains information about the capabilitie
      
 
 
-
-#### VideoOutput
+### -field Type.VideoOutput
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562070">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure that contains information about a video output. This member is meaningful only if the child device has type <b>TypeVideoOutput</b>.
-
-
-
-#### IntegratedDisplayChild
-
-Returns the integrated display child specific fields of the child capabilities.
 
 
 ### -field Type.Other
@@ -85,6 +78,11 @@ A structure whose only member must be equal to zero if the child device has type
 ### -field Type.Other.MustBeZero
 
 A UINT value that must be equal to zero.
+
+
+### -field Type.IntegratedDisplayChild
+
+Returns the integrated display child specific fields of the child capabilities.
 
 
 ### -field HpdAwareness

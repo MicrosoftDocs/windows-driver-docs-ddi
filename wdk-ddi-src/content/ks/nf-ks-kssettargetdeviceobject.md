@@ -7,7 +7,7 @@ old-location: stream\kssettargetdeviceobject.htm
 old-project: stream
 ms.assetid: 0d90f70d-8cbe-4c95-ae54-494ff404631a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], ks/KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, stream.kssettargetdeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

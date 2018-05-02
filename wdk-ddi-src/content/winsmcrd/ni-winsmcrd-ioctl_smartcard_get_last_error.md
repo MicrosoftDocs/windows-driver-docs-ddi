@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: eb482764-3a78-498b-985c-1efc77000291
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: IOCTL_SMARTCARD_GET_LAST_ERROR, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml, smartcrd.ioctl_smartcard_get_last_error, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR
+ms.keywords: IOCTL_SMARTCARD_GET_LAST_ERROR, IOCTL_SMARTCARD_GET_LAST_ERROR control, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml, smartcrd.ioctl_smartcard_get_last_error, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SMARTCARD_GET_LAST_ERROR IOCTL

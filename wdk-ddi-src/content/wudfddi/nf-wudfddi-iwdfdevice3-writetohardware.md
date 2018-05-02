@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.WriteToHardware
-title: IWDFDevice3::WriteToHardware method
+title: IWDFDevice3::WriteToHardware
 author: windows-driver-content
 description: The WriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_writetohardware.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice3, IWDFDevice3 interface, WriteToHardware method, IWDFDevice3::WriteToHardware, WriteToHardware method, WriteToHardware method, IWDFDevice3 interface, WriteToHardware,IWDFDevice3.WriteToHardware, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
+ms.keywords: IWDFDevice3 interface,WriteToHardware method, IWDFDevice3.WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware, WriteToHardware method, WriteToHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::WriteToHardware method
+# IWDFDevice3::WriteToHardware
 
 
 ## -description

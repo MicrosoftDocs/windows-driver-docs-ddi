@@ -7,7 +7,7 @@ old-location: kernel\cm_partial_resource_descriptor.htm
 old-project: kernel
 ms.assetid: 96bf7bab-b8f5-439c-8717-ea6956ed0213
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CmResourceShareDeviceExclusive, CmResourceShareDriverExclusive, CmResourceShareShared, PCM_PARTIAL_RESOURCE_DESCRIPTOR, PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _CM_PARTIAL_RESOURCE_DESCRIPTOR, kernel.cm_partial_resource_descriptor, kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _CM_PARTIAL_RESOURCE_DESCRIPTOR structure

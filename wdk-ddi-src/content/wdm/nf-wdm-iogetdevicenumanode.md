@@ -7,7 +7,7 @@ old-location: kernel\iogetdevicenumanode.htm
 old-project: kernel
 ms.assetid: a36e9d57-c820-43db-a6e0-e935bffca254
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetDeviceNumaNode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, kernel.iogetdevicenumanode, wdm/IoGetDeviceNumaNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetDeviceNumaNode function

@@ -7,7 +7,7 @@ old-location: display\dxgk_miracast_chunk_id.htm
 old-project: display
 ms.assetid: 4D350666-B103-4421-A25A-22A7BF41558E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_MIRACAST_CHUNK_ID, DXGK_MIRACAST_CHUNK_ID union [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_ID, display.dxgk_miracast_chunk_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,17 +58,17 @@ Stores info that identifies a wireless display (Miracast) encode chunk.
 
 
 
-### -field Value
-
-Holds a 64-bit value that identifies the encode chunk.
-
-
-#### - FrameNumber
+### -field FrameNumber
 
 The number of the encoded Wi-Fi frame.
 
 
-#### - PartNumber
+### -field PartNumber
 
 The frame part number.
+
+
+### -field Value
+
+Holds a 64-bit value that identifies the encode chunk.
 

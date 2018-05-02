@@ -7,7 +7,7 @@ old-location: netvista\ndis_isolation_parameters.htm
 old-project: netvista
 ms.assetid: 71A01647-3415-4F76-A67C-D1022C8A11D9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, ntddndis/NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

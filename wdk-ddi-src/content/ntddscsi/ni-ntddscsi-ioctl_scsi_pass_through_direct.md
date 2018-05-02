@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7706e861-b8d6-41c3-9b64-371de4f58d48
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT, IOCTL_SCSI_PASS_THROUGH_DIRECT control code [Storage Devices], k307_4d0f0379-41c5-45c5-98b4-1a222349b4e1.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT, storage.ioctl_scsi_pass_through_direct
+ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT, IOCTL_SCSI_PASS_THROUGH_DIRECT control, IOCTL_SCSI_PASS_THROUGH_DIRECT control code [Storage Devices], k307_4d0f0379-41c5-45c5-98b4-1a222349b4e1.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT, storage.ioctl_scsi_pass_through_direct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: 
 ---
 
 # IOCTL_SCSI_PASS_THROUGH_DIRECT IOCTL

@@ -7,8 +7,8 @@ old-location: display\updatetiles.htm
 old-project: display
 ms.assetid: 4891AB01-DE51-4B32-AA52-5619E86CC474
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM1_3DDI_UPDATETILES, UpdateTiles, UpdateTiles callback function [Display Devices], d3d10umddi/UpdateTiles, display.updatetiles
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM1_3DDI_UPDATETILES, PFND3DWDDM1_3DDI_UPDATETILES callback, UpdateTiles, UpdateTiles callback function [Display Devices], d3d10umddi/UpdateTiles, display.updatetiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM1_3DDI_UPDATETILES callback
+# PFND3DWDDM1_3DDI_UPDATETILES callback function
 
 
 ## -description

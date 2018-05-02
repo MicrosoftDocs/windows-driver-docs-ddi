@@ -7,7 +7,7 @@ old-location: netvista\ndk_pd.htm
 old-project: netvista
 ms.assetid: 77D3503A-8544-4E73-AD17-56F9C8603068
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_PD, NDK_PD structure [Network Drivers Starting with Windows Vista], PNDK_PD, PNDK_PD structure pointer [Network Drivers Starting with Windows Vista], _NDK_PD, ndkpi/NDK_PD, ndkpi/PNDK_PD, netvista.ndk_pd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDK_PD, NDK_PD
+req.typenames: NDK_PD
 ---
 
 # _NDK_PD structure

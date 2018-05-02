@@ -1,14 +1,14 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizationFactory2.CreateRasterizer
-title: IXpsRasterizationFactory2::CreateRasterizer method
+title: IXpsRasterizationFactory2::CreateRasterizer
 author: windows-driver-content
 description: The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
 old-location: print\ixpsrasterizationfactory2_createrasterizer.htm
 old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, CreateRasterizer,IXpsRasterizationFactory2.CreateRasterizer, IXpsRasterizationFactory2, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer
+ms.date: 4/20/2018
+ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory2 interface, IXpsRasterizationFactory2 interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory2.CreateRasterizer, IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IXpsRasterizationFactory2::CreateRasterizer method
+# IXpsRasterizationFactory2::CreateRasterizer
 
 
 ## -description

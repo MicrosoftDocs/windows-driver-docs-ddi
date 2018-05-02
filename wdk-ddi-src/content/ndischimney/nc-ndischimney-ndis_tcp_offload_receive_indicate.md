@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloadreceivehandler.htm
 old-project: netvista
 ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
+ms.date: 4/25/2018
+ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback
+# NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function
 
 
 ## -description

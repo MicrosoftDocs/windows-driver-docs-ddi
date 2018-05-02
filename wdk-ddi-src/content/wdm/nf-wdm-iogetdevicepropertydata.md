@@ -7,7 +7,7 @@ old-location: kernel\iogetdevicepropertydata.htm
 old-project: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetDevicePropertyData, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetDevicePropertyData function

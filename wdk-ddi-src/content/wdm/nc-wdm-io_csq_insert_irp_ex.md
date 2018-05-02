@@ -7,7 +7,7 @@ old-location: kernel\csqinsertirpex.htm
 old-project: kernel
 ms.assetid: 1e407bcc-0a2b-42fa-982d-8ab0f12f082b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: CsqInsertIrpEx, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml, IO_CSQ_INSERT_IRP_EX, kernel.csqinsertirpex, wdm/CsqInsertIrpEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IO_CSQ_INSERT_IRP_EX callback
+# IO_CSQ_INSERT_IRP_EX callback function
 
 
 ## -description

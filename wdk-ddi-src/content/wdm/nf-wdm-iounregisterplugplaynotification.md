@@ -7,7 +7,7 @@ old-location: kernel\iounregisterplugplaynotification.htm
 old-project: kernel
 ms.assetid: 55eca513-030c-47f8-9ce9-ab36183cbaf2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification, wdm/IoUnregisterPlugPlayNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoUnregisterPlugPlayNotification function

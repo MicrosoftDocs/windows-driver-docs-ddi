@@ -7,8 +7,8 @@ old-location: display\d3dvalidatetexturestagestate.htm
 old-project: display
 ms.assetid: 6376842f-ebf5-43b0-81d8-fc5b15f595ab
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate
+ms.date: 4/16/2018
+ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
+req.typenames: 
 ---
 
-# LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback
+# LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback function
 
 
 ## -description

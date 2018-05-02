@@ -55,16 +55,6 @@ req.typenames: HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES
 The <b>HPMI_QUERY_CAPABILITIES</b> structure is used to query HPMI capabilities. 
 
 
-## -syntax
-
-
-````
-typedef struct _HPMI_QUERY_CAPABILITIES {
-  ULONG Version;
-} HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -77,18 +67,18 @@ Set to HPMI_QUERY_CAPABILITIES_VERSION_1.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/2D7B6278-6D7A-41C4-B21A-D531CD8DCD91">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/2CCEDDB4-C91D-4E88-A01F-BB52F1686A95">IOCTL_HPMI_QUERY_CAPABILITIES</a>
+
+
+
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
-
-
-
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
-
-
-
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_query_capabilities.md">IOCTL_HPMI_QUERY_CAPABILITIES</a>
-
-
-
  
 
  

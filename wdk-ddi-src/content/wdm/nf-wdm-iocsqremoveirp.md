@@ -7,7 +7,7 @@ old-location: kernel\iocsqremoveirp.htm
 old-project: kernel
 ms.assetid: 72a6327c-01b2-479c-a2eb-f58180193d50
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoCsqRemoveIrp, IoCsqRemoveIrp routine [Kernel-Mode Driver Architecture], k104_9a940115-fcbd-4e46-b7a5-10dc7fad7bda.xml, kernel.iocsqremoveirp, wdm/IoCsqRemoveIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoCsqRemoveIrp function

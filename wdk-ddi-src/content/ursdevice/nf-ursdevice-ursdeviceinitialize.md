@@ -7,7 +7,7 @@ old-location: buses\ursdeviceinitialize.htm
 old-project: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UrsDeviceInitialize function

@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_large_send_offload_net_buffer_list_info.htm
 old-project: netvista
 ms.assetid: 48827a51-d364-43f6-864b-b63395168429
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_large_send_offload_net_buffer_list_info, tcpip_offload_ref_ea60f429-377b-47e6-bb4b-aff34288fa17.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -205,7 +205,7 @@ The offload type that the miniport driver performed. The mniport driver leaves t
 Reserved for NDIS.
 
 
-#### - Value
+### -field Value
 
 A PVOID version of the LSO information. Use this member to access the raw information instead of
       the specific fields.

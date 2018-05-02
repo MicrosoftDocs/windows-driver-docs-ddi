@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipe
-title: IKsPinPipe::KsGetPipe method
+title: IKsPinPipe::KsGetPipe
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipe.htm
 old-project: stream
 ms.assetid: 5672C7E2-83AA-4BDC-BE60-E2BC54BD636F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetPipe method, IKsPinPipe::KsGetPipe, KsGetPipe method [Streaming Media Devices], KsGetPipe method [Streaming Media Devices], IKsPinPipe interface, KsGetPipe,IKsPinPipe.KsGetPipe, ksproxy/IKsPinPipe::KsGetPipe, stream.ikspinpipe_ksgetpipe
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipe method, IKsPinPipe.KsGetPipe, IKsPinPipe::KsGetPipe, KsGetPipe, KsGetPipe method [Streaming Media Devices], KsGetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipe, stream.ikspinpipe_ksgetpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsGetPipe method
+# IKsPinPipe::KsGetPipe
 
 
 ## -description

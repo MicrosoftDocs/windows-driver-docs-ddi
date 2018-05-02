@@ -7,7 +7,7 @@ old-location: netvista\ndissystemactiveprocessorcount.htm
 old-project: netvista
 ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisSystemActiveProcessorCount function

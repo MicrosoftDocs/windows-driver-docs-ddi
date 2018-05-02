@@ -7,8 +7,8 @@ old-location: display\settextfiltersize.htm
 old-project: display
 ms.assetid: 663fd3c3-7a8f-446d-b45a-392716116407
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_SETTEXTFILTERSIZE, SetTextFilterSize, SetTextFilterSize callback function [Display Devices], UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml, d3d10umddi/SetTextFilterSize, display.settextfiltersize
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_SETTEXTFILTERSIZE, PFND3D10DDI_SETTEXTFILTERSIZE callback, SetTextFilterSize, SetTextFilterSize callback function [Display Devices], UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml, d3d10umddi/SetTextFilterSize, display.settextfiltersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_SETTEXTFILTERSIZE callback
+# PFND3D10DDI_SETTEXTFILTERSIZE callback function
 
 
 ## -description

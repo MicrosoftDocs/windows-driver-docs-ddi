@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT_CLASS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_PROPERTY_STORE_ROOT_CLASS enumeration

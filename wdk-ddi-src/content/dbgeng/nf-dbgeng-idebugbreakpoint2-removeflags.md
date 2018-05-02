@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.RemoveFlags
-title: IDebugBreakpoint2::RemoveFlags method
+title: IDebugBreakpoint2::RemoveFlags
 author: windows-driver-content
 description: The RemoveFlags method removes flags from a breakpoint.
 old-location: debugger\removeflags.htm
 old-project: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, RemoveFlags,IDebugBreakpoint2.RemoveFlags, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
+ms.date: 4/24/2018
+ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2 interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2.RemoveFlags, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging],IDebugBreakpoint interface, RemoveFlags method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::RemoveFlags method
+# IDebugBreakpoint2::RemoveFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Clear
-title: IWDTFActions2::Clear method
+title: IWDTFActions2::Clear
 author: windows-driver-content
 description: Removes all items from the collection.
 old-location: dtf\iwdtfactions2_clear.htm
 old-project: dtf
 ms.assetid: f594e1f0-0e7f-4644-a97e-1fce58aa7c71
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework], IWDTFActions2 interface, Clear,IWDTFActions2.Clear, IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], Clear method, IWDTFActions2::Clear, dtf.iwdtfactions2_clear, wdtf/IWDTFActions2::Clear
+ms.date: 4/4/2018
+ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Clear method, IWDTFActions2.Clear, IWDTFActions2::Clear, dtf.iwdtfactions2_clear, wdtf/IWDTFActions2::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFActions2::Clear method
+# IWDTFActions2::Clear
 
 
 ## -description

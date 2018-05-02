@@ -7,7 +7,7 @@ old-location: stream\bda_pin_pairing.htm
 old-project: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_PIN_PAIRING, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], _BDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

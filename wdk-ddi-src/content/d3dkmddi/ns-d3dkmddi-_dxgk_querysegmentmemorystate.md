@@ -7,7 +7,7 @@ old-location: display\dxgk_querysegmentmemorystate.htm
 old-project: display
 ms.assetid: 565D8D8D-6EBB-4303-8F7E-E2A4B1DAE4EA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE structure [Display Devices], DXGK_SEGMENTMEMORYSTATE, _DXGK_QUERYSEGMENTMEMORYSTATE, d3dkmddi/DXGK_QUERYSEGMENTMEMORYSTATE, display.dxgk_querysegmentmemorystate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -66,6 +66,11 @@ A  1-based segment identifier of a local GPU memory segment.
 ### -field PhysicalAdapterIndex
 
 Physical adapter index in a linked display adapter link.
+
+
+### -field NumUEFIFrameBufferRanges
+
+ 
 
 
 ### -field NumInvalidMemoryRanges

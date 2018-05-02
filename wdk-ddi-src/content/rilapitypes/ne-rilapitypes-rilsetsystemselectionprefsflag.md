@@ -7,7 +7,7 @@ old-location: netvista\rilsetsystemselectionprefsflag.htm
 old-project: netvista
 ms.assetid: 081f4a23-43d8-4ad4-806c-1b6322e057d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILSETSYSTEMSELECTIONPREFSFLAG, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_APPLYIMMEDIATELY, RIL_SSSPFLAG_ENFORCESCAN, netvista.rilsetsystemselectionprefsflag, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, ntddrilapitypes/RIL_SSSPFLAG_ALL, ntddrilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, ntddrilapitypes/RIL_SSSPFLAG_ENFORCESCAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILSETSYSTEMSELECTIONPREFSFLAG
-req.product: Windows 10 or later.
 ---
 
 # RILSETSYSTEMSELECTIONPREFSFLAG enumeration

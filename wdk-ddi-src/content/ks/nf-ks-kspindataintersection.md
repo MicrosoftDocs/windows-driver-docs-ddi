@@ -7,7 +7,7 @@ old-location: stream\kspindataintersection.htm
 old-project: stream
 ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, stream.kspindataintersection
 ms.prod: windows-hardware
 ms.technology: windows-devices

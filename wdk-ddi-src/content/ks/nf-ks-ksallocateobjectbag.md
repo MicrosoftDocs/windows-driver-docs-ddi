@@ -7,7 +7,7 @@ old-location: stream\ksallocateobjectbag.htm
 old-project: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, ks/KsAllocateObjectBag, stream.ksallocateobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: display\d3dkmtgetruntimedata.htm
 old-project: display
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
+ms.date: 4/16/2018
+ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, PFND3DKMT_GETRUNTIMEDATA callback, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetRuntimeData function

@@ -7,8 +7,8 @@ old-location: display\validatedevice.htm
 old-project: display
 ms.assetid: 058696e0-be4a-45f3-b3e8-55abccdce3ce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_VALIDATEDEVICE, UserModeDisplayDriver_Functions_37e253ca-1d0f-4896-aaad-4c36053877c5.xml, ValidateDevice, ValidateDevice callback function [Display Devices], d3dumddi/ValidateDevice, display.validatedevice
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_VALIDATEDEVICE, PFND3DDDI_VALIDATEDEVICE callback, UserModeDisplayDriver_Functions_37e253ca-1d0f-4896-aaad-4c36053877c5.xml, ValidateDevice, ValidateDevice callback function [Display Devices], d3dumddi/ValidateDevice, display.validatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_VALIDATEDEVICE callback
+# PFND3DDDI_VALIDATEDEVICE callback function
 
 
 ## -description

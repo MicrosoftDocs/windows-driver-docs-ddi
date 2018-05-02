@@ -7,7 +7,7 @@ old-location: stream\ksdeviceregisteradapterobject.htm
 old-project: stream
 ms.assetid: 6e3c33fe-eb28-4985-98f3-cafa85543d68
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

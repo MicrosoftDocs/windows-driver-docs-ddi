@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,89 +63,89 @@ The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a <a hr
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_MEMORY_ERROR_SECTION_VALIDBITS union.
-
-
-### -field DUMMYSTRUCTNAME.Bank
-
-A single bit that indicates that the <b>Bank</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.BitPosition
-
-A single bit that indicates that the <b>BitPosition</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.Card
-
-A single bit that indicates that the <b>Card</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.Column
-
-A single bit that indicates that the <b>Column</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.Device
-
-A single bit that indicates that the <b>Device</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
 ### -field DUMMYSTRUCTNAME.ErrorStatus
 
 A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.ErrorType
-
-A single bit that indicates that the <b>ErrorType</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.Module
-
-A single bit that indicates that the <b>Module</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.Node
-
-A single bit that indicates that the <b>Node</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.PhysicalAddress
+### -field DUMMYSTRUCTNAME.Bank
 
 A single bit that indicates that the <b>PhysicalAddress</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.PhysicalAddressMask
+### -field DUMMYSTRUCTNAME.BitPosition
 
 A single bit that indicates that the <b>PhysicalAddressMask</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.RequesterId
+### -field DUMMYSTRUCTNAME.Card
 
-A single bit that indicates that the <b>RequesterId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field DUMMYSTRUCTNAME.Reserved
-
-Reserved for system use.
+A single bit that indicates that the <b>Node</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.ResponderId
+### -field DUMMYSTRUCTNAME.Column
 
-A single bit that indicates that the <b>ResponderId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>Card</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.Row
+### -field DUMMYSTRUCTNAME.Device
+
+A single bit that indicates that the <b>Module</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ErrorStatus
+
+A single bit that indicates that the <b>Bank</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ErrorType
+
+A single bit that indicates that the <b>Device</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Module
 
 A single bit that indicates that the <b>Row</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.TargetId
+### -field DUMMYSTRUCTNAME.Node
+
+A single bit that indicates that the <b>Column</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.PhysicalAddress
+
+A single bit that indicates that the <b>BitPosition</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.PhysicalAddressMask
+
+A single bit that indicates that the <b>RequesterId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.RequesterId
+
+A single bit that indicates that the <b>ResponderId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 A single bit that indicates that the <b>TargetId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ResponderId
+
+A single bit that indicates that the <b>ErrorType</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Row
+
+Reserved for system use.
+
+
+### -field DUMMYSTRUCTNAME.TargetId
+
+A ULONGLONG representation of the contents of the WHEA_MEMORY_ERROR_SECTION_VALIDBITS union.
 
 ### -field DUMMYSTRUCTNAME.ErrorType
 The type of memory error that occurred. Possible values are:

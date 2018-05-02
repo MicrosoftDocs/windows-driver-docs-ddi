@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxtransfercompleteindication.htm
 old-project: netvista
 ms.assetid: BC66C993-F571-4EB9-8163-65B038ECE754
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback
+# NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_video_capability_recommend_decoder_downsampl
 old-project: display
 ms.assetid: 5BC38128-8866-48C9-B5C5-4D6B6DB793E0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, display.d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling
 ms.prod: windows-hardware
 ms.technology: windows-devices

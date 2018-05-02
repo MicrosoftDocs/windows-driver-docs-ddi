@@ -7,8 +7,8 @@ old-location: serports\evtsercx2setwaitmask.htm
 old-project: serports
 ms.assetid: C248FEF0-8E0B-4296-940E-763165F80617
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EVT_SERCX2_SET_WAIT_MASK callback, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SET_WAIT_MASK callback
+# EVT_SERCX2_SET_WAIT_MASK callback function
 
 
 ## -description

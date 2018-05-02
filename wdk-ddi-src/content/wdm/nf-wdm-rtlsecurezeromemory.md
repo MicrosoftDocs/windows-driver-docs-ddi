@@ -7,7 +7,7 @@ old-location: kernel\rtlsecurezeromemory.htm
 old-project: kernel
 ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlSecureZeroMemory function

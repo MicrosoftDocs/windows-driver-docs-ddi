@@ -7,8 +7,8 @@ old-location: hid\evtvhfreadyfornextreadreport.htm
 old-project: hid
 ms.assetid: 02DDBE00-C342-474B-8D06-FBB929BA4760
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
+ms.date: 4/30/2018
+ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT callback, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_VHF_READY_FOR_NEXT_READ_REPORT callback
+# EVT_VHF_READY_FOR_NEXT_READ_REPORT callback function
 
 
 ## -description

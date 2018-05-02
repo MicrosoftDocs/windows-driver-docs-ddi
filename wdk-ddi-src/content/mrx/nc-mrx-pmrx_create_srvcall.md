@@ -7,7 +7,7 @@ old-location: ifsk\mrxcreatesrvcall.htm
 old-project: ifsk
 ms.assetid: 2f6325e1-4ede-41e5-87d3-833c6b52157a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxCreateSrvCall, MRxCreateSrvCall routine [Installable File System Drivers], PMRX_CREATE_SRVCALL, ifsk.mrxcreatesrvcall, mrx/MRxCreateSrvCall, mrxref_bc85d9c3-6d64-4510-ae94-0ec858c49110.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CREATE_SRVCALL callback
+# PMRX_CREATE_SRVCALL callback function
 
 
 ## -description

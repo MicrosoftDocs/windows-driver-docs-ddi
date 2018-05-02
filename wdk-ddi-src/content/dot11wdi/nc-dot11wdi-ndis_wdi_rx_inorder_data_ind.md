@@ -7,8 +7,8 @@ old-location: netvista\ndiswdirxinorderdataindication.htm
 old-project: netvista
 ms.assetid: F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND callback, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_RX_INORDER_DATA_IND callback
+# NDIS_WDI_RX_INORDER_DATA_IND callback function
 
 
 ## -description

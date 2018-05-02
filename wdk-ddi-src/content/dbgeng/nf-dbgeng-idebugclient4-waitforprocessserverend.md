@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.WaitForProcessServerEnd
-title: IDebugClient4::WaitForProcessServerEnd method
+title: IDebugClient4::WaitForProcessServerEnd
 author: windows-driver-content
 description: The WaitForProcessServerEnd method waits for a local process server to exit.
 old-location: debugger\waitforprocessserverend.htm
 old-project: debugger
 ms.assetid: 19573307-0192-47bd-86a0-9c7721d16c5e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient2 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4, IDebugClient4 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging], IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5 interface, WaitForProcessServerEnd,IDebugClient4.WaitForProcessServerEnd, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend
+ms.date: 4/24/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient4.WaitForProcessServerEnd, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging],IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::WaitForProcessServerEnd method
+# IDebugClient4::WaitForProcessServerEnd
 
 
 ## -description

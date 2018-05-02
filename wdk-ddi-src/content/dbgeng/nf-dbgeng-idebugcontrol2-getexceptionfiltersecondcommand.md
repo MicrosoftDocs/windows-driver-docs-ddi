@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetExceptionFilterSecondCommand
-title: IDebugControl2::GetExceptionFilterSecondCommand method
+title: IDebugControl2::GetExceptionFilterSecondCommand
 author: windows-driver-content
 description: The GetExceptionFilterSecondCommand method returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommand.htm
 old-project: debugger
 ms.assetid: 1ea607e2-76a2-4f78-87ca-bf3242f39433
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, GetExceptionFilterSecondCommand,IDebugControl2.GetExceptionFilterSecondCommand, IDebugControl interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand
+ms.date: 4/24/2018
+ms.keywords: GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2.GetExceptionFilterSecondCommand, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetExceptionFilterSecondCommand method
+# IDebugControl2::GetExceptionFilterSecondCommand
 
 
 ## -description

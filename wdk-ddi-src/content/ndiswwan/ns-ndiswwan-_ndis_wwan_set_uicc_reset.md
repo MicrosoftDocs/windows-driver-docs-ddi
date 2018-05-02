@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_uicc_reset.htm
 old-project: netvista
 ms.assetid: 98113BC2-317C-4FBD-B3A6-A14B3783D225
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_UICC_RESET, PNDIS_WWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_UICC_RESET, ndiswwan/NDIS_WWAN_SET_UICC_RESET, ndiswwan/PNDIS_WWAN_SET_UICC_RESET, netvista.ndis_wwan_set_uicc_reset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

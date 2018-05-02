@@ -7,7 +7,7 @@ old-location: bltooth\sdpcreatenodeuuid32.htm
 old-project: bltooth
 ms.assetid: 2e67e0eb-9daa-4b38-947a-46893f9d6eab
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpCreateNodeUUID32, SdpCreateNodeUUID32 function [Bluetooth Devices], bltooth.sdpcreatenodeuuid32, bth_funcs_0ec74adf-03d4-4380-9bcd-a365dee9c7a3.xml, sdplib/SdpCreateNodeUUID32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpCreateNodeUUID32 function

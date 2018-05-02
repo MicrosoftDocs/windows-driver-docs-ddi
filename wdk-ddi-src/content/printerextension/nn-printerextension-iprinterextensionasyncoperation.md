@@ -7,8 +7,8 @@ old-location: print\iprinterextensionasyncoperation.htm
 old-project: print
 ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices], described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices],described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterExtensionAsyncOperation interface

@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_request_data_object.htm
 old-project: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
-req.product: Windows 10 or later.
 ---
 
 # _UCM_PD_REQUEST_DATA_OBJECT structure
@@ -67,20 +66,17 @@ Size of the structure.
 ### -field Common
 
 
-
-#### Reserved1
+### -field Common.Reserved1
 
 Reserved.
 
 
-
-#### ObjectPosition
+### -field Common.ObjectPosition
 
 Object position.
 
 
-
-#### Reserved2
+### -field Common.Reserved2
 
 Reserved.
 
@@ -88,58 +84,49 @@ Reserved.
 ### -field FixedAndVariableRdo
 
 
-
-#### MaximumOperatingCurrentIn10mA
+### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
 
 Maximum current in 10 mA units.
 
 
-
-#### OperatingCurrentIn10mA
+### -field FixedAndVariableRdo.OperatingCurrentIn10mA
 
 Operating current in 10mA units.
 
 
-
-#### Reserved1
+### -field FixedAndVariableRdo.Reserved1
 
 Reserved.
 
 
-
-#### NoUsbSuspend
+### -field FixedAndVariableRdo.NoUsbSuspend
 
 Indicates support for USB suspend.
 
 
 
 
-
-#### UsbCommunicationCapable
+### -field FixedAndVariableRdo.UsbCommunicationCapable
 
 USB communication capable. 
 
 
-
-#### CapabilityMismatch
+### -field FixedAndVariableRdo.CapabilityMismatch
 
 Capability Mismatch 
 
 
-
-#### GiveBackFlag
+### -field FixedAndVariableRdo.GiveBackFlag
 
 GiveBack Flag.
 
 
-
-#### ObjectPosition
+### -field FixedAndVariableRdo.ObjectPosition
 
 Object Position.
 
 
-
-#### Reserved2
+### -field FixedAndVariableRdo.Reserved2
 
 Reserved for future use.
 
@@ -147,56 +134,47 @@ Reserved for future use.
 ### -field BatteryRdo
 
 
-
-#### MaximumOperatingPowerIn250mW
+### -field BatteryRdo.MaximumOperatingPowerIn250mW
 
 Maximum Operating Power in 250mW units. 
 
 
-
-#### OperatingPowerIn250mW
+### -field BatteryRdo.OperatingPowerIn250mW
 
 Operating Power in 250mW units.
 
 
-
-#### Reserved1
+### -field BatteryRdo.Reserved1
 
 Reserved for future use.
 
 
-
-#### NoUsbSuspend
+### -field BatteryRdo.NoUsbSuspend
 
  USB Suspend. 
 
 
-
-#### UsbCommunicationCapable
+### -field BatteryRdo.UsbCommunicationCapable
 
 USB Communications Capable.
 
 
-
-#### CapabilityMismatch
+### -field BatteryRdo.CapabilityMismatch
 
 Capability Mismatch. 
 
 
-
-#### GiveBackFlag
+### -field BatteryRdo.GiveBackFlag
 
 GiveBack Flag. 
 
 
-
-#### ObjectPosition
+### -field BatteryRdo.ObjectPosition
 
 Object Position.
 
 
-
-#### Reserved2
+### -field BatteryRdo.Reserved2
 
 Reserved.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.RetrieveDeviceName
-title: IWDFDevice::RetrieveDeviceName method
+title: IWDFDevice::RetrieveDeviceName
 author: windows-driver-content
 description: The RetrieveDeviceName method retrieves the name of an underlying kernel-mode device.
 old-location: wdf\iwdfdevice_retrievedevicename.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice, IWDFDevice interface, RetrieveDeviceName method, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName method, RetrieveDeviceName method, IWDFDevice interface, RetrieveDeviceName,IWDFDevice.RetrieveDeviceName, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, umdf.iwdfdevice_retrievedevicename, wdf.iwdfdevice_retrievedevicename, wudfddi/IWDFDevice::RetrieveDeviceName
+ms.keywords: IWDFDevice interface,RetrieveDeviceName method, IWDFDevice.RetrieveDeviceName, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName, RetrieveDeviceName method, RetrieveDeviceName method,IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, umdf.iwdfdevice_retrievedevicename, wdf.iwdfdevice_retrievedevicename, wudfddi/IWDFDevice::RetrieveDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::RetrieveDeviceName method
+# IWDFDevice::RetrieveDeviceName
 
 
 ## -description

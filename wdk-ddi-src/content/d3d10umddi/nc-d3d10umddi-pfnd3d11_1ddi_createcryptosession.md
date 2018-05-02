@@ -7,8 +7,8 @@ old-location: display\createcryptosession1.htm
 old-project: display
 ms.assetid: 3c31efc3-b844-4e51-947d-b48f36020766
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3D11_1DDI_CREATECRYPTOSESSION, d3d10umddi/CreateCryptoSession, display.createcryptosession1
+ms.date: 4/16/2018
+ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3D11_1DDI_CREATECRYPTOSESSION, PFND3D11_1DDI_CREATECRYPTOSESSION callback, d3d10umddi/CreateCryptoSession, display.createcryptosession1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CREATECRYPTOSESSION callback
+# PFND3D11_1DDI_CREATECRYPTOSESSION callback function
 
 
 ## -description

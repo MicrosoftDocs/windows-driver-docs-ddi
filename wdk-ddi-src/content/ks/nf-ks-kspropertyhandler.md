@@ -7,7 +7,7 @@ old-location: stream\kspropertyhandler.htm
 old-project: stream
 ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], ks/KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, stream.kspropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

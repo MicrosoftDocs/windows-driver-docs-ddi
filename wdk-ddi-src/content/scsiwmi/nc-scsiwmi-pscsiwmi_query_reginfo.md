@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
+ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PSCSIWMI_QUERY_REGINFO callback
+# PSCSIWMI_QUERY_REGINFO callback function
 
 
 ## -description

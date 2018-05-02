@@ -7,7 +7,7 @@ old-location: kernel\io_status_block.htm
 old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], PIO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK, kernel.io_status_block, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IO_STATUS_BLOCK, *PIO_STATUS_BLOCK
-req.product: Windows 10 or later.
 ---
 
 # _IO_STATUS_BLOCK structure
@@ -64,19 +63,19 @@ A driver sets an IRP's I/O status block to indicate the final status of an I/O r
  
 
 
-### -field Information
+### -field DUMMYUNIONNAME.Status
 
-This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
+This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
 
 
-#### - Pointer
+### -field DUMMYUNIONNAME.Pointer
 
 Reserved. For internal use only.
 
 
-#### - Status
+### -field Information
 
-This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
+This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
 
 ## -remarks

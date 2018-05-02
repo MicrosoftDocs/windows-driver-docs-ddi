@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExecutionStatus
-title: IDebugControl3::GetExecutionStatus method
+title: IDebugControl3::GetExecutionStatus
 author: windows-driver-content
 description: The GetExecutionStatus method returns information about the execution status of the debugger engine.
 old-location: debugger\getexecutionstatus.htm
 old-project: debugger
 ms.assetid: 58352577-9ed9-4fc6-9cc7-dabcf4f77ad9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetExecutionStatus method [Windows Debugging], GetExecutionStatus method [Windows Debugging], IDebugControl interface, GetExecutionStatus method [Windows Debugging], IDebugControl2 interface, GetExecutionStatus method [Windows Debugging], IDebugControl3 interface, GetExecutionStatus,IDebugControl3.GetExecutionStatus, IDebugControl interface [Windows Debugging], GetExecutionStatus method, IDebugControl2 interface [Windows Debugging], GetExecutionStatus method, IDebugControl2::GetExecutionStatus, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExecutionStatus method, IDebugControl3::GetExecutionStatus, IDebugControl::GetExecutionStatus, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, dbgeng/IDebugControl2::GetExecutionStatus, dbgeng/IDebugControl3::GetExecutionStatus, dbgeng/IDebugControl::GetExecutionStatus, debugger.getexecutionstatus
+ms.date: 4/24/2018
+ms.keywords: GetExecutionStatus, GetExecutionStatus method [Windows Debugging], GetExecutionStatus method [Windows Debugging],IDebugControl interface, GetExecutionStatus method [Windows Debugging],IDebugControl2 interface, GetExecutionStatus method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExecutionStatus method, IDebugControl2 interface [Windows Debugging],GetExecutionStatus method, IDebugControl2::GetExecutionStatus, IDebugControl3 interface [Windows Debugging],GetExecutionStatus method, IDebugControl3.GetExecutionStatus, IDebugControl3::GetExecutionStatus, IDebugControl::GetExecutionStatus, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, dbgeng/IDebugControl2::GetExecutionStatus, dbgeng/IDebugControl3::GetExecutionStatus, dbgeng/IDebugControl::GetExecutionStatus, debugger.getexecutionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetExecutionStatus method
+# IDebugControl3::GetExecutionStatus
 
 
 ## -description

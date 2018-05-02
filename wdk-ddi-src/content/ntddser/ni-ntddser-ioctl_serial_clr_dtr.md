@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_clr_dtr.htm
 old-project: serports
 ms.assetid: e537c39a-4f79-4854-91df-7a08346c17ea
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_CLR_DTR, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_DTR, serports.ioctl_serial_clr_dtr, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_CLR_DTR, IOCTL_SERIAL_CLR_DTR control, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_DTR, serports.ioctl_serial_clr_dtr, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_CLR_DTR IOCTL

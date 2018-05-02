@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.ResetPDEV
-title: IPrintOemPS::ResetPDEV method
+title: IPrintOemPS::ResetPDEV
 author: windows-driver-content
 description: The IPrintOemPS::ResetPDEV method allows a rendering plug-in for Pscript5 to reset its PDEV structure.
 old-location: print\iprintoemps_resetpdev.htm
 old-project: print
 ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemPS, IPrintOemPS interface [Print Devices], ResetPDEV method, IPrintOemPS::ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemPS interface, ResetPDEV,IPrintOemPS.ResetPDEV, prcomoem/IPrintOemPS::ResetPDEV, print.iprintoemps_resetpdev, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemPS interface [Print Devices],ResetPDEV method, IPrintOemPS.ResetPDEV, IPrintOemPS::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemPS interface, prcomoem/IPrintOemPS::ResetPDEV, print.iprintoemps_resetpdev, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPS::ResetPDEV method
+# IPrintOemPS::ResetPDEV
 
 
 ## -description

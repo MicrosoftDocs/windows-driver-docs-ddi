@@ -7,8 +7,8 @@ old-location: netvista\protocolcoafregisternotify.htm
 old-project: netvista
 ms.assetid: 272d99da-ef08-4ebd-90e7-74e99410b3f5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CO_AF_REGISTER_NOTIFY, ProtocolCoAfRegisterNotify, ProtocolCoAfRegisterNotify callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_aa4ed4ae-7fa9-4f92-9103-824fbe719739.xml, ndis/ProtocolCoAfRegisterNotify, netvista.protocolcoafregisternotify
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CO_AF_REGISTER_NOTIFY, PROTOCOL_CO_AF_REGISTER_NOTIFY callback, ProtocolCoAfRegisterNotify, ProtocolCoAfRegisterNotify callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_aa4ed4ae-7fa9-4f92-9103-824fbe719739.xml, ndis/ProtocolCoAfRegisterNotify, netvista.protocolcoafregisternotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CO_AF_REGISTER_NOTIFY callback
+# PROTOCOL_CO_AF_REGISTER_NOTIFY callback function
 
 
 ## -description

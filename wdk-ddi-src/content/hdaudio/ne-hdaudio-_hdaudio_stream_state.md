@@ -7,7 +7,7 @@ old-location: audio\hdaudio_stream_state.htm
 old-project: audio
 ms.assetid: A1029A2D-980F-44F5-B7D6-1C37F97D0368
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE enumeration [Audio Devices], PHDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], PauseState, ResetState, RunState, StopState, _HDAUDIO_STREAM_STATE, audio.hdaudio_stream_state, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/PauseState, hdaudio/ResetState, hdaudio/RunState, hdaudio/StopState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

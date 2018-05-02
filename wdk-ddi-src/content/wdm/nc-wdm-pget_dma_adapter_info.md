@@ -7,8 +7,8 @@ old-location: kernel\getdmaadapterinfo.htm
 old-project: kernel
 ms.assetid: 2F502ACA-0CFF-46A1-B54C-1034D6E56815
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_ADAPTER_INFO, kernel.getdmaadapterinfo, wdm/GetDmaAdapterInfo
+ms.date: 4/30/2018
+ms.keywords: GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_ADAPTER_INFO, PGET_DMA_ADAPTER_INFO callback, kernel.getdmaadapterinfo, wdm/GetDmaAdapterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PGET_DMA_ADAPTER_INFO callback
+# PGET_DMA_ADAPTER_INFO callback function
 
 
 ## -description

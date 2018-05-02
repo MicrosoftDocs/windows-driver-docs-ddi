@@ -7,8 +7,8 @@ old-location: sensors\evtsensorgetproperties.htm
 old-project: sensors
 ms.assetid: 259C37C9-DE8C-4BC8-B18A-CDD96B97056D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EVT_SENSOR_DRIVER_GET_PROPERTIES callback, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_GET_PROPERTIES callback
+# EVT_SENSOR_DRIVER_GET_PROPERTIES callback function
 
 
 ## -description

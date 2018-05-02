@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlvalidatereparsepointbuffer.htm
 old-project: ifsk
 ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ifsk.fsrtlvalidatereparsepointbuffer, ntifs/FsRtlValidateReparsePointBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlValidateReparsePointBuffer function

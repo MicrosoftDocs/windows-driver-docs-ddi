@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_AGNSS_INJECTBLOB
 title: GNSS_AGNSS_INJECTBLOB
 author: windows-driver-content
 description: This structure defines the format for AGNSS extended ephemeris injection.
-old-location: sensors\gnss_agnss_injectblob.htm
-old-project: sensors
+old-location: gnss\gnss_agnss_injectblob.htm
+old-project: gnss
 ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], gnss.gnss_agnss_injectblob, gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

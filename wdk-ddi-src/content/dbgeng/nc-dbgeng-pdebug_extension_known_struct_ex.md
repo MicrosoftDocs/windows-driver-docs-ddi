@@ -7,8 +7,8 @@ old-location: debugger\debugextensionknownstructex.htm
 old-project: debugger
 ms.assetid: 830BCD4C-0C3A-45F8-84E9-4F8596B8E1E8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
+ms.date: 4/24/2018
+ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback
+# PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback function
 
 
 ## -description

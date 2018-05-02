@@ -7,8 +7,8 @@ old-location: netvista\miniportwditaltxrxaddport.htm
 old-project: netvista
 ms.assetid: D3006A0B-B0E0-4FEA-864A-FA4B75594FB0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TAL_TXRX_ADD_PORT, MiniportWdiTalTxRxAddPort, MiniportWdiTalTxRxAddPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxAddPort, netvista.miniportwditaltxrxaddport
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TAL_TXRX_ADD_PORT, MINIPORT_WDI_TAL_TXRX_ADD_PORT callback, MiniportWdiTalTxRxAddPort, MiniportWdiTalTxRxAddPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxAddPort, netvista.miniportwditaltxrxaddport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TAL_TXRX_ADD_PORT callback
+# MINIPORT_WDI_TAL_TXRX_ADD_PORT callback function
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 25cbb42a-7263-47b7-84c7-cfcb41a858c8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code [Storage Devices], k307_c36a7809-093c-4172-8443-58d178e9dd87.xml, ntddchgr/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, storage.ioctl_changer_initialize_element_status
+ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code [Storage Devices], k307_c36a7809-093c-4172-8443-58d178e9dd87.xml, ntddchgr/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, storage.ioctl_changer_initialize_element_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS IOCTL

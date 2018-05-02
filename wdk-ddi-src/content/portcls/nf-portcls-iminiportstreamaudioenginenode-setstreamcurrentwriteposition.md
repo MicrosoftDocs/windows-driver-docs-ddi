@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
-title: IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition method
+title: IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 author: windows-driver-content
 description: Sets the current cursor position in the audio data stream that is being captured from the endpoint.
 old-location: audio\iminiportstreamaudioenginenode_setstreamcurrentwriteposition.htm
 old-project: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamCurrentWritePosition,IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], SetStreamCurrentWritePosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition method
+# IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\miniportidlenotification.htm
 old-project: netvista
 ms.assetid: D679DEF0-1229-4731-8024-4DEDAE5B0185
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_IDLE_NOTIFICATION, MiniportIdleNotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportIdleNotification, netvista.miniportidlenotification
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_IDLE_NOTIFICATION, MINIPORT_IDLE_NOTIFICATION callback, MiniportIdleNotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportIdleNotification, netvista.miniportidlenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_IDLE_NOTIFICATION callback
+# MINIPORT_IDLE_NOTIFICATION callback function
 
 
 ## -description

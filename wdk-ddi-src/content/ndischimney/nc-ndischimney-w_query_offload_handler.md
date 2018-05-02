@@ -7,8 +7,8 @@ old-location: netvista\miniportqueryoffload.htm
 old-project: netvista
 ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
+ms.date: 4/25/2018
+ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER callback, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# W_QUERY_OFFLOAD_HANDLER callback
+# W_QUERY_OFFLOAD_HANDLER callback function
 
 
 ## -description

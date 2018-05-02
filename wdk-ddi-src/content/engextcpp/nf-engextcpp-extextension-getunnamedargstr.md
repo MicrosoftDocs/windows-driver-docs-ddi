@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetUnnamedArgStr
-title: ExtExtension::GetUnnamedArgStr method
+title: ExtExtension::GetUnnamedArgStr
 author: windows-driver-content
 description: The GetUnnamedArgStr method returns an unnamed string argument from the command line used to invoke the current extension command.
 old-location: debugger\getunnamedargstr.htm
 old-project: debugger
 ms.assetid: 2aaaee0d-eabe-4615-b888-8239f2791d80
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, ExtExtension, ExtExtension class [Windows Debugging], GetUnnamedArgStr method, ExtExtension::GetUnnamedArgStr, GetUnnamedArgStr method [Windows Debugging], GetUnnamedArgStr method [Windows Debugging], ExtExtension class, GetUnnamedArgStr,ExtExtension.GetUnnamedArgStr, debugger.getunnamedargstr
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, ExtExtension class [Windows Debugging],GetUnnamedArgStr method, ExtExtension.GetUnnamedArgStr, ExtExtension::GetUnnamedArgStr, GetUnnamedArgStr, GetUnnamedArgStr method [Windows Debugging], GetUnnamedArgStr method [Windows Debugging],ExtExtension class, debugger.getunnamedargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::GetUnnamedArgStr method
+# ExtExtension::GetUnnamedArgStr
 
 
 ## -description

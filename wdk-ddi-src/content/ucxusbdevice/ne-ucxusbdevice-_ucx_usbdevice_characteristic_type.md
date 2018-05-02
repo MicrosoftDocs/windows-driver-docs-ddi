@@ -7,7 +7,7 @@ old-location: buses\ucx_usbdevice_characteristic_type.htm
 old-project: usbref
 ms.assetid: 86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: PUCX_USBDEVICE_CHARACTERISTIC_TYPE, PUCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_TYPE, buses.ucx_usbdevice_characteristic_type, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: DISPATCH_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration

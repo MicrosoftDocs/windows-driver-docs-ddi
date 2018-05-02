@@ -7,8 +7,8 @@ old-location: debugger\dprintf.htm
 old-project: debugger
 ms.assetid: 33bcf4d4-1a79-4950-858e-10543faa9432
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PWINDBG_OUTPUT_ROUTINE, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
+ms.date: 4/24/2018
+ms.keywords: PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE callback, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PWINDBG_OUTPUT_ROUTINE callback
+# PWINDBG_OUTPUT_ROUTINE callback function
 
 
 ## -description

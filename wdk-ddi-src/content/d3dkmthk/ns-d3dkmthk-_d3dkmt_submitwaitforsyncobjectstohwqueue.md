@@ -7,8 +7,8 @@ old-location: display\d3dkmt_submitwaitforsyncobjectstohwqueue_.htm
 old-project: display
 ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitwaitforsyncobjectstohwqueue_
+ms.date: 4/16/2018
+ms.keywords: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE , D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitwaitforsyncobjectstohwqueue_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

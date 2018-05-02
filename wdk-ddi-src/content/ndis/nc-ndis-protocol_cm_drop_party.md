@@ -7,8 +7,8 @@ old-location: netvista\protocolcmdropparty.htm
 old-project: netvista
 ms.assetid: be0fce3e-7308-42fa-b63a-4d5cfec7ea6c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_DROP_PARTY, ProtocolCmDropParty, ProtocolCmDropParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_cda3b3ab-baf4-43a7-b560-7a717687508e.xml, ndis/ProtocolCmDropParty, netvista.protocolcmdropparty
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_DROP_PARTY, PROTOCOL_CM_DROP_PARTY callback, ProtocolCmDropParty, ProtocolCmDropParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_cda3b3ab-baf4-43a7-b560-7a717687508e.xml, ndis/ProtocolCmDropParty, netvista.protocolcmdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_DROP_PARTY callback
+# PROTOCOL_CM_DROP_PARTY callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: buses\usb_superspeed_endpoint_companion_descriptor.htm
 old-project: usbref
 ms.assetid: 725ADCA2-FE86-4131-8D70-2BF63F26F89D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR structure pointer [Buses], USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR structure [Buses], _USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, buses.usb_superspeed_endpoint_companion_descriptor, usbspec/PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, usbspec/USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR structure
@@ -81,8 +80,7 @@ Specifies the maximum number of packets that the endpoint can send or receive as
 ### -field bmAttributes
 
 
-
-#### AsUchar
+### -field bmAttributes.AsUchar
 
 Specifies the length of the structures.
 

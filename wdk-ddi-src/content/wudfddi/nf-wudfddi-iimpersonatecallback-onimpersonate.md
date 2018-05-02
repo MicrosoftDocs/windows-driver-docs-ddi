@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IImpersonateCallback.OnImpersonate
-title: IImpersonateCallback::OnImpersonate method
+title: IImpersonateCallback::OnImpersonate
 author: windows-driver-content
 description: The OnImpersonate method handles impersonation.
 old-location: wdf\iimpersonatecallback_onimpersonate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IImpersonateCallback, IImpersonateCallback interface, OnImpersonate method, IImpersonateCallback::OnImpersonate, OnImpersonate method, OnImpersonate method, IImpersonateCallback interface, OnImpersonate,IImpersonateCallback.OnImpersonate, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate
+ms.keywords: IImpersonateCallback interface,OnImpersonate method, IImpersonateCallback.OnImpersonate, IImpersonateCallback::OnImpersonate, OnImpersonate, OnImpersonate method, OnImpersonate method,IImpersonateCallback interface, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IImpersonateCallback::OnImpersonate method
+# IImpersonateCallback::OnImpersonate
 
 
 ## -description

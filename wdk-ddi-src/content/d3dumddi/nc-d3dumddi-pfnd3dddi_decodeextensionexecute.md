@@ -7,8 +7,8 @@ old-location: display\decodeextensionexecute.htm
 old-project: display
 ms.assetid: 522a552a-4588-4dd1-b81f-73ccd4a1c0aa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DecodeExtensionExecute, DecodeExtensionExecute callback function [Display Devices], PFND3DDDI_DECODEEXTENSIONEXECUTE, UserModeDisplayDriver_Functions_426d4fa5-389b-4aca-a1c9-233d3a54b949.xml, d3dumddi/DecodeExtensionExecute, display.decodeextensionexecute
+ms.date: 4/16/2018
+ms.keywords: DecodeExtensionExecute, DecodeExtensionExecute callback function [Display Devices], PFND3DDDI_DECODEEXTENSIONEXECUTE, PFND3DDDI_DECODEEXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_426d4fa5-389b-4aca-a1c9-233d3a54b949.xml, d3dumddi/DecodeExtensionExecute, display.decodeextensionexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DECODEEXTENSIONEXECUTE callback
+# PFND3DDDI_DECODEEXTENSIONEXECUTE callback function
 
 
 ## -description

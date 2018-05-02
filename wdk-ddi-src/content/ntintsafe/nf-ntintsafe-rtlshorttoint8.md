@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttoint8.htm
 old-project: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlShortToInt8, RtlShortToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttoint8, ntintsafe/RtlShortToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlShortToInt8 function

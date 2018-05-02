@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntriesByOffset
-title: IDebugSymbols3::GetSymbolEntriesByOffset method
+title: IDebugSymbols3::GetSymbolEntriesByOffset
 author: windows-driver-content
 description: The GetSymbolEntriesByOffset method returns the symbols which are located at a specified address.
 old-location: debugger\getsymbolentriesbyoffset.htm
 old-project: debugger
 ms.assetid: 93df59dc-adae-49b7-acf4-1cfdd142fd96
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolEntriesByOffset method [Windows Debugging], GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByOffset,IDebugSymbols3.GetSymbolEntriesByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, debugger.getsymbolentriesbyoffset
+ms.date: 4/24/2018
+ms.keywords: GetSymbolEntriesByOffset, GetSymbolEntriesByOffset method [Windows Debugging], GetSymbolEntriesByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByOffset method, IDebugSymbols3.GetSymbolEntriesByOffset, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, debugger.getsymbolentriesbyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolEntriesByOffset method
+# IDebugSymbols3::GetSymbolEntriesByOffset
 
 
 ## -description

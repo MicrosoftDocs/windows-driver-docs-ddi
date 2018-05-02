@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_usb_device_endpoint_add.htm
 old-project: usbref
 ms.assetid: 82E17C75-BE81-4263-AC04-D3C93505917D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback
+# EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback function
 
 
 ## -description

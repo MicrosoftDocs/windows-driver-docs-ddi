@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcessAndAttachWide
-title: IDebugClient5::CreateProcessAndAttachWide method
+title: IDebugClient5::CreateProcessAndAttachWide
 author: windows-driver-content
 description: The CreateProcessAndAttachWide method creates a process from a specified command line, then attach to another user-mode process.
 old-location: debugger\createprocessandattachwide.htm
 old-project: debugger
 ms.assetid: ceaadcca-e206-402b-8aff-62aca483fb64
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateProcessAndAttachWide method [Windows Debugging], CreateProcessAndAttachWide method [Windows Debugging], IDebugClient3 interface, CreateProcessAndAttachWide method [Windows Debugging], IDebugClient4 interface, CreateProcessAndAttachWide method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttachWide,IDebugClient5.CreateProcessAndAttachWide, IDebugClient3 interface [Windows Debugging], CreateProcessAndAttachWide method, IDebugClient3::CreateProcessAndAttachWide, IDebugClient4 interface [Windows Debugging], CreateProcessAndAttachWide method, IDebugClient4::CreateProcessAndAttachWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttachWide method, IDebugClient5::CreateProcessAndAttachWide, dbgeng/IDebugClient3::CreateProcessAndAttachWide, dbgeng/IDebugClient4::CreateProcessAndAttachWide, dbgeng/IDebugClient5::CreateProcessAndAttachWide, debugger.createprocessandattachwide
+ms.date: 4/24/2018
+ms.keywords: CreateProcessAndAttachWide, CreateProcessAndAttachWide method [Windows Debugging], CreateProcessAndAttachWide method [Windows Debugging],IDebugClient3 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient4 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient3::CreateProcessAndAttachWide, IDebugClient4 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient4::CreateProcessAndAttachWide, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient5.CreateProcessAndAttachWide, IDebugClient5::CreateProcessAndAttachWide, dbgeng/IDebugClient3::CreateProcessAndAttachWide, dbgeng/IDebugClient4::CreateProcessAndAttachWide, dbgeng/IDebugClient5::CreateProcessAndAttachWide, debugger.createprocessandattachwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::CreateProcessAndAttachWide method
+# IDebugClient5::CreateProcessAndAttachWide
 
 
 ## -description

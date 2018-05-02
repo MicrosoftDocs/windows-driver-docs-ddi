@@ -7,7 +7,7 @@ old-location: ifsk\rxdispatchtoworkerthread.htm
 old-project: ifsk
 ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, rxworkq/RxDispatchToWorkerThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxDispatchToWorkerThread function

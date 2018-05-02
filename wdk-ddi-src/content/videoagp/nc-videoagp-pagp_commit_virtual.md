@@ -7,8 +7,8 @@ old-location: display\agpcommitvirtual.htm
 old-project: display
 ms.assetid: 8a3e7fcd-d838-47ad-a42b-7eb070f81418
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
+ms.date: 4/16/2018
+ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, PAGP_COMMIT_VIRTUAL callback, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PAGP_COMMIT_VIRTUAL callback
+# PAGP_COMMIT_VIRTUAL callback function
 
 
 ## -description

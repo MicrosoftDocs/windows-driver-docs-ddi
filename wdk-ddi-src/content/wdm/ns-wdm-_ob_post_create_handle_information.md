@@ -7,7 +7,7 @@ old-location: kernel\ob_post_create_handle_information.htm
 old-project: kernel
 ms.assetid: 9c33fc12-5997-4a5c-bf74-63df880055e7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*POB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_CREATE_HANDLE_INFORMATION, POB_POST_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_CREATE_HANDLE_INFORMATION, kernel.ob_post_create_handle_information, kstruct_c_465a5f93-d5e9-4640-b4ae-7fa17d2f9493.xml, wdm/OB_POST_CREATE_HANDLE_INFORMATION, wdm/POB_POST_CREATE_HANDLE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OB_POST_CREATE_HANDLE_INFORMATION, *POB_POST_CREATE_HANDLE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _OB_POST_CREATE_HANDLE_INFORMATION structure

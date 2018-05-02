@@ -7,7 +7,7 @@ old-location: kernel\getbusdriverd3coldsupport.htm
 old-project: kernel
 ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# GET_D3COLD_CAPABILITY callback
+# GET_D3COLD_CAPABILITY callback function
 
 
 ## -description

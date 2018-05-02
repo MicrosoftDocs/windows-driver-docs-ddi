@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.ReadFromHardware
-title: IWDFDevice3::ReadFromHardware method
+title: IWDFDevice3::ReadFromHardware
 author: windows-driver-content
 description: The ReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_readfromhardware.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice3, IWDFDevice3 interface, ReadFromHardware method, IWDFDevice3::ReadFromHardware, ReadFromHardware method, ReadFromHardware method, IWDFDevice3 interface, ReadFromHardware,IWDFDevice3.ReadFromHardware, umdf.iwdfdevice3_readfromhardware, wdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
+ms.keywords: IWDFDevice3 interface,ReadFromHardware method, IWDFDevice3.ReadFromHardware, IWDFDevice3::ReadFromHardware, ReadFromHardware, ReadFromHardware method, ReadFromHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_readfromhardware, wdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::ReadFromHardware method
+# IWDFDevice3::ReadFromHardware
 
 
 ## -description

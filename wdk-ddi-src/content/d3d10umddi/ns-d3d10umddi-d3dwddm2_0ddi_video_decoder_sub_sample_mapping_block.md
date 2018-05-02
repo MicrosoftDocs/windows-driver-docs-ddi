@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.htm
 old-project: display
 ms.assetid: FDB38644-AC61-401A-97E2-7CB0ED1C33D4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, display.d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block
 ms.prod: windows-hardware
 ms.technology: windows-devices

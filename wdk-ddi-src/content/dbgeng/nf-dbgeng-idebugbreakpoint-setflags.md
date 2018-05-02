@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetFlags
-title: IDebugBreakpoint::SetFlags method
+title: IDebugBreakpoint::SetFlags
 author: windows-driver-content
 description: The SetFlags method sets the flags for a breakpoint.
 old-location: debugger\setflags.htm
 old-project: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, IDebugBreakpoint2::SetFlags, IDebugBreakpoint::SetFlags, SetFlags method [Windows Debugging], SetFlags method [Windows Debugging], IDebugBreakpoint interface, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags,IDebugBreakpoint.SetFlags, dbgeng/IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint::SetFlags, debugger.setflags
+ms.date: 4/24/2018
+ms.keywords: ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint interface [Windows Debugging],SetFlags method, IDebugBreakpoint.SetFlags, IDebugBreakpoint2 interface [Windows Debugging],SetFlags method, IDebugBreakpoint2::SetFlags, IDebugBreakpoint::SetFlags, SetFlags, SetFlags method [Windows Debugging], SetFlags method [Windows Debugging],IDebugBreakpoint interface, SetFlags method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint::SetFlags, debugger.setflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint::SetFlags method
+# IDebugBreakpoint::SetFlags
 
 
 ## -description

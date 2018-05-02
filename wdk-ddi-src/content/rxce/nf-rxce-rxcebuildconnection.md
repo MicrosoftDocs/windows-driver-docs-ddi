@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildconnection.htm
 old-project: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxCeBuildConnection, RxCeBuildConnection function [Installable File System Drivers], ifsk.rxcebuildconnection, rxce/RxCeBuildConnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCeBuildConnection function

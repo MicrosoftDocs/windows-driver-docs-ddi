@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_sdp_service_search.htm
 old-project: bltooth
 ms.assetid: aea2aff2-5983-4583-9cc8-a45401ecdfb6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_SDP_SERVICE_SEARCH IOCTL

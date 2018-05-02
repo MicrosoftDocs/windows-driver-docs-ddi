@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WINBIO_BIR
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_BIR structure

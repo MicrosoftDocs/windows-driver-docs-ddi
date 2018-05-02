@@ -7,7 +7,7 @@ old-location: kernel\ioconnectinterruptex.htm
 old-project: kernel
 ms.assetid: f77a2701-bde2-42c2-8393-88a7e4576f1b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoConnectInterruptEx, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, kernel.ioconnectinterruptex, wdm/IoConnectInterruptEx, wdm/WdmlibIoConnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoConnectInterruptEx function

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptableSequentialStream.Read
-title: IPrinterScriptableSequentialStream::Read method
+title: IPrinterScriptableSequentialStream::Read
 author: windows-driver-content
 description: The Read method reads bytes from the stream and returns them as a JavaScript array.
 old-location: print\iprinterscriptablesequentialstream_read.htm
 old-project: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], Read method, IPrinterScriptableSequentialStream::Read, Read method [Print Devices], Read method [Print Devices], IPrinterScriptableSequentialStream interface, Read,IPrinterScriptableSequentialStream.Read, print.iprinterscriptablesequentialstream_read, printerextension/IPrinterScriptableSequentialStream::Read
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Read method, IPrinterScriptableSequentialStream.Read, IPrinterScriptableSequentialStream::Read, Read, Read method [Print Devices], Read method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_read, printerextension/IPrinterScriptableSequentialStream::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptableSequentialStream::Read method
+# IPrinterScriptableSequentialStream::Read
 
 
 ## -description

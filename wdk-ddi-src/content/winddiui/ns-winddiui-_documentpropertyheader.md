@@ -7,7 +7,7 @@ old-location: print\documentpropertyheader.htm
 old-project: print
 ms.assetid: 5aaf1f90-fb75-4e5a-9316-9212a21b8fed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], _DOCUMENTPROPERTYHEADER, print.documentpropertyheader, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, winddiui/DOCUMENTPROPERTYHEADER, winddiui/PDOCUMENTPROPERTYHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER
-req.product: Windows 10 or later.
 ---
 
 # _DOCUMENTPROPERTYHEADER structure

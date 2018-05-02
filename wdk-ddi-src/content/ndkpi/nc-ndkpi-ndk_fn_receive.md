@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_receive.htm
 old-project: netvista
 ms.assetid: DC40C6B5-3F52-4A7E-B8FC-917ACDF8309A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_RECEIVE, NdkReceive, NdkReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReceive, netvista.ndk_fn_receive
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_RECEIVE, NDK_FN_RECEIVE callback, NdkReceive, NdkReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReceive, netvista.ndk_fn_receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_RECEIVE callback
+# NDK_FN_RECEIVE callback function
 
 
 ## -description

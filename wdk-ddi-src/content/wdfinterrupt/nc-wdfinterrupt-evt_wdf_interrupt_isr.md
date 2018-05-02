@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f28a66a-9c17-4020-bfe2-295c22af6ba7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
+ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EVT_WDF_INTERRUPT_ISR callback, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_INTERRUPT_ISR callback
+# EVT_WDF_INTERRUPT_ISR callback function
 
 
 ## -description

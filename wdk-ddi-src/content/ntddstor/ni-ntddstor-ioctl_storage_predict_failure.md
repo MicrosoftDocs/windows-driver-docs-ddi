@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 56e178d9-e6bb-43d4-b062-da4e699c4efc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_PREDICT_FAILURE, IOCTL_STORAGE_PREDICT_FAILURE control code [Storage Devices], k307_396b070a-af8a-4271-9d17-efb385869570.xml, ntddstor/IOCTL_STORAGE_PREDICT_FAILURE, storage.ioctl_storage_predict_failure
+ms.keywords: IOCTL_STORAGE_PREDICT_FAILURE, IOCTL_STORAGE_PREDICT_FAILURE control, IOCTL_STORAGE_PREDICT_FAILURE control code [Storage Devices], k307_396b070a-af8a-4271-9d17-efb385869570.xml, ntddstor/IOCTL_STORAGE_PREDICT_FAILURE, storage.ioctl_storage_predict_failure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_PREDICT_FAILURE IOCTL

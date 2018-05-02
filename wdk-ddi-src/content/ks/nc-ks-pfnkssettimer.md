@@ -7,7 +7,7 @@ old-location: stream\kstrsettimer.htm
 old-project: stream
 ms.assetid: c9150c02-a53e-4ffc-8cf1-ca668680cdd9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrSetTimer, KStrSetTimer routine [Streaming Media Devices], PFNKSSETTIMER, ks/KStrSetTimer, ksfunc_a1a590b8-ea16-45bd-8517-45e4bfc46ad3.xml, stream.kstrsettimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSSETTIMER callback
+# PFNKSSETTIMER callback function
 
 
 ## -description

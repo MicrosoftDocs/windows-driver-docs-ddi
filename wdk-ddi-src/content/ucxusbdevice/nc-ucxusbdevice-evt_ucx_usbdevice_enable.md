@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_enable.htm
 old-project: usbref
 ms.assetid: ac46a6eb-c30d-4b1f-8e14-0ae44ae0d4f1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EVT_UCX_USBDEVICE_ENABLE callback, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_ENABLE callback
+# EVT_UCX_USBDEVICE_ENABLE callback function
 
 
 ## -description

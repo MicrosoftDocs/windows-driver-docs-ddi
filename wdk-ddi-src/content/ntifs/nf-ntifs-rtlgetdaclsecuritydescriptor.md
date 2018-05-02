@@ -7,7 +7,7 @@ old-location: ifsk\rtlgetdaclsecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: 23184d88-2c84-4fba-9d17-c4014d0eaea5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlGetDaclSecurityDescriptor, RtlGetDaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetdaclsecuritydescriptor, ntifs/RtlGetDaclSecurityDescriptor, rtlref_c851a07b-d480-47a7-b0f7-a3f21161dfaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlGetDaclSecurityDescriptor function

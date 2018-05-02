@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6C091427-59FF-4101-ACD6-353C959794F6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
+ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WUDF_INTERRUPT_ENABLE callback
+# WUDF_INTERRUPT_ENABLE callback function
 
 
 ## -description

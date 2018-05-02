@@ -7,7 +7,7 @@ old-location: display\video_request_packet.htm
 old-project: display
 ms.assetid: 8ccc8c97-4c8c-4278-8eef-a612ce85439e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], VIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, _VIDEO_REQUEST_PACKET, display.video_request_packet, video/PVIDEO_REQUEST_PACKET, video/VIDEO_REQUEST_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_REQUEST_PACKET structure

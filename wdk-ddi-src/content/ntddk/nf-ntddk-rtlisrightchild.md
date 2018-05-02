@@ -7,7 +7,7 @@ old-location: ifsk\rtlisrightchild.htm
 old-project: ifsk
 ms.assetid: 23951fb8-35ab-4a05-b09b-d7f69057a5ad
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlIsRightChild, RtlIsRightChild routine [Installable File System Drivers], ifsk.rtlisrightchild, ntddk/RtlIsRightChild, rtlref_741652e3-af4f-4e7b-978a-e6355db283a9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlIsRightChild macro

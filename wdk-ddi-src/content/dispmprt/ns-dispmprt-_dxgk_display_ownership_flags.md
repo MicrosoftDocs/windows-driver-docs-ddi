@@ -7,7 +7,7 @@ old-location: display\dxgk_display_ownership_flags.htm
 old-project: display
 ms.assetid: F5CA04FD-5E2A-4C68-97CF-F3D425A958AA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], _DXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,7 +63,7 @@ Structure filled in by OS upon successful completion of the DxgkCbAcquirePostDis
 Value indicating the state of the frame buffer.  See definition of DXGK_FRAMEBUFFER_STATE enum for details.  
 
 
-#### - Value
+### -field Value
 
 The value used to operate over the combined bitfields.
 

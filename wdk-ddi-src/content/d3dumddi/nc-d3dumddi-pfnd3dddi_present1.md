@@ -7,8 +7,8 @@ old-location: display\pfnpresent1_d3d_.htm
 old-project: display
 ms.assetid: 8BB8E85F-B081-422E-ACE1-C2312BA28B9F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_PRESENT1, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_PRESENT1, PFND3DDDI_PRESENT1 callback, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_PRESENT1 callback
+# PFND3DDDI_PRESENT1 callback function
 
 
 ## -description

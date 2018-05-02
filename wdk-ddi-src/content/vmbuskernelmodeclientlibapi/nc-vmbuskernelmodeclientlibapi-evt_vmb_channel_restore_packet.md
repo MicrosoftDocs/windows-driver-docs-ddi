@@ -7,8 +7,8 @@ old-location: netvista\evt_vmb_channel_restore_packet.htm
 old-project: netvista
 ms.assetid: 9C89CFCB-4B8A-40D3-B982-2F7836A636A3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket
+ms.date: 4/25/2018
+ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EVT_VMB_CHANNEL_RESTORE_PACKET callback, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_VMB_CHANNEL_RESTORE_PACKET callback
+# EVT_VMB_CHANNEL_RESTORE_PACKET callback function
 
 
 ## -description

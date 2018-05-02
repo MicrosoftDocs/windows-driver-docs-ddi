@@ -7,8 +7,8 @@ old-location: display\settexturestagestate.htm
 old-project: display
 ms.assetid: 56b9d7bf-1036-4ad1-a0fb-4d7154b50b27
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SETTEXTURESTAGESTATE, SetTextureStageState, SetTextureStageState callback function [Display Devices], UserModeDisplayDriver_Functions_b84233ed-861a-4d59-a1b0-5b475f5019d5.xml, d3dumddi/SetTextureStageState, display.settexturestagestate
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETTEXTURESTAGESTATE, PFND3DDDI_SETTEXTURESTAGESTATE callback, SetTextureStageState, SetTextureStageState callback function [Display Devices], UserModeDisplayDriver_Functions_b84233ed-861a-4d59-a1b0-5b475f5019d5.xml, d3dumddi/SetTextureStageState, display.settexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETTEXTURESTAGESTATE callback
+# PFND3DDDI_SETTEXTURESTAGESTATE callback function
 
 
 ## -description

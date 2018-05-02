@@ -7,7 +7,7 @@ old-location: kernel\clfs_mgmt_policy.htm
 old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_POLICY, kernel.clfs_mgmt_policy, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
-req.product: Windows 10 or later.
 ---
 
 # _CLFS_MGMT_POLICY structure

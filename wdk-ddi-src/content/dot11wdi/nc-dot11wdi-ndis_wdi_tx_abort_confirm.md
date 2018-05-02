@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxabortconfirm.htm
 old-project: netvista
 ms.assetid: 1619BF14-DDEE-48CB-8E31-0CC17C8A4C6A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_ABORT_CONFIRM, NdisWdiTxAbortConfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxAbortConfirm, netvista.ndiswditxabortconfirm
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_ABORT_CONFIRM, NDIS_WDI_TX_ABORT_CONFIRM callback, NdisWdiTxAbortConfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxAbortConfirm, netvista.ndiswditxabortconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_ABORT_CONFIRM callback
+# NDIS_WDI_TX_ABORT_CONFIRM callback function
 
 
 ## -description

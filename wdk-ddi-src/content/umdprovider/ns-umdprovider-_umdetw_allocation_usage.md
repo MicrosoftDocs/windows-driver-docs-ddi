@@ -7,7 +7,7 @@ old-location: display\umdetw_allocation_usage.htm
 old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
 ---
 
 # _UMDETW_ALLOCATION_USAGE structure
@@ -79,7 +78,7 @@ Reserved for system use. Do not use in your driver.
 The driver can use these bit fields for its own internal purposes.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that specifies the allocation mapping.
 

@@ -7,7 +7,7 @@ old-location: display\video_port_config_info.htm
 old-project: display
 ms.assetid: 5861efcb-1792-406a-820a-38fbfb283c1f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO structure pointer [Display Devices], VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO structure [Display Devices], Video_Structs_5566366c-4ec3-4983-873f-28af2fe51bd6.xml, _VIDEO_PORT_CONFIG_INFO, display.video_port_config_info, video/PVIDEO_PORT_CONFIG_INFO, video/VIDEO_PORT_CONFIG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_CONFIG_INFO, *PVIDEO_PORT_CONFIG_INFO
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_PORT_CONFIG_INFO structure

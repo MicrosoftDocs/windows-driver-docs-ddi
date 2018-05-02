@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointnopingresponseerror.htm
 old-project: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxEndpointNoPingResponseError function

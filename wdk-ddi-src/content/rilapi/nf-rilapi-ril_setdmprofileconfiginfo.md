@@ -7,7 +7,7 @@ old-location: netvista\ril_setdmprofileconfiginfo.htm
 old-project: netvista
 ms.assetid: 4d2ab950-a045-4b5a-be9b-0b80c442e63d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetDMProfileConfigInfo, RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_setdmprofileconfiginfo, rilapi/RIL_SetDMProfileConfigInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetDMProfileConfigInfo function

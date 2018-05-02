@@ -7,8 +7,8 @@ old-location: buses\usbfn_get_attach_action.htm
 old-project: usbref
 ms.assetid: D951D5A0-3A93-4B67-B25A-31EE61C0A065
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFN_USBFN_GET_ATTACH_ACTION, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], USBFN_GET_ATTACH_ACTION, UsbFnGetAttachAction, UsbFnGetAttachAction callback function [Buses], buses.usbfn_get_attach_action, usbfnattach/UsbFnGetAttachAction
+ms.date: 4/25/2018
+ms.keywords: PFN_USBFN_GET_ATTACH_ACTION, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], USBFN_GET_ATTACH_ACTION, USBFN_GET_ATTACH_ACTION callback, UsbFnGetAttachAction, UsbFnGetAttachAction callback function [Buses], buses.usbfn_get_attach_action, usbfnattach/UsbFnGetAttachAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# USBFN_GET_ATTACH_ACTION callback
+# USBFN_GET_ATTACH_ACTION callback function
 
 
 ## -description

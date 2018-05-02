@@ -7,8 +7,8 @@ old-location: netvista\protocolclincomingcallqoschange.htm
 old-project: netvista
 ms.assetid: ca9953f4-35db-4acb-b0ea-887156b4f6ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE, ProtocolClIncomingCallQoSChange, ProtocolClIncomingCallQoSChange callback function [Network Drivers Starting with Windows Vista], condis_client_ref_09f3fdc8-cdc0-4b49-82c2-bd5816c9d5a9.xml, ndis/ProtocolClIncomingCallQoSChange, netvista.protocolclincomingcallqoschange
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE, PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback, ProtocolClIncomingCallQoSChange, ProtocolClIncomingCallQoSChange callback function [Network Drivers Starting with Windows Vista], condis_client_ref_09f3fdc8-cdc0-4b49-82c2-bd5816c9d5a9.xml, ndis/ProtocolClIncomingCallQoSChange, netvista.protocolclincomingcallqoschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback
+# PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback function
 
 
 ## -description

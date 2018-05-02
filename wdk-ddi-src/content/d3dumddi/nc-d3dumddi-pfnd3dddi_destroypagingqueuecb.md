@@ -7,8 +7,8 @@ old-location: display\pfndestroypagingqueuecb.htm
 old-project: display
 ms.assetid: 2C039656-5384-4864-8F29-A336B0ED06C0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_DESTROYPAGINGQUEUECB, d3dumddi/pfnDestroyPagingQueueCb, display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb, pfnDestroyPagingQueueCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_DESTROYPAGINGQUEUECB, PFND3DDDI_DESTROYPAGINGQUEUECB callback, d3dumddi/pfnDestroyPagingQueueCb, display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb, pfnDestroyPagingQueueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYPAGINGQUEUECB callback
+# PFND3DDDI_DESTROYPAGINGQUEUECB callback function
 
 
 ## -description

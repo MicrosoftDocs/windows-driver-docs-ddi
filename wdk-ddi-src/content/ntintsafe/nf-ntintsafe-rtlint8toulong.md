@@ -7,7 +7,7 @@ old-location: kernel\rtlint8toulong.htm
 old-project: kernel
 ms.assetid: 2C5FA0DA-5517-4BB6-A106-D8A20EDB5D46
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInt8ToULong, RtlInt8ToULong function [Kernel-Mode Driver Architecture], kernel.rtlint8toulong, ntintsafe/RtlInt8ToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlInt8ToULong function

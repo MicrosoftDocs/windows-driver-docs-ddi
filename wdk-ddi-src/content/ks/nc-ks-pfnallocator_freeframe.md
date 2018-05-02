@@ -7,7 +7,7 @@ old-location: stream\kstrfreeframe.htm
 old-project: stream
 ms.assetid: 6e998b5a-7f2a-4ab2-9382-f70476e5f34f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrFreeFrame, KStrFreeFrame routine [Streaming Media Devices], PFNALLOCATOR_FREEFRAME, ks/KStrFreeFrame, ksfunc_fbbb5f23-02d9-4670-8e9a-c157402d413e.xml, stream.kstrfreeframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNALLOCATOR_FREEFRAME callback
+# PFNALLOCATOR_FREEFRAME callback function
 
 
 ## -description

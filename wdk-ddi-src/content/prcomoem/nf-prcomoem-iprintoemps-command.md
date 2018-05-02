@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.Command
-title: IPrintOemPS::Command method
+title: IPrintOemPS::Command
 author: windows-driver-content
 description: The IPrintOemPS::Command method is used by rendering plug-ins for the Microsoft PostScript printer driver, in order to insert PostScript commands into the print job's data stream.
 old-location: print\iprintoemps_command.htm
 old-project: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Command method [Print Devices], Command method [Print Devices], IPrintOemPS interface, Command,IPrintOemPS.Command, IPrintOemPS, IPrintOemPS interface [Print Devices], Command method, IPrintOemPS::Command, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml
+ms.date: 4/20/2018
+ms.keywords: Command, Command method [Print Devices], Command method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],Command method, IPrintOemPS.Command, IPrintOemPS::Command, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPS::Command method
+# IPrintOemPS::Command
 
 
 ## -description

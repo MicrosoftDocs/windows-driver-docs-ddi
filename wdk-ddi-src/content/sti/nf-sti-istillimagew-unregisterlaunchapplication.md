@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.UnregisterLaunchApplication
-title: IStillImageW::UnregisterLaunchApplication method
+title: IStillImageW::UnregisterLaunchApplication
 author: windows-driver-content
 description: The IStillImage::UnregisterLaunchApplication method removes an application from the still image event monitor's list of push-model aware applications.
 old-location: image\istillimage_unregisterlaunchapplication.htm
 old-project: image
 ms.assetid: cf57265a-d343-4e49-9635-6a4663c9a3a5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], UnregisterLaunchApplication method, IStillImageW::UnregisterLaunchApplication, UnregisterLaunchApplication method [Imaging Devices], UnregisterLaunchApplication method [Imaging Devices], IStillImageW interface, UnregisterLaunchApplication,IStillImageW.UnregisterLaunchApplication, image.istillimage_unregisterlaunchapplication, sti/IStillImageW::UnregisterLaunchApplication, stifnc_7e477efa-efa3-445d-bd68-a23f87cee5de.xml
+ms.date: 4/23/2018
+ms.keywords: IStillImageW interface [Imaging Devices],UnregisterLaunchApplication method, IStillImageW.UnregisterLaunchApplication, IStillImageW::UnregisterLaunchApplication, UnregisterLaunchApplication, UnregisterLaunchApplication method [Imaging Devices], UnregisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_unregisterlaunchapplication, sti/IStillImageW::UnregisterLaunchApplication, stifnc_7e477efa-efa3-445d-bd68-a23f87cee5de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::UnregisterLaunchApplication method
+# IStillImageW::UnregisterLaunchApplication
 
 
 ## -description

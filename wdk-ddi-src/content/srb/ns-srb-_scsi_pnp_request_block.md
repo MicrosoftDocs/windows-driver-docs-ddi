@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
-req.product: Windows 10 or later.
 ---
 
 # _SCSI_PNP_REQUEST_BLOCK structure

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_Name
-title: IPrintSchemaElement::get_Name method
+title: IPrintSchemaElement::get_Name
 author: windows-driver-content
 description: Gets the base value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_name.htm
 old-project: print
 ms.assetid: 025DC5A0-4462-487E-9C5B-0FE359DAD41C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], Name property, IPrintSchemaElement.Name, IPrintSchemaElement::get_Name, Name property [Print Devices], Name property [Print Devices], IPrintSchemaElement interface, get_Name, get_Name,IPrintSchemaElement.get_Name, print.iprintschemaelement_name, printerextension/IPrintSchemaElement::Name, printerextension/IPrintSchemaElement::get_Name
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaElement interface [Print Devices],Name property, IPrintSchemaElement.Name, IPrintSchemaElement.get_Name, IPrintSchemaElement::Name, IPrintSchemaElement::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintSchemaElement interface, get_Name, print.iprintschemaelement_name, printerextension/IPrintSchemaElement::Name, printerextension/IPrintSchemaElement::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaElement::get_Name method
+# IPrintSchemaElement::get_Name
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: print\colorprofiletype.htm
 old-project: print
 ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PCOLORPROFILETYPE, COLORPROFILETYPE, COLORPROFILETYPE enumeration [Print Devices], CPT_CAMP, CPT_DMP, CPT_GMMP, CPT_ICC, colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, icm/COLORPROFILETYPE, icm/CPT_CAMP, icm/CPT_DMP, icm/CPT_GMMP, icm/CPT_ICC, print.colorprofiletype"
 ms.prod: windows-hardware
 ms.technology: windows-devices

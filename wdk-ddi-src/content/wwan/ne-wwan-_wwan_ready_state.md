@@ -7,7 +7,7 @@ old-location: netvista\wwan_ready_state.htm
 old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_READY_STATE, PWWAN_READY_STATE, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_READY_STATE, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanReadyStateBadSim, WwanReadyStateDeviceLocked, WwanReadyStateFailure, WwanReadyStateInitialized, WwanReadyStateNotActivated, WwanReadyStateOff, WwanReadyStateSimNotInserted, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, _WWAN_READY_STATE, netvista.wwan_ready_state, wwan/PWWAN_READY_STATE, wwan/WWAN_READY_STATE, wwan/WwanReadyStateBadSim, wwan/WwanReadyStateDeviceLocked, wwan/WwanReadyStateFailure, wwan/WwanReadyStateInitialized, wwan/WwanReadyStateNotActivated, wwan/WwanReadyStateOff, wwan/WwanReadyStateSimNotInserted"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_READY_STATE, *PWWAN_READY_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_READY_STATE enumeration

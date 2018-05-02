@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_usb_endpoint_purge.htm
 old-project: usbref
 ms.assetid: FAC021F0-CF37-4A28-BE89-D6BD77B8B708
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_USB_ENDPOINT_PURGE, EvtUsbEndpointPurge, EvtUsbEndpointPurge callback function [Buses], buses.evt_udecx_usb_endpoint_purge, udecxusbendpoint/EvtUsbEndpointPurge
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_USB_ENDPOINT_PURGE, EVT_UDECX_USB_ENDPOINT_PURGE callback, EvtUsbEndpointPurge, EvtUsbEndpointPurge callback function [Buses], buses.evt_udecx_usb_endpoint_purge, udecxusbendpoint/EvtUsbEndpointPurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_USB_ENDPOINT_PURGE callback
+# EVT_UDECX_USB_ENDPOINT_PURGE callback function
 
 
 ## -description

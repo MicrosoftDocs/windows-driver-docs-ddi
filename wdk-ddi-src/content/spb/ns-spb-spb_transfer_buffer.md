@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_buffer.htm
 old-project: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], spb/PSPB_TRANSFER_BUFFER, spb/SPB_TRANSFER_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_BUFFER structure
@@ -72,6 +71,11 @@ The buffer format.  This member is set to one of the following <a href="https://
 <b>SpbTransferBufferFormatMdl</b> is a valid value only for I/O transfer sequences that are requested by clients of the SPB controller driver that are kernel-mode components.
 
 
+### -field Simple
+
+A SPB_TRANSFER_BUFFER_LIST_ENTRY  structure that specifies the base address and the length of a simple transfer buffer. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatSimple</b> or <b>SpbTransferBufferFormatSimpleNonPaged</b>. The <b>SpbTransferBufferFormatSimpleNonPaged</b> format is used only by kernel-mode clients.
+
+
 ### -field BufferList
 
 A scatter-gather list that consists of an array of buffer descriptors. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatList</b>.
@@ -87,14 +91,9 @@ A pointer to an array of <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structures that d
 The number of elements in the <b>List</b> array.
 
 
-#### - Mdl
+### -field Mdl
 
 A pointer to an MDL that describes the buffer. This member is used only by kernel-mode clients. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatMdl</b>. For more information, see Remarks.
-
-
-#### - Simple
-
-A SPB_TRANSFER_BUFFER_LIST_ENTRY  structure that specifies the base address and the length of a simple transfer buffer. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatSimple</b> or <b>SpbTransferBufferFormatSimpleNonPaged</b>. The <b>SpbTransferBufferFormatSimpleNonPaged</b> format is used only by kernel-mode clients.
 
 
 ## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_connector.htm
 old-project: netvista
 ms.assetid: E800AC7B-EAEB-44FB-96ED-890C6442F066
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CREATE_CONNECTOR, NdkCreateConnector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateConnector, netvista.ndk_fn_create_connector
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_CONNECTOR, NDK_FN_CREATE_CONNECTOR callback, NdkCreateConnector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateConnector, netvista.ndk_fn_create_connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_CONNECTOR callback
+# NDK_FN_CREATE_CONNECTOR callback function
 
 
 ## -description

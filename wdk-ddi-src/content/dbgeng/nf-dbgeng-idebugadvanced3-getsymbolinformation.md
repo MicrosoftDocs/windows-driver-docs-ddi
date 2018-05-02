@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSymbolInformation
-title: IDebugAdvanced3::GetSymbolInformation method
+title: IDebugAdvanced3::GetSymbolInformation
 author: windows-driver-content
 description: The GetSymbolInformation method returns specified information about a symbol.
 old-location: debugger\getsymbolinformation.htm
 old-project: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation,IDebugAdvanced3.GetSymbolInformation, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
+ms.date: 4/24/2018
+ms.keywords: GetSymbolInformation, GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced3.GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugAdvanced3::GetSymbolInformation method
+# IDebugAdvanced3::GetSymbolInformation
 
 
 ## -description

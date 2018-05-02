@@ -7,7 +7,7 @@ old-location: kernel\getidlewakeinfo.htm
 old-project: kernel
 ms.assetid: 51DE471E-5409-4ED9-BC50-29D18E8F5A16
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: GET_IDLE_WAKE_INFO, GetIdleWakeInfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], kernel.getidlewakeinfo, wdm/GetIdleWakeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# GET_IDLE_WAKE_INFO callback
+# GET_IDLE_WAKE_INFO callback function
 
 
 ## -description

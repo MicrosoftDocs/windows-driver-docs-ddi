@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaNUpOption.get_PagesPerSheet
-title: IPrintSchemaNUpOption::get_PagesPerSheet method
+title: IPrintSchemaNUpOption::get_PagesPerSheet
 author: windows-driver-content
 description: Gets the number of pages per sheet.
 old-location: print\iprintschemanupoption_pagespersheet.htm
 old-project: print
 ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaNUpOption, IPrintSchemaNUpOption interface [Print Devices], PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices], IPrintSchemaNUpOption interface, get_PagesPerSheet, get_PagesPerSheet,IPrintSchemaNUpOption.get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaNUpOption interface [Print Devices],PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption.get_PagesPerSheet, IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices],IPrintSchemaNUpOption interface, get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaNUpOption::get_PagesPerSheet method
+# IPrintSchemaNUpOption::get_PagesPerSheet
 
 
 ## -description

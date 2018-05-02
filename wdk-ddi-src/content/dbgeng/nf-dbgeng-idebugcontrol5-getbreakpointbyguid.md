@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetBreakpointByGuid
-title: IDebugControl5::GetBreakpointByGuid method
+title: IDebugControl5::GetBreakpointByGuid
 author: windows-driver-content
 description: The GetBreakpointByGuid method returns the breakpoint with the specified breakpoint GUID.
 old-location: debugger\idebugcontrol5_getbreakpointbyguid.htm
 old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, GetBreakpointByGuid,IDebugControl5.GetBreakpointByGuid, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
+ms.date: 4/24/2018
+ms.keywords: GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetBreakpointByGuid method, IDebugControl5.GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl5::GetBreakpointByGuid method
+# IDebugControl5::GetBreakpointByGuid
 
 
 ## -description

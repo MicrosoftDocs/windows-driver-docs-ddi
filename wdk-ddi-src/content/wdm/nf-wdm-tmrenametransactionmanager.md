@@ -7,8 +7,8 @@ old-location: kernel\tmrenametransactionmanager_.htm
 old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
+ms.date: 4/30/2018
+ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager , TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmRenameTransactionManager function

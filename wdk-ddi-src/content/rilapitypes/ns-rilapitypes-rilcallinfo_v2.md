@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfo_v2.htm
 old-project: netvista
 ms.assetid: 02eaaaa4-fe88-4f07-bfbf-1ba52d0c1362
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLINFO_V2, RILCALLINFO_V2, RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v2, ntddrilapitypes/RILCALLINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V2, *LPRILCALLINFO_V2
-req.product: Windows 10 or later.
 ---
 
 # RILCALLINFO_V2 structure

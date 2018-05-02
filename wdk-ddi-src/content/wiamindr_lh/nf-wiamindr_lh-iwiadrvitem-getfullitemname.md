@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetFullItemName
-title: IWiaDrvItem::GetFullItemName method
+title: IWiaDrvItem::GetFullItemName
 author: windows-driver-content
 description: The IWiaDrvItem::GetFullItemName method gets the item's full name, including path information.
 old-location: image\iwiadrvitem_getfullitemname.htm
 old-project: image
 ms.assetid: 810faf49-faa9-45f2-af94-af576f4c1075
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName method [Imaging Devices], GetFullItemName method [Imaging Devices], IWiaDrvItem interface, GetFullItemName,IWiaDrvItem.GetFullItemName, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetFullItemName method, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, wiamindr_lh/IWiaDrvItem::GetFullItemName
+ms.date: 4/23/2018
+ms.keywords: DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName, GetFullItemName method [Imaging Devices], GetFullItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetFullItemName method, IWiaDrvItem.GetFullItemName, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, wiamindr_lh/IWiaDrvItem::GetFullItemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::GetFullItemName method
+# IWiaDrvItem::GetFullItemName
 
 
 ## -description

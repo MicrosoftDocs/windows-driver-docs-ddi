@@ -7,7 +7,7 @@ old-location: stream\ksgateinitializeor.htm
 old-project: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, stream.ksgateinitializeor
 ms.prod: windows-hardware
 ms.technology: windows-devices

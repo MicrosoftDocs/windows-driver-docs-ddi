@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsavecontinue.htm
 old-project: netvista
 ms.assetid: 57266CAE-C069-4379-92FD-0F93FECC6EB5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsavecontinue, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelSaveContinue function

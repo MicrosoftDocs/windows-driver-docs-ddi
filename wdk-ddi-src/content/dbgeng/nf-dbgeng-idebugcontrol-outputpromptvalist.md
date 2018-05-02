@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputPromptVaList
-title: IDebugControl::OutputPromptVaList method
+title: IDebugControl::OutputPromptVaList
 author: windows-driver-content
 description: The OutputPromptVaList method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptvalist.htm
 old-project: debugger
 ms.assetid: 08140a38-19dd-4fce-8659-ab5eb3257f2f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputPromptVaList method, IDebugControl2 interface [Windows Debugging], OutputPromptVaList method, IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList method [Windows Debugging], OutputPromptVaList method [Windows Debugging], IDebugControl interface, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface, OutputPromptVaList,IDebugControl.OutputPromptVaList, dbgeng/IDebugControl2::OutputPromptVaList, dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, debugger.outputpromptvalist
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OutputPromptVaList method, IDebugControl.OutputPromptVaList, IDebugControl2 interface [Windows Debugging],OutputPromptVaList method, IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging],OutputPromptVaList method, IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], OutputPromptVaList method [Windows Debugging],IDebugControl interface, OutputPromptVaList method [Windows Debugging],IDebugControl2 interface, OutputPromptVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPromptVaList, dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, debugger.outputpromptvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::OutputPromptVaList method
+# IDebugControl::OutputPromptVaList
 
 
 ## -description

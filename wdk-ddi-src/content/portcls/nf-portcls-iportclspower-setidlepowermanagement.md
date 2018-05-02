@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsPower.SetIdlePowerManagement
-title: IPortClsPower::SetIdlePowerManagement method
+title: IPortClsPower::SetIdlePowerManagement
 author: windows-driver-content
 description: The SetIdlePowerManagement method provides a way for the adapter driver to opt in or opt out of idle state detection.
 old-location: audio\iportclspower_setidlepowermanagement.htm
 old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, SetIdlePowerManagement,IPortClsPower.SetIdlePowerManagement, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement
+ms.date: 4/16/2018
+ms.keywords: IPortClsPower interface [Audio Devices],SetIdlePowerManagement method, IPortClsPower.SetIdlePowerManagement, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsPower::SetIdlePowerManagement method
+# IPortClsPower::SetIdlePowerManagement
 
 
 ## -description

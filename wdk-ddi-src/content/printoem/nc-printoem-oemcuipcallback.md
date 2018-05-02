@@ -7,8 +7,8 @@ old-location: print\oemcuipcallback.htm
 old-project: print
 ms.assetid: d740bed2-ba3c-4834-8bda-3512ac8da1d5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: OEMCUIPCALLBACK, OEMCUIPCALLBACK callback function [Print Devices], print.oemcuipcallback, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml, printoem/OEMCUIPCALLBACK
+ms.date: 4/20/2018
+ms.keywords: OEMCUIPCALLBACK, OEMCUIPCALLBACK callback, OEMCUIPCALLBACK callback function [Print Devices], print.oemcuipcallback, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml, printoem/OEMCUIPCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# OEMCUIPCALLBACK callback
+# OEMCUIPCALLBACK callback function
 
 
 ## -description

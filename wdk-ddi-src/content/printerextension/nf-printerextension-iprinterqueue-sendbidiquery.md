@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueue.SendBidiQuery
-title: IPrinterQueue::SendBidiQuery method
+title: IPrinterQueue::SendBidiQuery
 author: windows-driver-content
 description: Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent::OnBidiResponseReceived method.
 old-location: print\iprinterqueue_sendbidiquery.htm
 old-project: print
 ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], SendBidiQuery method, IPrinterQueue::SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices], IPrinterQueue interface, SendBidiQuery,IPrinterQueue.SendBidiQuery, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices],SendBidiQuery method, IPrinterQueue.SendBidiQuery, IPrinterQueue::SendBidiQuery, SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices],IPrinterQueue interface, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueue::SendBidiQuery method
+# IPrinterQueue::SendBidiQuery
 
 
 ## -description

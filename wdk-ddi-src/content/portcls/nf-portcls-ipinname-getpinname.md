@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPinName.GetPinName
-title: IPinName::GetPinName method
+title: IPinName::GetPinName
 author: windows-driver-content
 description: The GetPinName method retrieves the friendly name of an audio endpoint.
 old-location: audio\ipinname_getpinname.htm
 old-project: audio
 ms.assetid: 97fa159c-ce71-4ce2-8d40-def7671d014c
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetPinName method [Audio Devices], GetPinName method [Audio Devices], IPinName interface, GetPinName,IPinName.GetPinName, IPinName, IPinName interface [Audio Devices], GetPinName method, IPinName::GetPinName, audio.ipinname_getpinname, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, portcls/IPinName::GetPinName
+ms.date: 4/16/2018
+ms.keywords: GetPinName, GetPinName method [Audio Devices], GetPinName method [Audio Devices],IPinName interface, IPinName interface [Audio Devices],GetPinName method, IPinName.GetPinName, IPinName::GetPinName, audio.ipinname_getpinname, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, portcls/IPinName::GetPinName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPinName::GetPinName method
+# IPinName::GetPinName
 
 
 ## -description

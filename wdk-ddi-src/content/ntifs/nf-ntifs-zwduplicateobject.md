@@ -7,7 +7,7 @@ old-location: kernel\zwduplicateobject.htm
 old-project: kernel
 ms.assetid: 9a922379-b439-4f94-9eb1-7c229318382c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtDuplicateObject, ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], kernel.zwduplicateobject, ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwDuplicateObject function

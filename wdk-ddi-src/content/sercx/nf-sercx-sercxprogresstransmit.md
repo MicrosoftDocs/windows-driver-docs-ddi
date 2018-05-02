@@ -7,7 +7,7 @@ old-location: serports\sercxprogresstransmit.htm
 old-project: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxProgressTransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports], serports.sercxprogresstransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxProgressTransmit function

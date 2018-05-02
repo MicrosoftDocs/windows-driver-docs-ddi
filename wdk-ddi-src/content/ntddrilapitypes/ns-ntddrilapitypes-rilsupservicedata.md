@@ -7,7 +7,7 @@ old-location: netvista\rilsupservicedata.htm
 old-project: netvista
 ms.assetid: 1cb4afae-75ad-4c9b-8b21-f9aade2c5fd8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], netvista.rilsupservicedata, ntddrilapitypes/RILSUPSERVICEDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\wwan_umts_mrl.htm
 old-project: netvista
 ms.assetid: B62F63EB-747A-4672-9A79-5065A8BC04D1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_UMTS_MRL, PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL, netvista.wwan_umts_mrl, wwan/PWWAN_UMTS_MRL, wwan/WWAN_UMTS_MRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_UMTS_MRL, *PWWAN_UMTS_MRL
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_UMTS_MRL structure

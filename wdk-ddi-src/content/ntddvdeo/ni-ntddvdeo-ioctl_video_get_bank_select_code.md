@@ -7,8 +7,8 @@ old-location: display\ioctl_video_get_bank_select_code.htm
 old-project: display
 ms.assetid: 2d5f0224-dbed-461b-bf05-4db7ae7d810e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_VIDEO_GET_BANK_SELECT_CODE, IOCTL_VIDEO_GET_BANK_SELECT_CODE control code [Display Devices], Video_IOCTLs_3e7414c6-20b6-48b8-81e5-31bc820d1bc4.xml, display.ioctl_video_get_bank_select_code, ntddvdeo/IOCTL_VIDEO_GET_BANK_SELECT_CODE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_GET_BANK_SELECT_CODE, IOCTL_VIDEO_GET_BANK_SELECT_CODE control, IOCTL_VIDEO_GET_BANK_SELECT_CODE control code [Display Devices], Video_IOCTLs_3e7414c6-20b6-48b8-81e5-31bc820d1bc4.xml, display.ioctl_video_get_bank_select_code, ntddvdeo/IOCTL_VIDEO_GET_BANK_SELECT_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_GET_BANK_SELECT_CODE IOCTL

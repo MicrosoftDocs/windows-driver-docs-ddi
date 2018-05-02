@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createpagingqueue.htm
 old-project: display
 ms.assetid: F7C2847F-D095-4A79-ADBB-DA0745E3192A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], _D3DKMT_CREATEPAGINGQUEUE, d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

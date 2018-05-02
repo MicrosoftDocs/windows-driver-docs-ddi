@@ -7,8 +7,8 @@ old-location: netvista\filterreceivenetbufferlists.htm
 old-project: netvista
 ms.assetid: 6359c2a7-1208-41ea-bbf9-015c91b6e8f6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_RECEIVE_NET_BUFFER_LISTS, FilterReceiveNetBufferLists, FilterReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_c78036bd-cb6a-4898-b8b3-2d8585c7cfde.xml, ndis/FilterReceiveNetBufferLists, netvista.filterreceivenetbufferlists
+ms.date: 4/25/2018
+ms.keywords: FILTER_RECEIVE_NET_BUFFER_LISTS, FILTER_RECEIVE_NET_BUFFER_LISTS callback, FilterReceiveNetBufferLists, FilterReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_c78036bd-cb6a-4898-b8b3-2d8585c7cfde.xml, ndis/FilterReceiveNetBufferLists, netvista.filterreceivenetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_RECEIVE_NET_BUFFER_LISTS callback
+# FILTER_RECEIVE_NET_BUFFER_LISTS callback function
 
 
 ## -description

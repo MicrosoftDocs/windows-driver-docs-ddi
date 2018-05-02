@@ -7,8 +7,8 @@ old-location: display\createresource.htm
 old-project: display
 ms.assetid: 5b74c989-1a62-4415-a19a-dd0ba2fcff83
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3DDDI_CREATERESOURCE, UserModeDisplayDriver_Functions_c925b8ed-3e7f-4a56-a4b0-a3c8e2ba8ebf.xml, d3dumddi/CreateResource, display.createresource
+ms.date: 4/16/2018
+ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3DDDI_CREATERESOURCE, PFND3DDDI_CREATERESOURCE callback, UserModeDisplayDriver_Functions_c925b8ed-3e7f-4a56-a4b0-a3c8e2ba8ebf.xml, d3dumddi/CreateResource, display.createresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATERESOURCE callback
+# PFND3DDDI_CREATERESOURCE callback function
 
 
 ## -description

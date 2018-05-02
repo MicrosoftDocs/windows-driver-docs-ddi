@@ -7,7 +7,7 @@ old-location: netvista\wwan_pco_type.htm
 old-project: netvista
 ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPcoTypeComplete, WwanPcoTypePartial, _WWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WwanPcoTypePartial"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_PCO_TYPE, *PWWAN_PCO_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_PCO_TYPE enumeration

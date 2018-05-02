@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.GetTypedNodePtr
-title: ExtRemoteTypedList::GetTypedNodePtr method
+title: ExtRemoteTypedList::GetTypedNodePtr
 author: windows-driver-content
 description: The GetTypedNodePtr method returns a pointer to the current list item.
 old-location: debugger\extremotetypedlist_gettypednodeptr.htm
 old-project: debugger
 ms.assetid: 3bf50952-7ac9-4c6b-9318-dd64748de9d2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_f007b7c1-89b0-43fa-95e3-792a3272b56d.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], GetTypedNodePtr method, ExtRemoteTypedList::GetTypedNodePtr, GetTypedNodePtr method [Windows Debugging], GetTypedNodePtr method [Windows Debugging], ExtRemoteTypedList class, GetTypedNodePtr,ExtRemoteTypedList.GetTypedNodePtr, debugger.extremotetypedlist_gettypednodeptr
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_f007b7c1-89b0-43fa-95e3-792a3272b56d.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNodePtr method, ExtRemoteTypedList.GetTypedNodePtr, ExtRemoteTypedList::GetTypedNodePtr, GetTypedNodePtr, GetTypedNodePtr method [Windows Debugging], GetTypedNodePtr method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednodeptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTypedList::GetTypedNodePtr method
+# ExtRemoteTypedList::GetTypedNodePtr
 
 
 ## -description

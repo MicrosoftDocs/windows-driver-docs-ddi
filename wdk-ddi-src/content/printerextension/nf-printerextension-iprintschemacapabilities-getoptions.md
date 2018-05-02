@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetOptions
-title: IPrintSchemaCapabilities::GetOptions method
+title: IPrintSchemaCapabilities::GetOptions
 author: windows-driver-content
 description: Gets all the options of a feature.
 old-location: print\iprintschemacapabilities_getoptions.htm
 old-project: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintSchemaCapabilities interface, GetOptions,IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetOptions method, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
+ms.date: 4/20/2018
+ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetOptions method, IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::GetOptions method
+# IPrintSchemaCapabilities::GetOptions
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxgk_history_buffer.htm
 old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,8 +7,8 @@ old-location: stream\ioctl_avcstrm_class.htm
 old-project: stream
 ms.assetid: 50a5cbe1-acae-461f-892b-c1a3b5b218b3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_AVCSTRM_CLASS, IOCTL_AVCSTRM_CLASS control code [Streaming Media Devices], avcsref_0e06e31a-7520-4162-8441-210cc367f65f.xml, avcstrm/IOCTL_AVCSTRM_CLASS, stream.ioctl_avcstrm_class
+ms.date: 4/23/2018
+ms.keywords: IOCTL_AVCSTRM_CLASS, IOCTL_AVCSTRM_CLASS control, IOCTL_AVCSTRM_CLASS control code [Streaming Media Devices], avcsref_0e06e31a-7520-4162-8441-210cc367f65f.xml, avcstrm/IOCTL_AVCSTRM_CLASS, stream.ioctl_avcstrm_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: AVCSTRM_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_AVCSTRM_CLASS IOCTL

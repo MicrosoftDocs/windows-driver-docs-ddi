@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_notify_interrupt_data.htm
 old-project: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, STATUS_NO_MEMORY, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -274,6 +274,13 @@ Supported starting with Windows 8.1.
 Supported starting with Windows 8.1.
 
 
+### -field DisplayOnlyPresentProgress
+
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451245">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a> structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation.
+
+Supported starting with Windows 8.
+
+
 ### -field MiracastEncodeChunkCompleted
 
 Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1 and later.
@@ -528,6 +535,21 @@ Hardware queue page faulted.
 ### -field HwQueuePageFaulted.FaultedPrimitiveAPISequenceNumber
 
 [in] When per draw fence write is enabled, identifies the draw that caused the page fault, or DXGK_PRIMITIVE_API_SEQUENCE_NUMBER_UNKNOWN if such information is not available.
+
+
+### -field HwQueuePageFaulted.FaultedHwQueue
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedHwContext
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedProcessHandle
+
+ 
 
 
 ### -field HwQueuePageFaulted.NodeOrdinal

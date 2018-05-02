@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsendsynchronousrequest.htm
 old-project: netvista
 ms.assetid: 312DED8E-570E-4DEC-B084-36894970F49F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelSendSynchronousRequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsendsynchronousrequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelSendSynchronousRequest function

@@ -7,7 +7,7 @@ old-location: kernel\zwopendirectoryobject.htm
 old-project: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtCreateDirectoryObject, ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, kernel.zwopendirectoryobject, ntifs/NtCreateDirectoryObject, ntifs/ZwOpenDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwOpenDirectoryObject function

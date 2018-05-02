@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetChar
-title: ExtRemoteData::GetChar method
+title: ExtRemoteData::GetChar
 author: windows-driver-content
 description: The GetChar method returns a CHAR version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getchar.htm
 old-project: debugger
 ms.assetid: bf916e7c-f03b-4d02-8260-bc90e8957cc9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetChar method, ExtRemoteData::GetChar, GetChar method [Windows Debugging], GetChar method [Windows Debugging], ExtRemoteData class, GetChar,ExtRemoteData.GetChar, debugger.extremotedata_getchar
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, ExtRemoteData class [Windows Debugging],GetChar method, ExtRemoteData.GetChar, ExtRemoteData::GetChar, GetChar, GetChar method [Windows Debugging], GetChar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetChar method
+# ExtRemoteData::GetChar
 
 
 ## -description

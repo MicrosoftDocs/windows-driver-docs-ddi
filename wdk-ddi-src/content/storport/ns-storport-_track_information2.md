@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
-req.product: Windows 10 or later.
 ---
 
 # _TRACK_INFORMATION2 structure

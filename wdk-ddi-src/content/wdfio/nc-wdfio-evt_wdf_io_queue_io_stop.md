@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
+ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP callback, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_IO_QUEUE_IO_STOP callback
+# EVT_WDF_IO_QUEUE_IO_STOP callback function
 
 
 ## -description

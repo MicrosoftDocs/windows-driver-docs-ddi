@@ -7,7 +7,7 @@ old-location: stream\ksproperty_memberslist.htm
 old-project: stream
 ms.assetid: 2354da98-8663-4758-add7-3ac4350f563c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST structure [Streaming Media Devices], PKSPROPERTY_MEMBERSLIST, PKSPROPERTY_MEMBERSLIST structure pointer [Streaming Media Devices], ks-struct_44a818f7-bffd-4aa5-aa30-b6376c0593ca.xml, ks/KSPROPERTY_MEMBERSLIST, ks/PKSPROPERTY_MEMBERSLIST, stream.ksproperty_memberslist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

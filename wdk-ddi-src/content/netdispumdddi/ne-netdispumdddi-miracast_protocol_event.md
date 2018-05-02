@@ -7,7 +7,7 @@ old-location: display\miracast_protocol_event.htm
 old-project: display
 ms.assetid: 7a47acf7-93a9-4bb2-a120-17c32c852ea9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MIRACAST_PROTOCOL_EVENT, MIRACAST_PROTOCOL_EVENT enumeration [Display Devices], MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE, display.miracast_protocol_event, netdispumdddi/MIRACAST_PROTOCOL_EVENT, netdispumdddi/MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, netdispumdddi/MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, netdispumdddi/MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

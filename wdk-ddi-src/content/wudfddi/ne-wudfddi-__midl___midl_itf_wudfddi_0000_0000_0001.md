@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
 ---
 
 # __MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration

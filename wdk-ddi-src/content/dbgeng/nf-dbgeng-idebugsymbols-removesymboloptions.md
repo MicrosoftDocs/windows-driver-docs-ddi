@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.RemoveSymbolOptions
-title: IDebugSymbols::RemoveSymbolOptions method
+title: IDebugSymbols::RemoveSymbolOptions
 author: windows-driver-content
 description: The RemoveSymbolOptions method turns off some of the engine's global symbol options.
 old-location: debugger\removesymboloptions.htm
 old-project: debugger
 ms.assetid: a4e1f579-8056-4e2b-9b90-735c3414abbd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols::RemoveSymbolOptions, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, RemoveSymbolOptions method [Windows Debugging], RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, RemoveSymbolOptions,IDebugSymbols.RemoveSymbolOptions, dbgeng/IDebugSymbols2::RemoveSymbolOptions, dbgeng/IDebugSymbols3::RemoveSymbolOptions, dbgeng/IDebugSymbols::RemoveSymbolOptions, debugger.removesymboloptions
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging],RemoveSymbolOptions method, IDebugSymbols.RemoveSymbolOptions, IDebugSymbols2 interface [Windows Debugging],RemoveSymbolOptions method, IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols3 interface [Windows Debugging],RemoveSymbolOptions method, IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols::RemoveSymbolOptions, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], RemoveSymbolOptions method [Windows Debugging],IDebugSymbols interface, RemoveSymbolOptions method [Windows Debugging],IDebugSymbols2 interface, RemoveSymbolOptions method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::RemoveSymbolOptions, dbgeng/IDebugSymbols3::RemoveSymbolOptions, dbgeng/IDebugSymbols::RemoveSymbolOptions, debugger.removesymboloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::RemoveSymbolOptions method
+# IDebugSymbols::RemoveSymbolOptions
 
 
 ## -description

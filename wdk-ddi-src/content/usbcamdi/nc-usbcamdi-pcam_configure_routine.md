@@ -7,8 +7,8 @@ old-location: stream\camconfigure.htm
 old-project: stream
 ms.assetid: b17fa32e-0a58-4be4-a096-e486471c1cdd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamConfigure, CamConfigure callback function [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE, stream.camconfigure, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
+ms.date: 4/23/2018
+ms.keywords: CamConfigure, CamConfigure callback function [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE, PCAM_CONFIGURE_ROUTINE callback, stream.camconfigure, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_CONFIGURE_ROUTINE callback
+# PCAM_CONFIGURE_ROUTINE callback function
 
 
 ## -description

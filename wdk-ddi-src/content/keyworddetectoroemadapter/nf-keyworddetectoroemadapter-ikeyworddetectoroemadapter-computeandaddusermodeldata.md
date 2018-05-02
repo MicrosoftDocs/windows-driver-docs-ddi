@@ -1,14 +1,14 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
-title: IKeywordDetectorOemAdapter::ComputeAndAddUserModelData method
+title: IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 author: windows-driver-content
 description: The ComputeAndAddUserModelData method is used by the training user experience to compute the user-specific information relative to the user-independent keyword.
 old-location: audio\ikeyworddetectoroemadapter_computeandaddusermodeldata.htm
 old-project: audio
 ms.assetid: 4E810EAD-3864-44C1-9845-60DAB288BB48
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface, ComputeAndAddUserModelData,IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
+ms.date: 4/16/2018
+ms.keywords: ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: KEYWORDID
+req.typenames: 
 ---
 
-# IKeywordDetectorOemAdapter::ComputeAndAddUserModelData method
+# IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 
 
 ## -description

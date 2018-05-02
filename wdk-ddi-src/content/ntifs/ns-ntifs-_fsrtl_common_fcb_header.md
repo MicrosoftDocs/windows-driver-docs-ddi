@@ -7,7 +7,7 @@ old-location: ifsk\fsrtl_common_fcb_header.htm
 old-project: ifsk
 ms.assetid: b0b199ea-d72f-4de3-a6b1-bd22140d13cb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers], PFSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], _FSRTL_COMMON_FCB_HEADER, contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, ifsk.fsrtl_common_fcb_header, ntifs/FSRTL_COMMON_FCB_HEADER, ntifs/PFSRTL_COMMON_FCB_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

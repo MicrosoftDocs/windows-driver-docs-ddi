@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxdequeueindication.htm
 old-project: netvista
 ms.assetid: ACCB45DA-1233-4276-A0F5-466E50D9377B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NDIS_WDI_TX_DEQUEUE_IND callback, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_DEQUEUE_IND callback
+# NDIS_WDI_TX_DEQUEUE_IND callback function
 
 
 ## -description

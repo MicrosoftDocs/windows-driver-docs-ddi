@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.CreatePreallocatedWdfMemory
-title: IWDFDriver::CreatePreallocatedWdfMemory method
+title: IWDFDriver::CreatePreallocatedWdfMemory
 author: windows-driver-content
 description: The CreatePreallocatedWdfMemory method creates a framework memory object for the specified buffer.
 old-location: wdf\iwdfdriver_createpreallocatedwdfmemory.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreatePreallocatedWdfMemory method, CreatePreallocatedWdfMemory method, IWDFDriver interface, CreatePreallocatedWdfMemory,IWDFDriver.CreatePreallocatedWdfMemory, IWDFDriver, IWDFDriver interface, CreatePreallocatedWdfMemory method, IWDFDriver::CreatePreallocatedWdfMemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, umdf.iwdfdriver_createpreallocatedwdfmemory, wdf.iwdfdriver_createpreallocatedwdfmemory, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
+ms.keywords: CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, CreatePreallocatedWdfMemory method,IWDFDriver interface, IWDFDriver interface,CreatePreallocatedWdfMemory method, IWDFDriver.CreatePreallocatedWdfMemory, IWDFDriver::CreatePreallocatedWdfMemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, umdf.iwdfdriver_createpreallocatedwdfmemory, wdf.iwdfdriver_createpreallocatedwdfmemory, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDriver::CreatePreallocatedWdfMemory method
+# IWDFDriver::CreatePreallocatedWdfMemory
 
 
 ## -description

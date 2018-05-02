@@ -7,8 +7,8 @@ old-location: netvista\ndiswdiopenadaptercomplete.htm
 old-project: netvista
 ms.assetid: FD6FF134-A8D7-433E-9353-88965E67749E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_OPEN_ADAPTER_COMPLETE, NdisWdiOpenAdapterComplete, NdisWdiOpenAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiOpenAdapterComplete, netvista.ndiswdiopenadaptercomplete
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_OPEN_ADAPTER_COMPLETE, NDIS_WDI_OPEN_ADAPTER_COMPLETE callback, NdisWdiOpenAdapterComplete, NdisWdiOpenAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiOpenAdapterComplete, netvista.ndiswdiopenadaptercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_OPEN_ADAPTER_COMPLETE callback
+# NDIS_WDI_OPEN_ADAPTER_COMPLETE callback function
 
 
 ## -description

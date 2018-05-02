@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _PCW_CALLBACK_INFORMATION structure

@@ -7,7 +7,7 @@ old-location: image\wias_changed_value_info.htm
 old-project: image
 ms.assetid: bfef9d54-fcd5-436b-b3ec-8cd3b8f38360
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], _WIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info, wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, wiamindr_lh/WIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WIAS_CHANGED_VALUE_INFO structure
@@ -92,7 +91,49 @@ See the PROPVARIANT structure in the Microsoft Windows SDK documentation for mor
 ### -field Old
 
 
+### -field Old.lVal
+
+ 
+
+
+### -field Old.fltVal
+
+ 
+
+
+### -field Old.bstrVal
+
+ 
+
+
+### -field Old.guidVal
+
+ 
+
+
 ### -field Current
+
+
+### -field Current.lVal
+
+ 
+
+
+### -field Current.fltVal
+
+ 
+
+
+### -field Current.bstrVal
+
+ 
+
+
+### -field Current.guidVal
+
+ 
+
+
 
 
 ## -remarks

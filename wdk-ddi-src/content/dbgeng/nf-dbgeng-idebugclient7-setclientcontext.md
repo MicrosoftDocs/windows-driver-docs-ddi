@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient7.SetClientContext
-title: IDebugClient7::SetClientContext method
+title: IDebugClient7::SetClientContext
 author: windows-driver-content
 description: The SetClientContext method is reserved for internal use.
 old-location: debugger\idebugclient7_setclientcontext.htm
 old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7::SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging], IDebugClient7 interface, SetClientContext,IDebugClient7.SetClientContext, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
+ms.date: 4/24/2018
+ms.keywords: IDebugClient7 interface [Windows Debugging],SetClientContext method, IDebugClient7.SetClientContext, IDebugClient7::SetClientContext, SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging],IDebugClient7 interface, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient7::SetClientContext method
+# IDebugClient7::SetClientContext
 
 
 ## -description

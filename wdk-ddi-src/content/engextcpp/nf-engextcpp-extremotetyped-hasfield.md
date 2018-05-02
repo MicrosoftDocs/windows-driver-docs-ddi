@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.HasField
-title: ExtRemoteTyped::HasField method
+title: ExtRemoteTyped::HasField
 author: windows-driver-content
 description: The HasField method determines if the type of the data represented by this object contains the specified member.
 old-location: debugger\extremotetyped_hasfield.htm
 old-project: debugger
 ms.assetid: c206d8e7-1a90-4866-868b-20275a52e2dd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], HasField method, ExtRemoteTyped::HasField, HasField method [Windows Debugging], HasField method [Windows Debugging], ExtRemoteTyped interface, HasField,ExtRemoteTyped.HasField, debugger.extremotetyped_hasfield
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, ExtRemoteTyped interface [Windows Debugging],HasField method, ExtRemoteTyped.HasField, ExtRemoteTyped::HasField, HasField, HasField method [Windows Debugging], HasField method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_hasfield
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::HasField method
+# ExtRemoteTyped::HasField
 
 
 ## -description

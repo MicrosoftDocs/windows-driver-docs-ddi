@@ -7,7 +7,7 @@ old-location: kernel\write_port_buffer_uchar.htm
 old-project: kernel
 ms.assetid: 59a7b11a-c6b6-4452-9518-1e5c7c07ec18
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, kernel.write_port_buffer_uchar, wdm/WRITE_PORT_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MEMORY_CACHING_TYPE
+req.typenames: 
 ---
 
 # WRITE_PORT_BUFFER_UCHAR function

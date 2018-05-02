@@ -7,8 +7,8 @@ old-location: netvista\miniportwdirxthrottle.htm
 old-project: netvista
 ms.assetid: A5985C6D-3768-4ACE-B52B-3D3494334114
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_RX_THROTTLE, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE callback, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_RX_THROTTLE callback
+# MINIPORT_WDI_RX_THROTTLE callback function
 
 
 ## -description

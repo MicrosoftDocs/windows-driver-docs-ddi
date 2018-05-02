@@ -7,7 +7,7 @@ old-location: display\dxgkarg_render.htm
 old-project: display
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_RENDER, DXGKARG_RENDER, DXGKARG_RENDER structure [Display Devices], DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, _DXGKARG_RENDER, d3dkmddi/DXGKARG_RENDER, display.dxgkarg_render"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

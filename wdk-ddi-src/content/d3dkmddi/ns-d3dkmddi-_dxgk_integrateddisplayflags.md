@@ -7,7 +7,7 @@ old-location: display\dxgk_integrateddisplayflags.htm
 old-project: display
 ms.assetid: 4671B6C1-358A-4CC2-A6FC-0FBA0F26DB07
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], _DXGK_INTEGRATEDDISPLAYFLAGS, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,12 +58,14 @@ Flags which describe simple properties of an integrated display.
 
 
 
-### -field Value
+### -field UndockedOrientation
 
-UINT used to operate on the combined bit-fields.
+Orientation of the integrated panel when the system is undocked.  
+In most systems, the integrated panel is installed such that the native orientation of the panel matches the default orientation of the system so DXGK_DPO_0 (zero) would be used.  An example where this would be non-zero is if a natively portrait panel is used in a laptop device.
 
 
-#### - DockedOrientation
+
+### -field DockedOrientation
 
 Orientation of the integrated panel when the system is docked.  If the system does not support docking, this value will not be used.
 
@@ -72,14 +74,12 @@ In most systems, the integrated panel is installed such that the native orientat
 
 
 
-#### - Reserved
+### -field Reserved
 
 This value is reserved for system use.
 
 
-#### - UndockedOrientation
+### -field Value
 
-Orientation of the integrated panel when the system is undocked.  
-In most systems, the integrated panel is installed such that the native orientation of the panel matches the default orientation of the system so DXGK_DPO_0 (zero) would be used.  An example where this would be non-zero is if a natively portrait panel is used in a laptop device.
-
+UINT used to operate on the combined bit-fields.
 

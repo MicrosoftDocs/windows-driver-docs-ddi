@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.AddProcessOptions
-title: IDebugClient4::AddProcessOptions method
+title: IDebugClient4::AddProcessOptions
 author: windows-driver-content
 description: The AddProcessOptions method adds the process options to those options that affect the current process.
 old-location: debugger\addprocessoptions.htm
 old-project: debugger
 ms.assetid: eb5f1d91-cfad-48e6-b578-64b64034222f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddProcessOptions method [Windows Debugging], AddProcessOptions method [Windows Debugging], IDebugClient interface, AddProcessOptions method [Windows Debugging], IDebugClient2 interface, AddProcessOptions method [Windows Debugging], IDebugClient3 interface, AddProcessOptions method [Windows Debugging], IDebugClient4 interface, AddProcessOptions method [Windows Debugging], IDebugClient5 interface, AddProcessOptions,IDebugClient4.AddProcessOptions, IDebugClient interface [Windows Debugging], AddProcessOptions method, IDebugClient2 interface [Windows Debugging], AddProcessOptions method, IDebugClient2::AddProcessOptions, IDebugClient3 interface [Windows Debugging], AddProcessOptions method, IDebugClient3::AddProcessOptions, IDebugClient4, IDebugClient4 interface [Windows Debugging], AddProcessOptions method, IDebugClient4::AddProcessOptions, IDebugClient5 interface [Windows Debugging], AddProcessOptions method, IDebugClient5::AddProcessOptions, IDebugClient::AddProcessOptions, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, dbgeng/IDebugClient2::AddProcessOptions, dbgeng/IDebugClient3::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, dbgeng/IDebugClient5::AddProcessOptions, dbgeng/IDebugClient::AddProcessOptions, debugger.addprocessoptions
+ms.date: 4/24/2018
+ms.keywords: AddProcessOptions, AddProcessOptions method [Windows Debugging], AddProcessOptions method [Windows Debugging],IDebugClient interface, AddProcessOptions method [Windows Debugging],IDebugClient2 interface, AddProcessOptions method [Windows Debugging],IDebugClient3 interface, AddProcessOptions method [Windows Debugging],IDebugClient4 interface, AddProcessOptions method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AddProcessOptions method, IDebugClient2 interface [Windows Debugging],AddProcessOptions method, IDebugClient2::AddProcessOptions, IDebugClient3 interface [Windows Debugging],AddProcessOptions method, IDebugClient3::AddProcessOptions, IDebugClient4 interface [Windows Debugging],AddProcessOptions method, IDebugClient4.AddProcessOptions, IDebugClient4::AddProcessOptions, IDebugClient5 interface [Windows Debugging],AddProcessOptions method, IDebugClient5::AddProcessOptions, IDebugClient::AddProcessOptions, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, dbgeng/IDebugClient2::AddProcessOptions, dbgeng/IDebugClient3::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, dbgeng/IDebugClient5::AddProcessOptions, dbgeng/IDebugClient::AddProcessOptions, debugger.addprocessoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,10 +45,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::AddProcessOptions method
+# IDebugClient4::AddProcessOptions
 
 
 ## -description

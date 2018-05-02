@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
-req.product: Windows 10 or later.
+req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
 ---
 
 # _HW_INITIALIZATION_DATA structure
@@ -219,6 +218,16 @@ The Storport driver ignores this member, because miniport drivers that work with
 ### -field VendorId
 
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
+
+
+### -field ReservedUshort
+
+ 
+
+
+### -field PortVersionFlags
+
+Flags to indicate supported features.
 
 
 ### -field DeviceIdLength
@@ -400,11 +409,6 @@ A pointer to an optional <a href="https://msdn.microsoft.com/library/windows/har
 #### - HwUnitControl
 
 A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port driver calls this routine with a control request for a storage unit device.
-
-
-#### - PortVersionFlags
-
-Flags to indicate supported features.
 
 
 #### - Reserved1

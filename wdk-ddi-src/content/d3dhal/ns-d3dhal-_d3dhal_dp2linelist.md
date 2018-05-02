@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2linelist.htm
 old-project: display
 ms.assetid: ac8346e9-46ce-4205-a46b-c327888b952d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST structure [Display Devices], LPD3DHAL_DP2LINELIST, LPD3DHAL_DP2LINELIST structure pointer [Display Devices], _D3DHAL_DP2LINELIST, d3dhal/D3DHAL_DP2LINELIST, d3dhal/LPD3DHAL_DP2LINELIST, d3dstrct_e2e04b99-c6fc-4ee3-bcaf-4794814848a0.xml, display.d3dhal_dp2linelist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stream\ksevent_cameracontrol.htm
 old-project: stream
 ms.assetid: 10d08e58-cd1f-4585-a93b-fabeb4fcf27c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSEVENT_CAMERACONTROL, KSEVENT_CAMERACONTROL enumeration [Streaming Media Devices], KSEVENT_CAMERACONTROL_FOCUS, KSEVENT_CAMERACONTROL_ZOOM, ksmedia/KSEVENT_CAMERACONTROL, ksmedia/KSEVENT_CAMERACONTROL_FOCUS, ksmedia/KSEVENT_CAMERACONTROL_ZOOM, stream.ksevent_cameracontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

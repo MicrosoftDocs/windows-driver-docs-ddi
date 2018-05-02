@@ -7,8 +7,8 @@ old-location: print\iprinterextensioncontextcollection.htm
 old-project: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices], described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices],described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterExtensionContextCollection interface

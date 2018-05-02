@@ -7,8 +7,8 @@ old-location: display\getquerydata.htm
 old-project: display
 ms.assetid: 64daec14-8e16-4df3-bb0c-27760223b86c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetQueryData, GetQueryData callback function [Display Devices], PFND3DDDI_GETQUERYDATA, UserModeDisplayDriver_Functions_05870f6b-5971-4201-9910-c8c8c548878a.xml, d3dumddi/GetQueryData, display.getquerydata
+ms.date: 4/16/2018
+ms.keywords: GetQueryData, GetQueryData callback function [Display Devices], PFND3DDDI_GETQUERYDATA, PFND3DDDI_GETQUERYDATA callback, UserModeDisplayDriver_Functions_05870f6b-5971-4201-9910-c8c8c548878a.xml, d3dumddi/GetQueryData, display.getquerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_GETQUERYDATA callback
+# PFND3DDDI_GETQUERYDATA callback function
 
 
 ## -description

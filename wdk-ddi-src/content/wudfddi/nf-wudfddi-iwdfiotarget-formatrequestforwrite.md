@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForWrite
-title: IWDFIoTarget::FormatRequestForWrite method
+title: IWDFIoTarget::FormatRequestForWrite
 author: windows-driver-content
 description: The FormatRequestForWrite method formats an I/O request object for a write operation.
 old-location: wdf\iwdfiotarget_formatrequestforwrite.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dd579620-4fe9-4cd0-8e21-f32b07338de1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: FormatRequestForWrite method, FormatRequestForWrite method, IWDFIoTarget interface, FormatRequestForWrite,IWDFIoTarget.FormatRequestForWrite, IWDFIoTarget, IWDFIoTarget interface, FormatRequestForWrite method, IWDFIoTarget::FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, umdf.iwdfiotarget_formatrequestforwrite, wdf.iwdfiotarget_formatrequestforwrite, wudfddi/IWDFIoTarget::FormatRequestForWrite
+ms.keywords: FormatRequestForWrite, FormatRequestForWrite method, FormatRequestForWrite method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForWrite method, IWDFIoTarget.FormatRequestForWrite, IWDFIoTarget::FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, umdf.iwdfiotarget_formatrequestforwrite, wdf.iwdfiotarget_formatrequestforwrite, wudfddi/IWDFIoTarget::FormatRequestForWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget::FormatRequestForWrite method
+# IWDFIoTarget::FormatRequestForWrite
 
 
 ## -description

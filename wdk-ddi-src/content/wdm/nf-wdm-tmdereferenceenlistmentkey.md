@@ -7,7 +7,7 @@ old-location: kernel\tmdereferenceenlistmentkey.htm
 old-project: kernel
 ms.assetid: e03b5f4d-58d5-43d5-a0c3-8a3cc83bd38a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: TmDereferenceEnlistmentKey, TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmdereferenceenlistmentkey, ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml, wdm/TmDereferenceEnlistmentKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmDereferenceEnlistmentKey function

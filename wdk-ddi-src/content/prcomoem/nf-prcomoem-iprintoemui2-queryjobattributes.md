@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI2.QueryJobAttributes
-title: IPrintOemUI2::QueryJobAttributes method
+title: IPrintOemUI2::QueryJobAttributes
 author: windows-driver-content
 description: The IPrintOemUI2::QueryJobAttributes method allows a UI plug-in to postprocess the core driver's results after a call to the DrvQueryJobAttributes DDI.
 old-location: print\iprintoemui2_queryjobattributes.htm
 old-project: print
 ms.assetid: cb510aa6-7156-4b02-bab1-6951becbc1a0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI2, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, IPrintOemUI2::QueryJobAttributes, QueryJobAttributes method [Print Devices], QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, QueryJobAttributes,IPrintOemUI2.QueryJobAttributes, prcomoem/IPrintOemUI2::QueryJobAttributes, print.iprintoemui2_queryjobattributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI2 interface [Print Devices],QueryJobAttributes method, IPrintOemUI2.QueryJobAttributes, IPrintOemUI2::QueryJobAttributes, QueryJobAttributes, QueryJobAttributes method [Print Devices], QueryJobAttributes method [Print Devices],IPrintOemUI2 interface, prcomoem/IPrintOemUI2::QueryJobAttributes, print.iprintoemui2_queryjobattributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI2::QueryJobAttributes method
+# IPrintOemUI2::QueryJobAttributes
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: serports\evtsercxreceive.htm
 old-project: serports
 ms.assetid: C862D632-5425-4EEB-9C5D-BC3721D9F132
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EVT_SERCX_RECEIVE callback, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_RECEIVE callback
+# EVT_SERCX_RECEIVE callback function
 
 
 ## -description

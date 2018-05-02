@@ -7,7 +7,7 @@ old-location: kernel\wmiregguid.htm
 old-project: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PWMIREGGUIDW, PWMIREGGUID, PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], WMIREGGUID, WMIREGGUID structure [Kernel-Mode Driver Architecture], WMIREGGUIDW, WMIREGGUIDW structure [Kernel-Mode Driver Architecture], kernel.wmiregguid, kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, wmistr/PWMIREGGUID, wmistr/WMIREGGUID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WMIREGGUIDW, *PWMIREGGUIDW
-req.product: Windows 10 or later.
 ---
 
 # WMIREGGUIDW structure
@@ -137,26 +136,24 @@ Specifies the number of static instance names to be defined for this block. If t
  
 
 
-
-
-#### - BaseNameOffset
-
-Indicates the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a single counted Unicode string that serves as a base for WMI to generate static instance names. This member is valid only if WMIREG_FLAG_INSTANCE_BASENAME is set in <b>Flags</b>. If the block is being registered with dynamic instance names, WMI ignores <b>BaseNameOffset</b>. 
-
-
-#### - InstanceInfo
-
-Reserved for use by WMI. 
-
-
-#### - InstanceNameList
+### -field DUMMYUNIONNAME.InstanceNameList
 
 Indicates the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings. This member is valid only if WMIREG_FLAG_INSTANCE_LIST is set in <b>Flags</b>. If the block is being registered with dynamic instance names, WMI ignores <b>InstanceNameList</b>. 
 
 
-#### - Pdo
+### -field DUMMYUNIONNAME.BaseNameOffset
+
+Indicates the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a single counted Unicode string that serves as a base for WMI to generate static instance names. This member is valid only if WMIREG_FLAG_INSTANCE_BASENAME is set in <b>Flags</b>. If the block is being registered with dynamic instance names, WMI ignores <b>BaseNameOffset</b>. 
+
+
+### -field DUMMYUNIONNAME.Pdo
 
 Pointer to the physical device object (PDO) passed to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine. WMI uses the device instance path of this PDO as a base from which to generate static instance names. This member is valid only if WMIREG_FLAG_INSTANCE_PDO is set in <b>Flags</b>. If the block is being registered with dynamic instance names, WMI ignores <b>Pdo</b>. 
+
+
+### -field DUMMYUNIONNAME.InstanceInfo
+
+Reserved for use by WMI. 
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_createelementlayout.htm
 old-project: display
 ms.assetid: 3eb1555b-3274-496d-b6af-9cb0a6083ee4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_CREATEELEMENTLAYOUT, D3D10DDIARG_CREATEELEMENTLAYOUT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8c912e61-9cff-46ad-963f-16d3b9a13b10.xml, d3d10umddi/D3D10DDIARG_CREATEELEMENTLAYOUT, display.d3d10ddiarg_createelementlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

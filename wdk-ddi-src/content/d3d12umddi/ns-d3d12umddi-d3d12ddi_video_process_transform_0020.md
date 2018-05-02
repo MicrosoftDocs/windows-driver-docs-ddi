@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_transform.htm
 old-project: display
 ms.assetid: E463BD7F-F89C-4D82-ABCA-4AF48EC21655
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020, D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020, display.d3d12ddi_video_process_transform
 ms.prod: windows-hardware
 ms.technology: windows-devices

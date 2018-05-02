@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackStateChange.OnStateChange
-title: IQueueCallbackStateChange::OnStateChange method
+title: IQueueCallbackStateChange::OnStateChange
 author: windows-driver-content
 description: The OnStateChange method is called when the state of the I/O queue object changes.
 old-location: wdf\iqueuecallbackstatechange_onstatechange.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69a422a1-b878-496e-b1b9-e04b7c3db121
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackStateChange, IQueueCallbackStateChange interface, OnStateChange method, IQueueCallbackStateChange::OnStateChange, OnStateChange method, OnStateChange method, IQueueCallbackStateChange interface, OnStateChange,IQueueCallbackStateChange.OnStateChange, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, umdf.iqueuecallbackstatechange_onstatechange, wdf.iqueuecallbackstatechange_onstatechange, wudfddi/IQueueCallbackStateChange::OnStateChange
+ms.keywords: IQueueCallbackStateChange interface,OnStateChange method, IQueueCallbackStateChange.OnStateChange, IQueueCallbackStateChange::OnStateChange, OnStateChange, OnStateChange method, OnStateChange method,IQueueCallbackStateChange interface, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, umdf.iqueuecallbackstatechange_onstatechange, wdf.iqueuecallbackstatechange_onstatechange, wudfddi/IQueueCallbackStateChange::OnStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackStateChange::OnStateChange method
+# IQueueCallbackStateChange::OnStateChange
 
 
 ## -description

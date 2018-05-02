@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9587928C-6C40-4550-820A-B77968E3E16A
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EvtPosCxDeviceOwnershipChange, EvtPosCxDeviceOwnershipChange callback function, pos.evt_pos_cx_device_ownership_change, poscx/EvtPosCxDeviceOwnershipChange
+ms.keywords: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback, EvtPosCxDeviceOwnershipChange, EvtPosCxDeviceOwnershipChange callback function, pos.evt_pos_cx_device_ownership_change, poscx/EvtPosCxDeviceOwnershipChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,11 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 
-# EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback
+# EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback function
 
 
 ## -description

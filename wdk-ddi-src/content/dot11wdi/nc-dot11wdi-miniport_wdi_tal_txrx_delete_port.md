@@ -7,8 +7,8 @@ old-location: netvista\miniportwditaltxrxdeleteport.htm
 old-project: netvista
 ms.assetid: 3DB6AC6F-2A6F-43E1-B98D-B4E5C8A87845
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback
+# MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback function
 
 
 ## -description

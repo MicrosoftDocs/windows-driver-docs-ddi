@@ -7,7 +7,7 @@ old-location: netvista\ndis_nic_switch_vport_info_array.htm
 old-project: netvista
 ms.assetid: 64bb0edf-b281-40cc-b36e-6ae1fb71ccb4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, netvista.ndis_nic_switch_vport_info_array, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,8 +7,8 @@ old-location: display\svgahwioportulongstring.htm
 old-project: display
 ms.assetid: 190adc75-7274-49e2-a9b6-2897168df091
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
+ms.date: 4/16/2018
+ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, PDRIVER_IO_PORT_ULONG_STRING callback, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PDRIVER_IO_PORT_ULONG_STRING callback
+# PDRIVER_IO_PORT_ULONG_STRING callback function
 
 
 ## -description

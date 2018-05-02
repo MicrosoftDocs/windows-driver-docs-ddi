@@ -7,8 +7,8 @@ old-location: netvista\DereferenceSwitchPort.htm
 old-project: netvista
 ms.assetid: 976D3A69-C539-4C8E-9664-F85717E5F712
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DereferenceSwitchPort, DereferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, ndis/DereferenceSwitchPort, netvista.DereferenceSwitchPort
+ms.date: 4/25/2018
+ms.keywords: DereferenceSwitchPort, DereferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback, ndis/DereferenceSwitchPort, netvista.DereferenceSwitchPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback
+# NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback function
 
 
 ## -description

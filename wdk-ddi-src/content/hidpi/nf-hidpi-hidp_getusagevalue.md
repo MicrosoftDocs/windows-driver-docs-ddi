@@ -7,7 +7,7 @@ old-location: hid\hidp_getusagevalue.htm
 old-project: hid
 ms.assetid: 5f2d1536-4676-4afe-aa5c-08e7c74d1dd2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_GetUsageValue, HidP_GetUsageValue routine [Human Input Devices], hid.hidp_getusagevalue, hidfunc_d046d7e6-bd4c-4d80-80a8-f8e2d000eeee.xml, hidpi/HidP_GetUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_GetUsageValue function

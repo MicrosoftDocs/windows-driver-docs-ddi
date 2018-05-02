@@ -7,8 +7,8 @@ old-location: display\agpsetrate.htm
 old-project: display
 ms.assetid: 6885df05-8cc4-4ae0-b7ca-6fd94374cfbf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate
+ms.date: 4/16/2018
+ms.keywords: AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, PAGP_SET_RATE callback, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PAGP_SET_RATE callback
+# PAGP_SET_RATE callback function
 
 
 ## -description

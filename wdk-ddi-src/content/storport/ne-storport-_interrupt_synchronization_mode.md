@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: INTERRUPT_SYNCHRONIZATION_MODE
-req.product: Windows 10 or later.
 ---
 
 # _INTERRUPT_SYNCHRONIZATION_MODE enumeration

@@ -7,8 +7,8 @@ old-location: print\drvwritespoolbuf.htm
 old-project: print
 ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
+ms.date: 4/20/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf callback, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvWriteSpoolBuf callback
+# PFN_DrvWriteSpoolBuf callback function
 
 
 ## -description

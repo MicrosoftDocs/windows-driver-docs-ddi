@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.RetrievePipePolicy
-title: IWDFUsbTargetPipe::RetrievePipePolicy method
+title: IWDFUsbTargetPipe::RetrievePipePolicy
 author: windows-driver-content
 description: The RetrievePipePolicy method retrieves a WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_retrievepipepolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, RetrievePipePolicy method, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method, IWDFUsbTargetPipe interface, RetrievePipePolicy,IWDFUsbTargetPipe.RetrievePipePolicy, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
+ms.keywords: IWDFUsbTargetPipe interface,RetrievePipePolicy method, IWDFUsbTargetPipe.RetrievePipePolicy, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::RetrievePipePolicy method
+# IWDFUsbTargetPipe::RetrievePipePolicy
 
 
 ## -description

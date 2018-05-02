@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetUlong
-title: IDebugFailureAnalysis2::GetUlong method
+title: IDebugFailureAnalysis2::GetUlong
 author: windows-driver-content
 description: The GetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block.
 old-location: debugger\idebugfailureanalysis2_getstring.htm
 old-project: debugger
 ms.assetid: 76F5F3E0-74BF-4DFF-9AA3-A67C03AF56F9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, GetUlong,IDebugFailureAnalysis2.GetUlong, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis2::GetUlong, debugger.idebugfailureanalysis2_getstring, extsfns/IDebugFailureAnalysis2::GetUlong
+ms.date: 4/24/2018
+ms.keywords: GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetUlong method, IDebugFailureAnalysis2.GetUlong, IDebugFailureAnalysis2::GetUlong, debugger.idebugfailureanalysis2_getstring, extsfns/IDebugFailureAnalysis2::GetUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::GetUlong method
+# IDebugFailureAnalysis2::GetUlong
 
 
 ## -description

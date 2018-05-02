@@ -7,8 +7,8 @@ old-location: dtf\iwdtf2.htm
 old-project: dtf
 ms.assetid: c6ac7f2b-e68e-47ed-89b7-d7704110c606
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTF2, IWDTF2 interface [Windows Device Testing Framework], IWDTF2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTF2, dtf.iwdtf2, wdtf/IWDTF2
+ms.date: 4/4/2018
+ms.keywords: IWDTF2, IWDTF2 interface [Windows Device Testing Framework], IWDTF2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTF2, dtf.iwdtf2, wdtf/IWDTF2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDTF2 interface

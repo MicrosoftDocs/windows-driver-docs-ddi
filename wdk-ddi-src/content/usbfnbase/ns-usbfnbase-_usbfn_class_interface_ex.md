@@ -7,7 +7,7 @@ old-location: buses\usbfn_class_interface_ex.htm
 old-project: usbref
 ms.assetid: DEA417E7-FA4B-4F72-A03A-ECE921FC725C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX structure pointer [Buses], USBFN_CLASS_INTERFACE_EX, USBFN_CLASS_INTERFACE_EX structure [Buses], _USBFN_CLASS_INTERFACE_EX, buses.usbfn_class_interface_ex, usbfnbase/PUSBFN_CLASS_INTERFACE_EX, usbfnbase/USBFN_CLASS_INTERFACE_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USBFN_CLASS_INTERFACE_EX, *PUSBFN_CLASS_INTERFACE_EX
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_CLASS_INTERFACE_EX structure

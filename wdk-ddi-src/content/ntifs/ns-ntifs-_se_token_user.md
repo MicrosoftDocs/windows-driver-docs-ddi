@@ -7,7 +7,7 @@ old-location: ifsk\se_token_user.htm
 old-project: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,31 +63,29 @@ The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that c
  
 
 
+### -field DUMMYUNIONNAME.TokenUser
+
+Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
+
+
+### -field DUMMYUNIONNAME.User
+
+Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
+
+
 ### -field DUMMYUNIONNAME2
 
  
 
 
-
-
-#### - Buffer
-
-Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
-
-
-#### - Sid
+### -field DUMMYUNIONNAME2.Sid
 
 Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
 
 
-#### - TokenUser
+### -field DUMMYUNIONNAME2.Buffer
 
-Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
-
-
-#### - User
-
-Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
+Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
 
 
 ## -see-also

@@ -7,8 +7,8 @@ old-location: netvista\ndiswdipeercreateindication.htm
 old-project: netvista
 ms.assetid: 58B60160-FE04-4EDE-900F-244D0F76E50D
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_PEER_CREATE_IND, NdisWdiPeerCreateIndication, NdisWdiPeerCreateIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerCreateIndication, netvista.ndiswdipeercreateindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_PEER_CREATE_IND, NDIS_WDI_PEER_CREATE_IND callback, NdisWdiPeerCreateIndication, NdisWdiPeerCreateIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerCreateIndication, netvista.ndiswdipeercreateindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_PEER_CREATE_IND callback
+# NDIS_WDI_PEER_CREATE_IND callback function
 
 
 ## -description

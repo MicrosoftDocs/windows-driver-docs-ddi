@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.ExecuteCommandFile
-title: IDebugControl3::ExecuteCommandFile method
+title: IDebugControl3::ExecuteCommandFile
 author: windows-driver-content
 description: The ExecuteCommandFile method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfile.htm
 old-project: debugger
 ms.assetid: 6b8f53d7-361c-40a3-b93c-39e653bd9032
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ExecuteCommandFile method [Windows Debugging], ExecuteCommandFile method [Windows Debugging], IDebugControl interface, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface, ExecuteCommandFile,IDebugControl3.ExecuteCommandFile, IDebugControl interface [Windows Debugging], ExecuteCommandFile method, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl2::ExecuteCommandFile, IDebugControl3, IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl3::ExecuteCommandFile, IDebugControl::ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, dbgeng/IDebugControl2::ExecuteCommandFile, dbgeng/IDebugControl3::ExecuteCommandFile, dbgeng/IDebugControl::ExecuteCommandFile, debugger.executecommandfile
+ms.date: 4/24/2018
+ms.keywords: ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], ExecuteCommandFile method [Windows Debugging],IDebugControl interface, ExecuteCommandFile method [Windows Debugging],IDebugControl2 interface, ExecuteCommandFile method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ExecuteCommandFile method, IDebugControl2 interface [Windows Debugging],ExecuteCommandFile method, IDebugControl2::ExecuteCommandFile, IDebugControl3 interface [Windows Debugging],ExecuteCommandFile method, IDebugControl3.ExecuteCommandFile, IDebugControl3::ExecuteCommandFile, IDebugControl::ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, dbgeng/IDebugControl2::ExecuteCommandFile, dbgeng/IDebugControl3::ExecuteCommandFile, dbgeng/IDebugControl::ExecuteCommandFile, debugger.executecommandfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::ExecuteCommandFile method
+# IDebugControl3::ExecuteCommandFile
 
 
 ## -description

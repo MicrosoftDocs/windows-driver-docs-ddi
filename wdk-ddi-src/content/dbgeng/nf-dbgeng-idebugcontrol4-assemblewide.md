@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AssembleWide
-title: IDebugControl4::AssembleWide method
+title: IDebugControl4::AssembleWide
 author: windows-driver-content
 description: The AssembleWide method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemblewide.htm
 old-project: debugger
 ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging], IDebugControl4 interface, AssembleWide,IDebugControl4.AssembleWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AssembleWide method, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
+ms.date: 4/24/2018
+ms.keywords: AssembleWide, AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AssembleWide method, IDebugControl4.AssembleWide, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::AssembleWide method
+# IDebugControl4::AssembleWide
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\ndispdfreequeue.htm
 old-project: netvista
 ms.assetid: 1DE8582C-AF11-4CBA-8F4C-159266A7F3BA
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_PD_FREE_QUEUE, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
+ms.date: 4/25/2018
+ms.keywords: NDIS_PD_FREE_QUEUE, NDIS_PD_FREE_QUEUE callback, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PD_FREE_QUEUE callback
+# NDIS_PD_FREE_QUEUE callback function
 
 
 ## -description

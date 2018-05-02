@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetProperties
-title: IKsAllocatorEx::KsSetProperties method
+title: IKsAllocatorEx::KsSetProperties
 author: windows-driver-content
 description: Sets the properties for an allocator.
 old-location: stream\iksallocatorex_kssetproperties.htm
 old-project: stream
 ms.assetid: 17145801-5EE4-4022-997A-03B14C794D2F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], KsSetProperties method, IKsAllocatorEx::KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices], IKsAllocatorEx interface, KsSetProperties,IKsAllocatorEx.KsSetProperties, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
+ms.date: 4/23/2018
+ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocatorEx::KsSetProperties method
+# IKsAllocatorEx::KsSetProperties
 
 
 ## -description

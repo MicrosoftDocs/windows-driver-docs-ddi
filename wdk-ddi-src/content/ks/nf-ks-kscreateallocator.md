@@ -7,7 +7,7 @@ old-location: stream\kscreateallocator.htm
 old-project: stream
 ms.assetid: c67e036c-9f4c-447e-94bb-73cf215c865a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

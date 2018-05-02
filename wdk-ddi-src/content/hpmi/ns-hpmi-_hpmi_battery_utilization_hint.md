@@ -58,17 +58,6 @@ This hint indicates if the OEM Battery Manager should attempt to save as
 	batteries cannot be removed while system is operational).
 
 
-## -syntax
-
-
-````
-typedef struct _HPMI_BATTERY_UTILIZATION_HINT {
-  ULONG          Version;
-  HPMI_HINT_BOOL PreserveNonHotSwappableBatteries;
-} HPMI_BATTERY_UTILIZATION_HINT, *PHPMI_BATTERY_UTILIZATION_HINT;
-````
-
-
 ## -struct-fields
 
 
@@ -98,18 +87,18 @@ Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/E056400C-A0FE-4740-945D-C529C8804DF3">HPMI_HINT_BOOL</a>
+
+
+
+<a href="https://msdn.microsoft.com/CE326F69-64A4-466E-8A02-5C08AFF8490C">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+
+
+
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
-
-
-
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
-
-
-
-<a href="..\hpmi\ne-hpmi-_hpmi_hint_bool.md">HPMI_HINT_BOOL</a>
-
-
-
  
 
  

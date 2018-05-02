@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.AddRequest
-title: IBidiRequestContainer::AddRequest method
+title: IBidiRequestContainer::AddRequest
 author: windows-driver-content
 description: The AddRequest method adds a request to the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__addrequest.htm
 old-project: print
 ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AddRequest method [Print Devices], AddRequest method [Print Devices], IBidiRequestContainer interface, AddRequest,IBidiRequestContainer.AddRequest, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], AddRequest method, IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, bidispl/IBidiRequestContainer::AddRequest, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest
+ms.date: 4/20/2018
+ms.keywords: AddRequest, AddRequest method [Print Devices], AddRequest method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],AddRequest method, IBidiRequestContainer.AddRequest, IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, bidispl/IBidiRequestContainer::AddRequest, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequestContainer::AddRequest method
+# IBidiRequestContainer::AddRequest
 
 
 ## -description

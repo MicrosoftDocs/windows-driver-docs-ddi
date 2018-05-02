@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62d31b13-bc4a-4b2f-82be-551a61cae218
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control code [Storage Devices], k307_50fea771-4937-481d-9a1b-f4d69bb939bb.xml, ntdddisk/IOCTL_DISK_GET_LENGTH_INFO, storage.ioctl_disk_get_length_info
+ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Storage Devices], k307_50fea771-4937-481d-9a1b-f4d69bb939bb.xml, ntdddisk/IOCTL_DISK_GET_LENGTH_INFO, storage.ioctl_disk_get_length_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_GET_LENGTH_INFO IOCTL

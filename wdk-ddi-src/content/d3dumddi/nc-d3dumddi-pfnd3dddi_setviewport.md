@@ -7,8 +7,8 @@ old-location: display\setviewport.htm
 old-project: display
 ms.assetid: ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SETVIEWPORT, SetViewport, SetViewport callback function [Display Devices], UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml, d3dumddi/SetViewport, display.setviewport
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETVIEWPORT, PFND3DDDI_SETVIEWPORT callback, SetViewport, SetViewport callback function [Display Devices], UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml, d3dumddi/SetViewport, display.setviewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETVIEWPORT callback
+# PFND3DDDI_SETVIEWPORT callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\dxvaddi_extendedformat.htm
 old-project: display
 ms.assetid: e4f863bd-12ec-489d-a6e0-6b9242fbb0b0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], _DXVADDI_EXTENDEDFORMAT, d3dumddi/DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ The DXVADDI_EXTENDEDFORMAT structure describes the extended format of the video 
 [in] The conversion function from R'G'B' to RGB. The five bits are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562962">DXVADDI_VIDEOTRANSFERFUNCTION</a> enumeration type. 
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that describes the extended format of the video frame.
 

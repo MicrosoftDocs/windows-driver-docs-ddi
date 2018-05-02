@@ -7,7 +7,7 @@ old-location: kernel\obregistercallbacks.htm
 old-project: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, wdm/ObRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ObRegisterCallbacks function

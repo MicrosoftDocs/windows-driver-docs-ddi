@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d3eb4d6-9fc7-4924-9b95-f5824713049b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CompletionRoutine, CompletionRoutine callback function, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, EVT_WDF_REQUEST_COMPLETION_ROUTINE, kmdf.completionroutine, wdf.completionroutine, wdfrequest/CompletionRoutine
+ms.keywords: CompletionRoutine, CompletionRoutine callback function, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, EVT_WDF_REQUEST_COMPLETION_ROUTINE, EVT_WDF_REQUEST_COMPLETION_ROUTINE callback, kmdf.completionroutine, wdf.completionroutine, wdfrequest/CompletionRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_REQUEST_COMPLETION_ROUTINE callback
+# EVT_WDF_REQUEST_COMPLETION_ROUTINE callback function
 
 
 ## -description

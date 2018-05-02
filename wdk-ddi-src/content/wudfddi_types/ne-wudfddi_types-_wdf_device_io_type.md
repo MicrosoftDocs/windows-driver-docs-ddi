@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_IO_TYPE enumeration

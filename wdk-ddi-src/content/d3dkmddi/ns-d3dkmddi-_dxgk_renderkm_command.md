@@ -7,7 +7,7 @@ old-location: display\dxgk_renderkm_command.htm
 old-project: display
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,48 +75,42 @@ The DXGK_RENDERKM_COMMAND structure is used to construct a command buffer to con
 ### -field Command
 
 
-
-#### BitBlt
+### -field Command.BitBlt
 
 
        [in] A bit-block transfer (bitblt) that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561079">DXGK_GDIARG_BITBLT</a> structure.
       
 
 
-
-#### ColorFill
+### -field Command.ColorFill
 
 
        [in] A color fill that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561083">DXGK_GDIARG_COLORFILL</a> structure.
       
 
 
-
-#### AlphaBlend
+### -field Command.AlphaBlend
 
 
        [in] An alpha blend that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561074">DXGK_GDIARG_ALPHABLEND</a> structure.
       
 
 
-
-#### StretchBlt
+### -field Command.StretchBlt
 
 
        [in] A stretch bit-block transfer that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561089">DXGK_GDIARG_STRETCHBLT</a> structure.
       
 
 
-
-#### TransparentBlt
+### -field Command.TransparentBlt
 
 
        [in] A transparent bit-block transfer that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561091">DXGK_GDIARG_TRANSPARENTBLT</a> structure.
       
 
 
-
-#### ClearTypeBlend
+### -field Command.ClearTypeBlend
 
 
        [in] A ClearType blend that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561082">DXGK_GDIARG_CLEARTYPEBLEND</a> structure.

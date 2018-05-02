@@ -7,7 +7,7 @@ old-location: ifsk\fltpropagateactivityidtothread.htm
 old-project: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltPropagateActivityIdToThread function

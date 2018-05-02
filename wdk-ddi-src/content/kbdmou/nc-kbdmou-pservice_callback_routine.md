@@ -7,8 +7,8 @@ old-location: hid\kbdclass_class_service_callback_routine.htm
 old-project: hid
 ms.assetid: 78ae2a98-bebd-43ee-b016-2f619c3135ca
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: ClassServiceCallback, ClassServiceCallback callback function [Human Input Devices], PSERVICE_CALLBACK_ROUTINE, hid.kbdclass_class_service_callback_routine, kbdmou/ClassServiceCallback, kref_c3fa9125-0bc4-4936-b4e5-eb4e5eee23e2.xml
+ms.date: 4/30/2018
+ms.keywords: ClassServiceCallback, ClassServiceCallback callback function [Human Input Devices], PSERVICE_CALLBACK_ROUTINE, PSERVICE_CALLBACK_ROUTINE callback, hid.kbdclass_class_service_callback_routine, kbdmou/ClassServiceCallback, kref_c3fa9125-0bc4-4936-b4e5-eb4e5eee23e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: 
 ---
 
-# PSERVICE_CALLBACK_ROUTINE callback
+# PSERVICE_CALLBACK_ROUTINE callback function
 
 
 ## -description

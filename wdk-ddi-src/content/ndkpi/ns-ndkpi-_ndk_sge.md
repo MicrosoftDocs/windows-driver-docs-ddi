@@ -7,7 +7,7 @@ old-location: netvista\ndk_sge.htm
 old-project: netvista
 ms.assetid: D64DD5F0-2BCA-4A6B-A7BA-04A2B8E3B9FE
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_SGE, NDK_SGE structure [Network Drivers Starting with Windows Vista], _NDK_SGE, ndkpi/NDK_SGE, netvista.ndk_sge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,6 +58,16 @@ The  <b>NDK_SGE</b> structure specifies the local buffers for NDK work requests.
 
 
 
+### -field VirtualAddress
+
+A virtual address.
+
+
+### -field LogicalAddress
+
+A logical address.
+
+
 ### -field Length
 
 The length, in bytes, of the buffer.
@@ -66,16 +76,6 @@ The length, in bytes, of the buffer.
 ### -field MemoryRegionToken
 
 A memory region token. When <b>MemoryRegionToken</b> is set to the token returned by <i>NdkGetPrivilegedMemoryRegionToken</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439896">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>), the <b>NDK_SGE</b> must contain a <b>LogicalAddress</b>. When <b>MemoryRegionToken</b> is not equal to the token returned by <i>NdkGetPrivilegedMemoryRegionToken</i>, the <b>NDK_SGE</b> structure must contain a <b>VirtualAddress</b>. When an <b>NDK_SGE</b> structure is used in a work request with the <b>NDK_OP_FLAG_INLINE</b> flag, <b>MemoryRegionToken</b> might be invalid. See the remarks section for more information about the <b>MemoryRegionToken</b>. 
-
-
-#### - LogicalAddress
-
-A logical address.
-
-
-#### - VirtualAddress
-
-A virtual address.
 
 
 ## -remarks

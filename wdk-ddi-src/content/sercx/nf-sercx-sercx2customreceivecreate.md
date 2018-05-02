@@ -7,7 +7,7 @@ old-location: serports\sercx2customreceivecreate.htm
 old-project: serports
 ms.assetid: EC2DBC18-C3F6-4663-891E-AFF43A6D1CE3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate method [Serial Ports], serports.sercx2customreceivecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2CustomReceiveCreate function

@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_SENT_IO_ACTION
-req.product: Windows 10 or later.
 ---
 
 # _WDF_IO_TARGET_SENT_IO_ACTION enumeration

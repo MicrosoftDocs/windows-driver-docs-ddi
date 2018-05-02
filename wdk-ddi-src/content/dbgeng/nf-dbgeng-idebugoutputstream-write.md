@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugOutputStream.Write
-title: IDebugOutputStream::Write method
+title: IDebugOutputStream::Write
 author: windows-driver-content
 description: Writes to the debug output stream.
 old-location: debugger\idebugoutputstream_write.htm
 old-project: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], Write method, IDebugOutputStream::Write, Write method [Windows Debugging], Write method [Windows Debugging], IDebugOutputStream interface, Write,IDebugOutputStream.Write, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
+ms.date: 4/24/2018
+ms.keywords: IDebugOutputStream interface [Windows Debugging],Write method, IDebugOutputStream.Write, IDebugOutputStream::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],IDebugOutputStream interface, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugOutputStream::Write method
+# IDebugOutputStream::Write
 
 
 ## -description

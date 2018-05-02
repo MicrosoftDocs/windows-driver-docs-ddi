@@ -7,7 +7,7 @@ old-location: print\mxdcgetpdevadjustment.htm
 old-project: print
 ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
 # MxdcGetPDEVAdjustment function

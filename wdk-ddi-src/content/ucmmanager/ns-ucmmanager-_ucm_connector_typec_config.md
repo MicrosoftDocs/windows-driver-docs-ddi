@@ -7,7 +7,7 @@ old-location: buses\ucm_connector_type_c_config.htm
 old-project: usbref
 ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], _UCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _UCM_CONNECTOR_TYPEC_CONFIG structure

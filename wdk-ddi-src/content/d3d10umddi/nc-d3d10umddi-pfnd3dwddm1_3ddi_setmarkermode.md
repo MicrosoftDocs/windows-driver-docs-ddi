@@ -7,8 +7,8 @@ old-location: display\setmarkermode.htm
 old-project: display
 ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, PFND3DWDDM1_3DDI_SETMARKERMODE callback, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM1_3DDI_SETMARKERMODE callback
+# PFND3DWDDM1_3DDI_SETMARKERMODE callback function
 
 
 ## -description

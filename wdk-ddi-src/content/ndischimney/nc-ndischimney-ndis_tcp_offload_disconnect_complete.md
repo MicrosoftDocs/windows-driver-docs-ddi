@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloaddisconnectcomplete.htm
 old-project: netvista
 ms.assetid: e862d9fe-a60c-4397-95ce-62aa1ef17eae
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
+ms.date: 4/25/2018
+ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback
+# NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function
 
 
 ## -description

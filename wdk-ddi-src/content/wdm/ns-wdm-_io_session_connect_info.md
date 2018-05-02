@@ -7,7 +7,7 @@ old-location: kernel\io_session_connect_info.htm
 old-project: kernel
 ms.assetid: f9d7ffae-aa9e-44d6-b659-cb5a9068f1d7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], PIO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_CONNECT_INFO, kernel.io_session_connect_info, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml, wdm/IO_SESSION_CONNECT_INFO, wdm/PIO_SESSION_CONNECT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO
-req.product: Windows 10 or later.
 ---
 
 # _IO_SESSION_CONNECT_INFO structure

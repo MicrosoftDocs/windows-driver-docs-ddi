@@ -7,7 +7,7 @@ old-location: sensors\sensor_collection_list_calculate_max_count.htm
 old-project: sensors
 ms.assetid: 56C94717-41FF-44AA-BC99-1ECE4A407A38
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_collection_list_calculate_max_count, sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function

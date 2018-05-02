@@ -7,7 +7,7 @@ old-location: netvista\ndis_oid_request.htm
 old-project: netvista
 ms.assetid: 3a5e151d-2a2d-4477-a736-8a5f3d3820a2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_OID_REQUEST, NDIS_OID_REQUEST, NDIS_OID_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_OID_REQUEST, PNDIS_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OID_REQUEST, ndis/NDIS_OID_REQUEST, ndis/PNDIS_OID_REQUEST, ndis_request_ref_c431d090-b403-40a7-90de-5f47ca6213f4.xml, netvista.ndis_oid_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

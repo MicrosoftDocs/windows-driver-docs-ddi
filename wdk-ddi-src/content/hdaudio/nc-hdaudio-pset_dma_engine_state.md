@@ -7,8 +7,8 @@ old-location: audio\setdmaenginestate.htm
 old-project: audio
 ms.assetid: 05cfb827-e143-4d77-b378-e02dd381e429
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: PSET_DMA_ENGINE_STATE, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
+ms.date: 4/16/2018
+ms.keywords: PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE callback, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PSET_DMA_ENGINE_STATE callback
+# PSET_DMA_ENGINE_STATE callback function
 
 
 ## -description

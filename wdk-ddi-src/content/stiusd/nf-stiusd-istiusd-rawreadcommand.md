@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.RawReadCommand
-title: IStiUSD::RawReadCommand method
+title: IStiUSD::RawReadCommand
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::RawReadCommand method reads command information from a still image device.
 old-location: image\istiusd_rawreadcommand.htm
 old-project: image
 ms.assetid: 603f8b76-eb3b-41aa-932c-322f5405a29b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], RawReadCommand method, IStiUSD::RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiUSD interface, RawReadCommand,IStiUSD.RawReadCommand, image.istiusd_rawreadcommand, stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, stiusd/IStiUSD::RawReadCommand
+ms.date: 4/23/2018
+ms.keywords: IStiUSD interface [Imaging Devices],RawReadCommand method, IStiUSD.RawReadCommand, IStiUSD::RawReadCommand, RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices],IStiUSD interface, image.istiusd_rawreadcommand, stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, stiusd/IStiUSD::RawReadCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::RawReadCommand method
+# IStiUSD::RawReadCommand
 
 
 ## -description

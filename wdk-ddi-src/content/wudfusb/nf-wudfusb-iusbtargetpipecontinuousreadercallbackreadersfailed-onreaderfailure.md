@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure
-title: IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure method
+title: IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 author: windows-driver-content
 description: A driver's OnReaderFailure event callback function informs the driver that a continuous reader has reported an error while processing a read request.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ad91208e-e57a-4b80-b1a1-13b9f7eb1119
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, OnReaderFailure method, IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure, OnReaderFailure method, OnReaderFailure method, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, OnReaderFailure,IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure, UMDFUSBref_01c8b9de-ab85-4cc6-abec-238dcda2b1e8.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
+ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed interface,OnReaderFailure method, IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure, IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure, OnReaderFailure, OnReaderFailure method, OnReaderFailure method,IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, UMDFUSBref_01c8b9de-ab85-4cc6-abec-238dcda2b1e8.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure method
+# IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 
 
 ## -description

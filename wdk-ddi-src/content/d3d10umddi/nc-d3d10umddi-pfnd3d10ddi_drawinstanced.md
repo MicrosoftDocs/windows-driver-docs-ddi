@@ -7,8 +7,8 @@ old-location: display\drawinstanced.htm
 old-project: display
 ms.assetid: c539cf8b-e056-476a-9b23-7e360917a7d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DrawInstanced, DrawInstanced callback function [Display Devices], PFND3D10DDI_DRAWINSTANCED, UserModeDisplayDriverDx10_Functions_15fe8a07-36ca-4ab1-8570-01250eed4866.xml, d3d10umddi/DrawInstanced, display.drawinstanced
+ms.date: 4/16/2018
+ms.keywords: DrawInstanced, DrawInstanced callback function [Display Devices], PFND3D10DDI_DRAWINSTANCED, PFND3D10DDI_DRAWINSTANCED callback, UserModeDisplayDriverDx10_Functions_15fe8a07-36ca-4ab1-8570-01250eed4866.xml, d3d10umddi/DrawInstanced, display.drawinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_DRAWINSTANCED callback
+# PFND3D10DDI_DRAWINSTANCED callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\wskgetnameinfo.htm
 old-project: netvista
 ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_GET_NAME_INFO, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO callback, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_GET_NAME_INFO callback
+# PFN_WSK_GET_NAME_INFO callback function
 
 
 ## -description

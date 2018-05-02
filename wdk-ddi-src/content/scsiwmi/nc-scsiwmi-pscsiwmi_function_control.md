@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
+ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, PSCSIWMI_FUNCTION_CONTROL callback, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PSCSIWMI_FUNCTION_CONTROL callback
+# PSCSIWMI_FUNCTION_CONTROL callback function
 
 
 ## -description

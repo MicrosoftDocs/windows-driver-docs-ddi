@@ -7,8 +7,8 @@ old-location: buses\getusbdiversion.htm
 old-project: usbref
 ms.assetid: 05a22049-5165-41a3-aa6f-134c5d1b6c15
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
+ms.date: 4/25/2018
+ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION callback, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PUSB_BUSIFFN_GETUSBDI_VERSION callback
+# PUSB_BUSIFFN_GETUSBDI_VERSION callback function
 
 
 ## -description

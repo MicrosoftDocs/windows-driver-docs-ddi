@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_string.htm
 old-project: hid
 ms.assetid: 0812f27f-f38c-487d-9e92-98e16ddde21c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_STRING IOCTL

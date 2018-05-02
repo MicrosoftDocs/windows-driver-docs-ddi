@@ -7,7 +7,7 @@ old-location: stream\ks_datarange_bda_antenna.htm
 old-project: stream
 ms.assetid: 32a396c9-01a5-4e17-bcb5-659f7a88c0ef
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], PKS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], bdamedia/KS_DATARANGE_BDA_ANTENNA, bdamedia/PKS_DATARANGE_BDA_ANTENNA, bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, stream.ks_datarange_bda_antenna, tagKS_DATARANGE_BDA_ANTENNA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

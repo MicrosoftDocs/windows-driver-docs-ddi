@@ -7,7 +7,7 @@ old-location: print\wcsgetdefaultcolorprofile.htm
 old-project: print
 ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices], colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, icm/WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsGetDefaultColorProfile function

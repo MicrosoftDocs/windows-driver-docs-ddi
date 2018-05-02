@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatehwcontext.htm
 old-project: display
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTCreateHwContext function

@@ -7,7 +7,7 @@ old-location: serports\serial_chars.htm
 old-project: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERIAL_CHARS, PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports], SERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], _SERIAL_CHARS, ntddser/PSERIAL_CHARS, ntddser/SERIAL_CHARS, serports.serial_chars"
 ms.prod: windows-hardware
 ms.technology: windows-devices

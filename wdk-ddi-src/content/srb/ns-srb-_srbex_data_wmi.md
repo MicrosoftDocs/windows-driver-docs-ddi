@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
-req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_WMI structure

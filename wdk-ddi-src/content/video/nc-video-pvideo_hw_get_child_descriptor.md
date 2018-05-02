@@ -7,8 +7,8 @@ old-location: display\hwvidgetvideochilddescriptor.htm
 old-project: display
 ms.assetid: 175030c1-95d9-4a3b-976c-16e04852cb91
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
+ms.date: 4/16/2018
+ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR callback, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_HW_GET_CHILD_DESCRIPTOR callback
+# PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionManager.EnableEvents
-title: IPrinterExtensionManager::EnableEvents method
+title: IPrinterExtensionManager::EnableEvents
 author: windows-driver-content
 description: The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called.
 old-location: print\iprinterextensionmanager_enableevents.htm
 old-project: print
 ms.assetid: 8DF89C18-10CA-4E8B-8E2A-B373C80F7B39
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnableEvents method [Print Devices], EnableEvents method [Print Devices], IPrinterExtensionManager interface, EnableEvents,IPrinterExtensionManager.EnableEvents, IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], EnableEvents method, IPrinterExtensionManager::EnableEvents, print.iprinterextensionmanager_enableevents, printerextension/IPrinterExtensionManager::EnableEvents
+ms.date: 4/20/2018
+ms.keywords: EnableEvents, EnableEvents method [Print Devices], EnableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],EnableEvents method, IPrinterExtensionManager.EnableEvents, IPrinterExtensionManager::EnableEvents, print.iprinterextensionmanager_enableevents, printerextension/IPrinterExtensionManager::EnableEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionManager::EnableEvents method
+# IPrinterExtensionManager::EnableEvents
 
 
 ## -description

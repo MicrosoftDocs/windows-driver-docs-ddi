@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsVersion.GetVersion
-title: IPortClsVersion::GetVersion method
+title: IPortClsVersion::GetVersion
 author: windows-driver-content
 description: The GetVersion method returns the version of the Windows operating system that the driver is running on.
 old-location: audio\iportclsversion_getversion.htm
 old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetVersion method [Audio Devices], GetVersion method [Audio Devices], IPortClsVersion interface, GetVersion,IPortClsVersion.GetVersion, IPortClsVersion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
+ms.date: 4/16/2018
+ms.keywords: GetVersion, GetVersion method [Audio Devices], GetVersion method [Audio Devices],IPortClsVersion interface, IPortClsVersion interface [Audio Devices],GetVersion method, IPortClsVersion.GetVersion, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsVersion::GetVersion method
+# IPortClsVersion::GetVersion
 
 
 ## -description

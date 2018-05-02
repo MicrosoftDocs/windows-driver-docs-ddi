@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 295EE3CC-4244-4411-9684-7C5D38B10EA9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
+ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PDO_TYPE
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL

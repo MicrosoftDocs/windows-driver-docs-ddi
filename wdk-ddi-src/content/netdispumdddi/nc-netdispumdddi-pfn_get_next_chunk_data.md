@@ -7,8 +7,8 @@ old-location: display\getnextchunkdata.htm
 old-project: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, display.getnextchunkdata, netdispumdddi/GetNextChunkData
+ms.date: 4/16/2018
+ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_GET_NEXT_CHUNK_DATA callback
+# PFN_GET_NEXT_CHUNK_DATA callback function
 
 
 ## -description

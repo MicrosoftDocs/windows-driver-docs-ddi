@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbprintf.htm
 old-project: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCbPrintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, ntstrsafe/RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCbPrintfA function

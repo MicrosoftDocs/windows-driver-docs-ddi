@@ -7,8 +7,8 @@ old-location: display\checkvideoprocessorformat.htm
 old-project: display
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, d3d10umddi/CheckVideoProcessorFormat, display.checkvideoprocessorformat
+ms.date: 4/16/2018
+ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback, d3d10umddi/CheckVideoProcessorFormat, display.checkvideoprocessorformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback
+# PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback function
 
 
 ## -description

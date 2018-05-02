@@ -7,7 +7,7 @@ old-location: display\d3dddi_presentflags.htm
 old-project: display
 ms.assetid: adab4c0f-b879-409c-97a3-f161a50514f5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, _D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one 32-bit value that identifies how to perform a present operation.
 

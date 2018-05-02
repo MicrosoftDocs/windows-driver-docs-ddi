@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IDrmPort2.AddContentHandlers
-title: IDrmPort2::AddContentHandlers method
+title: IDrmPort2::AddContentHandlers
 author: windows-driver-content
 description: The AddContentHandlers method provides the system with a list of functions that handle protected content.
 old-location: audio\idrmport2_addcontenthandlers.htm
 old-project: audio
 ms.assetid: b65608f4-de9a-4bed-a966-586e50c50e45
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AddContentHandlers method [Audio Devices], AddContentHandlers method [Audio Devices], IDrmPort2 interface, AddContentHandlers,IDrmPort2.AddContentHandlers, IDrmPort2, IDrmPort2 interface [Audio Devices], AddContentHandlers method, IDrmPort2::AddContentHandlers, audio.idrmport2_addcontenthandlers, audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, portcls/IDrmPort2::AddContentHandlers
+ms.date: 4/16/2018
+ms.keywords: AddContentHandlers, AddContentHandlers method [Audio Devices], AddContentHandlers method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],AddContentHandlers method, IDrmPort2.AddContentHandlers, IDrmPort2::AddContentHandlers, audio.idrmport2_addcontenthandlers, audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, portcls/IDrmPort2::AddContentHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IDrmPort2::AddContentHandlers method
+# IDrmPort2::AddContentHandlers
 
 
 ## -description

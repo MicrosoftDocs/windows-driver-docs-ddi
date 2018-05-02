@@ -7,7 +7,7 @@ old-location: buses\_usb_node_connection_information_ex_v2.htm
 old-project: usbref
 ms.assetid: F886F470-BAAB-41C6-8431-01BF99236F81
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2 structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2 structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2, buses._usb_node_connection_information_ex_v2, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USB_NODE_CONNECTION_INFORMATION_EX_V2, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2
-req.product: Windows 10 or later.
 ---
 
 # _USB_NODE_CONNECTION_INFORMATION_EX_V2 structure

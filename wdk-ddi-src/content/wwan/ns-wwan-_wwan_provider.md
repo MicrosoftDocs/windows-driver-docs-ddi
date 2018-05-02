@@ -7,7 +7,7 @@ old-location: netvista\wwan_provider.htm
 old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, _WWAN_PROVIDER, netvista.wwan_provider, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_PROVIDER, *PWWAN_PROVIDER
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_PROVIDER structure

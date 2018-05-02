@@ -7,8 +7,8 @@ old-location: stream\camstopcapture.htm
 old-project: stream
 ms.assetid: c4403edb-3035-469b-bdb9-c33882a1c90c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamStopCapture, CamStopCapture callback function [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE, stream.camstopcapture, usbcamdi/CamStopCapture, usbcmdpr_56cc6085-dfff-4576-b19a-45683a7b62d8.xml
+ms.date: 4/23/2018
+ms.keywords: CamStopCapture, CamStopCapture callback function [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE, PCAM_STOP_CAPTURE_ROUTINE callback, stream.camstopcapture, usbcamdi/CamStopCapture, usbcmdpr_56cc6085-dfff-4576-b19a-45683a7b62d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_STOP_CAPTURE_ROUTINE callback
+# PCAM_STOP_CAPTURE_ROUTINE callback function
 
 
 ## -description

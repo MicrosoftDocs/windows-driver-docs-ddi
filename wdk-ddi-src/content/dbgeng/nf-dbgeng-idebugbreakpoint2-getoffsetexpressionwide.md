@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetOffsetExpressionWide
-title: IDebugBreakpoint2::GetOffsetExpressionWide method
+title: IDebugBreakpoint2::GetOffsetExpressionWide
 author: windows-driver-content
 description: The GetOffsetExpressionWide method returns the expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\getoffsetexpressionwide.htm
 old-project: debugger
 ms.assetid: bd4b32b1-e8ba-485f-bfb6-15c8c44926af
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOffsetExpressionWide method [Windows Debugging], GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpressionWide,IDebugBreakpoint2.GetOffsetExpressionWide, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpressionWide method, IDebugBreakpoint2::GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide
+ms.date: 4/24/2018
+ms.keywords: GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging], GetOffsetExpressionWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetOffsetExpressionWide method, IDebugBreakpoint2.GetOffsetExpressionWide, IDebugBreakpoint2::GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::GetOffsetExpressionWide method
+# IDebugBreakpoint2::GetOffsetExpressionWide
 
 
 ## -description

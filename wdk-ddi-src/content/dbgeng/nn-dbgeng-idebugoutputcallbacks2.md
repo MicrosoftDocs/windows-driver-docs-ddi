@@ -7,8 +7,8 @@ old-location: debugger\idebugoutputcallbacks2.htm
 old-project: debugger
 ms.assetid: D35D8960-AD9F-4493-B6CD-3E3049CC3BBD
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging], described, dbgeng/IDebugOutputCallbacks2, debugger.idebugoutputcallbacks2
+ms.date: 4/24/2018
+ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacks2, debugger.idebugoutputcallbacks2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugOutputCallbacks2 interface

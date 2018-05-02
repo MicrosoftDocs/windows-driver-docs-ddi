@@ -7,8 +7,8 @@ old-location: hid\ioctl_set_num_device_input_buffers.htm
 old-project: hid
 ms.assetid: a44f9d57-473c-45ed-94e3-db339c6d2296
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_set_num_device_input_buffers, hidclass/IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_2fe1c0f7-6867-4924-a76f-b7970ebb1201.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS control, IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_set_num_device_input_buffers, hidclass/IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_2fe1c0f7-6867-4924-a76f-b7970ebb1201.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS IOCTL

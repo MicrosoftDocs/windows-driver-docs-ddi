@@ -7,7 +7,7 @@ old-location: netvista\rillocationinfo.htm
 old-project: netvista
 ms.assetid: 56d35556-1e1b-422f-acbf-f52708fbf7bf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILLOCATIONINFO, RILLOCATIONINFO, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rillocationinfo, ntddrilapitypes/RILLOCATIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILLOCATIONINFO, *LPRILLOCATIONINFO
-req.product: Windows 10 or later.
 ---
 
 # RILLOCATIONINFO structure

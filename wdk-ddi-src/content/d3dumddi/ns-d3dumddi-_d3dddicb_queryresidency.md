@@ -7,7 +7,7 @@ old-location: display\d3dddicb_queryresidency.htm
 old-project: display
 ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices

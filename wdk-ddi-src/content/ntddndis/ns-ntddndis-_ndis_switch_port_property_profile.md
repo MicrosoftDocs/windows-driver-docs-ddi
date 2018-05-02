@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_profile.htm
 old-project: netvista
 ms.assetid: DFB7239F-4A6B-4C98-884E-FAC1A0DE2024
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_PROFILE, NDIS_SWITCH_PORT_PROPERTY_PROFILE, NDIS_SWITCH_PORT_PROPERTY_PROFILE structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_PROFILE, PNDIS_SWITCH_PORT_PROPERTY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_PROFILE, netvista.ndis_switch_port_property_profile, ntddndis/NDIS_SWITCH_PORT_PROPERTY_PROFILE, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_PROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -121,22 +121,19 @@ A structure that specifies the PCI location of the underlying physical network a
 For more information, see the Remarks section.
 
 
-
-#### PciSegmentNumber
+### -field PciLocation.PciSegmentNumber
 
 A value that specifies the group of PCI buses on which the physical network adapter is attached.
 
 
 
-
-#### PciBusNumber
+### -field PciLocation.PciBusNumber
 
 A value that specifies the current PCI bus number on which the physical network adapter is attached.
 
 
 
-
-#### PciDeviceNumber
+### -field PciLocation.PciDeviceNumber
 
 A value that specifies the device number for the physical network adapter on the PCI bus.
 
@@ -144,8 +141,7 @@ A value that specifies the device number for the physical network adapter on the
 <div class="alert"><b>Note</b>  The PCI device number is also known as the <i>PCI slot number</i>.</div>
 <div> </div>
 
-
-#### PciFunctionNumber
+### -field PciLocation.PciFunctionNumber
 
 A value that specifies the function number of a logical device on the physical network adapter.
 

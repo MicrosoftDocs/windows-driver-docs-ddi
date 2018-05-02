@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteBusData
-title: IDebugDataSpaces4::WriteBusData method
+title: IDebugDataSpaces4::WriteBusData
 author: windows-driver-content
 description: The WriteBusData method writes data to a system bus.
 old-location: debugger\writebusdata.htm
 old-project: debugger
 ms.assetid: bd4e762d-b3d5-4a4c-bdeb-998cd72783b4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces3::WriteBusData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces::WriteBusData, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, WriteBusData method [Windows Debugging], WriteBusData method [Windows Debugging], IDebugDataSpaces interface, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, WriteBusData,IDebugDataSpaces4.WriteBusData, dbgeng/IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces3::WriteBusData, dbgeng/IDebugDataSpaces4::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, debugger.writebusdata
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteBusData method, IDebugDataSpaces2 interface [Windows Debugging],WriteBusData method, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces3 interface [Windows Debugging],WriteBusData method, IDebugDataSpaces3::WriteBusData, IDebugDataSpaces4 interface [Windows Debugging],WriteBusData method, IDebugDataSpaces4.WriteBusData, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces::WriteBusData, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, WriteBusData, WriteBusData method [Windows Debugging], WriteBusData method [Windows Debugging],IDebugDataSpaces interface, WriteBusData method [Windows Debugging],IDebugDataSpaces2 interface, WriteBusData method [Windows Debugging],IDebugDataSpaces3 interface, WriteBusData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces3::WriteBusData, dbgeng/IDebugDataSpaces4::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, debugger.writebusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::WriteBusData method
+# IDebugDataSpaces4::WriteBusData
 
 
 ## -description

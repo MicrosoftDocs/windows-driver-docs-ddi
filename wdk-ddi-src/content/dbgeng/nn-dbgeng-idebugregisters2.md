@@ -7,8 +7,8 @@ old-location: debugger\idebugregisters2.htm
 old-project: debugger
 ms.assetid: f92a75a9-6578-4bbf-8d80-680493b4d284
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging],described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugRegisters2 interface

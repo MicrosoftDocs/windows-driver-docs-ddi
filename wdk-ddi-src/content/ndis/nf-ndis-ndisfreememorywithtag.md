@@ -7,7 +7,7 @@ old-location: netvista\ndisfreememorywithtag.htm
 old-project: netvista
 ms.assetid: c9010a08-3c62-481a-8545-253d7b24b1ac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFreeMemoryWithTag, NdisFreeMemoryWithTag function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTag, ndis_shared_memory_ref_2a68decc-2cef-4606-9679-c29c0e5362a2.xml, netvista.ndisfreememorywithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFreeMemoryWithTag function

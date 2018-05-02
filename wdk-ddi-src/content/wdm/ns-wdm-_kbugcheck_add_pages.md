@@ -7,7 +7,7 @@ old-location: kernel\kbugcheck_add_pages.htm
 old-project: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
-req.product: Windows 10 or later.
 ---
 
 # _KBUGCHECK_ADD_PAGES structure

@@ -7,7 +7,7 @@ old-location: hid\hidp_setusages.htm
 old-project: hid
 ms.assetid: a9f229cd-33ca-42b5-bae6-3f367e5f1e84
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_SetUsages, HidP_SetUsages routine [Human Input Devices], hid.hidp_setusages, hidfunc_4d0213bb-2715-446b-bdaf-f82be3cbc11b.xml, hidpi/HidP_SetUsages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_SetUsages function

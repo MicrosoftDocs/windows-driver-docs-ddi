@@ -7,7 +7,7 @@ old-location: stream\ksgeneratedataevent.htm
 old-project: stream
 ms.assetid: 3ba49134-e144-4212-9ef7-e16b9d5f90ea
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGenerateDataEvent, KsGenerateDataEvent function [Streaming Media Devices], ks/KsGenerateDataEvent, ksfunc_4e7efb50-d6c2-45b5-9b44-5c3d48e91933.xml, stream.ksgeneratedataevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

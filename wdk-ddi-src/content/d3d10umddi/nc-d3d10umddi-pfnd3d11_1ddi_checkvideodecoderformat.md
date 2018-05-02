@@ -7,8 +7,8 @@ old-location: display\checkvideodecoderformat.htm
 old-project: display
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
+ms.date: 4/16/2018
+ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback
+# PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback function
 
 
 ## -description

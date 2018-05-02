@@ -7,8 +7,8 @@ old-location: ifsk\ioctl_redir_query_path_ex.htm
 old-project: ifsk
 ms.assetid: 290825dd-d5f6-4e9b-b1a3-3e146d3e1856
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_REDIR_QUERY_PATH_EX, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], ifsk.ioctl_redir_query_path_ex, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml, ntifs/IOCTL_REDIR_QUERY_PATH_EX
+ms.date: 4/16/2018
+ms.keywords: IOCTL_REDIR_QUERY_PATH_EX, IOCTL_REDIR_QUERY_PATH_EX control, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], ifsk.ioctl_redir_query_path_ex, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml, ntifs/IOCTL_REDIR_QUERY_PATH_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IOCTL_REDIR_QUERY_PATH_EX IOCTL

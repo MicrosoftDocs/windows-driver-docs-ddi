@@ -7,7 +7,7 @@ old-location: ifsk\ioqueryfileinformation.htm
 old-project: ifsk
 ms.assetid: cfaa6068-979c-49c3-b671-c51ede023776
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoQueryFileInformation, IoQueryFileInformation function [Installable File System Drivers], ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml, ntifs/IoQueryFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoQueryFileInformation function

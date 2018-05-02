@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.DevMode
-title: IPrintOemPS::DevMode method
+title: IPrintOemPS::DevMode
 author: windows-driver-content
 description: The IPrintOemPS::DevMode method, provided by rendering plug-ins for Pscript5, performs operations on private DEVMODEW members.
 old-location: print\iprintoemps_devmode.htm
 old-project: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemPS interface, DevMode,IPrintOemPS.DevMode, IPrintOemPS, IPrintOemPS interface [Print Devices], DevMode method, IPrintOemPS::DevMode, prcomoem/IPrintOemPS::DevMode, print.iprintoemps_devmode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml
+ms.date: 4/20/2018
+ms.keywords: DevMode, DevMode method [Print Devices], DevMode method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DevMode method, IPrintOemPS.DevMode, IPrintOemPS::DevMode, prcomoem/IPrintOemPS::DevMode, print.iprintoemps_devmode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPS::DevMode method
+# IPrintOemPS::DevMode
 
 
 ## -description

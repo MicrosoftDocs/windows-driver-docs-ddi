@@ -7,7 +7,7 @@ old-location: print\wcsenumcolorprofilessize.htm
 old-project: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Print Devices], colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, icm/WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsEnumColorProfilesSize function

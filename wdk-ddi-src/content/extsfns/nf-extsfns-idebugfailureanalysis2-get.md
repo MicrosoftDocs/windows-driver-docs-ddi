@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.Get
-title: IDebugFailureAnalysis2::Get method
+title: IDebugFailureAnalysis2::Get
 author: windows-driver-content
 description: The Get method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_get.htm
 old-project: debugger
 ms.assetid: 5F43909E-56D0-43F8-A24E-04981614C683
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: Get method [Windows Debugging], Get method [Windows Debugging], IDebugFailureAnalysis2 interface, Get,IDebugFailureAnalysis2.Get, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], Get method, IDebugFailureAnalysis2::Get, debugger.idebugfailureanalysis2_get, extsfns/IDebugFailureAnalysis2::Get
+ms.date: 4/24/2018
+ms.keywords: Get, Get method [Windows Debugging], Get method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],Get method, IDebugFailureAnalysis2.Get, IDebugFailureAnalysis2::Get, debugger.idebugfailureanalysis2_get, extsfns/IDebugFailureAnalysis2::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::Get method
+# IDebugFailureAnalysis2::Get
 
 
 ## -description

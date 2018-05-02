@@ -7,8 +7,8 @@ old-location: netvista\pdqueryqueuedepth.htm
 old-project: netvista
 ms.assetid: 0061E269-4A19-4D65-B988-29DB582BA960
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: "*NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER, *NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER callback function pointer [Network Drivers Starting with Windows Vista], NDIS_PD_QUERY_QUEUE_DEPTH, PDQueryQueueDepth, PDQueryQueueDepth callback function [Network Drivers Starting with Windows Vista], ndis/PDQueryQueueDepth, netvista.pdqueryqueuedepth"
+ms.date: 4/25/2018
+ms.keywords: "*NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER, *NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER callback function pointer [Network Drivers Starting with Windows Vista], NDIS_PD_QUERY_QUEUE_DEPTH, NDIS_PD_QUERY_QUEUE_DEPTH callback, PDQueryQueueDepth, PDQueryQueueDepth callback function [Network Drivers Starting with Windows Vista], ndis/PDQueryQueueDepth, netvista.pdqueryqueuedepth"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PD_QUERY_QUEUE_DEPTH callback
+# NDIS_PD_QUERY_QUEUE_DEPTH callback function
 
 
 ## -description

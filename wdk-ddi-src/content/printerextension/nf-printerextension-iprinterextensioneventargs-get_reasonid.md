@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_ReasonId
-title: IPrinterExtensionEventArgs::get_ReasonId method
+title: IPrinterExtensionEventArgs::get_ReasonId
 author: windows-driver-content
 description: Gets the reason why the printer extension was activated.
 old-location: print\iprinterextensioneventargs_reasonid.htm
 old-project: print
 ms.assetid: 404E9893-97BA-48A7-87CE-0B4AF46692CE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs::get_ReasonId, ReasonId property [Print Devices], ReasonId property [Print Devices], IPrinterExtensionEventArgs interface, get_ReasonId, get_ReasonId,IPrinterExtensionEventArgs.get_ReasonId, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs.get_ReasonId, IPrinterExtensionEventArgs::ReasonId, IPrinterExtensionEventArgs::get_ReasonId, ReasonId property [Print Devices], ReasonId property [Print Devices],IPrinterExtensionEventArgs interface, get_ReasonId, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionEventArgs::get_ReasonId method
+# IPrinterExtensionEventArgs::get_ReasonId
 
 
 ## -description

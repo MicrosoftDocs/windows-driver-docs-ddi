@@ -7,8 +7,8 @@ old-location: display\pfnlogumdmarkercb.htm
 old-project: display
 ms.assetid: BD544686-20D3-4577-9950-9C3B6853C4BD
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_LOGUMDMARKERCB, d3dumddi/pfnLogUMDMarkerCb, display.pfnlogumdmarkercb, pfnLogUMDMarkerCb, pfnLogUMDMarkerCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_LOGUMDMARKERCB, PFND3DDDI_LOGUMDMARKERCB callback, d3dumddi/pfnLogUMDMarkerCb, display.pfnlogumdmarkercb, pfnLogUMDMarkerCb, pfnLogUMDMarkerCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_LOGUMDMARKERCB callback
+# PFND3DDDI_LOGUMDMARKERCB callback function
 
 
 ## -description

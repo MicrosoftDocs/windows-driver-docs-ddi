@@ -7,7 +7,7 @@ old-location: audio\pcmethod_item.htm
 old-project: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPCMETHOD_ITEM, PCMETHOD_ITEM, PCMETHOD_ITEM structure [Audio Devices], PPCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item, audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, portcls/PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

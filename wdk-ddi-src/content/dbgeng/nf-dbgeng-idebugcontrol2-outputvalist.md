@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputVaList
-title: IDebugControl2::OutputVaList method
+title: IDebugControl2::OutputVaList
 author: windows-driver-content
 description: The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalist.htm
 old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging], IDebugControl interface, OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], IDebugControl3 interface, OutputVaList,IDebugControl2.OutputVaList, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OutputVaList method, IDebugControl2 interface [Windows Debugging],OutputVaList method, IDebugControl2.OutputVaList, IDebugControl2::OutputVaList, IDebugControl3 interface [Windows Debugging],OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging],IDebugControl interface, OutputVaList method [Windows Debugging],IDebugControl2 interface, OutputVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::OutputVaList method
+# IDebugControl2::OutputVaList
 
 
 ## -description

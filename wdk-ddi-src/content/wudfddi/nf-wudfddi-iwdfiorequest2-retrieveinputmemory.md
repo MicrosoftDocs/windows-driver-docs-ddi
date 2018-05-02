@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveInputMemory
-title: IWDFIoRequest2::RetrieveInputMemory method
+title: IWDFIoRequest2::RetrieveInputMemory
 author: windows-driver-content
 description: The RetrieveInputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputmemory.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32596330-6cd9-4f82-9140-7f9a26cf7932
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputMemory method, IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory method, RetrieveInputMemory method, IWDFIoRequest2 interface, RetrieveInputMemory,IWDFIoRequest2.RetrieveInputMemory, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml, umdf.iwdfiorequest2_retrieveinputmemory, wdf.iwdfiorequest2_retrieveinputmemory, wudfddi/IWDFIoRequest2::RetrieveInputMemory
+ms.keywords: IWDFIoRequest2 interface,RetrieveInputMemory method, IWDFIoRequest2.RetrieveInputMemory, IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory, RetrieveInputMemory method, RetrieveInputMemory method,IWDFIoRequest2 interface, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml, umdf.iwdfiorequest2_retrieveinputmemory, wdf.iwdfiorequest2_retrieveinputmemory, wudfddi/IWDFIoRequest2::RetrieveInputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::RetrieveInputMemory method
+# IWDFIoRequest2::RetrieveInputMemory
 
 
 ## -description

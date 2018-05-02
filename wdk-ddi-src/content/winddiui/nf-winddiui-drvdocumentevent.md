@@ -7,7 +7,7 @@ old-location: print\drvdocumentevent.htm
 old-project: print
 ms.assetid: 09229774-14db-448b-bd49-2d39a848c9a6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvDocumentEvent, DrvDocumentEvent function [Print Devices], print.drvdocumentevent, print_interface-graphics_ffc39ed1-d1b8-4e3d-b0a3-515b90cd6c8f.xml, winddiui/DrvDocumentEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # DrvDocumentEvent function

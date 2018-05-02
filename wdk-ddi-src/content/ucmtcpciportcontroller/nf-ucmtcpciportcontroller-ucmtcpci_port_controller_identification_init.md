@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_identification_init.htm
 old-project: usbref
 ms.assetid: 4204b849-8195-4a1b-9bb3-1e9cbeb12223
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], buses.ucmtcpci_port_controller_identification_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function

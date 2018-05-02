@@ -7,7 +7,7 @@ old-location: kernel\probeforwrite.htm
 old-project: kernel
 ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ProbeForWrite function

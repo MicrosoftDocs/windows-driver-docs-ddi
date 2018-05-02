@@ -7,8 +7,8 @@ old-location: display\dxgkddigetbrightness.htm
 old-project: display
 ms.assetid: e226cd36-45af-4d80-9aba-8919b267483b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGK_BRIGHTNESS_GET, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_GET, DXGK_BRIGHTNESS_GET callback, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_GET callback
+# DXGK_BRIGHTNESS_GET callback function
 
 
 ## -description

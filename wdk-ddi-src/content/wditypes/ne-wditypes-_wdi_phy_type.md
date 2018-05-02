@@ -7,7 +7,7 @@ old-location: netvista\wdi_phy_type.htm
 old-project: netvista
 ms.assetid: BDA90056-6DAA-4FC8-82EC-3062087E02C4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_PHY_TYPE, WDI_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_PHY_TYPE_ANY, WDI_PHY_TYPE_DMG, WDI_PHY_TYPE_DSSS, WDI_PHY_TYPE_ERP, WDI_PHY_TYPE_FHSS, WDI_PHY_TYPE_HRDSSS, WDI_PHY_TYPE_HT, WDI_PHY_TYPE_IHV_END, WDI_PHY_TYPE_IHV_START, WDI_PHY_TYPE_IRBASEBAND, WDI_PHY_TYPE_OFDM, WDI_PHY_TYPE_UNKNOWN, WDI_PHY_TYPE_VHT, _WDI_PHY_TYPE, netvista.wdi_phy_type, netvista.wifi_phy_type, wditypes/WDI_PHY_TYPE, wditypes/WDI_PHY_TYPE_ANY, wditypes/WDI_PHY_TYPE_DMG, wditypes/WDI_PHY_TYPE_DSSS, wditypes/WDI_PHY_TYPE_ERP, wditypes/WDI_PHY_TYPE_FHSS, wditypes/WDI_PHY_TYPE_HRDSSS, wditypes/WDI_PHY_TYPE_HT, wditypes/WDI_PHY_TYPE_IHV_END, wditypes/WDI_PHY_TYPE_IHV_START, wditypes/WDI_PHY_TYPE_IRBASEBAND, wditypes/WDI_PHY_TYPE_OFDM, wditypes/WDI_PHY_TYPE_UNKNOWN, wditypes/WDI_PHY_TYPE_VHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDI_PHY_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDI_PHY_TYPE enumeration

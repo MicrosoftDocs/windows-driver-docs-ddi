@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setdisplayprivatedriverformat.htm
 old-project: display
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dkmt_setdisplayprivatedriverformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

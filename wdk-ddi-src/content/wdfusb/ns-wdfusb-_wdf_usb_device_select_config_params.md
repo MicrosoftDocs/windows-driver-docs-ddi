@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, *PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure

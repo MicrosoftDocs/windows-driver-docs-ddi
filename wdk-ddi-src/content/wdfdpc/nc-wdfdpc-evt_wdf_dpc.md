@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b934a0da-0709-4427-bbf2-8d53f9511cf1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
+ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EVT_WDF_DPC callback, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DPC callback
+# EVT_WDF_DPC callback function
 
 
 ## -description

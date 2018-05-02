@@ -7,7 +7,7 @@ old-location: netvista\netdmaregisterprovider.htm
 old-project: netvista
 ms.assetid: 35d70d0b-c1b9-433f-941d-6cb61ddf0b62
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaRegisterProvider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, netvista.netdmaregisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: 
 ---
 
 # NetDmaRegisterProvider function

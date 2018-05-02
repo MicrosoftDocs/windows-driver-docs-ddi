@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerClassSendSrbSynchronous function

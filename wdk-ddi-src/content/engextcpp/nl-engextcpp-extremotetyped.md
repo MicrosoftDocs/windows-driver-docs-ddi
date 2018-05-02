@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped.htm
 old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging], described, debugger.extremotetyped, engextcpp/ExtRemoteTyped
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging],described, debugger.extremotetyped, engextcpp/ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
 # ExtRemoteTyped class

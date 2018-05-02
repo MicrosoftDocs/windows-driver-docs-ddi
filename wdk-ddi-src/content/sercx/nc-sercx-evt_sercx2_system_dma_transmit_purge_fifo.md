@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmatransmitpurgefifo.htm
 old-project: serports
 ms.assetid: 79BD2B77-E99A-4CFA-9F7B-AFC984D5F0B3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaTransmitPurgeFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO, EvtSerCx2SystemDmaTransmitPurgeFifo, EvtSerCx2SystemDmaTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitpurgefifo
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaTransmitPurgeFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback, EvtSerCx2SystemDmaTransmitPurgeFifo, EvtSerCx2SystemDmaTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitpurgefifo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback
+# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback function
 
 
 ## -description

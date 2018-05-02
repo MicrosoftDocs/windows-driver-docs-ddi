@@ -7,7 +7,7 @@ old-location: kernel\rtlunalignedstringcblength.htm
 old-project: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnalignedStringCbLengthW function

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup method
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
 author: windows-driver-content
 description: The OnSelfManagedIoCleanup method releases memory for a device's self-managed I/O operations, after the device is removed.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediocleanup.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0890c352-8722-4108-9b76-60c81179b46b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup,IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
+ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup method
+# IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
 
 
 ## -description

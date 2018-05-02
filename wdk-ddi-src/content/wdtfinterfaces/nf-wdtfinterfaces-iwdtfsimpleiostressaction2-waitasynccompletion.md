@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.WaitAsyncCompletion
-title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion method
+title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 author: windows-driver-content
 description: Waits for the completion of any of the asynchronous events.
 old-location: dtf\iwdtfsimpleiostressaction2_waitasynccompletion.htm
 old-project: dtf
 ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], WaitAsyncCompletion method, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, WaitAsyncCompletion,IWDTFSimpleIOStressAction2.WaitAsyncCompletion, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
+ms.date: 4/4/2018
+ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],WaitAsyncCompletion method, IWDTFSimpleIOStressAction2.WaitAsyncCompletion, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimpleIOStressAction2::WaitAsyncCompletion method
+# IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 
 
 ## -description

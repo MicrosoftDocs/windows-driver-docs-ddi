@@ -7,7 +7,7 @@ old-location: print\getprintprocessorcapabilities.htm
 old-project: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetPrintProcessorCapabilities function

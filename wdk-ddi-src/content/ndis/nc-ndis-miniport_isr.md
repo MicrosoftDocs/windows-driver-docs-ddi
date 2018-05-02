@@ -7,8 +7,8 @@ old-location: netvista\miniportinterrupt.htm
 old-project: netvista
 ms.assetid: 810503b9-75cd-4b38-ab1f-de240968ded6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_ISR, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_ISR, MINIPORT_ISR callback, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_ISR callback
+# MINIPORT_ISR callback function
 
 
 ## -description

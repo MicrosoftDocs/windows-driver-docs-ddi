@@ -7,7 +7,7 @@ old-location: print\monitorreg.htm
 old-project: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: MONITORREG, *PMONITORREG
-req.product: Windows 10 or later.
 ---
 
 # _MONITORREG structure

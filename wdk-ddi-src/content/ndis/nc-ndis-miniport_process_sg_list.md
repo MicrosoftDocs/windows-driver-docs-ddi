@@ -7,8 +7,8 @@ old-location: netvista\miniportprocesssglist.htm
 old-project: netvista
 ms.assetid: ddd5d14f-f886-40d0-9fc8-eeb37da63ebd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_PROCESS_SG_LIST, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_PROCESS_SG_LIST, MINIPORT_PROCESS_SG_LIST callback, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_PROCESS_SG_LIST callback
+# MINIPORT_PROCESS_SG_LIST callback function
 
 
 ## -description

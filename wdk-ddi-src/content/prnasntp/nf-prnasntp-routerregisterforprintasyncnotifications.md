@@ -7,7 +7,7 @@ old-location: print\routerregisterforprintasyncnotifications.htm
 old-project: print
 ms.assetid: 87966827-72b2-4be7-859a-628c1accca48
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: RouterRegisterForPrintAsyncNotifications, RouterRegisterForPrintAsyncNotifications function [Print Devices], print.routerregisterforprintasyncnotifications, prnasntp/RouterRegisterForPrintAsyncNotifications, spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RouterRegisterForPrintAsyncNotifications function

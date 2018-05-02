@@ -7,7 +7,7 @@ old-location: kernel\write_register_buffer_uchar.htm
 old-project: kernel
 ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WRITE_REGISTER_BUFFER_UCHAR function

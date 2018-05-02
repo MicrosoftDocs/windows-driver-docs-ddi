@@ -7,7 +7,7 @@ old-location: kernel\pofxactivatecomponent.htm
 old-project: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PoFxActivateComponent function

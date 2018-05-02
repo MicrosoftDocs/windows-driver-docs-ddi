@@ -7,8 +7,8 @@ old-location: display\dxgkcbevalacpimethod.htm
 old-project: display
 ms.assetid: ce54cf4e-5b50-4142-b3c7-ff29b7bdbb35
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_EVAL_ACPI_METHOD, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml, DxgkCbEvalAcpiMethod, DxgkCbEvalAcpiMethod callback function [Display Devices], display.dxgkcbevalacpimethod, dispmprt/DxgkCbEvalAcpiMethod
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_EVAL_ACPI_METHOD, DXGKCB_EVAL_ACPI_METHOD callback, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml, DxgkCbEvalAcpiMethod, DxgkCbEvalAcpiMethod callback function [Display Devices], display.dxgkcbevalacpimethod, dispmprt/DxgkCbEvalAcpiMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_EVAL_ACPI_METHOD callback
+# DXGKCB_EVAL_ACPI_METHOD callback function
 
 
 ## -description

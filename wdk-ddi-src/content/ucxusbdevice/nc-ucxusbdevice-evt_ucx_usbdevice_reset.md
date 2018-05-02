@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_reset.htm
 old-project: usbref
 ms.assetid: 6876e35c-f293-4849-915f-c686a9d91dd1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_USBDEVICE_RESET, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_RESET, EVT_UCX_USBDEVICE_RESET callback, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_RESET callback
+# EVT_UCX_USBDEVICE_RESET callback function
 
 
 ## -description

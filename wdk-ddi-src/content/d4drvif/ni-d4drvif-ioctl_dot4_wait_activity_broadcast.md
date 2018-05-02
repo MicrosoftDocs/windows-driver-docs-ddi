@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_wait_activity_broadcast.htm
 old-project: print
 ms.assetid: 4E39AC46-BE78-4503-AA3A-D45BC79DBDEF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_wait_activity_broadcast
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_wait_activity_broadcast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST IOCTL

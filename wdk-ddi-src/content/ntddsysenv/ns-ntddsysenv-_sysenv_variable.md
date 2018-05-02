@@ -7,7 +7,7 @@ old-location: kernel\sysenv_variable.htm
 old-project: kernel
 ms.assetid: 311A5977-C3F5-4287-B030-00F4BB9C8629
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSYSENV_VARIABLE, PSYSENV_VARIABLE, PSYSENV_VARIABLE structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE, SYSENV_VARIABLE structure [Kernel-Mode Driver Architecture], _SYSENV_VARIABLE, kernel.sysenv_variable, ntddsysenv/PSYSENV_VARIABLE, ntddsysenv/SYSENV_VARIABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

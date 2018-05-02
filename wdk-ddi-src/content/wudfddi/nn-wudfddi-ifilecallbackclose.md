@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 22ecfb7b-daba-4321-bca5-4460ead8e3cd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IFileCallbackClose, IFileCallbackClose interface, IFileCallbackClose interface, described, UMDFFileObjectRef_52a9bb2c-0bf7-49db-80f0-7df5f4f131f6.xml, umdf.ifilecallbackclose, wdf.ifilecallbackclose, wudfddi/IFileCallbackClose
+ms.keywords: IFileCallbackClose, IFileCallbackClose interface, IFileCallbackClose interface,described, UMDFFileObjectRef_52a9bb2c-0bf7-49db-80f0-7df5f4f131f6.xml, umdf.ifilecallbackclose, wdf.ifilecallbackclose, wudfddi/IFileCallbackClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IFileCallbackClose interface

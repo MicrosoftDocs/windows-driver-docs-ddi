@@ -7,7 +7,7 @@ old-location: netvista\ndiscmdispatchincomingcall.htm
 old-project: netvista
 ms.assetid: 2172aeec-8502-414e-9d01-9292c0eb7ce8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmDispatchIncomingCall, NdisCmDispatchIncomingCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_892a99ac-d4f0-4f4b-9656-a43c99d67aca.xml, ndis/NdisCmDispatchIncomingCall, netvista.ndiscmdispatchincomingcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmDispatchIncomingCall function

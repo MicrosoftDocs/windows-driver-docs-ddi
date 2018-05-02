@@ -7,7 +7,7 @@ old-location: display\dxgk_vidmmcaps.htm
 old-project: display
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,13 +144,14 @@ This member is reserved and should be set to zero. Setting this member to zero i
 Note that this version of the <b>Reserved</b> member is available only if DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
+### -field Value
+
+
+       A 32-bit value.
+      
+
+
 ### -field PagingNode
-
-The zero-based index of the node to use for paging operations. If the driver does not set the <b>MultiEngineAware</b> bit-field member of the <b>SchedulingCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure, the DirectX graphics kernel subsystem ignores the setting of <b>PagingNode</b>. 
-
-
-#### - Value
-
 
        A 32-bit value.
 

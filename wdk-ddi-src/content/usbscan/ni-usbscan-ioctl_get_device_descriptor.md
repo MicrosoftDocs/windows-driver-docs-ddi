@@ -7,8 +7,8 @@ old-location: image\ioctl_get_device_descriptor.htm
 old-project: image
 ms.assetid: a6946dd4-db72-477f-bf2c-958c363340a0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_GET_DEVICE_DESCRIPTOR, IOCTL_GET_DEVICE_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_device_descriptor, stifnc_b84c2743-6548-40c7-8b97-4952867740ad.xml, usbscan/IOCTL_GET_DEVICE_DESCRIPTOR
+ms.date: 4/23/2018
+ms.keywords: IOCTL_GET_DEVICE_DESCRIPTOR, IOCTL_GET_DEVICE_DESCRIPTOR control, IOCTL_GET_DEVICE_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_device_descriptor, stifnc_b84c2743-6548-40c7-8b97-4952867740ad.xml, usbscan/IOCTL_GET_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RAW_PIPE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_GET_DEVICE_DESCRIPTOR IOCTL

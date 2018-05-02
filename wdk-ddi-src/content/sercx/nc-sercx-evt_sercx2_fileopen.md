@@ -7,8 +7,8 @@ old-location: serports\evtsercx2fileopen.htm
 old-project: serports
 ms.assetid: A8E6EB7F-B6FE-4FA1-88A4-52C584E69D5B
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2FileOpen, EVT_SERCX2_FILEOPEN, EvtSerCx2FileOpen, EvtSerCx2FileOpen callback function [Serial Ports], serports.evtsercx2fileopen
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2FileOpen, EVT_SERCX2_FILEOPEN, EVT_SERCX2_FILEOPEN callback, EvtSerCx2FileOpen, EvtSerCx2FileOpen callback function [Serial Ports], serports.evtsercx2fileopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_FILEOPEN callback
+# EVT_SERCX2_FILEOPEN callback function
 
 
 ## -description

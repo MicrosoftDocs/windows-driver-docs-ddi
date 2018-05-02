@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtoshort.htm
 old-project: kernel
 ms.assetid: 37C4A2B0-6FB4-431D-8FB2-0B13EE1F00F1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongPtrToShort, RtlULongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoshort, ntintsafe/RtlULongPtrToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongPtrToShort function

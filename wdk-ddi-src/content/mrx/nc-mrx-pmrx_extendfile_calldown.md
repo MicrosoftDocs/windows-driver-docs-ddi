@@ -7,7 +7,7 @@ old-location: ifsk\mrxextendforcache.htm
 old-project: ifsk
 ms.assetid: 2fde7925-040b-4a8c-8a95-29321f1ae474
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_EXTENDFILE_CALLDOWN callback
+# PMRX_EXTENDFILE_CALLDOWN callback function
 
 
 ## -description

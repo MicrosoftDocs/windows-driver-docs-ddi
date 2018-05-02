@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.SetTypeAndLink
-title: ExtRemoteTypedList::SetTypeAndLink method
+title: ExtRemoteTypedList::SetTypeAndLink
 author: windows-driver-content
 description: The SetTypeAndLink method sets the type information for the typed list.
 old-location: debugger\extremotetypedlist_settypeandlink.htm
 old-project: debugger
 ms.assetid: f6e2d8e3-294d-45d8-8fc6-33af3a746244
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, ExtRemoteTypedList::SetTypeAndLink, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class, SetTypeAndLink,ExtRemoteTypedList.SetTypeAndLink, debugger.extremotetypedlist_settypeandlink
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList class [Windows Debugging],SetTypeAndLink method, ExtRemoteTypedList.SetTypeAndLink, ExtRemoteTypedList::SetTypeAndLink, SetTypeAndLink, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_settypeandlink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTypedList::SetTypeAndLink method
+# ExtRemoteTypedList::SetTypeAndLink
 
 
 ## -description

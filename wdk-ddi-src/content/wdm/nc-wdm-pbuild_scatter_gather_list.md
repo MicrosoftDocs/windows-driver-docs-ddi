@@ -7,8 +7,8 @@ old-location: kernel\buildscattergatherlist.htm
 old-project: kernel
 ms.assetid: 678b568a-2efe-443e-89f5-84d012431755
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: BuildScatterGatherList, BuildScatterGatherList callback function [Kernel-Mode Driver Architecture], PBUILD_SCATTER_GATHER_LIST, kdma_cea6dde1-9a1d-4ffb-ac0d-d8a2b658b666.xml, kernel.buildscattergatherlist, wdm/BuildScatterGatherList
+ms.date: 4/30/2018
+ms.keywords: BuildScatterGatherList, BuildScatterGatherList callback function [Kernel-Mode Driver Architecture], PBUILD_SCATTER_GATHER_LIST, PBUILD_SCATTER_GATHER_LIST callback, kdma_cea6dde1-9a1d-4ffb-ac0d-d8a2b658b666.xml, kernel.buildscattergatherlist, wdm/BuildScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PBUILD_SCATTER_GATHER_LIST callback
+# PBUILD_SCATTER_GATHER_LIST callback function
 
 
 ## -description

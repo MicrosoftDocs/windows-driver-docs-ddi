@@ -7,8 +7,8 @@ old-location: display\dxgkddisetbacklightoptimization.htm
 old-project: display
 ms.assetid: b8c37df8-ba86-4cfd-add0-49ba9c90f04a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback
+# DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback function
 
 
 ## -description

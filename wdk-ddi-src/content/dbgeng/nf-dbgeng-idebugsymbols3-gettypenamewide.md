@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeNameWide
-title: IDebugSymbols3::GetTypeNameWide method
+title: IDebugSymbols3::GetTypeNameWide
 author: windows-driver-content
 description: The GetTypeNameWide method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypenamewide.htm
 old-project: debugger
 ms.assetid: 0098aa2c-4ee4-49e4-a480-2402e771742f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeNameWide,IDebugSymbols3.GetTypeNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method, IDebugSymbols3::GetTypeNameWide, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide
+ms.date: 4/24/2018
+ms.keywords: GetTypeNameWide, GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetTypeNameWide method, IDebugSymbols3.GetTypeNameWide, IDebugSymbols3::GetTypeNameWide, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetTypeNameWide method
+# IDebugSymbols3::GetTypeNameWide
 
 
 ## -description

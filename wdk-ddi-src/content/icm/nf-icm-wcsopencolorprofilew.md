@@ -7,8 +7,8 @@ old-location: print\wcsopencolorprofile.htm
 old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
+ms.date: 4/20/2018
+ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsOpenColorProfileW function

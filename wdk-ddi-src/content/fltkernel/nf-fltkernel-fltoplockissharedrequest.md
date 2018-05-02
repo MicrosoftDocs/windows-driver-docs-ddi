@@ -7,7 +7,7 @@ old-location: ifsk\fltoplockissharedrequest.htm
 old-project: ifsk
 ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltOplockIsSharedRequest function

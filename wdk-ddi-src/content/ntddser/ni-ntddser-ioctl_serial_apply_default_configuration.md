@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_apply_default_configuration.htm
 old-project: serports
 ms.assetid: 59AA6029-906C-480F-8F18-82C271A2BE88
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION IOCTL

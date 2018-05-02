@@ -7,7 +7,7 @@ old-location: kernel\mmlockpagablesectionbyhandle.htm
 old-project: kernel
 ms.assetid: d2e50d98-1c25-4ed6-98eb-0fb7e71fda55
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: MmLockPagableSectionByHandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture], k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, kernel.mmlockpagablesectionbyhandle, ntddk/MmLockPagableSectionByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # MmLockPagableSectionByHandle function

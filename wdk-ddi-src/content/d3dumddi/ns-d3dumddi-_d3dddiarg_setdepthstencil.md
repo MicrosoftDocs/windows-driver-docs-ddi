@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setdepthstencil.htm
 old-project: display
 ms.assetid: 9d0e9762-060e-40bb-9914-3577a086e8e0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_SETDEPTHSTENCIL, D3DDDIARG_SETDEPTHSTENCIL structure [Display Devices], UMDisplayDriver_param_Structs_8e3b527c-b594-4bed-9fe1-c8f3a410746d.xml, _D3DDDIARG_SETDEPTHSTENCIL, d3dumddi/D3DDDIARG_SETDEPTHSTENCIL, display.d3dddiarg_setdepthstencil
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\pflt_instance_setup_callback.htm
 old-project: ifsk
 ms.assetid: bbdd393d-3f0f-4bbd-8a74-ed75d20b0433
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltCallbacks_c32f2452-6198-4e87-8566-6e219dcf2f28.xml, InstanceSetupCallback, InstanceSetupCallback routine [Installable File System Drivers], PFLT_INSTANCE_SETUP_CALLBACK, fltkernel/InstanceSetupCallback, ifsk.pflt_instance_setup_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# PFLT_INSTANCE_SETUP_CALLBACK callback
+# PFLT_INSTANCE_SETUP_CALLBACK callback function
 
 
 ## -description

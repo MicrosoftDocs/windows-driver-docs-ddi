@@ -7,7 +7,7 @@ old-location: debugger\ig_dump_symbol_info.htm
 old-project: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSYM_DUMP_PARAM, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
-req.product: Windows 10 or later.
 ---
 
 # _SYM_DUMP_PARAM structure
@@ -86,6 +85,16 @@ Specifies the field that contains the next item in a linked list.  If the symbol
 The callback function specified in the <b>fieldCallBack</b> member of this structure is called, during this <b>Ioctl</b> operation, for each item in the list.  When it is called, it is passed this <b>linkList</b> structure with the members filled in for the list entry along with the contents of the <b>Context</b> member.
 
 DBG_DUMP_LIST should be set in <b>Options</b> to tell this <b>Ioctl</b> to iterate over the list.
+
+
+### -field Context
+
+Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
+
+
+### -field pBuffer
+
+Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
 
 
 ### -field CallbackRoutine
@@ -144,16 +153,6 @@ Receives a Boolean value that indicates whether the symbol is a constant.  <b>fC
 
 
 ### -field Reserved
-
-
-#### - Context
-
-Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
-
-
-#### - pBuffer
-
-Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
 
 
 ## -remarks

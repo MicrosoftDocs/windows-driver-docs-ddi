@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_EVENT_ASSOCIATION_ENUM
-req.product: Windows 10 or later.
 ---
 
 # _STOR_EVENT_ASSOCIATION_ENUM enumeration

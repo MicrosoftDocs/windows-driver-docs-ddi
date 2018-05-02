@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION
-req.product: Windows 10 or later.
 ---
 
 # _STOR_RICH_DEVICE_DESCRIPTION structure

@@ -7,8 +7,8 @@ old-location: serports\evtsercx2piotransmitinitializetransaction.htm
 old-project: serports
 ms.assetid: 2E3652CB-24F1-4467-AF1D-CFD52392B2DB
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioTransmitInitializeTransaction, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, EvtSerCx2PioTransmitInitializeTransaction, EvtSerCx2PioTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2piotransmitinitializetransaction
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioTransmitInitializeTransaction, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2PioTransmitInitializeTransaction, EvtSerCx2PioTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2piotransmitinitializetransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION callback
+# EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ndisinvalidateoffload.htm
 old-project: netvista
 ms.assetid: d9cb2724-cf14-4814-8a19-1237e0862b1a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisInvalidateOffload, NdisInvalidateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisInvalidateOffload, netvista.ndisinvalidateoffload, tcp_chim_ndis_func_f9049fdc-87ff-467c-9427-d42876e16aa3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
 # NdisInvalidateOffload function

@@ -7,8 +7,8 @@ old-location: kernel\maptransfer.htm
 old-project: kernel
 ms.assetid: 50126ab8-3094-497e-96f8-e41255d275e3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: MapTransfer, MapTransfer callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER, kdma_4bc30c1d-1d83-424f-9c58-cd92c5e9d331.xml, kernel.maptransfer, wdm/MapTransfer
+ms.date: 4/30/2018
+ms.keywords: MapTransfer, MapTransfer callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER, PMAP_TRANSFER callback, kdma_4bc30c1d-1d83-424f-9c58-cd92c5e9d331.xml, kernel.maptransfer, wdm/MapTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PMAP_TRANSFER callback
+# PMAP_TRANSFER callback function
 
 
 ## -description

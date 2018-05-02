@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2eb4b5c3-db06-4d21-8937-847734d7ac2f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration
+ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_GET_CONFIGURATION IOCTL

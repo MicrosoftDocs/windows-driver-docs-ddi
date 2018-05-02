@@ -7,8 +7,8 @@ old-location: netvista\wskcontrolsocket.htm
 old-project: netvista
 ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_CONTROL_SOCKET, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_CONTROL_SOCKET, PFN_WSK_CONTROL_SOCKET callback, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_CONTROL_SOCKET callback
+# PFN_WSK_CONTROL_SOCKET callback function
 
 
 ## -description

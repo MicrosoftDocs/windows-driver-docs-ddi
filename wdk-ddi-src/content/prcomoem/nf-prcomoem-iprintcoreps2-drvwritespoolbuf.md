@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.DrvWriteSpoolBuf
-title: IPrintCorePS2::DrvWriteSpoolBuf method
+title: IPrintCorePS2::DrvWriteSpoolBuf
 author: windows-driver-content
 description: The IPrintCorePS2::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintcoreps2_drvwritespoolbuf.htm
 old-project: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, DrvWriteSpoolBuf,IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
+ms.date: 4/20/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],DrvWriteSpoolBuf method, IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCorePS2::DrvWriteSpoolBuf method
+# IPrintCorePS2::DrvWriteSpoolBuf
 
 
 ## -description

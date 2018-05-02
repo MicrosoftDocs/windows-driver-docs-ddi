@@ -7,8 +7,8 @@ old-location: netvista\miniportcooidrequest.htm
 old-project: netvista
 ms.assetid: 903bcdc5-9d42-4067-a054-057edc95ccf7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_CO_OID_REQUEST, MiniportCoOidRequest, MiniportCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_fff124d4-8671-441b-817f-30b4275dca68.xml, ndis/MiniportCoOidRequest, netvista.miniportcooidrequest
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_CO_OID_REQUEST, MINIPORT_CO_OID_REQUEST callback, MiniportCoOidRequest, MiniportCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_fff124d4-8671-441b-817f-30b4275dca68.xml, ndis/MiniportCoOidRequest, netvista.miniportcooidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_CO_OID_REQUEST callback
+# MINIPORT_CO_OID_REQUEST callback function
 
 
 ## -description

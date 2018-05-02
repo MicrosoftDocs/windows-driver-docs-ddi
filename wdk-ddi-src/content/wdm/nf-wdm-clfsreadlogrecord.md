@@ -7,7 +7,7 @@ old-location: kernel\clfsreadlogrecord.htm
 old-project: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, kernel.clfsreadlogrecord, wdm/ClfsReadLogRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsReadLogRecord function

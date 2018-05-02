@@ -7,7 +7,7 @@ old-location: hid\hidd_getpreparseddata.htm
 old-project: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_GetPreparsedData, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: 
 ---
 
 # HidD_GetPreparsedData function

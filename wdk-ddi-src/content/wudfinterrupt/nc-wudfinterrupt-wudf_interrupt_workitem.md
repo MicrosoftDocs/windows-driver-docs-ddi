@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
+ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM callback, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WUDF_INTERRUPT_WORKITEM callback
+# WUDF_INTERRUPT_WORKITEM callback function
 
 
 ## -description

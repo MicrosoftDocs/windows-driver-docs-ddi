@@ -7,7 +7,7 @@ old-location: kernel\clfs_information.htm
 old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, CLFS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_INFORMATION, kernel.clfs_information, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/CLFS_INFORMATION, wdm/CLS_INFORMATION, wdm/PCLFS_INFORMATION, wdm/PCLS_INFORMATION, wdm/PPCLFS_INFORMATION, wdm/PPCLS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _CLS_INFORMATION structure

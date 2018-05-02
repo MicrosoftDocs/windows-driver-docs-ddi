@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OS_DEP_DATA, *POS_DEP_DATA
-req.product: Windows 10 or later.
 ---
 
 # _OS_DEP_DATA structure
@@ -89,26 +88,22 @@ Contains a mutex that drivers use to synchronize access to protected members of 
 A structure with the following members:
 
 
-
-#### Removed
+### -field RemoveLock.Removed
 
 If this Boolean value is non-zero, it indicates that the spin lock was removed.
 
 
-
-#### RefCount
+### -field RemoveLock.RefCount
 
 If this long integer is non-zero, it indicates the number of references to the spin lock that are currently active. 
 
 
-
-#### RemoveEvent
+### -field RemoveLock.RemoveEvent
 
 A pointer to an event that synchronizes spin lock removal.
 
 
-
-#### TagList
+### -field RemoveLock.TagList
 
 A pointer to a linked list of structures, each of which contains a tag string that identifies a remove spin lock. 
 

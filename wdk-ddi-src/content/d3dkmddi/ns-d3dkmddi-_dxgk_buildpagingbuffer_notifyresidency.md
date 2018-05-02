@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -68,14 +68,14 @@ The kernel mode driver handle returned from <a href="https://msdn.microsoft.com/
 The physical address of the allocation. The physical address (0, 0) is invalid and is used when the allocation is being evicted.  
 
 
-#### - Reserved
-
-This member is not used and should be set to zero.
-
-
-#### - Resident
+### -field Resident
 
 Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
+
+
+### -field Reserved
+
+This member is not used and should be set to zero.
 
 
 ## -remarks

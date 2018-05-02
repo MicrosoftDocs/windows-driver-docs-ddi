@@ -7,7 +7,7 @@ old-location: display\d3dddicb_deallocate2.htm
 old-project: display
 ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], _D3DDDICB_DEALLOCATE2, d3dumddi/D3DDDICB_DEALLOCATE2, display.d3dddicb_deallocate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

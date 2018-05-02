@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure

@@ -7,7 +7,7 @@ old-location: ifsk\ccsetdirtypinneddata.htm
 old-project: ifsk
 ms.assetid: f621a54f-ed40-4ec7-8678-7c72fcd9e704
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcSetDirtyPinnedData, CcSetDirtyPinnedData routine [Installable File System Drivers], ccref_2cd7571b-289f-4510-a5de-f4e38eb049a2.xml, ifsk.ccsetdirtypinneddata, ntifs/CcSetDirtyPinnedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcSetDirtyPinnedData function

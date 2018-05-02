@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxreleaseframesindication.htm
 old-project: netvista
 ms.assetid: 1324D516-8AEF-4357-86EC-81F6EBDC8FB9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_RELEASE_FRAMES_IND, NdisWdiTxReleaseFrameIndication, NdisWdiTxReleaseFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxReleaseFrameIndication, netvista.ndiswditxreleaseframesindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_RELEASE_FRAMES_IND, NDIS_WDI_TX_RELEASE_FRAMES_IND callback, NdisWdiTxReleaseFrameIndication, NdisWdiTxReleaseFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxReleaseFrameIndication, netvista.ndiswditxreleaseframesindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_RELEASE_FRAMES_IND callback
+# NDIS_WDI_TX_RELEASE_FRAMES_IND callback function
 
 
 ## -description

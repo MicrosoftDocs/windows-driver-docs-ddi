@@ -7,8 +7,8 @@ old-location: print\iprintunidiasyncnotifyregistration.htm
 old-project: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices], described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
+ms.date: 4/20/2018
+ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Spoolss.lib
-req.dll: Spoolss.dll
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintUnidiAsyncNotifyRegistration interface

@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketfree.htm
 old-project: netvista
 ms.assetid: 15688701-2385-4F17-A944-D398EEF3C277
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketFree, VmbPacketFree function [Network Drivers Starting with Windows Vista], netvista.vmbpacketfree, vmbuskernelmodeclientlibapi/VmbPacketFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketFree function

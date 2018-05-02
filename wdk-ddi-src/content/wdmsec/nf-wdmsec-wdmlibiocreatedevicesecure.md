@@ -7,7 +7,7 @@ old-location: kernel\wdmlibiocreatedevicesecure.htm
 old-project: kernel
 ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdmlibIoCreateDeviceSecure function

@@ -7,7 +7,7 @@ old-location: netvista\wwan_ipv6_address.htm
 old-project: netvista
 ms.assetid: 3DAC7E30-B938-429C-B389-59F924216B04
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, wwan/PWWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_IPV6_ADDRESS, *PWWAN_IPV6_ADDRESS
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_IPV6_ADDRESS structure

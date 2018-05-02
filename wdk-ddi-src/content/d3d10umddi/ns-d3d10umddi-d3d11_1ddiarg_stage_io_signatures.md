@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_stage_io_signatures.htm
 old-project: display
 ms.assetid: c7da4303-2ba4-4ac3-ad24-4ff25bb5466d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDIARG_STAGE_IO_SIGNATURES, D3D11_1DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES, display.d3d11_1ddiarg_stage_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,16 @@ Describes an I/O signature.
 
 
 
+### -field pInputSignatureDeprecated
+
+ 
+
+
+### -field pInputSignature
+
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature. 
+
+
 ### -field NumInputSignatureEntries
 
 [in] The number of entries in the array that the <b>pInputSignature</b> member specifies. 
@@ -65,19 +75,19 @@ Describes an I/O signature.
 
 
 
+### -field pOutputSignatureDeprecated
+
+ 
+
+
+### -field pOutputSignature
+
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature. 
+
+
 ### -field NumOutputSignatureEntries
 
 [in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
-
-
-#### - pInputSignature
-
-[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature. 
-
-
-#### - pOutputSignature
-
-[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406322">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature. 
 
 
 ## -remarks

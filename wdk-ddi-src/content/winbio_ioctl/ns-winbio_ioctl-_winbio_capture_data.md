@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_CAPTURE_DATA structure

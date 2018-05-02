@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetNext
-title: IDebugFailureAnalysis2::GetNext method
+title: IDebugFailureAnalysis2::GetNext
 author: windows-driver-content
 description: The GetNext method searches a DebugFailureAnalysis object for the next FA entry, after a given FA entry, that satisfies conditions specified by the Tag and TagMask parameters.
 old-location: debugger\idebugfailureanalysis2_getnext.htm
 old-project: debugger
 ms.assetid: 935E4BAD-2B4E-44DD-8AE6-A0FD1FE9F2BF
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNext method [Windows Debugging], GetNext method [Windows Debugging], IDebugFailureAnalysis2 interface, GetNext,IDebugFailureAnalysis2.GetNext, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetNext method, IDebugFailureAnalysis2::GetNext, debugger.idebugfailureanalysis2_getnext, extsfns/IDebugFailureAnalysis2::GetNext
+ms.date: 4/24/2018
+ms.keywords: GetNext, GetNext method [Windows Debugging], GetNext method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetNext method, IDebugFailureAnalysis2.GetNext, IDebugFailureAnalysis2::GetNext, debugger.idebugfailureanalysis2_getnext, extsfns/IDebugFailureAnalysis2::GetNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::GetNext method
+# IDebugFailureAnalysis2::GetNext
 
 
 ## -description

@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_UPDATE_FIRMWARE structure

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.RetrieveContext
-title: IWDFObject::RetrieveContext method
+title: IWDFObject::RetrieveContext
 author: windows-driver-content
 description: The RetrieveContext method retrieves a context that was previously registered through the IWDFObject::AssignContext method.
 old-location: wdf\iwdfobject_retrievecontext.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFObject, IWDFObject interface, RetrieveContext method, IWDFObject::RetrieveContext, RetrieveContext method, RetrieveContext method, IWDFObject interface, RetrieveContext,IWDFObject.RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext
+ms.keywords: IWDFObject interface,RetrieveContext method, IWDFObject.RetrieveContext, IWDFObject::RetrieveContext, RetrieveContext, RetrieveContext method, RetrieveContext method,IWDFObject interface, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFObject::RetrieveContext method
+# IWDFObject::RetrieveContext
 
 
 ## -description

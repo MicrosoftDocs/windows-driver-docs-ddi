@@ -7,8 +7,8 @@ old-location: serports\evtsercx2piotransmitdrainfifo.htm
 old-project: serports
 ms.assetid: A21E14DA-0B76-4DA2-B628-C3A4DE843FA9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioTransmitDrainFifo, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, EvtSerCx2PioTransmitDrainFifo, EvtSerCx2PioTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2piotransmitdrainfifo
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioTransmitDrainFifo, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback, EvtSerCx2PioTransmitDrainFifo, EvtSerCx2PioTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2piotransmitdrainfifo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback
+# EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\drawrectpatch.htm
 old-project: display
 ms.assetid: c0e3046c-f2af-4406-ac5a-c3e44f40b1fd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DrawRectPatch, DrawRectPatch callback function [Display Devices], PFND3DDDI_DRAWRECTPATCH, UserModeDisplayDriver_Functions_a32bf010-d5a9-4cf7-b885-4f0fb407a4ad.xml, d3dumddi/DrawRectPatch, display.drawrectpatch
+ms.date: 4/16/2018
+ms.keywords: DrawRectPatch, DrawRectPatch callback function [Display Devices], PFND3DDDI_DRAWRECTPATCH, PFND3DDDI_DRAWRECTPATCH callback, UserModeDisplayDriver_Functions_a32bf010-d5a9-4cf7-b885-4f0fb407a4ad.xml, d3dumddi/DrawRectPatch, display.drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DRAWRECTPATCH callback
+# PFND3DDDI_DRAWRECTPATCH callback function
 
 
 ## -description

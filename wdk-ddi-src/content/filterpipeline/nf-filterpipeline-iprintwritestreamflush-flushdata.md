@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPrintWriteStreamFlush.FlushData
-title: IPrintWriteStreamFlush::FlushData method
+title: IPrintWriteStreamFlush::FlushData
 author: windows-driver-content
 description: The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
 old-location: print\iprintwritestreamflush_flushdata.htm
 old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface, FlushData,IPrintWriteStreamFlush.FlushData, IPrintWriteStreamFlush, IPrintWriteStreamFlush interface [Print Devices], FlushData method, IPrintWriteStreamFlush::FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, print.iprintwritestreamflush_flushdata
+ms.date: 4/20/2018
+ms.keywords: FlushData, FlushData method [Print Devices], FlushData method [Print Devices],IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices],FlushData method, IPrintWriteStreamFlush.FlushData, IPrintWriteStreamFlush::FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, print.iprintwritestreamflush_flushdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPrintWriteStreamFlush::FlushData method
+# IPrintWriteStreamFlush::FlushData
 
 
 ## -description

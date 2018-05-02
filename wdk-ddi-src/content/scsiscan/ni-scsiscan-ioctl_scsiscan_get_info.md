@@ -7,8 +7,8 @@ old-location: image\ioctl_scsiscan_get_info.htm
 old-project: image
 ms.assetid: 48045e29-5982-44e6-b9a7-3b000e5cf338
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SCSISCAN_GET_INFO IOCTL

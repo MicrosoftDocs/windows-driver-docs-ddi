@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_NI_RESPONSE
 title: GNSS_NI_RESPONSE
 author: windows-driver-content
 description: This structure contains NI request response information.
-old-location: sensors\gnss_ni_response.htm
-old-project: sensors
+old-location: gnss\gnss_ni_response.htm
+old-project: gnss
 ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE, sensors.gnss_ni_response"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnss.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

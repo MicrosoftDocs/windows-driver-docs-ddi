@@ -7,7 +7,7 @@ old-location: netvista\rilavoidcdmasystemparams.htm
 old-project: netvista
 ms.assetid: cf160fb9-8230-4b75-8a4f-d19ef001f54a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilavoidcdmasystemparams, ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILAVOIDCDMASYSTEMPARAMS structure

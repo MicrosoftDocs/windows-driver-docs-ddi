@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_extensionexecute.htm
 old-project: display
 ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, _D3DDDIARG_EXTENSIONEXECUTE, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_cq.htm
 old-project: netvista
 ms.assetid: 25F820D4-04AF-488E-BBDA-1E9D82B7483E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CREATE_CQ, NdkCreateCq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCq, netvista.ndk_fn_create_cq
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_CQ, NDK_FN_CREATE_CQ callback, NdkCreateCq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCq, netvista.ndk_fn_create_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_CQ callback
+# NDK_FN_CREATE_CQ callback function
 
 
 ## -description

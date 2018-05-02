@@ -7,8 +7,8 @@ old-location: stream\ikspinfactory.htm
 old-project: stream
 ms.assetid: b86f4048-c175-4062-969c-c9c443d6d394
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinFactory, IKsPinFactory interface [Streaming Media Devices], IKsPinFactory interface [Streaming Media Devices], described, ksproxy/IKsPinFactory, ksproxy_df24cea8-a5d7-474c-bd70-53068078e6c6.xml, stream.ikspinfactory
+ms.date: 4/23/2018
+ms.keywords: IKsPinFactory, IKsPinFactory interface [Streaming Media Devices], IKsPinFactory interface [Streaming Media Devices],described, ksproxy/IKsPinFactory, ksproxy_df24cea8-a5d7-474c-bd70-53068078e6c6.xml, stream.ikspinfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsPinFactory interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamChannelVolume
-title: IMiniportStreamAudioEngineNode::SetStreamChannelVolume method
+title: IMiniportStreamAudioEngineNode::SetStreamChannelVolume
 author: windows-driver-content
 description: Sets the volume level to be applied to the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setstreamchannelvolume.htm
 old-project: audio
 ms.assetid: 0110979E-8C57-4394-B43E-BCC7B178A0AF
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelVolume method, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], SetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelVolume,IMiniportStreamAudioEngineNode.SetStreamChannelVolume, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelVolume method, IMiniportStreamAudioEngineNode.SetStreamChannelVolume, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], SetStreamChannelVolume method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::SetStreamChannelVolume method
+# IMiniportStreamAudioEngineNode::SetStreamChannelVolume
 
 
 ## -description

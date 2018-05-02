@@ -7,7 +7,7 @@ old-location: print\oemupgradeprinter.htm
 old-project: print
 ms.assetid: 3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], print.oemupgradeprinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, printoem/OEMUpgradePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMUpgradePrinter function

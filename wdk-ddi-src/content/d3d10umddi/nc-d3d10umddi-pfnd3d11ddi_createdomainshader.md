@@ -7,8 +7,8 @@ old-location: display\createdomainshader.htm
 old-project: display
 ms.assetid: 534c292a-b3ef-41aa-868a-f5e57b90d789
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateDomainShader, CreateDomainShader callback function [Display Devices], PFND3D11DDI_CREATEDOMAINSHADER, UserModeDisplayDriverDx11_Functions_e9e86a57-1f64-42a8-a871-d3f42f1c6819.xml, d3d10umddi/CreateDomainShader, display.createdomainshader
+ms.date: 4/16/2018
+ms.keywords: CreateDomainShader, CreateDomainShader callback function [Display Devices], PFND3D11DDI_CREATEDOMAINSHADER, PFND3D11DDI_CREATEDOMAINSHADER callback, UserModeDisplayDriverDx11_Functions_e9e86a57-1f64-42a8-a871-d3f42f1c6819.xml, d3d10umddi/CreateDomainShader, display.createdomainshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_CREATEDOMAINSHADER callback
+# PFND3D11DDI_CREATEDOMAINSHADER callback function
 
 
 ## -description

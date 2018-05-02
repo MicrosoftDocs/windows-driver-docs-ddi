@@ -7,7 +7,7 @@ old-location: netvista\rilcbgwlconfiginfo.htm
 old-project: netvista
 ms.assetid: b92f6639-bf6a-4c1b-a0a6-57e310251591
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo, ntddrilapitypes/RILCBGWLCONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILCBGWLCONFIGINFO, *LPRILCBGWLCONFIGINFO
-req.product: Windows 10 or later.
 ---
 
 # RILCBGWLCONFIGINFO structure

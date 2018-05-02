@@ -7,7 +7,7 @@ old-location: kernel\kequerymaximumprocessorcount.htm
 old-project: kernel
 ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryMaximumProcessorCount, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, kernel.kequerymaximumprocessorcount, wdm/KeQueryMaximumProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryMaximumProcessorCount function

@@ -7,7 +7,7 @@ old-location: kernel\tmpreparecomplete.htm
 old-project: kernel
 ms.assetid: b09fac2c-a563-4caa-b2a3-6b9bcb1353ac
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: TmPrepareComplete, TmPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.tmpreparecomplete, ktm_ref_e0ecfef3-989f-43c4-b4a6-6a2406e8aaa5.xml, wdm/TmPrepareComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmPrepareComplete function

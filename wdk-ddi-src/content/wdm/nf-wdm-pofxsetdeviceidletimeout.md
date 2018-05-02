@@ -7,7 +7,7 @@ old-location: kernel\pofxsetdeviceidletimeout.htm
 old-project: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PoFxSetDeviceIdleTimeout function

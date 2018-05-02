@@ -7,8 +7,8 @@ old-location: display\dxgkddiqueryenginestatus.htm
 old-project: display
 ms.assetid: 87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_QUERYENGINESTATUS, DxgkDdiQueryEngineStatus, DxgkDdiQueryEngineStatus callback function [Display Devices], d3dkmddi/DxgkDdiQueryEngineStatus, display.dxgkddiqueryenginestatus
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_QUERYENGINESTATUS, DXGKDDI_QUERYENGINESTATUS callback, DxgkDdiQueryEngineStatus, DxgkDdiQueryEngineStatus callback function [Display Devices], d3dkmddi/DxgkDdiQueryEngineStatus, display.dxgkddiqueryenginestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_QUERYENGINESTATUS callback
+# DXGKDDI_QUERYENGINESTATUS callback function
 
 
 ## -description

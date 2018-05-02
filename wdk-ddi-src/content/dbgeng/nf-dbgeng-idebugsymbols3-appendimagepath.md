@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendImagePath
-title: IDebugSymbols3::AppendImagePath method
+title: IDebugSymbols3::AppendImagePath
 author: windows-driver-content
 description: The AppendImagePath method appends directories to the executable image path.
 old-location: debugger\appendimagepath.htm
 old-project: debugger
 ms.assetid: faafc6d0-f311-46c1-87c1-8b0ea20984db
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AppendImagePath method [Windows Debugging], AppendImagePath method [Windows Debugging], IDebugSymbols interface, AppendImagePath method [Windows Debugging], IDebugSymbols2 interface, AppendImagePath method [Windows Debugging], IDebugSymbols3 interface, AppendImagePath,IDebugSymbols3.AppendImagePath, IDebugSymbols interface [Windows Debugging], AppendImagePath method, IDebugSymbols2 interface [Windows Debugging], AppendImagePath method, IDebugSymbols2::AppendImagePath, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AppendImagePath method, IDebugSymbols3::AppendImagePath, IDebugSymbols::AppendImagePath, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, dbgeng/IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols3::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath, debugger.appendimagepath
+ms.date: 4/24/2018
+ms.keywords: AppendImagePath, AppendImagePath method [Windows Debugging], AppendImagePath method [Windows Debugging],IDebugSymbols interface, AppendImagePath method [Windows Debugging],IDebugSymbols2 interface, AppendImagePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AppendImagePath method, IDebugSymbols2 interface [Windows Debugging],AppendImagePath method, IDebugSymbols2::AppendImagePath, IDebugSymbols3 interface [Windows Debugging],AppendImagePath method, IDebugSymbols3.AppendImagePath, IDebugSymbols3::AppendImagePath, IDebugSymbols::AppendImagePath, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, dbgeng/IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols3::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath, debugger.appendimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::AppendImagePath method
+# IDebugSymbols3::AppendImagePath
 
 
 ## -description

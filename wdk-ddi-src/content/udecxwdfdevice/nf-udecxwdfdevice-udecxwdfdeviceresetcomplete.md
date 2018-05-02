@@ -7,7 +7,7 @@ old-location: buses\udecxwdfdeviceresetcomplete.htm
 old-project: usbref
 ms.assetid: B5873B19-17EF-4DF8-A3E7-7E7F6440A2B7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxWdfDeviceResetComplete function

@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.typenames: 
 ---
 
-# DUMP_START callback
+# DUMP_START callback function
 
 
 ## -description

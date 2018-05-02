@@ -7,8 +7,8 @@ old-location: stream\ioctl_ks_read_stream.htm
 old-project: stream
 ms.assetid: 92110e27-5f1a-4c4d-b999-d9deb546e6a6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_KS_READ_STREAM, IOCTL_KS_READ_STREAM control code [Streaming Media Devices], ks-ioctl_677f9dd3-bd4b-4c15-8ee1-67ede429c958.xml, ks/IOCTL_KS_READ_STREAM, stream.ioctl_ks_read_stream
+ms.date: 4/23/2018
+ms.keywords: IOCTL_KS_READ_STREAM, IOCTL_KS_READ_STREAM control, IOCTL_KS_READ_STREAM control code [Streaming Media Devices], ks-ioctl_677f9dd3-bd4b-4c15-8ee1-67ede429c958.xml, ks/IOCTL_KS_READ_STREAM, stream.ioctl_ks_read_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

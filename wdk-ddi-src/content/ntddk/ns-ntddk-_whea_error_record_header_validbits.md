@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,29 +63,29 @@ The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a <a hre
  
 
 
-### -field AsULONG
-
-A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union.
-
-
-#### - PartitionId
-
-A single bit that indicates that the <b>PartitionId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
-
-
-#### - PlatformId
+### -field DUMMYSTRUCTNAME.PlatformId
 
 A single bit that indicates that the <b>PlatformId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Timestamp
+
+A single bit that indicates that the <b>Timestamp</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.PartitionId
+
+A single bit that indicates that the <b>PartitionId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - Timestamp
+### -field AsULONG
 
-A single bit that indicates that the <b>Timestamp</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
+A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union.
 
 
 ## -remarks

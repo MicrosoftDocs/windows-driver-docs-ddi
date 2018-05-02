@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetReadParameters
-title: IWDFIoRequest::GetReadParameters method
+title: IWDFIoRequest::GetReadParameters
 author: windows-driver-content
 description: The GetReadParameters method retrieves the request parameters for a read-type request.
 old-location: wdf\iwdfiorequest_getreadparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, GetReadParameters,IWDFIoRequest.GetReadParameters, IWDFIoRequest, IWDFIoRequest interface, GetReadParameters method, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters
+ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetReadParameters method, IWDFIoRequest.GetReadParameters, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::GetReadParameters method
+# IWDFIoRequest::GetReadParameters
 
 
 ## -description

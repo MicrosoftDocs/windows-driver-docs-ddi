@@ -7,7 +7,7 @@ old-location: netvista\ril_managecalls_v1.htm
 old-project: netvista
 ms.assetid: 98a9dd7a-fef0-4d2f-9302-86c9c5b790e0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_ManageCalls_V1, RIL_ManageCalls_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls_v1, rilapi/RIL_ManageCalls_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_ManageCalls_V1 function

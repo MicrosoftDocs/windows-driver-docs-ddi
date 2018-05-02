@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_DriverProperties
-title: IPrinterExtensionContext::get_DriverProperties method
+title: IPrinterExtensionContext::get_DriverProperties
 author: windows-driver-content
 description: Gets the driver property bag.
 old-location: print\iprinterextensioncontext_driverproperties.htm
 old-project: print
 ms.assetid: 52EC01D5-43C7-4CE0-ABEC-1604A4198316
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext::get_DriverProperties, get_DriverProperties, get_DriverProperties,IPrinterExtensionContext.get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties
+ms.date: 4/20/2018
+ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices],DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext.get_DriverProperties, IPrinterExtensionContext::DriverProperties, IPrinterExtensionContext::get_DriverProperties, get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionContext::get_DriverProperties method
+# IPrinterExtensionContext::get_DriverProperties
 
 
 ## -description

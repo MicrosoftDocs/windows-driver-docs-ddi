@@ -7,8 +7,8 @@ old-location: netvista\miniportwdirxresume.htm
 old-project: netvista
 ms.assetid: 483C59C3-8F9C-48A5-B5E4-34A60BAE1B1A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_RX_RESUME, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_RX_RESUME, MINIPORT_WDI_RX_RESUME callback, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_RX_RESUME callback
+# MINIPORT_WDI_RX_RESUME callback function
 
 
 ## -description

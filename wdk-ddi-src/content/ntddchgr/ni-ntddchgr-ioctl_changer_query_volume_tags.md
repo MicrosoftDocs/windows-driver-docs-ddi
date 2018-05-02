@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d2edc681-2a12-4281-81f5-147cf6c5e68f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code [Storage Devices], k307_c43d8b06-0f12-4543-8a7c-bcd8a752b342.xml, ntddchgr/IOCTL_CHANGER_QUERY_VOLUME_TAGS, storage.ioctl_changer_query_volume_tags
+ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code [Storage Devices], k307_c43d8b06-0f12-4543-8a7c-bcd8a752b342.xml, ntddchgr/IOCTL_CHANGER_QUERY_VOLUME_TAGS, storage.ioctl_changer_query_volume_tags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_CHANGER_QUERY_VOLUME_TAGS IOCTL

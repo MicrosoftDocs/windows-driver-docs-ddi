@@ -7,8 +7,8 @@ old-location: serports\evtsercxcontrol.htm
 old-project: serports
 ms.assetid: 2A88BA68-48A7-4C00-8031-CCC50A0C090D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxControl, EVT_SERCX_CONTROL, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxControl, EVT_SERCX_CONTROL, EVT_SERCX_CONTROL callback, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_CONTROL callback
+# EVT_SERCX_CONTROL callback function
 
 
 ## -description

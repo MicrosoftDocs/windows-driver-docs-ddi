@@ -7,8 +7,8 @@ old-location: display\getvideodecoderprofile.htm
 old-project: display
 ms.assetid: 75576152-0afd-4602-b481-bf1d6d9348b3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILE, d3d10umddi/pfnGetVideoDecoderProfile, display.getvideodecoderprofile, pfnGetVideoDecoderProfile, pfnGetVideoDecoderProfile callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILE, PFND3D11_1DDI_GETVIDEODECODERPROFILE callback, d3d10umddi/pfnGetVideoDecoderProfile, display.getvideodecoderprofile, pfnGetVideoDecoderProfile, pfnGetVideoDecoderProfile callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_GETVIDEODECODERPROFILE callback
+# PFND3D11_1DDI_GETVIDEODECODERPROFILE callback function
 
 
 ## -description

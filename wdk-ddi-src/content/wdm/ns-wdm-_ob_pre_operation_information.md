@@ -7,7 +7,7 @@ old-location: kernel\ob_pre_operation_information.htm
 old-project: kernel
 ms.assetid: 2fe0f1aa-cf9f-4b45-8c34-a6d810fd461a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*POB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_INFORMATION, kernel.ob_pre_operation_information, kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, wdm/OB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _OB_PRE_OPERATION_INFORMATION structure
@@ -78,6 +77,11 @@ A new handle to a process or thread will be opened. Use <b>Parameters-&gt;Create
 A process or thread handle will be duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
 
 
+### -field Flags
+
+Reserved. Use the <b>KernelHandle</b> member instead.
+
+
 ### -field KernelHandle
 
 A bit that specifies whether the handle is a kernel handle. If this member is <b>TRUE</b>, the handle is a kernel handle. Otherwise, this handle is not a kernel handle.
@@ -106,11 +110,6 @@ A pointer to driver-specific context information for the operation. By default, 
 ### -field Parameters
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558739">OB_PRE_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid.
-
-
-#### - Flags
-
-Reserved. Use the <b>KernelHandle</b> member instead.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: netvista\pd_buffer_8021q_info.htm
 old-project: netvista
 ms.assetid: B5B2051E-C62F-4E3D-9C52-DE46145A2C24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, ndis/PPD_BUFFER_8021Q_INFO, netvista.pd_buffer_8021q_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

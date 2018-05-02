@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore2.DeleteNamedValue
-title: IWDFNamedPropertyStore2::DeleteNamedValue method
+title: IWDFNamedPropertyStore2::DeleteNamedValue
 author: windows-driver-content
 description: The DeleteNamedValue method deletes a value name from the registry.
 old-location: wdf\iwdfnamedpropertystore2_deletenamedvalue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DeleteNamedValue method, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, DeleteNamedValue,IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
+ms.keywords: DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method,IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,DeleteNamedValue method, IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFNamedPropertyStore2::DeleteNamedValue method
+# IWDFNamedPropertyStore2::DeleteNamedValue
 
 
 ## -description

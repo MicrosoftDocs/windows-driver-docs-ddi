@@ -7,7 +7,7 @@ old-location: print\oemqueryadvancewidths.htm
 old-project: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices], print.oemqueryadvancewidths, print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMQueryAdvanceWidths function

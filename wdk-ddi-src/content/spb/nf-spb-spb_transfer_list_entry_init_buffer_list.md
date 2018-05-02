@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
 old-project: SPB
 ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function

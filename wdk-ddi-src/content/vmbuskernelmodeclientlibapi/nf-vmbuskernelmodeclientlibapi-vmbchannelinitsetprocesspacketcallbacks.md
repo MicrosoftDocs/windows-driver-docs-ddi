@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetprocesspacketcallbacks.htm
 old-project: netvista
 ms.assetid: 437DC9C5-CE73-45E8-AC4A-CFF9249809AD
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetprocesspacketcallbacks, vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelInitSetProcessPacketCallbacks function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetStoredEventInformation
-title: IDebugControl4::GetStoredEventInformation method
+title: IDebugControl4::GetStoredEventInformation
 author: windows-driver-content
 description: The GetStoredEventInformation method retrieves information about an event of interest available in the current target.
 old-location: debugger\getstoredeventinformation.htm
 old-project: debugger
 ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface, GetStoredEventInformation,IDebugControl4.GetStoredEventInformation, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
+ms.date: 4/24/2018
+ms.keywords: GetStoredEventInformation, GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetStoredEventInformation method, IDebugControl4.GetStoredEventInformation, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetStoredEventInformation method
+# IDebugControl4::GetStoredEventInformation
 
 
 ## -description

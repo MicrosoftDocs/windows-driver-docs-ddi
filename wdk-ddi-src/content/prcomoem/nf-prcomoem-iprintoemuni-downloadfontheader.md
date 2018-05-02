@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DownloadFontHeader
-title: IPrintOemUni::DownloadFontHeader method
+title: IPrintOemUni::DownloadFontHeader
 author: windows-driver-content
 description: The IPrintOemUni::DownloadFontHeader method allows a rendering plug-in for Unidrv to send a font's header information to a printer.
 old-location: print\iprintoemuni_downloadfontheader.htm
 old-project: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DownloadFontHeader method [Print Devices], DownloadFontHeader method [Print Devices], IPrintOemUni interface, DownloadFontHeader,IPrintOemUni.DownloadFontHeader, IPrintOemUni, IPrintOemUni interface [Print Devices], DownloadFontHeader method, IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, print.iprintoemuni_downloadfontheader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
+ms.date: 4/20/2018
+ms.keywords: DownloadFontHeader, DownloadFontHeader method [Print Devices], DownloadFontHeader method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DownloadFontHeader method, IPrintOemUni.DownloadFontHeader, IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, print.iprintoemuni_downloadfontheader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::DownloadFontHeader method
+# IPrintOemUni::DownloadFontHeader
 
 
 ## -description

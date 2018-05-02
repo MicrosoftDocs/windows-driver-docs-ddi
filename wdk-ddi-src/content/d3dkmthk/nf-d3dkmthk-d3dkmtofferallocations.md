@@ -7,8 +7,8 @@ old-location: display\d3dkmtofferallocations.htm
 old-project: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
+ms.date: 4/16/2018
+ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOfferAllocations function

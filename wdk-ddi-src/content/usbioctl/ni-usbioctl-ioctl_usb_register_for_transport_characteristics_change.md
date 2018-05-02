@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_register_for_transport_characteristics_change.htm
 old-project: usbref
 ms.assetid: 4192501F-5A30-463C-924D-CD4F2C8C3764
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_register_for_transport_characteristics_change, usbioctl/IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control, IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_register_for_transport_characteristics_change, usbioctl/IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE IOCTL

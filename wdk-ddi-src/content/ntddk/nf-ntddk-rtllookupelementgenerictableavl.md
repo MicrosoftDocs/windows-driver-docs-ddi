@@ -7,7 +7,7 @@ old-location: ifsk\rtllookupelementgenerictableavl.htm
 old-project: ifsk
 ms.assetid: 7A10B5E7-293E-4E28-BAB8-E189891A851A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlLookupElementGenericTableAvl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictableavl, ntddk/RtlLookupElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlLookupElementGenericTableAvl function

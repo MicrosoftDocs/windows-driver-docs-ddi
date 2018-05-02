@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_opm_set_signing_key_and_sequence_number
 old-project: display
 ms.assetid: 98a874e7-4eea-4b35-833f-60f49ea5f599
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers, EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_set_signing_key_and_sequence_numbers, iddcx/EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback, EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers, EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_set_signing_key_and_sequence_numbers, iddcx/EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback
+# EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback function
 
 
 ## -description

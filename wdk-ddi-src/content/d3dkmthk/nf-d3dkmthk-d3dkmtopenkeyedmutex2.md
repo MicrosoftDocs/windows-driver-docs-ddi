@@ -7,8 +7,8 @@ old-location: display\d3dkmtopenkeyedmutex2.htm
 old-project: display
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 callback function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2
+ms.date: 4/16/2018
+ms.keywords: D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 callback function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, PFND3DKMT_OPENKEYEDMUTEX2 callback, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenKeyedMutex2 function

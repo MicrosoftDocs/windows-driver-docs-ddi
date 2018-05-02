@@ -7,7 +7,7 @@ old-location: kernel\acceptacpinotification.htm
 old-project: kernel
 ms.assetid: 7BC27FD1-CCD8-4ABC-B973-C2242D6C243B
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: AcceptAcpiNotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYACPI, kernel.acceptacpinotification, pepfx/AcceptAcpiNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: 
 ---
 
-# PEPCALLBACKNOTIFYACPI callback
+# PEPCALLBACKNOTIFYACPI callback function
 
 
 ## -description

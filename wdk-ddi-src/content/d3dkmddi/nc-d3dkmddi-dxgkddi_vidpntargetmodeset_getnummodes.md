@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfngetnummodes.htm
 old-project: display
 ms.assetid: 1197989a-c76e-4dee-a1c7-677b6558677c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES, VidPnFunctions_f2fa9ea6-6ce7-485d-bcd2-b3c340ca66fc.xml, d3dkmddi/pfnGetNumModes, display.dxgk_vidpntargetmodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES, DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES callback, VidPnFunctions_f2fa9ea6-6ce7-485d-bcd2-b3c340ca66fc.xml, d3dkmddi/pfnGetNumModes, display.dxgk_vidpntargetmodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES callback
+# DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES callback function
 
 
 ## -description

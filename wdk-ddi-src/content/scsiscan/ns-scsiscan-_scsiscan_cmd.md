@@ -7,7 +7,7 @@ old-location: image\scsiscan_cmd.htm
 old-project: image
 ms.assetid: 412c35b2-eb08-43a3-b776-053645806f5d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
-req.product: Windows 10 or later.
 ---
 
 # _SCSISCAN_CMD structure

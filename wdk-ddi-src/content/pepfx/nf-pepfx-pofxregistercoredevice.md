@@ -7,7 +7,7 @@ old-location: kernel\pofxregistercoredevice.htm
 old-project: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
+req.typenames: 
 ---
 
 # PoFxRegisterCoreDevice function

@@ -7,8 +7,8 @@ old-location: serports\evtsercxfilecleanup.htm
 old-project: serports
 ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP callback, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_FILECLEANUP callback
+# EVT_SERCX_FILECLEANUP callback function
 
 
 ## -description

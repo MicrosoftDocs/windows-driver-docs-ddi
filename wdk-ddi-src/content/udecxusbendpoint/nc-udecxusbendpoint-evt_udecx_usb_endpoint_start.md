@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_usb_endpoint_start.htm
 old-project: usbref
 ms.assetid: 3F58B6FF-65C5-4B28-81DD-3726B6695BF7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_USB_ENDPOINT_START, EvtUsbEndpointStart, EvtUsbEndpointStart callback function [Buses], buses.evt_udecx_usb_endpoint_start, udecxusbendpoint/EvtUsbEndpointStart
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_USB_ENDPOINT_START, EVT_UDECX_USB_ENDPOINT_START callback, EvtUsbEndpointStart, EvtUsbEndpointStart callback function [Buses], buses.evt_udecx_usb_endpoint_start, udecxusbendpoint/EvtUsbEndpointStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_USB_ENDPOINT_START callback
+# EVT_UDECX_USB_ENDPOINT_START callback function
 
 
 ## -description

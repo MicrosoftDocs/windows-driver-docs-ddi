@@ -7,7 +7,7 @@ old-location: netvista\rilmodemresetstate.htm
 old-project: netvista
 ms.assetid: 4069ded7-95d7-46c2-a4a7-a360482c7b7d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILMODEMRESETSTATE, RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_MODEMRESETSTATE_FAILED, RIL_MODEMRESETSTATE_MAX, RIL_MODEMRESETSTATE_RECOVERED, netvista.rilmodemresetstate, ntddrilapitypes/RILMODEMRESETSTATE, ntddrilapitypes/RIL_MODEMRESETSTATE_FAILED, ntddrilapitypes/RIL_MODEMRESETSTATE_MAX, ntddrilapitypes/RIL_MODEMRESETSTATE_RECOVERED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILMODEMRESETSTATE
-req.product: Windows 10 or later.
 ---
 
 # RILMODEMRESETSTATE enumeration

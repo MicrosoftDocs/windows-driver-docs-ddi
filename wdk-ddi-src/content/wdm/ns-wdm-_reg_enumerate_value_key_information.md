@@ -7,7 +7,7 @@ old-location: kernel\reg_enumerate_value_key_information.htm
 old-project: kernel
 ms.assetid: 0d5566ca-b71c-429e-bb7d-db3eb09f0472
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREG_ENUMERATE_VALUE_KEY_INFORMATION, PREG_ENUMERATE_VALUE_KEY_INFORMATION, PREG_ENUMERATE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_ENUMERATE_VALUE_KEY_INFORMATION, REG_ENUMERATE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_ENUMERATE_VALUE_KEY_INFORMATION, kernel.reg_enumerate_value_key_information, kstruct_d_126313cd-66b7-4239-8c2a-23c475d575cf.xml, wdm/PREG_ENUMERATE_VALUE_KEY_INFORMATION, wdm/REG_ENUMERATE_VALUE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: REG_ENUMERATE_VALUE_KEY_INFORMATION, *PREG_ENUMERATE_VALUE_KEY_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _REG_ENUMERATE_VALUE_KEY_INFORMATION structure

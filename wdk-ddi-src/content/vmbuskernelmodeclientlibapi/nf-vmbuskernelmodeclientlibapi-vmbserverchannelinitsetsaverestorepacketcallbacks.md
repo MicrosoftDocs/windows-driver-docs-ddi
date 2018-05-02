@@ -7,7 +7,7 @@ old-location: netvista\vmbserverchannelinitsetsaverestorepacketcallbacks.htm
 old-project: netvista
 ms.assetid: 2E704BF1-21E2-498E-82C2-2B55BF44D044
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbServerChannelInitSetSaveRestorePacketCallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetsaverestorepacketcallbacks, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetSaveRestorePacketCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbServerChannelInitSetSaveRestorePacketCallbacks function

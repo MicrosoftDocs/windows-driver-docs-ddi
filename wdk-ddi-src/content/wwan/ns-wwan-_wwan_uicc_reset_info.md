@@ -7,7 +7,7 @@ old-location: netvista\wwan_uicc_reset_info.htm
 old-project: netvista
 ms.assetid: 1D53135F-3826-4546-A0AD-34697D186E8A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_UICC_RESET_INFO, PWWAN_UICC_RESET_INFO, PWWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UICC_RESET_INFO, WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UICC_RESET_INFO, netvista.wwan_uicc_reset_info, wwan/PWWAN_UICC_RESET_INFO, wwan/WWAN_UICC_RESET_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_UICC_RESET_INFO, *PWWAN_UICC_RESET_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_UICC_RESET_INFO structure
