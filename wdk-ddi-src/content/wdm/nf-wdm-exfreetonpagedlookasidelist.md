@@ -7,7 +7,7 @@ old-location: kernel\exfreetonpagedlookasidelist.htm
 old-project: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices

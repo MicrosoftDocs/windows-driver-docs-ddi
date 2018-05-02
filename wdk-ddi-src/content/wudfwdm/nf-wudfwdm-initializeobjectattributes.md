@@ -7,7 +7,7 @@ old-location: kernel\initializeobjectattributes.htm
 old-project: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, wudfwdm/InitializeObjectAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

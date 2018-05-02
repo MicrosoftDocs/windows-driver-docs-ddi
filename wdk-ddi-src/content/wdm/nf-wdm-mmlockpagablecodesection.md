@@ -7,7 +7,7 @@ old-location: kernel\mmlockpagablecodesection.htm
 old-project: kernel
 ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

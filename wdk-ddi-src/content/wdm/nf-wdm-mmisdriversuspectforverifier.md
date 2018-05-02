@@ -7,7 +7,7 @@ old-location: kernel\mmisdriversuspectforverifier.htm
 old-project: kernel
 ms.assetid: 049BDC6E-2FB2-421F-9229-320F2ED98663
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], kernel.mmisdriversuspectforverifier, wdm/MmIsDriverSuspectForVerifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

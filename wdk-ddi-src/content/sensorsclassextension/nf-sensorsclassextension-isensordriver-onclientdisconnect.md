@@ -7,7 +7,7 @@ old-location: sensors\isensordriver_onclientdisconnect.htm
 old-project: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientDisconnect method, ISensorDriver.OnClientDisconnect, ISensorDriver::OnClientDisconnect, OnClientDisconnect, OnClientDisconnect method [Sensor Devices], OnClientDisconnect method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, sensors.isensordriver_onclientdisconnect, sensorsclassextension/ISensorDriver::OnClientDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -177,6 +177,10 @@ The function definition follows.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
 
 
 

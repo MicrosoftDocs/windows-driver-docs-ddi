@@ -7,7 +7,7 @@ old-location: kernel\rtlguidfromstring.htm
 old-project: kernel
 ms.assetid: 7bdfc781-93d6-4f49-95f1-46f102908ec5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlGUIDFromString, RtlGUIDFromString routine [Kernel-Mode Driver Architecture], k109_d6fe22b7-9d81-4024-819c-03bce65d3d14.xml, kernel.rtlguidfromstring, wdm/RtlGUIDFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\rtllonglongtolongptr.htm
 old-project: kernel
 ms.assetid: 1E7B693A-B363-4AE0-B9E3-45CC01FE9724
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongLongToLongPtr, RtlLongLongToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtllonglongtolongptr, ntintsafe/RtlLongLongToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

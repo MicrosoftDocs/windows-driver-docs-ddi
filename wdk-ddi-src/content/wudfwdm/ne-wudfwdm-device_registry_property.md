@@ -7,7 +7,7 @@ old-location: kernel\device_registry_property.htm
 old-project: kernel
 ms.assetid: a17b4a88-45e8-45e7-b879-2f41b97be368
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: DEVICE_REGISTRY_PROPERTY, DEVICE_REGISTRY_PROPERTY Enumeration, DEVICE_REGISTRY_PROPERTY enumeration [Kernel-Mode Driver Architecture], DevicePropertyAddress, DevicePropertyAllocatedResources, DevicePropertyBootConfiguration, DevicePropertyBootConfigurationTranslated, DevicePropertyBusNumber, DevicePropertyBusTypeGuid, DevicePropertyClassGuid, DevicePropertyClassName, DevicePropertyCompatibleIDs, DevicePropertyContainerID, DevicePropertyDeviceDescription, DevicePropertyDriverKeyName, DevicePropertyEnumeratorName, DevicePropertyFriendlyName, DevicePropertyHardwareID, DevicePropertyInstallState, DevicePropertyLegacyBusType, DevicePropertyLocationInformation, DevicePropertyManufacturer, DevicePropertyPhysicalDeviceObjectName, DevicePropertyRemovalPolicy, DevicePropertyResourceRequirements, DevicePropertyUINumber, enumeration [Kernel-Mode Driver Architecture], kernel.device_registry_property, sysenum_485e3369-186a-4a71-b13e-be6ff9ab8dce.xml, wdm/, wdm/DevicePropertyAddress, wdm/DevicePropertyAllocatedResources, wdm/DevicePropertyBootConfiguration, wdm/DevicePropertyBootConfigurationTranslated, wdm/DevicePropertyBusNumber, wdm/DevicePropertyBusTypeGuid, wdm/DevicePropertyClassGuid, wdm/DevicePropertyClassName, wdm/DevicePropertyCompatibleIDs, wdm/DevicePropertyContainerID, wdm/DevicePropertyDeviceDescription, wdm/DevicePropertyDriverKeyName, wdm/DevicePropertyEnumeratorName, wdm/DevicePropertyFriendlyName, wdm/DevicePropertyHardwareID, wdm/DevicePropertyInstallState, wdm/DevicePropertyLegacyBusType, wdm/DevicePropertyLocationInformation, wdm/DevicePropertyManufacturer, wdm/DevicePropertyPhysicalDeviceObjectName, wdm/DevicePropertyRemovalPolicy, wdm/DevicePropertyResourceRequirements, wdm/DevicePropertyUINumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.lib
-req.dll: NtosKrnl.exe
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef

@@ -7,7 +7,7 @@ old-location: kernel\islistempty.htm
 old-project: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices

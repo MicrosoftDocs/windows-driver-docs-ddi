@@ -7,7 +7,7 @@ old-location: spb\evtspbcontrollerlock.htm
 old-project: SPB
 ms.assetid: E08674F1-CE63-464B-9C70-96F93C574753
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_LOCK, EVT_SPB_CONTROLLER_LOCK callback, EvtSpbControllerLock, EvtSpbControllerLock callback function [Buses], SPB.evtspbcontrollerlock, spbcx/EvtSpbControllerLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

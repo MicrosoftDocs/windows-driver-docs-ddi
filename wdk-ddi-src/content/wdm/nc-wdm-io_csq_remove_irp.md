@@ -7,7 +7,7 @@ old-location: kernel\csqremoveirp.htm
 old-project: kernel
 ms.assetid: 9d99a20b-3a95-4e27-96bd-41f38a631573
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: CsqRemoveIrp, CsqRemoveIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_6d9086c3-65b8-4e0e-b5e9-0c4edbf513b1.xml, IO_CSQ_REMOVE_IRP, kernel.csqremoveirp, wdm/CsqRemoveIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices

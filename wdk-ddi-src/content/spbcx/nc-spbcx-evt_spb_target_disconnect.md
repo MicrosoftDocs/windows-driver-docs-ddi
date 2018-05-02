@@ -7,7 +7,7 @@ old-location: spb\evtspbtargetdisconnect.htm
 old-project: SPB
 ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

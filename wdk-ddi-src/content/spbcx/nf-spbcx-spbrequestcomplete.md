@@ -7,7 +7,7 @@ old-location: spb\spbrequestcomplete.htm
 old-project: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

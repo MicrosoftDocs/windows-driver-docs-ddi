@@ -7,7 +7,7 @@ old-location: kernel\rtlsetallbits.htm
 old-project: kernel
 ms.assetid: a379a910-4712-4d77-af52-614a1b9cc511
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlSetAllBits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, kernel.rtlsetallbits, wdm/RtlSetAllBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

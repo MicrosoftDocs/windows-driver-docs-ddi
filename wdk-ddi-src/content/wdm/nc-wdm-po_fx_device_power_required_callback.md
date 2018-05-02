@@ -7,7 +7,7 @@ old-location: kernel\devicepowerrequiredcallback.htm
 old-project: kernel
 ms.assetid: AC2110EA-A124-4C01-8270-8D6650F80E0A
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\ioreportinterruptactive.htm
 old-project: kernel
 ms.assetid: 41C3AC04-14AF-4C37-9557-F9FF494F234B
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoReportInterruptActive, IoReportInterruptActive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
 ms.prod: windows-hardware
 ms.technology: windows-devices

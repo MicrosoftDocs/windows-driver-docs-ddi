@@ -7,7 +7,7 @@ old-location: kernel\halt.htm
 old-project: kernel
 ms.assetid: 425239C1-4FBE-4703-B7DB-9DCC17562A6C
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: Halt, Halt routine [Kernel-Mode Driver Architecture], PROCESSOR_HALT_ROUTINE, kernel.halt, wdm/Halt
 ms.prod: windows-hardware
 ms.technology: windows-devices

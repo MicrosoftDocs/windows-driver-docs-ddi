@@ -7,7 +7,7 @@ old-location: kernel\exacquirerundownprotection.htm
 old-project: kernel
 ms.assetid: DA4C7FBC-F5D5-48EA-90D6-F2249AF6401E
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotection, wdm/ExAcquireRundownProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices

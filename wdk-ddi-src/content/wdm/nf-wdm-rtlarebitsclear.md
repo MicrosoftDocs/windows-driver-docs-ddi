@@ -7,7 +7,7 @@ old-location: kernel\rtlarebitsclear.htm
 old-project: kernel
 ms.assetid: f4092f06-3ed7-4153-8498-0fdfac958a1e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlAreBitsClear, RtlAreBitsClear routine [Kernel-Mode Driver Architecture], k109_bbef7cb1-d817-498e-b091-2d07acc0e552.xml, kernel.rtlarebitsclear, wdm/RtlAreBitsClear
 ms.prod: windows-hardware
 ms.technology: windows-devices

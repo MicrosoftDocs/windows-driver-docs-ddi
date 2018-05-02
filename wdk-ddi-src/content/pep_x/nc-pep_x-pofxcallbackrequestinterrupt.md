@@ -7,7 +7,7 @@ old-location: kernel\requestinterrupt.htm
 old-project: kernel
 ms.assetid: B999405D-D6A5-4DFF-A902-F9C938C29063
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKREQUESTINTERRUPT, RequestInterrupt, RequestInterrupt routine [Kernel-Mode Driver Architecture], kernel.requestinterrupt, pepfx/RequestInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices

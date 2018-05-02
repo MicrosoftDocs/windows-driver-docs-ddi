@@ -7,7 +7,7 @@ old-location: kernel\mmallocatecontiguousmemoryspecifycache.htm
 old-project: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, kernel.mmallocatecontiguousmemoryspecifycache, wdm/MmAllocateContiguousMemorySpecifyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

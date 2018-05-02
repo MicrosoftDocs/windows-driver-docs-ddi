@@ -7,7 +7,7 @@ old-location: kernel\interfacereference.htm
 old-project: kernel
 ms.assetid: 21737c1a-dd9d-4011-85c0-7ff871265ed5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: InterfaceReference, InterfaceReference routine [Kernel-Mode Driver Architecture], PINTERFACE_REFERENCE, drvr_interface_d7092619-d2e6-4ca6-bbd3-f857d775f73e.xml, kernel.interfacereference, wdm/InterfaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

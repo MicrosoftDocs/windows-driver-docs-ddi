@@ -7,7 +7,7 @@ old-location: kernel\ioupdatelinkshareaccess.htm
 old-project: kernel
 ms.assetid: C92E53C8-3411-4E6E-B48E-B16F6B815488
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

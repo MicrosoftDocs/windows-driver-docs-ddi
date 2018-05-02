@@ -7,7 +7,7 @@ old-location: hid\pi8042_keyboard_isr.htm
 old-project: hid
 ms.assetid: e21fa089-0650-4a3f-96f9-f479d36ef080
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: KeyboardIsr, KeyboardIsr callback function [Human Input Devices], PI8042_KEYBOARD_ISR, PI8042_KEYBOARD_ISR callback, hid.pi8042_keyboard_isr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml, ntdd8042/KeyboardIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices

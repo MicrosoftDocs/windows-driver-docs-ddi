@@ -7,7 +7,7 @@ old-location: kernel\zwopenthreadtokenex.htm
 old-project: kernel
 ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

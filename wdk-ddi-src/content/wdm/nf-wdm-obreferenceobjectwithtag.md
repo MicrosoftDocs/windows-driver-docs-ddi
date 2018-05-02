@@ -7,7 +7,7 @@ old-location: kernel\obreferenceobjectwithtag.htm
 old-project: kernel
 ms.assetid: d2b95301-c018-4a2f-801d-a78b00c8d9ca
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ObReferenceObjectWithTag, ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

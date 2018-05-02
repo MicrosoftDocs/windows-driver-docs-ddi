@@ -7,7 +7,7 @@ old-location: kernel\iobuildasynchronousfsdrequest.htm
 old-project: kernel
 ms.assetid: cb633146-c3ab-4a09-bbcd-5964ecbf6e44
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoBuildAsynchronousFsdRequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, kernel.iobuildasynchronousfsdrequest, wdm/IoBuildAsynchronousFsdRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

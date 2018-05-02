@@ -7,7 +7,7 @@ old-location: kernel\iowmiallocateinstanceids.htm
 old-project: kernel
 ms.assetid: c382689e-907c-473c-9ab1-da963d7f3ba3
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMIAllocateInstanceIds, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, kernel.iowmiallocateinstanceids, wdm/IoWMIAllocateInstanceIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

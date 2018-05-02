@@ -7,7 +7,7 @@ old-location: kernel\zwmaketemporaryobject.htm
 old-project: kernel
 ms.assetid: 1b58174f-aa38-4ea3-8e08-41434684e9ef
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtMakeTemporaryObject, ZwMakeTemporaryObject, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture], k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, kernel.zwmaketemporaryobject, wdm/NtMakeTemporaryObject, wdm/ZwMakeTemporaryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\obreleaseobjectsecurity.htm
 old-project: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity, wdm/ObReleaseObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

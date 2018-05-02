@@ -7,7 +7,7 @@ old-location: kernel\iowmiquerysingleinstance.htm
 old-project: kernel
 ms.assetid: 742535da-4726-4320-88ec-f6752ad02fb3
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMIQuerySingleInstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture], k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, kernel.iowmiquerysingleinstance, wdm/IoWMIQuerySingleInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

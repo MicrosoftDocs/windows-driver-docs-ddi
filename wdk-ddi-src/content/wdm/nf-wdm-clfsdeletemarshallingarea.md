@@ -7,7 +7,7 @@ old-location: kernel\clfsdeletemarshallingarea.htm
 old-project: kernel
 ms.assetid: 8aa7aec3-85d7-40a2-a63d-bee8c5ce1ff9
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_a015edd3-4625-4b24-995f-75217a711528.xml, kernel.clfsdeletemarshallingarea, wdm/ClfsDeleteMarshallingArea
 ms.prod: windows-hardware
 ms.technology: windows-devices

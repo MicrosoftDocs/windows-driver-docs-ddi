@@ -7,7 +7,7 @@ old-location: kernel\rtlfindsetbits.htm
 old-project: kernel
 ms.assetid: 35add921-e5a2-4c18-83db-86150c43b034
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlFindSetBits, RtlFindSetBits routine [Kernel-Mode Driver Architecture], k109_67665139-638f-4dc5-b0b4-db3782c1f294.xml, kernel.rtlfindsetbits, wdm/RtlFindSetBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

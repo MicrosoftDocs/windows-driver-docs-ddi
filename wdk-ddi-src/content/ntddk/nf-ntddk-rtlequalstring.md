@@ -7,7 +7,7 @@ old-location: kernel\rtlequalstring.htm
 old-project: kernel
 ms.assetid: f8244276-0cf6-4315-9f4a-85890194dad8
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlEqualString, RtlEqualString routine [Kernel-Mode Driver Architecture], k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, kernel.rtlequalstring, ntddk/RtlEqualString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: sensors\sensor_config_init.htm
 old-project: sensors
 ms.assetid: 0A7189A0-1375-4456-B8A5-D92E0AA74A99
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_CONFIG_INIT, SENSOR_CONFIG_INIT function [Sensor Devices], sensors.sensor_config_init, sensorscx/SENSOR_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

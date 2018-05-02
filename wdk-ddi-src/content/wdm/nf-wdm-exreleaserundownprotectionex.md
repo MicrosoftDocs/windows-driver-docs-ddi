@@ -7,7 +7,7 @@ old-location: kernel\exreleaserundownprotectionex.htm
 old-project: kernel
 ms.assetid: 9CF77F14-93E5-4742-A01C-770BC814507C
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExReleaseRundownProtectionEx, ExReleaseRundownProtectionEx routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotectionex, wdm/ExReleaseRundownProtectionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

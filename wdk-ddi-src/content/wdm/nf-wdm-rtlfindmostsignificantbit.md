@@ -7,7 +7,7 @@ old-location: kernel\rtlfindmostsignificantbit.htm
 old-project: kernel
 ms.assetid: 372a155f-e270-49ab-a5ab-9b933b29ed74
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlFindMostSignificantBit, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, kernel.rtlfindmostsignificantbit, wdm/RtlFindMostSignificantBit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\seassignsecurity.htm
 old-project: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, wdm/SeAssignSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

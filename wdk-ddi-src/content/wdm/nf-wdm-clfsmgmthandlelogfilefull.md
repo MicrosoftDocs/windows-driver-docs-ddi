@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmthandlelogfilefull.htm
 old-project: kernel
 ms.assetid: acfd28c9-c6d5-4768-b095-488f174d78c0
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsMgmtHandleLogFileFull, ClfsMgmtHandleLogFileFull routine [Kernel-Mode Driver Architecture], Clfs_management_244be38f-f0dc-45db-b0c2-ccdee1290840.xml, kernel.clfsmgmthandlelogfilefull, wdm/ClfsMgmtHandleLogFileFull
 ms.prod: windows-hardware
 ms.technology: windows-devices

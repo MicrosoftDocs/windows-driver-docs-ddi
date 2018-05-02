@@ -7,7 +7,7 @@ old-location: kernel\kesavefloatingpointstate.htm
 old-project: kernel
 ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, wdm/KeSaveFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices

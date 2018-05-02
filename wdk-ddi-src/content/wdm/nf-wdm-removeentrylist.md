@@ -7,7 +7,7 @@ old-location: kernel\removeentrylist.htm
 old-project: kernel
 ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, wdm/RemoveEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: hid\hidd_getmanufacturerstring.htm
 old-project: hid
 ms.assetid: 21253ed7-d98d-4b97-8d83-01dd18b3c4f9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_GetManufacturerString, HidD_GetManufacturerString routine [Human Input Devices], hid.hidd_getmanufacturerstring, hidfunc_c0e9df6e-0aab-49ac-9a72-196a9b3ceec5.xml, hidsdi/HidD_GetManufacturerString
 ms.prod: windows-hardware
 ms.technology: windows-devices

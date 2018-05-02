@@ -7,7 +7,7 @@ old-location: sensors\sensorscxsensordataready.htm
 old-project: sensors
 ms.assetid: 9F01D093-226E-4CB4-8085-812115EBA671
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady
 ms.prod: windows-hardware
 ms.technology: windows-devices

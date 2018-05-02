@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcbcopynex.htm
 old-project: kernel
 ms.assetid: 08b2e13c-bbd6-4344-83cb-3bb911c5da70
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCbCopyNEx, RtlUnicodeStringCbCopyNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopynex, ntstrsafe/RtlUnicodeStringCbCopyNEx, safestrings_d890ac48-9708-4149-a023-cc5198393084.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

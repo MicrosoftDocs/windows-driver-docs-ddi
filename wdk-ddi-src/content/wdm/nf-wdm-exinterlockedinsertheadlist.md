@@ -7,7 +7,7 @@ old-location: kernel\exinterlockedinsertheadlist.htm
 old-project: kernel
 ms.assetid: 91640a96-abad-424e-b9bd-301dad2b6aac
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExInterlockedInsertHeadList, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, kernel.exinterlockedinsertheadlist, wdm/ExInterlockedInsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices

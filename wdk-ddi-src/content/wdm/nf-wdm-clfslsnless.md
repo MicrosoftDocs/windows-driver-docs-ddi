@@ -7,7 +7,7 @@ old-location: kernel\clfslsnless.htm
 old-project: kernel
 ms.assetid: fbdf6e86-35a1-48a8-966a-0e5472466da2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsLsnLess, ClfsLsnLess routine [Kernel-Mode Driver Architecture], Clfs_5e0196f1-8244-4cf9-aa36-7359e52ff43b.xml, kernel.clfslsnless, wdm/ClfsLsnLess
 ms.prod: windows-hardware
 ms.technology: windows-devices

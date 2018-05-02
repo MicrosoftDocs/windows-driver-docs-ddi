@@ -7,7 +7,7 @@ old-location: kernel\pofxcompleteidlecondition.htm
 old-project: kernel
 ms.assetid: D43DA9A4-02F4-4C4E-83AE-DFADA0FCC73D
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlecondition, wdm/PoFxCompleteIdleCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

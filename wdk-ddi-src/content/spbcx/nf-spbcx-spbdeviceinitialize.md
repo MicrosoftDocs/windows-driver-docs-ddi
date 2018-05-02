@@ -7,7 +7,7 @@ old-location: spb\spbdeviceinitialize.htm
 old-project: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], spbcx/SpbDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

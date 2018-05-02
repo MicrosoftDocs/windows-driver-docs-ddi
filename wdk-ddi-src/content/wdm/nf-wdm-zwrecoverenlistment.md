@@ -7,7 +7,7 @@ old-location: kernel\zwrecoverenlistment.htm
 old-project: kernel
 ms.assetid: 0f34d2d1-bb3a-4529-9ced-d9bed998c4ce
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtRecoverEnlistment, ZwRecoverEnlistment, ZwRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrecoverenlistment, ktm_ref_0a6564fb-c6d1-4b4b-a278-a1d78395c1b4.xml, wdm/NtRecoverEnlistment, wdm/ZwRecoverEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

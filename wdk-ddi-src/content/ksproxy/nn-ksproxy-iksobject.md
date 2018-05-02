@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Ksproxy.h
-req.dll: NtosKrnl.exe
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef

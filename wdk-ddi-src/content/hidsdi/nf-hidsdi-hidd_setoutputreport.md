@@ -7,7 +7,7 @@ old-location: hid\hidd_setoutputreport.htm
 old-project: hid
 ms.assetid: a4ec7a17-40c4-4812-a62a-585b3b486578
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

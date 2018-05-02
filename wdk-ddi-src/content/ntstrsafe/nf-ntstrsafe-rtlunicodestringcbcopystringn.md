@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcbcopystringn.htm
 old-project: kernel
 ms.assetid: b36d01e5-179b-4adc-ace3-0664c93aedef
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCbCopyStringN, RtlUnicodeStringCbCopyStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopystringn, ntstrsafe/RtlUnicodeStringCbCopyStringN, safestrings_4f11af32-212f-47f5-8585-ad5c04c51ec0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

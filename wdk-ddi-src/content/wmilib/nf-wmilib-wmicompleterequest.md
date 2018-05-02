@@ -7,7 +7,7 @@ old-location: kernel\wmicompleterequest.htm
 old-project: kernel
 ms.assetid: c6377dcc-a83b-4766-b882-25d228a26efe
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: WmiCompleteRequest, WmiCompleteRequest routine [Kernel-Mode Driver Architecture], k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, kernel.wmicompleterequest, wmilib/WmiCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

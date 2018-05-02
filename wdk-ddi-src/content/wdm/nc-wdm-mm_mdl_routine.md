@@ -7,7 +7,7 @@ old-location: kernel\mm_mdl_routine.htm
 old-project: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MM_MDL_ROUTINE callback, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine"
 ms.prod: windows-hardware
 ms.technology: windows-devices

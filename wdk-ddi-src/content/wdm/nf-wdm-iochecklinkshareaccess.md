@@ -7,7 +7,7 @@ old-location: kernel\iochecklinkshareaccess.htm
 old-project: kernel
 ms.assetid: 1C34237E-D4AF-4F12-9FF2-9382BADCC9D3
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iochecklinkshareaccess, wdm/IoCheckLinkShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

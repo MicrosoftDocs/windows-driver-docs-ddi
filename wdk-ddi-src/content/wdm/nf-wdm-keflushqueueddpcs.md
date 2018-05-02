@@ -7,7 +7,7 @@ old-location: kernel\keflushqueueddpcs.htm
 old-project: kernel
 ms.assetid: e5237e44-fff1-4928-9029-f1d1691ef2e3
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: KeFlushQueuedDpcs, KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture], k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, kernel.keflushqueueddpcs, wdm/KeFlushQueuedDpcs
 ms.prod: windows-hardware
 ms.technology: windows-devices

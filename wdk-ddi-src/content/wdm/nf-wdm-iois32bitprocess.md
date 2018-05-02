@@ -7,7 +7,7 @@ old-location: kernel\iois32bitprocess.htm
 old-project: kernel
 ms.assetid: a2de12d5-ed9e-42ac-b3e8-a3a567e4ab4a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoIs32bitProcess, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, kernel.iois32bitprocess, wdm/IoIs32bitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

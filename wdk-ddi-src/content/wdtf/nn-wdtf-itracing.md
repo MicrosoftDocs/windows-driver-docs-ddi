@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WDTF.tlb
-req.lib: NtosKrnl.lib
-req.dll: NtosKrnl.exe
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef

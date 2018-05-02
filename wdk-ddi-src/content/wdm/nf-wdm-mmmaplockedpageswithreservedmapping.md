@@ -7,7 +7,7 @@ old-location: kernel\mmmaplockedpageswithreservedmapping.htm
 old-project: kernel
 ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: MmMapLockedPagesWithReservedMapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, wdm/MmMapLockedPagesWithReservedMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

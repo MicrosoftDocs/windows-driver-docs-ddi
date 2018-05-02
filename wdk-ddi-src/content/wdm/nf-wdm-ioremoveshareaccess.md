@@ -7,7 +7,7 @@ old-location: kernel\ioremoveshareaccess.htm
 old-project: kernel
 ms.assetid: 999ee9cc-13c7-4e6b-a294-7e7d28272384
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoRemoveShareAccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, kernel.ioremoveshareaccess, wdm/IoRemoveShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

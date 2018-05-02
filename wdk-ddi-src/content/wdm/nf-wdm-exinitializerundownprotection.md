@@ -7,7 +7,7 @@ old-location: kernel\exinitializerundownprotection.htm
 old-project: kernel
 ms.assetid: 59B9C222-1A03-4C04-9F29-D9EA47E5E298
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExInitializeRundownProtection, ExInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exinitializerundownprotection, wdm/ExInitializeRundownProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices

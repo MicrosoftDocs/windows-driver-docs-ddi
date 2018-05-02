@@ -7,7 +7,7 @@ old-location: hid\evtvhfcleanup.htm
 old-project: hid
 ms.assetid: 1D477E7B-E4EA-46E7-872C-3BEBFBD31702
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_VHF_CLEANUP, EVT_VHF_CLEANUP callback, EvtVhfCleanup, EvtVhfCleanup callback function [Human Input Devices], hid.evtvhfcleanup, vhf/EvtVhfCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

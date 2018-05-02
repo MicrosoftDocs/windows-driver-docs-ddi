@@ -7,7 +7,7 @@ old-location: kernel\counted_reason_context.htm
 old-project: kernel
 ms.assetid: beb17d50-d99a-4baf-99bd-9f42fbea0478
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCOUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT structure [Kernel-Mode Driver Architecture], PCOUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _COUNTED_REASON_CONTEXT, kernel.counted_reason_context, kstruct_a_52baf683-dfd2-4004-abed-e9ae6221c342.xml, wdm/COUNTED_REASON_CONTEXT, wdm/PCOUNTED_REASON_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

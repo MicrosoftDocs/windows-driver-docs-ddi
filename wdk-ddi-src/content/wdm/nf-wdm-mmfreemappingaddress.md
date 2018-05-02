@@ -7,7 +7,7 @@ old-location: kernel\mmfreemappingaddress.htm
 old-project: kernel
 ms.assetid: df5afc18-da83-46b4-b7ab-8cef4353b951
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: MmFreeMappingAddress, MmFreeMappingAddress routine [Kernel-Mode Driver Architecture], k106_fa09359d-0552-429a-b3af-048f03ea7a15.xml, kernel.mmfreemappingaddress, wdm/MmFreeMappingAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

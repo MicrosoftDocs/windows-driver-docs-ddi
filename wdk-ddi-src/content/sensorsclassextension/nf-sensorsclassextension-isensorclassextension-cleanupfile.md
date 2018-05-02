@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.CleanupFile
-title: ISensorClassExtension::CleanupFile method
+title: ISensorClassExtension::CleanupFile
 author: windows-driver-content
 description: The ISensorClassExtension::CleanupFile method notifies the class extension about a file handle that closes and cancels all pending I/O requests, for the specified application.
 old-location: sensors\isensorclassextension_cleanupfile.htm
 old-project: sensors
 ms.assetid: eeade123-fb83-478f-99e3-e79bbbb1919b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: CleanupFile method [Sensor Devices], CleanupFile,ISensorClassExtension.CleanupFile, ISensorClassExtension, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile
+ms.date: 4/30/2018
+ms.keywords: CleanupFile, CleanupFile method [Sensor Devices], CleanupFile method [Sensor Devices],ISensorClassExtension interface, ISensorClassExtension interface [Sensor Devices],CleanupFile method, ISensorClassExtension.CleanupFile, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile, sensorsclassextension/ISensorClassExtension::CleanupFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,14 +38,13 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	CleanupFile
+-	ISensorClassExtension.CleanupFile
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::CleanupFile method
+# ISensorClassExtension::CleanupFile
 
 
 ## -description
@@ -123,4 +122,15 @@ Your driver must call this method to forward <a href="https://msdn.microsoft.com
 When finished, the sensor class extension calls the driver in <a href="https://msdn.microsoft.com/9484610b-4cbd-4c4e-9e60-ef052702325c">ISensorDriver::OnClientDisconnect</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>, if applicable.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+ 
+
+ 
 

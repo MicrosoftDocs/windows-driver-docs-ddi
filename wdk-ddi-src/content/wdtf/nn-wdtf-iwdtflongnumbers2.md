@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: NtosKrnl.lib
-req.dll: NtosKrnl.exe
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef

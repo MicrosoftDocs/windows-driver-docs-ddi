@@ -7,7 +7,7 @@ old-location: kernel\pep_processor_park_state.htm
 old-project: kernel
 ms.assetid: 7F0BD23A-A375-43D5-B106-31E206DB6EC4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_PARK_STATE, PPEP_PROCESSOR_PARK_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PARK_STATE, kernel.pep_processor_park_state, pepfx/PEP_PROCESSOR_PARK_STATE, pepfx/PPEP_PROCESSOR_PARK_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

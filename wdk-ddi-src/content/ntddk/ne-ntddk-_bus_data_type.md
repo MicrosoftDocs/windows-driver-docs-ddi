@@ -7,7 +7,7 @@ old-location: kernel\bus_data_type.htm
 old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PBUS_DATA_TYPE, BUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], CbusConfiguration, Cmos, ConfigurationSpaceUndefined, EisaConfiguration, MPIConfiguration, MPSAConfiguration, MaximumBusDataType, NuBusConfiguration, PBUS_DATA_TYPE, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PCIConfiguration, PCMCIAConfiguration, PNPISAConfiguration, Pos, SgiInternalConfiguration, VMEConfiguration, _BUS_DATA_TYPE, kernel.bus_data_type, ntddk/BUS_DATA_TYPE, ntddk/CbusConfiguration, ntddk/Cmos, ntddk/ConfigurationSpaceUndefined, ntddk/EisaConfiguration, ntddk/MPIConfiguration, ntddk/MPSAConfiguration, ntddk/MaximumBusDataType, ntddk/NuBusConfiguration, ntddk/PBUS_DATA_TYPE, ntddk/PCIConfiguration, ntddk/PCMCIAConfiguration, ntddk/PNPISAConfiguration, ntddk/Pos, ntddk/SgiInternalConfiguration, ntddk/VMEConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.lib
-req.dll: NtosKrnl.exe
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef

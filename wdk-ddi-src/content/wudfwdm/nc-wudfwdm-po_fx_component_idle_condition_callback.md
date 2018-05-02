@@ -7,7 +7,7 @@ old-location: kernel\componentidleconditioncallback.htm
 old-project: kernel
 ms.assetid: 785DF693-DB7A-4675-9F33-200F17093333
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ComponentIdleConditionCallback, ComponentIdleConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK, kernel.componentidleconditioncallback, wdm/ComponentIdleConditionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

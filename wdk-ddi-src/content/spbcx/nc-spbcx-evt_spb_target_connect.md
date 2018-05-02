@@ -7,7 +7,7 @@ old-location: spb\evtspbtargetconnect.htm
 old-project: SPB
 ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: hid\hidd_getproductstring.htm
 old-project: hid
 ms.assetid: c0627fbf-4b64-4530-8c0f-45326a83f765
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], hid.hidd_getproductstring, hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hidsdi/HidD_GetProductString
 ms.prod: windows-hardware
 ms.technology: windows-devices

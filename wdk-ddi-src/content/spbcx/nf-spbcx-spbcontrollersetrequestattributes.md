@@ -7,7 +7,7 @@ old-location: spb\spbcontrollersetrequestattributes.htm
 old-project: SPB
 ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

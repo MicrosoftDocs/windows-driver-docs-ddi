@@ -7,7 +7,7 @@ old-location: kernel\iomarkirppending.htm
 old-project: kernel
 ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, kernel.iomarkirppending, wdm/IoMarkIrpPending
 ms.prod: windows-hardware
 ms.technology: windows-devices

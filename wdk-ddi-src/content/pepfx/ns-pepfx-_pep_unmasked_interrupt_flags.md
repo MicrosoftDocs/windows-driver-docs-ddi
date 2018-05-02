@@ -7,7 +7,7 @@ old-location: kernel\pep_unmasked_interrupt_flags.htm
 old-project: kernel
 ms.assetid: A385FBF9-2222-49E0-A708-1638C0D2FF7A
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

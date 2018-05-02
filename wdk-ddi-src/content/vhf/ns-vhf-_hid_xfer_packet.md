@@ -7,7 +7,7 @@ old-location: hid\hid_xfer_packet.htm
 old-project: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHID_XFER_PACKET, HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], _HID_XFER_PACKET, hid.hid_xfer_packet, hidclass/HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcopyunicodestringex.htm
 old-project: kernel
 ms.assetid: 1118503c-868b-423c-b459-7db32bf5b82b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchCopyUnicodeStringEx, RtlStringCchCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyunicodestringex, ntstrsafe/RtlStringCchCopyUnicodeStringEx, safestrings_fd016973-3ea3-432d-80dc-f23a3821d607.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringvalidateex.htm
 old-project: kernel
 ms.assetid: 864935c4-28b8-4738-ac83-e51e6988248b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: spb\evtspbcontrolleriosequence.htm
 old-project: SPB
 ms.assetid: C56F1528-5FDA-4BC9-AB32-7882FB0F7713
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\clfsreserveandappendlogaligned.htm
 old-project: kernel
 ms.assetid: 4502c9bd-d03c-4f29-b46e-ba4532b838bb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsReserveAndAppendLogAligned, ClfsReserveAndAppendLogAligned routine [Kernel-Mode Driver Architecture], Clfs_aef34ba7-9276-41a4-8136-b20ae8e8531d.xml, kernel.clfsreserveandappendlogaligned, wdm/ClfsReserveAndAppendLogAligned
 ms.prod: windows-hardware
 ms.technology: windows-devices

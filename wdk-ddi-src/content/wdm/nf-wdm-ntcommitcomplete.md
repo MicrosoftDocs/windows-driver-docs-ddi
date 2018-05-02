@@ -7,7 +7,7 @@ old-location: kernel\zwcommitcomplete.htm
 old-project: kernel
 ms.assetid: d0b968bc-bbab-4b6f-bb1f-9e36ac7c1e05
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtCommitComplete, ZwCommitComplete, ZwCommitComplete routine [Kernel-Mode Driver Architecture], kernel.zwcommitcomplete, ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml, wdm/NtCommitComplete, wdm/ZwCommitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

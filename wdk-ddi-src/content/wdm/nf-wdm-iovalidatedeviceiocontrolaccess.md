@@ -7,7 +7,7 @@ old-location: kernel\iovalidatedeviceiocontrolaccess.htm
 old-project: kernel
 ms.assetid: 45e8279f-b7a5-4b45-92b7-5f740f6c1117
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess routine [Kernel-Mode Driver Architecture], k104_724cb845-fabf-4b5a-8712-901829f1f79d.xml, kernel.iovalidatedeviceiocontrolaccess, wdm/IoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

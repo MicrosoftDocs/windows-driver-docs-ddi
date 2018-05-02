@@ -7,7 +7,7 @@ old-location: hid\_vhfasyncoperationcomplete.htm
 old-project: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], hid._vhfasyncoperationcomplete, vhf/VhfAsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\iowmiquerysingleinstancemultiple.htm
 old-project: kernel
 ms.assetid: c0e011b5-804c-4f0d-a125-a083a0f83d50
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMIQuerySingleInstanceMultiple, IoWMIQuerySingleInstanceMultiple routine [Kernel-Mode Driver Architecture], k104_bd0dace0-1c4b-4e21-9e2c-7c3060878881.xml, kernel.iowmiquerysingleinstancemultiple, wdm/IoWMIQuerySingleInstanceMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices

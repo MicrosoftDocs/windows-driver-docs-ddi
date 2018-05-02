@@ -7,7 +7,7 @@ old-location: kernel\_image_policy_id.htm
 old-project: kernel
 ms.assetid: e2984ef0-6648-41d3-89da-4f57cce66cfb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IMAGE_POLICY_ID, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], ImagePolicyIdCapability, ImagePolicyIdCrashDump, ImagePolicyIdCrashDumpKey, ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdDebug, ImagePolicyIdDeviceId, ImagePolicyIdEtw, ImagePolicyIdMaximum, ImagePolicyIdParentSd, ImagePolicyIdParentSdRev, ImagePolicyIdScenarioId, ImagePolicyIdSvn, _IMAGE_POLICY_ID, kernel._image_policy_id, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDump, wdm/ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdDebug, wdm/ImagePolicyIdDeviceId, wdm/ImagePolicyIdEtw, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdParentSd, wdm/ImagePolicyIdParentSdRev, wdm/ImagePolicyIdScenarioId, wdm/ImagePolicyIdSvn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.lib
-req.dll: NtosKrnl.exe
+req.lib: 
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef

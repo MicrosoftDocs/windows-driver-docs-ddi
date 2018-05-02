@@ -7,7 +7,7 @@ old-location: kernel\exquerydepthslist.htm
 old-project: kernel
 ms.assetid: fdf40535-4e0d-4db9-9e95-744029eb2bd5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExQueryDepthSList, ExQueryDepthSList routine [Kernel-Mode Driver Architecture], k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, kernel.exquerydepthslist, wdm/ExQueryDepthSList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: hid\hidd_getserialnumberstring.htm
 old-project: hid
 ms.assetid: 807f1432-1b2f-45fc-899c-b2920ea79f7a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_GetSerialNumberString, HidD_GetSerialNumberString routine [Human Input Devices], hid.hidd_getserialnumberstring, hidfunc_b01ce302-052c-43f1-9b8f-6421ebb66954.xml, hidsdi/HidD_GetSerialNumberString
 ms.prod: windows-hardware
 ms.technology: windows-devices

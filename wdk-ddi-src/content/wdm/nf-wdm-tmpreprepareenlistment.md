@@ -7,7 +7,7 @@ old-location: kernel\tmpreprepareenlistment.htm
 old-project: kernel
 ms.assetid: 54c0fed2-a553-4321-bf61-0f71d18ab7c5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: TmPrePrepareEnlistment, TmPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmpreprepareenlistment, ktm_ref_b27bc92e-86df-4457-9a8a-bf56eb7d1ac8.xml, wdm/TmPrePrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

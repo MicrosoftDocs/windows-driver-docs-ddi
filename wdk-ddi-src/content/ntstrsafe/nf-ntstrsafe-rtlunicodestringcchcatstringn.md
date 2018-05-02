@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcchcatstringn.htm
 old-project: kernel
 ms.assetid: fb36bc6f-ea9d-4433-a004-3d7db64fcb06
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCchCatStringN, RtlUnicodeStringCchCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatstringn, ntstrsafe/RtlUnicodeStringCchCatStringN, safestrings_7873a766-38f3-4e51-bde0-81fbf1f2dda6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

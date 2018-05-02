@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtoint8.htm
 old-project: kernel
 ms.assetid: D2A77B0A-9307-4090-AE3D-049E5C414D31
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongPtrToInt8, RtlULongPtrToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoint8, ntintsafe/RtlULongPtrToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\ioctl_ioctl_sysenv_query_variable_info.htm
 old-project: kernel
 ms.assetid: 4056202F-2292-40A5-BE1D-8C1A6FA79B50
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IOCTL_SYSENV_QUERY_VARIABLE_INFO, IOCTL_SYSENV_QUERY_VARIABLE_INFO control, IOCTL_SYSENV_QUERY_VARIABLE_INFO control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_query_variable_info, ntddsysenv/IOCTL_SYSENV_QUERY_VARIABLE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

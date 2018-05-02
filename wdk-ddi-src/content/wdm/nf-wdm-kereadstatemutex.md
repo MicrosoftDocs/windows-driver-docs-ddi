@@ -7,7 +7,7 @@ old-location: kernel\kereadstatemutex.htm
 old-project: kernel
 ms.assetid: b23d846a-a1d4-4b2a-ab3c-8076302ff3fc
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: KeReadStateMutex, KeReadStateMutex routine [Kernel-Mode Driver Architecture], k105_37175048-e4ee-4b79-93f3-013195192b4c.xml, kernel.kereadstatemutex, wdm/KeReadStateMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

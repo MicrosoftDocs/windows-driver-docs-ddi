@@ -7,7 +7,7 @@ old-location: spb\evtspbcontrollerunlock.htm
 old-project: SPB
 ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

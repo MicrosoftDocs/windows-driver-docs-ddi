@@ -7,7 +7,7 @@ old-location: kernel\iostartnextpacketbykey.htm
 old-project: kernel
 ms.assetid: 25cf9026-fd5d-4998-b7ff-f7be048ef2a1
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoStartNextPacketByKey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, kernel.iostartnextpacketbykey, wdm/IoStartNextPacketByKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\transactionmanager_basic_information.htm
 old-project: kernel
 ms.assetid: bffa1bd2-143c-4d32-a886-0a2e82320dc8
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_BASIC_INFORMATION, kernel.transactionmanager_basic_information, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\zwsetinformationtoken.htm
 old-project: kernel
 ms.assetid: fdb1245c-7804-4cb9-9632-bedb9f7f7b2b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtSetInformationToken, ZwSetInformationToken, ZwSetInformationToken routine [Kernel-Mode Driver Architecture], k111_1122461b-dab8-4a40-8f05-db62ca25763b.xml, kernel.zwsetinformationtoken, ntifs/NtSetInformationToken, ntifs/ZwSetInformationToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

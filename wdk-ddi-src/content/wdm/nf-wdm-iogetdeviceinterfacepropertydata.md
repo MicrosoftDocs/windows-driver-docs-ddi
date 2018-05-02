@@ -7,7 +7,7 @@ old-location: kernel\iogetdeviceinterfacepropertydata.htm
 old-project: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacepropertydata, wdm/IoGetDeviceInterfacePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices

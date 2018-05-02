@@ -7,7 +7,7 @@ old-location: kernel\mdl.htm
 old-project: kernel
 ms.assetid: 71524333-dd5d-4f0b-8dd3-034ea926bc93
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PMDLX, MDL, MDL structure [Kernel-Mode Driver Architecture], PMDL, _MDL, kernel.mdl, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

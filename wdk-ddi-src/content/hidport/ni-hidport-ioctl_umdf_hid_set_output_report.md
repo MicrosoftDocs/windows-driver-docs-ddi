@@ -7,7 +7,7 @@ old-location: hid\ioctl_umdf_hid_set_output_report.htm
 old-project: hid
 ms.assetid: 9D2BF078-305F-4656-8BA0-F03959209874
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: IOCTL_UMDF_HID_SET_OUTPUT_REPORT, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, hid.ioctl_umdf_hid_set_output_report, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
 ms.prod: windows-hardware
 ms.technology: windows-devices

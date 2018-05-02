@@ -7,7 +7,7 @@ old-location: kernel\csqinsertirp.htm
 old-project: kernel
 ms.assetid: 453ca575-be7f-47ee-9201-0f1ede16420c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: CsqInsertIrp, CsqInsertIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_84a81857-afd6-491c-829f-34063a5b1958.xml, IO_CSQ_INSERT_IRP, kernel.csqinsertirp, wdm/CsqInsertIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices

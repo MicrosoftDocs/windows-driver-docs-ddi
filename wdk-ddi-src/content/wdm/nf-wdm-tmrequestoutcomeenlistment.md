@@ -7,7 +7,7 @@ old-location: kernel\tmrequestoutcomeenlistment.htm
 old-project: kernel
 ms.assetid: 1e58be94-7a10-4708-a658-9de28e26a465
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrequestoutcomeenlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, wdm/TmRequestOutcomeEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\devicereset.htm
 old-project: kernel
 ms.assetid: A5AA5E73-3DC1-4977-9B64-9E0FB3E6609E
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

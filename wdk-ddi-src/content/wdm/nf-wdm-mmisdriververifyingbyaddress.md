@@ -7,7 +7,7 @@ old-location: kernel\mmisdriververifyingbyaddress.htm
 old-project: kernel
 ms.assetid: ccc20b5b-0f16-422d-8900-03b57f08b1bc
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: MmIsDriverVerifyingByAddress, MmIsDriverVerifyingByAddress routine [Kernel-Mode Driver Architecture], k106_37d22f13-de6a-4423-b148-9a7481570aaf.xml, kernel.mmisdriververifyingbyaddress, wdm/MmIsDriverVerifyingByAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

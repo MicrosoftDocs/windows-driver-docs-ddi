@@ -7,7 +7,7 @@ old-location: kernel\rtlfindlongestrunclear.htm
 old-project: kernel
 ms.assetid: 6d68cb0f-d0b8-4468-8def-60a65780480e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlFindLongestRunClear, RtlFindLongestRunClear routine [Kernel-Mode Driver Architecture], k109_a6295996-9e2c-4d19-9ee9-1dc7802bd145.xml, kernel.rtlfindlongestrunclear, wdm/RtlFindLongestRunClear
 ms.prod: windows-hardware
 ms.technology: windows-devices

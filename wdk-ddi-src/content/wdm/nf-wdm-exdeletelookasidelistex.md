@@ -7,7 +7,7 @@ old-location: kernel\exdeletelookasidelistex.htm
 old-project: kernel
 ms.assetid: b72187de-a2ac-446f-bb06-9ca380454122
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ExDeleteLookasideListEx, ExDeleteLookasideListEx routine [Kernel-Mode Driver Architecture], k102_35b6c2b4-58a3-4900-b8dc-63ed0a53b80f.xml, kernel.exdeletelookasidelistex, wdm/ExDeleteLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\clfslsnnull.htm
 old-project: kernel
 ms.assetid: 858fb84a-8df8-4748-ab09-3f7c4aca905c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, kernel.clfslsnnull, wdm/ClfsLsnNull
 ms.prod: windows-hardware
 ms.technology: windows-devices

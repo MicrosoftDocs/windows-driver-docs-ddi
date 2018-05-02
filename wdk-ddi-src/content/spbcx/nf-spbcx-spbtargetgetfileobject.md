@@ -7,7 +7,7 @@ old-location: spb\spbtargetgetfileobject.htm
 old-project: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

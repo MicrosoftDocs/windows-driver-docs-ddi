@@ -7,7 +7,7 @@ old-location: hid\pi8042_queue_packet.htm
 old-project: hid
 ms.assetid: f5d42701-b418-4bda-b936-3e0a1f57ac9d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: PI8042_QUEUE_PACKET, PI8042_QUEUE_PACKET callback, QueuePacket, QueuePacket callback function [Human Input Devices], hid.pi8042_queue_packet, i8042ref_44eb4361-586b-4390-8aea-4e1470a70691.xml, ntdd8042/QueuePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

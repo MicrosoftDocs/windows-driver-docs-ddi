@@ -7,7 +7,7 @@ old-location: kernel\ioopendeviceinterfaceregistrykey.htm
 old-project: kernel
 ms.assetid: d9ca4b9d-dacc-4164-9198-a71a771b145b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey, wdm/IoOpenDeviceInterfaceRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

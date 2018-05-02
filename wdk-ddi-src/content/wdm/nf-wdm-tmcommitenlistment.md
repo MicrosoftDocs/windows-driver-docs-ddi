@@ -7,7 +7,7 @@ old-location: kernel\tmcommitenlistment.htm
 old-project: kernel
 ms.assetid: f1f0c337-9567-4def-b0fb-09dabfdf294d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: TmCommitEnlistment, TmCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcommitenlistment, ktm_ref_c34bfdb9-5d62-448c-a82f-a8df21f05371.xml, wdm/TmCommitEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

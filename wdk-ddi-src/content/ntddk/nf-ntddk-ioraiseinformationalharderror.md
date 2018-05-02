@@ -7,7 +7,7 @@ old-location: kernel\ioraiseinformationalharderror.htm
 old-project: kernel
 ms.assetid: 14e9a28c-65cc-4e90-8220-85f1981c8cd7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoRaiseInformationalHardError, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, kernel.ioraiseinformationalharderror, ntddk/IoRaiseInformationalHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices

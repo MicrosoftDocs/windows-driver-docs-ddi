@@ -7,7 +7,7 @@ old-location: kernel\power_throttling_thread_state.htm
 old-project: kernel
 ms.assetid: 85659694-f93a-42dc-9fa4-f6fea6ad71d0
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPOWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_THREAD_STATE, kernel.power_throttling_thread_state, ntddk/POWER_THROTTLING_THREAD_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

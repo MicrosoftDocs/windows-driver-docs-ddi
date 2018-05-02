@@ -7,7 +7,7 @@ old-location: kernel\io_session_notification_function.htm
 old-project: kernel
 ms.assetid: ff7a5191-35d9-4927-9c23-7f5ad0cfd7ab
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: DrvrRtns_b956c11f-2757-437b-b406-958fdced8f94.xml, IO_SESSION_NOTIFICATION_FUNCTION, IO_SESSION_NOTIFICATION_FUNCTION callback, IO_SESSION_NOTIFICATION_FUNCTION callback function [Kernel-Mode Driver Architecture], kernel.io_session_notification_function, wdm/IO_SESSION_NOTIFICATION_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

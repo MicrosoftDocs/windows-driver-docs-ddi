@@ -7,7 +7,7 @@ old-location: kernel\iocheckshareaccess.htm
 old-project: kernel
 ms.assetid: a249c76b-7389-467f-bfb0-befe06df2fa4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoCheckShareAccess, IoCheckShareAccess routine [Kernel-Mode Driver Architecture], k104_0411033a-da5d-4803-a970-f6e7289a6200.xml, kernel.iocheckshareaccess, wdm/IoCheckShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

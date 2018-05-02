@@ -7,7 +7,7 @@ old-location: kernel\clfscloselogfileobject.htm
 old-project: kernel
 ms.assetid: 0ebb82bd-b8f2-469b-90a9-5c1773f7b58a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsCloseLogFileObject, ClfsCloseLogFileObject routine [Kernel-Mode Driver Architecture], Clfs_836288b2-fd9b-4855-acfd-ad12d7e25b19.xml, kernel.clfscloselogfileobject, wdm/ClfsCloseLogFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\zwopenevent.htm
 old-project: kernel
 ms.assetid: 1facaf24-ed94-4516-b9d6-bdcd8ac4b9e9
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\interfacedereference.htm
 old-project: kernel
 ms.assetid: ed23d7fb-0fff-4c04-9291-90e7323f3e6f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: InterfaceDereference, InterfaceDereference routine [Kernel-Mode Driver Architecture], PINTERFACE_DEREFERENCE, drvr_interface_96e41fd1-22ff-48d9-85ae-94b735ba67bf.xml, kernel.interfacedereference, wdm/InterfaceDereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

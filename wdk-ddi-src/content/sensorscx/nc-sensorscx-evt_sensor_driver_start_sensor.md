@@ -7,7 +7,7 @@ old-location: sensors\evtsensorstart.htm
 old-project: sensors
 ms.assetid: F7107D84-1963-4107-90B9-3BB4A0238530
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SENSOR_DRIVER_START_SENSOR, EVT_SENSOR_DRIVER_START_SENSOR callback, EvtSensorStart, EvtSensorStart callback function [Sensor Devices], sensors.evtsensorstart, sensorscx/EvtSensorStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

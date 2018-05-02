@@ -7,7 +7,7 @@ old-location: kernel\objectpostcallback.htm
 old-project: kernel
 ms.assetid: cfa73359-58bb-4260-ac16-08f57ead67bb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: DrvrRtns_f15a2608-233d-47af-84cc-eb5692a6fe9a.xml, ObjectPostCallback, ObjectPostCallback callback function [Kernel-Mode Driver Architecture], POB_POST_OPERATION_CALLBACK, POB_POST_OPERATION_CALLBACK callback, kernel.objectpostcallback, wdm/ObjectPostCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

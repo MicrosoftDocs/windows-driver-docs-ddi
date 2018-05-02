@@ -7,7 +7,7 @@ old-location: kernel\rtlnumberofsetbits.htm
 old-project: kernel
 ms.assetid: 6208f750-4871-43b9-b848-011180d39fd8
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, kernel.rtlnumberofsetbits, wdm/RtlNumberOfSetBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

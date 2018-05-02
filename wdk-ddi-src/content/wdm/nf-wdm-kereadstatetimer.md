@@ -7,7 +7,7 @@ old-location: kernel\kereadstatetimer.htm
 old-project: kernel
 ms.assetid: 0f7fc534-4a81-42e0-a3e6-8b91baa28b55
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: KeReadStateTimer, KeReadStateTimer routine [Kernel-Mode Driver Architecture], k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, kernel.kereadstatetimer, wdm/KeReadStateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

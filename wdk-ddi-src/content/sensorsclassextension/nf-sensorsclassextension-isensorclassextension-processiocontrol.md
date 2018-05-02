@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.ProcessIoControl
-title: ISensorClassExtension::ProcessIoControl method
+title: ISensorClassExtension::ProcessIoControl
 author: windows-driver-content
 description: The ISensorClassExtension::ProcessControl method sends Windows Portable Devices (WPD) I/O control requests to the sensor class extension for processing.
 old-location: sensors\isensorclassextension_processiocontrol.htm
 old-project: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorClassExtension, ISensorClassExtension::ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl,ISensorClassExtension.ProcessIoControl, sensors.isensorclassextension_processiocontrol
+ms.date: 4/30/2018
+ms.keywords: ISensorClassExtension interface [Sensor Devices],ProcessIoControl method, ISensorClassExtension.ProcessIoControl, ISensorClassExtension::ProcessIoControl, ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_processiocontrol, sensorsclassextension/ISensorClassExtension::ProcessIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,14 +38,13 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	ProcessIoControl
+-	ISensorClassExtension.ProcessIoControl
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::ProcessIoControl method
+# ISensorClassExtension::ProcessIoControl
 
 
 ## -description
@@ -136,4 +135,15 @@ After processing an I/O control request, the sensor class extension uses the dri
 The driver must not complete I/O control requests that it forwards to the sensor class extension.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+ 
+
+ 
 

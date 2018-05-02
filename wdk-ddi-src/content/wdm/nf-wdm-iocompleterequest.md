@@ -7,7 +7,7 @@ old-location: kernel\iocompleterequest.htm
 old-project: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, wdm/IoCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

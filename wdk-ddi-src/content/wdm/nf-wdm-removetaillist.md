@@ -7,7 +7,7 @@ old-location: kernel\removetaillist.htm
 old-project: kernel
 ms.assetid: 67942bf7-28f6-4b2d-a880-9439afaf0bb2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, kernel.removetaillist, wdm/RemoveTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices

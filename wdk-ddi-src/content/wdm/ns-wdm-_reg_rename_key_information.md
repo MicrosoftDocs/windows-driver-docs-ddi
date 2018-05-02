@@ -7,7 +7,7 @@ old-location: kernel\reg_rename_key_information.htm
 old-project: kernel
 ms.assetid: 80ffa1dc-aa4f-40b4-936b-7e441b3b123d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RENAME_KEY_INFORMATION, REG_RENAME_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_RENAME_KEY_INFORMATION, kernel.reg_rename_key_information, kstruct_d_f6416cfd-5ace-4366-81a5-87b233551c7a.xml, wdm/PREG_RENAME_KEY_INFORMATION, wdm/REG_RENAME_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

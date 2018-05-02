@@ -7,7 +7,7 @@ old-location: kernel\zwrecovertransactionmanager.htm
 old-project: kernel
 ms.assetid: 20284cad-5d65-4d22-98fa-6b6c5f6b422d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtRecoverTransactionManager, ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrecovertransactionmanager, ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

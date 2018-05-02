@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientConnect
-title: ISensorDriver::OnClientConnect method
+title: ISensorDriver::OnClientConnect
 author: windows-driver-content
 description: The ISensorDriver::OnClientConnect method notifies the sensor driver that a client application has connected.
 old-location: sensors\isensordriver_onclientconnect.htm
 old-project: sensors
 ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnClientConnect, OnClientConnect method [Sensor Devices], OnClientConnect,ISensorDriver.OnClientConnect, sensors.isensordriver_onclientconnect
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnClientConnect method, ISensorDriver.OnClientConnect, ISensorDriver::OnClientConnect, OnClientConnect, OnClientConnect method [Sensor Devices], OnClientConnect method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientconnect, sensorsclassextension/ISensorDriver::OnClientConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,14 +38,13 @@ api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
 api_name:
--	OnClientConnect
+-	ISensorDriver.OnClientConnect
 product: Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnClientConnect method
+# ISensorDriver::OnClientConnect
 
 
 ## -description
@@ -91,4 +90,15 @@ You can use the pointer value (the address pointed to) provided by <i>pClientFil
 For more information about how to use this method, see <a href="https://msdn.microsoft.com/1895EC5C-08C1-4976-83F2-CD5A2B55338D">Filtering data</a>.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

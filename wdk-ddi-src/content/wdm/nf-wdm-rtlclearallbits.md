@@ -7,7 +7,7 @@ old-location: kernel\rtlclearallbits.htm
 old-project: kernel
 ms.assetid: 8271b13a-a64e-4d5e-b319-283255b8127f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlClearAllBits, RtlClearAllBits routine [Kernel-Mode Driver Architecture], k109_6fb17a55-6839-411c-9289-720657ba4983.xml, kernel.rtlclearallbits, wdm/RtlClearAllBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

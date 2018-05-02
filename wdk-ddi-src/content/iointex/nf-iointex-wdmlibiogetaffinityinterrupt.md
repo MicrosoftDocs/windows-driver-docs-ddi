@@ -7,7 +7,7 @@ old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 old-project: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices

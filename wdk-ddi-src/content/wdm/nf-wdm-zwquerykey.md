@@ -7,7 +7,7 @@ old-location: kernel\zwquerykey.htm
 old-project: kernel
 ms.assetid: 3b2d3a8b-a21f-4067-a1f0-9aa66c1973f5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: NtQueryKey, ZwQueryKey, ZwQueryKey routine [Kernel-Mode Driver Architecture], k111_38d7961f-09a3-479c-ba19-ccda00ce5d29.xml, kernel.zwquerykey, wdm/NtQueryKey, wdm/ZwQueryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

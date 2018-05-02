@@ -7,7 +7,7 @@ old-location: spb\spbcontrollersettargetattributes.htm
 old-project: SPB
 ms.assetid: 8EC415AA-F578-42BF-B785-52613B20A2AC
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbcontrollersettargetattributes, SpbControllerSetTargetAttributes, SpbControllerSetTargetAttributes method [Buses], spbcx/SpbControllerSetTargetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

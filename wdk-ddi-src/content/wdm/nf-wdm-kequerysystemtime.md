@@ -7,7 +7,7 @@ old-location: kernel\kequerysystemtime.htm
 old-project: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

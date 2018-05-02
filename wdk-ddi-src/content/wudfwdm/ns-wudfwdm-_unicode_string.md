@@ -7,7 +7,7 @@ old-location: kernel\unicode_string.htm
 old-project: kernel
 ms.assetid: b02f29a9-1049-4e29-aac3-72bf0c70a21e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PUNICODE_STRING, PUNICODE_STRING, PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], _UNICODE_STRING, kernel.unicode_string, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, wudfwdm/PUNICODE_STRING, wudfwdm/UNICODE_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices

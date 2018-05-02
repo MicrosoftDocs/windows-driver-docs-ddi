@@ -7,7 +7,7 @@ old-location: kernel\_sdev_identifier_interface.htm
 old-project: kernel
 ms.assetid: ead624cc-8aff-4a87-bdeb-066534caa61b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture], _SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, wdm/SDEV_IDENTIFIER_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

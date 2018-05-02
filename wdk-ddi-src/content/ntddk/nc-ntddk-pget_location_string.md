@@ -7,7 +7,7 @@ old-location: kernel\pnpgetlocationstring.htm
 old-project: kernel
 ms.assetid: 03ebdeed-10f0-4633-a9cd-4db683a8c3a7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: PGET_LOCATION_STRING, PnpGetLocationString, PnpGetLocationString routine [Kernel-Mode Driver Architecture], drvr_interface_86bd2a9c-408f-430f-9ab7-5c368600de1e.xml, kernel.pnpgetlocationstring, ntddk/PnpGetLocationString
 ms.prod: windows-hardware
 ms.technology: windows-devices

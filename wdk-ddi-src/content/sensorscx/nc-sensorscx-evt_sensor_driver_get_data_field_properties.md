@@ -7,7 +7,7 @@ old-location: sensors\evtsensorgetdatafieldproperties.htm
 old-project: sensors
 ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

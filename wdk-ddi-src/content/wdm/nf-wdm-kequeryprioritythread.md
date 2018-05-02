@@ -7,7 +7,7 @@ old-location: kernel\kequeryprioritythread.htm
 old-project: kernel
 ms.assetid: 69a8ad3f-641d-4aaf-9184-e56dee6ca347
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, kernel.kequeryprioritythread, wdm/KeQueryPriorityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

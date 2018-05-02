@@ -7,7 +7,7 @@ old-location: kernel\pep_power_control_complete.htm
 old-project: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, pepfx/PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

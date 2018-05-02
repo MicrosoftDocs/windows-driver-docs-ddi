@@ -7,7 +7,7 @@ old-location: kernel\updateplatformidlestate.htm
 old-project: kernel
 ms.assetid: A5E3C5DE-DD76-41CF-8A86-37F25A069E1C
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKUPDATEPLATFORMIDLESTATE, UpdatePlatformIdleState, UpdatePlatformIdleState routine [Kernel-Mode Driver Architecture], kernel.updateplatformidlestate, pepfx/UpdatePlatformIdleState
 ms.prod: windows-hardware
 ms.technology: windows-devices

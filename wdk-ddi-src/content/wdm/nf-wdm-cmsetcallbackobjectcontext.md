@@ -7,7 +7,7 @@ old-location: kernel\cmsetcallbackobjectcontext.htm
 old-project: kernel
 ms.assetid: 69e85037-5c60-404a-b251-dc1622c7d818
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: CmSetCallbackObjectContext, CmSetCallbackObjectContext routine [Kernel-Mode Driver Architecture], ConfigMgrRef_86ecc2b5-c790-4414-973d-6d26475b211d.xml, kernel.cmsetcallbackobjectcontext, wdm/CmSetCallbackObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

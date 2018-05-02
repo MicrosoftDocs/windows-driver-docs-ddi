@@ -7,7 +7,7 @@ old-location: kernel\ioallocateworkitem.htm
 old-project: kernel
 ms.assetid: 950e31ff-2e8e-4dd3-9d6c-d3d86fd69472
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoAllocateWorkItem, IoAllocateWorkItem routine [Kernel-Mode Driver Architecture], k104_6cb480b8-6cf9-4c68-953e-8a1c8153087a.xml, kernel.ioallocateworkitem, wdm/IoAllocateWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

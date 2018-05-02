@@ -7,7 +7,7 @@ old-location: kernel\rtlcreatesecuritydescriptor.htm
 old-project: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: RtlCreateSecurityDescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, kernel.rtlcreatesecuritydescriptor, wdm/RtlCreateSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

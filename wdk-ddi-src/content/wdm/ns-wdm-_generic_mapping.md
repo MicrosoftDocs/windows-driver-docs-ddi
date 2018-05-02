@@ -7,7 +7,7 @@ old-location: kernel\generic_mapping.htm
 old-project: kernel
 ms.assetid: 54524c7e-12eb-46c7-b96d-67e49821e7a8
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PGENERIC_MAPPING, GENERIC_MAPPING, GENERIC_MAPPING structure [Kernel-Mode Driver Architecture], PGENERIC_MAPPING, PGENERIC_MAPPING structure pointer [Kernel-Mode Driver Architecture], _GENERIC_MAPPING, kernel.generic_mapping, kstruct_b_488ee84c-2f22-4682-8b90-56e892f07f7b.xml, wdm/GENERIC_MAPPING, wdm/PGENERIC_MAPPING"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\driverentry.htm
 old-project: kernel
 ms.assetid: b8c14a2d-a2e6-4ed1-9445-3259ec570076
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

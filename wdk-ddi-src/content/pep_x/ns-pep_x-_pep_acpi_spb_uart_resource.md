@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_spb_uart_resource.htm
 old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_SPB_UART_RESOURCE, 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_UART_RESOURCE, kernel.pep_acpi_spb_uart_resource, pepfx/PEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

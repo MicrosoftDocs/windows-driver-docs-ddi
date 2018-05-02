@@ -7,7 +7,7 @@ old-location: kernel\iodetachdevice.htm
 old-project: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

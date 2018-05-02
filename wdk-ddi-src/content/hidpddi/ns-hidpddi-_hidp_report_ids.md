@@ -7,7 +7,7 @@ old-location: hid\hidp_report_ids.htm
 old-project: hid
 ms.assetid: C88B77C3-01CB-4E8C-83A4-EB9AFB122327
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHIDP_REPORT_IDS, HIDP_REPORT_IDS, HIDP_REPORT_IDS structure [Human Input Devices], PHIDP_REPORT_IDS, PHIDP_REPORT_IDS structure pointer [Human Input Devices], _HIDP_REPORT_IDS, hid.hidp_report_ids, hidpddi/HIDP_REPORT_IDS, hidpddi/PHIDP_REPORT_IDS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
