@@ -228,7 +228,7 @@ A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-
 ### -field DxgkDdiPresentDisplayOnly
 
 
-A pointer to the KMDOD's <a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
 
 
 ### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
