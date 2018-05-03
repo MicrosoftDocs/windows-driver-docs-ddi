@@ -2,12 +2,12 @@
 UID: NS:pointofservicecommontypes._LineDisplayCursorCoordinates
 title: "_LineDisplayCursorCoordinates"
 author: windows-driver-content
-description: This enumeration is not implemented.
+description: This structure is not implemented.
 old-location: pos\linedisplaycursorcoordinates.htm
 old-project: pos
 ms.assetid: 70770FEA-9E5F-4D0F-8AD2-25DAA0E4E1D9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/30/2018
 ms.keywords: LineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, PLineDisplayCursorCoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, pointofservicecommontypes/LineDisplayCursorCoordinates, pointofservicecommontypes/PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: LineDisplayCursorCoordinates
 ## -description
 
 
-This enumeration is not implemented.
+This structure is not implemented.
 
 
 ## -struct-fields
