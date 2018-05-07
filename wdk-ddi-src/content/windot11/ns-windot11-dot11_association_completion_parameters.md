@@ -203,6 +203,7 @@ If the
 
 </li>
 </ul>
+
 The miniport driver must set the 
       <b>uAssocReqOffset</b> and 
       <b>uAssocReqSize</b> members to zero if it was unable to send a request frame during the association
@@ -380,6 +381,7 @@ DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the
 
 </li>
 </ul>
+
 The offset of the active PHY list is relative to the start of the buffer that contains the
       DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure.
 
@@ -447,6 +449,7 @@ The
 
 </li>
 </ul>
+
 For more information about port authorization, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/port-based-network-access">Port-Based Network
      Access</a>.
@@ -571,6 +574,7 @@ The Extensible Station (ExtSTA)
 
 </li>
 </ul>
+
 For more information about the IEEE 802.11 
     <b>dot11DesiredBSSType</b> MIB object, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>.
