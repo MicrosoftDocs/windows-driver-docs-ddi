@@ -2,7 +2,7 @@
 UID: NA:wextestclass
 ms.assetid: 9fc41607-d4ed-3730-94bb-e2172700583f
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/01/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Wextestclass.h header
 
 
-
+## -description
 
 
 This header is used by dtf. For more information, see:
