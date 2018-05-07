@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IFixedDocument.GetUri
-title: IFixedDocument::GetUri method
+title: IFixedDocument::GetUri
 author: windows-driver-content
 description: The GetUri method gets the URI of the fixed document.
 old-location: print\ifixeddocument_geturi.htm
 old-project: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetUri method [Print Devices], GetUri method [Print Devices], IFixedDocument interface, GetUri,IFixedDocument.GetUri, IFixedDocument, IFixedDocument interface [Print Devices], GetUri method, IFixedDocument::GetUri, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi
+ms.date: 4/20/2018
+ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IFixedDocument interface, IFixedDocument interface [Print Devices],GetUri method, IFixedDocument.GetUri, IFixedDocument::GetUri, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IFixedDocument::GetUri method
+# IFixedDocument::GetUri
 
 
 ## -description

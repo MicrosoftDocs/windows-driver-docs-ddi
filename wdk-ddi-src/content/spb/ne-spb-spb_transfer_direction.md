@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_direction.htm
 old-project: SPB
 ms.assetid: 617450AB-6AC8-485A-BD88-377F903EEE15
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_TRANSFER_DIRECTION, SPB.spb_transfer_direction, SPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionFromDevice, SpbTransferDirectionMax, SpbTransferDirectionNone, SpbTransferDirectionToDevice, spb/SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionFromDevice, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionToDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_DIRECTION enumeration

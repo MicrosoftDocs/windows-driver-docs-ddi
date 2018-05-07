@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_SCATTER_GATHER_LIST, *PSTOR_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
 ---
 
 # _STOR_SCATTER_GATHER_LIST structure

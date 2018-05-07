@@ -7,8 +7,8 @@ old-location: display\calcprivatevideoprocessorsize.htm
 old-project: display
 ms.assetid: a30d98b2-3d39-456a-8363-44ccc71e58ff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CalcPrivateVideoProcessorSize, CalcPrivateVideoProcessorSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE, d3d10umddi/CalcPrivateVideoProcessorSize, display.calcprivatevideoprocessorsize
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateVideoProcessorSize, CalcPrivateVideoProcessorSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback, d3d10umddi/CalcPrivateVideoProcessorSize, display.calcprivatevideoprocessorsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback
+# PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback function
 
 
 ## -description

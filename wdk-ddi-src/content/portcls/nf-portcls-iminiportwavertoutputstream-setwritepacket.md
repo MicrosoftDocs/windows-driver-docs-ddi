@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.SetWritePacket
-title: IMiniportWaveRTOutputStream::SetWritePacket method
+title: IMiniportWaveRTOutputStream::SetWritePacket
 author: windows-driver-content
 description: SetWritePacket informs the driver that the OS has written valid data to the WaveRT buffer.
 old-location: audio\iminiportwavertoutputstream_setwritepacket.htm
 old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface, SetWritePacket,IMiniportWaveRTOutputStream.SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket
+ms.date: 4/16/2018
+ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices],SetWritePacket method, IMiniportWaveRTOutputStream.SetWritePacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices],IMiniportWaveRTOutputStream interface, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRTOutputStream::SetWritePacket method
+# IMiniportWaveRTOutputStream::SetWritePacket
 
 
 ## -description

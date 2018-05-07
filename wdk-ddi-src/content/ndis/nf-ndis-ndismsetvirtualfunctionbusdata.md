@@ -7,7 +7,7 @@ old-location: netvista\ndismsetvirtualfunctionbusdata.htm
 old-project: netvista
 ms.assetid: 74c6789e-22a6-42e9-bc14-8b9f93da668b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMSetVirtualFunctionBusData function

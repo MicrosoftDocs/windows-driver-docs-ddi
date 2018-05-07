@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _STARTIO_PERFORMANCE_PARAMETERS structure

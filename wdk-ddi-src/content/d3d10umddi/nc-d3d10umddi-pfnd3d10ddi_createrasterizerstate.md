@@ -7,8 +7,8 @@ old-location: display\createrasterizerstate.htm
 old-project: display
 ms.assetid: 4507b92e-2437-4f90-b527-e06773ca1e08
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateRasterizerState, CreateRasterizerState callback function [Display Devices], PFND3D10DDI_CREATERASTERIZERSTATE, UserModeDisplayDriverDx10_Functions_f190ceb6-e58c-4ab5-9abc-6339e6450c87.xml, d3d10umddi/CreateRasterizerState, display.createrasterizerstate
+ms.date: 4/16/2018
+ms.keywords: CreateRasterizerState, CreateRasterizerState callback function [Display Devices], PFND3D10DDI_CREATERASTERIZERSTATE, PFND3D10DDI_CREATERASTERIZERSTATE callback, UserModeDisplayDriverDx10_Functions_f190ceb6-e58c-4ab5-9abc-6339e6450c87.xml, d3d10umddi/CreateRasterizerState, display.createrasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CREATERASTERIZERSTATE callback
+# PFND3D10DDI_CREATERASTERIZERSTATE callback function
 
 
 ## -description

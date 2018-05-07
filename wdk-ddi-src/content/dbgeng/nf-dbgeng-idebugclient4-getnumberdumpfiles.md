@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetNumberDumpFiles
-title: IDebugClient4::GetNumberDumpFiles method
+title: IDebugClient4::GetNumberDumpFiles
 author: windows-driver-content
 description: The GetNumberDumpFiles method returns the number of files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getnumberdumpfiles.htm
 old-project: debugger
 ms.assetid: d3fa4314-2f11-4ac4-86bd-3eb3f3ea9029
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNumberDumpFiles method [Windows Debugging], GetNumberDumpFiles method [Windows Debugging], IDebugClient4 interface, GetNumberDumpFiles method [Windows Debugging], IDebugClient5 interface, GetNumberDumpFiles,IDebugClient4.GetNumberDumpFiles, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetNumberDumpFiles method, IDebugClient4::GetNumberDumpFiles, IDebugClient5 interface [Windows Debugging], GetNumberDumpFiles method, IDebugClient5::GetNumberDumpFiles, IDebugClient_db74cf2c-c7e7-46c2-be98-f4023b22c5c3.xml, dbgeng/IDebugClient4::GetNumberDumpFiles, dbgeng/IDebugClient5::GetNumberDumpFiles, debugger.getnumberdumpfiles
+ms.date: 4/24/2018
+ms.keywords: GetNumberDumpFiles, GetNumberDumpFiles method [Windows Debugging], GetNumberDumpFiles method [Windows Debugging],IDebugClient4 interface, GetNumberDumpFiles method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetNumberDumpFiles method, IDebugClient4.GetNumberDumpFiles, IDebugClient4::GetNumberDumpFiles, IDebugClient5 interface [Windows Debugging],GetNumberDumpFiles method, IDebugClient5::GetNumberDumpFiles, IDebugClient_db74cf2c-c7e7-46c2-be98-f4023b22c5c3.xml, dbgeng/IDebugClient4::GetNumberDumpFiles, dbgeng/IDebugClient5::GetNumberDumpFiles, debugger.getnumberdumpfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::GetNumberDumpFiles method
+# IDebugClient4::GetNumberDumpFiles
 
 
 ## -description

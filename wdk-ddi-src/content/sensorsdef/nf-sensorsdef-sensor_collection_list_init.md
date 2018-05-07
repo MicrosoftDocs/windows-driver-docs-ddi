@@ -7,7 +7,7 @@ old-location: sensors\sensor_collection_list_init.htm
 old-project: sensors
 ms.assetid: 50860DA0-D42C-4ACB-A574-C0DEA85713BD
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], sensors.sensor_collection_list_init, sensorsdef/SENSOR_COLLECTION_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_COLLECTION_LIST_INIT function

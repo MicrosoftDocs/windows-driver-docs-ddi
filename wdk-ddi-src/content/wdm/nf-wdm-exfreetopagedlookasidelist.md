@@ -7,7 +7,7 @@ old-location: kernel\exfreetopagedlookasidelist.htm
 old-project: kernel
 ms.assetid: b986c7a9-8daa-4957-ad64-2a1f59ed3c68
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ExFreeToPagedLookasideList, ExFreeToPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_2d09255c-391a-4937-a991-99d88adf4233.xml, kernel.exfreetopagedlookasidelist, wdm/ExFreeToPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExFreeToPagedLookasideList function

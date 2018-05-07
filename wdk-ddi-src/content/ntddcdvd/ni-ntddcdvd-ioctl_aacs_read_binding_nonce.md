@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d90ce010-a2c6-43e8-8bf8-750af5b784ba
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_AACS_READ_BINDING_NONCE, IOCTL_AACS_READ_BINDING_NONCE control code [Storage Devices], k307_5a403ffd-678e-44e7-8df3-21e3149b7efd.xml, ntddcdvd/IOCTL_AACS_READ_BINDING_NONCE, storage.ioctl_aacs_read_binding_nonce
+ms.keywords: IOCTL_AACS_READ_BINDING_NONCE, IOCTL_AACS_READ_BINDING_NONCE control, IOCTL_AACS_READ_BINDING_NONCE control code [Storage Devices], k307_5a403ffd-678e-44e7-8df3-21e3149b7efd.xml, ntddcdvd/IOCTL_AACS_READ_BINDING_NONCE, storage.ioctl_aacs_read_binding_nonce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_AACS_READ_BINDING_NONCE IOCTL

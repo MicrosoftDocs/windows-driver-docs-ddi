@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_INJECT_AGNSS
 title: IOCTL_GNSS_INJECT_AGNSS
 author: windows-driver-content
 description: The IOCTL_GNSS_INJECT_AGNSS control code is used by the GNSS adapter to inject AGNSS data into the driver. This IOCTL is sent as a result of the driver previously responding to a pending IOCTL_GNSS_LISTEN_AGNSS request.
-old-location: sensors\ioctl_gnss_inject_agnss.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_inject_agnss.htm
+old-project: gnss
 ms.assetid: 68EC4397-1983-4D02-BF6E-599DC987E7E9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_INJECT_AGNSS, IOCTL_GNSS_INJECT_AGNSS control code [Sensor Devices], gnssdriver/IOCTL_GNSS_INJECT_AGNSS, sensors.ioctl_gnss_inject_agnss
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_INJECT_AGNSS, IOCTL_GNSS_INJECT_AGNSS control, IOCTL_GNSS_INJECT_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_inject_agnss, gnssdriver/IOCTL_GNSS_INJECT_AGNSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_INJECT_AGNSS IOCTL

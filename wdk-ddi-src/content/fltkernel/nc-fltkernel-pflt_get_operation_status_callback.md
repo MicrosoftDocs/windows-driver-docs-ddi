@@ -7,7 +7,7 @@ old-location: ifsk\PFLT_GET_OPERATION_STATUS_CALLBACK.htm
 old-project: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# PFLT_GET_OPERATION_STATUS_CALLBACK callback
+# PFLT_GET_OPERATION_STATUS_CALLBACK callback function
 
 
 ## -description

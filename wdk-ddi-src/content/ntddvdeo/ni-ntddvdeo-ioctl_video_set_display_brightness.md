@@ -7,8 +7,8 @@ old-location: display\ioctl_video_set_display_brightness.htm
 old-project: display
 ms.assetid: 485119b4-90f8-44dc-89d7-afb536442719
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code [Display Devices], Video_IOCTLs_3dc31eac-247b-400e-8202-c0708086326c.xml, display.ioctl_video_set_display_brightness, ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code [Display Devices], Video_IOCTLs_3dc31eac-247b-400e-8202-c0708086326c.xml, display.ioctl_video_set_display_brightness, ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS IOCTL

@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_destroy_socket.htm
 old-project: print
 ms.assetid: D6479299-F00D-4709-B8D6-3840E285953A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_DESTROY_SOCKET, IOCTL_DOT4_DESTROY_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_DESTROY_SOCKET, print.ioctl_ioctl_dot4_destroy_socket
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_DESTROY_SOCKET, IOCTL_DOT4_DESTROY_SOCKET control, IOCTL_DOT4_DESTROY_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_DESTROY_SOCKET, print.ioctl_ioctl_dot4_destroy_socket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_DESTROY_SOCKET IOCTL

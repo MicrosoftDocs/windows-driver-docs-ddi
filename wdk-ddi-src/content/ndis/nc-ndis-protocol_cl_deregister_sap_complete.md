@@ -7,8 +7,8 @@ old-location: netvista\protocolclderegistersapcomplete.htm
 old-project: netvista
 ms.assetid: 93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback
+# PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback function
 
 
 ## -description

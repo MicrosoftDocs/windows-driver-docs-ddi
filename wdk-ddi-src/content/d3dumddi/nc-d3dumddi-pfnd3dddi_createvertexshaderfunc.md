@@ -7,8 +7,8 @@ old-location: display\createvertexshaderfunc.htm
 old-project: display
 ms.assetid: e986d37a-6039-4bc4-b5e8-6c4d4d7adedd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateVertexShaderFunc, CreateVertexShaderFunc callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERFUNC, UserModeDisplayDriver_Functions_bb697f1f-765f-46d9-961a-f4e8060727bc.xml, d3dumddi/CreateVertexShaderFunc, display.createvertexshaderfunc
+ms.date: 4/16/2018
+ms.keywords: CreateVertexShaderFunc, CreateVertexShaderFunc callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERFUNC, PFND3DDDI_CREATEVERTEXSHADERFUNC callback, UserModeDisplayDriver_Functions_bb697f1f-765f-46d9-961a-f4e8060727bc.xml, d3dumddi/CreateVertexShaderFunc, display.createvertexshaderfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATEVERTEXSHADERFUNC callback
+# PFND3DDDI_CREATEVERTEXSHADERFUNC callback function
 
 
 ## -description

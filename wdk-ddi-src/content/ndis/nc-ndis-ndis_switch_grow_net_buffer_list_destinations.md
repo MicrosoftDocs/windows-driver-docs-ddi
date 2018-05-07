@@ -7,8 +7,8 @@ old-location: netvista\grownetbufferlistdestinations.htm
 old-project: netvista
 ms.assetid: 9A79F41F-566F-4844-BF1A-E8889E6FDCE8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GrowNetBufferListDestinations, GrowNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS, ndis/GrowNetBufferListDestinations, netvista.grownetbufferlistdestinations
+ms.date: 4/25/2018
+ms.keywords: GrowNetBufferListDestinations, GrowNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS callback, ndis/GrowNetBufferListDestinations, netvista.grownetbufferlistdestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS callback
+# NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS callback function
 
 
 ## -description

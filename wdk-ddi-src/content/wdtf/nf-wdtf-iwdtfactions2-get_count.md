@@ -1,32 +1,32 @@
 ---
 UID: NF:wdtf.IWDTFActions2.get_Count
-title: IWDTFActions2::get_Count method
+title: IWDTFActions2::get_Count
 author: windows-driver-content
-description: Gets the number of devices that are currently provided by the DeviceDepot.
-old-location: dtf\iwdtfdevicedepot2_count.htm
+description: Gets the number of actions in this collection.
+old-location: dtf\iwdtfactions2_count.htm
 old-project: dtf
-ms.assetid: 9a8c47b1-e8b9-42b4-8625-7d916178611e
+ms.assetid: 73115e3a-3749-4751-a460-7557c996c0b8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFActions2, IWDTFActions2::get_Count, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Count property, IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, dtf.iwdtfdevicedepot2_count, get_Count,IWDTFActions2.get_Count, wdtf/IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::get_Count
+ms.date: 4/4/2018
+ms.keywords: Count method [Windows Device Testing Framework], Count method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Count method, IWDTFActions2.get_Count, IWDTFActions2::Count, IWDTFActions2::get_Count, dtf.iwdtfactions2_count, get_Count, wdtf/IWDTFActions2::Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP Professional
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTF.idl
+req.idl: Wdtf.idl
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTF.Interop.metadata_dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,47 +35,50 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+-	wdtf.h
 api_name:
 -	IWDTFDeviceDepot2.Count
 -	IWDTFDeviceDepot2.get_Count
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFActions2::get_Count method
+# IWDTFActions2::get_Count
 
 
 ## -description
 
 
-Gets the number of devices that are currently provided by the DeviceDepot.
-
-This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Count(
-  [out, retval] LONG *pVal
-);
-````
+Gets the number of actions in this collection.
 
 
 ## -parameters
 
 
+
+
+### -param pVal [out]
+
+The number of actions.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
  
 
  

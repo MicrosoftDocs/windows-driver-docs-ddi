@@ -7,7 +7,7 @@ old-location: print\attribute_info_3.htm
 old-project: print
 ms.assetid: a9299c25-4210-4161-bfd6-8a13113b93e1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], PATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], _ATTRIBUTE_INFO_3, print.attribute_info_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, winddiui/ATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_3, *PATTRIBUTE_INFO_3
-req.product: Windows 10 or later.
 ---
 
 # _ATTRIBUTE_INFO_3 structure

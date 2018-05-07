@@ -7,7 +7,7 @@ old-location: kernel\pep_unmasked_interrupt_flags.htm
 old-project: kernel
 ms.assetid: A385FBF9-2222-49E0-A708-1638C0D2FF7A
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS
+req.typenames: PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS
 ---
 
 # _PEP_UNMASKED_INTERRUPT_FLAGS structure
@@ -56,6 +56,16 @@ The <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union indicates whether an unmasked inte
 ## -struct-fields
 
 
+
+
+### -field SecondaryInterrupt
+
+ 
+
+
+### -field Reserved
+
+ 
 
 
 ### -field AsUSHORT

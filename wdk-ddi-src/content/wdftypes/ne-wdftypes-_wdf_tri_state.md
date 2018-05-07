@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -43,7 +43,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_TRI_STATE enumeration

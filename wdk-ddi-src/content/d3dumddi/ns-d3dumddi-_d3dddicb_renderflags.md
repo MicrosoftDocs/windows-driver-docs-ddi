@@ -7,7 +7,7 @@ old-location: display\d3dddicb_renderflags.htm
 old-project: display
 ms.assetid: 18ae8ec2-a9e9-40e2-8b11-93fd163a801d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices], D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, _D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, display.d3dddicb_renderflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDICB_RENDERFLAGS that can hold one 32-bit value that identifies information about a command buffer to be rendered.
 

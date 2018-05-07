@@ -68,16 +68,14 @@ Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">P
  
 
 
-
-
-#### - Gpt
-
-Contains data used to initialize a GPT-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a>. 
-
-
-#### - Mbr
+### -field DUMMYUNIONNAME.Mbr
 
 Contains the signature used to initialize an MBR-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552490">CREATE_DISK_MBR</a>.
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+Contains data used to initialize a GPT-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a>. 
 
 
 ## -see-also

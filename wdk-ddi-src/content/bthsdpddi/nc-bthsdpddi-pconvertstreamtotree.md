@@ -7,8 +7,8 @@ old-location: bltooth\sdpconvertstreamtotree.htm
 old-project: bltooth
 ms.assetid: 3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCONVERTSTREAMTOTREE, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree
+ms.date: 4/27/2018
+ms.keywords: PCONVERTSTREAMTOTREE, PCONVERTSTREAMTOTREE callback, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PCONVERTSTREAMTOTREE callback
+# PCONVERTSTREAMTOTREE callback function
 
 
 ## -description

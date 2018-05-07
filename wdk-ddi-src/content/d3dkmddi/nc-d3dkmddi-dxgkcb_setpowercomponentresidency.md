@@ -7,8 +7,8 @@ old-location: display\dxgkcbsetpowercomponentresidency.htm
 old-project: display
 ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_SETPOWERCOMPONENTRESIDENCY, DxgkCbSetPowerComponentResidency, DxgkCbSetPowerComponentResidency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentResidency, display.dxgkcbsetpowercomponentresidency
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_SETPOWERCOMPONENTRESIDENCY, DXGKCB_SETPOWERCOMPONENTRESIDENCY callback, DxgkCbSetPowerComponentResidency, DxgkCbSetPowerComponentResidency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentResidency, display.dxgkcbsetpowercomponentresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_SETPOWERCOMPONENTRESIDENCY callback
+# DXGKCB_SETPOWERCOMPONENTRESIDENCY callback function
 
 
 ## -description

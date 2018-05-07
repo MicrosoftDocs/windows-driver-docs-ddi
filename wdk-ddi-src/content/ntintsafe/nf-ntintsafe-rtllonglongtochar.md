@@ -7,7 +7,7 @@ old-location: kernel\rtllonglongtochar.htm
 old-project: kernel
 ms.assetid: E69889FC-11EF-4C49-A550-7C9C9FE1FDA7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongLongToChar, RtlLongLongToChar function [Kernel-Mode Driver Architecture], kernel.rtllonglongtochar, ntintsafe/RtlLongLongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongLongToChar function

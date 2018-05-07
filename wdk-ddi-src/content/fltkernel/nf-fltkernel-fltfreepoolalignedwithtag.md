@@ -7,7 +7,7 @@ old-location: ifsk\fltfreepoolalignedwithtag.htm
 old-project: ifsk
 ms.assetid: 295a34e4-734e-41ba-bf2e-378333c14e2c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag routine [Installable File System Drivers], fltkernel/FltFreePoolAlignedWithTag, ifsk.fltfreepoolalignedwithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltFreePoolAlignedWithTag function

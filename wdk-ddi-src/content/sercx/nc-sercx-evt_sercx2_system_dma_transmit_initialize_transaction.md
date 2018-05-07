@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmatransmitinitializetransaction.htm
 old-project: serports
 ms.assetid: 2B6B33D9-1756-4C0B-91BB-AB36D4B6A913
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaTransmitInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION, EvtSerCx2SystemDmaTransmitInitializeTransaction, EvtSerCx2SystemDmaTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitinitializetransaction
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaTransmitInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaTransmitInitializeTransaction, EvtSerCx2SystemDmaTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitinitializetransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback
+# EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\ks_videoinfo.htm
 old-project: stream
 ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_VIDEOINFO, KS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, stream.ks_videoinfo, tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,20 +88,20 @@ Specifies the average time per frame in 100-nanosecond units.
 Describes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
-#### - TrueColorInfo
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567685">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
-
-
-#### - bmiColors
+### -field bmiColors
 
 Array of KS_RGBQUAD structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
 
 
-#### - dwBitMasks
+### -field dwBitMasks
 
 Array of DWORD values that specify true-color bitmasks.
+
+
+### -field TrueColorInfo
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567685">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
 
 
 ## -remarks

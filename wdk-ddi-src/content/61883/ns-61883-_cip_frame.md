@@ -58,6 +58,14 @@ The CIP_FRAME structure describes a frame to be attached to an input or output p
 
 
 
+### -field Reserved
+
+
+### -field pNext
+
+Reserved for internal use.
+
+
 ### -field Flags
 
 Specifies options associated with this frame. 
@@ -201,14 +209,6 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 
 
 ### -field CompletedBytes
-
-
-#### - Reserved
-
-
-#### - pNext
-
-Reserved for internal use.
 
 
 ## -see-also

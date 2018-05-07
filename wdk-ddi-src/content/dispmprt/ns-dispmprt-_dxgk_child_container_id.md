@@ -7,7 +7,7 @@ old-location: display\dxgk_child_container_id.htm
 old-project: display
 ms.assetid: 9573f6e9-80a6-4390-b2ab-4543e3b1f5f4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], PDXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], _DXGK_CHILD_CONTAINER_ID, display.dxgk_child_container_id, dispmprt/DXGK_CHILD_CONTAINER_ID, dispmprt/PDXGK_CHILD_CONTAINER_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -68,20 +68,17 @@ The container ID for the child device. For more information, see the Remarks sec
 This structure contains the information that the operating system used to generate the container ID for the child device.
 
 
-
-#### PortId
+### -field EldInfo.PortId
 
 A ULONG64 value that contains the port ID for the child device. The operating system created this ID based on the name of the child device.
 
 
-
-#### ManufacturerName
+### -field EldInfo.ManufacturerName
 
 A USHORT value that contains the manufacturer's name. The operating system obtains this data from the child device's descriptor.
 
 
-
-#### ProductCode
+### -field EldInfo.ProductCode
 
 A USHORT value that contains the manufacturer's product code for the child device. The operating system obtains this data from the child device's descriptor.
 

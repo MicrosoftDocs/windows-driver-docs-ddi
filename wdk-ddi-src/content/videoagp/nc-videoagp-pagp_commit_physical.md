@@ -7,8 +7,8 @@ old-location: display\agpcommitphysical.htm
 old-project: display
 ms.assetid: 3c3a6936-7435-4a42-99e6-2c048613af23
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpCommitPhysical, AgpCommitPhysical callback function [Display Devices], PAGP_COMMIT_PHYSICAL, VideoPort_Functions_11f78058-194b-4407-b98b-1ae7cd0028f7.xml, display.agpcommitphysical, videoagp/AgpCommitPhysical
+ms.date: 4/16/2018
+ms.keywords: AgpCommitPhysical, AgpCommitPhysical callback function [Display Devices], PAGP_COMMIT_PHYSICAL, PAGP_COMMIT_PHYSICAL callback, VideoPort_Functions_11f78058-194b-4407-b98b-1ae7cd0028f7.xml, display.agpcommitphysical, videoagp/AgpCommitPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PAGP_COMMIT_PHYSICAL callback
+# PAGP_COMMIT_PHYSICAL callback function
 
 
 ## -description

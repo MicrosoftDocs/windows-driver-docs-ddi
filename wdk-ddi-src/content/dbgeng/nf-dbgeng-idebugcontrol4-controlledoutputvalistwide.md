@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ControlledOutputVaListWide
-title: IDebugControl4::ControlledOutputVaListWide method
+title: IDebugControl4::ControlledOutputVaListWide
 author: windows-driver-content
 description: The ControlledOutputVaListWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalistwide.htm
 old-project: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, ControlledOutputVaListWide,IDebugControl4.ControlledOutputVaListWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4::ControlledOutputVaListWide, dbgeng/IDebugControl4::ControlledOutputVaListWide, debugger.controlledoutputvalistwide
+ms.date: 4/24/2018
+ms.keywords: ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputVaListWide method, IDebugControl4.ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, dbgeng/IDebugControl4::ControlledOutputVaListWide, debugger.controlledoutputvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::ControlledOutputVaListWide method
+# IDebugControl4::ControlledOutputVaListWide
 
 
 ## -description

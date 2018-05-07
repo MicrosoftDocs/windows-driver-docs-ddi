@@ -7,8 +7,8 @@ old-location: display\d3dkmtoutputduplpresent.htm
 old-project: display
 ms.assetid: d5846165-f58d-44a8-9242-02a2f85d3a8d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], PFND3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
+ms.date: 4/16/2018
+ms.keywords: D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], PFND3DKMT_OUTPUTDUPLPRESENT, PFND3DKMT_OUTPUTDUPLPRESENT callback, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOutputDuplPresent function

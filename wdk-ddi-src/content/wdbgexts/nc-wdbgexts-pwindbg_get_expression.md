@@ -7,8 +7,8 @@ old-location: debugger\getexpression.htm
 old-project: debugger
 ms.assetid: 20d75838-6dbf-49a2-a0c9-a0c1ae74d7a6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
+ms.date: 4/24/2018
+ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, PWINDBG_GET_EXPRESSION callback, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PWINDBG_GET_EXPRESSION callback
+# PWINDBG_GET_EXPRESSION callback function
 
 
 ## -description

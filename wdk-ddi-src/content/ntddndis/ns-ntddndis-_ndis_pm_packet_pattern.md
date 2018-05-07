@@ -7,7 +7,7 @@ old-location: netvista\ndis_pm_packet_pattern.htm
 old-project: netvista
 ms.assetid: dfda0b5f-06fc-4e94-b14c-6bd32c2c138a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_PM_PACKET_PATTERN, 212pnpoid_bfc58374-2745-4c29-a2ac-b7ef864aa710.xml, NDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PACKET_PATTERN, PNDIS_PM_PACKET_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PACKET_PATTERN, netvista.ndis_pm_packet_pattern, ntddndis/NDIS_PM_PACKET_PATTERN, ntddndis/PNDIS_PM_PACKET_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

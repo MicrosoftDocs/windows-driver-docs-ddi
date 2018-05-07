@@ -7,8 +7,8 @@ old-location: display\pfnsubmitcommandcb.htm
 old-project: display
 ms.assetid: 60300845-9050-4D0A-83D1-76A45EA823C1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SUBMITCOMMANDCB, d3dumddi/pfnSubmitCommandCb, display.pfnsubmitcommandcb, pfnSubmitCommandCb, pfnSubmitCommandCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SUBMITCOMMANDCB, PFND3DDDI_SUBMITCOMMANDCB callback, d3dumddi/pfnSubmitCommandCb, display.pfnsubmitcommandcb, pfnSubmitCommandCb, pfnSubmitCommandCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SUBMITCOMMANDCB callback
+# PFND3DDDI_SUBMITCOMMANDCB callback function
 
 
 ## -description

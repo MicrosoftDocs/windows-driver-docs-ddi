@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiSpl.UnbindDevice
-title: IBidiSpl::UnbindDevice method
+title: IBidiSpl::UnbindDevice
 author: windows-driver-content
 description: The UnbindDevice method unbinds a printer from a bidi request.
 old-location: print\ibidispl_ibidispl__unbinddevice.htm
 old-project: print
 ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], UnbindDevice method, IBidiSpl::UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl interface, UnbindDevice,IBidiSpl.UnbindDevice, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
+ms.date: 4/20/2018
+ms.keywords: IBidiSpl interface [Print Devices],UnbindDevice method, IBidiSpl.UnbindDevice, IBidiSpl::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiSpl::UnbindDevice method
+# IBidiSpl::UnbindDevice
 
 
 ## -description

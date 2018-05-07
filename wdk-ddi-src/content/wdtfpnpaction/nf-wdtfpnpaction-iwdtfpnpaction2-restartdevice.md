@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RestartDevice
-title: IWDTFPNPAction2::RestartDevice method
+title: IWDTFPNPAction2::RestartDevice
 author: windows-driver-content
 description: Initiates a device restart.
 old-location: dtf\iwdtfpnpaction2_restartdevice.htm
 old-project: dtf
 ms.assetid: 6023ca71-47ce-4add-891f-e125252ace08
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method, IWDTFPNPAction2::RestartDevice, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RestartDevice,IWDTFPNPAction2.RestartDevice, dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice
+ms.date: 4/4/2018
+ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RestartDevice method, IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2::RestartDevice, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPAction2::RestartDevice method
+# IWDTFPNPAction2::RestartDevice
 
 
 ## -description

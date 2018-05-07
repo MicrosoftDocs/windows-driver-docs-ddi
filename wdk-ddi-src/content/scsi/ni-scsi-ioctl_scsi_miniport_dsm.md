@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CA91B623-F926-453D-A348-92655875D801
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], scsi/IOCTL_SCSI_MINIPORT_DSM, storage.ioctl_scsi_miniport_dsm
+ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], scsi/IOCTL_SCSI_MINIPORT_DSM, storage.ioctl_scsi_miniport_dsm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SCSI_MINIPORT_DSM IOCTL

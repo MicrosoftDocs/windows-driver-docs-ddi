@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetTime
-title: IKsClockPropertySet::KsGetTime method
+title: IKsClockPropertySet::KsGetTime
 author: windows-driver-content
 description: The KsGetTime method retrieves the time of the underlying clock.
 old-location: stream\iksclockpropertyset_ksgettime.htm
 old-project: stream
 ms.assetid: 0d22baeb-d08f-4554-9af4-dae9480a471a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetTime method, IKsClockPropertySet::KsGetTime, KsGetTime method [Streaming Media Devices], KsGetTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetTime,IKsClockPropertySet.KsGetTime, ksproxy/IKsClockPropertySet::KsGetTime, ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml, stream.iksclockpropertyset_ksgettime
+ms.date: 4/23/2018
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetTime method, IKsClockPropertySet.KsGetTime, IKsClockPropertySet::KsGetTime, KsGetTime, KsGetTime method [Streaming Media Devices], KsGetTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetTime, ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml, stream.iksclockpropertyset_ksgettime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsClockPropertySet::KsGetTime method
+# IKsClockPropertySet::KsGetTime
 
 
 ## -description

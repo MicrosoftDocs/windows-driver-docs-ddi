@@ -7,7 +7,7 @@ old-location: ifsk\ioregisterfsregistrationchange.htm
 old-project: ifsk
 ms.assetid: 132951ef-7bb3-417e-a7b7-eb21f08aa846
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, ntifs/IoRegisterFsRegistrationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoRegisterFsRegistrationChange function

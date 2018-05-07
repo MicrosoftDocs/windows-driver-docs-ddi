@@ -7,7 +7,7 @@ old-location: display\d3dddi_dxgi_rgb.htm
 old-project: display
 ms.assetid: 4bf25ae0-30fa-49a6-a5a8-c807e14d9857
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, d3dukmdt/D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb
 ms.prod: windows-hardware
 ms.technology: windows-devices

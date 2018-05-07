@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 3D8907A2-E53E-40D9-870A-AF0EB062E81F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: EVT_POS_CX_DEVICE_REMOTE_CLAIM, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim
+ms.keywords: EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM callback, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,11 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 
-# EVT_POS_CX_DEVICE_REMOTE_CLAIM callback
+# EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function
 
 
 ## -description

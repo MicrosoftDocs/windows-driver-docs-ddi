@@ -7,7 +7,7 @@ old-location: stream\caminitialize.htm
 old-project: stream
 ms.assetid: a39f78b7-f749-40b8-952a-5442608b0f1f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamInitialize, CamUnInitialize, MyInitialize, MyInitialize routine [Streaming Media Devices], PCAM_INITIALIZE_ROUTINE, stream.caminitialize, usbcamdi/MyInitialize, usbcmdpr_77de14cb-6be6-441a-af16-ef5bf38d8d01.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_INITIALIZE_ROUTINE callback
+# PCAM_INITIALIZE_ROUTINE callback function
 
 
 ## -description

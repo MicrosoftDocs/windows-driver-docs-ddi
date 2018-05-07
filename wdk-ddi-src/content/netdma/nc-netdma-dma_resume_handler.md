@@ -7,8 +7,8 @@ old-location: netvista\providerresumedma.htm
 old-project: netvista
 ms.assetid: 06609603-eeed-4fb0-a878-87cad2e72b46
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DMA_RESUME_HANDLER, ProviderResumeDma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml, netvista.providerresumedma
+ms.date: 4/25/2018
+ms.keywords: DMA_RESUME_HANDLER, DMA_RESUME_HANDLER callback, ProviderResumeDma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml, netvista.providerresumedma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_RESUME_HANDLER callback
+# DMA_RESUME_HANDLER callback function
 
 
 ## -description

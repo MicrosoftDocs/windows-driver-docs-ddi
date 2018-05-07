@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_hub_information_ex.htm
 old-project: usbref
 ms.assetid: 518AB292-A1E7-48CE-B967-C6559580E326
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_USB_GET_HUB_INFORMATION_EX, IOCTL_USB_GET_HUB_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_hub_information_ex, usbioctl/IOCTL_USB_GET_HUB_INFORMATION_EX
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_HUB_INFORMATION_EX, IOCTL_USB_GET_HUB_INFORMATION_EX control, IOCTL_USB_GET_HUB_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_hub_information_ex, usbioctl/IOCTL_USB_GET_HUB_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_HUB_INFORMATION_EX IOCTL

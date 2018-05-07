@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcatex.htm
 old-project: kernel
 ms.assetid: 9894863c-89e9-491e-b958-874ac8ee8c30
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCatEx, RtlUnicodeStringCatEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatex, ntstrsafe/RtlUnicodeStringCatEx, safestrings_6b13f3af-ca18-4b2a-b5f0-04f0f2330701.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnicodeStringCatEx function

@@ -7,8 +7,8 @@ old-location: print\iinterfiltercommunicator.htm
 old-project: print
 ms.assetid: 777da1db-5522-48fc-bf35-8e6bf9203d6a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], IInterFilterCommunicator interface [Print Devices], described, filterpipeline/IInterFilterCommunicator, filterpipeline_80929d81-f333-4d23-9e46-72682784f0a2.xml, print.iinterfiltercommunicator
+ms.date: 4/20/2018
+ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], IInterFilterCommunicator interface [Print Devices],described, filterpipeline/IInterFilterCommunicator, filterpipeline_80929d81-f333-4d23-9e46-72682784f0a2.xml, print.iinterfiltercommunicator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IInterFilterCommunicator interface

@@ -7,7 +7,7 @@ old-location: buses\ufx_endpoint_callbacks.htm
 old-project: usbref
 ms.assetid: CED05E15-E141-4A6D-A657-CF0DF9FD1200
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], _UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/PUFX_ENDPOINT_CALLBACKS, ufxclient/UFX_ENDPOINT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
-req.product: Windows 10 or later.
 ---
 
 # _UFX_ENDPOINT_CALLBACKS structure

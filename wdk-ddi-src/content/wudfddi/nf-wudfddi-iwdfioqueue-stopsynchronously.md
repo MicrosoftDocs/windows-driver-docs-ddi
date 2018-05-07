@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.StopSynchronously
-title: IWDFIoQueue::StopSynchronously method
+title: IWDFIoQueue::StopSynchronously
 author: windows-driver-content
 description: The StopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 old-location: wdf\iwdfioqueue_stopsynchronously.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ea05cb82-8a50-48d8-a15c-b7ab58c01b30
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, StopSynchronously method, IWDFIoQueue::StopSynchronously, StopSynchronously method, StopSynchronously method, IWDFIoQueue interface, StopSynchronously,IWDFIoQueue.StopSynchronously, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously
+ms.keywords: IWDFIoQueue interface,StopSynchronously method, IWDFIoQueue.StopSynchronously, IWDFIoQueue::StopSynchronously, StopSynchronously, StopSynchronously method, StopSynchronously method,IWDFIoQueue interface, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::StopSynchronously method
+# IWDFIoQueue::StopSynchronously
 
 
 ## -description

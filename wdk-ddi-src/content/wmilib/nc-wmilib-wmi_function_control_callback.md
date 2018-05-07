@@ -7,8 +7,8 @@ old-location: kernel\dpwmifunctioncontrol.htm
 old-project: kernel
 ms.assetid: c1480927-eefa-4078-a866-68dc1b7c5e9c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl
+ms.date: 4/30/2018
+ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, WMI_FUNCTION_CONTROL_CALLBACK callback, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WMI_FUNCTION_CONTROL_CALLBACK callback
+# WMI_FUNCTION_CONTROL_CALLBACK callback function
 
 
 ## -description

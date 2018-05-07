@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryInformation
-title: IDebugSymbols3::GetSymbolEntryInformation method
+title: IDebugSymbols3::GetSymbolEntryInformation
 author: windows-driver-content
 description: The GetSymbolEntryInformation method returns the symbol entry information for a symbol.
 old-location: debugger\getsymbolentryinformation.htm
 old-project: debugger
 ms.assetid: 02fe418f-1793-4585-9891-1274a4ddba74
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryInformation,IDebugSymbols3.GetSymbolEntryInformation, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, debugger.getsymbolentryinformation
+ms.date: 4/24/2018
+ms.keywords: GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryInformation method, IDebugSymbols3.GetSymbolEntryInformation, IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, debugger.getsymbolentryinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolEntryInformation method
+# IDebugSymbols3::GetSymbolEntryInformation
 
 
 ## -description

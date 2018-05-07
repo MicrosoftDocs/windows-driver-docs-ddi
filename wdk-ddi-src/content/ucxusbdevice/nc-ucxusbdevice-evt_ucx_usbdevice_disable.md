@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_disable.htm
 old-project: usbref
 ms.assetid: 85aa1d5e-e660-4fd7-a58d-8d32bbd966f2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_USBDEVICE_DISABLE, EvtUcxUsbDeviceDisable, EvtUcxUsbDeviceDisable callback function [Buses], PEVT_UCX_USBDEVICE_DISABLE, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_disable, ucxusbdevice/EvtUcxUsbDeviceDisable
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_DISABLE, EVT_UCX_USBDEVICE_DISABLE callback, EvtUcxUsbDeviceDisable, EvtUcxUsbDeviceDisable callback function [Buses], PEVT_UCX_USBDEVICE_DISABLE, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_disable, ucxusbdevice/EvtUcxUsbDeviceDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_DISABLE callback
+# EVT_UCX_USBDEVICE_DISABLE callback function
 
 
 ## -description

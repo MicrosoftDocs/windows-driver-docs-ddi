@@ -7,7 +7,7 @@ old-location: serports\sercx2_system_dma_receive_config.htm
 old-project: serports
 ms.assetid: 91859391-9BBA-49BA-ACCF-C82430A6CC37
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, 2/PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, serports.sercx2_system_dma_receive_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, *PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure

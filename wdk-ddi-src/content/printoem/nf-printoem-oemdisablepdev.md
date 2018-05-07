@@ -7,7 +7,7 @@ old-location: print\oemdisablepdev.htm
 old-project: print
 ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMDisablePDEV, OEMDisablePDEV function [Print Devices], print.oemdisablepdev, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml, printoem/OEMDisablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMDisablePDEV function

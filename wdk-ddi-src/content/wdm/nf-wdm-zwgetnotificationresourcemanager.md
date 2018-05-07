@@ -7,7 +7,7 @@ old-location: kernel\zwgetnotificationresourcemanager.htm
 old-project: kernel
 ms.assetid: 53892fd1-d83c-4b6e-9c39-2f64ba0ab310
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtGetNotificationResourceManager, ZwGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwgetnotificationresourcemanager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, wdm/NtGetNotificationResourceManager, wdm/ZwGetNotificationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwGetNotificationResourceManager function

@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetPrintName
-title: IBidiAsyncNotifyChannel::GetPrintName method
+title: IBidiAsyncNotifyChannel::GetPrintName
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_getprintname.htm
 old-project: print
 ms.assetid: DE84073F-8D87-4C72-B820-4CBCF1B9DF2F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetPrintName method [Print Devices], GetPrintName method [Print Devices], IBidiAsyncNotifyChannel interface, GetPrintName,IBidiAsyncNotifyChannel.GetPrintName, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], GetPrintName method, IBidiAsyncNotifyChannel::GetPrintName, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName
+ms.date: 4/20/2018
+ms.keywords: GetPrintName, GetPrintName method [Print Devices], GetPrintName method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetPrintName method, IBidiAsyncNotifyChannel.GetPrintName, IBidiAsyncNotifyChannel::GetPrintName, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IBidiAsyncNotifyChannel::GetPrintName method
+# IBidiAsyncNotifyChannel::GetPrintName
 
 
 ## -description

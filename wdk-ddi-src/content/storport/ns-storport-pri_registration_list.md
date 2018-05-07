@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
-req.product: Windows 10 or later.
 ---
 
 # PRI_REGISTRATION_LIST structure

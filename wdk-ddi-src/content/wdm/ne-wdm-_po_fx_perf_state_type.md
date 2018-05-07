@@ -7,7 +7,7 @@ old-location: kernel\po_fx_perf_state_type.htm
 old-project: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, PoFxPerfStateTypeMaximum, PoFxPerfStateTypeRange, _PO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type, wdm/PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeMaximum, wdm/PoFxPerfStateTypeRange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_TYPE, *PPO_FX_PERF_STATE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _PO_FX_PERF_STATE_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: buses\_urb_select_configuration.htm
 old-project: usbref
 ms.assetid: a6a4963b-64d7-4f46-bc19-16925929e7c7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], buses._urb_select_configuration, usb/_URB_SELECT_CONFIGURATION, usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 ---
 
 # _URB_SELECT_CONFIGURATION structure

@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_createrendertargetview.htm
 old-project: display
 ms.assetid: 2d21aacb-3b2b-4c33-ac35-9f15c1fa8171
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_CREATERENDERTARGETVIEW, D3D10DDIARG_CREATERENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_615cce2f-8ea4-4adc-9d7a-907414217ffc.xml, d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW, display.d3d10ddiarg_createrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,27 +73,27 @@ The D3D10DDIARG_CREATERENDERTARGETVIEW structure describes the render target vie
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality of the render target. 
 
 
-#### - Buffer
+### -field Buffer
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541640">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a> structure for a buffer. 
 
 
-#### - Tex1D
+### -field Tex1D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541755">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a> structure for a one-dimensional texture. 
 
 
-#### - Tex2D
+### -field Tex2D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541769">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a> structure for a two-dimensional texture. 
 
 
-#### - Tex3D
+### -field Tex3D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE3D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541781">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a> structure for a three-dimensional texture. 
 
 
-#### - TexCube
+### -field TexCube
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541801">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a> structure for a cube texture. 
 

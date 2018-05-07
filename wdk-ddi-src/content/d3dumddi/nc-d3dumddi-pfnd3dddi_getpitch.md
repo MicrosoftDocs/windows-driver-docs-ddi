@@ -7,8 +7,8 @@ old-location: display\getpitch.htm
 old-project: display
 ms.assetid: 1a5721a3-c03f-4827-9626-c9b6af5059a1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetPitch, GetPitch callback function [Display Devices], PFND3DDDI_GETPITCH, UserModeDisplayDriver_Functions_6a055fa5-1f52-4d88-af1b-e9cab4abef13.xml, d3dumddi/GetPitch, display.getpitch
+ms.date: 4/16/2018
+ms.keywords: GetPitch, GetPitch callback function [Display Devices], PFND3DDDI_GETPITCH, PFND3DDDI_GETPITCH callback, UserModeDisplayDriver_Functions_6a055fa5-1f52-4d88-af1b-e9cab4abef13.xml, d3dumddi/GetPitch, display.getpitch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_GETPITCH callback
+# PFND3DDDI_GETPITCH callback function
 
 
 ## -description

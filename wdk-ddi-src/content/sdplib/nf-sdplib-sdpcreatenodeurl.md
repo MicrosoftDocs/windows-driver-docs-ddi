@@ -7,7 +7,7 @@ old-location: bltooth\sdpcreatenodeurl.htm
 old-project: bltooth
 ms.assetid: 9f06dbfb-2bd5-4a58-848b-a5f0de337166
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpCreateNodeUrl, SdpCreateNodeUrl function [Bluetooth Devices], bltooth.sdpcreatenodeurl, bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, sdplib/SdpCreateNodeUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpCreateNodeUrl function

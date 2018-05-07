@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
-title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter method
+title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
 author: windows-driver-content
 description: Gets the PeakMeter value for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelpeakmeter.htm
 old-project: audio
 ms.assetid: 31F291ED-0B04-4CDF-A83B-7CF3717EC234
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetDeviceChannelPeakMeter method [Audio Devices], GetDeviceChannelPeakMeter method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelPeakMeter,IMiniportAudioEngineNode.GetDeviceChannelPeakMeter, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelPeakMeter method, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, audio.iminiportaudioenginenode_getdevicechannelpeakmeter, portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
+ms.date: 4/16/2018
+ms.keywords: GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], GetDeviceChannelPeakMeter method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelPeakMeter method, IMiniportAudioEngineNode.GetDeviceChannelPeakMeter, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, audio.iminiportaudioenginenode_getdevicechannelpeakmeter, portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetDeviceChannelPeakMeter method
+# IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
 
 
 ## -description

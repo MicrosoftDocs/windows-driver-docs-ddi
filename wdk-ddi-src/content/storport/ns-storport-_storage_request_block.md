@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK
-req.product: Windows 10 or later.
 ---
 
 # _STORAGE_REQUEST_BLOCK structure

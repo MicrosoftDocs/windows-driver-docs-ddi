@@ -7,7 +7,7 @@ old-location: display\d3dkmt_openresource.htm
 old-project: display
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENRESOURCE, D3DKMT_OPENRESOURCE structure [Display Devices], OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, _D3DKMT_OPENRESOURCE, d3dkmthk/D3DKMT_OPENRESOURCE, display.d3dkmt_openresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,6 +73,18 @@ The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 [in] The number of elements in the array that <b>pOpenAllocationInfo</b> specifies, which represents the number of allocations that are associated with the resource.
 
 
+### -field pOpenAllocationInfo
+
+[in/out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
+
+
+### -field pOpenAllocationInfo2
+
+This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ### -field pPrivateRuntimeData
 
 [in] A pointer to a caller-supplied buffer where the OpenGL runtime copies private data that is associated with the resource.
@@ -106,18 +118,6 @@ The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 ### -field hResource
 
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the newly opened shared resource that is associated with the allocations.
-
-
-#### - pOpenAllocationInfo
-
-[in/out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
-
-
-#### - pOpenAllocationInfo2
-
-This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
 
 
 ## -see-also

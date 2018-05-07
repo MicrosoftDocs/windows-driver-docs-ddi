@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Abort
-title: IWDFUsbTargetPipe::Abort method
+title: IWDFUsbTargetPipe::Abort
 author: windows-driver-content
 description: The Abort method aborts all pending transfers on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_abort.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Abort method, Abort method, IWDFUsbTargetPipe interface, Abort,IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Abort method, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort
+ms.keywords: Abort, Abort method, Abort method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Abort method, IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::Abort method
+# IWDFUsbTargetPipe::Abort
 
 
 ## -description

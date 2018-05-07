@@ -7,8 +7,8 @@ old-location: audio\allocatedmabuffer.htm
 old-project: audio
 ms.assetid: 44fd988a-24b3-4587-88d9-30585800ffbf
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AllocateDmaBuffer, AllocateDmaBuffer callback function [Audio Devices], PALLOCATE_DMA_BUFFER, aud-prop2_b3e6fc6b-f01f-4ca9-999a-3f9c6e196003.xml, audio.allocatedmabuffer, hdaudio/AllocateDmaBuffer
+ms.date: 4/16/2018
+ms.keywords: AllocateDmaBuffer, AllocateDmaBuffer callback function [Audio Devices], PALLOCATE_DMA_BUFFER, PALLOCATE_DMA_BUFFER callback, aud-prop2_b3e6fc6b-f01f-4ca9-999a-3f9c6e196003.xml, audio.allocatedmabuffer, hdaudio/AllocateDmaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PALLOCATE_DMA_BUFFER callback
+# PALLOCATE_DMA_BUFFER callback function
 
 
 ## -description

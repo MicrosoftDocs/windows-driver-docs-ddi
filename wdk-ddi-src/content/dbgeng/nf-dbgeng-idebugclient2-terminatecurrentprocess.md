@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient2.TerminateCurrentProcess
-title: IDebugClient2::TerminateCurrentProcess method
+title: IDebugClient2::TerminateCurrentProcess
 author: windows-driver-content
 description: The TerminateCurrentProcess method attempts to terminate the current process.
 old-location: debugger\terminatecurrentprocess.htm
 old-project: debugger
 ms.assetid: 8d3798f2-dd43-4703-bd33-8f2c3f738122
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient2, IDebugClient2 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient2::TerminateCurrentProcess, IDebugClient3 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient3::TerminateCurrentProcess, IDebugClient4 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient4::TerminateCurrentProcess, IDebugClient5 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient5::TerminateCurrentProcess, IDebugClient_7129a1e4-f1a5-4dff-a45c-bf759ae410cf.xml, TerminateCurrentProcess method [Windows Debugging], TerminateCurrentProcess method [Windows Debugging], IDebugClient2 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient3 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient4 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient5 interface, TerminateCurrentProcess,IDebugClient2.TerminateCurrentProcess, dbgeng/IDebugClient2::TerminateCurrentProcess, dbgeng/IDebugClient3::TerminateCurrentProcess, dbgeng/IDebugClient4::TerminateCurrentProcess, dbgeng/IDebugClient5::TerminateCurrentProcess, debugger.terminatecurrentprocess
+ms.date: 4/24/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging],TerminateCurrentProcess method, IDebugClient2.TerminateCurrentProcess, IDebugClient2::TerminateCurrentProcess, IDebugClient3 interface [Windows Debugging],TerminateCurrentProcess method, IDebugClient3::TerminateCurrentProcess, IDebugClient4 interface [Windows Debugging],TerminateCurrentProcess method, IDebugClient4::TerminateCurrentProcess, IDebugClient5 interface [Windows Debugging],TerminateCurrentProcess method, IDebugClient5::TerminateCurrentProcess, IDebugClient_7129a1e4-f1a5-4dff-a45c-bf759ae410cf.xml, TerminateCurrentProcess, TerminateCurrentProcess method [Windows Debugging], TerminateCurrentProcess method [Windows Debugging],IDebugClient2 interface, TerminateCurrentProcess method [Windows Debugging],IDebugClient3 interface, TerminateCurrentProcess method [Windows Debugging],IDebugClient4 interface, TerminateCurrentProcess method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::TerminateCurrentProcess, dbgeng/IDebugClient3::TerminateCurrentProcess, dbgeng/IDebugClient4::TerminateCurrentProcess, dbgeng/IDebugClient5::TerminateCurrentProcess, debugger.terminatecurrentprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient2::TerminateCurrentProcess method
+# IDebugClient2::TerminateCurrentProcess
 
 
 ## -description

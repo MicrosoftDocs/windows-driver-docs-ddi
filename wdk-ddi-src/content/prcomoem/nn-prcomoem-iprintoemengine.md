@@ -7,8 +7,8 @@ old-location: print\iprintoemengine.htm
 old-project: print
 ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices], described, prcomoem/IPrintOemEngine, print.iprintoemengine
+ms.date: 4/20/2018
+ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices],described, prcomoem/IPrintOemEngine, print.iprintoemengine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -46,8 +46,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintOemEngine interface

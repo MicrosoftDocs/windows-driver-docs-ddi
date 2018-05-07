@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_POWER_STATE enumeration

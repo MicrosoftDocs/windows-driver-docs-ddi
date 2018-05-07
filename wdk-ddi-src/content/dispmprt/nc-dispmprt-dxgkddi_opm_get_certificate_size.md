@@ -7,8 +7,8 @@ old-location: display\dxgkddiopmgetcertificatesize.htm
 old-project: display
 ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback
+# DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: serports\evtsercxtransmit.htm
 old-project: serports
 ms.assetid: B32335E4-3BDF-4161-9BE2-CF3557D76988
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EvtSerCxTransmit, EvtSerCxTransmit callback function [Serial Ports], serports.evtsercxtransmit
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EVT_SERCX_TRANSMIT callback, EvtSerCxTransmit, EvtSerCxTransmit callback function [Serial Ports], serports.evtsercxtransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_TRANSMIT callback
+# EVT_SERCX_TRANSMIT callback function
 
 
 ## -description

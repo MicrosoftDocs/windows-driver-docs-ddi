@@ -7,7 +7,7 @@ old-location: ifsk\rtlinitializegenerictableavl.htm
 old-project: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlInitializeGenericTableAvl function

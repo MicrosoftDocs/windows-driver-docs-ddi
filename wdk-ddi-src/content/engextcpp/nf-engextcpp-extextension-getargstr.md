@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetArgStr
-title: ExtExtension::GetArgStr method
+title: ExtExtension::GetArgStr
 author: windows-driver-content
 description: The GetArgStr method returns a named string argument from the command line used to invoke the current extension command.
 old-location: debugger\getargstr.htm
 old-project: debugger
 ms.assetid: a875b832-11dc-4cba-8fce-019bbb9ec7f2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_0a1f3246-41a5-4a2f-8656-45f8c17b6418.xml, ExtExtension, ExtExtension class [Windows Debugging], GetArgStr method, ExtExtension::GetArgStr, GetArgStr method [Windows Debugging], GetArgStr method [Windows Debugging], ExtExtension class, GetArgStr,ExtExtension.GetArgStr, debugger.getargstr
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_0a1f3246-41a5-4a2f-8656-45f8c17b6418.xml, ExtExtension class [Windows Debugging],GetArgStr method, ExtExtension.GetArgStr, ExtExtension::GetArgStr, GetArgStr, GetArgStr method [Windows Debugging], GetArgStr method [Windows Debugging],ExtExtension class, debugger.getargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::GetArgStr method
+# ExtExtension::GetArgStr
 
 
 ## -description

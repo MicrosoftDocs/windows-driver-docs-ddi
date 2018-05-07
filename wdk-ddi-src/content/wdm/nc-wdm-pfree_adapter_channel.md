@@ -7,8 +7,8 @@ old-location: kernel\freeadapterchannel.htm
 old-project: kernel
 ms.assetid: 916531dd-4768-436a-910c-07d49924ac48
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel
+ms.date: 4/30/2018
+ms.keywords: FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, PFREE_ADAPTER_CHANNEL callback, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFREE_ADAPTER_CHANNEL callback
+# PFREE_ADAPTER_CHANNEL callback function
 
 
 ## -description

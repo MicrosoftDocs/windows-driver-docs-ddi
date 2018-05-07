@@ -7,7 +7,7 @@ old-location: netvista\ndis_net_buffer_list_filtering_info.htm
 old-project: netvista
 ms.assetid: 992a4c77-e22f-4123-81e8-86c8030accfa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, netvista.ndis_net_buffer_list_filtering_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -78,8 +78,7 @@ A USHORT value that contains a receive filter identifier. The receive filter ide
 A union that contains the following members:
 
 
-
-##### QueueVPortInfo.QueueId
+### -field FilteringInfo.QueueVPortInfo.QueueId
 
 A USHORT value that contains an identifier for a virtual machine  queue (VMQ) receive queue. The queue identifier is an integer between zero
        and the number of queues that the network adapter supports. A value of NDIS_DEFAULT_RECEIVE_QUEUE_ID specifies
@@ -88,8 +87,7 @@ A USHORT value that contains an identifier for a virtual machine  queue (VMQ) re
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, the value of this member must always be set to NDIS_DEFAULT_RECEIVE_QUEUE_ID  by miniport drivers that support the SR-IOV interface.</div>
 <div> </div>
 
-
-##### QueueVPortInfo.VPortId
+### -field FilteringInfo.QueueVPortInfo.VPortId
 
 A USHORT value that contains the identifier for a virtual port (VPort). A value of DEFAULT_VPORT_ID specifies the default VPort on the NIC switch. 
 
@@ -98,7 +96,7 @@ The VPort with the specified VPortId value must have previously been created thr
 <div class="alert"><b>Note</b>  For the VMQ interface, this member must be set to NDIS_DEFAULT_VPORT_ID.</div>
 <div> </div>
 
-#### - Value
+### -field Value
 
 A PVOID type value that is in a union with the 
       <b>FilteringInfo</b> member. This member lets a driver access all the information in the

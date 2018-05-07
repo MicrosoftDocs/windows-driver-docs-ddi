@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.FilterGraphics
-title: IPrintOemUni::FilterGraphics method
+title: IPrintOemUni::FilterGraphics
 author: windows-driver-content
 description: The IPrintOemUni::FilterGraphics method can be used with Unidrv-supported printers to modify scan line data and send it to the spooler.
 old-location: print\iprintoemuni_filtergraphics.htm
 old-project: print
 ms.assetid: a1651745-08f0-44f2-bb9f-825d6497db42
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: FilterGraphics method [Print Devices], FilterGraphics method [Print Devices], IPrintOemUni interface, FilterGraphics,IPrintOemUni.FilterGraphics, IPrintOemUni, IPrintOemUni interface [Print Devices], FilterGraphics method, IPrintOemUni::FilterGraphics, prcomoem/IPrintOemUni::FilterGraphics, print.iprintoemuni_filtergraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml
+ms.date: 4/20/2018
+ms.keywords: FilterGraphics, FilterGraphics method [Print Devices], FilterGraphics method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],FilterGraphics method, IPrintOemUni.FilterGraphics, IPrintOemUni::FilterGraphics, prcomoem/IPrintOemUni::FilterGraphics, print.iprintoemuni_filtergraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::FilterGraphics method
+# IPrintOemUni::FilterGraphics
 
 
 ## -description

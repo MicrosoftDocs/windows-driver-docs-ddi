@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetValues
-title: IDebugRegisters2::GetValues method
+title: IDebugRegisters2::GetValues
 author: windows-driver-content
 description: The GetValues method gets the value of several of the target's registers.
 old-location: debugger\getvalues.htm
 old-project: debugger
 ms.assetid: d78c54a7-04a5-4c51-bf33-a5b7fb937897
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetValues method [Windows Debugging], GetValues method [Windows Debugging], IDebugRegisters interface, GetValues method [Windows Debugging], IDebugRegisters2 interface, GetValues,IDebugRegisters2.GetValues, IDebugRegisters interface [Windows Debugging], GetValues method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues method, IDebugRegisters2::GetValues, IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, dbgeng/IDebugRegisters2::GetValues, dbgeng/IDebugRegisters::GetValues, debugger.getvalues
+ms.date: 4/24/2018
+ms.keywords: GetValues, GetValues method [Windows Debugging], GetValues method [Windows Debugging],IDebugRegisters interface, GetValues method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetValues method, IDebugRegisters2 interface [Windows Debugging],GetValues method, IDebugRegisters2.GetValues, IDebugRegisters2::GetValues, IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, dbgeng/IDebugRegisters2::GetValues, dbgeng/IDebugRegisters::GetValues, debugger.getvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetValues method
+# IDebugRegisters2::GetValues
 
 
 ## -description

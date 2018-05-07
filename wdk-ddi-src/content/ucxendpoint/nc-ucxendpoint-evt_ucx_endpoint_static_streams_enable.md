@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_static_streams_enable.htm
 old-project: usbref
 ms.assetid: eb40623f-b13f-4c3f-b3ac-687cba323ce2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback
+# EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback function
 
 
 ## -description

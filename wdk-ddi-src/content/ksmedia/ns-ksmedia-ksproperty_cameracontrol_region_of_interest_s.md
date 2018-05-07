@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_region_of_interest_s.htm
 old-project: stream
 ms.assetid: 0a488d9f-1e34-4482-a2a8-7c160b00766c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, stream.ksproperty_cameracontrol_region_of_interest_s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ If <b>TRUE</b>, the device should lock the white balance setting to the current 
 This member should be ignored if <b>FocusRect</b> is not a valid value.
 
 
-#### - Capabilities
+### -field Capabilities
 
 Indicates whether the device and driver support setting the region of interest automatically or manually. This member a bitwise <b>OR</b> of these possible values:
 
@@ -133,7 +133,7 @@ This capability is available starting with Windows 8.1.
  
 
 
-#### - Configuration
+### -field Configuration
 
 Configuration flags for control operations for the region. This is a bitwise OR combination of the following values.
 

@@ -7,8 +7,8 @@ old-location: debugger\idebugbreakpoint.htm
 old-project: debugger
 ms.assetid: ad4bcabb-304e-4427-9b0d-2e22429e8cdd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_93345db9-13c0-4b46-be4a-d3fbb6039cc7.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], described, dbgeng/IDebugBreakpoint, debugger.idebugbreakpoint
+ms.date: 4/24/2018
+ms.keywords: ComOther_93345db9-13c0-4b46-be4a-d3fbb6039cc7.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], IDebugBreakpoint interface [Windows Debugging],described, dbgeng/IDebugBreakpoint, debugger.idebugbreakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugBreakpoint interface

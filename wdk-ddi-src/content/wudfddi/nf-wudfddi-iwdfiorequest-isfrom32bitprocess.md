@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.IsFrom32BitProcess
-title: IWDFIoRequest::IsFrom32BitProcess method
+title: IWDFIoRequest::IsFrom32BitProcess
 author: windows-driver-content
 description: The IsFrom32BitProcess method determines whether a request originated from a 32-bit process.
 old-location: wdf\iwdfiorequest_isfrom32bitprocess.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80e43bd7-9ab9-46b0-a7f3-08c3577be4bc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IsFrom32BitProcess method, IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess method, IsFrom32BitProcess method, IWDFIoRequest interface, IsFrom32BitProcess,IWDFIoRequest.IsFrom32BitProcess, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, umdf.iwdfiorequest_isfrom32bitprocess, wdf.iwdfiorequest_isfrom32bitprocess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
+ms.keywords: IWDFIoRequest interface,IsFrom32BitProcess method, IWDFIoRequest.IsFrom32BitProcess, IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess, IsFrom32BitProcess method, IsFrom32BitProcess method,IWDFIoRequest interface, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, umdf.iwdfiorequest_isfrom32bitprocess, wdf.iwdfiorequest_isfrom32bitprocess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::IsFrom32BitProcess method
+# IWDFIoRequest::IsFrom32BitProcess
 
 
 ## -description

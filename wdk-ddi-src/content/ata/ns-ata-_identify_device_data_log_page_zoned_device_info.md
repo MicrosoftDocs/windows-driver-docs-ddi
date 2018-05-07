@@ -71,20 +71,17 @@ N/A
 ### -field ZonedDeviceCapabilities
 
 
-
-#### URSWRZ
-
-N/A
-
-
-
-#### Reserved
+### -field ZonedDeviceCapabilities.URSWRZ
 
 N/A
 
 
+### -field ZonedDeviceCapabilities.Reserved
 
-#### Valid
+N/A
+
+
+### -field ZonedDeviceCapabilities.Valid
 
 N/A
 
@@ -92,14 +89,12 @@ N/A
 ### -field ZonedDeviceSettings
 
 
-
-#### Reserved
+### -field ZonedDeviceSettings.Reserved
 
 N/A
 
 
-
-#### Valid
+### -field ZonedDeviceSettings.Valid
 
 N/A
 
@@ -107,20 +102,17 @@ N/A
 ### -field OptimalNumberOfOpenSequentialWritePreferredZones
 
 
-
-#### Number
-
-N/A
-
-
-
-#### Reserved
+### -field OptimalNumberOfOpenSequentialWritePreferredZones.Number
 
 N/A
 
 
+### -field OptimalNumberOfOpenSequentialWritePreferredZones.Reserved
 
-#### Valid
+N/A
+
+
+### -field OptimalNumberOfOpenSequentialWritePreferredZones.Valid
 
 N/A
 
@@ -128,20 +120,17 @@ N/A
 ### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones
 
 
-
-#### Number
-
-N/A
-
-
-
-#### Reserved
+### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Number
 
 N/A
 
 
+### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Reserved
 
-#### Valid
+N/A
+
+
+### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Valid
 
 N/A
 
@@ -149,20 +138,17 @@ N/A
 ### -field MaxNumberOfOpenSequentialWriteRequiredZones
 
 
-
-#### Number
-
-N/A
-
-
-
-#### Reserved
+### -field MaxNumberOfOpenSequentialWriteRequiredZones.Number
 
 N/A
 
 
+### -field MaxNumberOfOpenSequentialWriteRequiredZones.Reserved
 
-#### Valid
+N/A
+
+
+### -field MaxNumberOfOpenSequentialWriteRequiredZones.Valid
 
 N/A
 
@@ -170,20 +156,17 @@ N/A
 ### -field Version
 
 
-
-#### ZacMinorVersion
-
-N/A
-
-
-
-#### Reserved0
+### -field Version.ZacMinorVersion
 
 N/A
 
 
+### -field Version.Reserved0
 
-#### Valid
+N/A
+
+
+### -field Version.Valid
 
 N/A
 

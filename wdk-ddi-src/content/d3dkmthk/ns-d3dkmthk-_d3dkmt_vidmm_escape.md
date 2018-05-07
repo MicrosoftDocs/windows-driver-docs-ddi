@@ -7,7 +7,7 @@ old-location: display\d3dkmt_vidmm_escape.htm
 old-project: display
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, _D3DKMT_VIDMM_ESCAPE, d3dkmthk/D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,10 +74,6 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 #### HotAddMemory
 
 
-
-#### Value
-
-
 ### -field SetFault.ProbeAndLock
 
 
@@ -130,6 +126,9 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 ### -field SetFault.Reserved
 
 
+### -field SetFault.Value
+
+
 ### -field Evict
 
 
@@ -167,6 +166,31 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 
 ### -field GetVads.GetNumVads.NumVads
+
+ 
+
+
+### -field GetVads.GetVad
+
+ 
+
+
+### -field GetVads.GetVadRange
+
+ 
+
+
+### -field GetVads.GetGpuMmuCaps
+
+ 
+
+
+### -field GetVads.GetPte
+
+ 
+
+
+### -field GetVads.GetSegmentCaps
 
  
 
@@ -247,6 +271,11 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 
 ### -field SetTrimIntervals.IdleTrimInterval
+
+ 
+
+
+### -field EvictByCriteria
 
  
 

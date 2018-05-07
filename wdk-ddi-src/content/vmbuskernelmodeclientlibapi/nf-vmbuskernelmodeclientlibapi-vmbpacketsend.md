@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketsend.htm
 old-project: netvista
 ms.assetid: EBB981CB-0107-497A-B6E6-9271E22A8D5F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSend, VmbPacketSend function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsend, vmbuskernelmodeclientlibapi/VmbPacketSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketSend function

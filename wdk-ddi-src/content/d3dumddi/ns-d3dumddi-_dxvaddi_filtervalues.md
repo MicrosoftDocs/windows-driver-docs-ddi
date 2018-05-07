@@ -7,7 +7,7 @@ old-location: display\dxvaddi_filtervalues.htm
 old-project: display
 ms.assetid: 45273541-0638-4e8e-b6b7-5183b481ccc4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES structure [Display Devices], _DXVADDI_FILTERVALUES, d3dumddi/DXVADDI_FILTERVALUES, display.dxvaddi_filtervalues
 ms.prod: windows-hardware
 ms.technology: windows-devices

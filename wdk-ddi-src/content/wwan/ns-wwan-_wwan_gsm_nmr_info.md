@@ -7,7 +7,7 @@ old-location: netvista\wwan_gsm_nmr_info.htm
 old-project: netvista
 ms.assetid: EF22D5C3-7A3B-4A96-A050-FCB71CA2C149
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR_INFO, WWAN_GSM_NMR_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR_INFO, netvista.wwan_gsm_nmr_info, wwan/PWWAN_GSM_NMR_INFO, wwan/WWAN_GSM_NMR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_GSM_NMR_INFO, *PWWAN_GSM_NMR_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_GSM_NMR_INFO structure

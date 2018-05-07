@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 359169a3-602d-4910-badf-c777c1a804e7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_FIND_NEW_DEVICES, IOCTL_STORAGE_FIND_NEW_DEVICES control code [Storage Devices], k307_2bd9c727-e25a-4c21-9173-af7bc2c830c6.xml, ntddstor/IOCTL_STORAGE_FIND_NEW_DEVICES, storage.ioctl_storage_find_new_devices
+ms.keywords: IOCTL_STORAGE_FIND_NEW_DEVICES, IOCTL_STORAGE_FIND_NEW_DEVICES control, IOCTL_STORAGE_FIND_NEW_DEVICES control code [Storage Devices], k307_2bd9c727-e25a-4c21-9173-af7bc2c830c6.xml, ntddstor/IOCTL_STORAGE_FIND_NEW_DEVICES, storage.ioctl_storage_find_new_devices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_FIND_NEW_DEVICES IOCTL

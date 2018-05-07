@@ -7,8 +7,8 @@ old-location: display\pfnlock2cb.htm
 old-project: display
 ms.assetid: C046F34A-4304-4B96-8D7A-7A951016437F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_LOCK2CB, d3dumddi/pfnLock2Cb, display.pfnlock2cb, pfnLock2Cb, pfnLock2Cb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_LOCK2CB, PFND3DDDI_LOCK2CB callback, d3dumddi/pfnLock2Cb, display.pfnlock2cb, pfnLock2Cb, pfnLock2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_LOCK2CB callback
+# PFND3DDDI_LOCK2CB callback function
 
 
 ## -description

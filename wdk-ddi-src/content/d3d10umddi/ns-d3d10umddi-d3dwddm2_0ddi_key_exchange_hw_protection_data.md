@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_key_exchange_hw_protection_data.htm
 old-project: display
 ms.assetid: BAC7B5B9-FD89-4C60-B3C2-06251110CDF5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA, display.d3dwddm2_0ddi_key_exchange_hw_protection_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

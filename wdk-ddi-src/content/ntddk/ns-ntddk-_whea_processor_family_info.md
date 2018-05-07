@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,54 +63,54 @@ The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information 
  
 
 
-### -field AsULONGLONG
+### -field DUMMYSTRUCTNAME.Stepping
 
-A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
-
-
-#### - ExtendedFamily
-
-The extended processor family identifier.
+The stepping of the processor.
 
 
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - Family
-
-The processor family identifier.
-
-
-#### - Model
+### -field DUMMYSTRUCTNAME.Model
 
 The processor model identifier.
 
 
-#### - ProcessorType
+### -field DUMMYSTRUCTNAME.Family
+
+The processor family identifier.
+
+
+### -field DUMMYSTRUCTNAME.ProcessorType
 
 The processor type identifier.
 
 
-#### - Reserved1
+### -field DUMMYSTRUCTNAME.Reserved1
 
 Reserved for system use.
 
 
-#### - Reserved2
+### -field DUMMYSTRUCTNAME.ExtendedModel
+
+The extended processor model identifier.
+
+
+### -field DUMMYSTRUCTNAME.ExtendedFamily
+
+The extended processor family identifier.
+
+
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved for system use.
 
 
-#### - Reserved3
+### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved for system use.
 
 
-#### - Stepping
+### -field AsULONGLONG
 
-The stepping of the processor.
+A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile3.GetInitiatorProcessId
-title: IWDFFile3::GetInitiatorProcessId method
+title: IWDFFile3::GetInitiatorProcessId
 author: windows-driver-content
 description: The GetInitiatorProcessId method retrieves the initiator process ID associated with an IWDFFile interface.
 old-location: wdf\iwdffile3_getinitiatorprocessid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInitiatorProcessId method, GetInitiatorProcessId method, IWDFFile3 interface, GetInitiatorProcessId,IWDFFile3.GetInitiatorProcessId, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
+ms.keywords: GetInitiatorProcessId, GetInitiatorProcessId method, GetInitiatorProcessId method,IWDFFile3 interface, IWDFFile3 interface,GetInitiatorProcessId method, IWDFFile3.GetInitiatorProcessId, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFFile3::GetInitiatorProcessId method
+# IWDFFile3::GetInitiatorProcessId
 
 
 ## -description

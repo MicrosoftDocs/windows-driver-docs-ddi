@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_listener_local_address.htm
 old-project: netvista
 ms.assetid: 7BF5322F-5283-445D-AC3F-19382CB28E2B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NdkGetListenerLocalAddress, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetListenerLocalAddress, netvista.ndk_fn_get_listener_local_address
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback, NdkGetListenerLocalAddress, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetListenerLocalAddress, netvista.ndk_fn_get_listener_local_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback
+# NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback function
 
 
 ## -description

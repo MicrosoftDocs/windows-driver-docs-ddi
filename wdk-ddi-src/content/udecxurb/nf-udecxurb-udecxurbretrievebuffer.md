@@ -7,7 +7,7 @@ old-location: buses\udecxurbretrievebuffer.htm
 old-project: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, udecxurb/UdecxUrbRetrieveBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUrbRetrieveBuffer function

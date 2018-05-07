@@ -7,7 +7,7 @@ old-location: print\uni_glyphsetdata.htm
 old-project: print
 ms.assetid: a2c98783-c463-435e-9d78-c10686f1c75c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], _UNI_GLYPHSETDATA, print.uni_glyphsetdata, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, prntfont/PUNI_GLYPHSETDATA, prntfont/UNI_GLYPHSETDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA
-req.product: Windows 10 or later.
 ---
 
 # _UNI_GLYPHSETDATA structure

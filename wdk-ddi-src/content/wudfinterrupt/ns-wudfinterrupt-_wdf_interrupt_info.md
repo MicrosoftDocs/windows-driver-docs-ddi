@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_INFO structure

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaLog.Log
-title: IWiaLog::Log method
+title: IWiaLog::Log
 author: windows-driver-content
 description: The IWiaLog interface is obsolete for Windows XP and later, and is no longer supported. Use the Diagnostic Log Macros instead.The IWiaLog::Log method writes a diagnostic log message to Wiaservc.log.
 old-location: image\iwialog_log.htm
 old-project: image
 ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], Log method, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log method [Imaging Devices], Log method [Imaging Devices], IWiaLog interface, Log,IWiaLog.Log, image.iwialog_log, wia_lh/IWiaLog::Log
+ms.date: 4/23/2018
+ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaLog::Log method
+# IWiaLog::Log
 
 
 ## -description

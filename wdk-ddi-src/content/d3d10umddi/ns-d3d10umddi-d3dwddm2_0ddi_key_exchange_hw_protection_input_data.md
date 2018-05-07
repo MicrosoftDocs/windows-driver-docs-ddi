@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_key_exchange_hw_protection_input_data.htm
 old-project: display
 ms.assetid: 9CF86E7B-B6EF-419C-97A9-424FFB08FF61
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, display.d3dwddm2_0ddi_key_exchange_hw_protection_input_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

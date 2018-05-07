@@ -7,8 +7,8 @@ old-location: display\dxgkcbisdevicepresent.htm
 old-project: display
 ms.assetid: 82716a1a-e361-40ad-b3cd-bdcd3abc75f8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_IS_DEVICE_PRESENT, DpFunctions_0ef5f8dd-52b6-4bf6-a19b-f87043ff6d18.xml, DxgkCbIsDevicePresent, DxgkCbIsDevicePresent callback function [Display Devices], display.dxgkcbisdevicepresent, dispmprt/DxgkCbIsDevicePresent
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_IS_DEVICE_PRESENT, DXGKCB_IS_DEVICE_PRESENT callback, DpFunctions_0ef5f8dd-52b6-4bf6-a19b-f87043ff6d18.xml, DxgkCbIsDevicePresent, DxgkCbIsDevicePresent callback function [Display Devices], display.dxgkcbisdevicepresent, dispmprt/DxgkCbIsDevicePresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_IS_DEVICE_PRESENT callback
+# DXGKCB_IS_DEVICE_PRESENT callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\commandlistexecute.htm
 old-project: display
 ms.assetid: 49f44f29-52f6-40d9-8617-a24aa3d30736
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CommandListExecute, CommandListExecute callback function [Display Devices], PFND3D11DDI_COMMANDLISTEXECUTE, UserModeDisplayDriverDx11_Functions_14a50e02-5483-4d83-83d7-79064981f4c8.xml, d3d10umddi/CommandListExecute, display.commandlistexecute
+ms.date: 4/16/2018
+ms.keywords: CommandListExecute, CommandListExecute callback function [Display Devices], PFND3D11DDI_COMMANDLISTEXECUTE, PFND3D11DDI_COMMANDLISTEXECUTE callback, UserModeDisplayDriverDx11_Functions_14a50e02-5483-4d83-83d7-79064981f4c8.xml, d3d10umddi/CommandListExecute, display.commandlistexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_COMMANDLISTEXECUTE callback
+# PFND3D11DDI_COMMANDLISTEXECUTE callback function
 
 
 ## -description

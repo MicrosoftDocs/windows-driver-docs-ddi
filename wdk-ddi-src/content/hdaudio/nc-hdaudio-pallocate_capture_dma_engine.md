@@ -7,8 +7,8 @@ old-location: audio\allocatecapturedmaengine.htm
 old-project: audio
 ms.assetid: 038e52be-04db-41c2-aa19-85bc4eb8bc57
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
+ms.date: 4/16/2018
+ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE callback, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PALLOCATE_CAPTURE_DMA_ENGINE callback
+# PALLOCATE_CAPTURE_DMA_ENGINE callback function
 
 
 ## -description

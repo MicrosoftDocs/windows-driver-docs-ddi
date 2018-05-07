@@ -7,8 +7,8 @@ old-location: netvista\miniportsharedmemoryallocatecomplete.htm
 old-project: netvista
 ms.assetid: d102a001-960c-4fe6-af2d-d740bba744b1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE, MiniportSharedMemoryAllocateComplete, MiniportSharedMemoryAllocateComplete callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSharedMemoryAllocateComplete, ndis_sgdma_ref_0099c752-42ac-4b2d-9787-98deca358cfc.xml, netvista.miniportsharedmemoryallocatecomplete
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE, MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback, MiniportSharedMemoryAllocateComplete, MiniportSharedMemoryAllocateComplete callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSharedMemoryAllocateComplete, ndis_sgdma_ref_0099c752-42ac-4b2d-9787-98deca358cfc.xml, netvista.miniportsharedmemoryallocatecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback
+# MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback function
 
 
 ## -description

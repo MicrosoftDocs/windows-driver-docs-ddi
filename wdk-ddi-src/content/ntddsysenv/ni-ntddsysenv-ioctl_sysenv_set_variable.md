@@ -7,8 +7,8 @@ old-location: kernel\ioctl_ioctl_sysenv_set_variable.htm
 old-project: kernel
 ms.assetid: 2BA555D8-CFD3-4D27-BC38-3B261D2F95EF
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: IOCTL_SYSENV_SET_VARIABLE, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_set_variable, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE
+ms.date: 4/30/2018
+ms.keywords: IOCTL_SYSENV_SET_VARIABLE, IOCTL_SYSENV_SET_VARIABLE control, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_set_variable, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
+req.typenames: 
 ---
 
 # IOCTL_SYSENV_SET_VARIABLE IOCTL

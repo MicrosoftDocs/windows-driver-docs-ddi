@@ -7,8 +7,8 @@ old-location: kernel\halexaminembr.htm
 old-project: kernel
 ms.assetid: 6db72f2c-af24-4807-b90b-65dc2b309dc7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: HalExamineMBR, HalExamineMBR callback function [Kernel-Mode Driver Architecture], k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, kernel.halexaminembr, ntddk/HalExamineMBR, pHalExamineMBR
+ms.date: 4/30/2018
+ms.keywords: HalExamineMBR, HalExamineMBR callback function [Kernel-Mode Driver Architecture], k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, kernel.halexaminembr, ntddk/HalExamineMBR, pHalExamineMBR, pHalExamineMBR callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # HalExamineMBR function

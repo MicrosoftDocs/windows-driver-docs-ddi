@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetEventCallbacks
-title: IDebugClient3::GetEventCallbacks method
+title: IDebugClient3::GetEventCallbacks
 author: windows-driver-content
 description: The GetEventCallbacks method returns the event callbacks object registered with this client.
 old-location: debugger\geteventcallbacks.htm
 old-project: debugger
 ms.assetid: b67edb7a-2e74-4b7b-bbfb-5886e89a10a5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventCallbacks method [Windows Debugging], GetEventCallbacks method [Windows Debugging], IDebugClient interface, GetEventCallbacks method [Windows Debugging], IDebugClient2 interface, GetEventCallbacks method [Windows Debugging], IDebugClient3 interface, GetEventCallbacks method [Windows Debugging], IDebugClient4 interface, GetEventCallbacks method [Windows Debugging], IDebugClient5 interface, GetEventCallbacks,IDebugClient3.GetEventCallbacks, IDebugClient interface [Windows Debugging], GetEventCallbacks method, IDebugClient2 interface [Windows Debugging], GetEventCallbacks method, IDebugClient2::GetEventCallbacks, IDebugClient3, IDebugClient3 interface [Windows Debugging], GetEventCallbacks method, IDebugClient3::GetEventCallbacks, IDebugClient4 interface [Windows Debugging], GetEventCallbacks method, IDebugClient4::GetEventCallbacks, IDebugClient5 interface [Windows Debugging], GetEventCallbacks method, IDebugClient5::GetEventCallbacks, IDebugClient::GetEventCallbacks, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, dbgeng/IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient4::GetEventCallbacks, dbgeng/IDebugClient5::GetEventCallbacks, dbgeng/IDebugClient::GetEventCallbacks, debugger.geteventcallbacks
+ms.date: 4/24/2018
+ms.keywords: GetEventCallbacks, GetEventCallbacks method [Windows Debugging], GetEventCallbacks method [Windows Debugging],IDebugClient interface, GetEventCallbacks method [Windows Debugging],IDebugClient2 interface, GetEventCallbacks method [Windows Debugging],IDebugClient3 interface, GetEventCallbacks method [Windows Debugging],IDebugClient4 interface, GetEventCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetEventCallbacks method, IDebugClient2 interface [Windows Debugging],GetEventCallbacks method, IDebugClient2::GetEventCallbacks, IDebugClient3 interface [Windows Debugging],GetEventCallbacks method, IDebugClient3.GetEventCallbacks, IDebugClient3::GetEventCallbacks, IDebugClient4 interface [Windows Debugging],GetEventCallbacks method, IDebugClient4::GetEventCallbacks, IDebugClient5 interface [Windows Debugging],GetEventCallbacks method, IDebugClient5::GetEventCallbacks, IDebugClient::GetEventCallbacks, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, dbgeng/IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient4::GetEventCallbacks, dbgeng/IDebugClient5::GetEventCallbacks, dbgeng/IDebugClient::GetEventCallbacks, debugger.geteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,10 +45,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::GetEventCallbacks method
+# IDebugClient3::GetEventCallbacks
 
 
 ## -description

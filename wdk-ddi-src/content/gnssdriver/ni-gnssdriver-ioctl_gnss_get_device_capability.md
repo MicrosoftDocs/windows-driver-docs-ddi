@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_GET_DEVICE_CAPABILITY
 title: IOCTL_GNSS_GET_DEVICE_CAPABILITY
 author: windows-driver-content
 description: The IOCTL_GNSS_GET_DEVICE_CAPABILITY control code is used by the GNSS adapter to get the GNSS driver and device capabilities.
-old-location: sensors\ioctl_gnss_get_device_capability.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_get_device_capability.htm
+old-project: gnss
 ms.assetid: 28673D2A-5DD6-42CD-BD91-5C30B905ECF0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY, sensors.ioctl_gnss_get_device_capability
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_get_device_capability, gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_GET_DEVICE_CAPABILITY IOCTL

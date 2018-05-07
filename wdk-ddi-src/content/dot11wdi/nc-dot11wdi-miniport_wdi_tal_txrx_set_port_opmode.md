@@ -7,8 +7,8 @@ old-location: netvista\miniportwditaltxrxsetportopmode.htm
 old-project: netvista
 ms.assetid: 86F3005E-8BB3-4309-AFDE-7FA6E0427BFD
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, MiniportWdiTalTxRxSetPortOpMode, MiniportWdiTalTxRxSetPortOpMode callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxSetPortOpMode, netvista.miniportwditaltxrxsetportopmode
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback, MiniportWdiTalTxRxSetPortOpMode, MiniportWdiTalTxRxSetPortOpMode callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxSetPortOpMode, netvista.miniportwditaltxrxsetportopmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback
+# MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback function
 
 
 ## -description

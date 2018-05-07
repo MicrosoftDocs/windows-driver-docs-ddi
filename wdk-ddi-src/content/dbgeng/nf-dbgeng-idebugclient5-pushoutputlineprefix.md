@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PushOutputLinePrefix
-title: IDebugClient5::PushOutputLinePrefix method
+title: IDebugClient5::PushOutputLinePrefix
 author: windows-driver-content
 description: Saves an output line prefix.
 old-location: debugger\idebugclient5_pushoutputlineprefix.htm
 old-project: debugger
 ms.assetid: 20446E2D-94D3-43D6-ABBF-2FA15F089659
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method, IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefix,IDebugClient5.PushOutputLinePrefix, dbgeng/IDebugClient5::PushOutputLinePrefix, debugger.idebugclient5_pushoutputlineprefix
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],PushOutputLinePrefix method, IDebugClient5.PushOutputLinePrefix, IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefix, debugger.idebugclient5_pushoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::PushOutputLinePrefix method
+# IDebugClient5::PushOutputLinePrefix
 
 
 ## -description

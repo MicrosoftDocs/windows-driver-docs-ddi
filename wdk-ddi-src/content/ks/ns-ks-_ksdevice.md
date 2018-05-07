@@ -7,7 +7,7 @@ old-location: stream\ksdevice.htm
 old-project: stream
 ms.assetid: 95b80298-a3b4-416b-8744-88873ac30037
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSDEVICE, KSDEVICE, KSDEVICE structure [Streaming Media Devices], PKSDEVICE, PKSDEVICE structure pointer [Streaming Media Devices], _KSDEVICE, avstruct_0f140861-d58a-48cf-9bac-679acbd30d02.xml, ks/KSDEVICE, ks/PKSDEVICE, stream.ksdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices

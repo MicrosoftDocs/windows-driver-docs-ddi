@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsPnp.RegisterAdapterPnpManagement
-title: IPortClsPnp::RegisterAdapterPnpManagement method
+title: IPortClsPnp::RegisterAdapterPnpManagement
 author: windows-driver-content
 description: The RegisterAdapterPowerManagement method registers the PnP management interface of the adapter with PortCls.
 old-location: audio\iportclspnp_registeradapterpnpmanagement.htm
 old-project: audio
 ms.assetid: D9A54562-0ABC-4BEA-A9E3-F1A0A4EBC095
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, RegisterAdapterPnpManagement,IPortClsPnp.RegisterAdapterPnpManagement, audio.iportclspnp_registeradapterpnpmanagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement
+ms.date: 4/16/2018
+ms.keywords: IPortClsPnp interface [Audio Devices],RegisterAdapterPnpManagement method, IPortClsPnp.RegisterAdapterPnpManagement, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], RegisterAdapterPnpManagement method [Audio Devices],IPortClsPnp interface, audio.iportclspnp_registeradapterpnpmanagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsPnp::RegisterAdapterPnpManagement method
+# IPortClsPnp::RegisterAdapterPnpManagement
 
 
 ## -description

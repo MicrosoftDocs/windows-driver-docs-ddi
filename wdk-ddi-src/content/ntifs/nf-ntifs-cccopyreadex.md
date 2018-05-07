@@ -7,7 +7,7 @@ old-location: ifsk\cccopyreadex.htm
 old-project: ifsk
 ms.assetid: 4108EB7A-F8FB-4FA5-8426-BB434E89AF06
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcCopyReadEx, CcCopyReadEx routine [Installable File System Drivers], ifsk.cccopyreadex, ntifs/CcCopyReadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcCopyReadEx function

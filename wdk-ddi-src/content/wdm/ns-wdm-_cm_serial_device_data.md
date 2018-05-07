@@ -7,7 +7,7 @@ old-location: kernel\cm_serial_device_data.htm
 old-project: kernel
 ms.assetid: c829cc26-e21c-46e7-a70f-fa691a6c52e0
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_SERIAL_DEVICE_DATA, kernel.cm_serial_device_data, kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml, wdm/CM_SERIAL_DEVICE_DATA, wdm/PCM_SERIAL_DEVICE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: CM_SERIAL_DEVICE_DATA, *PCM_SERIAL_DEVICE_DATA
-req.product: Windows 10 or later.
 ---
 
 # _CM_SERIAL_DEVICE_DATA structure

@@ -7,7 +7,7 @@ old-location: kernel\system_power_state_context.htm
 old-project: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
-req.product: Windows 10 or later.
 ---
 
 # _SYSTEM_POWER_STATE_CONTEXT structure
@@ -62,12 +61,6 @@ The <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is a partially opaque system str
 ### -field DUMMYUNIONNAME
 
 Unnamed union.
-
-
-
-#### ContextAsUlong
-
-Opaque member. Reserved for system use.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
@@ -115,7 +108,7 @@ Opaque member. Reserved for system use.
 Opaque member. Reserved for system use.
 
 
-##### - DUMMYUNIONNAME.ContextAsUlong
+### -field DUMMYUNIONNAME.ContextAsUlong
 
 Opaque member. Reserved for system use.
 

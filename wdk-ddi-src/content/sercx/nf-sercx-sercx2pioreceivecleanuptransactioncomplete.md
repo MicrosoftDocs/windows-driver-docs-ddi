@@ -7,7 +7,7 @@ old-location: serports\sercx2pioreceivecleanuptransactioncomplete.htm
 old-project: serports
 ms.assetid: 8C0874CD-EAFD-4443-B394-AAA4DD265835
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], serports.sercx2pioreceivecleanuptransactioncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2PioReceiveCleanupTransactionComplete function

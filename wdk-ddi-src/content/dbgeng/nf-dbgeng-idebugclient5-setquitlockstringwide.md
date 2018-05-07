@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetQuitLockStringWide
-title: IDebugClient5::SetQuitLockStringWide method
+title: IDebugClient5::SetQuitLockStringWide
 author: windows-driver-content
 description: Sets a quit lock Unicode character string.
 old-location: debugger\idebugclient5_setquitlockstringwide.htm
 old-project: debugger
 ms.assetid: B9A2C636-BF18-4D1B-A013-8CAE65FCC56F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, SetQuitLockStringWide,IDebugClient5.SetQuitLockStringWide, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],SetQuitLockStringWide method, IDebugClient5.SetQuitLockStringWide, IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::SetQuitLockStringWide method
+# IDebugClient5::SetQuitLockStringWide
 
 
 ## -description

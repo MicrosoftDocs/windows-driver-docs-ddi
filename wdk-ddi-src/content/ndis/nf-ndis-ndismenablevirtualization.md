@@ -7,7 +7,7 @@ old-location: netvista\ndismenablevirtualization.htm
 old-project: netvista
 ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMEnableVirtualization function

@@ -7,7 +7,7 @@ old-location: print\monitorui.htm
 old-project: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PMONITORUI, MONITORUI, MONITORUI structure [Print Devices], PMONITORUI, PMONITORUI structure pointer [Print Devices], _MONITORUI, print.monitorui, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, winsplp/MONITORUI, winsplp/PMONITORUI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: MONITORUI, *PMONITORUI
-req.product: Windows 10 or later.
 ---
 
 # _MONITORUI structure

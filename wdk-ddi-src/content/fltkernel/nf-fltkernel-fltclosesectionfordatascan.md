@@ -7,7 +7,7 @@ old-location: ifsk\fltclosesectionfordatascan.htm
 old-project: ifsk
 ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCloseSectionForDataScan function

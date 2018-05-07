@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionManager.DisableEvents
-title: IPrinterExtensionManager::DisableEvents method
+title: IPrinterExtensionManager::DisableEvents
 author: windows-driver-content
 description: Disallows events to be generated.
 old-location: print\iprinterextensionmanager_disableevents.htm
 old-project: print
 ms.assetid: 3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DisableEvents method [Print Devices], DisableEvents method [Print Devices], IPrinterExtensionManager interface, DisableEvents,IPrinterExtensionManager.DisableEvents, IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], DisableEvents method, IPrinterExtensionManager::DisableEvents, print.iprinterextensionmanager_disableevents, printerextension/IPrinterExtensionManager::DisableEvents
+ms.date: 4/20/2018
+ms.keywords: DisableEvents, DisableEvents method [Print Devices], DisableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],DisableEvents method, IPrinterExtensionManager.DisableEvents, IPrinterExtensionManager::DisableEvents, print.iprinterextensionmanager_disableevents, printerextension/IPrinterExtensionManager::DisableEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionManager::DisableEvents method
+# IPrinterExtensionManager::DisableEvents
 
 
 ## -description

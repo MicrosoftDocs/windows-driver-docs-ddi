@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclic.NewStream
-title: IMiniportWaveCyclic::NewStream method
+title: IMiniportWaveCyclic::NewStream
 author: windows-driver-content
 description: The NewStream method creates a new instance of a logical stream that is associated with a specified physical channel.
 old-location: audio\iminiportwavecyclic_newstream.htm
 old-project: audio
 ms.assetid: a83c6eb9-a29a-4695-99d3-168dff68c4a2
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], NewStream method, IMiniportWaveCyclic::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWaveCyclic interface, NewStream,IMiniportWaveCyclic.NewStream, audio.iminiportwavecyclic_newstream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, portcls/IMiniportWaveCyclic::NewStream
+ms.date: 4/16/2018
+ms.keywords: IMiniportWaveCyclic interface [Audio Devices],NewStream method, IMiniportWaveCyclic.NewStream, IMiniportWaveCyclic::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportWaveCyclic interface, audio.iminiportwavecyclic_newstream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, portcls/IMiniportWaveCyclic::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveCyclic::NewStream method
+# IMiniportWaveCyclic::NewStream
 
 
 ## -description

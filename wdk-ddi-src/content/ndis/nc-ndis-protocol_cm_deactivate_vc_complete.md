@@ -7,8 +7,8 @@ old-location: netvista\protocolcmdeactivatevccomplete.htm
 old-project: netvista
 ms.assetid: 44ee0e3c-aee9-4e24-9e54-c57248b568b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback
+# PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.CloseChannel
-title: IBidiAsyncNotifyChannel::CloseChannel method
+title: IBidiAsyncNotifyChannel::CloseChannel
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_closechannel.htm
 old-project: print
 ms.assetid: 30BAA8DD-6FC6-45CD-9EA2-244133865551
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CloseChannel method [Print Devices], CloseChannel method [Print Devices], IBidiAsyncNotifyChannel interface, CloseChannel,IBidiAsyncNotifyChannel.CloseChannel, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], CloseChannel method, IBidiAsyncNotifyChannel::CloseChannel, print.ibidiasyncnotifychannel_closechannel, prnasntp/IBidiAsyncNotifyChannel::CloseChannel
+ms.date: 4/20/2018
+ms.keywords: CloseChannel, CloseChannel method [Print Devices], CloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CloseChannel method, IBidiAsyncNotifyChannel.CloseChannel, IBidiAsyncNotifyChannel::CloseChannel, print.ibidiasyncnotifychannel_closechannel, prnasntp/IBidiAsyncNotifyChannel::CloseChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IBidiAsyncNotifyChannel::CloseChannel method
+# IBidiAsyncNotifyChannel::CloseChannel
 
 
 ## -description

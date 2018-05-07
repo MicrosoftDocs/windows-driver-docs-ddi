@@ -466,24 +466,24 @@ Pointer to the next IRB to be processed. The port driver sets this to <b>NULL</b
 Reserved for future use.
 
 
-#### - AsUChar
-
-Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
-
-
-#### - Cdb
-
-Contains a command descriptor block (CDB). This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATAPI_COMMAND is nonzero.
-
-
-#### - IdeTaskFile
+### -field IdeTaskFile
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559144">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
 
 
-#### - PowerChange
+### -field Cdb
+
+Contains a command descriptor block (CDB). This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATAPI_COMMAND is nonzero.
+
+
+### -field PowerChange
 
 Indicates an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
+
+
+### -field AsUChar
+
+Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
 
 
 ## -remarks

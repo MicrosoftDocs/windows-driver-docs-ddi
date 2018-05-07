@@ -7,7 +7,7 @@ old-location: buses\ucx_endpoint_isoch_transfer_path_delays.htm
 old-project: usbref
 ms.assetid: 5001C27B-EA5F-43C4-AD59-84B42041262E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure pointer [Buses], UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure [Buses], _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, buses.ucx_endpoint_isoch_transfer_path_delays, ucxendpoint/PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, ucxendpoint/UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
-req.product: Windows 10 or later.
 ---
 
 # _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure

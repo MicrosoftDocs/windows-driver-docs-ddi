@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.ValidatePrintTicket
-title: IPrintOemPrintTicketProvider::ValidatePrintTicket method
+title: IPrintOemPrintTicketProvider::ValidatePrintTicket
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.
 old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, IPrintOemPrintTicketProvider::ValidatePrintTicket, O, P, T, V, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, ValidatePrintTicket,IPrintOemPrintTicketProvider.ValidatePrintTicket, a, c, d, e, i, k, l, m, n, o, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, r, t, v"
+ms.date: 4/20/2018
+ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],ValidatePrintTicket method, IPrintOemPrintTicketProvider.ValidatePrintTicket, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,42 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPrintTicketProvider::ValidatePrintTicket method
+# IPrintOemPrintTicketProvider::ValidatePrintTicket
 
 
 ## -description
 
 
 The <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code> method validates a print ticket.
-
-
-## -syntax
-
-
-````
-HRESULT ValidatePrintTicket(
-  [in, out] IXMLDOMDocument2 *pPrintTicket
-);
-````
 
 
 ## -parameters
@@ -94,10 +83,10 @@ If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
 
 
 
+<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
  
 
  

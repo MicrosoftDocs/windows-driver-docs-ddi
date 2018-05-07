@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
-req.product: Windows 10 or later.
 ---
 
 # _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure

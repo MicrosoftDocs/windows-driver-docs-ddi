@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePci.Service
-title: IMiniportWavePci::Service method
+title: IMiniportWavePci::Service
 author: windows-driver-content
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportwavepci_service.htm
 old-project: audio
 ms.assetid: 1c30293f-1516-47a7-bb2c-29f9dc682777
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWavePci, IMiniportWavePci interface [Audio Devices], Service method, IMiniportWavePci::Service, Service method [Audio Devices], Service method [Audio Devices], IMiniportWavePci interface, Service,IMiniportWavePci.Service, audio.iminiportwavepci_service, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, portcls/IMiniportWavePci::Service
+ms.date: 4/16/2018
+ms.keywords: IMiniportWavePci interface [Audio Devices],Service method, IMiniportWavePci.Service, IMiniportWavePci::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_service, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, portcls/IMiniportWavePci::Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePci::Service method
+# IMiniportWavePci::Service
 
 
 ## -description

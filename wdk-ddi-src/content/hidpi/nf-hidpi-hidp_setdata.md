@@ -7,7 +7,7 @@ old-location: hid\hidp_setdata.htm
 old-project: hid
 ms.assetid: 41f7c240-4e50-4d6c-82aa-902ab05bf715
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_SetData, HidP_SetData routine [Human Input Devices], hid.hidp_setdata, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_SetData function

@@ -7,8 +7,8 @@ old-location: display\pfndestroysynchronizationobjectcb.htm
 old-project: display
 ms.assetid: 7ba549a2-f165-4b5e-8cf4-ab707222532c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3Druntime_Functions_a2b3f092-097e-4eb1-b38d-8f68e5edbcca.xml, PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB, d3dumddi/pfnDestroySynchronizationObjectCb, display.pfndestroysynchronizationobjectcb, pfnDestroySynchronizationObjectCb, pfnDestroySynchronizationObjectCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: D3Druntime_Functions_a2b3f092-097e-4eb1-b38d-8f68e5edbcca.xml, PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB, PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnDestroySynchronizationObjectCb, display.pfndestroysynchronizationobjectcb, pfnDestroySynchronizationObjectCb, pfnDestroySynchronizationObjectCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB callback
+# PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB callback function
 
 
 ## -description

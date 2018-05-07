@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.SetFontSubstitution
-title: IPrintCoreHelperUni::SetFontSubstitution method
+title: IPrintCoreHelperUni::SetFontSubstitution
 author: windows-driver-content
 description: The IPrintCoreHelperUni::SetFontSubstitution method specifies the device font to print in place of a given TrueType font.
 old-location: print\iprintcorehelperuni_setfontsubstitution.htm
 old-project: print
 ms.assetid: 73afb4e9-23c7-473c-937f-045bf5e332f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, SetFontSubstitution,IPrintCoreHelperUni.SetFontSubstitution, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreHelperUni interface [Print Devices],SetFontSubstitution method, IPrintCoreHelperUni.SetFontSubstitution, IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::SetFontSubstitution method
+# IPrintCoreHelperUni::SetFontSubstitution
 
 
 ## -description

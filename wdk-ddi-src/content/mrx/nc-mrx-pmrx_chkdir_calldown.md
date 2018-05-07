@@ -7,7 +7,7 @@ old-location: ifsk\mrxisvaliddirectory.htm
 old-project: ifsk
 ms.assetid: c52441d8-b273-4e1f-b251-2b35afeda55d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], PMRX_CHKDIR_CALLDOWN, ifsk.mrxisvaliddirectory, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CHKDIR_CALLDOWN callback
+# PMRX_CHKDIR_CALLDOWN callback function
 
 
 ## -description

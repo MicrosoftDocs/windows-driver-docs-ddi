@@ -7,7 +7,7 @@ old-location: audio\ds3dvector.htm
 old-project: audio
 ms.assetid: 828bb255-4640-4508-866e-e3641ca05773
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,36 +58,34 @@ The DS3DVECTOR structure contains three-dimensional position coordinates, positi
 
 
 
-
-
-#### - dvX
-
-Specifies the x-component of the vector.
-
-
-#### - dvY
-
-Specifies the y-component of the vector.
-
-
-#### - dvZ
-
-Specifies the z-component of the vector.
-
-
-#### - x
+### -field x
 
 Specifies the x-coordinate of the position.
 
 
-#### - y
+### -field dvX
+
+Specifies the x-component of the vector.
+
+
+### -field y
 
 Specifies the y-coordinate of the position.
 
 
-#### - z
+### -field dvY
+
+Specifies the y-component of the vector.
+
+
+### -field z
 
 Specifies the z-coordinate of the position.
+
+
+### -field dvZ
+
+Specifies the z-component of the vector.
 
 
 ## -see-also

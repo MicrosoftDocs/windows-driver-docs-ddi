@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueLongNumber
-title: IWDTFTarget2::GetValueLongNumber method
+title: IWDTFTarget2::GetValueLongNumber
 author: windows-driver-content
 description: Returns a long number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluelongnumber.htm
 old-project: dtf
 ms.assetid: 9336d850-1d42-47e5-9a69-f15e1147a71f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetValueLongNumber method [Windows Device Testing Framework], GetValueLongNumber method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueLongNumber,IWDTFTarget2.GetValueLongNumber, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueLongNumber method, IWDTFTarget2::GetValueLongNumber, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumber, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumber, dtf.iwdtftarget2_getvaluelongnumber, wdtf/IWDTFTarget2::GetValueLongNumber
+ms.date: 4/4/2018
+ms.keywords: GetValueLongNumber, GetValueLongNumber method [Windows Device Testing Framework], GetValueLongNumber method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueLongNumber method, IWDTFTarget2.GetValueLongNumber, IWDTFTarget2::GetValueLongNumber, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumber, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumber, dtf.iwdtftarget2_getvaluelongnumber, wdtf/IWDTFTarget2::GetValueLongNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::GetValueLongNumber method
+# IWDTFTarget2::GetValueLongNumber
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_IsDigitalSigned
-title: IWDTFDriverPackageAction2::get_IsDigitalSigned method
+title: IWDTFDriverPackageAction2::get_IsDigitalSigned
 author: windows-driver-content
 description: Gets a value that indicates whether the driver package is signed.
 old-location: dtf\iwdtfdriverpackageaction2_isdigitalsigned.htm
 old-project: dtf
 ms.assetid: 421682aa-2e21-4650-bae0-f47e6beff632
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsDigitalSigned property, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, dtf.iwdtfdriverpackageaction2_isdigitalsigned, get_IsDigitalSigned,IWDTFDriverPackageAction2.get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],IsDigitalSigned property, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2.get_IsDigitalSigned, IWDTFDriverPackageAction2::IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IsDigitalSigned property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, dtf.iwdtfdriverpackageaction2_isdigitalsigned, get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverPackageAction2::get_IsDigitalSigned method
+# IWDTFDriverPackageAction2::get_IsDigitalSigned
 
 
 ## -description

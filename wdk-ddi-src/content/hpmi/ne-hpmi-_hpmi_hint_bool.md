@@ -55,19 +55,6 @@ req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
 Boolean type value used to track availability of HPMI hint data. 
 
 
-## -syntax
-
-
-````
-typedef enum _HPMI_HINT_BOOL { 
-  HpmiBoolUnavailable  = 0,
-  HpmiBoolFalse        = ,
-  HpmiBoolTrue         = ,
-  HpmiBoolMax          = 
-} HPMI_HINT_BOOL;
-````
-
-
 ## -enum-fields
 
 
@@ -95,18 +82,18 @@ Value is not used.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/A974998F-C9AF-496E-88B1-510413C17C4A">HPMI_BATTERY_UTILIZATION_HINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/CE326F69-64A4-466E-8A02-5C08AFF8490C">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+
+
+
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
-
-
-
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
-
-
-
-<a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a>
-
-
-
  
 
  

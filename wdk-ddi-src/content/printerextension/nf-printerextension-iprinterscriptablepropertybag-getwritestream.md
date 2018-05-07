@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetWriteStream
-title: IPrinterScriptablePropertyBag::GetWriteStream method
+title: IPrinterScriptablePropertyBag::GetWriteStream
 author: windows-driver-content
 description: Gets a stream and uses it to write to a stream property.
 old-location: print\iprinterscriptablepropertybag_getwritestream.htm
 old-project: print
 ms.assetid: EFF55B5C-55E2-4E03-9D96-FDB1BC550A53
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetWriteStream method [Print Devices], GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag interface, GetWriteStream,IPrinterScriptablePropertyBag.GetWriteStream, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetWriteStream method, IPrinterScriptablePropertyBag::GetWriteStream, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
+ms.date: 4/20/2018
+ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetWriteStream method, IPrinterScriptablePropertyBag.GetWriteStream, IPrinterScriptablePropertyBag::GetWriteStream, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::GetWriteStream method
+# IPrinterScriptablePropertyBag::GetWriteStream
 
 
 ## -description

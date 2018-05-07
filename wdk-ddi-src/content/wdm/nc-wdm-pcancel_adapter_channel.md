@@ -7,8 +7,8 @@ old-location: kernel\canceladapterchannel.htm
 old-project: kernel
 ms.assetid: 3E510E2D-AC9B-4F00-B7FD-A67B1F3FEBA7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, kernel.canceladapterchannel, wdm/CancelAdapterChannel
+ms.date: 4/30/2018
+ms.keywords: CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, PCANCEL_ADAPTER_CHANNEL callback, kernel.canceladapterchannel, wdm/CancelAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCANCEL_ADAPTER_CHANNEL callback
+# PCANCEL_ADAPTER_CHANNEL callback function
 
 
 ## -description

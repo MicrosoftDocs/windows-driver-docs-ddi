@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamdef.CWiaLogProc.CWiaLogProc
-title: CWiaLogProc::CWiaLogProc method
+title: CWiaLogProc::CWiaLogProc
 author: windows-driver-content
 description: The CWiaLogProc constructor is called when the function or method being logged is entered.
 old-location: image\cwialogproc_cwialogproc.htm
 old-project: image
 ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices], CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices], CWiaLogProc interface, CWiaLogProc,CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
+ms.date: 4/23/2018
+ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiaLogProc::CWiaLogProc method
+# CWiaLogProc::CWiaLogProc
 
 
 ## -description

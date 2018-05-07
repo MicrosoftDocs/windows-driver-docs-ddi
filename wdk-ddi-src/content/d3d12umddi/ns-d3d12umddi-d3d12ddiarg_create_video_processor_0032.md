@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-create-video-processor-0032.htm
 old-project: display
 ms.assetid: 6b945476-c1cf-4bf8-8273-bb3d05b90277
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, display.d3d12ddiarg-create-video-processor-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

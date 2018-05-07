@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_texcube_depthstencilview.htm
 old-project: display
 ms.assetid: b67570e5-ea0d-47e6-afe3-41dc3a4a0cdf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_95c96af9-bece-4fbe-ab6c-b8184828aa8d.xml, d3d10umddi/D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, display.d3d10ddiarg_texcube_depthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices

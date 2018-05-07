@@ -7,7 +7,7 @@ old-location: print\commonpropertysheetui.htm
 old-project: print
 ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
+req.typenames: 
 ---
 
 # CommonPropertySheetUIA function

@@ -7,7 +7,7 @@ old-location: print\optparam.htm
 old-project: print
 ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices], POPTPARAM, POPTPARAM structure pointer [Print Devices], _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
 ms.prod: windows-hardware
 ms.technology: windows-devices

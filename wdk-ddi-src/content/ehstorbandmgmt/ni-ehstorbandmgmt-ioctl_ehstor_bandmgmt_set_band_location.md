@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FE6DA52C-6EE3-450E-A559-A7BCE47FA327
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, storage.ioctl_ehstor_bandmgmt_set_band_location
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, storage.ioctl_ehstor_bandmgmt_set_band_location
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION IOCTL

@@ -7,7 +7,7 @@ old-location: stream\ksnode_descriptor.htm
 old-project: stream
 ms.assetid: dfc5760f-fdd6-45f3-aeac-4406892e518a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSNODE_DESCRIPTOR, KSNODE_DESCRIPTOR, KSNODE_DESCRIPTOR structure [Streaming Media Devices], PKSNODE_DESCRIPTOR, PKSNODE_DESCRIPTOR structure pointer [Streaming Media Devices], _KSNODE_DESCRIPTOR, avstruct_c4e79318-e112-4f57-ad6f-58e71ec53532.xml, ks/KSNODE_DESCRIPTOR, ks/PKSNODE_DESCRIPTOR, stream.ksnode_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices

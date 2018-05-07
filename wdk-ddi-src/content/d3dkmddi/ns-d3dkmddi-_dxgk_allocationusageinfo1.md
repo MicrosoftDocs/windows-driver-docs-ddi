@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationusageinfo1.htm
 old-project: display
 ms.assetid: 6de3363c-fcf8-4350-acee-b401bb3f82a6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices], DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml, _DXGK_ALLOCATIONUSAGEINFO1, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, display.dxgk_allocationusageinfo1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -61,12 +61,6 @@ The DXGK_ALLOCATIONUSAGEINFO1 structure describes how an allocation can be used 
 ### -field Flags
 
 [out] A union that contains either a structure (with the first eight members that are described below) or a 32-bit value (in the <b>Value</b> member) that identifies how the allocation is used:
-
-
-
-#### Value
-
-Specifies a member in the union contained in the <b>Flags</b> member that can hold one 32-bit value that identifies how the allocation is used.
 
 
 ### -field Flags.PrivateFormat
@@ -123,6 +117,21 @@ Setting this is equivalent to setting the seventh bit of the 32-bit <b>Value</b>
 This member is reserved and should be set to zero. Setting this to zero is equivalent to setting the remaining 25 bits (0xFFFFFF80) of the 32-bit <b>Value</b> member to zeros.
 
 
+### -field Flags.Value
+
+Specifies a member in the union contained in the <b>Flags</b> member that can hold one 32-bit value that identifies how the allocation is used.
+
+
+### -field Format
+
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 0 (FALSE).
+
+
+### -field PrivateFormat
+
+[out] A private format value for the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 1 (TRUE).
+
+
 ### -field SwizzledFormat
 
 [out] A swizzled format value for the allocation that is private to a specific vendor.
@@ -156,16 +165,6 @@ This member is reserved and should be set to zero. Setting this to zero is equiv
 ### -field SlicePitch
 
 [out] The slice pitch, in bytes, from level to level (for cube and volume textures only).
-
-
-#### - Format
-
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 0 (FALSE).
-
-
-#### - PrivateFormat
-
-[out] A private format value for the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 1 (TRUE).
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationinfoflags.htm
 old-project: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, _DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -315,7 +315,7 @@ Supported starting with Windows 8.
 Supported starting with Windows 8.
 
 
-#### - Value
+### -field Value
 
 [out] A member in the union that <b>DXGK_ALLOCATIONINFOFLAGS</b> contains that can hold a 32-bit value that identifies properties of the allocation. 
 

@@ -7,8 +7,8 @@ old-location: stream\ioctl_avc_update_virtual_subunit_info.htm
 old-project: stream
 ms.assetid: 2a66ea7f-bfa1-4c51-a93d-18043fc49066
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, avcref_70967704-87c3-4d0b-856f-e031ae0011cc.xml, stream.ioctl_avc_update_virtual_subunit_info
+ms.date: 4/23/2018
+ms.keywords: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, avcref_70967704-87c3-4d0b-856f-e031ae0011cc.xml, stream.ioctl_avc_update_virtual_subunit_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,16 +41,11 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: AVC_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -190,22 +185,22 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554198">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560783">IOCTL_AVC_BUS_RESET</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560789">IOCTL_AVC_CLASS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560793">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
  
 
  

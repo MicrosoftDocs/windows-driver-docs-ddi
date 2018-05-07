@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetScopeSymbolGroup
-title: IDebugSymbols::GetScopeSymbolGroup method
+title: IDebugSymbols::GetScopeSymbolGroup
 author: windows-driver-content
 description: The GetScopeSymbolGroup method returns a symbol group containing the symbols in the current target's scope.
 old-location: debugger\getscopesymbolgroup.htm
 old-project: debugger
 ms.assetid: 002af3f1-4879-40e9-a5c6-bf62a3b26e02
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetScopeSymbolGroup method [Windows Debugging], GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, GetScopeSymbolGroup,IDebugSymbols.GetScopeSymbolGroup, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, debugger.getscopesymbolgroup
+ms.date: 4/24/2018
+ms.keywords: GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols2 interface, GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols.GetScopeSymbolGroup, IDebugSymbols2 interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, debugger.getscopesymbolgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::GetScopeSymbolGroup method
+# IDebugSymbols::GetScopeSymbolGroup
 
 
 ## -description

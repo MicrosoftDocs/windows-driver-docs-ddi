@@ -7,7 +7,7 @@ old-location: display\d3dddi_resourceflags2.htm
 old-project: display
 ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], _D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ Supported starting with Windows 8.1.
 Reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that identifies the type of resource to create.
 

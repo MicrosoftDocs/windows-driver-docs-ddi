@@ -7,7 +7,7 @@ old-location: kernel\cm_floppy_device_data.htm
 old-project: kernel
 ms.assetid: 0ef0d242-4ed6-4c48-85b8-0fc87d3fe39b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_FLOPPY_DEVICE_DATA, kernel.cm_floppy_device_data, kstruct_a_7ec8badb-4d88-479e-b0dc-ce88660b8449.xml, wdm/CM_FLOPPY_DEVICE_DATA, wdm/PCM_FLOPPY_DEVICE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA
-req.product: Windows 10 or later.
 ---
 
 # _CM_FLOPPY_DEVICE_DATA structure

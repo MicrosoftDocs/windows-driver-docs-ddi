@@ -7,7 +7,7 @@ old-location: ifsk\instance_full_information.htm
 old-project: ifsk
 ms.assetid: 6c034749-c110-4623-8a7b-a19235cad298
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltSystemStructures_db070365-3d91-4bbc-9c53-44c4b2974de0.xml, INSTANCE_FULL_INFORMATION, INSTANCE_FULL_INFORMATION structure [Installable File System Drivers], PINSTANCE_FULL_INFORMATION, PINSTANCE_FULL_INFORMATION structure pointer [Installable File System Drivers], _INSTANCE_FULL_INFORMATION, fltuserstructures/INSTANCE_FULL_INFORMATION, fltuserstructures/PINSTANCE_FULL_INFORMATION, ifsk.instance_full_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

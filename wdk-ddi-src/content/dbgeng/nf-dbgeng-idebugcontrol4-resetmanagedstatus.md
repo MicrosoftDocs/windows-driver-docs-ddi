@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ResetManagedStatus
-title: IDebugControl4::ResetManagedStatus method
+title: IDebugControl4::ResetManagedStatus
 author: windows-driver-content
 description: Clears and reinitializes the engine's managed code debugging support of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_resetmanagedstatus.htm
 old-project: debugger
 ms.assetid: 6A9F8963-54F2-4AD7-AB98-C3215E1F7839
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], ResetManagedStatus method, IDebugControl4::ResetManagedStatus, ResetManagedStatus method [Windows Debugging], ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, ResetManagedStatus,IDebugControl4.ResetManagedStatus, dbgeng/IDebugControl4::ResetManagedStatus, debugger.idebugcontrol4_resetmanagedstatus
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],ResetManagedStatus method, IDebugControl4.ResetManagedStatus, IDebugControl4::ResetManagedStatus, ResetManagedStatus, ResetManagedStatus method [Windows Debugging], ResetManagedStatus method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ResetManagedStatus, debugger.idebugcontrol4_resetmanagedstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::ResetManagedStatus method
+# IDebugControl4::ResetManagedStatus
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\fltenumerateinstanceinformationbyfilter.htm
 old-project: ifsk
 ms.assetid: c5590897-45cf-4712-b980-b99aaacfba88
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_89f20331-46dd-42f8-bbf5-42650766bdc8.xml, FltEnumerateInstanceInformationByFilter, FltEnumerateInstanceInformationByFilter routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByFilter, ifsk.fltenumerateinstanceinformationbyfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltEnumerateInstanceInformationByFilter function

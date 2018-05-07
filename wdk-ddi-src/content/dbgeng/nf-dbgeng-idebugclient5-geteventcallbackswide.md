@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetEventCallbacksWide
-title: IDebugClient5::GetEventCallbacksWide method
+title: IDebugClient5::GetEventCallbacksWide
 author: windows-driver-content
 description: The GetEventCallbacksWide method returns the event callbacks object registered with this client.
 old-location: debugger\geteventcallbackswide.htm
 old-project: debugger
 ms.assetid: 254eb89f-c330-4fca-8c58-6dbe56861743
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetEventCallbacksWide method [Windows Debugging], GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, GetEventCallbacksWide,IDebugClient5.GetEventCallbacksWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method, IDebugClient5::GetEventCallbacksWide, dbgeng/IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide
+ms.date: 4/24/2018
+ms.keywords: GetEventCallbacksWide, GetEventCallbacksWide method [Windows Debugging], GetEventCallbacksWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetEventCallbacksWide method, IDebugClient5.GetEventCallbacksWide, IDebugClient5::GetEventCallbacksWide, dbgeng/IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::GetEventCallbacksWide method
+# IDebugClient5::GetEventCallbacksWide
 
 
 ## -description

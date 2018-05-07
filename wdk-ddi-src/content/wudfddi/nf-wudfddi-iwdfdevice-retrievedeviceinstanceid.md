@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.RetrieveDeviceInstanceId
-title: IWDFDevice::RetrieveDeviceInstanceId method
+title: IWDFDevice::RetrieveDeviceInstanceId
 author: windows-driver-content
 description: The RetrieveDeviceInstanceId method retrieves the identifier of an instance of a device.
 old-location: wdf\iwdfdevice_retrievedeviceinstanceid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice, IWDFDevice interface, RetrieveDeviceInstanceId method, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method, IWDFDevice interface, RetrieveDeviceInstanceId,IWDFDevice.RetrieveDeviceInstanceId, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, umdf.iwdfdevice_retrievedeviceinstanceid, wdf.iwdfdevice_retrievedeviceinstanceid, wudfddi/IWDFDevice::RetrieveDeviceInstanceId
+ms.keywords: IWDFDevice interface,RetrieveDeviceInstanceId method, IWDFDevice.RetrieveDeviceInstanceId, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method,IWDFDevice interface, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, umdf.iwdfdevice_retrievedeviceinstanceid, wdf.iwdfdevice_retrievedeviceinstanceid, wudfddi/IWDFDevice::RetrieveDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::RetrieveDeviceInstanceId method
+# IWDFDevice::RetrieveDeviceInstanceId
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\queryauthenticatedchannel1.htm
 old-project: display
 ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback
+# PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback function
 
 
 ## -description

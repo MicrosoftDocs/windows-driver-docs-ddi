@@ -7,7 +7,7 @@ old-location: netvista\riluiccserviceinfo.htm
 old-project: netvista
 ms.assetid: 80abf9a7-0a34-4fc2-ab5a-afcb678b7003
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILUICCSERVICEINFO, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceinfo, ntddrilapitypes/RILUICCSERVICEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO
-req.product: Windows 10 or later.
 ---
 
 # RILUICCSERVICEINFO structure

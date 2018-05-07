@@ -7,7 +7,7 @@ old-location: display\d3dddi_bltflags.htm
 old-project: display
 ms.assetid: 844d6aed-2ca2-45ef-bd53-54344dbdadbf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,7 +175,7 @@ Setting this member to zero is equivalent to setting the remaining 18 bits (0xFF
 Supported starting with Windows 8.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_BLTFLAGS that can hold one 32-bit value that identifies the type of bitblt to perform.
 

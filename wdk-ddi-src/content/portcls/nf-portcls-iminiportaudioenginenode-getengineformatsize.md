@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetEngineFormatSize
-title: IMiniportAudioEngineNode::GetEngineFormatSize method
+title: IMiniportAudioEngineNode::GetEngineFormatSize
 author: windows-driver-content
 description: Gets the format type and the buffer size for the audio engine's audio data format.
 old-location: audio\iminiportaudioenginenode_getengineformatsize.htm
 old-project: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetEngineFormatSize method [Audio Devices], GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, GetEngineFormatSize,IMiniportAudioEngineNode.GetEngineFormatSize, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, IMiniportAudioEngineNode::GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
+ms.date: 4/16/2018
+ms.keywords: GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], GetEngineFormatSize method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetEngineFormatSize method, IMiniportAudioEngineNode.GetEngineFormatSize, IMiniportAudioEngineNode::GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetEngineFormatSize method
+# IMiniportAudioEngineNode::GetEngineFormatSize
 
 
 ## -description

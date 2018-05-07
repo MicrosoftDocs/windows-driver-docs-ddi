@@ -7,7 +7,7 @@ old-location: debugger\writecontrolspace.htm
 old-project: debugger
 ms.assetid: 12ea119e-9d56-4a1d-a8c6-3999147dfaac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, WriteControlSpace function [Windows Debugging], debugger.writecontrolspace, wdbgexts/WriteControlSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WriteControlSpace function

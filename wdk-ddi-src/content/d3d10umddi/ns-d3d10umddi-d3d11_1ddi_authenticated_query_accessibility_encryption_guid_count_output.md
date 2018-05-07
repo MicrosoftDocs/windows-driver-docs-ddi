@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_query_accessibility_encryption_gu
 old-project: display
 ms.assetid: f7d385c6-a9c4-4160-82af-a87c0f60dcdf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT, display.d3d11_1ddi_authenticated_query_accessibility_encryption_guid_count_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

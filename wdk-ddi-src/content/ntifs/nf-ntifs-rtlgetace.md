@@ -7,7 +7,7 @@ old-location: ifsk\rtlgetace.htm
 old-project: ifsk
 ms.assetid: f528d20a-16f8-401f-a6e6-ab165a40e18a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlGetAce, RtlGetAce routine [Installable File System Drivers], ifsk.rtlgetace, ntifs/RtlGetAce, rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlGetAce function

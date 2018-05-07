@@ -7,7 +7,7 @@ old-location: ifsk\fltcompletependedpreoperation.htm
 old-project: ifsk
 ms.assetid: bdd9f304-b26e-401e-81c7-da7d1e4f5635
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FLT_PREOP_COMPLETE, FLT_PREOP_SUCCESS_NO_CALLBACK, FLT_PREOP_SUCCESS_WITH_CALLBACK, FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, FltCompletePendedPreOperation, FltCompletePendedPreOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPreOperation, ifsk.fltcompletependedpreoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCompletePendedPreOperation function

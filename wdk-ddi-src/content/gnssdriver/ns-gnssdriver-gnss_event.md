@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_EVENT
 title: GNSS_EVENT
 author: windows-driver-content
 description: This structure defines the information required for a GNSS event.
-old-location: sensors\gnss_event.htm
-old-project: sensors
+old-location: gnss\gnss_event.htm
+old-project: gnss
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT, sensors.gnss_event"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnss.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,56 +87,61 @@ The GNSS driver must fill in appropriate size to avoid excessive data-copy betwe
  
 
 
+### -field FixData
+
+This structure is filled if EventType is GNSS_Fix_Available.
 
 
-#### - AgnssRequest
+### -field AgnssRequest
 
 This structure is filled if EventType is GNSS_Require_Agnss.
 
 
-#### - BreadcrumbAlertData
+### -field NiRequest
+
+This structure is filled if EventType is GNSS_Event_Ni.
+
+
+### -field ErrorInformation
+
+This structure is filled if EventType is GNSS_Error.
+
+
+### -field NmeaData
+
+This structure is filled if EventType is GNSS_Event_NmeaData.
+
+
+### -field GeofenceAlertData
+
+This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
+
+
+### -field BreadcrumbAlertData
 
 This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
+
+
+### -field GeofencesTrackingStatus
+
+This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
+
+
+### -field DriverRequestData
+
+This structure is filled if EventType is GNSS_Event_DriverRequest.
+
+
+### -field CustomData
+
+ 
+
+
 
 
 #### - CustomData[ANYSIZE_ARRAY]
 
 Custom data field.
-
-
-#### - DriverRequestData
-
-This structure is filled if EventType is GNSS_Event_DriverRequest.
-
-
-#### - ErrorInformation
-
-This structure is filled if EventType is GNSS_Error.
-
-
-#### - FixData
-
-This structure is filled if EventType is GNSS_Fix_Available.
-
-
-#### - GeofenceAlertData
-
-This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
-
-
-#### - GeofencesTrackingStatus
-
-This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
-
-
-#### - NiRequest
-
-This structure is filled if EventType is GNSS_Event_Ni.
-
-
-#### - NmeaData
-
-This structure is filled if EventType is GNSS_Event_NmeaData.
 
 
 #### - Unused[512]

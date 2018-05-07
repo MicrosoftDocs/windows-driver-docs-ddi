@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxqueryratidstate.htm
 old-project: netvista
 ms.assetid: 76949336-3349-4869-83C7-60D7D8A6BE24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NDIS_WDI_TX_QUERY_RA_TID_STATE callback, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_QUERY_RA_TID_STATE callback
+# NDIS_WDI_TX_QUERY_RA_TID_STATE callback function
 
 
 ## -description

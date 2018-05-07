@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWavePciStream.GetMapping
-title: IPortWavePciStream::GetMapping method
+title: IPortWavePciStream::GetMapping
 author: windows-driver-content
 description: The GetMapping method obtains a mapping from the port driver and associates a tag with the mapping.
 old-location: audio\iportwavepcistream_getmapping.htm
 old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping,IPortWavePciStream.GetMapping, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
+ms.date: 4/16/2018
+ms.keywords: GetMapping, GetMapping method [Audio Devices], GetMapping method [Audio Devices],IPortWavePciStream interface, IPortWavePciStream interface [Audio Devices],GetMapping method, IPortWavePciStream.GetMapping, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWavePciStream::GetMapping method
+# IPortWavePciStream::GetMapping
 
 
 ## -description

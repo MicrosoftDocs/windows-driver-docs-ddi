@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST
-req.product: Windows 10 or later.
 ---
 
 # PRO_PARAMETER_LIST structure

@@ -7,8 +7,8 @@ old-location: netvista\fwps_vswitch_runtime_state_save_callback0.htm
 old-project: netvista
 ms.assetid: 2CDD666F-3D88-4078-9A4C-D7A107806EA7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, fwpsk/vSwitchRuntimeStateSaveNotifyFn, netvista.fwps_vswitch_runtime_state_save_callback0, vSwitchRuntimeStateSaveNotifyFn, vSwitchRuntimeStateSaveNotifyFn callback function [Network Drivers Starting with Windows Vista]
+ms.date: 4/25/2018
+ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback, fwpsk/vSwitchRuntimeStateSaveNotifyFn, netvista.fwps_vswitch_runtime_state_save_callback0, vSwitchRuntimeStateSaveNotifyFn, vSwitchRuntimeStateSaveNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback
+# FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: serports\sercx2_custom_receive_transaction_config.htm
 old-project: serports
 ms.assetid: 7D9E4F33-FCEE-4783-AE33-DCD3CB0286AE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, 2/PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, serports.sercx2_custom_receive_transaction_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure

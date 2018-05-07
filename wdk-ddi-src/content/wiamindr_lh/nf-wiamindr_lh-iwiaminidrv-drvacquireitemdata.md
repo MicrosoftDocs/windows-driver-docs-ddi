@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvAcquireItemData
-title: IWiaMiniDrv::drvAcquireItemData method
+title: IWiaMiniDrv::drvAcquireItemData
 author: windows-driver-content
 description: The IWiaMiniDrv::drvAcquireItemData method is called by the WIA service to transfer data from the device to an application.
 old-location: image\iwiaminidrv_drvacquireitemdata.htm
 old-project: image
 ms.assetid: ab49643b-ab77-49ea-9a3b-e3a184cd29d0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, IWiaMiniDrv::drvAcquireItemData, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData method [Imaging Devices], drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, drvAcquireItemData,IWiaMiniDrv.drvAcquireItemData, image.iwiaminidrv_drvacquireitemdata, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAcquireItemData method, IWiaMiniDrv.drvAcquireItemData, IWiaMiniDrv::drvAcquireItemData, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData, drvAcquireItemData method [Imaging Devices], drvAcquireItemData method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvacquireitemdata, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvAcquireItemData method
+# IWiaMiniDrv::drvAcquireItemData
 
 
 ## -description

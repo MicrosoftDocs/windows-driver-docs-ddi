@@ -7,8 +7,8 @@ old-location: debugger\pdebug_extension_call.htm
 old-project: debugger
 ms.assetid: 325af2f4-9fb7-4fb3-9294-cd6d20d803c6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DebugExtensionCall, Extensions_Ref_fc621d91-0419-4ae3-8e53-71f4c522c318.xml, PDEBUG_EXTENSION_CALL, PDEBUG_EXTENSION_CALL function pointer [Windows Debugging], dbgeng/PDEBUG_EXTENSION_CALL, debugger.pdebug_extension_call
+ms.date: 4/24/2018
+ms.keywords: DebugExtensionCall, DebugExtensionCall callback function [Windows Debugging], Extensions_Ref_fc621d91-0419-4ae3-8e53-71f4c522c318.xml, PDEBUG_EXTENSION_CALL, PDEBUG_EXTENSION_CALL callback, dbgeng/DebugExtensionCall, debugger.pdebug_extension_call
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_EXTENSION_CALL callback
+# PDEBUG_EXTENSION_CALL callback function
 
 
 ## -description

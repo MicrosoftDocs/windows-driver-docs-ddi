@@ -7,7 +7,7 @@ old-location: ifsk\rtlwritenonvolatilememory.htm
 old-project: ifsk
 ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlwritenonvolatilememory, ntddk/RtlWriteNonVolatileMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlWriteNonVolatileMemory function

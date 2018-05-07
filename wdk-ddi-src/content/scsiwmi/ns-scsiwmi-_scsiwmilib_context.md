@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SCSI_WMILIB_CONTEXT, *PSCSI_WMILIB_CONTEXT
-req.product: Windows 10 or later.
 ---
 
 # _SCSIWMILIB_CONTEXT structure

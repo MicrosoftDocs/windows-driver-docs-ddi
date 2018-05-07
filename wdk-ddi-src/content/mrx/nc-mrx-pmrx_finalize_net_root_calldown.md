@@ -7,7 +7,7 @@ old-location: ifsk\mrxfinalizenetroot.htm
 old-project: ifsk
 ms.assetid: 59f5b6e0-9edc-45c9-9d22-1555edb8f7c6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxFinalizeNetRoot, MRxFinalizeNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_NET_ROOT_CALLDOWN, ifsk.mrxfinalizenetroot, mrx/MRxFinalizeNetRoot, mrxref_5f5d7468-3257-4800-99fe-e5e6b7c99e37.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_FINALIZE_NET_ROOT_CALLDOWN callback
+# PMRX_FINALIZE_NET_ROOT_CALLDOWN callback function
 
 
 ## -description

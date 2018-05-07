@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C0DB967F-0A1A-4749-B902-EBA0D59A3E45
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface, described, umdf.ipnpcallbackhardware2, wdf.ipnpcallbackhardware2, wudfddi/IPnpCallbackHardware2
+ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface,described, umdf.ipnpcallbackhardware2, wdf.ipnpcallbackhardware2, wudfddi/IPnpCallbackHardware2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPnpCallbackHardware2 interface

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1A473A08-EA23-4DFE-8B58-EBB4AC977891
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDF_INTERRUPT_WORKITEM, EvtInterruptWorkItem, EvtInterruptWorkItem callback function, kmdf.evtinterruptworkitem, wdf.evtinterruptworkitem, wdfinterrupt/EvtInterruptWorkItem
+ms.keywords: EVT_WDF_INTERRUPT_WORKITEM, EVT_WDF_INTERRUPT_WORKITEM callback, EvtInterruptWorkItem, EvtInterruptWorkItem callback function, kmdf.evtinterruptworkitem, wdf.evtinterruptworkitem, wdfinterrupt/EvtInterruptWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_INTERRUPT_WORKITEM callback
+# EVT_WDF_INTERRUPT_WORKITEM callback function
 
 
 ## -description

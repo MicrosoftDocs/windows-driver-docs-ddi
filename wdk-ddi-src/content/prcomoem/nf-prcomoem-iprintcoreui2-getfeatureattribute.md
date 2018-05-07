@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetFeatureAttribute
-title: IPrintCoreUI2::GetFeatureAttribute method
+title: IPrintCoreUI2::GetFeatureAttribute
 author: windows-driver-content
 description: The IPrintCoreUI2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreui2_getfeatureattribute.htm
 old-project: print
 ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCoreUI2 interface, GetFeatureAttribute,IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetFeatureAttribute method, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
+ms.date: 4/20/2018
+ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetFeatureAttribute method, IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::GetFeatureAttribute method
+# IPrintCoreUI2::GetFeatureAttribute
 
 
 ## -description

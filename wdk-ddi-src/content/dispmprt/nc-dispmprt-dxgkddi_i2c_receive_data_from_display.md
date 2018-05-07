@@ -7,8 +7,8 @@ old-location: display\dxgkddii2creceivedatafromdisplay.htm
 old-project: display
 ms.assetid: 7b412180-e453-4ae4-95a5-e5393e1d9197
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, DmFunctions_5fcf0936-1f93-4445-9a80-545ad88b472b.xml, DxgkDdiI2CReceiveDataFromDisplay, DxgkDdiI2CReceiveDataFromDisplay callback function [Display Devices], display.dxgkddii2creceivedatafromdisplay, dispmprt/DxgkDdiI2CReceiveDataFromDisplay
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback, DmFunctions_5fcf0936-1f93-4445-9a80-545ad88b472b.xml, DxgkDdiI2CReceiveDataFromDisplay, DxgkDdiI2CReceiveDataFromDisplay callback function [Display Devices], display.dxgkddii2creceivedatafromdisplay, dispmprt/DxgkDdiI2CReceiveDataFromDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback
+# DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback function
 
 
 ## -description

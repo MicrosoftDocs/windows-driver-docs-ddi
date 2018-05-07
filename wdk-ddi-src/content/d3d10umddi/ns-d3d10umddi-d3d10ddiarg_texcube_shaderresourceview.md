@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_texcube_shaderresourceview.htm
 old-project: display
 ms.assetid: ef45c368-37b9-4208-81d3-1ecab81268b0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_69378946-808a-4eb0-bca1-25bd4780405d.xml, d3d10umddi/D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10ddiarg_texcube_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

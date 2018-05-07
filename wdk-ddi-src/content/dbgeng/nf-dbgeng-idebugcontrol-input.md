@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.Input
-title: IDebugControl::Input method
+title: IDebugControl::Input
 author: windows-driver-content
 description: The Input method requests an input string from the debugger engine.
 old-location: debugger\input.htm
 old-project: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], Input method, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input method [Windows Debugging], Input method [Windows Debugging], IDebugControl interface, Input,IDebugControl.Input, dbgeng/IDebugControl::Input, debugger.input
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],Input method, IDebugControl.Input, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input, Input method [Windows Debugging], Input method [Windows Debugging],IDebugControl interface, dbgeng/IDebugControl::Input, debugger.input
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::Input method
+# IDebugControl::Input
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteVirtualUncached
-title: IDebugDataSpaces4::WriteVirtualUncached method
+title: IDebugDataSpaces4::WriteVirtualUncached
 author: windows-driver-content
 description: The WriteVirtualUncached method writes data to the target's virtual address space.
 old-location: debugger\writevirtualuncached.htm
 old-project: debugger
 ms.assetid: 01b729cb-d7d0-4c8d-a438-51319ef8e1c8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces2::WriteVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, WriteVirtualUncached method [Windows Debugging], WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, WriteVirtualUncached,IDebugDataSpaces4.WriteVirtualUncached, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, dbgeng/IDebugDataSpaces3::WriteVirtualUncached, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, dbgeng/IDebugDataSpaces::WriteVirtualUncached, debugger.writevirtualuncached
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces2 interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces2::WriteVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces4 interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces4.WriteVirtualUncached, IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces interface, WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces2 interface, WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces3 interface, WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, dbgeng/IDebugDataSpaces3::WriteVirtualUncached, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, dbgeng/IDebugDataSpaces::WriteVirtualUncached, debugger.writevirtualuncached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::WriteVirtualUncached method
+# IDebugDataSpaces4::WriteVirtualUncached
 
 
 ## -description

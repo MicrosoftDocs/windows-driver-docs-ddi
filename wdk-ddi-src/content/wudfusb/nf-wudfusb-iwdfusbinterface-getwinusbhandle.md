@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetWinUsbHandle
-title: IWDFUsbInterface::GetWinUsbHandle method
+title: IWDFUsbInterface::GetWinUsbHandle
 author: windows-driver-content
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a USB interface.
 old-location: wdf\iwdfusbinterface_getwinusbhandle.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbInterface interface, GetWinUsbHandle,IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface, IWDFUsbInterface interface, GetWinUsbHandle method, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
+ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetWinUsbHandle method, IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbInterface::GetWinUsbHandle method
+# IWDFUsbInterface::GetWinUsbHandle
 
 
 ## -description

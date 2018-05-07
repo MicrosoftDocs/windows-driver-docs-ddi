@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetCreateParametersEx
-title: IWDFIoRequest2::GetCreateParametersEx method
+title: IWDFIoRequest2::GetCreateParametersEx
 author: windows-driver-content
 description: The GetCreateParametersEx method retrieves file creation parameters that are associated with a file that is being created or opened.
 old-location: wdf\iwdfiorequest2_getcreateparametersex.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bc34d86b-fa0e-419e-9342-61df12a8e484
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetCreateParametersEx method, GetCreateParametersEx method, IWDFIoRequest2 interface, GetCreateParametersEx,IWDFIoRequest2.GetCreateParametersEx, IWDFIoRequest2, IWDFIoRequest2 interface, GetCreateParametersEx method, IWDFIoRequest2::GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, umdf.iwdfiorequest2_getcreateparametersex, wdf.iwdfiorequest2_getcreateparametersex, wudfddi/IWDFIoRequest2::GetCreateParametersEx
+ms.keywords: GetCreateParametersEx, GetCreateParametersEx method, GetCreateParametersEx method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetCreateParametersEx method, IWDFIoRequest2.GetCreateParametersEx, IWDFIoRequest2::GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, umdf.iwdfiorequest2_getcreateparametersex, wdf.iwdfiorequest2_getcreateparametersex, wudfddi/IWDFIoRequest2::GetCreateParametersEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::GetCreateParametersEx method
+# IWDFIoRequest2::GetCreateParametersEx
 
 
 ## -description

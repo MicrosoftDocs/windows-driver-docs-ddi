@@ -7,7 +7,7 @@ old-location: serports\sercx2_custom_transmit_config_init.htm
 old-project: serports
 ms.assetid: 73C64B54-8181-491A-A418-75FC7012888F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_transmit_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function

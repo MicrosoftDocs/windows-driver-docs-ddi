@@ -7,7 +7,7 @@ old-location: netvista\rilphonebookemailaddress.htm
 old-project: netvista
 ms.assetid: 89dc64a4-dce9-4ed2-a657-d216d502cded
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookemailaddress, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKEMAILADDRESS, *LPRILPHONEBOOKEMAILADDRESS
-req.product: Windows 10 or later.
 ---
 
 # RILPHONEBOOKEMAILADDRESS structure

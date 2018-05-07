@@ -7,7 +7,7 @@ old-location: print\unifm_hdr.htm
 old-project: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UNIFM_HDR, *PUNIFM_HDR
-req.product: Windows 10 or later.
 ---
 
 # _UNIFM_HDR structure

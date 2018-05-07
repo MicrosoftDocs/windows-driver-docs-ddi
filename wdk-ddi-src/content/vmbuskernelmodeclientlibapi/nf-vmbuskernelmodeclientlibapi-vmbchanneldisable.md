@@ -7,7 +7,7 @@ old-location: netvista\vmbchanneldisable.htm
 old-project: netvista
 ms.assetid: 688A1DF3-F801-47C3-8403-9FA5D96BD428
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelDisable, VmbChannelDisable function [Network Drivers Starting with Windows Vista], netvista.vmbchanneldisable, vmbuskernelmodeclientlibapi/VmbChannelDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelDisable function

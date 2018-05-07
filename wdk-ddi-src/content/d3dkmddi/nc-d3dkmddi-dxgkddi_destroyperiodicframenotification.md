@@ -7,8 +7,8 @@ old-location: display\dxgkddi_destroyperiodicframenotification.htm
 old-project: display
 ms.assetid: 4C6B6FB2-A699-40F5-ACA3-62E8620E99AB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkddi_destroyperiodicframenotification
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkddi_destroyperiodicframenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback
+# DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function
 
 
 ## -description

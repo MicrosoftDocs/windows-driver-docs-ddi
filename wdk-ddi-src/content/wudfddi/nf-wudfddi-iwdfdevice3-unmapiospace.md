@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.UnmapIoSpace
-title: IWDFDevice3::UnmapIoSpace method
+title: IWDFDevice3::UnmapIoSpace
 author: windows-driver-content
 description: The UnmapIoSpace method unmaps a specified range of physical addresses previously mapped by MapIoSpace method.
 old-location: wdf\iwdfdevice3_unmapiospace.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice3, IWDFDevice3 interface, UnmapIoSpace method, IWDFDevice3::UnmapIoSpace, UnmapIoSpace method, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace,IWDFDevice3.UnmapIoSpace, umdf.iwdfdevice3_unmapiospace, wdf.iwdfdevice3_unmapiospace, wudfddi/IWDFDevice3::UnmapIoSpace
+ms.keywords: IWDFDevice3 interface,UnmapIoSpace method, IWDFDevice3.UnmapIoSpace, IWDFDevice3::UnmapIoSpace, UnmapIoSpace, UnmapIoSpace method, UnmapIoSpace method,IWDFDevice3 interface, umdf.iwdfdevice3_unmapiospace, wdf.iwdfdevice3_unmapiospace, wudfddi/IWDFDevice3::UnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::UnmapIoSpace method
+# IWDFDevice3::UnmapIoSpace
 
 
 ## -description

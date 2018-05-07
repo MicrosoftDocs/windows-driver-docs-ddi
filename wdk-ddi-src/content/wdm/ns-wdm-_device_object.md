@@ -7,7 +7,7 @@ old-location: kernel\device_object.htm
 old-project: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DEVICE_OBJECT, *PDEVICE_OBJECT
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_OBJECT structure
@@ -295,14 +294,12 @@ Specifies the minimum number of stack locations in IRPs to be sent to this drive
 Used internally by the I/O manager to queue the device object when it is required. This is an opaque member.
 
 
-
-#### ListEntry
+### -field Queue.ListEntry
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that contains forward and backward pointers for a doubly linked list.
 
 
-
-#### Wcb
+### -field Queue.Wcb
 
 Device context information used by I/O manager.
 

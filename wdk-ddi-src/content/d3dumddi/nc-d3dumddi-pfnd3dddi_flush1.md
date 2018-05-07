@@ -7,8 +7,8 @@ old-location: display\pfnflush1.htm
 old-project: display
 ms.assetid: 6BAC104A-85CE-42FC-AE30-969B2FF6AFEF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_FLUSH1, d3dumddi/pfnFlush1, display.pfnflush1, pfnFlush1, pfnFlush1 callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_FLUSH1, PFND3DDDI_FLUSH1 callback, d3dumddi/pfnFlush1, display.pfnflush1, pfnFlush1, pfnFlush1 callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FLUSH1 callback
+# PFND3DDDI_FLUSH1 callback function
 
 
 ## -description

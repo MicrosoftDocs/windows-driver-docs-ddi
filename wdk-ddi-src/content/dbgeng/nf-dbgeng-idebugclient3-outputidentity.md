@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.OutputIdentity
-title: IDebugClient3::OutputIdentity method
+title: IDebugClient3::OutputIdentity
 author: windows-driver-content
 description: The OutputIdentity method formats and outputs a string describing the computer and user this client represents.
 old-location: debugger\outputidentity.htm
 old-project: debugger
 ms.assetid: 0e8ced7c-87f3-4366-8137-b0d19dffc340
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient interface [Windows Debugging], OutputIdentity method, IDebugClient2 interface [Windows Debugging], OutputIdentity method, IDebugClient2::OutputIdentity, IDebugClient3, IDebugClient3 interface [Windows Debugging], OutputIdentity method, IDebugClient3::OutputIdentity, IDebugClient4 interface [Windows Debugging], OutputIdentity method, IDebugClient4::OutputIdentity, IDebugClient5 interface [Windows Debugging], OutputIdentity method, IDebugClient5::OutputIdentity, IDebugClient::OutputIdentity, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml, OutputIdentity method [Windows Debugging], OutputIdentity method [Windows Debugging], IDebugClient interface, OutputIdentity method [Windows Debugging], IDebugClient2 interface, OutputIdentity method [Windows Debugging], IDebugClient3 interface, OutputIdentity method [Windows Debugging], IDebugClient4 interface, OutputIdentity method [Windows Debugging], IDebugClient5 interface, OutputIdentity,IDebugClient3.OutputIdentity, dbgeng/IDebugClient2::OutputIdentity, dbgeng/IDebugClient3::OutputIdentity, dbgeng/IDebugClient4::OutputIdentity, dbgeng/IDebugClient5::OutputIdentity, dbgeng/IDebugClient::OutputIdentity, debugger.outputidentity
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],OutputIdentity method, IDebugClient2 interface [Windows Debugging],OutputIdentity method, IDebugClient2::OutputIdentity, IDebugClient3 interface [Windows Debugging],OutputIdentity method, IDebugClient3.OutputIdentity, IDebugClient3::OutputIdentity, IDebugClient4 interface [Windows Debugging],OutputIdentity method, IDebugClient4::OutputIdentity, IDebugClient5 interface [Windows Debugging],OutputIdentity method, IDebugClient5::OutputIdentity, IDebugClient::OutputIdentity, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml, OutputIdentity, OutputIdentity method [Windows Debugging], OutputIdentity method [Windows Debugging],IDebugClient interface, OutputIdentity method [Windows Debugging],IDebugClient2 interface, OutputIdentity method [Windows Debugging],IDebugClient3 interface, OutputIdentity method [Windows Debugging],IDebugClient4 interface, OutputIdentity method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::OutputIdentity, dbgeng/IDebugClient3::OutputIdentity, dbgeng/IDebugClient4::OutputIdentity, dbgeng/IDebugClient5::OutputIdentity, dbgeng/IDebugClient::OutputIdentity, debugger.outputidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,10 +45,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::OutputIdentity method
+# IDebugClient3::OutputIdentity
 
 
 ## -description

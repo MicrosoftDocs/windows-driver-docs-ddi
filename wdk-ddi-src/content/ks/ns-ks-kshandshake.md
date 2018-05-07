@@ -7,7 +7,7 @@ old-location: stream\kshandshake.htm
 old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSHANDSHAKE, KSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, ks/KSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake"
 ms.prod: windows-hardware
 ms.technology: windows-devices

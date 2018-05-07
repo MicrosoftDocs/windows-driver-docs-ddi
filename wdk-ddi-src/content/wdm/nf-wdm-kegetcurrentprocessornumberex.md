@@ -7,7 +7,7 @@ old-location: kernel\kegetcurrentprocessornumberex.htm
 old-project: kernel
 ms.assetid: eb66a17e-2e85-453c-8b39-091f0dc8c29b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex, wdm/KeGetCurrentProcessorNumberEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeGetCurrentProcessorNumberEx function

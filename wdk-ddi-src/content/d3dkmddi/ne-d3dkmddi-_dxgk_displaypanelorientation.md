@@ -7,7 +7,7 @@ old-location: display\dxgk_displaypanelorientation.htm
 old-project: display
 ms.assetid: 49758A57-EFCE-4E9C-9BF6-74F6EFD356D9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_DISPLAYPANELORIENTATION, DXGK_DISPLAYPANELORIENTATION enumeration [Display Devices], DXGK_DPO_0, DXGK_DPO_180, DXGK_DPO_270, DXGK_DPO_90, _DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DPO_0, d3dkmddi/DXGK_DPO_180, d3dkmddi/DXGK_DPO_270, d3dkmddi/DXGK_DPO_90, display.dxgk_displaypanelorientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

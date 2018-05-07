@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.ResetPDEV
-title: IPrintOemUni::ResetPDEV method
+title: IPrintOemUni::ResetPDEV
 author: windows-driver-content
 description: The IPrintOemUni::ResetPDEV method allows a rendering plug-in for Unidrv to reset its PDEV structure.
 old-location: print\iprintoemuni_resetpdev.htm
 old-project: print
 ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], ResetPDEV method, IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemUni interface, ResetPDEV,IPrintOemUni.ResetPDEV, prcomoem/IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],ResetPDEV method, IPrintOemUni.ResetPDEV, IPrintOemUni::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::ResetPDEV method
+# IPrintOemUni::ResetPDEV
 
 
 ## -description

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,54 +63,54 @@ The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a <
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union.
-
-
-#### - AerInfo
-
-A single bit that indicates that the <b>AerInfo</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-#### - BridgeControlStatus
-
-A single bit that indicates that the <b>BridgeControlStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-#### - CommandStatus
-
-A single bit that indicates that the <b>CommandStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-#### - DeviceId
-
-A single bit that indicates that the <b>DeviceId</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-#### - DeviceSerialNumber
-
-A single bit that indicates that the <b>DeviceSerialNumber</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-#### - ExpressCapability
-
-A single bit that indicates that the <b>ExpressCapability</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-#### - PortType
+### -field DUMMYSTRUCTNAME.PortType
 
 A single bit that indicates that the <b>PortType</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Version
+
+A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.CommandStatus
+
+A single bit that indicates that the <b>CommandStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.DeviceId
+
+A single bit that indicates that the <b>DeviceId</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.DeviceSerialNumber
+
+A single bit that indicates that the <b>DeviceSerialNumber</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.BridgeControlStatus
+
+A single bit that indicates that the <b>BridgeControlStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ExpressCapability
+
+A single bit that indicates that the <b>ExpressCapability</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.AerInfo
+
+A single bit that indicates that the <b>AerInfo</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - Version
+### -field ValidBits
 
-A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+A ULONGLONG representation of the contents of the WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union.
 
 
 ## -remarks

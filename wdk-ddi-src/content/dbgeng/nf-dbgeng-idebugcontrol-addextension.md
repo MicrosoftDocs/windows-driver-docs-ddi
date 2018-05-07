@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.AddExtension
-title: IDebugControl::AddExtension method
+title: IDebugControl::AddExtension
 author: windows-driver-content
 description: The AddExtension method loads an extension library into the debugger engine.
 old-location: debugger\addextension.htm
 old-project: debugger
 ms.assetid: 67dbc01a-83ee-4c7c-921e-f0945fbcc2ef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddExtension method [Windows Debugging], AddExtension method [Windows Debugging], IDebugControl interface, AddExtension method [Windows Debugging], IDebugControl2 interface, AddExtension method [Windows Debugging], IDebugControl3 interface, AddExtension,IDebugControl.AddExtension, IDebugControl, IDebugControl interface [Windows Debugging], AddExtension method, IDebugControl2 interface [Windows Debugging], AddExtension method, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging], AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
+ms.date: 4/24/2018
+ms.keywords: AddExtension, AddExtension method [Windows Debugging], AddExtension method [Windows Debugging],IDebugControl interface, AddExtension method [Windows Debugging],IDebugControl2 interface, AddExtension method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddExtension method, IDebugControl.AddExtension, IDebugControl2 interface [Windows Debugging],AddExtension method, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging],AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::AddExtension method
+# IDebugControl::AddExtension
 
 
 ## -description

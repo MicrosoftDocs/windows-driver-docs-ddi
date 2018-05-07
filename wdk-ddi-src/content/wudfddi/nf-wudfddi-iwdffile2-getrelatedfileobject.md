@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile2.GetRelatedFileObject
-title: IWDFFile2::GetRelatedFileObject method
+title: IWDFFile2::GetRelatedFileObject
 author: windows-driver-content
 description: The GetRelatedFileObject method retrieves the IWDFFile interface of a related file object, which is a file object that has a technology-specific relationship with another file object.
 old-location: wdf\iwdffile2_getrelatedfileobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetRelatedFileObject method, GetRelatedFileObject method, IWDFFile2 interface, GetRelatedFileObject,IWDFFile2.GetRelatedFileObject, IWDFFile2, IWDFFile2 interface, GetRelatedFileObject method, IWDFFile2::GetRelatedFileObject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, umdf.iwdffile2_getrelatedfileobject, wdf.iwdffile2_getrelatedfileobject, wudfddi/IWDFFile2::GetRelatedFileObject
+ms.keywords: GetRelatedFileObject, GetRelatedFileObject method, GetRelatedFileObject method,IWDFFile2 interface, IWDFFile2 interface,GetRelatedFileObject method, IWDFFile2.GetRelatedFileObject, IWDFFile2::GetRelatedFileObject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, umdf.iwdffile2_getrelatedfileobject, wdf.iwdffile2_getrelatedfileobject, wudfddi/IWDFFile2::GetRelatedFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFFile2::GetRelatedFileObject method
+# IWDFFile2::GetRelatedFileObject
 
 
 ## -description

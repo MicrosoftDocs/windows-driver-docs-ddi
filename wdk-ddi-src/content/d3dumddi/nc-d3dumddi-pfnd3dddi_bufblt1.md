@@ -7,8 +7,8 @@ old-location: display\bufblt1.htm
 old-project: display
 ms.assetid: 92F2AED7-935F-4E3E-934F-D6DF9AA87495
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, d3dumddi/BufBlt1, display.bufblt1
+ms.date: 4/16/2018
+ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1 callback, d3dumddi/BufBlt1, display.bufblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_BUFBLT1 callback
+# PFND3DDDI_BUFBLT1 callback function
 
 
 ## -description

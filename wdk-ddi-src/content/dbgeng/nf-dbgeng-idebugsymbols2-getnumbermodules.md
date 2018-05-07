@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetNumberModules
-title: IDebugSymbols2::GetNumberModules method
+title: IDebugSymbols2::GetNumberModules
 author: windows-driver-content
 description: The GetNumberModules method returns the number of modules in the current process's module list.
 old-location: debugger\getnumbermodules.htm
 old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging], IDebugSymbols interface, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, GetNumberModules,IDebugSymbols2.GetNumberModules, IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols::GetNumberModules, debugger.getnumbermodules
+ms.date: 4/24/2018
+ms.keywords: GetNumberModules, GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging],IDebugSymbols interface, GetNumberModules method [Windows Debugging],IDebugSymbols2 interface, GetNumberModules method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNumberModules method, IDebugSymbols2 interface [Windows Debugging],GetNumberModules method, IDebugSymbols2.GetNumberModules, IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging],GetNumberModules method, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols::GetNumberModules, debugger.getnumbermodules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetNumberModules method
+# IDebugSymbols2::GetNumberModules
 
 
 ## -description

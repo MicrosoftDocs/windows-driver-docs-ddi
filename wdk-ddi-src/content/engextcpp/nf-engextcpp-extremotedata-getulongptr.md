@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUlongPtr
-title: ExtRemoteData::GetUlongPtr method
+title: ExtRemoteData::GetUlongPtr
 author: windows-driver-content
 description: The GetUlongPtr method returns an unsigned integer version (extended to ULONG64) of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getulongptr.htm
 old-project: debugger
 ms.assetid: 1a3a870b-9f50-4430-b4f4-6d877d2fac3e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUlongPtr method, ExtRemoteData::GetUlongPtr, GetUlongPtr method [Windows Debugging], GetUlongPtr method [Windows Debugging], ExtRemoteData class, GetUlongPtr,ExtRemoteData.GetUlongPtr, debugger.extremotedata_getulongptr
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData class [Windows Debugging],GetUlongPtr method, ExtRemoteData.GetUlongPtr, ExtRemoteData::GetUlongPtr, GetUlongPtr, GetUlongPtr method [Windows Debugging], GetUlongPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulongptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetUlongPtr method
+# ExtRemoteData::GetUlongPtr
 
 
 ## -description

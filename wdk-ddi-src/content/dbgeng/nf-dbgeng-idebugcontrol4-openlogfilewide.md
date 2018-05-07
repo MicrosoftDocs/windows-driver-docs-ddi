@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OpenLogFileWide
-title: IDebugControl4::OpenLogFileWide method
+title: IDebugControl4::OpenLogFileWide
 author: windows-driver-content
 description: The OpenLogFileWide method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfilewide.htm
 old-project: debugger
 ms.assetid: 1e69812e-077e-476f-a253-f0c39575eb32
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OpenLogFileWide method, IDebugControl4::OpenLogFileWide, OpenLogFileWide method [Windows Debugging], OpenLogFileWide method [Windows Debugging], IDebugControl4 interface, OpenLogFileWide,IDebugControl4.OpenLogFileWide, dbgeng/IDebugControl4::OpenLogFileWide, debugger.openlogfilewide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFileWide method, IDebugControl4.OpenLogFileWide, IDebugControl4::OpenLogFileWide, OpenLogFileWide, OpenLogFileWide method [Windows Debugging], OpenLogFileWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFileWide, debugger.openlogfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::OpenLogFileWide method
+# IDebugControl4::OpenLogFileWide
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: buses\_ucx_roothub_config.htm
 old-project: usbref
 ms.assetid: 27E54F0D-2163-4D7C-B204-336EE0227488
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], UCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG structure [Buses], _UCX_ROOTHUB_CONFIG, buses._ucx_roothub_config, ucxroothub/P_UCX_ROOTHUB_CONFIG, ucxroothub/_UCX_ROOTHUB_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _UCX_ROOTHUB_CONFIG structure

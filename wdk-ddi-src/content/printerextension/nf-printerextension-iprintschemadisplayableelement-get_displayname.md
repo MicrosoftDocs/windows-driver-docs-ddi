@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaDisplayableElement.get_DisplayName
-title: IPrintSchemaDisplayableElement::get_DisplayName method
+title: IPrintSchemaDisplayableElement::get_DisplayName
 author: windows-driver-content
 description: Gets a displayable string for this item.
 old-location: print\iprintschemadisplayableelement_displayname.htm
 old-project: print
 ms.assetid: 8DF71F10-1043-47E8-98E0-BB100B2AAF26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DisplayName property [Print Devices], DisplayName property [Print Devices], IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], DisplayName property, IPrintSchemaDisplayableElement.DisplayName, IPrintSchemaDisplayableElement::get_DisplayName, get_DisplayName, get_DisplayName,IPrintSchemaDisplayableElement.get_DisplayName, print.iprintschemadisplayableelement_displayname, printerextension/IPrintSchemaDisplayableElement::DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName
+ms.date: 4/20/2018
+ms.keywords: DisplayName property [Print Devices], DisplayName property [Print Devices],IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement interface [Print Devices],DisplayName property, IPrintSchemaDisplayableElement.DisplayName, IPrintSchemaDisplayableElement.get_DisplayName, IPrintSchemaDisplayableElement::DisplayName, IPrintSchemaDisplayableElement::get_DisplayName, get_DisplayName, print.iprintschemadisplayableelement_displayname, printerextension/IPrintSchemaDisplayableElement::DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaDisplayableElement::get_DisplayName method
+# IPrintSchemaDisplayableElement::get_DisplayName
 
 
 ## -description

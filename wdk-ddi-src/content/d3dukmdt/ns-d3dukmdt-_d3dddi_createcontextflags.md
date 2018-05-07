@@ -7,7 +7,7 @@ old-location: display\d3dddi_createcontextflags.htm
 old-project: display
 ms.assetid: e450f85c-4c73-44a8-9d0a-da2c212c87c9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFD) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_CREATECONTEXTFLAGS that can hold one 32-bit value that identifies how to create the context.
 

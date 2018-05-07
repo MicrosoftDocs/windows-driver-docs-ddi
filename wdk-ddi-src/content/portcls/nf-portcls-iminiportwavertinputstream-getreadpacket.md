@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRTInputStream.GetReadPacket
-title: IMiniportWaveRTInputStream::GetReadPacket method
+title: IMiniportWaveRTInputStream::GetReadPacket
 author: windows-driver-content
 description: Returns information about captured data.
 old-location: audio\iminiportwavertinputstream_getreadpacket.htm
 old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetReadPacket method [Audio Devices], GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, GetReadPacket,IMiniportWaveRTInputStream.GetReadPacket, IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket, portcls/IMiniportWaveRTInputStream::GetReadPacket
+ms.date: 4/16/2018
+ms.keywords: GetReadPacket, GetReadPacket method [Audio Devices], GetReadPacket method [Audio Devices],IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream interface [Audio Devices],GetReadPacket method, IMiniportWaveRTInputStream.GetReadPacket, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket, portcls/IMiniportWaveRTInputStream::GetReadPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRTInputStream::GetReadPacket method
+# IMiniportWaveRTInputStream::GetReadPacket
 
 
 ## -description

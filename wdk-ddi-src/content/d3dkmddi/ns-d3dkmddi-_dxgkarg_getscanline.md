@@ -7,7 +7,7 @@ old-location: display\dxgkarg_getscanline.htm
 old-project: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, _DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, display.dxgkarg_getscanline"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

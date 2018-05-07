@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByIndex
-title: IDebugSymbols3::GetModuleByIndex method
+title: IDebugSymbols3::GetModuleByIndex
 author: windows-driver-content
 description: The GetModuleByIndex method returns the location of the module with the specified index.
 old-location: debugger\getmodulebyindex.htm
 old-project: debugger
 ms.assetid: a33f8a78-4026-4424-af42-2ad359054556
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleByIndex method [Windows Debugging], GetModuleByIndex method [Windows Debugging], IDebugSymbols interface, GetModuleByIndex method [Windows Debugging], IDebugSymbols2 interface, GetModuleByIndex method [Windows Debugging], IDebugSymbols3 interface, GetModuleByIndex,IDebugSymbols3.GetModuleByIndex, IDebugSymbols interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols2 interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols2::GetModuleByIndex, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols3::GetModuleByIndex, IDebugSymbols::GetModuleByIndex, IDebugSymbols_0406a71f-e9eb-4acd-93e8-1637ee2506df.xml, dbgeng/IDebugSymbols2::GetModuleByIndex, dbgeng/IDebugSymbols3::GetModuleByIndex, dbgeng/IDebugSymbols::GetModuleByIndex, debugger.getmodulebyindex
+ms.date: 4/24/2018
+ms.keywords: GetModuleByIndex, GetModuleByIndex method [Windows Debugging], GetModuleByIndex method [Windows Debugging],IDebugSymbols interface, GetModuleByIndex method [Windows Debugging],IDebugSymbols2 interface, GetModuleByIndex method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByIndex method, IDebugSymbols2 interface [Windows Debugging],GetModuleByIndex method, IDebugSymbols2::GetModuleByIndex, IDebugSymbols3 interface [Windows Debugging],GetModuleByIndex method, IDebugSymbols3.GetModuleByIndex, IDebugSymbols3::GetModuleByIndex, IDebugSymbols::GetModuleByIndex, IDebugSymbols_0406a71f-e9eb-4acd-93e8-1637ee2506df.xml, dbgeng/IDebugSymbols2::GetModuleByIndex, dbgeng/IDebugSymbols3::GetModuleByIndex, dbgeng/IDebugSymbols::GetModuleByIndex, debugger.getmodulebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleByIndex method
+# IDebugSymbols3::GetModuleByIndex
 
 
 ## -description

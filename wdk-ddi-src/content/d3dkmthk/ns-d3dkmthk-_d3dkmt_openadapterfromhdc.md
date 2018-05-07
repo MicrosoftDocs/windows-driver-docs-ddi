@@ -7,7 +7,7 @@ old-location: display\d3dkmt_openadapterfromhdc.htm
 old-project: display
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, _D3DKMT_OPENADAPTERFROMHDC, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, display.d3dkmt_openadapterfromhdc
 ms.prod: windows-hardware
 ms.technology: windows-devices

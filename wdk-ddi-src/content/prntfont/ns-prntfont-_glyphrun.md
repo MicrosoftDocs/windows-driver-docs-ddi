@@ -7,7 +7,7 @@ old-location: print\glyphrun.htm
 old-project: print
 ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PGLYPHRUN, GLYPHRUN, GLYPHRUN structure [Print Devices], PGLYPHRUN, PGLYPHRUN structure pointer [Print Devices], _GLYPHRUN, print.glyphrun, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, prntfont/GLYPHRUN, prntfont/PGLYPHRUN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: GLYPHRUN, *PGLYPHRUN
-req.product: Windows 10 or later.
 ---
 
 # _GLYPHRUN structure

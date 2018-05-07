@@ -7,7 +7,7 @@ old-location: kernel\interlockedexchangeadd.htm
 old-project: kernel
 ms.assetid: f61878b4-6bfa-463e-9fb1-c95171ce65b4
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd routine [Kernel-Mode Driver Architecture], k102_ed690604-0379-476d-b838-4820f47b850a.xml, kernel.interlockedexchangeadd, wdm/InterlockedExchangeAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MEMORY_CACHING_TYPE
+req.typenames: 
 ---
 
 # InterlockedExchangeAdd function

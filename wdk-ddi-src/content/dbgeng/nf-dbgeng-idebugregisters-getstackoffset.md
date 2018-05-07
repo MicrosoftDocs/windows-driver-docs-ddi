@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetStackOffset
-title: IDebugRegisters::GetStackOffset method
+title: IDebugRegisters::GetStackOffset
 author: windows-driver-content
 description: The GetStackOffset method returns the current thread's current stack location.
 old-location: debugger\getstackoffset.htm
 old-project: debugger
 ms.assetid: 7368a2d6-fea3-411e-85d9-c09764bb3b8e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetStackOffset method [Windows Debugging], GetStackOffset method [Windows Debugging], IDebugRegisters interface, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset,IDebugRegisters.GetStackOffset, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, IDebugRegisters2::GetStackOffset, IDebugRegisters::GetStackOffset, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, dbgeng/IDebugRegisters2::GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, debugger.getstackoffset
+ms.date: 4/24/2018
+ms.keywords: GetStackOffset, GetStackOffset method [Windows Debugging], GetStackOffset method [Windows Debugging],IDebugRegisters interface, GetStackOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetStackOffset method, IDebugRegisters.GetStackOffset, IDebugRegisters2 interface [Windows Debugging],GetStackOffset method, IDebugRegisters2::GetStackOffset, IDebugRegisters::GetStackOffset, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, dbgeng/IDebugRegisters2::GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, debugger.getstackoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters::GetStackOffset method
+# IDebugRegisters::GetStackOffset
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\dxgkddiquerycurrentfence.htm
 old-project: display
 ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE callback, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_QUERYCURRENTFENCE callback
+# DXGKDDI_QUERYCURRENTFENCE callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\dxgkddisetpalette.htm
 old-project: display
 ms.assetid: 3a46bf84-df62-4247-b842-d5b131c96428
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_SETPALETTE, DmFunctions_88e6fd1a-1c14-4a4e-8616-c508b07ed94e.xml, DxgkDdiSetPalette, DxgkDdiSetPalette callback function [Display Devices], d3dkmddi/DxgkDdiSetPalette, display.dxgkddisetpalette
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETPALETTE, DXGKDDI_SETPALETTE callback, DmFunctions_88e6fd1a-1c14-4a4e-8616-c508b07ed94e.xml, DxgkDdiSetPalette, DxgkDdiSetPalette callback function [Display Devices], d3dkmddi/DxgkDdiSetPalette, display.dxgkddisetpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SETPALETTE callback
+# DXGKDDI_SETPALETTE callback function
 
 
 ## -description

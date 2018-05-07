@@ -7,8 +7,8 @@ old-location: display\agpfreephysical.htm
 old-project: display
 ms.assetid: bb0e3330-5601-47dd-afc6-94a70b42daaf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: AgpFreePhysical, AgpFreePhysical callback function [Display Devices], PAGP_FREE_PHYSICAL, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml, display.agpfreephysical, videoagp/AgpFreePhysical
+ms.date: 4/16/2018
+ms.keywords: AgpFreePhysical, AgpFreePhysical callback function [Display Devices], PAGP_FREE_PHYSICAL, PAGP_FREE_PHYSICAL callback, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml, display.agpfreephysical, videoagp/AgpFreePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PAGP_FREE_PHYSICAL callback
+# PAGP_FREE_PHYSICAL callback function
 
 
 ## -description

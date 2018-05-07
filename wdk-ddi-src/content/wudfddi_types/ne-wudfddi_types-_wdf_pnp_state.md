@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_PNP_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_PNP_STATE enumeration

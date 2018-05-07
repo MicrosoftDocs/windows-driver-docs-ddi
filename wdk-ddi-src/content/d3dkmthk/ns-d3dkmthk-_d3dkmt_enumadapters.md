@@ -7,7 +7,7 @@ old-location: display\d3dkmt_enumadapters.htm
 old-project: display
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices], _D3DKMT_ENUMADAPTERS, d3dkmthk/D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters
 ms.prod: windows-hardware
 ms.technology: windows-devices

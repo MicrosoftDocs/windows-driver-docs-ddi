@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueueView.SetViewRange
-title: IPrinterQueueView::SetViewRange method
+title: IPrinterQueueView::SetViewRange
 author: windows-driver-content
 description: Sets the range of print jobs being monitored.
 old-location: print\iprinterqueueview_setviewrange.htm
 old-project: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], SetViewRange method, IPrinterQueueView::SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices], IPrinterQueueView interface, SetViewRange,IPrinterQueueView.SetViewRange, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueueView interface [Print Devices],SetViewRange method, IPrinterQueueView.SetViewRange, IPrinterQueueView::SetViewRange, SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices],IPrinterQueueView interface, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueueView::SetViewRange method
+# IPrinterQueueView::SetViewRange
 
 
 ## -description

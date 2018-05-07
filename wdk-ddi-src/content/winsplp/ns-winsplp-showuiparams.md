@@ -7,7 +7,7 @@ old-location: print\showuiparams.htm
 old-project: print
 ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PSHOWUIPARAMS, PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], SHOWUIPARAMS, SHOWUIPARAMS structure [Print Devices], print.showuiparams, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, winsplp/PSHOWUIPARAMS, winsplp/SHOWUIPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SHOWUIPARAMS, *PSHOWUIPARAMS
-req.product: Windows 10 or later.
 ---
 
 # SHOWUIPARAMS structure

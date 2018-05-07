@@ -7,7 +7,7 @@ old-location: kernel\zwopenkeytransactedex.htm
 old-project: kernel
 ms.assetid: 8e3db1b4-6ee1-40a1-9818-434152fdffd7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ZwOpenKeyTransactedEx, ZwOpenKeyTransactedEx routine [Kernel-Mode Driver Architecture], k111_765ab476-0a2a-4eb4-ba87-387fa49ae118.xml, kernel.zwopenkeytransactedex, wdm/ZwOpenKeyTransactedEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwOpenKeyTransactedEx function

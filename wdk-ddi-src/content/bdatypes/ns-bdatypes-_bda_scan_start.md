@@ -7,7 +7,7 @@ old-location: stream\bda_scan_start.htm
 old-project: stream
 ms.assetid: 931CC532-BC46-4B64-B6BA-29D20827EC0A
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_SCAN_START, BDA_SCAN_START, BDA_SCAN_START structure [Streaming Media Devices], PBDA_SCAN_START, PBDA_SCAN_START structure pointer [Streaming Media Devices], _BDA_SCAN_START, bdatypes/BDA_SCAN_START, bdatypes/PBDA_SCAN_START, stream.bda_scan_start"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.QueryPowerChangeState
-title: IAdapterPowerManagement::QueryPowerChangeState method
+title: IAdapterPowerManagement::QueryPowerChangeState
 author: windows-driver-content
 description: The QueryPowerChangeState method is called by PortCls in response to the receipt of an IRP_MN_QUERY_POWER power IRP.
 old-location: audio\iadapterpowermanagement_querypowerchangestate.htm
 old-project: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, QueryPowerChangeState,IAdapterPowerManagement.QueryPowerChangeState, audio.iadapterpowermanagement_querypowerchangestate, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, portcls/IAdapterPowerManagement::QueryPowerChangeState
+ms.date: 4/16/2018
+ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryPowerChangeState method, IAdapterPowerManagement.QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querypowerchangestate, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, portcls/IAdapterPowerManagement::QueryPowerChangeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IAdapterPowerManagement::QueryPowerChangeState method
+# IAdapterPowerManagement::QueryPowerChangeState
 
 
 ## -description

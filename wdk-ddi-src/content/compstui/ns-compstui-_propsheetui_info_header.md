@@ -7,7 +7,7 @@ old-location: print\propsheetui_info_header.htm
 old-project: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, print.propsheetui_info_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,12 +146,10 @@ Application-supplied instance handle, which CPSUI uses when loading application 
  
 
 
+### -field DUMMYUNIONNAME.hIcon
 
 
-#### - IconID
+### -field DUMMYUNIONNAME.IconID
 
 This union identifies the icon to be displayed in the property sheet's title bar. The union member is selected by PSUIHDRF_USEICON in <b>Flags</b>.
-
-
-#### - hIcon
 

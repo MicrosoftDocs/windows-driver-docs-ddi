@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_palette_data.htm
 old-project: display
 ms.assetid: b71f3793-7856-4558-b205-7facf6d83a8c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_4b156a58-d13f-4ffc-8ad0-3bdbb5dc7386.xml, DXVAHDDDI_STREAM_STATE_PALETTE_DATA, DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PALETTE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE_DATA, display.dxvahdddi_stream_state_palette_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

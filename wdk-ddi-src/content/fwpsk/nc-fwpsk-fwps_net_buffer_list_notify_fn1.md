@@ -7,8 +7,8 @@ old-location: netvista\fwps_net_buffer_list_notify_fn1.htm
 old-project: netvista
 ms.assetid: fe9ab4b2-5692-4b6e-a7fc-11e9ac8280bc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FwpsNetBufferListNotifyFN1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN1, netvista.fwps_net_buffer_list_notify_fn1
+ms.date: 4/25/2018
+ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback, FwpsNetBufferListNotifyFN1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN1, netvista.fwps_net_buffer_list_notify_fn1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback
+# FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function
 
 
 ## -description

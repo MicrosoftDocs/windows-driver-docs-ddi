@@ -7,7 +7,7 @@ old-location: display\status_block.htm
 old-project: display
 ms.assetid: 8e3126df-d081-4545-a5db-8637ee27f15b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PSTATUS_BLOCK, PSTATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], STATUS_BLOCK, STATUS_BLOCK structure [Display Devices], Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, _STATUS_BLOCK, display.status_block, video/PSTATUS_BLOCK, video/STATUS_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STATUS_BLOCK, *PSTATUS_BLOCK
-req.product: Windows 10 or later.
 ---
 
 # _STATUS_BLOCK structure
@@ -59,17 +58,7 @@ The STATUS_BLOCK structure is a substructure within the VIDEO_REQUEST_PACKET str
 
 
 
-### -field Information
-
-Supplies additional information about the completed operation. The meaning of the value varies according to VRP. Generally, this member is used to return the minimum size required for the input buffer if the VRP passes data in the <b>InputBuffer</b>. Alternatively, it contains the number of bytes of data transferred if the requested operation returns data in the VRP <b>OutputBuffer</b>.
-
-
-#### - Pointer
-
-Should be ignored by the miniport driver. This member of the union exists to guarantee field alignment across 32- and 64-bit systems.
-
-
-#### - Status
+### -field Status
 
 Indicates the result of the requested operation. This member might be one of the following status codes:
 
@@ -128,6 +117,16 @@ There is insufficient memory to process the request.
 #### NO_ERROR
 
 The requested operation has been carried out and completed successfully.
+
+
+### -field Pointer
+
+Should be ignored by the miniport driver. This member of the union exists to guarantee field alignment across 32- and 64-bit systems.
+
+
+### -field Information
+
+Supplies additional information about the completed operation. The meaning of the value varies according to VRP. Generally, this member is used to return the minimum size required for the input buffer if the VRP passes data in the <b>InputBuffer</b>. Alternatively, it contains the number of bytes of data transferred if the requested operation returns data in the VRP <b>OutputBuffer</b>.
 
 
 ## -see-also

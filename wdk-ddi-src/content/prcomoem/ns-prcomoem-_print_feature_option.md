@@ -7,7 +7,7 @@ old-location: print\print_feature_option.htm
 old-project: print
 ms.assetid: 82c9c54b-f124-46d7-a3c9-a17fd8028412
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PRINT_FEATURE_OPTION, PRINT_FEATURE_OPTION structure [Print Devices], _PRINT_FEATURE_OPTION, prcomoem/PRINT_FEATURE_OPTION, print.print_feature_option, print_unidrv-pscript_ui_2f776943-da30-40c4-909a-56472768c8df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PRINT_FEATURE_OPTION
-req.product: Windows 10 or later.
 ---
 
 # _PRINT_FEATURE_OPTION structure

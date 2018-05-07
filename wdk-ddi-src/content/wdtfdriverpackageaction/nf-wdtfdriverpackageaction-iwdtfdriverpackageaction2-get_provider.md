@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_Provider
-title: IWDTFDriverPackageAction2::get_Provider method
+title: IWDTFDriverPackageAction2::get_Provider
 author: windows-driver-content
 description: Gets the driver package provider.
 old-location: dtf\iwdtfdriverpackageaction2_provider.htm
 old-project: dtf
 ms.assetid: 1d97bd4b-4e8c-4e36-97cc-c704b85e77ae
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Provider property, IWDTFDriverPackageAction2.Provider, IWDTFDriverPackageAction2::get_Provider, Microsoft.WDTF.IWDTFDriverPackageAction2.Provider, Microsoft::WDTF::IWDTFDriverPackageAction2::Provider, Provider property [Windows Device Testing Framework], Provider property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_provider, get_Provider,IWDTFDriverPackageAction2.get_Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Provider
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Provider property, IWDTFDriverPackageAction2.Provider, IWDTFDriverPackageAction2.get_Provider, IWDTFDriverPackageAction2::Provider, IWDTFDriverPackageAction2::get_Provider, Microsoft.WDTF.IWDTFDriverPackageAction2.Provider, Microsoft::WDTF::IWDTFDriverPackageAction2::Provider, Provider property [Windows Device Testing Framework], Provider property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_provider, get_Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Provider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverPackageAction2::get_Provider method
+# IWDTFDriverPackageAction2::get_Provider
 
 
 ## -description

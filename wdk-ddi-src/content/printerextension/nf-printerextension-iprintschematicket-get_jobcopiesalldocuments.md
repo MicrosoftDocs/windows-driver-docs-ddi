@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.get_JobCopiesAllDocuments
-title: IPrintSchemaTicket::get_JobCopiesAllDocuments method
+title: IPrintSchemaTicket::get_JobCopiesAllDocuments
 author: windows-driver-content
 description: Gets the copy count.
 old-location: print\iprintschematicket_jobcopiesalldocuments.htm
 old-project: print
 ms.assetid: 592753D2-9121-4935-B966-390B3E7778C7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket::get_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices], IPrintSchemaTicket interface, get_JobCopiesAllDocuments, get_JobCopiesAllDocuments,IPrintSchemaTicket.get_JobCopiesAllDocuments, print.iprintschematicket_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.get_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::get_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, get_JobCopiesAllDocuments, print.iprintschematicket_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::get_JobCopiesAllDocuments method
+# IPrintSchemaTicket::get_JobCopiesAllDocuments
 
 
 ## -description

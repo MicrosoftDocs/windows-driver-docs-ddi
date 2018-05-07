@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS
-req.product: Windows 10 or later.
 ---
 
 # _STOR_LOG_EVENT_DETAILS structure

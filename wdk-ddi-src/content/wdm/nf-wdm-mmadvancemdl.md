@@ -7,7 +7,7 @@ old-location: kernel\mmadvancemdl.htm
 old-project: kernel
 ms.assetid: 93e84c80-d671-4f04-8532-6c374e1ae72b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture], k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, kernel.mmadvancemdl, wdm/MmAdvanceMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmAdvanceMdl function

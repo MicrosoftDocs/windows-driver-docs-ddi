@@ -7,7 +7,7 @@ old-location: debugger\ext_typed_data.htm
 old-project: debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PEXT_TYPED_DATA, EXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, _EXT_TYPED_DATA, debugger.ext_typed_data, wdbgexts/EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
-req.product: Windows 10 or later.
 ---
 
 # _EXT_TYPED_DATA structure

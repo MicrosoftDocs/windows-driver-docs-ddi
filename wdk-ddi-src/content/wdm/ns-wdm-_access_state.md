@@ -7,7 +7,7 @@ old-location: ifsk\access_state.htm
 old-project: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PACCESS_STATE, ACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], PACCESS_STATE, PACCESS_STATE structure pointer [Installable File System Drivers], _ACCESS_STATE, ifsk.access_state, securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, wdm/ACCESS_STATE, wdm/PACCESS_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: ACCESS_STATE, *PACCESS_STATE
-req.product: Windows 10 or later.
 ---
 
 # _ACCESS_STATE structure
@@ -126,14 +125,12 @@ A pointer to a memory block that contains auxiliary data for the access.
 A union that can contain one of the following structures. This union allows three privileges to be embedded in the access state structure. If any more privileges are required during the operation, they will be allocated in the <b>AuxData</b> member extension. This member is currently unused by drivers. 
 
 
-
-#### InitialPrivilegeSet
+### -field Privileges.InitialPrivilegeSet
 
 An <a href="https://msdn.microsoft.com/5775c9e9-e647-4544-97e5-45501052b9a9">INITIAL_PRIVILEGE_SET</a> structure that specifies a set of initial privileges for the access. 
 
 
-
-#### PrivilegeSet
+### -field Privileges.PrivilegeSet
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a> structure that specifies a set of privileges for the access. 
 

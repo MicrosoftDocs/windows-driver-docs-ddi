@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.IsValidTagToSet
-title: IDebugFAEntryTags::IsValidTagToSet method
+title: IDebugFAEntryTags::IsValidTagToSet
 author: windows-driver-content
 description: The IsValidTagToSet method determines whether it is OK to set the data of a specified tag.
 old-location: debugger\idebugfaentrytags_isvalidtagtoset.htm
 old-project: debugger
 ms.assetid: 83B5C54F-182B-4D2F-8ED2-7A0B529F1D2E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IsValidTagToSet method, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging], IDebugFAEntryTags interface, IsValidTagToSet,IDebugFAEntryTags.IsValidTagToSet, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
+ms.date: 4/24/2018
+ms.keywords: IDebugFAEntryTags interface [Windows Debugging],IsValidTagToSet method, IDebugFAEntryTags.IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::IsValidTagToSet method
+# IDebugFAEntryTags::IsValidTagToSet
 
 
 ## -description

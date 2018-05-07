@@ -7,7 +7,7 @@ old-location: hid\mouse_state.htm
 old-project: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PMOUSE_STATE, MOUSE_STATE, MOUSE_STATE enumeration [Human Input Devices], MouseExpectingACK, MouseIdle, MouseResetting, PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], XMovement, YMovement, ZMovement, _MOUSE_STATE, hid.mouse_state, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, ntdd8042/MOUSE_STATE, ntdd8042/MouseExpectingACK, ntdd8042/MouseIdle, ntdd8042/MouseResetting, ntdd8042/PMOUSE_STATE, ntdd8042/XMovement, ntdd8042/YMovement, ntdd8042/ZMovement"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

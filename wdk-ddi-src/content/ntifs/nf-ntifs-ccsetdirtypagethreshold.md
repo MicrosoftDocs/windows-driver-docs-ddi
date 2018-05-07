@@ -7,7 +7,7 @@ old-location: ifsk\ccsetdirtypagethreshold.htm
 old-project: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ifsk.ccsetdirtypagethreshold, ntifs/CcSetDirtyPageThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcSetDirtyPageThreshold function

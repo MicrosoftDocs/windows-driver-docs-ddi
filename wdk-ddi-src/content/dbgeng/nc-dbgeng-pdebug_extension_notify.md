@@ -7,8 +7,8 @@ old-location: debugger\debugextensionnotify.htm
 old-project: debugger
 ms.assetid: 5e877882-00f7-4c46-86e1-debf576ffdb1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
+ms.date: 4/24/2018
+ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, PDEBUG_EXTENSION_NOTIFY callback, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_EXTENSION_NOTIFY callback
+# PDEBUG_EXTENSION_NOTIFY callback function
 
 
 ## -description

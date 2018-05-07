@@ -7,8 +7,8 @@ old-location: kernel\dpwmiquerydatablock.htm
 old-project: kernel
 ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
+ms.date: 4/30/2018
+ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK callback, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WMI_QUERY_DATABLOCK_CALLBACK callback
+# WMI_QUERY_DATABLOCK_CALLBACK callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: hid\hidd_setnuminputbuffers.htm
 old-project: hid
 ms.assetid: da2d2b10-c02a-4786-9658-957271e9ba58
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], hid.hidd_setnuminputbuffers, hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hidsdi/HidD_SetNumInputBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: 
 ---
 
 # HidD_SetNumInputBuffers function

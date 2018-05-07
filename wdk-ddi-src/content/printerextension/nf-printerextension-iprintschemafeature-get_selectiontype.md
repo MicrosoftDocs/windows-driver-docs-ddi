@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectionType
-title: IPrintSchemaFeature::get_SelectionType method
+title: IPrintSchemaFeature::get_SelectionType
 author: windows-driver-content
 description: Gets the selection type of the Feature.
 old-location: print\iprintschemafeature_selectiontype.htm
 old-project: print
 ms.assetid: FFFF05EF-CCD3-4298-A6DC-8FE998C53DEA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], SelectionType property, IPrintSchemaFeature.SelectionType, IPrintSchemaFeature::get_SelectionType, SelectionType property [Print Devices], SelectionType property [Print Devices], IPrintSchemaFeature interface, get_SelectionType, get_SelectionType,IPrintSchemaFeature.get_SelectionType, print.iprintschemafeature_selectiontype, printerextension/IPrintSchemaFeature::SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectionType property, IPrintSchemaFeature.SelectionType, IPrintSchemaFeature.get_SelectionType, IPrintSchemaFeature::SelectionType, IPrintSchemaFeature::get_SelectionType, SelectionType property [Print Devices], SelectionType property [Print Devices],IPrintSchemaFeature interface, get_SelectionType, print.iprintschemafeature_selectiontype, printerextension/IPrintSchemaFeature::SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaFeature::get_SelectionType method
+# IPrintSchemaFeature::get_SelectionType
 
 
 ## -description

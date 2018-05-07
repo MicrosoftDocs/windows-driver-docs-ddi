@@ -7,7 +7,7 @@ old-location: print\drvpopulatefilterservices.htm
 old-project: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # DrvPopulateFilterServices function

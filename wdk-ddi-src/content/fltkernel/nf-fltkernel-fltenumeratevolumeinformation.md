@@ -7,7 +7,7 @@ old-location: ifsk\fltenumeratevolumeinformation.htm
 old-project: ifsk
 ms.assetid: cdec7faa-299c-4a4e-a037-9900bc3cffa1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_2fec9273-857a-4c22-b970-27882f88d58d.xml, FltEnumerateVolumeInformation, FltEnumerateVolumeInformation routine [Installable File System Drivers], fltkernel/FltEnumerateVolumeInformation, ifsk.fltenumeratevolumeinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltEnumerateVolumeInformation function

@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2renderstate.htm
 old-project: display
 ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,12 +63,12 @@ One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer 
 Specifies a D3DRENDERSTATETYPE enumerated type that indicates the render state to be updated. Render states that are requested at the application level are described in the DirectX SDK documentation. Render states that are exclusively used by drivers are described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a>.
 
 
-#### - dvState
+### -field dvState
 
 Specifies the value that the driver should update the render state identified by the <b>RenderState</b> member with. This member is valid when <b>RenderState</b> requires a D3DVALUE. 
 
 
-#### - dwState
+### -field dwState
 
 Specifies the value that the driver should update the render state identified by <b>RenderState</b> to. This member is valid when <b>RenderState</b> requires a DWORD.
 

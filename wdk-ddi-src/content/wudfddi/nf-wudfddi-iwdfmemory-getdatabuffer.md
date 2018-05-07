@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.GetDataBuffer
-title: IWDFMemory::GetDataBuffer method
+title: IWDFMemory::GetDataBuffer
 author: windows-driver-content
 description: The GetDataBuffer method retrieves the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getdatabuffer.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136aa2af-e3bf-48b6-9511-348510eedfb5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDataBuffer method, GetDataBuffer method, IWDFMemory interface, GetDataBuffer,IWDFMemory.GetDataBuffer, IWDFMemory, IWDFMemory interface, GetDataBuffer method, IWDFMemory::GetDataBuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, wdf.iwdfmemory_getdatabuffer, wudfddi/IWDFMemory::GetDataBuffer
+ms.keywords: GetDataBuffer, GetDataBuffer method, GetDataBuffer method,IWDFMemory interface, IWDFMemory interface,GetDataBuffer method, IWDFMemory.GetDataBuffer, IWDFMemory::GetDataBuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, wdf.iwdfmemory_getdatabuffer, wudfddi/IWDFMemory::GetDataBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFMemory::GetDataBuffer method
+# IWDFMemory::GetDataBuffer
 
 
 ## -description

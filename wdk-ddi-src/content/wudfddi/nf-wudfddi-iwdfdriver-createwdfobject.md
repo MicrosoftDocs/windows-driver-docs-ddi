@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.CreateWdfObject
-title: IWDFDriver::CreateWdfObject method
+title: IWDFDriver::CreateWdfObject
 author: windows-driver-content
 description: The CreateWdfObject method creates a custom (or user) WDF object from a parent WDF object.
 old-location: wdf\iwdfdriver_createwdfobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateWdfObject method, CreateWdfObject method, IWDFDriver interface, CreateWdfObject,IWDFDriver.CreateWdfObject, IWDFDriver, IWDFDriver interface, CreateWdfObject method, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject
+ms.keywords: CreateWdfObject, CreateWdfObject method, CreateWdfObject method,IWDFDriver interface, IWDFDriver interface,CreateWdfObject method, IWDFDriver.CreateWdfObject, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDriver::CreateWdfObject method
+# IWDFDriver::CreateWdfObject
 
 
 ## -description

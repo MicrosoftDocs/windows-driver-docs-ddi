@@ -7,8 +7,8 @@ old-location: buses\evt_ucm_connector_set_power_role.htm
 old-project: usbref
 ms.assetid: 56D5A78D-546E-439E-A69E-A87B0A3B288F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
+ms.date: 4/25/2018
+ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EVT_UCM_CONNECTOR_SET_POWER_ROLE callback, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCM_CONNECTOR_SET_POWER_ROLE callback
+# EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function
 
 
 ## -description

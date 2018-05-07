@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
+req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 ---
 
 # _STORAGE_MEDIA_TYPE enumeration

@@ -7,8 +7,8 @@ old-location: display\hwvidqueryinterface.htm
 old-project: display
 ms.assetid: f16a7fa3-3471-4ccb-b1b4-982d33f930d3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
+ms.date: 4/16/2018
+ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, PVIDEO_HW_QUERY_INTERFACE callback, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_HW_QUERY_INTERFACE callback
+# PVIDEO_HW_QUERY_INTERFACE callback function
 
 
 ## -description

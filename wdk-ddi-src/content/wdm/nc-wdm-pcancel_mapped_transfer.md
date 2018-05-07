@@ -7,8 +7,8 @@ old-location: kernel\cancelmappedtransfer.htm
 old-project: kernel
 ms.assetid: 12ED94F4-70A9-4716-91CD-F561F0D4D4EA
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: CancelMappedTransfer, CancelMappedTransfer callback function [Kernel-Mode Driver Architecture], PCANCEL_MAPPED_TRANSFER, kernel.cancelmappedtransfer, wdm/CancelMappedTransfer
+ms.date: 4/30/2018
+ms.keywords: CancelMappedTransfer, CancelMappedTransfer callback function [Kernel-Mode Driver Architecture], PCANCEL_MAPPED_TRANSFER, PCANCEL_MAPPED_TRANSFER callback, kernel.cancelmappedtransfer, wdm/CancelMappedTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCANCEL_MAPPED_TRANSFER callback
+# PCANCEL_MAPPED_TRANSFER callback function
 
 
 ## -description

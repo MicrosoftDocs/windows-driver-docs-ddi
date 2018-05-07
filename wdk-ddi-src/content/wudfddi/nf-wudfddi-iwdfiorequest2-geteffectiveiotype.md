@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetEffectiveIoType
-title: IWDFIoRequest2::GetEffectiveIoType method
+title: IWDFIoRequest2::GetEffectiveIoType
 author: windows-driver-content
 description: The GetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the IWDFIoRequest2 interface represents.
 old-location: wdf\iwdfiorequest2_geteffectiveiotype.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetEffectiveIoType method, GetEffectiveIoType method, IWDFIoRequest2 interface, GetEffectiveIoType,IWDFIoRequest2.GetEffectiveIoType, IWDFIoRequest2, IWDFIoRequest2 interface, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, wdf.iwdfiorequest2_geteffectiveiotype, wudfddi/IWDFIoRequest2::GetEffectiveIoType
+ms.keywords: GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetEffectiveIoType method, IWDFIoRequest2.GetEffectiveIoType, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, wdf.iwdfiorequest2_geteffectiveiotype, wudfddi/IWDFIoRequest2::GetEffectiveIoType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::GetEffectiveIoType method
+# IWDFIoRequest2::GetEffectiveIoType
 
 
 ## -description

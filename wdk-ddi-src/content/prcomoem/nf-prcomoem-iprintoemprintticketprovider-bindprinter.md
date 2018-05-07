@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.BindPrinter
-title: IPrintOemPrintTicketProvider::BindPrinter method
+title: IPrintOemPrintTicketProvider::BindPrinter
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::BindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
 old-location: print\iprintoemprintticketprovider_bindprinter.htm
 old-project: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, B, BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, BindPrinter,IPrintOemPrintTicketProvider.BindPrinter, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, IPrintOemPrintTicketProvider::BindPrinter, O, P, T, c, d, e, i, k, m, n, o, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, r, t, v"
+ms.date: 4/20/2018
+ms.keywords: BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],BindPrinter method, IPrintOemPrintTicketProvider.BindPrinter, IPrintOemPrintTicketProvider::BindPrinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,46 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemPrintTicketProvider.BindPrinter
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPrintTicketProvider::BindPrinter method
+# IPrintOemPrintTicketProvider::BindPrinter
 
 
 ## -description
 
 
 The <code>IPrintOemPrintTicketProvider::BindPrinter</code> method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device. This method also allows the plug-in to cache information (such as the printer handle) that can be used at a later time.
-
-
-## -syntax
-
-
-````
-HRESULT BindPrinter(
-  [in]  HANDLE     hPrinter,
-  [in]  INT        version,
-  [out] POEMPTOPTS pOptions,
-  [out] INT        *cNamespaces,
-  [out] BSTR       **ppNamespaces
-);
-````
 
 
 ## -parameters
@@ -168,15 +153,14 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553170">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
 
 
 
@@ -184,6 +168,7 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553170">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
  
 
  

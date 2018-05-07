@@ -7,7 +7,7 @@ old-location: ifsk\rxforcefinalizeallvnetroots.htm
 old-project: ifsk
 ms.assetid: 39b64fc0-70e6-4bca-ac45-817b27681487
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxForceFinalizeAllVNetRoots, RxForceFinalizeAllVNetRoots function [Installable File System Drivers], ifsk.rxforcefinalizeallvnetroots, rxprocs/RxForceFinalizeAllVNetRoots, rxref_4202642f-d7a8-4649-8395-4f2e423ca062.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxForceFinalizeAllVNetRoots function

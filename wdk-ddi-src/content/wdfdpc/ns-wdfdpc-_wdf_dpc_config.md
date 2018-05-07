@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DPC_CONFIG structure

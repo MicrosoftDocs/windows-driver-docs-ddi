@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.GetSymbolParameters
-title: IDebugSymbolGroup::GetSymbolParameters method
+title: IDebugSymbolGroup::GetSymbolParameters
 author: windows-driver-content
 description: The GetSymbolParameters method returns the symbol parameters that describe the specified symbols in a symbol group.
 old-location: debugger\getsymbolparameters.htm
 old-project: debugger
 ms.assetid: e6390a7c-bbe1-47d7-9411-d710c4ab58a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolParameters,IDebugSymbolGroup.GetSymbolParameters, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup::GetSymbolParameters, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, debugger.getsymbolparameters
+ms.date: 4/24/2018
+ms.keywords: ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters, GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging],IDebugSymbolGroup interface, GetSymbolParameters method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetSymbolParameters method, IDebugSymbolGroup.GetSymbolParameters, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolParameters method, IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup::GetSymbolParameters, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, debugger.getsymbolparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup::GetSymbolParameters method
+# IDebugSymbolGroup::GetSymbolParameters
 
 
 ## -description

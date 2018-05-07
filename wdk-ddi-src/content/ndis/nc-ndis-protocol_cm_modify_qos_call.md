@@ -7,8 +7,8 @@ old-location: netvista\protocolcmmodifycallqos.htm
 old-project: netvista
 ms.assetid: 24523677-9f5a-4109-8484-95883a4d1bbf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CM_MODIFY_QOS_CALL, ProtocolCmModifyCallQoS, ProtocolCmModifyCallQoS callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_208d4e81-1f4f-46e9-9b78-7724504b68bc.xml, ndis/ProtocolCmModifyCallQoS, netvista.protocolcmmodifycallqos
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_MODIFY_QOS_CALL, PROTOCOL_CM_MODIFY_QOS_CALL callback, ProtocolCmModifyCallQoS, ProtocolCmModifyCallQoS callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_208d4e81-1f4f-46e9-9b78-7724504b68bc.xml, ndis/ProtocolCmModifyCallQoS, netvista.protocolcmmodifycallqos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_MODIFY_QOS_CALL callback
+# PROTOCOL_CM_MODIFY_QOS_CALL callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\DereferenceSwitchNic.htm
 old-project: netvista
 ms.assetid: 58C72F81-07B9-45FE-A8BA-0405DBE4CA20
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, ndis/DereferenceSwitchNic, netvista.DereferenceSwitchNic
+ms.date: 4/25/2018
+ms.keywords: DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback, ndis/DereferenceSwitchNic, netvista.DereferenceSwitchNic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback
+# NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback function
 
 
 ## -description

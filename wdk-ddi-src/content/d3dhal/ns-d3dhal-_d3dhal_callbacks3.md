@@ -7,7 +7,7 @@ old-location: display\d3dhal_callbacks3.htm
 old-project: display
 ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], _D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, display.d3dhal_callbacks3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3
+req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3
 ---
 
 # _D3DHAL_CALLBACKS3 structure

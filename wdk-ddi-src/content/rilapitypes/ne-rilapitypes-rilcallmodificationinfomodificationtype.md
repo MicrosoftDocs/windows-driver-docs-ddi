@@ -7,7 +7,7 @@ old-location: netvista\rilcallmodificationinfomodificationtype.htm
 old-project: netvista
 ms.assetid: 37b18047-7818-4e57-b25a-3c958106e215
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMODIFICATIONTYPE_BLOCKED, RIL_CALLMODIFICATIONTYPE_MAX, RIL_CALLMODIFICATIONTYPE_MODIFIED, netvista.rilcallmodificationinfomodificationtype, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILCALLMODIFICATIONINFOMODIFICATIONTYPE
-req.product: Windows 10 or later.
 ---
 
 # RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration

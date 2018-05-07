@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorMode
-title: IKsAllocator::KsGetAllocatorMode method
+title: IKsAllocator::KsGetAllocatorMode
 author: windows-driver-content
 description: Returns the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_ksgetallocatormode.htm
 old-project: stream
 ms.assetid: 47B51B6F-555A-4A1E-AA25-7E94DC0060CC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], KsGetAllocatorMode method, IKsAllocator::KsGetAllocatorMode, KsGetAllocatorMode method [Streaming Media Devices], KsGetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorMode,IKsAllocator.KsGetAllocatorMode, ksproxy/IKsAllocator::KsGetAllocatorMode, stream.iksallocator_ksgetallocatormode
+ms.date: 4/23/2018
+ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorMode method, IKsAllocator.KsGetAllocatorMode, IKsAllocator::KsGetAllocatorMode, KsGetAllocatorMode, KsGetAllocatorMode method [Streaming Media Devices], KsGetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorMode, stream.iksallocator_ksgetallocatormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocator::KsGetAllocatorMode method
+# IKsAllocator::KsGetAllocatorMode
 
 
 ## -description

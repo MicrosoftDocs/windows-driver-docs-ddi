@@ -7,7 +7,7 @@ old-location: stream\ks_datarange_image.htm
 old-project: stream
 ms.assetid: 81ad341a-5f68-43aa-98ea-193780a7c5b2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE structure [Streaming Media Devices], PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_IMAGE, ksmedia/PKS_DATARANGE_IMAGE, stream.ks_datarange_image, tagKS_DATARANGE_IMAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

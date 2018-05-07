@@ -7,7 +7,7 @@ old-location: kernel\iowmiregistrationcontrol.htm
 old-project: kernel
 ms.assetid: fe135118-1992-43c7-8492-81f9febd79b9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMIRegistrationControl, IoWMIRegistrationControl routine [Kernel-Mode Driver Architecture], k104_69efd10b-fb1a-4d66-939d-6ade4185605d.xml, kernel.iowmiregistrationcontrol, wdm/IoWMIRegistrationControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoWMIRegistrationControl function

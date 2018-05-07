@@ -199,32 +199,27 @@ The size, in LBAs, of the non-volatile on the hybrid disk.
 The hybrid disk attributes.
 
 
-
-#### WriteCacheChangeable
+### -field Attributes.WriteCacheChangeable
 
 Support for changes in write caching policy. The value is 1 policy changes are allowed. Otherwise, changes are ignored.
 
 
-
-#### WriteThroughIoSupported
+### -field Attributes.WriteThroughIoSupported
 
 Support for individual write operations when write-through caching is used. The value is 1 if individual writes are supported. Otherwise, the values is 0.
 
 
-
-#### FlushCacheSupported
+### -field Attributes.FlushCacheSupported
 
 Support for non-volatile cache flush. The value is 1 if flushes are supported. Otherwise, the value is 0.
 
 
-
-#### Removable
+### -field Attributes.Removable
 
 Support of removal of the non-volatile cache from the disk. The value is 1 if the cache is removable. Otherwise, the value is 0.
 
 
-
-#### ReservedBits
+### -field Attributes.ReservedBits
 
 Reserved.
 
@@ -234,34 +229,34 @@ Reserved.
 Priority settings for the hybrid disk.
 
 
-
-#### PriorityLevelCount
+### -field Priorities.PriorityLevelCount
 
 The number of priority levels supported by the cache. Currently, a non-zero value indicates support for all priorities.
 
 
-
-#### MaxPriorityBehavior
+### -field Priorities.MaxPriorityBehavior
 
 If <b>TRUE</b>, the disk I/O can fail at maximum priority if the cache is full.  Otherwise, if <b>FALSE</b>, the operation will complete to disk.
 
 
+### -field Priorities.OptimalWriteGranularity
 
-#### DirtyThresholdLow
+ 
+
+
+### -field Priorities.Reserved
+
+ 
+
+
+### -field Priorities.DirtyThresholdLow
 
 The low threshold for a cache flush. This value is ratio in the range of <b>FractionBase</b>.
 
 
-
-#### DirtyThresholdHigh
+### -field Priorities.DirtyThresholdHigh
 
 The low threshold for a cache flush. This value is ratio in the range of <b>FractionBase</b>.
-
-
-
-#### Priority
-
-An array of priority level descriptors. The number of descriptors present in the array is set in <b>PriorityLevelCount</b>.
 
 
 ### -field Priorities.SupportedCommands
@@ -312,6 +307,11 @@ The maximum number of LBA ranges possible to associate with an Evict command. Th
 ### -field Priorities.SupportedCommands.MaxLbaRangeCountForChangeLba
 
 The maximum number of LBA ranges possible to associate with a Priority Change command. This value is valid when <b>PriorityChangeByLbaRange</b> is set to 1.
+
+
+### -field Priorities.Priority
+
+An array of priority level descriptors. The number of descriptors present in the array is set in <b>PriorityLevelCount</b>.
 
 
 ## -see-also

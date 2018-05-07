@@ -7,8 +7,8 @@ old-location: audio\ioctl_usbsbaud_get_supported_formats.htm
 old-project: audio
 ms.assetid: 2BB7F955-D067-44B8-BFCF-B2DCAD03B88E
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS, IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS control code [Audio Devices], audio.ioctl_usbsbaud_get_supported_formats, usbsidebandaudio/IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS
+ms.date: 4/16/2018
+ms.keywords: IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS, IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS control, IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS control code [Audio Devices], audio.ioctl_usbsbaud_get_supported_formats, usbsidebandaudio/IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBSBAUD_GET_SUPPORTED_FORMATS IOCTL

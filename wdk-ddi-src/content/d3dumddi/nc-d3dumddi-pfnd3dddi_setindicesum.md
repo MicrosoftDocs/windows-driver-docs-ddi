@@ -7,8 +7,8 @@ old-location: display\setindicesum.htm
 old-project: display
 ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SETINDICESUM, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM callback, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETINDICESUM callback
+# PFND3DDDI_SETINDICESUM callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\video_win32k_callbacks.htm
 old-project: display
 ms.assetid: dec6c610-811c-40cb-a099-1a35b91d2ee8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS structure pointer [Display Devices], VIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS structure [Display Devices], Video_Structs_3c169102-2431-4217-b9e2-80ef23ee8096.xml, _VIDEO_WIN32K_CALLBACKS, display.video_win32k_callbacks, ntddvdeo/PVIDEO_WIN32K_CALLBACKS, ntddvdeo/VIDEO_WIN32K_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

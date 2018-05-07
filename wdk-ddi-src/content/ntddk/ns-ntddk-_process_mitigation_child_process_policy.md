@@ -7,7 +7,7 @@ old-location: kernel\process_mitigation_child_process_policy.htm
 old-project: kernel
 ms.assetid: 8f388c0e-41ee-40e4-b633-687eeff74a0a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_CHILD_PROCESS_POLICY, kernel.process_mitigation_child_process_policy, ntddk/PROCESS_MITIGATION_CHILD_PROCESS_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -59,6 +59,11 @@ Stores policy information about creating child processes.
 
 
 ### -field DUMMYUNIONNAME
+
+
+### -field DUMMYUNIONNAME.Flags
+
+ 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME

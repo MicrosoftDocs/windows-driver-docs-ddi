@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_present_flags.htm
 old-project: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in DXGI_DDI_PRESENT_FLAGS that can hold one 32-bit value that identifies how to perform a present operation.
 

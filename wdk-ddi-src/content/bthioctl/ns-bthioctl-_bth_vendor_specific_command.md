@@ -7,7 +7,7 @@ old-location: bltooth\bth_vendor_specific_command.htm
 old-project: bltooth
 ms.assetid: c37844d9-206a-4060-8b46-9afe691fe8f9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], _BTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

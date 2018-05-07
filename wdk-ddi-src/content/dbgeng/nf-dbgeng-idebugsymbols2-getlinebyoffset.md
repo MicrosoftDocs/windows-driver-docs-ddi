@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetLineByOffset
-title: IDebugSymbols2::GetLineByOffset method
+title: IDebugSymbols2::GetLineByOffset
 author: windows-driver-content
 description: The GetLineByOffset method returns the source filename and the line number within the source file of an instruction in the target.
 old-location: debugger\getlinebyoffset.htm
 old-project: debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetLineByOffset method [Windows Debugging], GetLineByOffset method [Windows Debugging], IDebugSymbols interface, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffset,IDebugSymbols2.GetLineByOffset, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2::GetLineByOffset, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3::GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, dbgeng/IDebugSymbols::GetLineByOffset, debugger.getlinebyoffset
+ms.date: 4/24/2018
+ms.keywords: GetLineByOffset, GetLineByOffset method [Windows Debugging], GetLineByOffset method [Windows Debugging],IDebugSymbols interface, GetLineByOffset method [Windows Debugging],IDebugSymbols2 interface, GetLineByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetLineByOffset method, IDebugSymbols2 interface [Windows Debugging],GetLineByOffset method, IDebugSymbols2.GetLineByOffset, IDebugSymbols2::GetLineByOffset, IDebugSymbols3 interface [Windows Debugging],GetLineByOffset method, IDebugSymbols3::GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, dbgeng/IDebugSymbols::GetLineByOffset, debugger.getlinebyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetLineByOffset method
+# IDebugSymbols2::GetLineByOffset
 
 
 ## -description

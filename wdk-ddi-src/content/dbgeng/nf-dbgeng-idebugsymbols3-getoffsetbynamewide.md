@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByNameWide
-title: IDebugSymbols3::GetOffsetByNameWide method
+title: IDebugSymbols3::GetOffsetByNameWide
 author: windows-driver-content
 description: The GetOffsetByNameWide method returns the location of a symbol identified by name.
 old-location: debugger\getoffsetbynamewide.htm
 old-project: debugger
 ms.assetid: 576193fc-756f-40fb-abdd-65c088687cb5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByNameWide,IDebugSymbols3.GetOffsetByNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, IDebugSymbols3::GetOffsetByNameWide, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide
+ms.date: 4/24/2018
+ms.keywords: GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByNameWide method, IDebugSymbols3.GetOffsetByNameWide, IDebugSymbols3::GetOffsetByNameWide, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetOffsetByNameWide method
+# IDebugSymbols3::GetOffsetByNameWide
 
 
 ## -description

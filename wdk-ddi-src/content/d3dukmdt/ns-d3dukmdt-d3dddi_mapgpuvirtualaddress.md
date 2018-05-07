@@ -7,7 +7,7 @@ old-location: display\d3dddi_mapgpuvirtualaddress.htm
 old-project: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: audio\pfndrmgetcontentrights.htm
 old-project: audio
 ms.assetid: 1230C71C-9C1A-4F1F-8AA7-C814249675B5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], PFNDRMGETCONTENTRIGHTS, audio.pfndrmgetcontentrights, drmk/DRMGetContentRights
+ms.date: 4/16/2018
+ms.keywords: DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], PFNDRMGETCONTENTRIGHTS, PFNDRMGETCONTENTRIGHTS callback, audio.pfndrmgetcontentrights, drmk/DRMGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: 
 ---
 
-# PFNDRMGETCONTENTRIGHTS callback
+# PFNDRMGETCONTENTRIGHTS callback function
 
 
 ## -description

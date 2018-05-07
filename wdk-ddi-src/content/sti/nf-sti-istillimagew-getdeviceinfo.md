@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceInfo
-title: IStillImageW::GetDeviceInfo method
+title: IStillImageW::GetDeviceInfo
 author: windows-driver-content
 description: The IStillImage::GetDeviceInfo method returns hardware characteristics for a specified still image device.
 old-location: image\istillimage_getdeviceinfo.htm
 old-project: image
 ms.assetid: 4f3e1dcd-1885-4b9f-b033-19d91178d8ab
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices], IStillImageW interface, GetDeviceInfo,IStillImageW.GetDeviceInfo, IStillImageW, IStillImageW interface [Imaging Devices], GetDeviceInfo method, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
+ms.date: 4/23/2018
+ms.keywords: GetDeviceInfo, GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceInfo method, IStillImageW.GetDeviceInfo, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::GetDeviceInfo method
+# IStillImageW::GetDeviceInfo
 
 
 ## -description

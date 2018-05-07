@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 old-project: usbref
 ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback
+# EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function
 
 
 ## -description

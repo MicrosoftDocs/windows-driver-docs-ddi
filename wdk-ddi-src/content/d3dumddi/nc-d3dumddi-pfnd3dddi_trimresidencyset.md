@@ -7,8 +7,8 @@ old-location: display\pfntrimresidencyset.htm
 old-project: display
 ms.assetid: 192F419C-F38F-4B42-8111-86D58D6781DA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_TRIMRESIDENCYSET, d3dukmdt/pfnTrimResidencySet, display.pfntrimresidencyset, pfnTrimResidencySet, pfnTrimResidencySet callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_TRIMRESIDENCYSET, PFND3DDDI_TRIMRESIDENCYSET callback, d3dukmdt/pfnTrimResidencySet, display.pfntrimresidencyset, pfnTrimResidencySet, pfnTrimResidencySet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_TRIMRESIDENCYSET callback
+# PFND3DDDI_TRIMRESIDENCYSET callback function
 
 
 ## -description

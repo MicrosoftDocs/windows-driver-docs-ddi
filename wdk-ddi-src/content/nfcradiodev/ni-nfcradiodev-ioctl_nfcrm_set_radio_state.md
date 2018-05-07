@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: C54C774A-3FBB-4850-BBB2-2B330CC64A8D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCRM_SET_RADIO_STATE, IOCTL_NFCRM_SET_RADIO_STATE control code [Near-Field Proximity Drivers], _IOCTL_NFCRM_SET_RADIO_STATE, nfcradiodev/IOCTL_NFCRM_SET_RADIO_STATE, nfpdrivers.ioctl_nfcrm_set_radio_state
+ms.keywords: IOCTL_NFCRM_SET_RADIO_STATE, IOCTL_NFCRM_SET_RADIO_STATE control, IOCTL_NFCRM_SET_RADIO_STATE control code [Near-Field Proximity Drivers], _IOCTL_NFCRM_SET_RADIO_STATE, nfcradiodev/IOCTL_NFCRM_SET_RADIO_STATE, nfpdrivers.ioctl_nfcrm_set_radio_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
+req.typenames: 
 ---
 
 # IOCTL_NFCRM_SET_RADIO_STATE IOCTL

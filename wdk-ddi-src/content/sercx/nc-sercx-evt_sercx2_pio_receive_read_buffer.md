@@ -7,8 +7,8 @@ old-location: serports\evtsercx2pioreceivereadbuffer.htm
 old-project: serports
 ms.assetid: B69A128A-B1B0-47BC-9783-32780FC9C447
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback
+# EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback function
 
 
 ## -description

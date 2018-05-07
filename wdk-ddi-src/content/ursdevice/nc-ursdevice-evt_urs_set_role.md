@@ -7,8 +7,8 @@ old-location: buses\evt_urs_set_role.htm
 old-project: usbref
 ms.assetid: 287B674F-9692-47FA-AB92-F101270F7FC4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_URS_SET_ROLE, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
+ms.date: 4/25/2018
+ms.keywords: EVT_URS_SET_ROLE, EVT_URS_SET_ROLE callback, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_URS_SET_ROLE callback
+# EVT_URS_SET_ROLE callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\wdi_operation_mode.htm
 old-project: netvista
 ms.assetid: 9838eeb9-6bd6-46a5-9361-6af3aa2d3014
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_OPERATION_MODE, WDI_OPERATION_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_OPERATION_MODE_P2P_CLIENT, WDI_OPERATION_MODE_P2P_DEVICE, WDI_OPERATION_MODE_P2P_GO, WDI_OPERATION_MODE_STA, _WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE_P2P_CLIENT, dot11wdi/WDI_OPERATION_MODE_P2P_DEVICE, dot11wdi/WDI_OPERATION_MODE_P2P_GO, dot11wdi/WDI_OPERATION_MODE_STA, netvista.wdi_operation_mode, netvista.wifi_operation_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

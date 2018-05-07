@@ -7,7 +7,7 @@ old-location: netvista\rilwritemsgparams.htm
 old-project: netvista
 ms.assetid: d66d63cd-ec34-4749-9ed9-38ee6d962ea5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritemsgparams, ntddrilapitypes/RILWRITEMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILWRITEMSGPARAMS structure

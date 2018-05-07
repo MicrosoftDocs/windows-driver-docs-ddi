@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY
-req.product: Windows 10 or later.
 ---
 
 # _STOR_LIST_ENTRY structure

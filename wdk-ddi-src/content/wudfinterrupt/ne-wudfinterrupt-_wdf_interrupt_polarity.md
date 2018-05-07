@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_POLARITY enumeration

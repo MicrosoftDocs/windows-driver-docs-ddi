@@ -7,7 +7,7 @@ old-location: display\d3dkmt_opensyncobjectnthandlefromname.htm
 old-project: display
 ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices

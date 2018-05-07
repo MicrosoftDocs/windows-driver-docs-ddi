@@ -7,8 +7,8 @@ old-location: display\decryptionblt1.htm
 old-project: display
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3D11_1DDI_DECRYPTIONBLT, d3d10umddi/DecryptionBlt, display.decryptionblt1
+ms.date: 4/16/2018
+ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3D11_1DDI_DECRYPTIONBLT, PFND3D11_1DDI_DECRYPTIONBLT callback, d3d10umddi/DecryptionBlt, display.decryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_DECRYPTIONBLT callback
+# PFND3D11_1DDI_DECRYPTIONBLT callback function
 
 
 ## -description

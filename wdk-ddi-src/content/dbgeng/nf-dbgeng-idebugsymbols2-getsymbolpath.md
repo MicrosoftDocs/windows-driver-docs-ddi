@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSymbolPath
-title: IDebugSymbols2::GetSymbolPath method
+title: IDebugSymbols2::GetSymbolPath
 author: windows-driver-content
 description: The GetSymbolPath method returns the symbol path.
 old-location: debugger\getsymbolpath.htm
 old-project: debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging], IDebugSymbols interface, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPath,IDebugSymbols2.GetSymbolPath, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, debugger.getsymbolpath
+ms.date: 4/24/2018
+ms.keywords: GetSymbolPath, GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging],IDebugSymbols interface, GetSymbolPath method [Windows Debugging],IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolPath method, IDebugSymbols2 interface [Windows Debugging],GetSymbolPath method, IDebugSymbols2.GetSymbolPath, IDebugSymbols2::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging],GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, debugger.getsymbolpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetSymbolPath method
+# IDebugSymbols2::GetSymbolPath
 
 
 ## -description

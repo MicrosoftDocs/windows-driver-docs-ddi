@@ -7,7 +7,7 @@ old-location: netvista\ndiscanceldirectoidrequest.htm
 old-project: netvista
 ms.assetid: bfccd901-9ce7-4873-ba9a-0e4718fd7d19
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCancelDirectOidRequest, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, netvista.ndiscanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCancelDirectOidRequest function

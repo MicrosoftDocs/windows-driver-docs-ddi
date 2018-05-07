@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactoryaddcreateitem.htm
 old-project: stream
 ms.assetid: c09840fb-8195-4ac5-a164-ba4d82615344
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterFactoryAddCreateItem, KsFilterFactoryAddCreateItem function [Streaming Media Devices], avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, ks/KsFilterFactoryAddCreateItem, stream.ksfilterfactoryaddcreateitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

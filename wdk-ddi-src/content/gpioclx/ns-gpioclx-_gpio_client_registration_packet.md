@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -153,6 +153,26 @@ A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/li
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a> event callback function.
 
 
+### -field CLIENT_ReadGpioPins
+
+A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a> event callback function.
+
+
+### -field CLIENT_ReadGpioPinsUsingMask
+
+A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a> event callback function.
+
+
+### -field CLIENT_WriteGpioPins
+
+A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a> event callback function.
+
+
+### -field CLIENT_WriteGpioPinsUsingMask
+
+A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a> event callback function.
+
+
 ### -field CLIENT_SaveBankHardwareContext
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a> event callback function.
@@ -193,26 +213,6 @@ A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/li
  
 
 
-
-
-#### - CLIENT_ReadGpioPins
-
-A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a> event callback function.
-
-
-#### - CLIENT_ReadGpioPinsUsingMask
-
-A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a> event callback function.
-
-
-#### - CLIENT_WriteGpioPins
-
-A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a> event callback function.
-
-
-#### - CLIENT_WriteGpioPinsUsingMask
-
-A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a> event callback function.
 
 
 ## -remarks

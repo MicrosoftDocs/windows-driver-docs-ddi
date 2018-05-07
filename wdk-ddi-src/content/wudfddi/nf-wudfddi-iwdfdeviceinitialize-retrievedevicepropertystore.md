@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.RetrieveDevicePropertyStore
-title: IWDFDeviceInitialize::RetrieveDevicePropertyStore method
+title: IWDFDeviceInitialize::RetrieveDevicePropertyStore
 author: windows-driver-content
 description: The RetrieveDevicePropertyStore method retrieves a device property store that clients can read and write device properties through.
 old-location: wdf\iwdfdeviceinitialize_retrievedevicepropertystore.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore,IWDFDeviceInitialize.RetrieveDevicePropertyStore, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore
+ms.keywords: IWDFDeviceInitialize interface,RetrieveDevicePropertyStore method, IWDFDeviceInitialize.RetrieveDevicePropertyStore, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDeviceInitialize::RetrieveDevicePropertyStore method
+# IWDFDeviceInitialize::RetrieveDevicePropertyStore
 
 
 ## -description

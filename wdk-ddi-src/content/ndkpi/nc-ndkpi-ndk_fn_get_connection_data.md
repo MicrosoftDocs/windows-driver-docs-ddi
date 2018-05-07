@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_connection_data.htm
 old-project: netvista
 ms.assetid: A6099DCB-7F10-4BDB-B463-422C2B7A2B3F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_GET_CONNECTION_DATA, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_CONNECTION_DATA, NDK_FN_GET_CONNECTION_DATA callback, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_CONNECTION_DATA callback
+# NDK_FN_GET_CONNECTION_DATA callback function
 
 
 ## -description

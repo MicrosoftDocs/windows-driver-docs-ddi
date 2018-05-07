@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFAction2.DisableObjectLogging
-title: IWDTFAction2::DisableObjectLogging method
+title: IWDTFAction2::DisableObjectLogging
 author: windows-driver-content
 description: Disables object logging for the action.
 old-location: dtf\iwdtfaction2_disableobjectlogging.htm
 old-project: dtf
 ms.assetid: acc456b1-bf88-4c30-9221-3dd8e204b390
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DisableObjectLogging method [Windows Device Testing Framework], DisableObjectLogging method [Windows Device Testing Framework], IWDTFAction2 interface, DisableObjectLogging,IWDTFAction2.DisableObjectLogging, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], DisableObjectLogging method, IWDTFAction2::DisableObjectLogging, Microsoft.WDTF.IWDTFAction2.DisableObjectLogging, Microsoft::WDTF::IWDTFAction2::DisableObjectLogging, dtf.iwdtfaction2_disableobjectlogging, wdtf/IWDTFAction2::DisableObjectLogging
+ms.date: 4/4/2018
+ms.keywords: DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], DisableObjectLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],DisableObjectLogging method, IWDTFAction2.DisableObjectLogging, IWDTFAction2::DisableObjectLogging, Microsoft.WDTF.IWDTFAction2.DisableObjectLogging, Microsoft::WDTF::IWDTFAction2::DisableObjectLogging, dtf.iwdtfaction2_disableobjectlogging, wdtf/IWDTFAction2::DisableObjectLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFAction2::DisableObjectLogging method
+# IWDTFAction2::DisableObjectLogging
 
 
 ## -description

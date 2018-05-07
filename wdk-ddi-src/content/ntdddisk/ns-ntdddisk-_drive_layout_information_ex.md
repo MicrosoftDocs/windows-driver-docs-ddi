@@ -73,19 +73,19 @@ Indicates the number of partitions detected on the disk.
  
 
 
-### -field PartitionEntry
+### -field DUMMYUNIONNAME.Mbr
 
-Contains a variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structures, one for each partition on the drive. 
+Indicates the drive layout information for a disk with a Master Boot Record. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR.  See the definition of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552668">DRIVE_LAYOUT_INFORMATION_MBR</a> for more information.
 
 
-#### - Gpt
+### -field DUMMYUNIONNAME.Gpt
 
 Indicates the drive layout information for a disk with a GUID Partition Table. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. See definition of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552664">DRIVE_LAYOUT_INFORMATION_GPT</a> for more information. 
 
 
-#### - Mbr
+### -field PartitionEntry
 
-Indicates the drive layout information for a disk with a Master Boot Record. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR.  See the definition of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552668">DRIVE_LAYOUT_INFORMATION_MBR</a> for more information.
+Contains a variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structures, one for each partition on the drive. 
 
 
 ## -remarks

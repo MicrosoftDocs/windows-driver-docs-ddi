@@ -43,7 +43,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_EVENT_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_EVENT_TYPE enumeration

@@ -7,8 +7,8 @@ old-location: display\recyclecommandlist.htm
 old-project: display
 ms.assetid: 4cff7f3d-ba13-4389-bafc-edffc0697ce9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11DDI_RECYCLECOMMANDLIST, RecycleCommandList, RecycleCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a917a4c2-4226-46e8-a696-8c51b2960bda.xml, d3d10umddi/RecycleCommandList, display.recyclecommandlist
+ms.date: 4/16/2018
+ms.keywords: PFND3D11DDI_RECYCLECOMMANDLIST, PFND3D11DDI_RECYCLECOMMANDLIST callback, RecycleCommandList, RecycleCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a917a4c2-4226-46e8-a696-8c51b2960bda.xml, d3d10umddi/RecycleCommandList, display.recyclecommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_RECYCLECOMMANDLIST callback
+# PFND3D11DDI_RECYCLECOMMANDLIST callback function
 
 
 ## -description

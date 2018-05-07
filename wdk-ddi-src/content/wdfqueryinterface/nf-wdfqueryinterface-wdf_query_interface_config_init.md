@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_QUERY_INTERFACE_CONFIG_INIT function

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_target_mode.htm
 old-project: display
 ms.assetid: 9a20e955-7ef1-4cb7-8081-42fb69b55fb6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, _D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,6 +66,11 @@ An integer that identifies the target mode. The identifier is generated and fill
 ### -field VideoSignalInfo
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546625">D3DKMDT_VIDEO_SIGNAL_INFO</a> structure that contains information about the target mode (for example, video standard, resolution, refresh rate).
+
+
+### -field WireFormatAndPreference
+
+ 
 
 
 ### -field Preference

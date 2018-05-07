@@ -7,8 +7,8 @@ old-location: hid\hidp_getcaps.htm
 old-project: hid
 ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
+ms.date: 4/30/2018
+ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
-# PHIDP_GETCAPS callback
+# PHIDP_GETCAPS callback function
 
 
 ## -description

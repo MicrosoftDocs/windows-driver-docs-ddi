@@ -7,7 +7,7 @@ old-location: audio\pccompletependingpropertyrequest.htm
 old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, portcls/PcCompletePendingPropertyRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcCompletePendingPropertyRequest function

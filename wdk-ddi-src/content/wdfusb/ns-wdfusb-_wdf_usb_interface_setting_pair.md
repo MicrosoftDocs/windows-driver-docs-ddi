@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_INTERFACE_SETTING_PAIR structure

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.GetImplementedMethod
-title: IPrintOemUni::GetImplementedMethod method
+title: IPrintOemUni::GetImplementedMethod
 author: windows-driver-content
 description: The IPrintOemUni::GetImplementedMethod method is used by Unidrv to determine which IPrintOemUni interface methods a rendering plug-in has implemented.
 old-location: print\iprintoemuni_getimplementedmethod.htm
 old-project: print
 ms.assetid: bc2a00ea-214a-435a-86fa-d694188d0245
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices], IPrintOemUni interface, GetImplementedMethod,IPrintOemUni.GetImplementedMethod, IPrintOemUni, IPrintOemUni interface [Print Devices], GetImplementedMethod method, IPrintOemUni::GetImplementedMethod, prcomoem/IPrintOemUni::GetImplementedMethod, print.iprintoemuni_getimplementedmethod, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml
+ms.date: 4/20/2018
+ms.keywords: GetImplementedMethod, GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],GetImplementedMethod method, IPrintOemUni.GetImplementedMethod, IPrintOemUni::GetImplementedMethod, prcomoem/IPrintOemUni::GetImplementedMethod, print.iprintoemuni_getimplementedmethod, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::GetImplementedMethod method
+# IPrintOemUni::GetImplementedMethod
 
 
 ## -description

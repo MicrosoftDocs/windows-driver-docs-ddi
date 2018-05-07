@@ -7,7 +7,7 @@ old-location: netvista\wwan_register_state.htm
 old-project: netvista
 ms.assetid: fba4e60e-c247-4466-9b0f-c8e7ffa594d2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_STATE, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateDenied, WwanRegisterStateDeregistered, WwanRegisterStateHome, WwanRegisterStateMax, WwanRegisterStatePartner, WwanRegisterStateRoaming, WwanRegisterStateSearching, WwanRegisterStateUnknown, _WWAN_REGISTER_STATE, netvista.wwan_register_state, wwan/PWWAN_REGISTER_STATE, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateDenied, wwan/WwanRegisterStateDeregistered, wwan/WwanRegisterStateHome, wwan/WwanRegisterStateMax, wwan/WwanRegisterStatePartner, wwan/WwanRegisterStateRoaming, wwan/WwanRegisterStateSearching, wwan/WwanRegisterStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_REGISTER_STATE, *PWWAN_REGISTER_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_REGISTER_STATE enumeration

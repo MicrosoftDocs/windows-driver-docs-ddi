@@ -7,7 +7,7 @@ old-location: netvista\ndismwritelogdata.htm
 old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, ndis/NdisMWriteLogData, netvista.ndismwritelogdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMWriteLogData function

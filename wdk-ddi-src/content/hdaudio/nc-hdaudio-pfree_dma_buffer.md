@@ -7,8 +7,8 @@ old-location: audio\freedmabuffer.htm
 old-project: audio
 ms.assetid: 658e32d2-40e2-4479-8212-df7140fe6b74
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: FreeDmaBuffer, FreeDmaBuffer callback function [Audio Devices], PFREE_DMA_BUFFER, aud-prop2_22e95124-bf77-40d9-9ad7-4edc394818df.xml, audio.freedmabuffer, hdaudio/FreeDmaBuffer
+ms.date: 4/16/2018
+ms.keywords: FreeDmaBuffer, FreeDmaBuffer callback function [Audio Devices], PFREE_DMA_BUFFER, PFREE_DMA_BUFFER callback, aud-prop2_22e95124-bf77-40d9-9ad7-4edc394818df.xml, audio.freedmabuffer, hdaudio/FreeDmaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PFREE_DMA_BUFFER callback
+# PFREE_DMA_BUFFER callback function
 
 
 ## -description

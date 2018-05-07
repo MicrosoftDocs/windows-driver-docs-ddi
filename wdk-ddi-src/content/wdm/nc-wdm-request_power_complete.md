@@ -7,7 +7,7 @@ old-location: kernel\powercompletion.htm
 old-project: kernel
 ms.assetid: 2272790e-324a-4bd4-86ed-b76305a2940b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# REQUEST_POWER_COMPLETE callback
+# REQUEST_POWER_COMPLETE callback function
 
 
 ## -description

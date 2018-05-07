@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.GetGlobalAttribute
-title: IPrintCorePS2::GetGlobalAttribute method
+title: IPrintCorePS2::GetGlobalAttribute
 author: windows-driver-content
 description: The IPrintCorePS2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcoreps2_getglobalattribute.htm
 old-project: print
 ms.assetid: a834cc10-eb59-4560-add3-e93f8292324b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices], IPrintCorePS2 interface, GetGlobalAttribute,IPrintCorePS2.GetGlobalAttribute, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetGlobalAttribute method, IPrintCorePS2::GetGlobalAttribute, prcomoem/IPrintCorePS2::GetGlobalAttribute, print.iprintcoreps2_getglobalattribute, print_unidrv-pscript_rendering_b9c86e58-8fbf-420a-81bc-a544d73b6aa7.xml
+ms.date: 4/20/2018
+ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetGlobalAttribute method, IPrintCorePS2.GetGlobalAttribute, IPrintCorePS2::GetGlobalAttribute, prcomoem/IPrintCorePS2::GetGlobalAttribute, print.iprintcoreps2_getglobalattribute, print_unidrv-pscript_rendering_b9c86e58-8fbf-420a-81bc-a544d73b6aa7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCorePS2::GetGlobalAttribute method
+# IPrintCorePS2::GetGlobalAttribute
 
 
 ## -description

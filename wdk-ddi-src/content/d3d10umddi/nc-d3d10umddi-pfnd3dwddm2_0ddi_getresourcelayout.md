@@ -7,8 +7,8 @@ old-location: display\pfnd3dwddm2_0ddi_getresourcelayout.htm
 old-project: display
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, d3d10umddi/pfnGetResourceLayout, display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout, pfnGetResourceLayout callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback, d3d10umddi/pfnGetResourceLayout, display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout, pfnGetResourceLayout callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
+# PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback function
 
 
 ## -description

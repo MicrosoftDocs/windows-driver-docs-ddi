@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 title: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 author: windows-driver-content
 description: The IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code is used by the GNSS adapter to communicate the various location-specific platform capabilities.
-old-location: sensors\ioctl_gnss_send_platform_capability.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_send_platform_capability.htm
+old-project: gnss
 ms.assetid: EF979267-BDF3-4C42-B18E-C77E2584BC2D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, sensors.ioctl_gnss_send_platform_capability
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_send_platform_capability, gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_SEND_PLATFORM_CAPABILITY IOCTL

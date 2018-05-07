@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AddExtensionWide
-title: IDebugControl4::AddExtensionWide method
+title: IDebugControl4::AddExtensionWide
 author: windows-driver-content
 description: The AddExtensionWide method loads an extension library into the debugger engine.
 old-location: debugger\addextensionwide.htm
 old-project: debugger
 ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging], IDebugControl4 interface, AddExtensionWide,IDebugControl4.AddExtensionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddExtensionWide method, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
+ms.date: 4/24/2018
+ms.keywords: AddExtensionWide, AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddExtensionWide method, IDebugControl4.AddExtensionWide, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::AddExtensionWide method
+# IDebugControl4::AddExtensionWide
 
 
 ## -description

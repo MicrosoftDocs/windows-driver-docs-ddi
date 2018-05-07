@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_ALGORITHM_ID, *PSTOR_CRYPTO_ALGORITHM_ID
-req.product: Windows 10 or later.
 ---
 
 # _STOR_CRYPTO_ALGORITHM_ID enumeration

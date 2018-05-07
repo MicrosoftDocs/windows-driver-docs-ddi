@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_POWER_ACTION, *PSTOR_POWER_ACTION
-req.product: Windows 10 or later.
 ---
 
 # STOR_POWER_ACTION enumeration

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IDriverEntry.OnDeinitialize
-title: IDriverEntry::OnDeinitialize method
+title: IDriverEntry::OnDeinitialize
 author: windows-driver-content
 description: The OnDeinitialize method performs any operations that are necessary before a system unloads a driver.
 old-location: wdf\idriverentry_ondeinitialize.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IDriverEntry, IDriverEntry interface, OnDeinitialize method, IDriverEntry::OnDeinitialize, OnDeinitialize method, OnDeinitialize method, IDriverEntry interface, OnDeinitialize,IDriverEntry.OnDeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, umdf.idriverentry_ondeinitialize, wdf.idriverentry_ondeinitialize, wudfddi/IDriverEntry::OnDeinitialize
+ms.keywords: IDriverEntry interface,OnDeinitialize method, IDriverEntry.OnDeinitialize, IDriverEntry::OnDeinitialize, OnDeinitialize, OnDeinitialize method, OnDeinitialize method,IDriverEntry interface, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, umdf.idriverentry_ondeinitialize, wdf.idriverentry_ondeinitialize, wudfddi/IDriverEntry::OnDeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IDriverEntry::OnDeinitialize method
+# IDriverEntry::OnDeinitialize
 
 
 ## -description

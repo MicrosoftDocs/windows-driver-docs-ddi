@@ -7,7 +7,7 @@ old-location: kernel\processoridleveto.htm
 old-project: kernel
 ms.assetid: 505276EE-5D41-4AB2-82FB-FBDEF994F372
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKPROCESSORIDLEVETO, ProcessorIdleVeto, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVetoreadv, kernel.processoridleveto, pepfx/ProcessorIdleVeto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: 
 ---
 
-# POFXCALLBACKPROCESSORIDLEVETO callback
+# POFXCALLBACKPROCESSORIDLEVETO callback function
 
 
 ## -description

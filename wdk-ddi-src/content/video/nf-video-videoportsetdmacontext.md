@@ -7,7 +7,7 @@ old-location: display\videoportsetdmacontext.htm
 old-project: display
 ms.assetid: 4f357612-c07d-42fe-a49f-59acec80a8bc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices], VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, display.videoportsetdmacontext, video/VideoPortSetDmaContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortSetDmaContext function

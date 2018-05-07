@@ -7,8 +7,8 @@ old-location: print\iprintschemaelement_interface.htm
 old-project: print
 ms.assetid: E6F6F00B-E116-4AEA-AF9A-55209DA20DC6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], IPrintSchemaElement interface [Print Devices], described, print.iprintschemaelement_interface, printerextension/IPrintSchemaElement
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], IPrintSchemaElement interface [Print Devices],described, print.iprintschemaelement_interface, printerextension/IPrintSchemaElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaElement interface

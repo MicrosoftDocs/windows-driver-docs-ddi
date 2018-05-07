@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.SetCompletionCallback
-title: IWDFIoRequest::SetCompletionCallback method
+title: IWDFIoRequest::SetCompletionCallback
 author: windows-driver-content
 description: The SetCompletionCallback method registers the interface for the OnCompletion method that the framework should call when an I/O request completes.
 old-location: wdf\iwdfiorequest_setcompletioncallback.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, SetCompletionCallback method, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback method, SetCompletionCallback method, IWDFIoRequest interface, SetCompletionCallback,IWDFIoRequest.SetCompletionCallback, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback
+ms.keywords: IWDFIoRequest interface,SetCompletionCallback method, IWDFIoRequest.SetCompletionCallback, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback, SetCompletionCallback method, SetCompletionCallback method,IWDFIoRequest interface, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::SetCompletionCallback method
+# IWDFIoRequest::SetCompletionCallback
 
 
 ## -description

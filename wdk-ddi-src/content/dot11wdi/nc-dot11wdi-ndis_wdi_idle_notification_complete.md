@@ -7,8 +7,8 @@ old-location: netvista\ndiswdiidlenotificationcomplete.htm
 old-project: netvista
 ms.assetid: 22622545-F92E-4FEE-8F5D-64EC792490C7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback
+# NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback function
 
 
 ## -description

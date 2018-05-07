@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfCompanionTargetSendTaskSynchronously function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetNumberRegisters
-title: IDebugRegisters::GetNumberRegisters method
+title: IDebugRegisters::GetNumberRegisters
 author: windows-driver-content
 description: The GetNumberRegisters method returns the number of registers on the target computer.
 old-location: debugger\getnumberregisters.htm
 old-project: debugger
 ms.assetid: 51c521fc-e89c-49c9-8110-de31af3bed83
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberRegisters,IDebugRegisters.GetNumberRegisters, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters
+ms.date: 4/24/2018
+ms.keywords: GetNumberRegisters, GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging],IDebugRegisters interface, GetNumberRegisters method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters.GetNumberRegisters, IDebugRegisters2 interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters::GetNumberRegisters method
+# IDebugRegisters::GetNumberRegisters
 
 
 ## -description

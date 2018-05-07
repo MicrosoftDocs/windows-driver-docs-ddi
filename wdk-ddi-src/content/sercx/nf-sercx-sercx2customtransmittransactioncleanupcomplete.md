@@ -7,7 +7,7 @@ old-location: serports\sercx2customtransmittransactioncleanupcomplete.htm
 old-project: serports
 ms.assetid: 5B9EBE82-A49A-4AD9-B07B-C0D17C5F3732
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports], serports.sercx2customtransmittransactioncleanupcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2CustomTransmitTransactionCleanupComplete function

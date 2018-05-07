@@ -58,6 +58,21 @@ Defines LPI state flags, either as a structure or as an integer.
 
 
 
+### -field Disabled
+
+ 
+
+
+### -field CounterUnavailable
+
+ 
+
+
+### -field Reserved
+
+ 
+
+
 ### -field AsUlong
 
 An LPI state as an integer. 

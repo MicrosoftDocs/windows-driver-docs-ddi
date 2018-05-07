@@ -7,8 +7,8 @@ old-location: netvista\protocolopenadaptercompleteex.htm
 old-project: netvista
 ms.assetid: 59d18822-8ce2-4506-90d7-9f1cdc7a9e10
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_OPEN_ADAPTER_COMPLETE_EX, ProtocolOpenAdapterCompleteEx, ProtocolOpenAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOpenAdapterCompleteEx, netvista.protocolopenadaptercompleteex, protocol_functions_ref_d47f5a23-aa11-4fc8-9dec-a1ecb3184d9a.xml
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_OPEN_ADAPTER_COMPLETE_EX, PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback, ProtocolOpenAdapterCompleteEx, ProtocolOpenAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOpenAdapterCompleteEx, netvista.protocolopenadaptercompleteex, protocol_functions_ref_d47f5a23-aa11-4fc8-9dec-a1ecb3184d9a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback
+# PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback function
 
 
 ## -description

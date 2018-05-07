@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloadreceivecomplete.htm
 old-project: netvista
 ms.assetid: d5b1341b-cbe0-483c-9abb-b8706f2db2dd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, NdisTcpOffloadReceiveComplete, NdisTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveComplete, netvista.ndistcpoffloadreceivecomplete, tcp_chim_ndis_func_7d17cfb0-d83a-42e2-9ac8-042bf1964991.xml
+ms.date: 4/25/2018
+ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback, NdisTcpOffloadReceiveComplete, NdisTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveComplete, netvista.ndistcpoffloadreceivecomplete, tcp_chim_ndis_func_7d17cfb0-d83a-42e2-9ac8-042bf1964991.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback
+# NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_lock2flags.htm
 old-project: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], _D3DDDICB_LOCK2FLAGS, d3dukmdt/D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ req.typenames: D3DDDICB_LOCK2FLAGS
 This member is reserved and must be zero.
 
 
-#### - Value
+### -field Value
 
 This member must be zero.
 

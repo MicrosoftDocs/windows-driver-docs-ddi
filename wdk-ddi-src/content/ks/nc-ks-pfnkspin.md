@@ -7,7 +7,7 @@ old-location: stream\avstrminipinprocess.htm
 old-project: stream
 ms.assetid: d2315dd9-1643-4b8e-a010-8fccc582ca2b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinConnect, AVStrMiniPinProcess, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPIN, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml, ks/MyAVStrMiniPin, stream.avstrminipinprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSPIN callback
+# PFNKSPIN callback function
 
 
 ## -description

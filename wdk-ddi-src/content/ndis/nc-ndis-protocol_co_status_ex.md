@@ -7,8 +7,8 @@ old-location: netvista\protocolcostatusex.htm
 old-project: netvista
 ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CO_STATUS_EX, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CO_STATUS_EX callback
+# PROTOCOL_CO_STATUS_EX callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\kequeryruntimethread.htm
 old-project: kernel
 ms.assetid: 300720f6-8049-4558-ba8b-ecdbb8a59dbd
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryRuntimeThread, KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, kernel.kequeryruntimethread, wdm/KeQueryRuntimeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryRuntimeThread function

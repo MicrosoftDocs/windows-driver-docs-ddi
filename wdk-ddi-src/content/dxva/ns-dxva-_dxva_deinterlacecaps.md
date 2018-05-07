@@ -7,7 +7,7 @@ old-location: display\dxva_deinterlacecaps.htm
 old-project: display
 ms.assetid: be503505-fb20-4a8d-b395-7e807cde9fb6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices], LPDXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], _DXVA_DeinterlaceCaps, display.dxva_deinterlacecaps, dxva/DXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

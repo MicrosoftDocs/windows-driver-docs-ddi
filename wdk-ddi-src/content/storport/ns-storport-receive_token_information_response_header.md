@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, *PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
-req.product: Windows 10 or later.
 ---
 
 # RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure

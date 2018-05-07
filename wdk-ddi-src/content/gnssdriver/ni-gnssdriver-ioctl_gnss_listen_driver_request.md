@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_DRIVER_REQUEST
 title: IOCTL_GNSS_LISTEN_DRIVER_REQUEST
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code is used by the GNSS driver to get data from the HLOS.
-old-location: sensors\ioctl_gnss_listen_driver_request.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_listen_driver_request.htm
+old-project: gnss
 ms.assetid: 204D6F80-A458-45F8-B25F-4F5D3C33EB75
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_LISTEN_DRIVER_REQUEST, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST, sensors.ioctl_gnss_listen_driver_request
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_LISTEN_DRIVER_REQUEST, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], gnss.ioctl_gnss_listen_driver_request, gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_LISTEN_DRIVER_REQUEST IOCTL

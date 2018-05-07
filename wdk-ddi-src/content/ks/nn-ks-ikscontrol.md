@@ -7,8 +7,8 @@ old-location: stream\ikscontrol8.htm
 old-project: stream
 ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices], described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
+ms.date: 4/23/2018
+ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

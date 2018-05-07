@@ -7,8 +7,8 @@ old-location: audio\getlinkpositionregister.htm
 old-project: audio
 ms.assetid: 8b8c7f61-c22a-421f-999f-291999bb243f
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister
+ms.date: 4/16/2018
+ms.keywords: GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, PGET_LINK_POSITION_REGISTER callback, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PGET_LINK_POSITION_REGISTER callback
+# PGET_LINK_POSITION_REGISTER callback function
 
 
 ## -description

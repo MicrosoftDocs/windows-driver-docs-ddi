@@ -7,7 +7,7 @@ old-location: stream\ksgetdevicefordeviceobject.htm
 old-project: stream
 ms.assetid: 2fe72d9d-1423-4db9-be38-f2bca7dbc56d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject function [Streaming Media Devices], avfunc_2bc27061-02ce-488f-94b4-087e9f264614.xml, ks/KsGetDeviceForDeviceObject, stream.ksgetdevicefordeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

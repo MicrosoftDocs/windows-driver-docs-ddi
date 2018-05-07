@@ -7,7 +7,7 @@ old-location: kernel\zwnotifychangekey.htm
 old-project: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtNotifyChangeKey, ZwNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwNotifyChangeKey function

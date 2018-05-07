@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8C71F597-2141-4DA6-8A14-8B10CB69E5CC
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, storage.ioctl_ehstor_device_set_authz_state
+ms.keywords: IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, storage.ioctl_ehstor_device_set_authz_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PDO_TYPE
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE IOCTL

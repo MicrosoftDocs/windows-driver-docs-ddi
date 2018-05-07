@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_frequency_range.htm
 old-project: display
 ms.assetid: f826f949-b37f-4c48-80d9-b6ef640e1f00
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, _D3DKMDT_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_FREQUENCY_RANGE, display.d3dkmdt_frequency_range
 ms.prod: windows-hardware
 ms.technology: windows-devices

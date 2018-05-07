@@ -7,8 +7,8 @@ old-location: debugger\idebugsystemobjects2.htm
 old-project: debugger
 ms.assetid: 9e354357-590b-45cf-bace-5b431f408422
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], described, dbgeng/IDebugSystemObjects2, debugger.idebugsystemobjects2
+ms.date: 4/24/2018
+ms.keywords: IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects2, debugger.idebugsystemobjects2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSystemObjects2 interface

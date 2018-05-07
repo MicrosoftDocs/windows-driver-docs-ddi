@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IRegistryKey.EnumerateValueKey
-title: IRegistryKey::EnumerateValueKey method
+title: IRegistryKey::EnumerateValueKey
 author: windows-driver-content
 description: The EnumerateValueKey method returns information about a registry entry that contains a value key.
 old-location: audio\iregistrykey_enumeratevaluekey.htm
 old-project: audio
 ms.assetid: 4f90b553-f652-413f-9723-a5a578de9f8d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices], IRegistryKey interface, EnumerateValueKey,IRegistryKey.EnumerateValueKey, IRegistryKey, IRegistryKey interface [Audio Devices], EnumerateValueKey method, IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, portcls/IRegistryKey::EnumerateValueKey
+ms.date: 4/16/2018
+ms.keywords: EnumerateValueKey, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],EnumerateValueKey method, IRegistryKey.EnumerateValueKey, IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, portcls/IRegistryKey::EnumerateValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IRegistryKey::EnumerateValueKey method
+# IRegistryKey::EnumerateValueKey
 
 
 ## -description

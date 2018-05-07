@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OpenLogFile
-title: IDebugControl2::OpenLogFile method
+title: IDebugControl2::OpenLogFile
 author: windows-driver-content
 description: The OpenLogFile method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile.htm
 old-project: debugger
 ms.assetid: aba8839e-4c44-4c10-8b6f-9f5832c12166
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl interface [Windows Debugging], OpenLogFile method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OpenLogFile method, IDebugControl2::OpenLogFile, IDebugControl3 interface [Windows Debugging], OpenLogFile method, IDebugControl3::OpenLogFile, IDebugControl::OpenLogFile, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, OpenLogFile method [Windows Debugging], OpenLogFile method [Windows Debugging], IDebugControl interface, OpenLogFile method [Windows Debugging], IDebugControl2 interface, OpenLogFile method [Windows Debugging], IDebugControl3 interface, OpenLogFile,IDebugControl2.OpenLogFile, dbgeng/IDebugControl2::OpenLogFile, dbgeng/IDebugControl3::OpenLogFile, dbgeng/IDebugControl::OpenLogFile, debugger.openlogfile
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OpenLogFile method, IDebugControl2 interface [Windows Debugging],OpenLogFile method, IDebugControl2.OpenLogFile, IDebugControl2::OpenLogFile, IDebugControl3 interface [Windows Debugging],OpenLogFile method, IDebugControl3::OpenLogFile, IDebugControl::OpenLogFile, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, OpenLogFile, OpenLogFile method [Windows Debugging], OpenLogFile method [Windows Debugging],IDebugControl interface, OpenLogFile method [Windows Debugging],IDebugControl2 interface, OpenLogFile method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OpenLogFile, dbgeng/IDebugControl3::OpenLogFile, dbgeng/IDebugControl::OpenLogFile, debugger.openlogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::OpenLogFile method
+# IDebugControl2::OpenLogFile
 
 
 ## -description

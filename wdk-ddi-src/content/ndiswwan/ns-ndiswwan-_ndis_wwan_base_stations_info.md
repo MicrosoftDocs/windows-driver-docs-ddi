@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_base_stations_info.htm
 old-project: netvista
 ms.assetid: 7C0E0903-F564-4F2B-95F9-FA8512FEF61B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_BASE_STATIONS_INFO, ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO, ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO, netvista.ndis_wwan_base_stations_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

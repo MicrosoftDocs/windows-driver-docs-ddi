@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetNumberSystems
-title: IDebugSystemObjects4::GetNumberSystems method
+title: IDebugSystemObjects4::GetNumberSystems
 author: windows-driver-content
 description: The GetNumberSystems method returns the number of targets to which the engine is currently connected.
 old-location: debugger\getnumbersystems.htm
 old-project: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, GetNumberSystems,IDebugSystemObjects4.GetNumberSystems, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems
+ms.date: 4/24/2018
+ms.keywords: GetNumberSystems, GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging],IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects4.GetNumberSystems, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects4::GetNumberSystems method
+# IDebugSystemObjects4::GetNumberSystems
 
 
 ## -description

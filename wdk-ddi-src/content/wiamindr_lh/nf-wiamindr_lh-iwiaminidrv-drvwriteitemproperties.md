@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvWriteItemProperties
-title: IWiaMiniDrv::drvWriteItemProperties method
+title: IWiaMiniDrv::drvWriteItemProperties
 author: windows-driver-content
 description: The IWiaMiniDrv::drvWriteItemProperties method writes driver item properties to a WIA hardware device.
 old-location: image\iwiaminidrv_drvwriteitemproperties.htm
 old-project: image
 ms.assetid: 350cb7f6-499f-4fbc-b5c0-6f4daf2a2af0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvWriteItemProperties method, IWiaMiniDrv::drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvWriteItemProperties,IWiaMiniDrv.drvWriteItemProperties, image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvWriteItemProperties method, IWiaMiniDrv.drvWriteItemProperties, IWiaMiniDrv::drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvWriteItemProperties method
+# IWiaMiniDrv::drvWriteItemProperties
 
 
 ## -description

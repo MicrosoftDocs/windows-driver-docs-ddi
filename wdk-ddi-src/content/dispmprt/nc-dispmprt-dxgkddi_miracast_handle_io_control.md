@@ -7,8 +7,8 @@ old-location: display\dxgkddimiracastiocontrol.htm
 old-project: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback
+# DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function
 
 
 ## -description

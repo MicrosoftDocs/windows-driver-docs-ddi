@@ -7,7 +7,7 @@ old-location: image\wia_dev_cap_drv.htm
 old-project: image
 ms.assetid: 4024d455-2393-481f-8cb5-b33346ca85c7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], _WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, wiamindr_lh/PWIA_DEV_CAP_DRV, wiamindr_lh/WIA_DEV_CAP_DRV, wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV
-req.product: Windows 10 or later.
 ---
 
 # _WIA_DEV_CAP_DRV structure

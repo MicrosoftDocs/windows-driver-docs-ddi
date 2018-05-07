@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_cq_results.htm
 old-project: netvista
 ms.assetid: CDCDCF99-4A81-43FE-8A3D-0726699905BB
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_GET_CQ_RESULTS, NdkGetCqResults, NdkGetCqResults callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetCqResults, netvista.ndk_fn_get_cq_results
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_CQ_RESULTS, NDK_FN_GET_CQ_RESULTS callback, NdkGetCqResults, NdkGetCqResults callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetCqResults, netvista.ndk_fn_get_cq_results
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_CQ_RESULTS callback
+# NDK_FN_GET_CQ_RESULTS callback function
 
 
 ## -description

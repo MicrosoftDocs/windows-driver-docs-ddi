@@ -7,7 +7,7 @@ old-location: netvista\ndisfreeclonenetbufferlist.htm
 old-project: netvista
 ms.assetid: 3c632d54-8eb2-475b-8cdf-363028f67437
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFreeCloneNetBufferList, NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneNetBufferList, ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml, netvista.ndisfreeclonenetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFreeCloneNetBufferList function

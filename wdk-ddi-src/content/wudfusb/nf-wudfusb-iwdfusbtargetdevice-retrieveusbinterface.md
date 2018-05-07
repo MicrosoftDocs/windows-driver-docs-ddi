@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveUsbInterface
-title: IWDFUsbTargetDevice::RetrieveUsbInterface method
+title: IWDFUsbTargetDevice::RetrieveUsbInterface
 author: windows-driver-content
 description: The RetrieveUsbInterface method retrieves the specified USB interface for a USB device.
 old-location: wdf\iwdfusbtargetdevice_retrieveusbinterface.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface method, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, RetrieveUsbInterface,IWDFUsbTargetDevice.RetrieveUsbInterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, umdf.iwdfusbtargetdevice_retrieveusbinterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface
+ms.keywords: IWDFUsbTargetDevice interface,RetrieveUsbInterface method, IWDFUsbTargetDevice.RetrieveUsbInterface, IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface, RetrieveUsbInterface method, RetrieveUsbInterface method,IWDFUsbTargetDevice interface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, umdf.iwdfusbtargetdevice_retrieveusbinterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::RetrieveUsbInterface method
+# IWDFUsbTargetDevice::RetrieveUsbInterface
 
 
 ## -description

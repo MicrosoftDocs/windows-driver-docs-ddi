@@ -7,7 +7,7 @@ old-location: ifsk\ioreplacefileobjectname.htm
 old-project: ifsk
 ms.assetid: 1550a35f-2733-4ee8-9715-d82f96eb5da7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoReplaceFileObjectName, IoReplaceFileObjectName routine [Installable File System Drivers], ifsk.ioreplacefileobjectname, ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, ntifs/IoReplaceFileObjectName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoReplaceFileObjectName function

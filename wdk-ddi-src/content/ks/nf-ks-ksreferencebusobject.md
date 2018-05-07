@@ -7,7 +7,7 @@ old-location: stream\ksreferencebusobject.htm
 old-project: stream
 ms.assetid: 96297c0a-a3ba-4f16-befb-ee6a55d2fb25
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsReferenceBusObject, KsReferenceBusObject function [Streaming Media Devices], ks/KsReferenceBusObject, ksfunc_35e7b40f-3acf-4e86-8594-3c50912dca42.xml, stream.ksreferencebusobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

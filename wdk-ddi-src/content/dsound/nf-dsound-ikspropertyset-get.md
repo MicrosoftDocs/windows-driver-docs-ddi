@@ -1,14 +1,14 @@
 ---
 UID: NF:dsound.IKsPropertySet.Get
-title: IKsPropertySet::Get method
+title: IKsPropertySet::Get
 author: windows-driver-content
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
 old-project: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Get method [Streaming Media Devices], Get method [Streaming Media Devices], IKsPropertySet interface, Get,IKsPropertySet.Get, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Get method, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
+ms.date: 4/23/2018
+ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: 
 ---
 
-# IKsPropertySet::Get method
+# IKsPropertySet::Get
 
 
 ## -description

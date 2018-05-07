@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_KPROCESSOR_MODE enumeration

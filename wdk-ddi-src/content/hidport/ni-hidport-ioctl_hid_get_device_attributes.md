@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_device_attributes.htm
 old-project: hid
 ms.assetid: ee68c045-e99a-471d-ae22-396673d68168
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_DEVICE_ATTRIBUTES, IOCTL_HID_GET_DEVICE_ATTRIBUTES control code [Human Input Devices], hid.ioctl_hid_get_device_attributes, hidioreq_417c2e10-9ca8-4a9f-8a30-1ff401b65b13.xml, hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_GET_DEVICE_ATTRIBUTES, IOCTL_HID_GET_DEVICE_ATTRIBUTES control, IOCTL_HID_GET_DEVICE_ATTRIBUTES control code [Human Input Devices], hid.ioctl_hid_get_device_attributes, hidioreq_417c2e10-9ca8-4a9f-8a30-1ff401b65b13.xml, hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL

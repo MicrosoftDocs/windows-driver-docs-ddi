@@ -7,7 +7,7 @@ old-location: ifsk\iogetdiskdeviceobject.htm
 old-project: ifsk
 ms.assetid: c4f27011-f198-474e-8d2c-8bf35c3c8c66
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: IoGetDiskDeviceObject, IoGetDiskDeviceObject routine [Installable File System Drivers], ifsk.iogetdiskdeviceobject, ioref_b3532bdd-87b6-4e6b-91a0-093b8ed5aa6c.xml, ntifs/IoGetDiskDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoGetDiskDeviceObject function

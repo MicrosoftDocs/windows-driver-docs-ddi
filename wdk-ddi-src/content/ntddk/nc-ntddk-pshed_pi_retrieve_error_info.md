@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4d299057-a1cc-4b53-8ab4-031672181e74
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PSHED_PI_RETRIEVE_ERROR_INFO, RetrieveErrorInfo, RetrieveErrorInfo callback function [WHEA Drivers and Applications], ntddk/RetrieveErrorInfo, whea.retrieveerrorinfo, whearef_f231db3f-6108-4229-895f-7e0281b5b3b8.xml
+ms.keywords: PSHED_PI_RETRIEVE_ERROR_INFO, PSHED_PI_RETRIEVE_ERROR_INFO callback, RetrieveErrorInfo, RetrieveErrorInfo callback function [WHEA Drivers and Applications], ntddk/RetrieveErrorInfo, whea.retrieveerrorinfo, whearef_f231db3f-6108-4229-895f-7e0281b5b3b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_RETRIEVE_ERROR_INFO callback
+# PSHED_PI_RETRIEVE_ERROR_INFO callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: print\iprinterscriptablestream.htm
 old-project: print
 ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices], described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterScriptableStream interface

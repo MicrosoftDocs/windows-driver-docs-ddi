@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure

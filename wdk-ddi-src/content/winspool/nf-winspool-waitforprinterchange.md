@@ -7,7 +7,7 @@ old-location: print\waitforprinterchange.htm
 old-project: print
 ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], print.waitforprinterchange, winspool/WaitForPrinterChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WaitForPrinterChange function

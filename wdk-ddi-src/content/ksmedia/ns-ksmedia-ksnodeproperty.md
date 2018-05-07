@@ -7,7 +7,7 @@ old-location: audio\ksnodeproperty.htm
 old-project: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSNODEPROPERTY, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], PKSNODEPROPERTY, PKSNODEPROPERTY structure pointer [Audio Devices], aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, audio.ksnodeproperty, ksmedia/KSNODEPROPERTY, ksmedia/PKSNODEPROPERTY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

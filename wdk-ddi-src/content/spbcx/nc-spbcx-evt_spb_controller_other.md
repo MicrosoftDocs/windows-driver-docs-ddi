@@ -7,8 +7,8 @@ old-location: spb\evtspbcontrollerioother.htm
 old-project: SPB
 ms.assetid: 5A4BC061-4703-4C46-BD5D-A891F3DA8842
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EVT_SPB_CONTROLLER_OTHER, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
+ms.date: 4/30/2018
+ms.keywords: EVT_SPB_CONTROLLER_OTHER, EVT_SPB_CONTROLLER_OTHER callback, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_CONTROLLER_OTHER callback
+# EVT_SPB_CONTROLLER_OTHER callback function
 
 
 ## -description

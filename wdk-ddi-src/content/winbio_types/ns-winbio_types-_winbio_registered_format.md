@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WINBIO_REGISTERED_FORMAT, *PWINBIO_REGISTERED_FORMAT
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_REGISTERED_FORMAT structure

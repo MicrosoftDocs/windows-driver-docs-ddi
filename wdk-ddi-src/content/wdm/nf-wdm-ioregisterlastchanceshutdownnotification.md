@@ -7,7 +7,7 @@ old-location: kernel\ioregisterlastchanceshutdownnotification.htm
 old-project: kernel
 ms.assetid: 9ee590ce-e822-4c15-bb01-6f726268f163
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoRegisterLastChanceShutdownNotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, kernel.ioregisterlastchanceshutdownnotification, wdm/IoRegisterLastChanceShutdownNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoRegisterLastChanceShutdownNotification function

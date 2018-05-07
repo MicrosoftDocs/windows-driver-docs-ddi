@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlfindextracreateparameter.htm
 old-project: ifsk
 ms.assetid: e72958d0-b7ff-45b6-bdd2-f894d5b44cf4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ifsk.fsrtlfindextracreateparameter, ntifs/FsRtlFindExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlFindExtraCreateParameter function

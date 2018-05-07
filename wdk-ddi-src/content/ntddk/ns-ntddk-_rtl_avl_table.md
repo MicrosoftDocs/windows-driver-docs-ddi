@@ -7,7 +7,7 @@ old-location: ifsk\rtl_avl_table.htm
 old-project: ifsk
 ms.assetid: 115d9489-f9f5-4dd2-bf09-33e8fd640743
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PRTL_AVL_TABLE, PRTL_AVL_TABLE, PRTL_AVL_TABLE structure pointer [Installable File System Drivers], RTL_AVL_TABLE, RTL_AVL_TABLE structure [Installable File System Drivers], _RTL_AVL_TABLE, ifsk.rtl_avl_table, ntddk/PRTL_AVL_TABLE, ntddk/RTL_AVL_TABLE, othersystemstructures_15c34a0b-0bca-4c5f-82d9-0320ef0d33ad.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

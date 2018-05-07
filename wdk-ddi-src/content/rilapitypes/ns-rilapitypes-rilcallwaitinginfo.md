@@ -7,7 +7,7 @@ old-location: netvista\rilcallwaitinginfo.htm
 old-project: netvista
 ms.assetid: 526ce708-93bb-43f2-9d78-b3e8360e01da
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLWAITINGINFO, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallwaitinginfo, ntddrilapitypes/RILCALLWAITINGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO
-req.product: Windows 10 or later.
 ---
 
 # RILCALLWAITINGINFO structure

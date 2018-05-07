@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C6BED59F-066E-42F6-86AE-B0423E0E847F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch
+ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH callback, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDFDEVICE_WDM_IRP_DISPATCH callback
+# EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_break_on.htm
 old-project: serports
 ms.assetid: bee9cb3c-0ccd-4304-ba7e-7896a16ab123
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_SET_BREAK_ON, IOCTL_SERIAL_SET_BREAK_ON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_ON, serports.ioctl_serial_set_break_on, serref_47487a08-4b73-4e3a-be2e-4343dd678b44.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_SET_BREAK_ON, IOCTL_SERIAL_SET_BREAK_ON control, IOCTL_SERIAL_SET_BREAK_ON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_ON, serports.ioctl_serial_set_break_on, serref_47487a08-4b73-4e3a-be2e-4343dd678b44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_SET_BREAK_ON IOCTL

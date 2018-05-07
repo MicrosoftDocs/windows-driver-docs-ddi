@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoIndexByNameWide
-title: IDebugRegisters2::GetPseudoIndexByNameWide method
+title: IDebugRegisters2::GetPseudoIndexByNameWide
 author: windows-driver-content
 description: The GetPseudoIndexByNameWide method returns the index of a pseudo-register.
 old-location: debugger\getpseudoindexbynamewide.htm
 old-project: debugger
 ms.assetid: 86b76d13-d8b5-4336-a010-87d7753a367c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetPseudoIndexByNameWide method [Windows Debugging], GetPseudoIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetPseudoIndexByNameWide,IDebugRegisters2.GetPseudoIndexByNameWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByNameWide method, IDebugRegisters2::GetPseudoIndexByNameWide, dbgeng/IDebugRegisters2::GetPseudoIndexByNameWide, debugger.getpseudoindexbynamewide
+ms.date: 4/24/2018
+ms.keywords: GetPseudoIndexByNameWide, GetPseudoIndexByNameWide method [Windows Debugging], GetPseudoIndexByNameWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByNameWide method, IDebugRegisters2.GetPseudoIndexByNameWide, IDebugRegisters2::GetPseudoIndexByNameWide, dbgeng/IDebugRegisters2::GetPseudoIndexByNameWide, debugger.getpseudoindexbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetPseudoIndexByNameWide method
+# IDebugRegisters2::GetPseudoIndexByNameWide
 
 
 ## -description

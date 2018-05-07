@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_USB_PIPE_INFORMATION, *PWDF_USB_PIPE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_PIPE_INFORMATION structure

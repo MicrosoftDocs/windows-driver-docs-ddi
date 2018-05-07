@@ -7,7 +7,7 @@ old-location: display\videoportsetregistryparameters.htm
 old-project: display
 ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters, video/VideoPortSetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortSetRegistryParameters function

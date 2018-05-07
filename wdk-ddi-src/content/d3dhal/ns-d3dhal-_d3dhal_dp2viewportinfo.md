@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2viewportinfo.htm
 old-project: display
 ms.assetid: df46a37e-fed6-4738-8794-6611e9c758cb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2VIEWPORTINFO, D3DHAL_DP2VIEWPORTINFO, D3DHAL_DP2VIEWPORTINFO structure [Display Devices], LPD3DHAL_DP2VIEWPORTINFO, LPD3DHAL_DP2VIEWPORTINFO structure pointer [Display Devices], _D3DHAL_DP2VIEWPORTINFO, d3dhal/D3DHAL_DP2VIEWPORTINFO, d3dhal/LPD3DHAL_DP2VIEWPORTINFO, d3dstrct_7a7ca4d1-eb1a-4342-9ce9-f4b276191da5.xml, display.d3dhal_dp2viewportinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

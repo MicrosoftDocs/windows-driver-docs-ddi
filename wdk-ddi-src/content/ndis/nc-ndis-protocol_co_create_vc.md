@@ -7,8 +7,8 @@ old-location: netvista\protocolcocreatevc.htm
 old-project: netvista
 ms.assetid: b086dd24-74f5-474a-8684-09bf92ac731b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PROTOCOL_CO_CREATE_VC, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CO_CREATE_VC, PROTOCOL_CO_CREATE_VC callback, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CO_CREATE_VC callback
+# PROTOCOL_CO_CREATE_VC callback function
 
 
 ## -description

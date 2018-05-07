@@ -7,7 +7,7 @@ old-location: netvista\wwan_sim_class.htm
 old-project: netvista
 ms.assetid: 4d66874b-bb1d-43e5-a4b2-525face7de81
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_SIM_CLASS, PWWAN_SIM_CLASS, PWWAN_SIM_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SIM_CLASS, WWAN_SIM_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanRef_8c5184eb-4ac5-40a7-bb52-875554517f70.xml, WwanSimClassMax, WwanSimClassSimLogical, WwanSimClassSimRemote, WwanSimClassSimRemovable, WwanSimClassUnknown, _WWAN_SIM_CLASS, netvista.wwan_sim_class, wwan/PWWAN_SIM_CLASS, wwan/WWAN_SIM_CLASS, wwan/WwanSimClassMax, wwan/WwanSimClassSimLogical, wwan/WwanSimClassSimRemote, wwan/WwanSimClassSimRemovable, wwan/WwanSimClassUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_SIM_CLASS, *PWWAN_SIM_CLASS
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_SIM_CLASS enumeration

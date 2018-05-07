@@ -7,7 +7,7 @@ old-location: display\umdetwlogunmapallocation.htm
 old-project: display
 ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_SEMANTIC
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UMDEtwLogUnmapAllocation function

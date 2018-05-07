@@ -7,8 +7,8 @@ old-location: audio\isynthsinkdmus.htm
 old-project: audio
 ms.assetid: 3bff4242-3e7b-424e-ac86-121267a2c32a
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], ISynthSinkDMus interface [Audio Devices], described, audio.isynthsinkdmus, audmp-routines_744ae6c7-7f7e-4a66-9624-5a5d82e2eb86.xml, dmusicks/ISynthSinkDMus
+ms.date: 4/16/2018
+ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], ISynthSinkDMus interface [Audio Devices],described, audio.isynthsinkdmus, audmp-routines_744ae6c7-7f7e-4a66-9624-5a5d82e2eb86.xml, dmusicks/ISynthSinkDMus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
 # ISynthSinkDMus interface

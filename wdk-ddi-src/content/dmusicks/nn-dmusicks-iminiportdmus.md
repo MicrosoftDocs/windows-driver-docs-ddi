@@ -7,8 +7,8 @@ old-location: audio\iminiportdmus.htm
 old-project: audio
 ms.assetid: 12cd3533-1830-46cd-a1eb-350f7461a61d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices], described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
+ms.date: 4/16/2018
+ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices],described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
 # IMiniportDMus interface

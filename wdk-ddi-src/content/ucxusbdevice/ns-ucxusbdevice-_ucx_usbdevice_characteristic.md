@@ -7,7 +7,7 @@ old-location: buses\ucx_usbdevice_characteristic.htm
 old-project: usbref
 ms.assetid: 31BF5607-51EA-4FBF-A754-872FBD45915D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], _UCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC
-req.product: Windows 10 or later.
 ---
 
 # _UCX_USBDEVICE_CHARACTERISTIC structure
@@ -69,7 +68,7 @@ Size of this structure.
 A <a href="https://msdn.microsoft.com/86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73">UCX_USBDEVICE_CHARACTERISTIC_TYPE</a>-type value that indicates the type of device characteristic.
 
 
-#### - PathDelay
+### -field PathDelay
 
 A <a href="https://msdn.microsoft.com/135D6C04-3520-46C2-BC64-DF0119578E6F">UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY</a>-typed value that indicates the path delay values for the endpoint.
 

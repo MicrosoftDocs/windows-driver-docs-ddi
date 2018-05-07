@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: f2bc3b38-003e-4078-9bbd-d535e8971491
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
+ms.keywords: EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, PSHED_PI_ENABLE_ERROR_SOURCE callback, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_ENABLE_ERROR_SOURCE callback
+# PSHED_PI_ENABLE_ERROR_SOURCE callback function
 
 
 ## -description

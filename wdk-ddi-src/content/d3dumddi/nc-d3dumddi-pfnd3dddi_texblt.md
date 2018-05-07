@@ -7,8 +7,8 @@ old-location: display\texblt.htm
 old-project: display
 ms.assetid: 1ddfd822-7a43-4976-a153-ba862d6dfd82
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_TEXBLT, TexBlt, TexBlt callback function [Display Devices], UserModeDisplayDriver_Functions_1d3c2c6d-849d-46c2-9934-f3c4e5720edf.xml, d3dumddi/TexBlt, display.texblt
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_TEXBLT, PFND3DDDI_TEXBLT callback, TexBlt, TexBlt callback function [Display Devices], UserModeDisplayDriver_Functions_1d3c2c6d-849d-46c2-9934-f3c4e5720edf.xml, d3dumddi/TexBlt, display.texblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_TEXBLT callback
+# PFND3DDDI_TEXBLT callback function
 
 
 ## -description

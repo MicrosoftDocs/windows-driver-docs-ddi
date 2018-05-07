@@ -7,7 +7,7 @@ old-location: netvista\wwan_tdscdma_mrl_info.htm
 old-project: netvista
 ms.assetid: 4EA0AE24-E4B0-49E0-8C50-44F6890C5C52
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_MRL_INFO, netvista.wwan_tdscdma_mrl_info, wwan/PWWAN_TDSCDMA_MRL_INFO, wwan/WWAN_TDSCDMA_MRL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_TDSCDMA_MRL_INFO, *PWWAN_TDSCDMA_MRL_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_TDSCDMA_MRL_INFO structure

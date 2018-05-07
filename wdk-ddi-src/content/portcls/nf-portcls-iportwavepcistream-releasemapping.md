@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWavePciStream.ReleaseMapping
-title: IPortWavePciStream::ReleaseMapping method
+title: IPortWavePciStream::ReleaseMapping
 author: windows-driver-content
 description: The ReleaseMapping method releases a mapping that was obtained by a previous call to IPortWavePciStream::GetMapping.
 old-location: audio\iportwavepcistream_releasemapping.htm
 old-project: audio
 ms.assetid: c4464fba-cc23-47d2-87d6-82b3eba8ddbe
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortWavePciStream, IPortWavePciStream interface [Audio Devices], ReleaseMapping method, IPortWavePciStream::ReleaseMapping, ReleaseMapping method [Audio Devices], ReleaseMapping method [Audio Devices], IPortWavePciStream interface, ReleaseMapping,IPortWavePciStream.ReleaseMapping, audio.iportwavepcistream_releasemapping, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, portcls/IPortWavePciStream::ReleaseMapping
+ms.date: 4/16/2018
+ms.keywords: IPortWavePciStream interface [Audio Devices],ReleaseMapping method, IPortWavePciStream.ReleaseMapping, IPortWavePciStream::ReleaseMapping, ReleaseMapping, ReleaseMapping method [Audio Devices], ReleaseMapping method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_releasemapping, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, portcls/IPortWavePciStream::ReleaseMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWavePciStream::ReleaseMapping method
+# IPortWavePciStream::ReleaseMapping
 
 
 ## -description

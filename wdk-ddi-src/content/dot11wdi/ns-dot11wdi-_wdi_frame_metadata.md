@@ -7,7 +7,7 @@ old-location: netvista\wdi_frame_metadata.htm
 old-project: netvista
 ms.assetid: 34733e8f-cbe0-4fcd-abcf-6791e298282f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWDI_FRAME_METADATA, PWDI_FRAME_METADATA, PWDI_FRAME_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_FRAME_METADATA, WDI_FRAME_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_FRAME_METADATA, dot11wdi/PWDI_FRAME_METADATA, dot11wdi/WDI_FRAME_METADATA, netvista.wdi_frame_metadata, netvista.wifi_frame_metadata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -87,14 +87,12 @@ Padding.
 ### -field u
 
 
-
-#### txMetaData
+### -field u.txMetaData
 
 TX metadata.
 
 
-
-#### rxMetaData
+### -field u.rxMetaData
 
 RX metadata.
 

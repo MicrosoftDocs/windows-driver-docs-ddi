@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_CONTINUOUS_READER_CONFIG structure

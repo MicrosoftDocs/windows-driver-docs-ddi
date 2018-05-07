@@ -7,7 +7,7 @@ old-location: sensors\pedometer_step_type_count.htm
 old-project: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], PedometerStepTypeCount, sensors.pedometer_step_type_count, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PEDOMETER_STEP_TYPE_COUNT
-req.product: Windows 10 or later.
 ---
 
 # PEDOMETER_STEP_TYPE_COUNT enumeration

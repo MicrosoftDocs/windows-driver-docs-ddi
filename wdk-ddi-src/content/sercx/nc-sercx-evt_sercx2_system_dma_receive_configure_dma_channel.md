@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmareceiveconfiguredmachannel.htm
 old-project: serports
 ms.assetid: 7B5C7151-851C-4F56-BCC5-3AF47F298B23
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL, EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EvtSerCx2SystemDmaReceiveConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmareceiveconfiguredmachannel
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback, EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EvtSerCx2SystemDmaReceiveConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmareceiveconfiguredmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback
+# EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback function
 
 
 ## -description

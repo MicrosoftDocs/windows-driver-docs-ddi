@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFPropertyStoreFactory.RetrieveDevicePropertyStore
-title: IWDFPropertyStoreFactory::RetrieveDevicePropertyStore method
+title: IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
 author: windows-driver-content
 description: The RetrieveDevicePropertyStore method retrieves a property store interface that drivers can use to access the registry.
 old-location: wdf\iwdfpropertystorefactory_retrievedevicepropertystore.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a4c968-b1d1-48f4-9ea9-b97c4b5b4208
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFPropertyStoreFactory, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore,IWDFPropertyStoreFactory.RetrieveDevicePropertyStore, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
+ms.keywords: IWDFPropertyStoreFactory interface,RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory.RetrieveDevicePropertyStore, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFPropertyStoreFactory interface, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFPropertyStoreFactory::RetrieveDevicePropertyStore method
+# IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
 
 
 ## -description

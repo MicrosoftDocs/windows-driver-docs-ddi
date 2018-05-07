@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_stream_status_params.htm
 old-project: audio
 ms.assetid: 5C50D9B0-53C7-4F1B-A6D1-CE77A3645956
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, audio.usbsidebandaudio_stream_status_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure

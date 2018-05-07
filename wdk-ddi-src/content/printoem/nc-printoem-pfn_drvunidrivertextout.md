@@ -7,8 +7,8 @@ old-location: print\drvunidrivertextout.htm
 old-project: print
 ms.assetid: 72ba09b2-a889-439d-bbf2-ee6f9ebf5535
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFN_DrvUnidriverTextOut, PFN_DrvUnidriverTextOut callback function [Print Devices], print.drvunidrivertextout, print_obsoletefunctions_eeb13110-561c-4c0f-912b-1a3a1cebd846.xml, printoem/PFN_DrvUnidriverTextOut
+ms.date: 4/20/2018
+ms.keywords: PFN_DrvUnidriverTextOut, PFN_DrvUnidriverTextOut callback, PFN_DrvUnidriverTextOut callback function [Print Devices], print.drvunidrivertextout, print_obsoletefunctions_eeb13110-561c-4c0f-912b-1a3a1cebd846.xml, printoem/PFN_DrvUnidriverTextOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvUnidriverTextOut callback
+# PFN_DrvUnidriverTextOut callback function
 
 
 ## -description

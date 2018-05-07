@@ -7,7 +7,7 @@ old-location: display\d3dddicb_allocate.htm
 old-project: display
 ms.assetid: 76ebc960-ff63-40eb-842b-acdb549ecdaa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE structure [Display Devices], D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, _D3DDDICB_ALLOCATE, d3dumddi/D3DDDICB_ALLOCATE, display.d3dddicb_allocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,18 +91,18 @@ The Direct3D runtime generates a unique handle and passes it back to the user-mo
 [in] The number of elements in the array at <b>pAllocationInfo</b>, which represents the number of allocations to allocate.
 
 
+### -field pAllocationInfo2
+
+[in] This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ### -field pAllocationInfo
 
 [in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544364">D3DDDI_ALLOCATIONINFO</a> structures that describe the allocations to allocate.
 
 [in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544364">D3DDDI_ALLOCATIONINFO</a> structures that describe the allocations to allocate.
-
-
-#### - pAllocationInfo2
-
-[in] This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
 
 
 ## -see-also

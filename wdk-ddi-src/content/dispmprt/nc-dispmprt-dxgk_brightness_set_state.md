@@ -7,8 +7,8 @@ old-location: display\dxgkddisetbrightnessstate.htm
 old-project: display
 ms.assetid: 804046ff-0cc7-4ff0-be07-b574cb40fd2b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DXGK_BRIGHTNESS_SET_STATE callback, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_SET_STATE callback
+# DXGK_BRIGHTNESS_SET_STATE callback function
 
 
 ## -description

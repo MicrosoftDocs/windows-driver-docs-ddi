@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadUnicodeStringVirtualWide
-title: IDebugDataSpaces4::ReadUnicodeStringVirtualWide method
+title: IDebugDataSpaces4::ReadUnicodeStringVirtualWide
 author: windows-driver-content
 description: The ReadUnicodeStringVirtualWide method reads a null-terminated, Unicode string from the target.
 old-location: debugger\readunicodestringvirtualwide.htm
 old-project: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtualWide,IDebugDataSpaces4.ReadUnicodeStringVirtualWide, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtualWide method, IDebugDataSpaces4.ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::ReadUnicodeStringVirtualWide method
+# IDebugDataSpaces4::ReadUnicodeStringVirtualWide
 
 
 ## -description

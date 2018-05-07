@@ -7,8 +7,8 @@ old-location: display\createvertexshader_d3d10_.htm
 old-project: display
 ms.assetid: d6e4c3f9-1ee6-4484-913d-9a3dca64e627
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateVertexShader, CreateVertexShader callback function [Display Devices], PFND3D10DDI_CREATEVERTEXSHADER, UserModeDisplayDriverDx10_Functions_bb19d867-d11f-43bb-8380-2a44f231900a.xml, d3d10umddi/CreateVertexShader, display.createvertexshader_d3d10_
+ms.date: 4/16/2018
+ms.keywords: CreateVertexShader, CreateVertexShader callback function [Display Devices], PFND3D10DDI_CREATEVERTEXSHADER, PFND3D10DDI_CREATEVERTEXSHADER callback, UserModeDisplayDriverDx10_Functions_bb19d867-d11f-43bb-8380-2a44f231900a.xml, d3d10umddi/CreateVertexShader, display.createvertexshader_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CREATEVERTEXSHADER callback
+# PFND3D10DDI_CREATEVERTEXSHADER callback function
 
 
 ## -description

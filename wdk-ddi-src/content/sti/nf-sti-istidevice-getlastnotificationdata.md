@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.GetLastNotificationData
-title: IStiDevice::GetLastNotificationData method
+title: IStiDevice::GetLastNotificationData
 author: windows-driver-content
 description: The IStiDevice::GetLastNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istidevice_getlastnotificationdata.htm
 old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices], IStiDevice interface, GetLastNotificationData,IStiDevice.GetLastNotificationData, IStiDevice, IStiDevice interface [Imaging Devices], GetLastNotificationData method, IStiDevice::GetLastNotificationData, image.istidevice_getlastnotificationdata, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml
+ms.date: 4/23/2018
+ms.keywords: GetLastNotificationData, GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastNotificationData method, IStiDevice.GetLastNotificationData, IStiDevice::GetLastNotificationData, image.istidevice_getlastnotificationdata, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::GetLastNotificationData method
+# IStiDevice::GetLastNotificationData
 
 
 ## -description

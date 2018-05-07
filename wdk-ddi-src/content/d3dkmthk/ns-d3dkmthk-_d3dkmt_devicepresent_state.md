@@ -7,7 +7,7 @@ old-location: display\d3dkmt_devicepresent_state.htm
 old-project: display
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, _D3DKMT_DEVICEPRESENT_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_ip_checksum_offload.htm
 old-project: netvista
 ms.assetid: bf5369c5-8656-41a4-a23f-79e40a60d111
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_TCP_IP_CHECKSUM_OFFLOAD, NDIS_TCP_IP_CHECKSUM_OFFLOAD, NDIS_TCP_IP_CHECKSUM_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_IP_CHECKSUM_OFFLOAD, PNDIS_TCP_IP_CHECKSUM_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_OFFLOAD, netvista.ndis_tcp_ip_checksum_offload, ntddndis/NDIS_TCP_IP_CHECKSUM_OFFLOAD, ntddndis/PNDIS_TCP_IP_CHECKSUM_OFFLOAD, tcpip_offload_ref_0214ebce-2667-42c6-8be6-6086d358d2ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -67,47 +67,41 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv4 transmit inf
       
 
 
-
-#### Encapsulation
+### -field IPv4Transmit.Encapsulation
 
 Encapsulation settings for IPv4 transmit. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpOptionsSupported
+### -field IPv4Transmit.IpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate an
        IP checksum for an IPv4 send packet that contains IP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpOptionsSupported
+### -field IPv4Transmit.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv4 send packet that contains TCP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv4Transmit.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv4 send packet. The TCP/IP transport sets this value to enable this capability
        or to indicate that this capability is enabled or disabled.
 
 
-
-#### UdpChecksum
+### -field IPv4Transmit.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        UDP checksum for an IPv4 send packet or to indicate that this capability is enabled or
        disabled.
 
 
-
-#### IpChecksum
+### -field IPv4Transmit.IpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate an
        IP checksum for an IPv4 send packet or to indicate that this capability is enabled or disabled.
@@ -120,46 +114,40 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv4 receive info
      
 
 
-
-#### Encapsulation
+### -field IPv4Receive.Encapsulation
 
 Encapsulation settings for IPv4 receive. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpOptionsSupported
+### -field IPv4Receive.IpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an IP
        checksum for an IPv4 receive packet that contains IP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpOptionsSupported
+### -field IPv4Receive.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv4 receive packet that contains TCP options or to indicate that this capability
        is enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv4Receive.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate the
        TCP checksum for an IPv4 receive packet or to indicate that this capability is enabled or
        disabled.
 
 
-
-#### UdpChecksum
+### -field IPv4Receive.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an
        IPv4 receive packet's UDP checksum or to indicate that this capability is enabled or disabled.
 
 
-
-#### IpChecksum
+### -field IPv4Receive.IpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an IP
        checksum for an IPv4 receive packet or to indicate that this capability is enabled or disabled.
@@ -172,38 +160,33 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv6 transmit inf
      
 
 
-
-#### Encapsulation
+### -field IPv6Transmit.Encapsulation
 
 Encapsulation settings for IPv6 transmit. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpExtensionHeadersSupported
+### -field IPv6Transmit.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can calculate
        checksums on IPv6 packets that contain extension headers.
 
 
-
-#### TcpOptionsSupported
+### -field IPv6Transmit.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv6 send packet that contains TCP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv6Transmit.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv6 send packet or to indicate that this capability is enabled or
        disabled.
 
 
-
-#### UdpChecksum
+### -field IPv6Transmit.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        UDP checksum for an IPv6 send packet or to indicate that this capability is enabled or
@@ -217,37 +200,32 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv6 receive info
      
 
 
-
-#### Encapsulation
+### -field IPv6Receive.Encapsulation
 
 Encapsulation settings for IPv6 receive. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpExtensionHeadersSupported
+### -field IPv6Receive.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can validate
        checksums on IPv6 packets that contain extension headers.
 
 
-
-#### TcpOptionsSupported
+### -field IPv6Receive.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        checksum for an IPv6 receive packet whose TCP header contains TCP options or to indicate that this
        capability is enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv6Receive.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an
        IPv6 receive packet's TCP checksum or to indicate that this capability is enabled or disabled.
 
 
-
-#### UdpChecksum
+### -field IPv6Receive.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate a UDP
        checksum for an IPv6 receive packet or to indicate that this capability is enabled or disabled.

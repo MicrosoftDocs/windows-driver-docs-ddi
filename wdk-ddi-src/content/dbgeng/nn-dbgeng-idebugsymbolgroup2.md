@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbolgroup2.htm
 old-project: debugger
 ms.assetid: d702fe69-966c-4b9a-aa0e-b8376288cb79
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSymbolGroup2 interface

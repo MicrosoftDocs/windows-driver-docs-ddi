@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_ms_genre_descriptor.htm
 old-project: hid
 ms.assetid: C83C6086-369D-41DB-BEB5-33B3A0C1C0AE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_ms_genre_descriptor, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_ms_genre_descriptor, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL

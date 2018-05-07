@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _STOR_CRYPTO_OPERATION_TYPE enumeration

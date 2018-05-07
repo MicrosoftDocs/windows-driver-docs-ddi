@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure

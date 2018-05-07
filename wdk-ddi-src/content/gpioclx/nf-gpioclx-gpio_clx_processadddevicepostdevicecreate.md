@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
+req.typenames: 
 ---
 
 # GPIO_CLX_ProcessAddDevicePostDeviceCreate function

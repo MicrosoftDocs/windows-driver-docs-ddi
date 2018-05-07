@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_mode_rotation.htm
 old-project: display
 ms.assetid: 8cc413c4-e4fe-449b-a66a-c79da01ad3be
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_MODE_ROTATION, DXGI_DDI_MODE_ROTATION enumeration [Display Devices], DXGI_DDI_MODE_ROTATION_IDENTITY, DXGI_DDI_MODE_ROTATION_ROTATE180, DXGI_DDI_MODE_ROTATION_ROTATE270, DXGI_DDI_MODE_ROTATION_ROTATE90, DXGI_DDI_MODE_ROTATION_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_61b842eb-a4b4-4d86-95b8-eca448b35b5e.xml, display.dxgi_ddi_mode_rotation, dxgiddi/DXGI_DDI_MODE_ROTATION, dxgiddi/DXGI_DDI_MODE_ROTATION_IDENTITY, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE180, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE270, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE90, dxgiddi/DXGI_DDI_MODE_ROTATION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

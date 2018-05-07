@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -68,166 +68,146 @@ A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
  
 
 
+### -field DUMMYSTRUCTNAME.Reserved1
+
+Reserved for system use.
 
 
-#### - Address
-
-A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
-
-
-#### - Control
-
-A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
-
-
-#### - Data
-
-A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
-
-
-#### - ErrorType
+### -field DUMMYSTRUCTNAME.ErrorType
 
 The type of hardware error that occurred. Possible values are:
 
 
 
 
+### -field DUMMYSTRUCTNAME.Address
 
-#### ERRTYP_INTERNAL
+A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
 
-An error internal to the component.
 
+### -field DUMMYSTRUCTNAME.Control
 
+A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
 
-#### ERRTYP_BUS
 
-A bus error.
+### -field DUMMYSTRUCTNAME.Data
 
+A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
 
 
-#### ERRTYP_MEM
+### -field DUMMYSTRUCTNAME.Responder
 
-A memory error.
+A single bit that indicates that the error was detected by the responder of the transaction.
 
 
-
-#### ERRTYP_TLB
-
-A translation lookaside buffer error.
-
-
-
-#### ERRTYP_CACHE
-
-A cache error.
-
-
-
-#### ERRTYP_FUNCTION
-
-An error in one or more functional units.
-
-
-
-#### ERRTYP_SELFTEST
-
-The component failed self test.
-
-
-
-#### ERRTYP_FLOW
-
-An overflow or underflow of a queue that is internal to the component.
-
-
-
-#### ERRTYP_MAP
-
-The virtual address was not found on IO-TLB or IO-PDIR.
-
-
-
-#### ERRTYP_IMPROPER
-
-An improper access error.
-
-
-
-#### ERRTYP_UNIMPL
-
-An access to a memory address that is not mapped to any component.
-
-
-
-#### ERRTYP_LOSSOFLOCKSTEP
-
-A loss of lockstep.
-
-
-
-#### ERRTYP_RESPONSE
-
-A response was received that was not associated with a request.
-
-
-
-#### ERRTYP_PARITY
-
-A bus parity error.
-
-
-
-#### ERRTYP_PROTOCOL
-
-A bus protocol error.
-
-
-
-#### ERRTYP_PATHERROR
-
-A bus path error.
-
-
-
-#### ERRTYP_TIMEOUT
-
-A bus timeout error.
-
-
-
-#### ERRTYP_POISONED
-
-A read operation was issued to data that has been corrupted.
-
-
-#### - FirstError
-
-A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
-
-
-#### - Overflow
-
-A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
-
-
-#### - Requester
+### -field DUMMYSTRUCTNAME.Requester
 
 A single bit that indicates that the error was detected by the requester of the transaction.
 
 
-#### - Reserved1
+### -field DUMMYSTRUCTNAME.FirstError
+
+A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
+
+
+### -field DUMMYSTRUCTNAME.Overflow
+
+A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
+
+
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved for system use.
 
 
-#### - Reserved2
+##### - ErrorType.ERRTYP_BUS
 
-Reserved for system use.
+A bus error.
 
 
-#### - Responder
+##### - ErrorType.ERRTYP_CACHE
 
-A single bit that indicates that the error was detected by the responder of the transaction.
+A cache error.
+
+
+##### - ErrorType.ERRTYP_FLOW
+
+An overflow or underflow of a queue that is internal to the component.
+
+
+##### - ErrorType.ERRTYP_FUNCTION
+
+An error in one or more functional units.
+
+
+##### - ErrorType.ERRTYP_IMPROPER
+
+An improper access error.
+
+
+##### - ErrorType.ERRTYP_INTERNAL
+
+An error internal to the component.
+
+
+##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
+
+A loss of lockstep.
+
+
+##### - ErrorType.ERRTYP_MAP
+
+The virtual address was not found on IO-TLB or IO-PDIR.
+
+
+##### - ErrorType.ERRTYP_MEM
+
+A memory error.
+
+
+##### - ErrorType.ERRTYP_PARITY
+
+A bus parity error.
+
+
+##### - ErrorType.ERRTYP_PATHERROR
+
+A bus path error.
+
+
+##### - ErrorType.ERRTYP_POISONED
+
+A read operation was issued to data that has been corrupted.
+
+
+##### - ErrorType.ERRTYP_PROTOCOL
+
+A bus protocol error.
+
+
+##### - ErrorType.ERRTYP_RESPONSE
+
+A response was received that was not associated with a request.
+
+
+##### - ErrorType.ERRTYP_SELFTEST
+
+The component failed self test.
+
+
+##### - ErrorType.ERRTYP_TIMEOUT
+
+A bus timeout error.
+
+
+##### - ErrorType.ERRTYP_TLB
+
+A translation lookaside buffer error.
+
+
+##### - ErrorType.ERRTYP_UNIMPL
+
+An access to a memory address that is not mapped to any component.
 
 
 ## -remarks

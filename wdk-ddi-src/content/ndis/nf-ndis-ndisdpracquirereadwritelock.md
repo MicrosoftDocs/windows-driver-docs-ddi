@@ -7,7 +7,7 @@ old-location: netvista\ndisdpracquirereadwritelock.htm
 old-project: netvista
 ms.assetid: 09B574FA-BCBA-4370-8F9F-BF30CE0BE52D
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisDprAcquireReadWriteLock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisDprAcquireReadWriteLock function
@@ -73,14 +73,7 @@ A Boolean value. If the value is TRUE, this function is provided with write acce
      resources; if the value is FALSE, this function is provided with read access.
 
 
-### -param param
-
-TBD
-
-
-
-
-#### - LockState [out]
+### -param LockState [out]
 
 A pointer to an opaque variable that tracks the state of the lock. This variable exists in the
      interval between the time the caller acquires and releases the lock. The caller must use a different

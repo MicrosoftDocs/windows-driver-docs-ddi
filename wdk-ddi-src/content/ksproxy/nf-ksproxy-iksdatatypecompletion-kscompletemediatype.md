@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsDataTypeCompletion.KsCompleteMediaType
-title: IKsDataTypeCompletion::KsCompleteMediaType method
+title: IKsDataTypeCompletion::KsCompleteMediaType
 author: windows-driver-content
 description: The KsCompleteMediaType method completes a partially-specified media type that was first presented to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion_kscompletemediatype.htm
 old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDataTypeCompletion, IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, KsCompleteMediaType,IKsDataTypeCompletion.KsCompleteMediaType, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype
+ms.date: 4/23/2018
+ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices],KsCompleteMediaType method, IKsDataTypeCompletion.KsCompleteMediaType, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices],IKsDataTypeCompletion interface, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsDataTypeCompletion::KsCompleteMediaType method
+# IKsDataTypeCompletion::KsCompleteMediaType
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\rilmsgserviceinfomsgsupport.htm
 old-project: netvista
 ms.assetid: b09a5b1d-b8da-4a75-b2d5-ee07072d45aa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport, ntddrilapitypes/RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RIL_MSI_SMS_BROADCAST, ntddrilapitypes/RIL_MSI_SMS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices

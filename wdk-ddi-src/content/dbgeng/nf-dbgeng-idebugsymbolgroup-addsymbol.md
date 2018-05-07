@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.AddSymbol
-title: IDebugSymbolGroup::AddSymbol method
+title: IDebugSymbolGroup::AddSymbol
 author: windows-driver-content
 description: The AddSymbol method adds a symbol to a symbol group.
 old-location: debugger\addsymbol.htm
 old-project: debugger
 ms.assetid: b77de459-b5ac-4752-89eb-f24fdde36134
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddSymbol method [Windows Debugging], AddSymbol method [Windows Debugging], IDebugSymbolGroup interface, AddSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, AddSymbol,IDebugSymbolGroup.AddSymbol, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], AddSymbol method, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbol method, IDebugSymbolGroup2::AddSymbol, IDebugSymbolGroup::AddSymbol, dbgeng/IDebugSymbolGroup2::AddSymbol, dbgeng/IDebugSymbolGroup::AddSymbol, debugger.addsymbol
+ms.date: 4/24/2018
+ms.keywords: AddSymbol, AddSymbol method [Windows Debugging], AddSymbol method [Windows Debugging],IDebugSymbolGroup interface, AddSymbol method [Windows Debugging],IDebugSymbolGroup2 interface, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, IDebugSymbolGroup interface [Windows Debugging],AddSymbol method, IDebugSymbolGroup.AddSymbol, IDebugSymbolGroup2 interface [Windows Debugging],AddSymbol method, IDebugSymbolGroup2::AddSymbol, IDebugSymbolGroup::AddSymbol, dbgeng/IDebugSymbolGroup2::AddSymbol, dbgeng/IDebugSymbolGroup::AddSymbol, debugger.addsymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup::AddSymbol method
+# IDebugSymbolGroup::AddSymbol
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get__NewEnum
-title: IWDTFTargets2::get__NewEnum method
+title: IWDTFTargets2::get__NewEnum
 author: windows-driver-content
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtftargets2__newenum.htm
 old-project: dtf
 ms.assetid: 05fcf329-ad69-4066-b3d1-dab38d09d075
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], _NewEnum property, IWDTFTargets2._NewEnum, IWDTFTargets2::get__NewEnum, Microsoft.WDTF.IWDTFTargets2._NewEnum, Microsoft::WDTF::IWDTFTargets2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework], IWDTFTargets2 interface, dtf.iwdtftargets2__newenum, get__NewEnum,IWDTFTargets2.get__NewEnum, wdtf/IWDTFTargets2::_NewEnum, wdtf/IWDTFTargets2::get__NewEnum
+ms.date: 4/4/2018
+ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],_NewEnum property, IWDTFTargets2._NewEnum, IWDTFTargets2.get__NewEnum, IWDTFTargets2::_NewEnum, IWDTFTargets2::get__NewEnum, Microsoft.WDTF.IWDTFTargets2._NewEnum, Microsoft::WDTF::IWDTFTargets2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2__newenum, get__NewEnum, wdtf/IWDTFTargets2::_NewEnum, wdtf/IWDTFTargets2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::get__NewEnum method
+# IWDTFTargets2::get__NewEnum
 
 
 ## -description

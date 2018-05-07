@@ -7,7 +7,7 @@ old-location: display\dxgkarg_controlinterrupt2.htm
 old-project: display
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,16 +63,14 @@ The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="https://msdn.microso
  
 
 
-
-
-#### - CrtcVsyncState
-
-Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
-
-
-#### - InterruptState
+### -field InterruptState
 
 Indicates whether  interrupts are enabled for the driver.
+
+
+### -field CrtcVsyncState
+
+Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
 
 
 ## -see-also

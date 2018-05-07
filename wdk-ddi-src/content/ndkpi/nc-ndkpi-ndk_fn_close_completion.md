@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_close_completion.htm
 old-project: netvista
 ms.assetid: EB3C395F-235A-4B9A-B777-E4E8CD8AFC3C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CLOSE_COMPLETION, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION callback, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CLOSE_COMPLETION callback
+# NDK_FN_CLOSE_COMPLETION callback function
 
 
 ## -description

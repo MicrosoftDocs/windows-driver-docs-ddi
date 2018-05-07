@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _PORT_CONFIGURATION_INFORMATION structure

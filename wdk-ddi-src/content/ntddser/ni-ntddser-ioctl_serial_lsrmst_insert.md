@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_lsrmst_insert.htm
 old-project: serports
 ms.assetid: 363ae373-5474-4c20-a382-20577a72521e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], ntddser/IOCTL_SERIAL_LSRMST_INSERT, serports.ioctl_serial_lsrmst_insert, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], ntddser/IOCTL_SERIAL_LSRMST_INSERT, serports.ioctl_serial_lsrmst_insert, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_LSRMST_INSERT IOCTL

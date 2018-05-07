@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CC8BEC9A-87F6-4C50-A8FA-ED2A2A5D2934
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_UART, _NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_CUSTOM, nfccx/NFC_CX_TRANSPORT_I2C, nfccx/NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type"
+ms.keywords: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_TYPE,*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE,*PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_UART, _NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_CUSTOM, nfccx/NFC_CX_TRANSPORT_I2C, nfccx/NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Requires same
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

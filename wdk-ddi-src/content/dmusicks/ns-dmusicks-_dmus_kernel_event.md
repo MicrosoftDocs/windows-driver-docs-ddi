@@ -7,7 +7,7 @@ old-location: audio\dmus_kernel_event.htm
 old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], _DMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, audio.dmus_kernel_event, dmusicks/DMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,20 +124,17 @@ Pointer to the next event in the list, or <b>NULL</b> if no event follows. This 
 ### -field uData
 
 
-
-#### abData
+### -field uData.abData
 
 A byte array containing <b>cbEvent</b> bytes of event data. The event data are typically MIDI status and data bytes. This member of <b>uData</b> is used if <b>cbEvent</b> is less than or equal to <b>sizeof</b>(PBYTE).
 
 
-
-#### pbData
+### -field uData.pbData
 
 Pointer to a buffer containing <b>cbEvent</b> bytes of event data. The event data are typically MIDI status and data bytes. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_EVENT_COMPLETE and <b>cbEvent</b> is greater than <b>sizeof</b>(PBYTE).
 
 
-
-#### pPackageEvt
+### -field uData.pPackageEvt
 
 Pointer to a chain of events, which is in the form of a linked list of DMUS_KERNEL_EVENT structures. The event data typically consist of MIDI status and data bytes. The events in the list are to be handled together. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_PACKAGE_EVENT.
 

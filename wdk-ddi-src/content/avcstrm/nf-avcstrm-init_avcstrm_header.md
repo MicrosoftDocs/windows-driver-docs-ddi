@@ -7,7 +7,7 @@ old-location: stream\init_avcstrm_header.htm
 old-project: stream
 ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: AVCSTRM_FUNCTION
+req.typenames: 
 ---
 
 # INIT_AVCSTRM_HEADER macro

@@ -7,7 +7,7 @@ old-location: ifsk\mmcanfilebetruncated.htm
 old-project: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, ntifs/MmCanFileBeTruncated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # MmCanFileBeTruncated function

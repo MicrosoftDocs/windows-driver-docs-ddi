@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget2.FormatRequestForSetInformation
-title: IWDFIoTarget2::FormatRequestForSetInformation method
+title: IWDFIoTarget2::FormatRequestForSetInformation
 author: windows-driver-content
 description: The FormatRequestForSetInformation method formats an I/O request to set information about a file, but it does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforsetinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: FormatRequestForSetInformation method, FormatRequestForSetInformation method, IWDFIoTarget2 interface, FormatRequestForSetInformation,IWDFIoTarget2.FormatRequestForSetInformation, IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForSetInformation method, IWDFIoTarget2::FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, umdf.iwdfiotarget2_formatrequestforsetinformation, wdf.iwdfiotarget2_formatrequestforsetinformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation
+ms.keywords: FormatRequestForSetInformation, FormatRequestForSetInformation method, FormatRequestForSetInformation method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForSetInformation method, IWDFIoTarget2.FormatRequestForSetInformation, IWDFIoTarget2::FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, umdf.iwdfiotarget2_formatrequestforsetinformation, wdf.iwdfiotarget2_formatrequestforsetinformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget2::FormatRequestForSetInformation method
+# IWDFIoTarget2::FormatRequestForSetInformation
 
 
 ## -description

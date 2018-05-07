@@ -7,8 +7,8 @@ old-location: netvista\UpdateNetBufferListDestinations.htm
 old-project: netvista
 ms.assetid: 9A740524-0FC1-4585-8059-F678D4777F66
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS, UpdateNetBufferListDestinations, UpdateNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], ndis/UpdateNetBufferListDestinations, netvista.UpdateNetBufferListDestinations
+ms.date: 4/25/2018
+ms.keywords: NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS callback, UpdateNetBufferListDestinations, UpdateNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], ndis/UpdateNetBufferListDestinations, netvista.UpdateNetBufferListDestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS callback
+# NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS callback function
 
 
 ## -description

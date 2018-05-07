@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AddSyntheticSymbol
-title: IDebugSymbols3::AddSyntheticSymbol method
+title: IDebugSymbols3::AddSyntheticSymbol
 author: windows-driver-content
 description: The AddSyntheticSymbol method adds a synthetic symbol to a module in the current process.
 old-location: debugger\addsyntheticsymbol.htm
 old-project: debugger
 ms.assetid: 17fe1fbc-ca55-4d4d-af79-73baad410bfb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbol,IDebugSymbols3.AddSyntheticSymbol, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbol method, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol
+ms.date: 4/24/2018
+ms.keywords: AddSyntheticSymbol, AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticSymbol method, IDebugSymbols3.AddSyntheticSymbol, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::AddSyntheticSymbol method
+# IDebugSymbols3::AddSyntheticSymbol
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PopOutputLinePrefix
-title: IDebugClient5::PopOutputLinePrefix method
+title: IDebugClient5::PopOutputLinePrefix
 author: windows-driver-content
 description: Restores a previously saved output line prefix.
 old-location: debugger\idebugclient5_popoutputlineprefix.htm
 old-project: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PopOutputLinePrefix,IDebugClient5.PopOutputLinePrefix, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],PopOutputLinePrefix method, IDebugClient5.PopOutputLinePrefix, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::PopOutputLinePrefix method
+# IDebugClient5::PopOutputLinePrefix
 
 
 ## -description

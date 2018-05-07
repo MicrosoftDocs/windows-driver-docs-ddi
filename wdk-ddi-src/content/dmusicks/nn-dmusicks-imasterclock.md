@@ -7,8 +7,8 @@ old-location: audio\imasterclock.htm
 old-project: audio
 ms.assetid: 754aad8a-834c-4197-8505-dbf1cd74c697
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMasterClock, IMasterClock interface [Audio Devices], IMasterClock interface [Audio Devices], described, audio.imasterclock, audmp-routines_b8172e0e-55ac-4abd-8b62-39be5d708f9b.xml, dmusicks/IMasterClock
+ms.date: 4/16/2018
+ms.keywords: IMasterClock, IMasterClock interface [Audio Devices], IMasterClock interface [Audio Devices],described, audio.imasterclock, audmp-routines_b8172e0e-55ac-4abd-8b62-39be5d708f9b.xml, dmusicks/IMasterClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
 # IMasterClock interface

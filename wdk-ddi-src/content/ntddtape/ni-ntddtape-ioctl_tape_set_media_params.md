@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c1411e72-84b4-4021-bed6-17308415be3a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_TAPE_SET_MEDIA_PARAMS, IOCTL_TAPE_SET_MEDIA_PARAMS control code [Storage Devices], k307_c549601d-5c5e-452b-8880-844820207215.xml, ntddtape/IOCTL_TAPE_SET_MEDIA_PARAMS, storage.ioctl_tape_set_media_params
+ms.keywords: IOCTL_TAPE_SET_MEDIA_PARAMS, IOCTL_TAPE_SET_MEDIA_PARAMS control, IOCTL_TAPE_SET_MEDIA_PARAMS control code [Storage Devices], k307_c549601d-5c5e-452b-8880-844820207215.xml, ntddtape/IOCTL_TAPE_SET_MEDIA_PARAMS, storage.ioctl_tape_set_media_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_DRIVE_PROBLEM_TYPE
+req.typenames: 
 ---
 
 # IOCTL_TAPE_SET_MEDIA_PARAMS IOCTL

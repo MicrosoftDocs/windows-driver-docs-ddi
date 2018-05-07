@@ -7,7 +7,7 @@ old-location: print\getinfo_glyphbitmap.htm
 old-project: print
 ms.assetid: 6a5887fd-0269-4cd1-acf1-f7242016d993
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], PGETINFO_GLYPHBITMAP, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], _GETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml, printoem/GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHBITMAP, *PGETINFO_GLYPHBITMAP
-req.product: Windows 10 or later.
 ---
 
 # _GETINFO_GLYPHBITMAP structure

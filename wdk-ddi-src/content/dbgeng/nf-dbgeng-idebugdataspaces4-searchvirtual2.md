@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.SearchVirtual2
-title: IDebugDataSpaces4::SearchVirtual2 method
+title: IDebugDataSpaces4::SearchVirtual2
 author: windows-driver-content
 description: The SearchVirtual2 method searches the process's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual2.htm
 old-project: debugger
 ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual2,IDebugDataSpaces4.SearchVirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],SearchVirtual2 method, IDebugDataSpaces4.SearchVirtual2, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::SearchVirtual2 method
+# IDebugDataSpaces4::SearchVirtual2
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\pfnevictcb.htm
 old-project: display
 ms.assetid: 5E66A522-BC1C-4E7C-8732-87D40F99BBDA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_EVICTCB, d3dumddi/pfnEvictCb, display.pfnevictcb, pfnEvictCb, pfnEvictCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_EVICTCB, PFND3DDDI_EVICTCB callback, d3dumddi/pfnEvictCb, display.pfnevictcb, pfnEvictCb, pfnEvictCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_EVICTCB callback
+# PFND3DDDI_EVICTCB callback function
 
 
 ## -description

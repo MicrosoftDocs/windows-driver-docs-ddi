@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_DISPOSITION
-req.product: Windows 10 or later.
 ---
 
 # _WDF_PROPERTY_STORE_DISPOSITION enumeration

@@ -66,14 +66,12 @@ The signature of an input buffer that does not include an argument, which must b
 ### -field DUMMYUNIONNAME
 
 
-
-#### MethodName
+### -field DUMMYUNIONNAME.MethodName
 
 A four-element ASCII character array that contains the name of a control method, for example, 'ABCD.' 
 
 
-
-#### MethodNameAsUlong
+### -field DUMMYUNIONNAME.MethodNameAsUlong
 
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.' 
 

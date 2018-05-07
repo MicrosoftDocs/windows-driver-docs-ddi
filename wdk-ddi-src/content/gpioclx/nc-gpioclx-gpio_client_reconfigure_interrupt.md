@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 2F654D79-7DB6-45C4-8E6D-2EBAEF2DA7F5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_ReconfigureInterrupt, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], GPIO.client_reconfigureinterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
+ms.keywords: CLIENT_ReconfigureInterrupt, CLIENT_ReconfigureInterrupt callback, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], GPIO.client_reconfigureinterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_RECONFIGURE_INTERRUPT callback
+# GPIO_CLIENT_RECONFIGURE_INTERRUPT callback function
 
 
 ## -description

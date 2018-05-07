@@ -7,7 +7,7 @@ old-location: buses\usbd_interface_information.htm
 old-project: usbref
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], _USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _USBD_INTERFACE_INFORMATION structure

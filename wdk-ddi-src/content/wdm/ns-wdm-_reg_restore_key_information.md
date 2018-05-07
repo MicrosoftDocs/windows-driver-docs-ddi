@@ -7,7 +7,7 @@ old-location: kernel\reg_restore_key_information.htm
 old-project: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, wdm/PREG_RESTORE_KEY_INFORMATION, wdm/REG_RESTORE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: REG_RESTORE_KEY_INFORMATION, *PREG_RESTORE_KEY_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _REG_RESTORE_KEY_INFORMATION structure

@@ -7,7 +7,7 @@ old-location: kernel\io_priority_hint.htm
 old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IO_PRIORITY_HINT, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityCritical, IoPriorityHigh, IoPriorityLow, IoPriorityNormal, IoPriorityVeryLow, MaxIoPriorityTypes, _IO_PRIORITY_HINT, kernel.io_priority_hint, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IO_PRIORITY_HINT, wdm/IoPriorityCritical, wdm/IoPriorityHigh, wdm/IoPriorityLow, wdm/IoPriorityNormal, wdm/IoPriorityVeryLow, wdm/MaxIoPriorityTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IO_PRIORITY_HINT
-req.product: Windows 10 or later.
 ---
 
 # _IO_PRIORITY_HINT enumeration

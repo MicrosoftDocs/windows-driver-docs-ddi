@@ -7,7 +7,7 @@ old-location: netvista\wwan_device_caps.htm
 old-project: netvista
 ms.assetid: a8f9bea7-dafe-41be-a6c7-521b78a274ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_a809d2dc-68a8-45dd-b5b0-bfe519ffc3d7.xml, _WWAN_DEVICE_CAPS, netvista.wwan_device_caps, wwan/PWWAN_DEVICE_CAPS, wwan/WWAN_DEVICE_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_CAPS, *PWWAN_DEVICE_CAPS
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_DEVICE_CAPS structure

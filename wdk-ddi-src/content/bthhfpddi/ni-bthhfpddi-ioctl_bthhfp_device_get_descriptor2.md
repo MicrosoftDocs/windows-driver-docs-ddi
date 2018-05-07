@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_device_get_descriptor2.htm
 old-project: audio
 ms.assetid: B72D0236-1C2B-4D0B-86B4-4E9B667BA1B3
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor2, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor2, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 IOCTL

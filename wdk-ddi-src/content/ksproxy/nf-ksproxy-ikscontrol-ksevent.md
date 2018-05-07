@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsControl.KsEvent
-title: IKsControl::KsEvent method
+title: IKsControl::KsEvent
 author: windows-driver-content
 description: The KsEvent method enables or disables an event, along with any other defined support operations available on an event set.
 old-location: stream\ikscontrol_ksevent.htm
 old-project: stream
 ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsEvent method, IKsControl::KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices], IKsControl interface, KsEvent,IKsControl.KsEvent, ksproxy/IKsControl::KsEvent, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, stream.ikscontrol_ksevent
+ms.date: 4/23/2018
+ms.keywords: IKsControl interface [Streaming Media Devices],KsEvent method, IKsControl.KsEvent, IKsControl::KsEvent, KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsEvent, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, stream.ikscontrol_ksevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsControl::KsEvent method
+# IKsControl::KsEvent
 
 
 ## -description

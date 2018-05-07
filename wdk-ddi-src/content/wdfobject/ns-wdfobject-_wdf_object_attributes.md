@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_ATTRIBUTES, *PWDF_OBJECT_ATTRIBUTES
-req.product: Windows 10 or later.
 ---
 
 # _WDF_OBJECT_ATTRIBUTES structure

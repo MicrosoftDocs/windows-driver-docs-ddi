@@ -7,7 +7,7 @@ old-location: ifsk\rxdereference.htm
 old-project: ifsk
 ms.assetid: 4f63fc92-56e3-4414-a912-09ed0de59c92
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxDereference, RxDereference function [Installable File System Drivers], ifsk.rxdereference, rxprocs/RxDereference, rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxDereference function

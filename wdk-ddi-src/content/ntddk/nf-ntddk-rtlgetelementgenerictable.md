@@ -7,7 +7,7 @@ old-location: ifsk\rtlgetelementgenerictable.htm
 old-project: ifsk
 ms.assetid: 85b5fce8-eac4-4cd8-9a24-22564aae915a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlGetElementGenericTable, RtlGetElementGenericTable routine [Installable File System Drivers], ifsk.rtlgetelementgenerictable, ntddk/RtlGetElementGenericTable, rtlref_5127995d-65ea-4a8b-8b5b-ad64c7cc4c0d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlGetElementGenericTable function

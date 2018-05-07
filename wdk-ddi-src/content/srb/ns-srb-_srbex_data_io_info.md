@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO
-req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_IO_INFO structure

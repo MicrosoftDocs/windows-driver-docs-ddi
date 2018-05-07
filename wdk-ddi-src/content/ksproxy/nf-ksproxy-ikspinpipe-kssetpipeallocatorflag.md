@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPipeAllocatorFlag
-title: IKsPinPipe::KsSetPipeAllocatorFlag method
+title: IKsPinPipe::KsSetPipeAllocatorFlag
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpipeallocatorflag.htm
 old-project: stream
 ms.assetid: 0587E952-8B51-44C3-8E23-2981C00ADB43
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipeAllocatorFlag method, IKsPinPipe::KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag method [Streaming Media Devices], KsSetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, KsSetPipeAllocatorFlag,IKsPinPipe.KsSetPipeAllocatorFlag, ksproxy/IKsPinPipe::KsSetPipeAllocatorFlag, stream.ikspinpipe_kssetpipeallocatorflag
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipeAllocatorFlag method, IKsPinPipe.KsSetPipeAllocatorFlag, IKsPinPipe::KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag method [Streaming Media Devices], KsSetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipeAllocatorFlag, stream.ikspinpipe_kssetpipeallocatorflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsSetPipeAllocatorFlag method
+# IKsPinPipe::KsSetPipeAllocatorFlag
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxsendcompleteindication.htm
 old-project: netvista
 ms.assetid: A38BA15D-FDD8-41D1-87ED-2CABC1926962
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NDIS_WDI_TX_SEND_COMPLETE_IND callback, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_TX_SEND_COMPLETE_IND callback
+# NDIS_WDI_TX_SEND_COMPLETE_IND callback function
 
 
 ## -description

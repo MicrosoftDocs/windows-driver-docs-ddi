@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlinsertperstreamcontext.htm
 old-project: ifsk
 ms.assetid: d1592021-7765-4553-bcb0-9124af44123f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlInsertPerStreamContext, FsRtlInsertPerStreamContext routine [Installable File System Drivers], fsrtlref_91ced881-cdb2-41ca-b569-992d6b43e2f4.xml, ifsk.fsrtlinsertperstreamcontext, ntifs/FsRtlInsertPerStreamContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlInsertPerStreamContext function

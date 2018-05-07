@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_update_20_hardware_lpm_parameters.htm
 old-project: usbref
 ms.assetid: B02CB10F-18C9-4E2C-9F30-042588800EA5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure pointer [Buses], USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure [Buses], _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, buses._usbdevice_update_20_hardware_lpm_parameters, ucxusbdevice/P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure

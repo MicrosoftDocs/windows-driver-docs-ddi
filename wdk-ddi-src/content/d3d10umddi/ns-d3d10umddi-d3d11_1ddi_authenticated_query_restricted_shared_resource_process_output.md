@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_query_restricted_shared_resource_
 old-project: display
 ms.assetid: 91df98c0-185d-438c-b4e8-b4003a9c717f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT, display.d3d11_1ddi_authenticated_query_restricted_shared_resource_process_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

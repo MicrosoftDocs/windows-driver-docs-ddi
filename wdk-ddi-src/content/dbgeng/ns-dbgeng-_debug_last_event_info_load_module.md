@@ -7,7 +7,7 @@ old-location: debugger\debug_last_event_info_load_module.htm
 old-project: debugger
 ms.assetid: 0C2371FE-935A-499B-8E7C-09AA6C03FC90
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, debugger.debug_last_event_info_load_module"
 ms.prod: windows-hardware
 ms.technology: windows-devices

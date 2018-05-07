@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CommitPnpState
-title: IWDFDevice::CommitPnpState method
+title: IWDFDevice::CommitPnpState
 author: windows-driver-content
 description: The CommitPnpState method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the IWDFDevice::SetPnpState method set.
 old-location: wdf\iwdfdevice_commitpnpstate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 650ad98a-81e5-4ec8-b276-a5dc79366652
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CommitPnpState method, CommitPnpState method, IWDFDevice interface, CommitPnpState,IWDFDevice.CommitPnpState, IWDFDevice, IWDFDevice interface, CommitPnpState method, IWDFDevice::CommitPnpState, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, umdf.iwdfdevice_commitpnpstate, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState
+ms.keywords: CommitPnpState, CommitPnpState method, CommitPnpState method,IWDFDevice interface, IWDFDevice interface,CommitPnpState method, IWDFDevice.CommitPnpState, IWDFDevice::CommitPnpState, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, umdf.iwdfdevice_commitpnpstate, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::CommitPnpState method
+# IWDFDevice::CommitPnpState
 
 
 ## -description

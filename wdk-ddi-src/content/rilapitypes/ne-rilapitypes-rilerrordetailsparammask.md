@@ -7,7 +7,7 @@ old-location: netvista\rilerrordetailsparammask.htm
 old-project: netvista
 ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILERRORDETAILSPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILERRORDETAILSPARAMMASK enumeration

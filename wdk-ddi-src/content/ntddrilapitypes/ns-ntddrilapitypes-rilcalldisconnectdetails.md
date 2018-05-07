@@ -7,7 +7,7 @@ old-location: netvista\rilcalldisconnectdetails.htm
 old-project: netvista
 ms.assetid: c933e219-47bb-4896-b5ee-bd2fd59f4e8c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,6 +62,36 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 
 ### -field causeUnion
+
+
+### -field causeUnion.unGPPCause
+
+ 
+
+
+### -field causeUnion.unGPPRejectCause
+
+ 
+
+
+### -field causeUnion.unGPP2Cause
+
+ 
+
+
+### -field causeUnion.unIMSSIPCause
+
+ 
+
+
+### -field causeUnion.dwASCode
+
+ 
+
+
+### -field causeUnion.dwOtherCode
+
+ 
 
 
 ### -field RILCAUSEUNION

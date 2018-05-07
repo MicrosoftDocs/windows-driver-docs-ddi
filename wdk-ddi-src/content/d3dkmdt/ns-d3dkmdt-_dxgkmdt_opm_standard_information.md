@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_standard_information.htm
 old-project: display
 ms.assetid: 5862e6eb-acf8-4034-ad8f-d59f87c49596
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, _DXGKMDT_OPM_STANDARD_INFORMATION, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information
 ms.prod: windows-hardware
 ms.technology: windows-devices

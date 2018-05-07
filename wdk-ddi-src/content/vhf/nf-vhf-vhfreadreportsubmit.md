@@ -7,7 +7,7 @@ old-location: hid\vhfreadreportsubmit.htm
 old-project: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, vhf/VhfReadReportSubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VhfReadReportSubmit function

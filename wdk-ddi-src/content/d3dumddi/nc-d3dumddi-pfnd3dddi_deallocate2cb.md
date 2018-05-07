@@ -7,8 +7,8 @@ old-location: display\pfndeallocate2cb.htm
 old-project: display
 ms.assetid: 68C7EC44-D744-4C69-86D9-35B3B089875A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_DEALLOCATE2CB, d3dumddi/pfnDeallocate2Cb, display.pfndeallocate2cb, pfnDeallocate2Cb, pfnDeallocate2Cb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_DEALLOCATE2CB, PFND3DDDI_DEALLOCATE2CB callback, d3dumddi/pfnDeallocate2Cb, display.pfndeallocate2cb, pfnDeallocate2Cb, pfnDeallocate2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DEALLOCATE2CB callback
+# PFND3DDDI_DEALLOCATE2CB callback function
 
 
 ## -description

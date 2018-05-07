@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_DRIVER_REQUEST_DATA
 title: GNSS_DRIVER_REQUEST_DATA
 author: windows-driver-content
 description: This structure contains driver data request information.
-old-location: sensors\gnss_driver_request_data.htm
-old-project: sensors
+old-location: gnss\gnss_driver_request_data.htm
+old-project: gnss
 ms.assetid: 801FBD9D-304A-41AC-AD28-00DE95DEFE63
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: GNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_DRIVER_REQUEST_DATA, gnssdriver/PGNSS_DRIVER_REQUEST_DATA, sensors.gnss_driver_request_data
+ms.date: 2/15/2018
+ms.keywords: GNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], gnss.gnss_driver_request_data, gnssdriver/GNSS_DRIVER_REQUEST_DATA, gnssdriver/PGNSS_DRIVER_REQUEST_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

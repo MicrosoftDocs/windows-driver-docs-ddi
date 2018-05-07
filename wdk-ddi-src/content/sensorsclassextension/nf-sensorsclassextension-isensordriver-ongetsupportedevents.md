@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedEvents
-title: ISensorDriver::OnGetSupportedEvents method
+title: ISensorDriver::OnGetSupportedEvents
 author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedEvents method retrieves the list of events that the specified sensor can raise.
 old-location: sensors\isensordriver_ongetsupportedevents.htm
 old-project: sensors
 ms.assetid: b323f803-56fb-44db-9b88-be25062c08ff
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], OnGetSupportedEvents,ISensorDriver.OnGetSupportedEvents, sensors.isensordriver_ongetsupportedevents
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedEvents method, ISensorDriver.OnGetSupportedEvents, ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], OnGetSupportedEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedevents, sensorsclassextension/ISensorDriver::OnGetSupportedEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnGetSupportedEvents method
+# ISensorDriver::OnGetSupportedEvents
 
 
 ## -description
@@ -93,4 +92,15 @@ Event IDs are represented by <b>GUID</b>s. Platform-defined events are defined i
 You must use CoTaskMemAlloc to create the event ID buffer. The sensor class extension frees this memory.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

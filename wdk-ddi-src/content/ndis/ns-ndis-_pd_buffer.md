@@ -7,7 +7,7 @@ old-location: netvista\pd_buffer.htm
 old-project: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: PD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -159,8 +159,7 @@ The length of the this packet or partial packet data.
 ### -field MetaDataV0
 
 
-
-#### RxFilterContext
+### -field MetaDataV0.RxFilterContext
 
 The provider sets this to the filter context value obtained
                 from the matched filter that steered the packet to the receive
@@ -168,23 +167,10 @@ The provider sets this to the filter context value obtained
                 when configuring filters.
 
 
-
-#### GftFlowEntryId
+### -field MetaDataV0.GftFlowEntryId
 
 If one of the RxGftExceptionPacket or RxGftCopyPacket or RxGftSamplePacket bits are set, the RxFilterContext value is
                 overwritten with a GFT flow entry Id value.
-
-
-
-#### RxOffloads
-
-RX offloads for this buffer.
-
-
-
-#### TxOffloads
-
-TX offloads for this buffer.
 
 
 ### -field MetaDataV0.RxHashValue
@@ -268,6 +254,11 @@ A common RX offload field that contains the amount of coalesced segments.
 A common RX offload field that contains RSC and TCP timestamp difference.
 
 
+### -field MetaDataV0.RxOffloads
+
+RX offloads for this buffer.
+
+
 ### -field MetaDataV0.TxIsIPv4
 
 A common TX offload field that indicates this packet is IPv4.
@@ -336,6 +327,11 @@ A common TX offload field that indicates the inner packet is IPv6.
 ### -field MetaDataV0.TxInnerTcpOptionsPresent
 
 A common TX offload field that indicates the inner TCP options are present.
+
+
+### -field MetaDataV0.TxOffloads
+
+TX offloads for this buffer.
 
 
 ### -field MetaDataV0.VirtualSubnetInfo

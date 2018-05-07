@@ -7,8 +7,8 @@ old-location: debugger\idebugfaentrytags.htm
 old-project: debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
+ms.date: 4/24/2018
+ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging],described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
 # IDebugFAEntryTags interface

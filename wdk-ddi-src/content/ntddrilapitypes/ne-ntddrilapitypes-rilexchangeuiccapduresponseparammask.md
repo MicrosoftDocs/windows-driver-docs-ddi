@@ -7,7 +7,7 @@ old-location: netvista\rilexchangeuiccapduresponseparammask.htm
 old-project: netvista
 ms.assetid: 24daa47b-993c-49ee-b4e2-462cd7570f3c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
 ms.prod: windows-hardware
 ms.technology: windows-devices

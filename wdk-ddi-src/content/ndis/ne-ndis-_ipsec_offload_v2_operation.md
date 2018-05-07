@@ -7,7 +7,7 @@ old-location: netvista\ipsec_offload_v2_operation.htm
 old-project: netvista
 ms.assetid: bb26c8af-1564-4cf8-ab40-b50b4811466d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], IPsecOffloadV2Ah, IPsecOffloadV2Esp, IPsecOffloadV2Max, PIPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_OPERATION, ndis/IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Ah, ndis/IPsecOffloadV2Esp, ndis/IPsecOffloadV2Max, ndis/PIPSEC_OFFLOAD_V2_OPERATION, netvista.ipsec_offload_v2_operation, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

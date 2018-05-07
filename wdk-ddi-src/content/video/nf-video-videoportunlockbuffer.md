@@ -7,7 +7,7 @@ old-location: display\videoportunlockbuffer.htm
 old-project: display
 ms.assetid: d5d34f32-026b-4c9f-86ae-a835d4e9c381
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortUnlockBuffer, VideoPortUnlockBuffer function [Display Devices], VideoPort_Functions_2cb5a81f-1956-4431-bf54-7ee6e3d79eab.xml, display.videoportunlockbuffer, video/VideoPortUnlockBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortUnlockBuffer function

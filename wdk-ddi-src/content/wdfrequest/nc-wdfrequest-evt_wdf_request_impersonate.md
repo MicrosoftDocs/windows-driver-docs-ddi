@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
+ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_REQUEST_IMPERSONATE callback
+# EVT_WDF_REQUEST_IMPERSONATE callback function
 
 
 ## -description

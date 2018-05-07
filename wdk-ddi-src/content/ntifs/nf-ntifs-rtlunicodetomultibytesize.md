@@ -7,7 +7,7 @@ old-location: ifsk\rtlunicodetomultibytesize.htm
 old-project: ifsk
 ms.assetid: 603a5554-2e61-49f1-a4b1-e0f0f3ba36c8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize routine [Installable File System Drivers], ifsk.rtlunicodetomultibytesize, ntifs/RtlUnicodeToMultiByteSize, rtlref_f0366c3a-b185-45f3-a7e2-541168b842d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlUnicodeToMultiByteSize function

@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediaofferanswer.htm
 old-project: netvista
 ms.assetid: 6d8ad287-a4bf-4db8-9fff-a4cb1df42dda
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswer, ntddrilapitypes/RILCALLMEDIAOFFERANSWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
-req.product: Windows 10 or later.
 ---
 
 # RILCALLMEDIAOFFERANSWER structure

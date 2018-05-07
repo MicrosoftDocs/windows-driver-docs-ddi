@@ -7,7 +7,7 @@ old-location: netvista\ndis_hypervisor_partition_type.htm
 old-project: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

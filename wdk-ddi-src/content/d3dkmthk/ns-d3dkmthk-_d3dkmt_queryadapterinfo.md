@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryadapterinfo.htm
 old-project: display
 ms.assetid: 2bc9afc3-2fcf-4f62-85d4-67f824733904
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO structure [Display Devices], OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, _D3DKMT_QUERYADAPTERINFO, d3dkmthk/D3DKMT_QUERYADAPTERINFO, display.d3dkmt_queryadapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.SetPrint
-title: ExtRemoteTyped::SetPrint method
+title: ExtRemoteTyped::SetPrint
 author: windows-driver-content
 description: The SetPrint method sets the typed data represented by the ExtRemoteTyped object by formatting an expression and then evaluating that expression.
 old-location: debugger\extremotetyped_setprint.htm
 old-project: debugger
 ms.assetid: ae478779-8ec1-4a50-a37c-3017aca2c912
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], SetPrint method, ExtRemoteTyped::SetPrint, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging], ExtRemoteTyped interface, SetPrint,ExtRemoteTyped.SetPrint, debugger.extremotetyped_setprint
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped interface [Windows Debugging],SetPrint method, ExtRemoteTyped.SetPrint, ExtRemoteTyped::SetPrint, SetPrint, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_setprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::SetPrint method
+# ExtRemoteTyped::SetPrint
 
 
 ## -description

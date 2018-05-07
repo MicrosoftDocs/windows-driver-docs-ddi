@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS
-req.product: Windows 10 or later.
 ---
 
 # _MINIPORT_DUMP_POINTERS structure

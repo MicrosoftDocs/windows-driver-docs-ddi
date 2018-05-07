@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.EvaluateWide
-title: IDebugControl4::EvaluateWide method
+title: IDebugControl4::EvaluateWide
 author: windows-driver-content
 description: The EvaluateWide method evaluates an expression, returning the result.
 old-location: debugger\evaluatewide.htm
 old-project: debugger
 ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging], IDebugControl4 interface, EvaluateWide,IDebugControl4.EvaluateWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], EvaluateWide method, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide
+ms.date: 4/24/2018
+ms.keywords: EvaluateWide, EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],EvaluateWide method, IDebugControl4.EvaluateWide, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::EvaluateWide method
+# IDebugControl4::EvaluateWide
 
 
 ## -description

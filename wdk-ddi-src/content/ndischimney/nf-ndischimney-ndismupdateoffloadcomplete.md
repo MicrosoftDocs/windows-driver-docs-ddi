@@ -7,7 +7,7 @@ old-location: netvista\ndismupdateoffloadcomplete.htm
 old-project: netvista
 ms.assetid: aa2c549c-eb16-4d59-9280-1913c8c0266a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMUpdateOffloadComplete, NdisMUpdateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMUpdateOffloadComplete, netvista.ndismupdateoffloadcomplete, tcp_chim_ndis_func_c525f7d7-2a4d-47ef-8337-85551fb1f7ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
 # NdisMUpdateOffloadComplete function

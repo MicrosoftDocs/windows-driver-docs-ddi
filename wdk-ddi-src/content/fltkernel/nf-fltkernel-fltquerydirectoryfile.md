@@ -7,7 +7,7 @@ old-location: ifsk\fltquerydirectoryfile.htm
 old-project: ifsk
 ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_d91e48f4-f6a2-4f36-a5f6-9e39821446c2.xml, FltQueryDirectoryFile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltQueryDirectoryFile function

@@ -7,8 +7,8 @@ old-location: serports\evtsercx2customtransmittransactioninitialize.htm
 old-project: serports
 ms.assetid: CFC577D6-747F-4752-8CB6-7410C21487B6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2CustomTransmitTransactionInitialize, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE, EvtSerCx2CustomTransmitTransactionInitialize, EvtSerCx2CustomTransmitTransactionInitialize callback function [Serial Ports], serports.evtsercx2customtransmittransactioninitialize
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2CustomTransmitTransactionInitialize, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE callback, EvtSerCx2CustomTransmitTransactionInitialize, EvtSerCx2CustomTransmitTransactionInitialize callback function [Serial Ports], serports.evtsercx2customtransmittransactioninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE callback
+# EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE callback function
 
 
 ## -description

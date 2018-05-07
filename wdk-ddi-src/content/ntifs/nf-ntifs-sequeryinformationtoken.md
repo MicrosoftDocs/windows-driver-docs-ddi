@@ -7,7 +7,7 @@ old-location: ifsk\sequeryinformationtoken.htm
 old-project: ifsk
 ms.assetid: 97e28b53-8b4c-4f76-b6bb-21dad2233463
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: SeQueryInformationToken, SeQueryInformationToken routine [Installable File System Drivers], ifsk.sequeryinformationtoken, ntifs/SeQueryInformationToken, seref_80e09bda-ef06-4a25-ab50-d405f5539759.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # SeQueryInformationToken function

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_clear_stats.htm
 old-project: serports
 ms.assetid: b5549ab2-8978-4fe2-ac08-56e28179714e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_CLEAR_STATS IOCTL

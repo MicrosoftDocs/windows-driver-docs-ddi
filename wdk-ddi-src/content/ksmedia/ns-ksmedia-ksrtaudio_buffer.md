@@ -7,7 +7,7 @@ old-location: audio\ksrtaudio_buffer.htm
 old-project: audio
 ms.assetid: b80efaf0-ecee-40cd-befb-2139a20840a5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer, ksmedia/KSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

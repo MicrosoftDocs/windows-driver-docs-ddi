@@ -7,7 +7,7 @@ old-location: ifsk\rxpdereferencenetfcb.htm
 old-project: ifsk
 ms.assetid: 6e59a1c7-ddd4-40a6-8e75-879cbef010db
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers], fcb/RxpDereferenceNetFcb, ifsk.rxpdereferencenetfcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: 
 ---
 
 # RxpDereferenceNetFcb function
