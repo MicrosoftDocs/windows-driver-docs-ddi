@@ -1,6 +1,0 @@
-# [TBD](index.md)
-## [Netringbuffer.h](../netringbuffer/index.md)
-### [NetRingBufferGetElementAtIndex function](../netringbuffer/nf-netringbuffer-netringbuffergetelementatindex.md)
-### [NetRingBufferGetNumberOfElementsInRange function](../netringbuffer/nf-netringbuffer-netringbuffergetnumberofelementsinrange.md)
-### [NetRingBufferIncrementIndex function](../netringbuffer/nf-netringbuffer-netringbufferincrementindex.md)
-### [_NET_RING_BUFFER structure](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md)

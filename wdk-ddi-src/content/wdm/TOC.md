@@ -739,6 +739,7 @@
 ### [ObReferenceObjectByHandleWithTag function](../wdm/nf-wdm-obreferenceobjectbyhandlewithtag.md)
 ### [ObReferenceObjectByPointer function](../wdm/nf-wdm-obreferenceobjectbypointer.md)
 ### [ObReferenceObjectByPointerWithTag function](../wdm/nf-wdm-obreferenceobjectbypointerwithtag.md)
+### [ObReferenceObjectSafe function](../wdm/nf-wdm-obreferenceobjectsafe.md)
 ### [ObReferenceObjectWithTag macro](../wdm/nf-wdm-obreferenceobjectwithtag.md)
 ### [ObRegisterCallbacks function](../wdm/nf-wdm-obregistercallbacks.md)
 ### [ObReleaseObjectSecurity function](../wdm/nf-wdm-obreleaseobjectsecurity.md)

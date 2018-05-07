@@ -2,7 +2,7 @@
 UID: TP:devtest
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/01/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

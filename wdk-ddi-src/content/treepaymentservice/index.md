@@ -1,7 +1,8 @@
 ---
 UID: NA:treepaymentservice
+ms.assetid: 80d8fc9e-4f8b-394e-95cf-e754b58e720a
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 05/01/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -14,9 +15,6 @@ ms.topic: portal
 ## -description
 
 
-This header contains definitions used to invoke Secure Payment Service via a Trusted Execution Environment (TrEE). 
+This header is used by treedrv. For more information, see:
 
-For more information, see:
-
-- [TrEE drivers](../_treedrv/index.md)
-
+- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)

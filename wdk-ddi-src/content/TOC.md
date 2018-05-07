@@ -37,6 +37,7 @@
 ## [Streaming media devices](_stream/index.md)
 ## [Tbd](_TBD/index.md)
 ## [Test Authoring and Execution Framework (TAEF)](_taef/index.md)
+## [Trusted Execution Environment (TrEE)](_treedrv/index.md)
 ## [Universal Serial Bus (USB)](_usbref/index.md)
 ## [Windows Device Testing Framework (WDTF)](_dtf/index.md)
 ## [Windows Driver Framework](_wdf/index.md)

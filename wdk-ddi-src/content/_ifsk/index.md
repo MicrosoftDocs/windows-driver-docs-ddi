@@ -2,7 +2,7 @@
 UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/01/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
