@@ -2,7 +2,7 @@
 UID: TP:kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/01/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,13 +43,1646 @@ To develop Windows kernel, you need these headers:
  * [wdmsec.h](..\wdmsec\index.md)
  * [wmidata.h](..\wmidata\index.md)
  * [wmilib.h](..\wmilib\index.md)
- * [ntddsfio.h](..\ntddsfio\index.md)
- * [pwmutil.h](..\pwmutil\index.md)
  * [wmistr.h](..\wmistr\index.md)
 
 For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel).
 
-## Callback functions
+Standard driver routines must be implemented by your driver. Driver support routines are routines that the Windows operating system provides. Drivers do not use Microsoft Win32 routines; instead, they use the driver support routines that this section describes.
+The driver support routines in this section are organized by kernel-mode managers and libraries.
+
+
+## Standard Driver Routines
+Here are the required and optional routines that you must implement in your driver to respond to calls from Windows or other drivers. When these routines are called, your code must respond to the call and return the appropriate data in a timely manner.
+
+The following routines are required for all drivers:
+
+[DriverEntry](../wdm/nc-wdm-driver_initialize.md)
+[AddDevice](https://msdn.microsoft.com/en-us/library/windows/hardware/ff540521)
+[DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://msdn.microsoft.com/en-us/library/windows/hardware/ff543233) 
+[DriverUnload](https://msdn.microsoft.com/en-us/library/windows/hardware/ff564886)
+
+
+The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
+
+For more information about standard driver routines, see [Introduction to Standard Driver Routines](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines). 
+
+
+## Initialization and Unload
+
+This section summarizes kernel-mode support routines that can be called by drivers from their DriverEntry, AddDevice, Reinitialize, or Unload routines. 
+
+### Hardware Configuration
+
+Used for obtaining and reporting hardware configuration information about a driver's devices and the current platform. 
+
+|Function|Description|
+|---|---|
+|IoGetDeviceProperty|Retrieves device setup information from the registry. Use this routine, rather than accessing the registry directly, to insulate a driver from differences across platforms and from possible changes in the registry structure.|
+|IoReportDetectedDevice|Reports a non-PnP device to the PnP manager.|
+|IoReportResourceForDetection |Claims hardware resources in the configuration registry for a legacy device. This routine is for drivers that detect legacy hardware that cannot be enumerated by PnP.|
+|IoGetDmaAdapter |Returns a pointer to the DMA adapter structure that represents either the DMA channel to which a device is connected or the driver's bus-master adapter. |
+|IoGetConfigurationInformation|Returns a pointer to the I/O manager's configuration information structure, which indicates the number of disk, floppy, CD-ROM, tape, SCSI HBAs, serial, and parallel device objects that have already been named by previously loaded drivers, as well as whether certain address ranges have been claimed by "AT" disk-type drivers.|
+|HalExamineMBR|Returns data from the master boot record (MBR) of a disk. |
+|IoReadPartitionTable |Returns a list of partitions on a disk with a given sector size.|
+|IoInvalidateDeviceRelations |Notifies the PnP manager that the relations for a device have changed. The types of device relations include bus relations, ejection relations, removal relations, and the target device relation.|
+|IoInvalidateDeviceState |Notifies the PnP manager that some aspect of the PnP state of a device has changed. In response, the PnP manager sends an IRP_MN_QUERY_PNP_DEVICE_STATE to the device stack.|
+|IoRegisterPlugPlayNotification |Registers a driver callback routine to be called when a PnP event of the specified category occurs.|
+|IoUnregisterPlugPlayNotification |Removes the registration of a driver's callback routine for a PnP event.|
+|IoRequestDeviceEject |Notifies the PnP manager that the device eject button was pressed. This routine reports a request for device eject, not media eject.|
+|IoReportTargetDeviceChange |Notifies the PnP manager that a custom event has occurred on a device. The PnP manager sends notification of the event to drivers that registered for notification on the device. |
+
+
+The following routines are reserved for system use. Do not use them in your driver.
+
+HalAcquireDisplayOwnership
+HalAllocateAdapterChannel. Use AllocateAdapterChannel instead.
+HalAllocateCrashDumpRegisters
+HalAllocateMapRegisters
+HalGetScatterGatherList. Use GetScatterGatherList instead.
+HalMakeBeep
+HalPutDmaAdapter. Use PutDmaAdapter instead.
+HalPutScatterGatherList. Use PutScatterGatherList instead.
+
+The following obsolete routines are exported only to support existing drivers:
+
+HalAllocateCommonBuffer See AllocateCommonBuffer instead.
+HalAssignSlotResources Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.
+HalFreeCommonBuffer See FreeCommonBuffer instead.
+HalGetAdapter See IoGetDmaAdapter instead.
+HalGetBusData Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. 
+HalGetBusDataByOffset Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.
+HalGetDmaAlignmentRequirement See GetDmaAlignment instead.
+HalGetInterruptVector Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.
+HalReadDmaCounter See ReadDmaCounter instead.
+HalSetBusData Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. 
+HalSetBusDataByOffset Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. 
+HalTranslateBusAddress The PnP manager passes lists of raw and translated resources in its IIRP_MN_START_DEVICE request for each device. Consequently, in most cases there is no need to translate bus addresses. However, if translation is required, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. The query request returns a function pointer to TranslateBusAddress, which can be used to translates addresses on the parent bus to logical addresses.
+ 
+These obsolete routines are included in the Ntddk.h header file.
+
+The following routine is not supported and should not be used:
+
+HalReturnToFirmware 
+
+Windows performs resource balancing of PCI bus resources to open an address region for a plugged device. The rebalance operation causes the bus data for some driver's device to move dynamically (between IRP_MN_STOP_DEVICE and IRP_MN_START_DEVICE calls). Therefore, a driver must not access the bus data directly. Instead the driver must pass it down to the lower bus driver because it knows the location of the device. 
+
+For more information, see [Stopping a Device to Rebalance Resources](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/stopping-a-device-to-rebalance-resources). 
+
+
+### Registry
+
+Used for obtaining and reporting configuration information, and for registering interfaces in the registry.
+
+|Function|Description|
+|---|---|
+|IoGetDeviceProperty|Retrieves device setup information from the registry. Use this routine, rather than accessing the registry directly, to insulate a driver from differences across platforms and from possible changes in the registry structure.|
+|IoOpenDeviceInterfaceRegistryKey |Returns a handle to a registry key for storing information about a particular device interface.|
+|IoOpenDeviceRegistryKey |Returns a handle to a device-specific or a driver-specific registry key for a particular device instance. |
+|IoRegisterDeviceInterface |Registers device functionality (a device interface) that a driver will enable for use by applications or other system components. The I/O manager creates a registry key for the device interface. Drivers can access persistent storage under this key using IoOpenDeviceInterfaceRegistryKey.|
+|IoSetDeviceInterfaceState |Enables or disables a previously registered device interface. Applications and other system components can open only interfaces that are enabled.|
+|RtlCheckRegistryKey |Returns STATUS_SUCCESS if a key exists in the registry along the given relative path.|
+|RtlCreateRegistryKey |Adds a key object in the registry along the given relative path.|
+|RtlQueryRegistryValues |Gives a driver-supplied callback read-only access to the entries for a specified value name, along a specified relative path, in the registry, after the callback routine is given control.|
+|RtlWriteRegistryValue |Writes caller-supplied data into the registry along the specified relative path at the given value name.|
+|RtlDeleteRegistryValue |Removes the specified value name (and the associated value entries) from the registry along the given relative path.|
+|InitializeObjectAttributes |Sets up a parameter of type OBJECT_ATTRIBUTES for a subsequent call to a ZwCreateXxx or ZwOpenXxx routine.|
+|ZwCreateKey |Creates a new key in the registry with the given object's attributes, allowed access, and creation options (such as whether the key is created again when the system is booted). Alternatively, opens an existing key and returns a handle for the key object.|
+|ZwOpenKey |Returns a handle for a key in the registry given the object's attributes (which must include a name for the key) and the desired access to the object.|
+|ZwQueryKey |Returns information about the class of a key, and the number and sizes of its subkeys. This information includes, for example, the length of subkey names and the size of value entries.|
+|ZwEnumerateKey |Returns the specified information about the subkey, as selected by a zero-based index, of an opened key in the registry.|
+|ZwEnumerateValueKey |Returns the specified information about the value entry of a subkey, as selected by a zero-based index, of an opened key in the registry.|
+|ZwQueryValueKey |Returns the value entry for an opened key in the registry.|
+|ZwSetValueKey |Replaces (or creates) a value entry for an opened key in the registry.|
+|ZwFlushKey |Forces changes made by ZwCreateKey or ZwSetValueKey for the opened key object to be written to disk.|
+|ZwDeleteKey |Removes a key and its value entries from the registry as soon as the key is closed.|
+|ZwClose |Releases the handle for an opened object, causing the handle to become invalid and decrementing the reference count of the object handle.|
+
+ 
+### Objects and Resources
+
+Used for setting up and freeing the objects and resources that drivers might use. 
+|Function|Description|
+|---|---|
+|IoCreateDevice |Initializes a device object, which represents a physical, virtual, or logical device for which the driver is being loaded into the system. Then it allocates space for the driver-defined device extension associated with the device object. |
+|IoDeleteDevice |Removes a device object from the system when the underlying device is removed from the system.|
+|IoGetDeviceObjectPointer |Requests access to a named device object and returns a pointer to that device object if the requested access is granted. Also returns a pointer to the file object referenced by the named device object. In effect, this routine establishes a connection between the caller and the next-lower-level driver. |
+|IoAttachDeviceToDeviceStack |Attaches the caller's device object to the highest device object in a chain of drivers and returns a pointer to the previously highest device object. I/O requests bound for the target device are routed first to the caller.|
+|IoGetAttachedDeviceReference |Returns a pointer to the highest level device object in a driver stack and increments the reference count on that object.|
+|IoDetachDevice |Releases an attachment between the caller's device object and a target driver's device object.|
+|IoAllocateDriverObjectExtension |Allocates a per-driver context area with a given unique identifier.|
+|IoGetDriverObjectExtension |Retrieves a previously allocated per-driver context area.|
+|IoRegisterDeviceInterface |Registers device functionality (a device interface) that a driver will enable for use by applications or other system components. The I/O manager creates a registry key for the device interface. Drivers can access persistent storage under this key by calling IoOpenDeviceInterfaceRegistryKey.|
+|IoIsWdmVersionAvailable |Checks whether a given WDM version is supported by the operating system.|
+|IoDeleteSymbolicLink |Releases a symbolic link between a device object name and a user-visible name.|
+|IoAssignArcName |Sets up a symbolic link between a named device object (such as a tape, floppy, or CD-ROM) and the corresponding ARC name for the device.|
+|IoDeassignArcName |Releases the symbolic link created by calling IoAssignArcName.|
+|IoSetShareAccess |Sets the access allowed to a given file object that represents a device. (Only highest-level drivers can call this routine.)|
+|IoConnectInterrupt |Registers a driver's interrupt-handling routine. Drivers should use IoConnectInterruptEx instead.|
+|IoDisconnectInterrupt |Unregisters an interrupt-handling routine that IoConnectInterrupt registered.|
+|IoConnectInterruptEx |Registers a driver's interrupt-handling routine. Drivers can register either an InterruptService routine for line-based interrupts or an InterruptMessageService routine for message-signaled interrupts.|
+|IoDisconnectInterruptEx |Unregisters an interrupt-handling routine that IoConnectInterruptEx registered.|
+|IoInitializeDpcRequest |Associates a driver-supplied DpcForIsr routine with a given device object, so that the DpcForIsr routine can complete interrupt-driven I/O operations.|
+|IoReadPartitionTable |Returns a list of partitions on a disk with a given sector size.|
+|IoSetPartitionInformation |Sets the partition type and number for a (disk) partition.|
+|IoWritePartitionTable |Writes partition tables for a disk, given the device object that represents the disk, the sector size, and a pointer to a buffer containing the drive layout structure.|
+|IoCreateController |Initializes a controller object representing a physical device controller that is shared by two or more similar devices that have the same driver, and specifies the size of the controller extension.|
+|IoDeleteController |Removes a controller object from the system.|
+|KeInitializeSpinLock |Initializes a variable of type KSPIN_LOCK.|
+|KeInitializeDpc |Initializes a DPC object, setting up a driver-supplied CustomDpc routine that can be called with a given context.|
+|KeInitializeTimer |Initializes a notification timer object to the Not-Signaled state.|
+|KeInitializeTimerEx |Initializes a notification or synchronization timer object to the Not-Signaled state.|
+|KeInitializeEvent |Initializes an event object as a synchronization (single waiter) or notification (multiple waiters) type event and sets up its initial state (Signaled or Not-Signaled).|
+|ExInitializeFastMutex |Initializes a fast mutex variable that is used to synchronize mutually exclusive access to a shared resource by a set of threads. |
+|KeInitializeMutex |Initializes a mutex object as set to the Signaled state.|
+|KeInitializeSemaphore |Initializes a semaphore object to a given count and specifies an upper bound for the count.|
+|IoCreateNotificationEvent |Initializes a named notification event to be used to synchronize access between two or more components. Notification events are not automatically reset.|
+|IoCreateSynchronizationEvent |Initializes a named synchronization event to be used to serialize access to hardware between two otherwise unrelated drivers.|
+|PsCreateSystemThread |Creates a kernel-mode thread that is associated with a given process object or with the default system process. Returns a handle for the thread.|
+|PsTerminateSystemThread |Terminates the current thread and satisfies as many waits as possible for the current thread object.|
+|KeSetBasePriorityThread |Sets up the run-time priority, relative to the system process, for a driver-created thread.|
+|KeSetPriorityThread |Sets up the run-time priority for a driver-created thread with a real-time priority attribute.|
+|MmIsThisAnNtAsSystem |Returns TRUE if the current platform is a server, indicating that more resources are likely to be necessary to process I/O requests than if the machine were a client.|
+|MmQuerySystemSize |Returns an estimate (small, medium, or large) of the amount of memory available on the current platform.|
+|ExInitializeNPagedLookasideList |Initializes a lookaside list of nonpaged memory. After a successful initialization, fixed-size blocks can be allocated from and freed to the lookaside list.|
+|ExInitializePagedLookasideList |Initializes a lookaside list of paged memory. After a successful initialization, fixed-size blocks can be allocated from and freed to the lookaside list.|
+|ExInitializeResourceLite |Initializes a resource, for which the caller provides the storage, to be used for synchronization by a set of threads.|
+|ExReinitializeResourceLite| Reinitializes an existing resource variable.|
+|ExDeleteResourceLite |Deletes a caller-initialized resource from the system's resource list.|
+|ObReferenceObjectByHandle |Returns a pointer to the object body and handle information (attributes and granted access rights), given the handle for an object, the object's type, and a mask. Specifies the desired access to the object and the preferred access mode. A successful call increments the reference count for the object.|
+|ObReferenceObjectByPointer |Increments the reference count for an object so the caller can ensure that the object is not removed from the system while the caller is using it.|
+|ObReferenceObject |Increments the reference count for an object, given a pointer to the object. |
+|ObDereferenceObject |Releases a reference to an object (decrements the reference count), given a pointer to the object body.|
+|RtlInitString |Initializes a counted string in a buffer.|
+|RtlInitAnsiString |Initializes a counted ANSI string in a buffer.|
+|RtlInitUnicodeString |Initializes a counted Unicode string in a buffer.|
+|InitializeObjectAttributes |Initializes a parameter of type OBJECT_ATTRIBUTES for a subsequent call to a ZwCreateXxx or ZwOpenXxx routine.|
+|ZwCreateDirectoryObject |Creates or opens a directory object with a specified set of object attributes and requests one or more types of access for the caller. Returns a handle for the directory object.|
+|ZwCreateFile |Creates or opens a file object that represents a physical, logical, or virtual device, a directory, a data file, or a volume. Returns a handle for the file object.|
+|ZwCreateKey |Creates or opens a key object in the registry and returns a handle for the key object.|
+|ZwDeleteKey |Deletes an existing, open key in the registry after the last handle for the key is closed.|
+|ZwMakeTemporaryObject |Resets the "permanent" attribute of an opened object, so that the object and its name can be deleted when the reference count for the object becomes zero.|
+|ZwClose |Releases the handle for an opened object, causing the handle to become invalid, and decrements the reference count of the object handle.|
+|PsGetVersion |Indicates whether the driver is running on a free or checked build, and optionally supplies information about the operating system version and build number. |
+|ObGetObjectSecurity |Returns a buffered security descriptor for a given object. |
+|ObReleaseObjectSecurity |Releases the security descriptor returned by ObGetObjectSecurity.|
+
+
+### Initializing Driver-Managed Queues
+
+Used for initializing driver-managed internal queues. 
+|Function|Description|
+|---|---|
+|KeInitializeSpinLock |Initializes a variable of type KSPIN_LOCK. An initialized spin lock is a required parameter to the ExXxxInterlockedList routines.|
+|InitializeListHead |Sets up a queue header for a driver's internal queue, given a pointer to driver-supplied storage for the queue header and queue.|
+|ExInitializeSListHead |Sets up the queue header for a sequenced, interlocked, singly linked list. |
+|KeInitializeDeviceQueue |Initializes a device queue object to a Not Busy state, setting up an associated spin lock for multiprocessor-safe access to device queue entries.|
+|IoCsqInitialize |Initializes the dispatch table for a driver's cancel-safe IRP queue.|
+
+
+## I/O Manager Routines
+All kernel-mode drivers except video and SCSI miniport drivers and NDIS drivers call IoXxx routines.
+
+References for the IoXxx routines are in alphabetical order.
+
+For an overview of the functionality of these routines, see Summary of Kernel-Mode Support Routines.
+
+The following routine is for system use. Do not use it in your driver.
+
+IoUpdateDiskGeometry
+
+## Power Management Routines
+The Windows power management architecture provides a comprehensive approach to power management at the system, device, and component level. Starting with Windows 2000, power management is supported at the system level and the device level. Starting with Windows 8, power management is supported at the component (subdevice) level, in addition to the system level and the device level.
+
+For more information about power management, see Power Management for Windows Drivers.
+
+
+Kernel-mode drivers call the PoXxx routines to perform power management for the devices that they control. This section contains the reference pages for these routines. The PoXxx routines are declared in the Wdm.h header file.
+
+For more information about power management, see Power Management for Windows Drivers.
+
+|Function|Description|
+|---|---|
+|PoCallDriver| The PoCallDriver routine passes a power IRP to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.)
+|PoClearPowerRequest| The PoClearPowerRequest routine decrements the count for the specified power request type.
+|PoCreatePowerRequest| The PoCreatePowerRequest routine creates a power request object.
+|PoDeletePowerRequest| The PoDeletePowerRequest routine deletes a power request object.
+|PoEndDeviceBusy| The PoEndDeviceBusy routine marks the end of a period of time in which the device is busy.
+|PoGetSystemWake| The PoGetSystemWake routine determines whether a specified IRP has been marked as waking the system from a sleeping state.
+|PoQueryWatchdogTime| The PoQueryWatchdogTime routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
+|PoRegisterDeviceForIdleDetection| The PoRegisterDeviceForIdleDetection routine enables or cancels idle detection and sets idle time-out values for a device.
+|PoRegisterPowerSettingCallback| The PoRegisterPowerSettingCallback routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
+|PoRegisterSystemState| The PoRegisterSystemState routine registers the system as busy due to certain activity.
+|PoRequestPowerIrp| The PoRequestPowerIrp routine allocates a power IRP and sends it to the top driver in the device stack for the specified device.
+|PoSetDeviceBusyEx| The PoSetDeviceBusyEx routine notifies the power manager that the device associated with the specified idle counter is busy.
+|PoSetPowerRequest| The PoSetPowerRequest routine increments the count for the specified power request type.
+|PoSetPowerState| The PoSetPowerState routine notifies the system of a change in the device power state for a device.
+|PoSetSystemState| Drivers call the PoSetSystemState routine to indicate that the system is active.
+|PoSetSystemWake| The PoSetSystemWake routine marks the specified IRP as one that contributed to waking the system from a sleep state.
+|PoStartDeviceBusy| The PoStartDeviceBusy routine marks the start of a period of time in which the device is busy.
+|PoStartNextPowerIrp| The PoStartNextPowerIrp routine signals the power manager that the driver is ready to handle the next power IRP. (Windows Server 2003, Windows XP, and Windows 2000 only.)
+|PoUnregisterPowerSettingCallback| The PoUnregisterPowerSettingCallback routine unregisters a power-setting callback routine that a driver previously registered by calling the PoRegisterPowerSettingCallback routine.
+|PoUnregisterSystemState| The PoUnregisterSystemState routine cancels a system state registration created by PoRegisterSystemState.
+ 
+### Device Power Management
+Starting with Windows 8, drivers can divide their device hardware into multiple logical components to enable fine-grained power management. A component has a set of power states that can be managed independently of the power states of other components in the same device. In the F0 state, the component is fully turned on. The component might support additional, low-power states F1, F2, and so on.
+
+The power policy owner for a device is typically the device's function driver. To enable component-level power management, this driver registers the device with the power management framework (PoFx). By registering the device, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. PoFx makes intelligent idle state choices for the device based on information about the component activity, latency tolerance, expected idle durations, and wake requirements. By controlling power usage at the component level, PoFx can reduce power requirements while preserving system responsiveness. For more information, see Component-Level Power Management.
+
+Starting with Windows 8, drivers can divide their device hardware into multiple logical components to enable fine-grained power management. A component has a set of power states that can be managed independently of the power states of other components in the same device. In the F0 state, the component is fully turned on. The component might support additional, low-power states F1, F2, and so on.
+
+The power policy owner for a device is typically the device's function driver. To enable component-level power management, this driver registers the device with the power management framework (PoFx). By registering the device, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. PoFx makes intelligent idle state choices for the device based on information about the component activity, latency tolerance, expected idle durations, and wake requirements. By controlling power usage at the component level, PoFx can reduce power requirements while preserving system responsiveness. For more information, see Component-Level Power Management.
+
+This section describes the routines that are implemented by the power management framework (PoFx) to enable device power management. These routines are called by the driver that is the power policy owner (PPO) for a device. Typically, the function driver for a device is the PPO for this device.
+
+|Function|Description|
+|---|---|
+|PoFxActivateComponent| The PoFxActivateComponent routine increments the activation reference count on the specified component.
+|PoFxCompleteDevicePowerNotRequired| The PoFxCompleteDevicePowerNotRequired routine notifies the power management framework (PoFx) that the calling driver has completed its response to a call to the driver's DevicePowerNotRequiredCallback callback routine.
+|PoFxCompleteIdleCondition| The PoFxCompleteIdleCondition routine informs the power management framework (PoFx) that the specified component has completed a pending change to the idle condition.
+|PoFxCompleteIdleState| The PoFxCompleteIdleState routine informs the power management framework (PoFx) that the specified component has completed a pending change to an Fx state.
+|PoFxIdleComponent| The PoFxIdleComponent routine decrements the activation reference count on the specified component.
+|PoFxIssueComponentPerfStateChange| The PoFxIssueComponentPerfStateChange routine submits a request to place a device component in a particular performance state. 
+|PoFxIssueComponentPerfStateChangeMultiple| The PoFxIssueComponentPerfStateChangeMultiple routine submits a request to change the performance states in multiple performance state sets simultaneously for a device component. 
+|PoFxNotifySurprisePowerOn| The PoFxNotifySurprisePowerOn routine notifies the power management framework (PoFx) that a device was turned on as a side effect of supplying power to some other device.
+|PoFxPowerControl| The PoFxPowerControl routine sends a power control request to the power management framework (PoFx).
+|PoFxQueryCurrentComponentPerfState| The PoFxQueryCurrentComponentPerfState routine retrieves the active performance state in a component's performance state set. 
+|PoFxRegisterComponentPerfStates| The PoFxRegisterComponentPerfStates routine registers a device component for performance state management by the power management framework (PoFx). 
+|PoFxRegisterDevice| The PoFxRegisterDevice routine registers a device with the power management framework (PoFx).
+|PoFxReportDevicePoweredOn| The PoFxReportDevicePoweredOn routine notifies the power management framework (PoFx) that the device completed the requested transition to the D0 (fully on) power state.
+|PoFxSetComponentLatency| The PoFxSetComponentLatency routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified component.
+|PoFxSetComponentResidency| The PoFxSetComponentResidency routine sets the estimated time for how long a component is likely to remain idle after the component enters the idle condition.
+|PoFxSetComponentWake| The PoFxSetComponentWake routine indicates whether the driver arms the specified component to wake whenever the component enters the idle condition.
+|PoFxSetDeviceIdleTimeout| The PoFxSetDeviceIdleTimeout routine specifies the minimum time interval from when the last component of the device enters the idle condition to when the power management framework (PoFx) calls the driver's DevicePowerNotRequiredCallback routine.
+|PoFxSetTargetDripsDevicePowerState| This routine is called to notify the power manager of the device's target device power state for DRIPS. The driver can override the DRIPS constraint provided by the PEP. 
+|PoFxStartDevicePowerManagement| The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
+|PoFxUnregisterDevice| The PoFxUnregisterDevice routine removes the registration of a device from the power management framework (PoFx).
+ 
+Device Power Management Callbacks
+This section describes the callback routines that are required by the power management framework (PoFx) to enable device power management. The driver that is the power policy owner for the device implements these callback routines. PoFx calls these routines to query and configure the power states of the components in the device.
+
+|Callback|Description|
+|---|---|
+|ComponentActiveConditionCallback| The ComponentActiveConditionCallback callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition.
+|ComponentIdleConditionCallback| The ComponentIdleConditionCallback callback routine notifies the driver that the specified component completed a transition from the active condition to the idle condition.
+|ComponentIdleStateCallback| The ComponentIdleStateCallback callback routine notifies the driver of a pending change to the Fx power state of the specified component.
+|ComponentPerfStateCallback| The ComponentPerfStateCallback callback routine notifies the driver that its request to change the performance state of a component is complete.
+|DevicePowerNotRequiredCallback| The DevicePowerNotRequiredCallback callback routine notifies the device driver that the device is not required to stay in the D0 power state.
+|DevicePowerRequiredCallback| The DevicePowerRequiredCallback callback routine notifies the device driver that the device must enter and remain in the D0 power state.
+|PowerControlCallback| The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx).
+ 
+### Platform extension plug-in (PEP) reference
+Platform extension plug-ins (PEPs) provide interfaces for platform power management including device power management (DPM), processor power management (PPM), and, starting with Windows 10, ACPI runtime methods. 
+
+The types of notifications described in this section are sent to platform extension plug-ins (PEPs):
+[ACPI notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/acpi-notifications)
+[Device power management (DPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/dpm-notifications)
+[Processor power management (PPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-notifications)
+[PPM power control codes](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-power-control-codes)
+
+|Initialization Function|Description|
+|---|---|
+|PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE| The PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_EXTENDED_ADDRESS structure.
+|PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE| The PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_EXTENDED_ADDRESS structure.
+|PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE| The PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_GPIO_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE| The PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_GPIO_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE| The PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_INTERRUPT_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_IOPORT_RESOURCE| The PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_IO_MEMORY_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_MEMORY_RESOURCE| The PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_IO_MEMORY_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE| The PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_I2C_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE| The PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_SPI_RESOURCE structure.
+|PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE| The PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_UART_RESOURCE structure.
+ 
+
+PEP callback routines
+The callback routines described in this section are implemented by platform extension plug-ins, and are called by the Windows power management framework (PoFx).
+
+|Callback function|Description|
+|---|---|
+|AcceptAcpiNotification| An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx).
+|AcceptDeviceNotification| An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx).
+|AcceptProcessorNotification| An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx).
+|PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK| An EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source.
+|PROCESSOR_HALT_ROUTINE| A Halt callback routine transitions the processor to an idle state.
+|PowerOnDumpDeviceCallback| The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
+ 
+### Power management framework (PoFx) routines
+This section contains miscellaneous PoFx routines and structures that will most likely end up in the power-management section of the Kernel-Mode Driver Architecture doc set.
+
+|Initialization Function|Description|
+|---|---|
+|PoFxRegisterPlugin| The PoFxRegisterPlugin routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
+|PoFxRegisterPluginEx| The PoFxRegisterPluginEx routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
+|PoFxRegisterCoreDevice| The PoFxRegisterCoreDevice routine registers a new core system resource with the Windows power management framework (PoFx).
+|PoFxRegisterCrashdumpDevice| The PoFxRegisterCrashdumpDevice routine registers a crash-dump device.
+|PoFxPowerOnCrashdumpDevice| The PoFxPowerOnCrashdumpDevice routine requests that a crash-dump device be turned on.
+
+|Callback function|Description|
+|---|---|
+|POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS| The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled.
+|POFXCALLBACKPLATFORMIDLEVETO| The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state.
+|POFXCALLBACKPROCESSORHALT| The ProcessorHalt routine prepares the processor to be halted.
+|POFXCALLBACKPROCESSORIDLEVETO| The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state.
+|POFXCALLBACKREQUESTCOMMON| The RequestCommon routine is a generic request handler.
+|POFXCALLBACKREQUESTINTERRUPT| The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state.
+|POFXCALLBACKREQUESTWORKER| The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
+|POFXCALLBACKCRITICALRESOURCE| The TransitionCriticalResource routine changes the active/inactive state of a core system component.
+|POFXCALLBACKUPDATEPLATFORMIDLESTATE| The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
+|POFXCALLBACKUPDATEPROCESSORIDLESTATE| The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state.
+|ComponentCriticalTransitionCallback| The ComponentCriticalTransitionCallback callback routine handles a transition of the specified component between the F0 (fully on) and low-power Fx component power states.
+ 
+
+## Configuration Manager Routines
+This section describes the configuration manager routines. These routines use the CmXxx naming convention and are listed in alphabetical order.
+
+CmCallbackGetKeyObjectID
+CmCallbackGetKeyObjectIDEx
+CmCallbackReleaseKeyObjectIDEx
+CmGetBoundTransaction
+CmGetCallbackVersion
+CmRegisterCallback
+CmRegisterCallbackEx
+CmSetCallbackObjectContext
+CmUnRegisterCallback
+
+## Kernel Transaction Manager (KTM) Routines
+This section describes the routines, structures, and enumerations that the Kernel Transaction Manager (KTM) provides.
+
+### Transaction Manager Object Routines
+This section includes the following topics:
+
+TmRecoverTransactionManager
+ZwCreateTransactionManager
+ZwOpenTransactionManager
+ZwQueryInformationTransactionManager
+ZwRecoverTransactionManager
+ZwRollforwardTransactionManager
+
+### Transaction Object Routines
+This section includes the following topics:
+
+TmCommitTransaction
+TmGetTransactionId
+TmIsTransactionActive
+TmRollbackTransaction
+ZwCommitTransaction
+ZwCreateTransaction
+ZwEnumerateTransactionObject
+ZwOpenTransaction
+ZwQueryInformationTransaction
+ZwRollbackTransaction
+ZwSetInformationTransaction
+
+###  Enlistment Object Routines
+This section includes the following topics:
+
+TmCommitComplete
+TmCommitEnlistment
+TmCreateEnlistment
+TmDereferenceEnlistmentKey
+TmPrepareComplete
+TmPrePrepareComplete
+TmPrepareEnlistment
+TmPrePrepareEnlistment
+TmReadOnlyEnlistment
+TmRecoverEnlistment
+TmReferenceEnlistmentKey
+TmRequestOutcomeEnlistment
+TmRollbackComplete
+TmRollbackEnlistment
+TmSinglePhaseReject
+ZwCommitComplete
+ZwCommitEnlistment
+ZwCreateEnlistment
+ZwOpenEnlistment
+ZwPrepareComplete
+ZwPrePrepareComplete
+ZwPrepareEnlistment
+ZwPrePrepareEnlistment
+ZwQueryInformationEnlistment
+ZwReadOnlyEnlistment
+ZwRecoverEnlistment
+ZwRollbackComplete
+ZwRollbackEnlistment
+ZwSetInformationEnlistment
+ZwSinglePhaseReject
+
+### Resource Manager Object Routines
+This section includes the following topics:
+
+ResourceManagerNotification
+TmEnableCallbacks
+TmRecoverResourceManager
+ZwCreateResourceManager
+ZwGetNotificationResourceManager
+ZwOpenResourceManager
+ZwQueryInformationResourceManager
+ZwRecoverResourceManager
+ZwSetInformationResourceManager
+
+## Security Reference Monitor Routines
+Generally, higher-level drivers, particularly network drivers, call these routines.
+
+References for the SeXxx routines are in alphabetical order.
+
+SeAccessCheck
+SeAssignSecurity
+SeAssignSecurityEx
+SeDeassignSecurity
+SeFreePrivileges
+SeSinglePrivilegeCheck
+SeValidSecurityDescriptor
+
+
+## Core Kernel Library Support Routines
+All kernel-mode drivers except video and SCSI miniport drivers and NDIS drivers are likely to call at least some KeXxx routines.
+
+This section describes references for the KeXxx routines, in alphabetical order.
+
+For an overview of the functionality of these routines, see Summary of Kernel-Mode Support Routines.
+
+The following routines are reserved for system use:
+
+KeAcquireSpinLockRaiseToSynch
+KeBreakinBreakpoint
+KeEnterKernelDebugger
+KeFlushWriteBuffer
+KeGetBugMessageText
+KeRaiseIrqlToSynchLevel
+KeRemoveByKeyDeviceQueueIfBusy
+KeSetTimeUpdateNotifyRoutine
+
+## Executive Library Support Routines
+This section describes the executive library support routines. These routines use the ExXxx naming convention and are listed in alphabetical order.
+
+The following executive support routines are reserved for system use. Do not use them in your driver.
+
+ExAcquireSpinLock. Use KeAcquireSpinLock instead.
+ExAcquireSpinLockAtDpcLevel. Use KeAcquireSpinLockAtDpcLevel instead.
+ExfInterlockedDecrementLong. Use InterlockedDecrement instead.
+ExfInterlockedExchangeUlong. Use InterlockedExchange instead.
+ExfInterlockedIncrementLong. Use InterlockedIncrement instead.
+ExfInterlockedPopEntryList. Use ExInterlockedPopEntryList instead.
+ExfInterlockedPushEntryList. Use ExInterlockedPushEntryList instead.
+ExReleaseSpinLock. Use KeReleaseSpinLock instead.
+ExReleaseSpinLockFromDpcLevel. Use KeReleaseSpinLockFromDpcLevel instead.
+ExVerifySuite.
+
+
+## CLFS Library Routines
+This section contains reference pages for routines implemented by the Common Log File System (CLFS). For a listing of the CLFS management routines, see CLFS Management Library Routines. For a conceptual discussion of CLFS, see Common Log File System in the design guide section of this documentation. For definitions of key terms used in the CLFS documentation, see CLFS Terminology. 
+
+|Callback function|Description|
+|---|---|
+|ClfsAddLogContainer| The ClfsAddLogContainer routine adds a container to a CLFS log.
+|ClfsAddLogContainerSet| The ClfsAddLogContainerSet routine atomically adds a set of containers to a CLFS log.
+|ClfsAdvanceLogBase| The ClfsAdvanceLogBase routine sets the base LSN of a CLFS stream.
+|ClfsAlignReservedLog| The ClfsAlignReservedLog routine calculates the size of the space that must be reserved for a specified set of records. The size calculation includes the space required for headers and the space required for sector alignment.
+|ClfsAllocReservedLog| The ClfsAllocReservedLog routine reserves space in a marshalling area for a set of records.
+|ClfsCloseAndResetLogFile| The ClfsCloseAndResetLogFile routine releases all references to a specified log file object and marks its associated stream for reset.
+|ClfsCloseLogFileObject| The ClfsCloseLogFileObject routine releases all references to a log file object.
+|ClfsCreateLogFile| The ClfsCreateLogFile routine creates or opens a CLFS stream. If necessary, ClfsCreateLogFile also creates the underlying physical log that holds the stream's records.
+|ClfsCreateMarshallingArea| The ClfsCreateMarshallingArea routine creates a marshalling area for a CLFS stream and returns a pointer to an opaque context that represents the new marshalling area.
+|ClfsCreateScanContext| The ClfsCreateScanContext routine creates a scan context that can be used to iterate over the containers of a specified CLFS log.
+|ClfsDeleteLogByPointer| The ClfsDeleteLogByPointer routine marks a CLFS stream for deletion. 
+|ClfsDeleteLogFile| The ClfsDeleteLogFile routine marks a CLFS stream for deletion.
+|ClfsDeleteMarshallingArea| The ClfsDeleteMarshallingArea routine deletes a marshalling area.
+|ClfsFlushBuffers| The ClfsFlushBuffers routine forces all log I/O blocks in a specified marshalling area to stable storage.
+|ClfsFlushToLsn| The ClfsFlushToLsn routine forces, to stable storage, all records that have an LSN less than or equal to a specified LSN.
+|ClfsGetContainerName| The ClfsGetContainerName routine returns the path name of a specified container.
+|ClfsGetIoStatistics| The ClfsGetIoStatistics routine returns I/O statistics for a specified CLFS log.
+|ClfsLsnBlockOffset| The ClfsLsnBlockOffset routine returns the sector-aligned block offset contained in a specified LSN.
+|ClfsLsnContainer| The ClfsLsnContainer routine returns the logical container identifier contained in a specified LSN.
+|ClfsLsnCreate| The ClfsLsnCreate routine creates a log sequence number (LSN), given a container identifier, a block offset, and a record sequence number.
+|ClfsLsnEqual| The ClfsLsnEqual routine determines whether two LSNs from the same stream are equal.
+|ClfsLsnGreater| The ClfsLsnGreater routine determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
+|ClfsLsnLess| The ClfsLsnLess routine determines whether one LSN is less than another LSN. The two LSNs must be from the same stream. 
+|ClfsLsnNull| The ClfsLsnNull routine determines whether a specified LSN is equal to the smallest possible LSN, CLFS_LSN_NULL.
+|ClfsLsnRecordSequence| The ClfsLsnRecordSequence routine returns the record sequence number contained in a specified LSN.
+|ClfsQueryLogFileInformation| The ClfsQueryLogFileInformation routine returns metadata and state information for a specified CLFS stream or its underlying physical log or both.
+|ClfsReadLogRecord| The ClfsReadLogRecord routine reads a target record in a CLFS stream and returns a read context that the caller can use to read the records preceding or following it in the stream.
+|ClfsReadNextLogRecord| The ClfsReadNextLogRecord routine reads the next record in a sequence, relative to the current record in a read context.
+|ClfsReadPreviousRestartArea| The ClfsReadPreviousRestartArea routine reads the previous restart record relative to the current record in a read context.
+|ClfsReadRestartArea| The ClfsReadRestartArea routine reads the restart record that was most recently written to a specified CLFS stream.
+|ClfsRemoveLogContainer| The ClfsRemoveLogContainer routine removes a container from a CLFS log.
+|ClfsRemoveLogContainerSet| The ClfsRemoveLogContainerSet routine atomically removes a set of containers from a CLFS log.
+|ClfsReserveAndAppendLog| The ClfsReserveAndAppendLog routine reserves space in a marshalling area or appends a record to a marshalling area or does both atomically.
+|ClfsReserveAndAppendLogAligned| The ClfsReserveAndAppendLogAligned routine reserves space in a marshalling area or appends a record to a marshalling area or does both atomically. The record's data is aligned on specified boundaries.
+|ClfsScanLogContainers| The ClfsScanLogContainers routine retrieves descriptive information for a sequence of containers that belong to a particular CLFS log.
+|ClfsSetArchiveTail| The ClfsSetArchiveTail routine sets the archive tail of a CLFS log to a specified LSN.
+|ClfsSetEndOfLog| The ClfsSetEndOfLog routine truncates a CLFS stream.
+|ClfsSetLogFileInformation| The ClfsSetLogFileInformation routine sets metadata and state information for a specified stream and its underlying physical log.
+|ClfsTerminateReadLog| The ClfsTerminateReadLog routine invalidates a specified read context after freeing resources associated with the context.
+|ClfsWriteRestartArea| The ClfsWriteRestartArea routine atomically appends a new restart record to a CLFS stream, flushes the restart record to stable storage, and optionally updates the base LSN of the stream.
+ 
+
+
+## IRPs
+
+Microsoft Windows use I/O Request Packets (IRPs) to send messages to device drivers. An IRP is a data structure that contains specific information used to convey the status of an event. For more information about the IRP data structure, see IRP and [IRP Major Function Codes](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-major-function-codes).
+
+Your driver can use System-Supplied Driver Interfaces to send IRPs to other drivers. 
+
+In addition to the Standard IRP Codes, there are three additional types of IRPs for specific technologies:
+
+-   Plug and Play IRPs, see [Plug and Play Minor IRPs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
+-   Power Management IRPs, see [Power Management Minor IRPs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/power-management-minor-irps)
+-   Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/wmi-minor-irps)
+
+This section describes kernel-mode support routines that drivers can call:
+
+-   While processing IRPs. 
+
+-   To allocate and set up IRPs for requests from higher-level drivers to lower drivers.
+
+-   To use file objects.
+
+### Processing IRPs
+
+|Function|Description|
+|---|---|
+|IoGetCurrentIrpStackLocation |Returns a pointer to the caller's I/O stack location in a given IRP.|
+|IoGetNextIrpStackLocation |Returns a pointer to the next-lower-level driver's I/O stack location in a given IRP.|
+|IoCopyCurrentIrpStackLocationToNext Copies the IRP stack parameters from the current stack location to the stack location of the next-lower driver and allows the current driver to set an I/O completion routine.|
+|IoSkipCurrentIrpStackLocation |Copies the IRP stack parameters from the current stack location to the stack location of the next-lower driver and does not allow the current driver to set an I/O completion routine.|
+|IoGetRelatedDeviceObject |Returns a pointer to the device object represented by a given file object.|
+|IoGetFunctionCodeFromCtlCode |Returns the value of the function field within a given IOCTL_XXX or FSCTL_XXX code.|
+|IoValidateDeviceIoControlAccess|Verifies that the sender of an IRP_MJ_DEVICE_CONTROL or IRP_MJ_FILE_SYSTEM_CONTROL IRP has the access specified.|
+|IoSetCompletionRoutine |Registers a driver-supplied IoCompletion routine for an IRP, so the IoCompletion routine is called when the next-lower-level driver has completed the requested operation in one or more of the following ways: successfully, with an error, or by canceling the IRP.|
+|IoSetCompletionRoutineEx |Same as IoSetCompletionRoutine, except that it guarantees a non-Plug and Play driver is not unloaded before the IoCompletion routine exits.|
+|IoCallDriver |Sends an IRP to a lower-level driver.|
+|PoCallDriver |Sends an IRP with major function code IRP_MJ_POWER to the next-lower driver.|
+|IoForwardIrpSynchronously |Sends an IRP to a lower-level driver synchronously.|
+|IoMarkIrpPending |Marks a given IRP indicating that STATUS_PENDING was returned because further processing is required by another driver routine or by a lower-level driver.|
+|IoStartPacket |Calls the driver's StartIo routine with the given IRP for the given device object or inserts the IRP into the device queue if the device is already busy, specifying whether the IRP is cancelable.|
+|IoSetStartIoAttributes |Sets attributes for when the driver's StartIo routine will execute.|
+|IoAcquireCancelSpinLock |Synchronizes cancelable state transitions for IRPs in a multiprocessor-safe manner.|
+|IoSetCancelRoutine |Sets or clears the Cancel routine in an IRP. Setting a Cancel routine makes an IRP cancelable.|
+|IoReleaseCancelSpinLock |Releases the cancel spin lock when the driver has changed the cancelable state of an IRP or releases the cancel spin lock from the driver's Cancel routine.|
+|IoCancelIrp |Marks an IRP as canceled.|
+|IoReadPartitionTable |Returns a list of partitions on a disk with a given sector size.|
+|IoSetPartitionInformation |Sets the partition type and number for a (disk) partition.|
+|IoWritePartitionTable |Writes partition tables for a disk, given the device object representing the disk, the sector size, and a pointer to a buffer containing the drive geometry.|
+|IoAllocateErrorLogEntry |Allocates and initializes an error log packet; returns a pointer so that the caller can supply error-log data and call IoWriteErrorLogEntry with the packet.|
+|IoWriteErrorLogEntry |Queues a previously allocated and filled-in error log packet to the system error logging thread.|
+|IoIsErrorUserInduced |Returns a Boolean value indicating whether an I/O request failed due to one of the following conditions: STATUS_IO_TIMEOUT, STATUS_DEVICE_NOT_READY, STATUS_UNRECOGNIZED_MEDIA, STATUS_VERIFY_REQUIRED, STATUS_WRONG_VOLUME, STATUS_MEDIA_WRITE_PROTECTED, or STATUS_NO_MEDIA_IN_DEVICE. If the result is TRUE, a removable-media driver must call IoSetHardErrorOrVerifyDevice before completing the IRP.|
+|IoSetHardErrorOrVerifyDevice |Supplies the device object for which the given IRP was failed due to a user-induced error, such as supplying the incorrect media for the requested operation or changing the media before the requested operation was completed. A file system driver uses the associated device object to notify the user, who can then correct the error or retry the operation.|
+|IoRaiseHardError |Notifies the user that the given IRP was failed on the given device object for an optional VPB, so that the user can correct the error or retry the operation.|
+|IoRaiseInformationalHardError |Notifies the user of an error, providing an I/O error status and an optional string supplying more information.|
+|ExRaiseStatus |Raises an error status and causes a caller-supplied structured exception handler to be called. Useful only to highest-level drivers that supply exception handlers, in particular to file systems.|
+|IoStartNextPacket |Dequeues the next IRP for a given device object, specifies whether the IRP is cancelable, and calls the driver's StartIo routine.|
+|IoStartNextPacketByKey |Dequeues the next IRP for a device object according to a specified sort-key value, specifies whether the IRP is cancelable, and calls the driver's StartIo routine.|
+|IoCompleteRequest |Completes an I/O request, giving a priority boost to the original caller and returning a given IRP to the I/O system for disposal: either to call any IoCompletion routines supplied by higher-level drivers, or to return status to the original requester of the operation.|
+|IoGetCurrentProcess |Returns a pointer to the current process. Useful only to highest-level drivers.|
+|IoGetInitialStack |Returns the initial base address of the current thread's stack. Useful only to highest-level drivers.|
+|IoGetRemainingStackSize |Returns the amount of available stack space. Useful only to highest-level drivers.|
+|IoGetStackLimits |Returns the boundaries of the current thread's stack frame. Useful only to highest-level drivers.|
+|IoCsqInitialize |Initializes the dispatch table for a driver's cancel-safe IRP queue.|
+|IoCsqInsertIrp |Inserts an IRP into a driver's cancel-safe IRP queue.|
+|IoCsqRemoveIrp |Removes the specified IRP from a driver's cancel-safe IRP queue.|
+|IoCsqRemoveNextIrp |Removes the next IRP from a driver's cancel-safe IRP queue. |
+
+ ### Driver-Allocated IRPs
+|Function|Description|
+|---|---|
+|oBuildAsynchronousFsdRequest |Allocates and sets up an IRP that specifies a major function code (IRP_MJ_PNP, IRP_MJ_READ, IRP_MJ_WRITE, IRP_MJ_SHUTDOWN, or IRP_MJ_FLUSH_BUFFERS) with a pointer to: The lower driver's device object on which the I/O should occur. A buffer that will contain the data to be read or that contains the data to be written. The length of the buffer in bytes. The starting offset on the media. The I/O status block where the called driver can return status information and the caller's IoCompletion routine can access it.  Returns a pointer to the IRP so the caller can set any necessary minor function code and set up its IoCompletion routine before sending the IRP to the target driver.
+|IoBuildSynchronousFsdRequest |Allocates and sets up an IRP specifying a major function code (IRP_MJ_PNP, IRP_MJ_READ, IRP_MJ_WRITE, IRP_MJ_SHUTDOWN, or IRP_MJ_FLUSH_BUFFERS) with a pointer to: The lower driver's device object on which the I/O should occur. A buffer that will contain the data to be read or that contains the data to be written. The length of the buffer in bytes.  The starting offset on the media.  An event object to be set to the Signaled state when the requested operation completes.  The I/O status block where the called driver can return status information and the caller's IoCompletion routine can access it. Returns a pointer to the IRP so the caller can set any necessary minor function code and set up its IoCompletion routine before sending the IRP to the target driver.
+|IoBuildDeviceIoControlRequest |Allocates and sets up an IRP specifying a major function code (either IRP_MJ_INTERNAL_DEVICE_CONTROL or IRP_MJ_DEVICE_CONTROL) with an optional input or output buffer; a pointer to the lower driver's device object; an event to be set to the Signaled state when the requested operation completes; and an I/O status block to be set by the driver that receives the IRP. Returns a pointer to the IRP so the caller can set the appropriate IOCTL_XXX before sending the IRP to the next-lower-level driver.
+|PoRequestPowerIrp |Allocates and initializes an IRP with major function code IRP_MJ_POWER and then sends the IRP to the top-level driver in the device stack for the specified device object.
+|IoSizeOfIrp |Returns the size in bytes required for an IRP with a given count of I/O stack locations.
+|IoAllocateIrp |Allocates an IRP, given the number of I/O stack locations (optionally, for the caller, but at least one for each driver layered under the caller) and whether to charge quota against the caller. Returns a pointer to an IRP in nonpaged system space if successful; otherwise, returns NULL.
+|IoInitializeIrp |Initializes an IRP, given a pointer to an already allocated IRP, its length in bytes, and its number of I/O stack locations.
+|IoSetNextIrpStackLocation |Sets the current IRP stack location to the caller's location in an IRP. The stack location must have been allocated by a preceding call to IoAllocateIrp that specified a stack-size argument large enough to give the caller its own stack location.
+|IoAllocateMdl |Allocates an MDL large enough to map the starting address and length supplied by the caller; optionally associates the MDL with a given IRP.
+|IoBuildPartialMdl |Builds an MDL for the specified starting virtual address and length in bytes from a given source MDL. Drivers that split large transfer requests into a number of smaller transfers can call this routine.
+|IoFreeMdl |Releases a given MDL allocated by the caller.
+|IoMakeAssociatedIrp |Allocates and initializes an IRP to be associated with a master IRP sent to the highest-level driver, allowing the driver to "split" the original request and send associated IRPs on to lower-level drivers or to the device.
+|IoSetCompletionRoutine |Registers a driver-supplied IoCompletion routine with a given IRP, so that the IoCompletion routine is called when lower-level drivers have completed the request. The IoCompletion routine lets the caller release the IRP it allocated with IoAllocateIrp or IoBuildAsynchronousFsdRequest; to release any other resources it allocated to set up an IRP for lower drivers; and to perform any I/O completion processing necessary.
+|IoSetCompletionRoutineEx |Same as IoSetCompletionRoutine, except that it guarantees a non-Plug and Play driver is not unloaded before the IoCompletion routine exits.
+|IoCallDriver |Sends an IRP to a lower-level driver.
+|IoFreeIrp |Releases an IRP that was allocated by the caller.
+|IoReuseIrp |Reinitializes for reuse an IRP that was previously allocated by IoAllocateIrp.
+
+
+### File Objects
+|Function|Description|
+|---|---|
+|nitializeObjectAttributes |Initializes a parameter of type OBJECT_ATTRIBUTES for a subsequent call to a ZwCreateXxx or ZwOpenXxx routine.|
+|ZwCreateFile |Creates or opens a file object representing a physical, logical, or virtual device, a directory, a data file, or a volume.|
+|ZwQueryInformationFile |Returns information about the state or attributes of an open file.|
+|IoGetFileObjectGenericMapping |Returns information about the mapping between generic access rights and specific access rights for file objects.|
+|ZwReadFile |Returns data from an open file.|
+|ZwSetInformationFile |Changes information about the state or attributes of an open file.|
+|ZwWriteFile |Transfers data to an open file.|
+|ZwClose |Releases the handle for an opened object, causing the handle to become invalid and decrementing the reference count of the object handle.|
+
+
+## Silo DDIs
+
+This section describes the silo DDIs. These DDIs offer the ability for kernel components to learn about the server silos that are created and destroyed on a machine.  Components register to receive notifications for these events and optionally store state that is associated with each silo.
+
+
+Context management
+These DDIs provide the ability to assign and retrieve context structures on silo objects. This allows drivers to attach per-silo information for each silo.
+
+PsAllocSiloContextSlot 
+PsFreeSiloContextSlot 
+PsCreateSiloContext 
+PsInsertSiloContext 
+PsReplaceSiloContext 
+PsInsertPermanentSiloContext 
+PsGetPermanentSiloContext 
+PsMakeSiloContextPermanent 
+PsGetSiloContext 
+PsRemoveSiloContext 
+PsReferenceSiloContext 
+PsDereferenceSiloContext 
+SILO_CONTEXT_CLEANUP_CALLBACK 
+
+
+Threading
+These DDIs provide the ability to set and retrieve the silo for the current thread.
+
+PsAttachSiloToCurrentThread 
+PsDetachSiloFromCurrentThread 
+PsGetCurrentSilo 
+PsGetCurrentServerSilo 
+
+Monitoring
+These DDIs provide the ability for a driver to receive notifications about silo creation and termination events.
+
+PsRegisterSiloMonitor 
+PsUnregisterSiloMonitor 
+PsStartSiloMonitor 
+PsGetSiloMonitorContextSlot 
+SILO_MONITOR_CREATE_CALLBACK 
+SILO_MONITOR_TERMINATE_CALLBACK 
+
+Helpers
+These DDIs are helpful for working with silo objects.
+
+PsGetJobSilo 
+PsGetJobServerSilo 
+PsGetEffectiveServerSilo 
+PsIsHostSilo 
+PsGetHostSilo 
+PsTerminateServerSilo 
+
+
+## Synchronization
+This section describes the kernel-mode support routines that drivers can call to:
+
+-   Synchronize the execution of their own standard driver routines (Driver Routines and I/O Objects). 
+-   Temporarily change the current IRQL for a call to a support routine or that return the current IRQL (IRQL). 
+-   Synchronize access to resources with spin locks or to perform interlocked operations without spin locks (Spin Locks and Interlocks). 
+-   Manage time-outs or determine system time (Timers). 
+-   Use system threads or to manage synchronization within a nonarbitrary thread context (Driver Threads, Dispatcher Objects, and Resources). 
+
+### Driver Routines and I/O Objects
+|Function|Description|
+|---|---|
+|KeSynchronizeExecution |Synchronizes the execution of a driver-supplied SynchCritSection routine with that of the ISR associated with a set of interrupt objects, given a pointer to the interrupt objects.
+|IoRequestDpc |Queues a driver-supplied DpcForIsr routine to complete interrupt-driven I/O processing at a lower IRQL.
+|KeInsertQueueDpc |Queues a DPC to be executed as soon as the IRQL of a processor drops below DISPATCH_LEVEL; returns FALSE if the DPC object is already queued.
+|KeRemoveQueueDpc |Removes a given DPC object from the DPC queue; returns FALSE if the object is not in the queue.
+|KeSetImportanceDpc |Controls how a particular DPC is queued and, to some degree, how soon the DPC routine is run.
+|KeSetTargetProcessorDpc |Controls on which processor a particular DPC subsequently will be queued.
+|KeFlushQueuedDpcs |Call this routine to wait for all queued DPCs to execute.
+|AllocateAdapterChannel |Connects a device object to an adapter object and calls a driver-supplied AdapterControl routine to carry out an I/O operation through the system DMA controller or a bus-master adapter as soon as the appropriate DMA channel and any necessary map registers are available. (This routine reserves exclusive access to a DMA channel and map registers for the specified device.)
+|FreeAdapterChannel |Releases an adapter object, representing a system DMA channel, and optionally releases map registers, if any were allocated.
+|FreeMapRegisters |Releases a set of map registers that were saved from a call to AllocateAdapterChannel, after the registers have been used by IoMapTransfer and the bus-master DMA transfer is complete.
+|IoAllocateController |Connects a device object to a controller object and calls a driver-supplied ControllerControl routine to carry out an I/O operation on the device controller as soon as the controller is not busy. (This routine reserves exclusive access to the hardware controller for the specified device.)
+|IoFreeController |Releases a controller object, provided that all device operations queued to the controller for the current IRP have completed.
+|IoStartTimer |Enables the timer for a given device object and calls the driver-supplied IoTimer routine once per second thereafter.
+|IoStopTimer |Disables the timer for a given device object so that the driver-supplied IoTimer routine is not called unless the driver reenables the timer.
+|KeSetTimer |Sets the absolute or relative interval at which a timer object will be set to the Signaled state and optionally supplies a timer DPC to be executed after the interval expires.
+|KeSetTimerEx |Sets the absolute or relative interval at which a timer object will be set to the Signaled state, optionally supplies a timer DPC to be executed when the interval expires, and optionally supplies a recurring interval for the timer.
+|KeCancelTimer |Cancels a timer object before the interval passed to KeSetTimer expires; dequeues a timer DPC before the timer interval, if any was set, expires.
+|KeReadStateTimer |Returns whether a given timer object is set to the Signaled state.
+|IoStartPacket |Calls the driver's StartIo routine with the given IRP for the given device object or inserts the IRP into the device queue if the device is already busy, specifying whether the IRP is cancelable.
+|IoStartNextPacket |Dequeues the next IRP for a given device object, specifying whether the IRP is cancelable, and calls the driver's StartIo routine.
+|IoStartNextPacketByKey |Dequeues the next IRP, according to the specified sort-key value, for a given device object. Specifies whether the IRP is cancelable and calls the driver's StartIo routine.
+|IoSetCompletionRoutine |Registers a driver-supplied IoCompletion routine with a given IRP, so the IoCompletion routine is called when the next-lower-level driver has completed the requested operation in one or more of the following ways: successfully, with an error, or by canceling the IRP.
+|IoSetCompletionRoutineEx |Same as IoSetCompletionRoutine, except that it guarantees a non-Plug and Play driver is not unloaded before the IoCompletion routine exits.
+|IoSetCancelRoutine |Sets or clears the Cancel routine in an IRP. Setting a Cancel routine makes an IRP cancelable.
+|KeStallExecutionProcessor |Stalls the caller (a device driver) for a given interval on the current processor.
+|ExAcquireResourceExclusiveLite |Acquires an initialized resource for exclusive access by the calling thread and optionally waits for the resource to be acquired.
+|ExAcquireResourceSharedLite |Acquires an initialized resource for shared access by the calling thread and optionally waits for the resource to be acquired. 
+|ExAcquireSharedStarveExclusive |Acquires a given resource for shared access without waiting for any pending attempts to acquire exclusive access to the same resource.
+|ExAcquireSharedWaitForExclusive |Acquires a given resource for shared access, optionally waiting for any pending exclusive waiters to acquire and release the resource first. 
+|ExReleaseResourceForThreadLite |Releases a given resource that was acquired by the given thread. 
+|ZwReadFile |Reads data from an open file. If the caller opened the file object with certain parameters, the caller can wait for the file handle to be returned for completion of the I/O.
+|ZwWriteFile |Writes data to an open file. If the caller opened the file object with certain parameters, the caller can wait for the file handle to be returned for completion of the I/O.
+
+
+### IRQL
+|Function|Description|
+|---|---|
+|KeRaiseIrql |Raises the hardware priority to a given IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
+|KeRaiseIrqlToDpcLevel |aises the hardware priority to IRQL DISPATCH_LEVEL, thereby masking off interrupts of equivalent or lower IRQL on the current processor. 
+|KeLowerIrql |Restores the IRQL on the current processor to its original value.
+|KeGetCurrentIrql |Returns the current hardware priority IRQL value.
+
+### Spin Locks and Interlocks
+|Function|Description|
+|---|---|
+|oAcquireCancelSpinLock |Synchronizes cancelable state transitions for IRPs in a multiprocessor-safe manner.
+|IoSetCancelRoutine |Sets or clears the Cancel routine in an IRP during a cancelable state transition. Setting a Cancel routine makes an IRP cancelable.
+|IoReleaseCancelSpinLock |Releases the cancel spin lock when the driver has changed the cancelable state of an IRP or releases the cancel spin lock from the driver's Cancel routine.
+|KeInitializeSpinLock |Initializes a variable of type KSPIN_LOCK, used to synchronize access to data shared among non-ISR routines. An initialized spin lock also is a required parameter to the ExInterlockedXxx routines.
+|KeAcquireSpinLock |Acquires a spin lock so the caller can synchronize access to shared data safely on multiprocessor platforms. 
+|KeAcquireSpinLockRaiseToDpc |Acquires a spin lock so the caller can synchronize access to shared data safely on multiprocessor platforms.
+|KeReleaseSpinLock |Releases a spin lock that was acquired by calling KeAcquireSpinLock and restores the original IRQL at which the caller was running.
+|KeAcquireSpinLockAtDpcLevel |Acquires a spin lock, provided that the caller is already running at IRQL DISPATCH_LEVEL.
+|KeTryToAcquireSpinLockAtDpcLevel |Acquires a spin lock that is not already held, provided that the caller is already running at IRQL DISPATCH_LEVEL.
+|KeReleaseSpinLockFromDpcLevel |Releases a spin lock that was acquired by calling KeAcquireSpinLockAtDpcLevel.
+|KeAcquireInStackQueuedSpinLock |Acquires a queued spin lock so the caller can synchronize access to shared data safely on multiprocessor platforms. 
+|KeReleaseInStackQueuedSpinLock |Releases a queued spin lock that was acquired by calling KeAcquireInStackQueuedSpinLock.
+|KeAcquireInStackQueuedSpinLockAtDpcLevel |Acquires a queued spin lock, provided that the caller is already running at IRQL DISPATCH_LEVEL.
+|KeReleaseInStackQueuedSpinLockFromDpcLevel |Releases a queued spin lock that was acquired by calling KeAcquireInStackQueuedSpinLockAtDpcLevel.
+|KeAcquireInterruptSpinLock |Acquires the spin lock that synchronizes access with an interrupt's ISR.
+|KeReleaseInterruptSpinLock |Release the spin lock that synchronized access with an interrupt's ISR.
+|ExInterlockedXxxList |Insert and remove IRPs in a driver-managed internal queue, which is protected by an initialized spin lock for which the driver provides the storage.
+|KeXxxDeviceQueue |Insert and remove IRPs in a driver-allocated and managed internal device queue object, which is protected by a built-in spin lock.
+|ExInterlockedAddUlong |Adds a value to a variable of type ULONG as an atomic operation, using a spin lock to ensure multiprocessor-safe access to the variable; returns the value of the variable before the call occurred.
+|ExInterlockedAddLargeInteger |Adds a value to a variable of type LARGE_INTEGER as an atomic operation, using a spin lock to ensure multiprocessor-safe access to the variable; returns the value of the variable before the call occurred.
+|InterlockedIncrement |Increments a variable of type LONG as an atomic operation. The sign of the return value is the sign of the result of the operation.
+|InterlockedDecrement |Decrements a variable of type LONG as an atomic operation. The sign of the return value is the sign of the result of the operation. 
+|InterlockedExchange |Sets a variable of type LONG to a specified value as an atomic operation; returns the value of the variable before the call occurred.
+|InterlockedExchangeAdd |Adds a value to a given integer variable as an atomic operation; returns the value of the variable before the call occurred.
+|InterlockedCompareExchange |Compares the values referenced by two pointers. If the values are equal, resets one of the values to a caller-supplied value in an atomic operation. 
+|InterlockedCompareExchangePointer |Compares the pointers referenced by two pointers. If the pointer values are equal, resets one of the values to a caller-supplied value in an atomic operation.
+|ExInterlockedCompareExchange64 |Compares one integer variable to another and, if they are equal, resets the first variable to a caller-supplied ULONGLONG-type value as an atomic operation. 
+|KeGetCurrentProcessorNumber |Returns the current processor number when debugging spin lock usage in SMP machines.
+
+### Timers
+|Function|Description|
+|---|---|
+|oInitializeTimer |Associates a timer with the given device object and registers a driver-supplied IoTimer routine for the device object.
+|IoStartTimer |Enables the timer for a given device object and calls the driver-supplied IoTimer routine once every second.
+|IoStopTimer |Disables the timer for a given device object so the driver-supplied IoTimer routine is not called unless the driver reenables the timer.
+|KeInitializeDpc |Initializes a DPC object and sets up a driver-supplied CustomTimerDpc routine that can be called with a given context.
+|KeInitializeTimer |Initializes a notification timer object to the Not-Signaled state.
+|KeInitializeTimerEx |Initializes a notification or synchronization timer object to the Not-Signaled state.
+|KeSetTimer |Sets the absolute or relative interval at which a timer object will be set to the Signaled state; optionally supplies a timer DPC to be executed when the interval expires.
+|KeSetTimerEx |Sets the absolute or relative interval at which a timer object will be set to the Signaled state; optionally supplies a timer DPC to be executed when the interval expires; and optionally supplies a recurring interval for the timer.
+|KeCancelTimer |Cancels a timer object before the interval passed to KeSetTimer expires; dequeues a timer DPC before the timer interval, if any was set, expires.
+|KeReadStateTimer |Returns TRUE if a given timer object is set to the Signaled state.
+|KeQuerySystemTime |Returns the current system time.
+|KeQueryRuntimeThread |Returns the accumulated kernel-mode and user-mode run time.
+|KeQueryTickCount |Returns the number of interval-timer interrupts that have occurred since the system was booted.
+|KeQueryTimeIncrement |Returns the number of 100-nanosecond units that are added to the system time at each interval-timer interrupt.
+|KeQueryInterruptTime |Returns the current value of the system interrupt-time count in 100-nanosecond units, with accuracy to within system clock tick.
+|KeQueryInterruptTimePrecise |Returns the current value of the system interrupt-time count in 100-nanosecond units, with accuracy to within a microsecond.
+|KeQueryPerformanceCounter |Returns the system performance counter value in hertz. 
+
+
+### Driver Threads, Dispatcher Objects, and Resources
+|Function|Description|
+|---|---|
+|KeDelayExecutionThread |Puts the current thread into an alertable or nonalertable wait state for a given interval.
+|ExInitializeResourceLite |Initializes a resource, for which the caller provides the storage, to be used for synchronization by a set of threads (shared readers, exclusive writers). 
+|ExReinitializeResourceLite |Reinitializes an existing resource variable.
+|ExAcquireResourceExclusiveLite |Acquires an initialized resource for exclusive access by the calling thread and optionally waits for the resource to be acquired.
+|ExAcquireResourceSharedLite |Acquires an initialized resource for shared access by the calling thread and optionally waits for the resource to be acquired. 
+|ExAcquireSharedStarveExclusive |Acquires a given resource for shared access without waiting for any pending attempts to acquire exclusive access to the same resource.
+|ExAcquireSharedWaitForExclusive |Acquires a given resource for shared access, optionally waiting for any pending exclusive waiters to acquire and release the resource first. 
+|ExIsResourceAcquiredExclusiveLite |Returns whether the calling thread has exclusive access to a given resource.
+|ExIsResourceAcquiredSharedLite |Returns how many times the calling thread has acquired shared access to a given resource.
+|ExGetExclusiveWaiterCount |Returns the number of threads currently waiting to acquire a given resource for exclusive access. 
+|ExGetSharedWaiterCount |Returns the number of threads currently waiting to acquire a given resource for shared access. 
+|ExConvertExclusiveToSharedLite |Converts a given resource from acquired for exclusive access to acquired for shared access.
+|ExGetCurrentResourceThread |Returns the thread ID of the current thread.
+|ExReleaseResourceForThreadLite |Releases a given resource that was acquired by the given thread.
+|ExDeleteResourceLite |Deletes a caller-initialized resource from the system's resource list.
+|IoQueueWorkItem |Queues an initialized work queue item so the driver-supplied routine will be called when a system worker thread is given control.
+|KeSetTimer |Sets the absolute or relative interval at which a timer object will be set to the Signaled state, and optionally supplies a timer DPC to be executed when the interval expires.
+|KeSetTimerEx |Sets the absolute or relative interval at which a timer object will be set to the Signaled state. Optionally supplies a timer DPC to be executed when the interval expires and a recurring interval for the timer.
+|KeCancelTimer |Cancels a timer object before the interval passed to KeSetTimer expires. Dequeues a timer DPC before the timer interval (if any) expires.
+|KeReadStateTimer |Returns TRUE if a given timer object is set to the Signaled state.
+|KeSetEvent |Returns the previous state of a given event object and sets the event (if not already Signaled) to the Signaled state.
+|KeClearEvent |Resets an event to the Not-Signaled state. 
+|KeResetEvent |Returns the previous state of an event object and resets the event to the Not-Signaled state.
+KeReadStateEvent |Returns the current state (nonzero for Signaled or zero for Not-Signaled) of a given event object.
+|ExAcquireFastMutex |Acquires an initialized fast mutex, possibly after putting the caller into a wait state until it is acquired, and gives the calling thread ownership with APCs disabled. 
+|ExTryToAcquireFastMutex |Acquires the given fast mutex immediately for the caller with APCs disabled, or returns FALSE. 
+|ExReleaseFastMutex |Releases ownership of a fast mutex that was acquired with ExAcquireFastMutex or ExTryToAcquireFastMutex. 
+|ExAcquireFastMutexUnsafe |Acquires an initialized fast mutex, possibly after putting the caller into a wait state until it is acquired. 
+|ExReleaseFastMutexUnsafe |Releases ownership of a fast mutex that was acquired with ExAcquireFastMutexUnsafe. 
+|KeReleaseMutex |Releases a given mutex object, specifying whether the caller will call one of the KeWaitXxx routines as soon as KeReleaseMutex returns the previous value of the mutex state (a zero for Signaled; otherwise, Not-Signaled).
+|KeReadStateMutex |Returns the current state (one for Signaled or any other value for Not-Signaled) of a given mutex object.
+|KeReleaseSemaphore |Releases a given semaphore object. Supplies a (run-time) priority boost for waiting threads if the release sets the semaphore to the Signaled state. Augments the semaphore count by a given value and specifies whether the caller will call one of the KeWaitXxx routines as soon as KeReleaseSemaphore returns.
+|KeReadStateSemaphore |Returns the current state (zero for Not-Signaled or a positive value for Signaled) of a given semaphore object.
+|KeWaitForSingleObject |Puts the current thread into an alertable or nonalertable wait state until a given dispatcher object is set to the Signaled state or (optionally) until the wait times out.
+|KeWaitForMutexObject |Puts the current thread into an alertable or nonalertable wait state until a given mutex is set to the Signaled state or (optionally) until the wait times out.
+|KeWaitForMultipleObjects |Puts the current thread into an alertable or nonalertable wait state until any one or all of a number of dispatcher objects are set to the Signaled state or (optionally) until the wait times out.
+|PsGetCurrentThread |Returns a pointer to the current thread. 
+|KeGetCurrentThread |Returns a pointer to the opaque thread object that represents the current thread. 
+|IoGetCurrentProcess |Returns a pointer to the process of the current thread.
+|PsGetCurrentProcess |Returns a pointer to the process of the current thread.
+|KeEnterCriticalRegion |Temporarily disables the delivery of normal kernel APCs while a highest-level driver is running in the context of the user-mode thread that requested the current I/O operation. Special kernel-mode APCs are still delivered.
+|KeLeaveCriticalRegion |Reenables, as soon as possible, the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
+|KeAreApcsDisabled |Returns TRUE if normal kernel-mode APCs are disabled.
+|KeSaveFloatingPointState |Saves the current thread's nonvolatile floating-point context so that the caller can carry out its own floating-point operations.
+|KeRestoreFloatingPointState |Restores the previous nonvolatile floating-point context that was saved with KeSaveFloatingPointState. 
+|ZwSetInformationThread |Sets the priority of a given thread for which the caller has a handle.
+|PsGetCurrentProcessId |Returns the system-assigned identifier of the current process. 
+|PsGetCurrentThreadId |Returns the system-assigned identifier of the current thread. 
+|PsSetCreateProcessNotifyRoutine |Registers a highest level driver's callback routine that is subsequently executed whenever a new process is created or existing process deleted.
+|PsSetCreateThreadNotifyRoutine |Registers a highest level driver's callback routine that is subsequently executed whenever a new thread is created or an existing thread is deleted.
+|PsSetLoadImageNotifyRoutine |Registers a callback routine for a highest level system-profiling driver. The callback routine is subsequently executed whenever a new image is loaded for execution. 
+
+## Memory Allocation and Buffer Management
+This section describes the Windows kernel routines and macros that kernel-mode drivers call to allocate memory and manage I/O buffers.
+
+The Windows memory manager provides a set of routines that kernel-mode drivers use to allocate and manage memory. These routines have names that begin with the prefix Mm.
+
+This section contains reference pages for the MmXxx routines and memory-management macros. These reference pages are listed in alphabetical order.
+
+For an overview of the functionality of these routines and macros, see Memory Allocation and Buffer Management. For an introduction to memory management support for kernel-mode drivers, see Memory Management for Windows Drivers.
+
+The following routines are reserved for system use. Do not use them in your driver.
+
+MmAddPhysicalMemory
+MmAddPhysicalMemoryEx
+MmAddVerifierThunks
+MmCreateMirror
+MmGetMdlBaseVa
+MmGetPhysicalMemoryRanges
+MmGetProcedureAddress
+MmGetVirtualForPhysical
+MmIsVerifierEnabled
+MmIsIoSpaceActive
+MmMapUserAddressesToPage
+MmMapVideoDisplay
+MmMapViewInSessionSpace
+MmMapViewInSystemSpace
+MmMarkPhysicalMemoryAsBad
+MmMarkPhysicalMemoryAsGood
+MmProbeAndLockProcessPages
+MmRemovePhysicalMemory
+MmRemovePhysicalMemoryEx
+MmRotatePhysicalView
+MmUnmapVideoDisplay
+MmUnmapViewInSessionSpace
+MmUnmapViewInSystemSpace
+
+For more information about memory allocation and buffer management, see Memory Management for Windows Drivers.
+
+### Buffer Management
+The short-term buffer management routines are called by kernel-mode drivers to allocate and free temporary buffers.
+
+|Function|Description|
+|---|---|
+|ExAllocatePoolWithTag |Allocates (optionally cache-aligned) pool memory from paged or nonpaged system space. The caller-supplied tag is put into any crash dump of memory that occurs.
+|ExAllocatePoolWithQuotaTag |Allocates pool memory, charging quota against the original requester of the I/O operation. The caller-supplied tag is put into any crash dump of memory that occurs. Only highest-level drivers can call this routine.
+ExFreePool |Releases memory to paged or nonpaged system space.
+|ExFreePoolWithTag |Releases memory with the specified pool tag.
+|ExInitializeNPagedLookasideList |Initializes a lookaside list of nonpaged memory. After successful initialization of the list, fixed-size blocks can be allocated from, and freed to, the lookaside list.
+|ExAllocateFromNPagedLookasideList |Removes the first entry from the specified lookaside list in nonpaged memory. If the lookaside list is empty, allocates an entry from nonpaged pool.
+|ExFreeToNPagedLookasideList |Returns an entry to the specified lookaside list in nonpaged memory. If the list has reached its maximum size, returns the entry to nonpaged pool.
+|ExDeleteNPagedLookasideList |Deletes a nonpaged lookaside list.
+|ExInitializePagedLookasideList |Initializes a lookaside list of paged memory. After successful initialization of the list, fixed-size blocks can be allocated from and freed to the lookaside list.
+|ExAllocateFromPagedLookasideList |Removes the first entry from the specified lookaside list in paged memory. If the lookaside list is empty, allocates an entry from paged pool.
+|ExFreeToPagedLookasideList |Returns an entry to the specified lookaside list in paged memory. If the list has reached its maximum size, returns the entry to paged pool. 
+|ExDeletePagedLookasideList |Deletes a paged lookaside list.
+|MmQuerySystemSize |Returns an estimate (small, medium, or large) of the amount of memory available on the current platform.
+|MmIsThisAnNtAsSystem |Returns TRUE if the machine is running as a server. If this routine returns TRUE, the caller is likely to require more resources to process I/O requests, and the machine is a server so it is likely to have more resources available.
+
+### Long-Term Internal Driver Buffers
+The long-term buffer management routines are called by kernel-mode drivers to allocate long-term driver-internal buffers.
+
+|Function|Description|
+|---|---|
+|MmAllocateContiguousMemory |Allocates a range of physically contiguous, cache-aligned memory in nonpaged pool.
+|MmFreeContiguousMemory |Releases a range of physically contiguous memory when the driver unloads.
+|MmAllocateNonCachedMemory |Allocates a virtual address range of noncached and cache-aligned memory in nonpaged system space (pool).
+|MmFreeNonCachedMemory |Releases a virtual address range of noncached memory in nonpaged system space when the driver unloads.
+|MmAllocateMappingAddress |Reserves a range of virtual address space that can later be mapped with MmMapLockedPagesWithReservedMapping.
+|MmFreeMappingAddress |Frees a reserved memory address reserved by MmAllocateMappingAddress.
+|AllocateCommonBuffer |Allocates and maps a logically contiguous region of memory that is simultaneously accessible both from the processor and from a device, given access to an adapter object, the requested length of the memory region to allocate, and access to variables where the starting logical and virtual addresses of the allocated region are returned. Returns TRUE if the requested length was allocated. Can be used for continuous bus-master DMA or for system DMA using the autoinitialize mode of a system DMA controller.
+|FreeCommonBuffer |Releases an allocated common buffer and unmaps it, given access to the adapter object, the length, and the starting logical and virtual addresses of the region to be freed when the driver unloads. Arguments must match those passed in the call to AllocateCommonBuffer.
+
+### Buffered Data and Buffer Initialization
+The buffered-data and buffer-initialization routines are called by kernel-mode drivers to manage buffered data or initialize driver-allocated buffers.
+
+|Function|Description|
+|---|---|
+RtlCompar|Memory |Compares data, given pointers to caller-supplied buffers and the length in bytes for the comparison. Returns the number of bytes that are equal.
+|RtlCopyMemory |Copies the data from one caller-supplied buffer to another, given pointers to both buffers and the length in bytes to be copied.
+|RtlMoveMemory |Copies the data from one caller-supplied memory range to another, given pointers to the base of both ranges and the length in bytes to be copied.
+|RtlFillMemory |Fills a caller-supplied buffer with the specified UCHAR value, given a pointer to the buffer and the length in bytes to be filled.
+|RtlZeroMemory |Fills a buffer with zeros, given a pointer to the caller-supplied buffer and the length in bytes to be filled.
+|RtlStoreUshort |Stores a USHORT value at a given address, avoiding alignment faults.
+|RtlRetrieveUshort |Retrieves a USHORT value at a given address, avoiding alignment faults, and stores the value at a given address that is assumed to be aligned.
+|RtlStoreUlong |Stores a ULONG value at a given address, avoiding alignment faults.
+|RtlRetrieveUlong |Retrieves a ULONG value at a given address, avoiding alignment faults, and stores the value at a given address that is assumed to be aligned. 
+
+ 
+### Address Mappings and MDLs
+The address-mapping and MDL-management routines are called by kernel-mode drivers to manage address mappings and memory descriptor lists (MDLs).
+
+|Function|Description|
+|---|---|
+|oAllocateMdl |Allocates an MDL large enough to map the starting address and length supplied by the caller; optionally associates the MDL with a given IRP.
+|IoBuildPartialMdl |Builds an MDL for the specified starting virtual address and length in bytes from a given source MDL. Drivers that split large transfer requests into a number of smaller transfers can call this routine.
+|IoFreeMdl |Releases a given MDL allocated by the caller.
+|MmAllocatePagesForMdlEx |Allocates nonpaged, physical memory pages for an MDL.
+|MmBuildMdlForNonPagedPool |Fills in the corresponding physical addresses of a given MDL that specifies a range of virtual addresses in nonpaged pool.
+|MmCreateMdl |Obsolete. Allocates and initializes an MDL describing a buffer specified by the given virtual address and length in bytes; returns a pointer to the MDL.
+|MmGetMdlByteCount |Returns the length in bytes of the buffer mapped by a given MDL.
+|MmGetMdlByteOffset |Returns the byte offset within a page of the buffer described by a given MDL.
+|MmGetMdlVirtualAddress |Returns a (possibly invalid) virtual address for a buffer described by a given MDL; the returned address, used as an index to a physical address entry in the MDL, can be input to MapTransfer for drivers that use DMA.
+|MmGetPhysicalAddress |Returns the corresponding physical address for a given valid virtual address.
+|MmGetSystemAddressForMdlSafe |Returns a system-space virtual address that maps the physical pages described by a given MDL for drivers whose devices must use programmed I/O (PIO). If no virtual address exists, one is assigned.
+|MmInitializeMdl |Initializes a caller-created MDL to describe a buffer specified by the given virtual address and length in bytes.
+|MmIsAddressValid |Returns whether a page fault will occur if a read or write operation is done at the given virtual address.
+|MmMapIoSpace |Maps a physical address range to a cached or noncached virtual address range in nonpaged system space.
+|MmMapLockedPages |Obsolete. Maps already locked physical pages, described by a given MDL, to a returned virtual address range.
+|MmMapLockedPagesWithReservedMapping |Maps a virtual address range already reserved with MmAllocateMappingAddress.
+|MmPrepareMdlForReuse |Reinitializes a caller-created MDL for reuse.
+|MmProbeAndLockPages |Probes the pages specified in an MDL for a particular kind of access, makes the pages resident, and locks them in memory; returns the MDL updated with corresponding physical addresses. (Usually, only highest-level drivers call this routine.)
+|MmProtectMdlSystemAddress |Sets the protection type for the memory-address range.
+|MmSecureVirtualMemory |Secures a memory-address range so that it cannot be freed and its page protection cannot be made more restrictive.
+|MmSizeOfMdl |Returns the number of bytes required for an MDL describing the buffer specified by the given virtual address and length in bytes.
+|MmUnlockPages |Unlocks the previously probed and locked pages specified in an MDL.
+|MmUnmapIoSpace |Unmaps a virtual address range from a physical address range.
+|MmUnmapLockedPages |Releases a mapping set up by MmMapLockedPages.
+|MmUnmapReservedMapping |Unmaps a virtual address range mapped by MmMapLockedPagesWithReservedMapping.
+|MmUnsecureVirtualMemory Unsecures a memory-address range secured by MmSecureVirtualMemory.
+
+### Buffer and MDL Management
+The buffer- and MDL-management macros are called by kernel-mode drivers to manage buffers and memory descriptor lists (MDLs).
+
+For more information about MDLs, see Using MDLs.
+
+|Function|Description|
+|---|---|
+ADDRESS_A|D_SIZE_TO_SPAN_PAGES |Returns the number of pages required to contain a given virtual address and size in bytes.
+|BYTE_OFFSET |Returns the byte offset of a given virtual address within the page.
+|BYTES_TO_PAGES |Returns the number of pages necessary to contain a given number of bytes.
+|PAGE_ALIGN |Returns the page-aligned virtual address for the page that contains a given virtual address.
+|ROUND_TO_PAGES |Rounds a given size in bytes up to a page-size multiple.
+
+### Device Memory Access
+The device-memory-access macros are called by kernel-mode drivers to access the memory-mapped hardware registers and I/O ports of their respective devices.
+
+For the following macros, XXX_REGISTER_XXX indicates device memory that is mapped onto system memory address space, while XXX_PORT_XXX indicates device memory in I/O port address space.
+
+|Function|Description|
+|---|---|
+|EAD_PORT_UCHAR |Reads a UCHAR value from the given I/O port address.
+|READ_PORT_USHORT |Reads a USHORT value from the given I/O port address.
+|READ_PORT_ULONG |Reads a ULONG value from the given I/O port address.
+|READ_PORT_BUFFER_UCHAR |Reads a given count of UCHAR values from the given I/O port into a given buffer.
+|READ_PORT_BUFFER_USHORT |Reads a given count of USHORT values from the given I/O port into a given buffer.
+|READ_PORT_BUFFER_ULONG |Reads a given count of ULONG values from the given I/O port into a given buffer.
+|WRITE_PORT_UCHAR |Writes a given UCHAR value to the given I/O port address.
+|WRITE_PORT_USHORT |Writes a given USHORT value to the given I/O port address.
+|WRITE_PORT_ULONG |Writes a given ULONG value to the given I/O port address.
+|WRITE_PORT_BUFFER_UCHAR |Writes a given count of UCHAR values from a given buffer to the given I/O port.
+|WRITE_PORT_BUFFER_USHORT |Writes a given count of USHORT values from a given buffer to the given I/O port.
+|WRITE_PORT_BUFFER_ULONG |Writes a given count of ULONG values from a given buffer to the given I/O port.
+|READ_REGISTER_UCHAR |Reads a UCHAR value from the given register address in memory space.
+|READ_REGISTER_USHORT |Reads a USHORT value from the given register address in memory space.
+|READ_REGISTER_ULONG |Reads a ULONG value from the given register address in memory space.
+|READ_REGISTER_BUFFER_UCHAR |Reads a given count of UCHAR values from the given register address into the given buffer.
+|READ_REGISTER_BUFFER_USHORT |Reads a given count of USHORT values from the given register address into the given buffer.
+|READ_REGISTER_BUFFER_ULONG |Reads a given count of ULONG values from the given register address into the given buffer.
+|WRITE_REGISTER_UCHAR |Writes a given UCHAR value to the given register address in memory space.
+|WRITE_REGISTER_USHORT |Writes a given USHORT value to the given register address in memory space.
+|WRITE_REGISTER_ULONG |Writes a given ULONG value to the given register address in memory space.
+|WRITE_REGISTER_BUFFER_UCHAR |Writes a given count of UCHAR values from a given buffer to the given register address.
+|WRITE_REGISTER_BUFFER_USHORT |Writes a given count of USHORT values from a given buffer to the given register address.
+|WRITE_REGISTER_BUFFER_ULONG |Writes a given count of ULONG values from a given buffer to the given register address.
+
+ 
+### Pageable Drivers
+The pageable-driver routines are called by kernel-mode drivers to lock and unlock a driver's pageable code or data sections, or make an entire driver pageable.
+
+|Function|Description|
+|---|---|
+M|LockPagableCodeSection |Locks a set of driver routines marked with a special compiler directive into system space.
+|MmLockPagableDataSection |Locks data marked with a special compiler directive into system space, when that data is accessed infrequently, predictably, and at an IRQL of less than DISPATCH_LEVEL.
+|MmLockPagableSectionByHandle |Locks a pageable section into system memory using a handle returned from MmLockPagableCodeSection or MmLockPagableDataSection.
+|MmUnlockPagableImageSection |Releases a section that was previously locked into system space when the driver is no longer processing IRPs, or when the contents of the section are no longer required.
+|MmPageEntireDriver |Lets a driver page all of its code and data regardless of the attributes of the various sections in the driver's image.
+|MmResetDriverPaging |Resets a driver's pageable status to that specified by the sections making up the driver's image.
+
+
+### Sections and Views
+The section- and view-management routines are called by kernel-mode drivers to set up mapped sections and views of memory.
+
+|Function|Description|
+|---|---|
+|nitializeObjectAttributes |Sets up a parameter of type OBJECT_ATTRIBUTES for a subsequent call to a ZwCreateXxx or ZwOpenXxx routine.
+|ZwOpenSection |Obtains a handle for an existing section, provided that the requested access can be allowed.
+|ZwMapViewOfSection |Maps a view of an open section into the virtual address space of a process. Returns an offset into the section (base of the mapped view) and the size mapped.
+|ZwUnmapViewOfSection |Releases a mapped view in the virtual address space of a process.
+
+### Access to Structures
+The structure-access macros are called by kernel-mode drivers to access parts of structures.
+
+|Function|Description|
+|---|---|
+|RGUMENT_PRESENT |Returns FALSE if an argument pointer is NULL; otherwise returns TRUE.
+|CONTAINING_RECORD| Returns the base address of an instance of a structure given the structure type and the address of a field within it.
+|FIELD_OFFSET |Returns the byte offset of a named field in a known structure type.
+
+ 
+## Plug and Play Routines
+These routines are used by drivers to implement Plug and Play (PnP) support. For background and task-oriented information about supporting PnP in drivers, see Plug and Play.
+
+
+The following topics summarize the routines by functionality:
+
+### Device Information Routines
+|Function|Description|
+|---|---|
+|oGetDeviceProperty |Retrieves information about a device such as configuration information and the name of its PDO.
+|IoInvalidateDeviceRelations |Notifies the PnP manager that the relations for a device have changed.
+|IoInvalidateDeviceState |Notifies the PnP manager that the PnP state of a device has changed. In response, the PnP manager sends an IRP_MN_QUERY_PNP_DEVICE_STATE to the device stack.
+|IoReportDetectedDevice |Reports a non-PnP device to the PnP manager.
+|IoReportResourceForDetection |Claims hardware resources in the configuration registry for a legacy device. This routine is for drivers that detect legacy hardware that cannot be enumerated by PnP.
+
+
+### Registry Routines
+|Function|Description|
+|---|---|
+|oOpenDeviceInterfaceRegistryKey |Returns a handle to a registry key for storing information about a particular device interface.
+|IoOpenDeviceRegistryKey |Returns a handle to a device-specific or a driver-specific registry key for a particular device instance. 
+
+### Device Interface Routines
+|Function|Description|
+|---|---|
+|IoRegisterDeviceInterface |Registers device functionality (a device interface) that a driver will enable for use by applications or other system components.
+|IoSetDeviceInterfaceState |Enables or disables a previously registered device interface. Applications and other system components can open only interfaces that are enabled.
+|IoOpenDeviceInterfaceRegistryKey |Returns a handle to a registry key for storing information about a particular device interface.
+|IoGetDeviceInterfaces |Returns a list of device interfaces of a particular device interface class (such as all devices on the system that support a HID interface).
+|IoGetDeviceInterfaceAlias |Returns the alias device interface of the specified interface class, if the alias exists. Device interfaces are considered aliases if they are exposed by the same underlying device and have identical interface reference strings, but are of different interface classes.
+
+ 
+### PnP Notification Routines
+|Function|Description|
+|---|---|
+|IoRegisterPlugPlayNotification |Registers a driver callback routine to be called when the specified PnP event occurs.
+|IoReportTargetDeviceChange |Notifies the PnP manager that a custom event has occurred on a device. The PnP manager sends notification of the event to drivers that registered for it. Do not use this routine to report system PnP events, such as GUID_TARGET_DEVICE_REMOVE_COMPLETE.
+|IoReportTargetDeviceChangeAsynchronous |Notifies the PnP manager that a custom event has occurred on a device. Returns immediately and does not wait while the PnP manager sends notification of the event to drivers that registered for it. Do not use this routine to report system PnP events, such as GUID_TARGET_DEVICE_REMOVE_COMPLETE.
+|IoUnregisterPlugPlayNotification |Removes the registration of a driver's callback routine for a PnP event.
+
+### Remove Lock Routines
+|Function|Description|
+|---|---|
+|oInitializeRemoveLock |Initializes a remove lock for a device object. A driver can use the lock to track outstanding I/O on a device and to determine when the driver can delete its device object in response to an IRP_MN_REMOVE_DEVICE request.
+|IoAcquireRemoveLock |Increments the count for a remove lock, indicating that the associated device object should not be detached from the device stack nor deleted.
+|IoReleaseRemoveLock |Releases a remove lock acquired with a previous call to IoAcquireRemoveLock. 
+|IoReleaseRemoveLockAndWait |Releases a remove lock acquired with a previous call to IoAcquireRemoveLock and waits until all acquisitions of the lock have been released. A driver typically calls this routine in its dispatch code for an IRP_MN_REMOVE_DEVICE request. 
+
+### Other PnP Routines
+|Function|Description|
+|---|---|
+|oAdjustPagingPathCount |Increments or decrements a caller-supplied page-file counter as an atomic operation. This routine can be used to adjust other counters, such as counters for hibernation files or crash-dump files.
+|IoRequestDeviceEject |Notifies the PnP manager that the device eject button was pressed. Note that this routine reports a request for a device eject, not media eject.
+
+## Windows Management Instrumentation Routines
+This section summarizes kernel-mode support routines that drivers can use to interact with Windows Management Instrumentation (WMI).
+
+The categories of support routines include those that drivers can call to:
+
+-   Process IRPs that a driver receives (WMI IRP Processing Routines).
+|Function|Description|
+|---|---|
+|WmiCompleteRequest |If a driver uses WmiSystemControl to dispatch the WMI IRP to a callback routine, then the callback routine can use WmiCompleteRequest to complete the IRP.
+|WmiSystemControl Dispatches a WMI IRP to a driver-supplied callback routine.
+|WmiFireEvent| The WmiFireEvent routine sends an event to WMI for delivery to data consumers that have requested notification of the event.
+|WmiQueryTraceInformation| The WmiQueryTraceInformation routine returns information about a WMI event trace.
+|WmiSystemControl| The WmiSystemControl routine is a dispatch routine for drivers that use WMI library support routines to handle WMI IRPs.
+|WmiTraceMessage| The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.
+|WmiTraceMessageVa| The WmiTraceMessageVa routine adds a message to the output log of a WPP software tracing session.
+
+-   Drivers can use these routines in processing WMI IRPs.
+Drivers use these routines to send WMI IRPs.
+|Function|Description|
+|---|---|
+|IoWMIAllocateInstanceIds |Allocates unused WMI instance IDs for a given WMI class GUID.
+|IoWMIDeviceObjectToInstanceName |Given a device object, determines the WMI class instance name supported by the corresponding driver. Callers can use this to determine the instance names supported by a particular driver.
+|IoWMIExecuteMethod |Executes the specified WMI class method.
+|IoWMIHandleToInstanceName |Given a file handle, determines the WMI class instance name supported by the corresponding driver. Callers can use this to determine the instance names supported by a particular driver.
+|IoWMIOpenBlock |Opens a WMI data block. Callers use this to submit WMI I/O requests.
+|IoWMIQueryAllData |Fetches the property values for every instance of the specified WMI class GUID.
+|IoWMIQueryAllDataMultiple |Fetches the property values for every instance of the specified set of WMI class GUIDs.
+|IoWMIQuerySingleInstance |Fetches the property values for a particular instance of the specified WMI class GUID.
+|IoWMIQuerySingleInstanceMultiple |Fetches the property values for a particular set of WMI class instances.
+|IoWMISetNotificationCallback |Sets a notification callback for WMI events.
+|IoWMISetSingleInstance |Sets the property values for a particular WMI class instance.
+|IoWMISetSingleItem |Sets the specified property for a particular WMI class instance.
+
+This section describes required and optional routines that a kernel-mode WDM driver contains, if the driver handles WMI Minor IRPs by calling WmiSystemControl. For more information, see Calling WmiSystemControl to Handle WMI IRPs.
+
+The DpWmiXxx names that are used in the Microsoft Windows Driver Kit (WDK) documentation are placeholders. A driver's DpWmiXxx routines can have any names that the driver writer chooses. 
+
+
+## ZwXxx / NtXxx Routines
+The ZwXxx routines provide a set of system entry points that parallel some of the executive's system services. Calling a ZwXxx routine from kernel-mode code results in a call to the corresponding system service. Calling a ZwXxx routine from user mode is not supported; instead, native applications (applications that bypass the Microsoft Win32 subsystem) should call the NtXxx equivalent of the ZwXxx routine.
+
+For a list of NtXxx routines, see NtXxx Routines.
+
+For a call to a ZwXxx routine from a kernel-mode driver, the system does not check the caller's access rights, nor does it set the previous processor mode to UserMode. Before calling a ZwXxx routine, a kernel-mode driver must check all user-supplied parameters for validity.
+
+For more information about the relationship between NtXxx and ZwXxx routines, see Using Nt and Zw Versions of the Native System Services Routines. For a list of the ZwXxx routines in each major functional category, see Summary of Kernel-Mode Support Routines.
+
+The following routines are reserved for system use. Do not use them in your driver.
+
+ZwCancelTimer. Use KeCancelTimer instead.
+
+ZwCreateTimer. Use KeInitializeTimer or KeInitializeTimerEx instead.
+
+ZwOpenTimer.
+
+ZwSetTimer. Use KeSetTimer instead.
+
+NtRenameTransactionManager is obsolete.
+
+Note  NtRenameTransactionManager and TmRenameTransactionManager are two versions of the same routine. Kernel-mode drivers should not call NtRenameTransactionManager. They should instead call TmRenameTransactionManager. 
+ 
+|Function|Description|
+|---|---|
+|NtRenameTransactionManager| The NtRenameTransactionManager routine changes the identity of the transaction manager object that is stored in the CLFS log file stream contained in the log file name.
+|NtSetInformationTransactionManager Do not call this routine from kernel-mode code.
+|ZwAllocateLocallyUniqueId| The ZwAllocateLocallyUniqueId routine allocates a locally unique identifier (LUID). 
+|ZwAllocateVirtualMemory| The ZwAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
+|ZwClose| The ZwClose routine closes an object handle. 
+|ZwCreateDirectoryObject| The ZwCreateDirectoryObject routine creates or opens an object-directory object.
+|ZwCreateEvent| The ZwCreateEvent routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
+|ZwCreateFile| The ZwCreateFile routine creates a new file or opens an existing file.
+|ZwCreateKey| The ZwCreateKey routine creates a new registry key or opens an existing one.
+|ZwCreateKeyTransacted| The ZwCreateKeyTransacted routine creates a new registry key or opens an existing one, and it associates the key with a transaction. 
+|ZwCreateSection| The ZwCreateSection routine creates a section object.
+|ZwDeleteFile| The ZwDeleteFile routine deletes the specified file.
+|ZwDeleteKey| The ZwDeleteKey routine deletes an open key from the registry.
+|ZwDeleteValueKey| The ZwDeleteValueKey routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned. 
+|ZwDeviceIoControlFile| The ZwDeviceIoControlFile routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
+|ZwDuplicateToken| The ZwDuplicateToken function creates a handle to a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token. 
+|ZwEnumerateKey| The ZwEnumerateKey routine returns information about a subkey of an open registry key.
+|ZwEnumerateValueKey| The ZwEnumerateValueKey routine gets information about the value entries of an open key.
+|ZwFlushBuffersFile| The ZwFlushBuffersFile routine is called by a file system filter driver to send a flush request for the specified file to the file system.
+|ZwFlushBuffersFileEx| The ZwFlushBuffersFileEx routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
+|ZwFlushKey|The ZwFlushKey routine forces a registry key to be committed to disk.
+|ZwFlushVirtualMemory| The ZwFlushVirtualMemory routine flushes a range of virtual addresses within the virtual address space of a specified process which map to a data file back out to the data file if they have been modified.
+|ZwFreeVirtualMemory|The ZwFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
+|ZwFsControlFile| The ZwFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
+|ZwLoadDriver| The ZwLoadDriver routine loads a driver into the system. 
+|ZwLockFile| The ZwLockFile routine requests a byte-range lock for the specified file.
+|ZwMakeTemporaryObject| The ZwMakeTemporaryObject routine changes the attributes of an object to make it temporary.
+|ZwMapViewOfSection| The ZwMapViewOfSection routine maps a view of a section into the virtual address space of a subject process.
+|ZwNotifyChangeKey| The ZwNotifyChangeKey routine allows a driver to request notification when a registry key changes.
+|ZwOpenEvent| The ZwOpenEvent routine opens a handle to an existing named event object with the specified desired access.
+|ZwOpenFile| The ZwOpenFile routine opens an existing file, directory, device, or volume.
+|ZwOpenKey| The ZwOpenKey routine opens an existing registry key. 
+|ZwOpenKeyEx| The ZwOpenKeyEx routine opens an existing registry key. 
+|ZwOpenKeyTransacted| The ZwOpenKeyTransacted routine opens an existing registry key and associates the key with a transaction. 
+|ZwOpenKeyTransactedEx| The ZwOpenKeyTransactedEx routine opens an existing registry key and associates the key with a transaction. 
+|ZwOpenProcess| The ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
+|ZwOpenProcessTokenEx| The ZwOpenProcessTokenEx routine opens the access token associated with a process. 
+|ZwOpenSection| The ZwOpenSection routine opens a handle for an existing section object.
+|ZwOpenSymbolicLinkObject| The ZwOpenSymbolicLinkObject routine opens an existing symbolic link.
+|ZwOpenThreadTokenEx| The ZwOpenThreadTokenEx routine opens the access token associated with a thread. 
+|ZwPowerInformation| The ZwPowerInformation routine sets or retrieves system power information.
+|ZwQueryInformationThread| The ZwQueryInformationThread routine retrieves information about the specified thread, such as its page priority.
+|ZwQueryDirectoryFile| The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
+|ZwQueryEaFile| The ZwQueryEaFile routine returns information about extended-attribute (EA) values for a file.
+|ZwQueryFullAttributesFile| The ZwQueryFullAttributesFile routine supplies network open information for the specified file.
+|ZwQueryInformationFile| The ZwQueryInformationFile routine returns various kinds of information about a file object.
+|ZwQueryInformationToken| The ZwQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information. 
+|ZwQueryKey| The ZwQueryKey routine provides information about the class of a registry key, and the number and sizes of its subkeys.
+|ZwQueryObjec| The ZwQueryObject routine provides information about a supplied object.
+|ZwQueryQuotaInformationFile| The ZwQueryQuotaInformationFile routine retrieves quota entries associated with the volume specified by the FileHandle parameter. 
+|ZwQuerySecurityObject| The ZwQuerySecurityObject routine retrieves a copy of an object's security descriptor. 
+|ZwQuerySymbolicLinkObject| The ZwQuerySymbolicLinkObject routine returns a Unicode string that contains the target of a symbolic link.
+|ZwQueryValueKey| The ZwQueryValueKey routine returns a value entry for a registry key.
+|ZwQueryVirtualMemory| The ZwQueryVirtualMemory routine determines the state, protection, and type of a region of pages within the virtual address space of the subject process.
+|ZwQueryVolumeInformationFile| The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
+|ZwReadFile| The ZwReadFile routine reads data from an open file. 
+|ZwSetEaFile| The ZwSetEaFile routine sets extended-attribute (EA) values for a file.
+|ZwSetEvent| The ZwSetEvent routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
+|ZwSetInformationFile| The ZwSetInformationFile routine changes various kinds of information about a file object.
+|ZwSetInformationThread| The ZwSetInformationThread routine sets the priority of a thread.
+|ZwSetInformationToken The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information. 
+|ZwSetInformationVirtualMemory| The ZwSetInformationVirtualMemory routine performs an operation on a specified list of address ranges in the user address space of a process. 
+|ZwSetQuotaInformationFile| The ZwSetQuotaInformationFile routine changes quota entries for the volume associated with the FileHandle parameter. All of the quota entries in the specified buffer are applied to the volume. 
+|ZwSetSecurityObject| The ZwSetSecurityObject routine sets an object's security state.
+|ZwSetValueKey| The ZwSetValueKey routine creates or replaces a registry key's value entry.
+|ZwSetVolumeInformationFile| The ZwSetVolumeInformationFile routine modifies information about the volume associated with a given file, directory, storage device, or volume. 
+|ZwTerminateProcess| The ZwTerminateProcess routine terminates a process and all of its threads.
+|ZwUnloadDriver| The ZwUnloadDriver routine unloads a driver from the system. Use this routine with extreme caution. (See the following Remarks section.)
+|ZwUnlockFile| The ZwUnlockFile routine unlocks a byte-range lock in a file.
+|ZwUnmapViewOfSection| The ZwUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process.
+|ZwWaitForSingleObject| The ZwWaitForSingleObject routine waits until the specified object attains a state of Signaled. An optional time-out can also be specified.
+|ZwWriteFile| The ZwWriteFile routine writes data to an open file.
+ 
+## Auxiliary Kernel-Mode Library Routines and Structures
+The Auxiliary Kernel-Mode Library enables drivers to access some system capabilities that are not available from kernel-mode subsystems.
+
+The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library. Drivers that use this library must call AuxKlibInitialize before calling any of the library's other routines.
+
+
+AuxKlibEnumerateSystemFirmwareTables
+AuxKlibGetBugCheckData
+AuxKlibGetImageExportDirectory
+AuxKlibGetSystemFirmwareTable
+AuxKlibInitialize
+AuxKlibQueryModuleInformation
+AUX_MODULE_BASIC_INFO
+AUX_MODULE_EXTENDED_INFO
+KBUGCHECK_DATA
+
+ 
+## Processor Group Compatibility Library
+Support is available for kernel-mode drivers that use processor groups. The Processor Group (ProcGrp) compatibility library enables a kernel-mode driver that is written to use processor groups run on earlier versions of Windows, which do not support processor groups. When this driver runs on, it can take advantage of multiple processor groups, if the hardware platform supports them. When this same driver runs on an earlier version of Windows, it is limited to a single processor group, regardless of the capabilities of the hardware platform. To use the ProcGrp library, the driver must call a library initialization routine. Additionally, the driver must be compiled for the Windows 7 environment in the WDK, and must be linked with Procgrp.lib.
+
+The ProcGrp library is designed to meet the compatibility requirements of drivers that call the following KeXxx routines but must also run on versions of Windows that do not implement these routines:
+
+KeGetCurrentProcessorNumberEx
+KeGetProcessorIndexFromNumber
+KeGetProcessorNumberFromIndex
+KeQueryActiveGroupCount
+KeQueryActiveProcessorCountEx
+KeQueryGroupAffinity
+KeQueryMaximumProcessorCount
+KeQueryMaximumProcessorCountEx
+KeQueryMaximumGroupCount
+KeSetSystemAffinityThreadEx
+KeSetSystemGroupAffinityThread
+KeRevertToUserAffinityThreadEx
+KeRevertToUserGroupAffinityThread
+KeSetTargetProcessorDpcEx
+
+The ProcGrp library implements wrapper functions for the KeXxx routines in the preceding list. If the library runs on Windows 7 or Windows Server 2008 R2, the wrapper functions simply call the corresponding KeXxx routines. The wrapper functions have the same names as these KeXxx routines, and their behavior is identical to that of the KeXxx routines that they replace.
+
+Earlier versions of Windows do not support processor groups and do not implement the KeXxx routines in the preceding list. If the ProcGrp library is linked to a driver that runs on one of these earlier versions of Windows, the library initialization function, WdmlibProcgrpInitialize, detects that the operating system does not support processor groups. To deal with this case, each wrapper function contains a simplified implementation of the corresponding KeXxx routine. This implementation supports only one processor group, group number 0. For example, the wrapper function for the KeQueryMaximumGroupCount routine always returns a count of one. For another example, the wrapper function for the KeGetCurrentProcessorNumberEx routine emulates this routine by calling the KeGetCurrentProcessorNumber routine. KeGetCurrentProcessorNumber is similar to KeGetCurrentProcessorNumberEx, but lacks support for processor groups, which, in this case, has the same effect as supporting just one processor group.
+
+For more information about the support for processor groups in Windows 7, see the Supporting Systems That Have More Than 64 Processors white paper on the WHDC website.
+
+The ProcGrp library is contained in the Windows 7 version of the WDK. The library functions are declared in the Procgrp.h header file and are implemented in the Procgrp.lib library file. 
+
+In addition to the KeXxx wrapper functions, the ProcGrp library implements the following function to initialize the library:
+
+WdmlibProcgrpInitialize
+
+
+
+
+
+## DMA
+
+DMA Library Routines
+Drivers use the routines documented in this section to perform direct memory access (DMA) operations. The routines are accessed through pointers and cannot be called directly by name.
+
+Drivers performing DMA operations use IoGetDmaAdapter to get a pointer to the DMA_ADAPTER structure for the device. The DmaOperations member of the structure points to a DMA_OPERATIONS structure, which is a table of pointers to the DMA routines for the physical device object of that device.
+
+
+|Function|Description|
+|---|---|
+|IoGetDmaAdapter |Returns a pointer to an adapter object that represents either the DMA channel to which the driver's device is connected or the driver's bus-master adapter. Also returns the maximum number of map registers the driver can specify for each DMA transfer.
+|MmGetMdlVirtualAddress |Returns the base virtual address of a buffer described by a given MDL. The returned address, used as an index to a physical address entry in the MDL, can be input to MapTransfer.
+|MmGetSystemAddressForMdlSafe |Returns a nonpaged system-space virtual address for the base of the memory area described by an MDL. It maps the physical pages described by the MDL into system space, if they are not already mapped to system space. 
+|ADDRESS_AND_SIZE_TO_SPAN_PAGES |Returns the number of pages spanned by the virtual range defined by a virtual address and a length in bytes. A driver can use this macro to determine whether a transfer request must be split into partial transfers.
+|AllocateAdapterChannel |Reserves exclusive access to a DMA channel and map registers for a device. When the channel and registers are available, this routine calls a driver-supplied AdapterControl routine to carry out an I/O operation through either the system DMA controller or a bus-master adapter.
+|AllocateCommonBuffer |Allocates and maps a logically contiguous region of memory that is simultaneously accessible from both the processor and a device. This routine returns TRUE if the requested length was allocated.
+|BuildMdlFromScatterGatherList |Builds an MDL corresponding to a scatter/gather list.
+|BuildScatterGatherList |Prepares the system for scatter/gather DMA for a device and calls a driver-supplied routine to carry out the I/O operation. This function provides the same functionality as GetScatterGatherList, except it uses a driver-supplied buffer to hold the scatter/gather list.
+|CalculateScatterGatherList |Computes the buffer size needed to hold a scatter/gather list for a memory buffer.
+|FlushAdapterBuffers |Forces any data remaining in either a bus-master adapter's or the system DMA controller's internal buffers to be written into memory or to the device.
+|FreeAdapterChannel |Releases an adapter object that represents a system DMA channel, and optionally releases any allocated map registers.
+|FreeCommonBuffer |Releases and unmaps a previously allocated common buffer. Arguments must match those passed in an earlier call to AllocateCommonBuffer.
+|FreeMapRegisters |Releases a set of map registers that were saved from a call to AllocateAdapterChannel. A driver calls this routine after using the registers in one or more calls to MapTransfer, flushing the cache by calling FlushAdapterBuffers, and completing the bus-master DMA transfer.
+|GetDmaAlignment |Returns the buffer alignment requirements for a DMA controller or device.
+|GetScatterGatherList |Prepares the system for scatter/gather DMA for a device and calls a driver-supplied routine to carry out the I/O operation. For devices that support scatter/gather DMA, this routine combines the functionality of AllocateAdapterChannel and MapTransfer.
+|KeFlushIoBuffers |Flushes the memory region described by an MDL from all processors' caches into memory.
+|MapTransfer |Sets up map registers for an adapter object previously allocated by AllocateAdapterChannel to map a transfer from a locked-down buffer. Returns the logical address of the mapped region and, for bus-master devices that support scatter/gather, the number of bytes mapped.
+|PutDmaAdapter |Frees an adapter object previously allocated by IoGetDmaAdapter.
+|PutScatterGatherList |Frees map registers and scatter/gather list previously allocated by GetScatterGatherList. 
+|ReadDmaCounter Returns the number of bytes yet to be transferred during the current system DMA operation (in autoinitialize mode).
+
+## PIO
+|Function|Description|
+|---|---|
+|MmProbeAndLockPages |Probes the pages specified in an MDL for a particular kind of access, makes the pages resident, and locks them in memory; returns the MDL updated with corresponding physical addresses.
+|MmGetSystemAddressForMdlSafe |Returns a system-space virtual address that maps the physical pages described by a given MDL for drivers whose devices must use PIO. If no virtual address exists, one is assigned.
+|KeFlushIoBuffers |Flushes the memory region described by a given MDL from all processors' caches into memory.
+|MmUnlockPages |Unlocks the previously probed and locked pages specified in an MDL.
+|MmMapIoSpace |Maps a physical address range to a cached or noncached virtual address range in nonpaged system space.
+|MmUnmapIoSpace |Unmaps a virtual address range from a physical address range.
+
+## Interrupts
+|Function|Description|
+|---|---|
+|IoConnectInterrupt |Registers a driver's interrupt handling routine. Drivers should use IoConnectInterruptEx instead. 
+|IoDisconnectInterrupt |Unregisters an interrupt handling routine that IoConnectInterrupt registered.
+|IoConnectInterruptEx |Registers a driver's interrupt handling routine. Drivers can register either an InterruptService routine for line-based interrupts or an InterruptMessageService routine for message-signaled interrupts.
+|IoDisconnectInterruptEx |Unregisters an interrupt-handling routine that IoConnectInterruptEx registered.
+|IoInitializeDpcRequest |Associates a driver-supplied DpcForIsr routine with a given device object, so that the DpcForIsr routine can complete interrupt-driven I/O operations.
+|KeSynchronizeExecution |Synchronizes the execution of a driver-supplied SynchCritSection routine with that of the ISR associated with a set of interrupt objects, given a pointer to the interrupt objects.
+|KeAcquireInterruptSpinLock |Acquires the spin lock that synchronizes access with an interrupt's ISR.
+|KeReleaseInterruptSpinLock |Releases the spin lock that synchronized access with an interrupt's ISR.
+|KeRegisterNmiCallback |Registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
+|KeDeregisterNmiCallback |Deregisters a routine registered by KeRegisterNmiCallback.
+
+ 
+## Driver-Managed Queues
+|Function|Description|
+|---|---|
+|KeInitializeSpinLock |Initializes a variable of type KSPIN_LOCK. An initialized spin lock is a required parameter to the ExInterlockedXxxList routines.
+|InitializeListHead |Sets up a queue header for a driver's internal queue, given a pointer to driver-supplied storage for the queue header and queue. An initialized queue header is a required parameter to the ExInterlockedInsert/RemoveXxxList routines.
+|ExInterlockedInsertTailList |Inserts an entry at the tail of a doubly linked list, using a spin lock to ensure multiprocessor-safe access to the list and atomic modification of the list links.
+|ExInterlockedInsertHeadList |Inserts an entry at the head of a doubly linked list, using a spin lock to ensure multiprocessor-safe access to the list and atomic modification of the links in the list.
+|ExInterlockedRemoveHeadList |Removes an entry from the head of a doubly linked list, using a spin lock to ensure multiprocessor-safe access to the list and atomic modification of the links in the list.
+|ExInterlockedPopEntryList |Removes an entry from the head of a singly linked list as an atomic operation, using a spin lock to ensure multiprocessor-safe access to the list.
+|ExInterlockedPushEntryList |Inserts an entry at the head of a singly linked list as an atomic operation, using a spin lock to ensure multiprocessor-safe access to the list.
+|IsListEmpty |Returns TRUE if a queue is empty. (This type of doubly linked list is not protected by a spin lock, unless the caller explicitly manages synchronization to queued entries with an initialized spin lock for which the caller supplies the storage.)
+|InsertTailList |Queues an entry at the end of the list.
+|InsertHeadList |Queues an entry at the head of the list.
+|RemoveHeadList |Dequeues an entry at the head of the list.
+|RemoveTailList |Dequeues an entry at the end of the list.
+|RemoveEntryList |Returns whether a given entry is in the given list and dequeues the entry if it is.
+|PushEntryList |Inserts an entry into the queue. (This type of singly linked list is not protected by a spin lock, unless the caller explicitly manages synchronization to queued entries with an initialized spin lock for which the caller supplies the storage.)
+|PopEntryList |Removes an entry from the queue.
+|ExInterlockedPopEntrySList |Removes an entry from the head of a sequenced, singly linked list that was set up with ExInitializeSListHead. 
+|ExInterlockedPushEntrySList |Queues an entry at the head of a sequenced, singly linked list that was set up with ExInitializeSListHead. 
+|ExQueryDepthSList |Returns the number of entries currently queued in a sequenced, singly linked list. 
+|ExInitializeNPagedLookasideList |Sets up a lookaside list, protected by a system-supplied spin lock, in nonpaged pool from which the driver can allocate and free blocks of a fixed size. 
+|KeInitializeDeviceQueue |Initializes a device queue object to a not-busy state, setting up an associated spin lock for multiprocessor-safe access to device queue entries.
+|KeInsertDeviceQueue |Acquires the device queue spin lock and queues an entry to a device driver if the device queue is not empty; otherwise, inserts the entry at the tail of the device queue.
+|KeInsertByKeyDeviceQueue |Acquires the device queue spin lock and queues an entry to a device driver if the device queue is not empty; otherwise, inserts the entry into the queue according to the given sort-key value.
+|KeRemoveDeviceQueue |Removes an entry from the head of a given device queue.
+|KeRemoveByKeyDeviceQueue |Removes an entry, selected according to the specified sort-key value, from the given device queue.
+|KeRemoveEntryDeviceQueue |Determines whether a given entry is in the given device queue and, if so, dequeues the entry.
+
+## Driver System Processes and Threads
+
+
+|Function|Description|
+|---|---|
+|PsCreateSystemThread |Creates a kernel-mode thread associated with a given process object or with the default system process. Returns a handle for the thread.
+|PsTerminateSystemThread |Terminates the current thread and satisfies as many waits as possible for the current thread object.
+|PsGetCurrentThread |Returns a handle for the current thread.
+|KeGetCurrentThread |Returns a pointer to the opaque thread object that represents the current thread. 
+|KeQueryPriorityThread |Returns the current priority of a given thread. 
+|KeSetBasePriorityThread |Sets up the run-time priority, relative to the system process, for a driver-created thread.
+|KeSetPriorityThread |Sets up the run-time priority for a driver-created thread with a real-time priority attribute.
+|KeDelayExecutionThread |Puts the current thread into an alertable or nonalertable wait state for a given interval.
+|IoQueueWorkItem |Queues an initialized work queue item so the driver-supplied routine will be called when a system worker thread is given control.
+|ZwSetInformationThread |Sets the priority of a given thread for which the caller has a handle.
+
+|Function|Description|
+|---|---| 
+|PsGetCurrentProcessId| The PsGetCurrentProcessId routine identifies the current thread's process. 
+|PsGetProcessCreateTimeQuadPart|The PsGetProcessCreateTimeQuadPart routine returns a LONGLONG value that represents the time at which the process was created. 
+|PsGetProcessId| The PsGetProcessId routine returns the process identifier (process ID) that is associated with a specified process. 
+|PsQueryTotalCycleTimeProcess| The PsQueryTotalCycleTimeProcess routine returns the accumulated cycle time for the specified process.
+|PCREATE_PROCESS_NOTIFY_ROUTINE| Process-creation callback implemented by a driver to track the system-wide creation and deletion of processes against the driver's internal state.
+|PsSetCreateProcessNotifyRoutine| The PsSetCreateProcessNotifyRoutine routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.
+|PCREATE_PROCESS_NOTIFY_ROUTINE_EX| A callback routine implemented by a driver to notify the caller when a process is created or exits.
+|PsSetCreateProcessNotifyRoutineEx| The PsSetCreateProcessNotifyRoutineEx routine registers or removes a callback routine that notifies the caller when a process is created or exits.
+|PsSetCreateProcessNotifyRoutineEx2| The PsSetCreateProcessNotifyRoutineEx2 routine registers or removes a callback routine that notifies the caller when a process is created or deleted.
+
+|Function|Description|
+|---|---| 
+|PLOAD_IMAGE_NOTIFY_ROUTINE| Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. 
+|PsSetLoadImageNotifyRoutine| The PsSetLoadImageNotifyRoutine routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
+|PsSetLoadImageNotifyRoutineEx| The PsSetLoadImageNotifyRoutineEx routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
+|PsTerminateSystemThread| The PsTerminateSystemThread routine terminates the current system thread.
+ 
+
+ 
+### Best practices for implementing process and thread-related callback functions
+This set of guidelines applies to these callback routines:
+
+-   PCREATE_PROCESS_NOTIFY_ROUTINE 
+-   PCREATE_PROCESS_NOTIFY_ROUTINE_EX 
+-   PCREATE_THREAD_NOTIFY_ROUTINE 
+-   PLOAD_IMAGE_NOTIFY_ROUTINE 
+
+Keep notify routines short and simple. 
+-   Do not make calls into a user mode service to validate the process, thread, or image. 
+-   Do not make registry calls. 
+-   Do not make blocking and/or Interprocess Communication (IPC) function calls. 
+-   Do not synchronize with other threads because it can lead to reentrancy deadlocks. 
+-   Use System Worker Threads to queue work especially work involving: 
+
+    -   Slow API’s or API’s that call into other process. 
+    -   Any blocking behavior which could interrupt threads in core services. 
+
+-   Be considerate of best practices for kernel mode stack usage. For examples, see How do I keep my driver from running out of kernel-mode stack? and Key Driver Concepts and Tips. 
+      
+
+
+## Run-Time Library (RTL) Routines
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see Safe String Functions. Other string manipulation functions include the following:
+
+|Function|Description|
+|---|---|
+|RtlInitString |Initializes the specified string in a buffer.
+|RtlInitAnsiString |Initializes the specified ANSI string in a buffer.
+|RtlInitUnicodeString |Initializes the specified Unicode string in a buffer.
+|RtlAnsiStringToUnicodeSize |Returns the size in bytes required to hold a Unicode version of a given buffered ANSI string.
+|RtlAnsiStringToUnicodeString |Converts a buffered ANSI string to a Unicode string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.) You can also use the string manipulation routines provided by a compiler to convert ANSI strings to Unicode. 
+|RtlFreeUnicodeString |Releases a buffer containing a Unicode string, given a pointer to the buffer returned by RtlAnsiStringToUnicodeString.
+|RtlUnicodeStringToAnsiString |Converts a buffered Unicode string to an ANSI string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.)
+|RtlFreeAnsiString |Releases a buffer containing an ANSI string, given a pointer to the buffer returned by RtlUnicodeStringToAnsiString.
+|RtlAppendUnicodeStringToString |Concatenates a copy of a buffered Unicode string with a buffered Unicode string, given pointers to both buffers.
+|RtlAppendUnicodeToString |Concatenates a given input string with a buffered Unicode string, given a pointer to the buffer.
+|RtlCopyString |Copies the source string to the destination, given pointers to both buffers, or sets the length of the destination string (but not the length of the destination buffer) to zero if the optional pointer to the source-string buffer is NULL.
+|RtlCopyUnicodeString |Copies the source string to the destination, given pointers to both buffers, or sets the length of the destination string (but not the length of the destination buffer) to zero if the optional pointer to the source-string buffer is NULL.
+|RtlEqualString |Returns TRUE if the given ANSI alphabetic strings are equivalent.
+|RtlEqualUnicodeString |Returns TRUE if the given buffered strings are equivalent.
+|RtlCompareString |Compares two buffered, single-byte character strings and returns a signed value indicating whether they are equivalent or which is greater. 
+|RtlCompareUnicodeString |Compares two buffered Unicode strings and returns a signed value indicating whether they are equivalent or which is greater.
+|RtlUpperString |Converts a copy of a buffered string to uppercase and stores the copy in a destination buffer.
+|RtlUpcaseUnicodeString |Converts a copy of a buffered Unicode string to uppercase and stores the copy in a destination buffer.
+|RtlIntegerToUnicodeString |Converts an unsigned integer value in the specified base to one or more Unicode characters in a buffer.
+|RtlUnicodeStringToInteger |RtlUnicodeStringToInteger converts the Unicode string representation of an integer into its integer equivalent.
+
+The following routines are reserved for system use. Do not use them in your driver.
+
+RtlAssert. Use ASSERT instead. 
+RtlGetCallersAddress. Use the intrinsic _ReturnAddress instead. 
+RtlInterlockedAndBits. Use InterlockedAnd instead.
+RtlInterlockedAndBitsDiscardReturn. Use InterlockedAnd instead.
+RtlInterlockedClearBits. Use InterlockedAnd instead.
+RtlInterlockedClearBitsDiscardReturn. Use InterlockedAnd instead.
+RtlInterlockedSetBits. Use InterlockedOr instead.
+RtlInterlockedSetBitsDiscardReturn. Use InterlockedOr instead.
+RtlInterlockedSetClearBits
+RtlInterlockedXorBits. Use InterlockedXor instead.
+RtlWalkFrameChain
+
+### Safe String Functions for Unicode and ANSI Characters
+Use the functions in this section to manipulate Unicode and ANSI strings in kernel-mode drivers.
+
+Each function is available in two versions:
+
+A W-suffixed version that supports two-byte Unicode characters.
+
+An A-suffixed version that supports one-byte ANSI characters.
+
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see Using Safe String Functions.
+|Function|Description|
+|---|---|
+|RtlStringCbCatW| The RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.
+|RtlStringCbCatExW| The RtlStringCbCatExW and RtlStringCbCatExA functions concatenate two byte-counted strings. 
+|RtlStringCbCatNW| The RtlStringCbCatNW and RtlStringCbCatNA functions concatenate two byte-counted strings while limiting the size of the appended string. 
+|RtlStringCbCatNExW| The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string. 
+|RtlStringCbCopyW| The RtlStringCbCopyW and RtlStringCbCopyA functions copy a byte-counted string into a buffer. 
+|RtlStringCbCopyExW| The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
+|RtlStringCbCopyNW| The RtlStringCbCopyNW and RtlStringCbCopyNA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCbCopyNExW| The RtlStringCbCopyNExW and RtlStringCbCopyNExA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCbLengthW| The RtlStringCbLengthW and RtlStringCbLengthA functions determine the length, in bytes, of a supplied string. 
+|RtlStringCbPrintfW| The RtlStringCbPrintfW and RtlStringCbPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information. 
+|RtlStringCbPrintfExW| The RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCbVPrintfW| The RtlStringCbVPrintfW and RtlStringCbVPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCbVPrintfExW| The RtlStringCbVPrintfExW and RtlStringCbVPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchCatW| The RtlStringCchCatW and RtlStringCchCatA functions concatenate two character-counted strings.
+|RtlStringCchCatExW| The RtlStringCchCatExW and RtlStringCchCatExA functions concatenate two character-counted strings.
+|RtlStringCchCatNW| The RtlStringCchCatNW and RtlStringCchCatNA functions concatenate two character-counted strings while limiting the size of the appended string. 
+|RtlStringCchCatNExW| The RtlStringCchCatNExW and RtlStringCchCatNExA functions concatenate two character-counted strings while limiting the size of the appended string.
+|RtlStringCchCopyW| The RtlStringCchCopyW and RtlStringCchCopyA functions copy a null-terminated source string into a destination buffer of specified length. 
+|RtlStringCchCopyExW| The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
+|RtlStringCchCopyNW| The RtlStringCchCopyNW and RtlStringCchCopyNA functions copy a character-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCchCopyNExW| The RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
+|RtlStringCchLengthW| The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string. 
+|RtlStringCchPrintfW| The RtlStringCchPrintfW and RtlStringCchPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchPrintfExW| The RtlStringCchPrintfExW and RtlStringCchPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchVPrintfW| The RtlStringCchVPrintfW and RtlStringCchVPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlStringCchVPrintfExW|The RtlStringCchVPrintfExW and RtlStringCchVPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+|RtlUnalignedStringCbLength| The RtlUnalignedStringCbLengthW function is a version of the RtlStringCbLength function that accepts an unaligned pointer to a string of Unicode characters.
+|RtlUnalignedStringCchLengthW| The RtlUnalignedStringCchLengthW function is a version of the RtlStringCchLength function that accepts an unaligned pointer to a string of Unicode characters.
+ 
+### Safe String Functions for UNICODE_STRING Structures
+Use the functions in this section to manipulate strings within UNICODE_STRING structures in kernel-mode drivers.
+
+If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see Using Safe String Functions.
+
+|Function|Description|
+|---|---|
+|RtlStringCbCopyUnicodeString| The RtlStringCbCopyUnicodeString function copies the contents of a UNICODE_STRING structure to a specified destination.
+|RtlStringCbCopyUnicodeStringEx| The RtlStringCbCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination. 
+|RtlStringCchCopyUnicodeString| The RtlStringCchCopyUnicodeString function copies the contents of a UNICODE_STRING structure to a specified destination.
+|RtlStringCchCopyUnicodeStringEx| The RtlStringCchCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination. 
+|RtlUnicodeStringCat| The RtlUnicodeStringCat function concatenates two strings that are contained in UNICODE_STRING structures.
+|RtlUnicodeStringCatEx| The RtlUnicodeStringCatEx function concatenates two strings that are contained in UNICODE_STRING structures. 
+|RtlUnicodeStringCatString| The RtlUnicodeStringCatString function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
+|RtlUnicodeStringCatStringEx| The RtlUnicodeStringCatStringEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
+|RtlUnicodeStringCbCatN| The RtlUnicodeStringCbCatN function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCbCatNEx| The RtlUnicodeStringCbCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCbCatStringN| The RtlUnicodeStringCbCatStringN function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCbCatStringNEx| The RtlUnicodeStringCbCatStringNEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCbCopyN| The RtlUnicodeStringCbCopyN function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCbCopyNEx| The RtlUnicodeStringCbCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCbCopyStringN| The RtlUnicodeStringCbCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCbCopyStringNEx| The RtlUnicodeStringCbCopyStringNEx function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCchCatN| The RtlUnicodeStringCchCatN function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCchCatNEx| The RtlUnicodeStringCchCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
+|RtlUnicodeStringCchCatStringN| The RtlUnicodeStringCchCatStringN function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCchCatStringNEx| The RtlUnicodeStringCchCatStringNEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
+|RtlUnicodeStringCchCopyN| The RtlUnicodeStringCchCopyN function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCchCopyNEx| The RtlUnicodeStringCchCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
+|RtlUnicodeStringCchCopyStringN| The RtlUnicodeStringCchCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCchCopyStringNEx| The RtlUnicodeStringCchCopyStringNEx function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
+|RtlUnicodeStringCopy| The RtlUnicodeStringCopy function copies a string from one UNICODE_STRING structure to another.
+|RtlUnicodeStringCopyEx| The RtlUnicodeStringCopyEx function copies a string from one UNICODE_STRING structure to another.
+|RtlUnicodeStringCopyString| The RtlUnicodeStringCopyString function copies a string into a UNICODE_STRING structure.
+|RtlUnicodeStringCopyStringEx| The RtlUnicodeStringCopyStringEx function copies a string into a UNICODE_STRING structure.
+|RtlUnicodeStringInit| The RtlUnicodeStringInit function initializes a UNICODE_STRING structure.
+|RtlUnicodeStringInitEx| The RtlUnicodeStringInitEx function initializes a UNICODE_STRING structure.
+|RtlUnicodeStringPrintf| The RtlUnicodeStringPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+|RtlUnicodeStringPrintfEx| The RtlUnicodeStringPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+|RtlUnicodeStringValidate| The RtlUnicodeStringValidate function validates the contents of a UNICODE_STRING structure.
+|RtlUnicodeStringValidateEx| The RtlUnicodeStringValidateEx function validates the contents of a UNICODE_STRING structure.
+|RtlUnicodeStringVPrintf| The RtlUnicodeStringVPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+|RtlUnicodeStringVPrintfEx| The RtlUnicodeStringVPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
+
+## Safe Integer Library Routines
+This section describes the safe integer functions for drivers. These functions are defined as inline functions in the Ntintsafe.h header file in the WDK. The safe integer functions are designed to help drivers to avoid arithmetic overflow errors. These functions are divided into two sets; the first converts integer values from one type to another, and the second performs math functions. For more information about these functions, see Using Safe Integer Functions.
+
+The Intsafe.h header file in the Windows SDK defines a similar set of safe integer functions for use by applications. For more information about this version of the safe integer functions, see Intsafe.h Functions.
+
+
+ 
+## Data Conversions
+|Function|Description|
+|---|---|
+|InterlockedExchange |Sets a variable of type LONG to a given value as an atomic operation; returns the original value of the variable.
+|RtlConvertLongToLargeInteger |Converts a given LONG value to a LARGE_INTEGER value.
+|RtlConvertUlongToLargeInteger |Converts a given ULONG value to a LARGE_INTEGER value.
+|RtlTimeFieldsToTime |Converts information in a TIME_FIELDS structure to system time.
+|RtlTimeToTimeFields |Converts a system time value into a buffered TIME_FIELDS value.
+|ExSystemTimeToLocalTime |Adds the time-zone bias for the current locale to GMT system time, converting it to local time.
+|ExLocalTimeToSystemTime |Subtracts the time-zone bias from the local time, converting it to GMT system time.
+|RtlAnsiStringToUnicodeString |Converts a buffered ANSI string to a Unicode string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.)
+|RtlUnicodeStringToAnsiString |Converts a buffered Unicode string to an ANSI string, given a pointer to the source-string buffer and the address of caller-supplied storage for a pointer to the destination buffer. (This routine allocates a destination buffer if the caller does not supply the storage.)
+|RtlUpperString |Converts a copy of a buffered string to uppercase and stores the copy in a destination buffer.
+|RtlUpcaseUnicodeString |Converts a copy of a buffered Unicode string to uppercase and stores the copy in a destination buffer.
+|RtlCharToInteger |Converts a single-byte character value into an integer in the specified base. 
+|RtlIntegerToUnicodeString |Converts an unsigned integer value in the specified base to one or more Unicode characters in the given buffer.
+|RtlUnicodeStringToInteger |Converts a Unicode string representation of an integer into its integer equivalent.
+
+## Access to Driver-Managed Objects
+|Function|Description|
+|---|---|
+|ExCreateCallback |Creates or opens a callback object.
+|ExNotifyCallback |Calls the callback routines registered with a previously created or opened callback object. 
+|ExRegisterCallback |Registers a callback routine with a previously created or opened callback object, so that the caller can be notified when conditions defined for the callback routine occur.
+|ExUnregisterCallback |Cancels the registration of a callback routine with a callback object.
+|IoRegisterDeviceInterface |Registers device functionality (a device interface) that a driver can enable for use by applications or other system components.
+|IoSetDeviceInterfaceState |Enables or disables a previously registered device interface. Applications and other system components can open only interfaces that are enabled.
+|IoGetDeviceInterfaceAlias |Returns the alias device interface of the specified interface class, if the alias exists. Device interfaces are considered aliases if they are exposed by the same underlying device and have identical interface reference strings, but are of different interface classes.
+|IoGetDeviceInterfaces |Returns a list of device interfaces of a particular device interface class (such as all devices on the system that support a HID interface).
+|IoGetFileObjectGenericMapping |Returns information about the mapping between generic access rights and specific access rights for file objects.
+|IoSetShareAccess |Sets the access allowed to a given file object representing a device. (Only highest-level drivers can call this routine.)
+|IoCheckShareAccess |Checks whether a request to open a file object specifies a desired access that is compatible with the current shared access permissions for the open file object. (Only highest-level drivers can call this routine.)
+|IoUpdateShareAccess |Modifies the current shared access permissions on the given file object. (Only highest-level drivers can call this routine.)
+|IoRemoveShareAccess |Restores the shared access permissions on the given file object that were modified by a preceding call to IoUpdateShareAccess.
+|RtlLengthSecurityDescriptor |Returns the size in bytes of a given security descriptor.
+|RtlValidSecurityDescriptor |Returns whether a given security descriptor is valid.
+|RtlCreateSecurityDescriptor |Initializes a new security descriptor to an absolute format with default values (in effect, with no security constraints).
+|RtlSetDaclSecurityDescriptor |Sets the discretionary ACL information for a given security descriptor in absolute format.
+|SeAssignSecurity |Builds a security descriptor for a new object, given the security descriptor of its parent directory (if any) and an originally requested security for the object.
+|SeDeassignSecurity |Deallocates the memory associated with a security descriptor that was created with SeAssignSecurity.
+|SeValidSecurityDescriptor |Returns whether a given security descriptor is structurally valid. 
+|SeAccessCheck |Returns a Boolean value indicating whether the requested access rights can be granted to an object protected by a security descriptor and, possibly, a current owner.
+|SeSinglePrivilegeCheck |Returns a Boolean value indicating whether the current thread has at least the given privilege level.
+
+ 
+## Error Handling
+|Function|Description|
+|---|---|
+|IoAllocateErrorLogEntry |Allocates and initializes an error log packet; returns a pointer so the caller can supply error log data and call IoWriteErrorLogEntry with the packet.
+|IoFreeErrorLogEntry |Frees an error log entry allocated by IoAllocateErrorLogEntry.
+|IoWriteErrorLogEntry |Queues a previously allocated error log packet, filled in by the driver, to the system error logging thread.
+|IoIsErrorUserInduced |Returns a Boolean value indicating whether an I/O request failed due to one of the following (user-correctable) conditions: STATUS_IO_TIMEOUT, STATUS_DEVICE_NOT_READY, STATUS_UNRECOGNIZED_MEDIA, STATUS_VERIFY_REQUIRED, STATUS_WRONG_VOLUME, STATUS_MEDIA_WRITE_PROTECTED, or STATUS_NO_MEDIA_IN_DEVICE. If the result is TRUE, a removable-media driver must call IoSetHardErrorOrVerifyDevice before completing the IRP.
+|IoSetHardErrorOrVerifyDevice |Supplies the device object for which the given IRP was failed due to a user-induced error, such as supplying the incorrect media for the requested operation or changing the media before the requested operation was completed. (A file system driver uses the associated device object to send a dialog box to the user; the user can then correct the error or retry the operation.)
+|IoSetThreadHardErrorMode |Enables or disables error reporting for the current thread using IoRaiseHardError or IoRaiseInformationalHardError.
+|IoRaiseHardError |Causes a dialog box to be sent to the user indicating that the given IRP was failed on the given device object for an optional VPB, so that the user can correct the error or retry the operation.
+|IoRaiseInformationalHardError |Causes a dialog box to be sent to the user, showing an I/O error status and optional string supplying more information.
+|ExRaiseStatus |Raises an error status so that a caller-supplied structured exception handler is called. (This routine is useful only to highest-level drivers that supply exception handlers, in particular to file systems.)
+|KeBugCheckEx |Brings down the system in a controlled manner, displaying the bug-check code and possibly more information, after the caller discovers an unrecoverable inconsistency that will corrupt the system unless it is brought down. After the system is brought down, this routine displays bug-check and possibly other information. (This routine can be called when debugging under-development drivers. Otherwise, drivers should never call this routine when they can handle an error by failing an IRP and by calling IoAllocateErrorLogEntry and IoWriteErrorLogEntry.)
+|KeBugCheck |Brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that will corrupt the system if the caller continues to run. KeBugCheckEx is preferable.
+|KeInitializeCallbackRecord |Initializes a bug-check callback record before a device driver calls KeRegisterBugCheckCallback. 
+|KeRegisterBugCheckCallback |Registers the device driver's bug-check callback routine, which is called if a system bug check occurs. Such a driver-supplied routine saves driver-determined state information, such as the contents of device registers, that would not otherwise be written into the system crash-dump file. 
+|KeDeregisterBugCheckCallback |Removes a device driver's callback routine from the set of registered bug-check callback routines. 
+
+
+
+
+
+
+
+
+
+
+
+
+## Functions
 
 | Title   | Description   |
 | ---- |:---- |
@@ -1304,7 +2937,7 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [ZwUnmapViewOfSection function](..\wdm\nf-wdm-zwunmapviewofsection.md) | The ZwUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process. |
 | [ZwWriteFile function](..\wdm\nf-wdm-zwwritefile.md) | The ZwWriteFile routine writes data to an open file. |
 
-## Macros
+## Callback functions
 
 | Title   | Description   |
 | ---- |:---- |
@@ -1455,7 +3088,7 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [WMI_SET_DATAITEM_CALLBACK callback](..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md) | The DpWmiSetDataItem routine changes a single data item in an instance of a data block. This routine is optional. |
 | [pHalExamineMBR callback](..\ntddk\nc-ntddk-phalexaminembr.md) | The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller. |
 
-## Enumerations
+## Structures
 
 | Title   | Description   |
 | ---- |:---- |
@@ -1931,7 +3564,7 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [tagWNODE_SINGLE_ITEM structure](..\wmistr\ns-wmistr-tagwnode_single_item.md) | The WNODE_SINGLE_ITEM structure contains the value of a single data item in an instance of a data block. |
 | [tagWNODE_TOO_SMALL structure](..\wmistr\ns-wmistr-tagwnode_too_small.md) | The WNODE_TOO_SMALL structure indicates the size of the buffer needed to receive output from a request. |
 
-## Functions
+## Enumerations
 
 | Title   | Description   |
 | ---- |:---- |
@@ -2025,482 +3658,16 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [_TRANSACTION_STATE enumeration](..\wdm\ne-wdm-_transaction_state.md) | The TRANSACTION_STATE enumeration defines the states that KTM can assign to a transaction. |
 | [_WORK_QUEUE_TYPE enumeration](..\wdm\ne-wdm-_work_queue_type.md) | The WORK_QUEUE_TYPE enumeration type indicates the type of system worker thread that handles a work item. |
 
-## Structures
+## I/O control codes
 
 | Title   | Description   |
 | ---- |:---- |
-| [CM_Power_Data_s structure](..\pepevents\ns-ntpoapi-cm_power_data_s.md) | The CM_POWER_DATA structure contains information about a device's power management state and capabilities. |
-| [CM_Power_Data_s structure](..\pepevents\ns-wdm-cm_power_data_s.md) | The CM_POWER_DATA structure contains information about a device's power management state and capabilities. |
-| [CORRELATION_VECTOR structure](..\pepevents\ns-ntddk-correlation_vector.md) | Store the correlation vector that is used to reference events and the generated logs for diagnostic purposes. |
-| [WMIREGGUIDW structure](..\pepevents\ns-wmistr-wmiregguidw.md) | The WMIREGGUID structure contains new or updated registration information for a data block or event block. |
-| [WMIREGINFOW structure](..\pepevents\ns-wmistr-wmireginfow.md) | The WMIREGINFO structure contains information provided by a driver to register or update its data blocks and event blocks. |
-| [_AUX_MODULE_BASIC_INFO structure](..\pepevents\ns-aux_klib-_aux_module_basic_info.md) | The AUX_MODULE_BASIC_INFO structure contains basic information about a loaded image module. |
-| [_AUX_MODULE_EXTENDED_INFO structure](..\pepevents\ns-aux_klib-_aux_module_extended_info.md) | The AUX_MODULE_EXTENDED_INFO structure contains extended information about a loaded image module. |
-| [_BDCB_IMAGE_INFORMATION structure](..\pepevents\ns-ntddk-_bdcb_image_information.md) | The BDCB_IMAGE_INFORMATION structure describes information about a boot-start driver that is about to be initialized, provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine. |
-| [_BDCB_STATUS_UPDATE_CONTEXT structure](..\pepevents\ns-ntddk-_bdcb_status_update_context.md) | The BDCB_STATUS_UPDATE_CONTEXT structure describes a status update provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine. |
-| [_BOOTDISK_INFORMATION structure](..\pepevents\ns-wdm-_bootdisk_information.md) | The BOOTDISK_INFORMATION structure contains basic information describing the boot and system disks. |
-| [_BOOTDISK_INFORMATION_EX structure](..\pepevents\ns-wdm-_bootdisk_information_ex.md) | The BOOTDISK_INFORMATION_EX structure contains extended information describing the boot and system disks. |
-| [_BUS_INTERFACE_STANDARD structure](..\pepevents\ns-wdm-_bus_interface_standard.md) | The BUS_INTERFACE_STANDARD interface structure enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_INTERFACE_STANDARD interface. |
-| [_CLFS_LOG_NAME_INFORMATION structure](..\pepevents\ns-wdm-_clfs_log_name_information.md) | The CLFS_LOG_NAME_INFORMATION structure holds the name of a Common Log File System (CLFS) stream or log. |
-| [_CLFS_MGMT_CLIENT_REGISTRATION structure](..\pepevents\ns-wdm-_clfs_mgmt_client_registration.md) | The CLFS_MGMT_CLIENT_REGISTRATION structure is given to CLFS management by clients who manage their own logs. |
-| [_CLFS_MGMT_POLICY structure](..\pepevents\ns-wdm-_clfs_mgmt_policy.md) | The CLFS_MGMT_POLICY structure holds a description of a policy for managing a CLFS log. |
-| [_CLFS_STREAM_ID_INFORMATION structure](..\pepevents\ns-wdm-_clfs_stream_id_information.md) | The CLFS_STREAM_ID_INFORMATION structure holds a value that identifies a stream in a Common Log File System (CLFS) log. |
-| [_CLS_CONTAINER_INFORMATION structure](..\pepevents\ns-wdm-_cls_container_information.md) | The CLFS_CONTAINER_INFORMATION structure holds descriptive information for an individual container in a Common Log File System (CLFS) log. |
-| [_CLS_INFORMATION structure](..\pepevents\ns-wdm-_cls_information.md) | The CLFS_INFORMATION structure holds metadata and state information for a Common Log File System (CLFS) stream and/or its underlying physical log. |
-| [_CLS_IO_STATISTICS structure](..\pepevents\ns-wdm-_cls_io_statistics.md) | The CLFS_IO_STATISTICS structure holds I/O statistics data for a Common Log File System (CLFS) log. |
-| [_CLS_IO_STATISTICS_HEADER structure](..\pepevents\ns-wdm-_cls_io_statistics_header.md) | The CLFS_IO_STATISTICS_HEADER structure holds the header portion of a CLFS_IO_STATISTICS structure. |
-| [_CLS_LSN structure](..\pepevents\ns-wdm-_cls_lsn.md) | The CLFS_LSN structure identifies an individual record in a Common Log File System (CLFS) stream. |
-| [_CLS_SCAN_CONTEXT structure](..\pepevents\ns-wdm-_cls_scan_context.md) | The CLFS_SCAN_CONTEXT structure holds context information to support a scan of the containers in a Common Log File System (CLFS) log. |
-| [_CLS_WRITE_ENTRY structure](..\pepevents\ns-wdm-_cls_write_entry.md) | The CLFS_WRITE_ENTRY structure holds the address and size of a buffer that contains one unit of data to be written to a Common Log File System (CLFS) stream. |
-| [_CM_EISA_FUNCTION_INFORMATION structure](..\pepevents\ns-wdm-_cm_eisa_function_information.md) | The CM_EISA_FUNCTION_INFORMATION structure defines detailed EISA configuration information returned by HalGetBusData for the input BusDataType EisaConfiguration, or by HalGetBusDataByOffset for the input BusDataType EisaConfiguration and the Offset zero, assuming the caller-allocated Buffer is of sufficient Length. |
-| [_CM_EISA_SLOT_INFORMATION structure](..\pepevents\ns-wdm-_cm_eisa_slot_information.md) | The CM_EISA_SLOT_INFORMATION structure defines EISA configuration header information returned by HalGetBusData for the input BusDataType = EisaConfiguration, or by HalGetBusDataByOffset for the inputs BusDataType = EisaConfiguration and Offset = 0, assuming the caller-allocated Buffer is of sufficient Length. |
-| [_CM_FLOPPY_DEVICE_DATA structure](..\pepevents\ns-wdm-_cm_floppy_device_data.md) | The CM_FLOPPY_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a floppy controller if the system can collect this information during the boot process. |
-| [_CM_FULL_RESOURCE_DESCRIPTOR structure](..\pepevents\ns-wdm-_cm_full_resource_descriptor.md) | The CM_FULL_RESOURCE_DESCRIPTOR structure specifies a set of system hardware resources of various types, assigned to a device that is connected to a specific bus. This structure is contained within a CM_RESOURCE_LIST structure. |
-| [_CM_INT13_DRIVE_PARAMETER structure](..\pepevents\ns-wdm-_cm_int13_drive_parameter.md) | The CM_INT13_DRIVE_PARAMETER structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a disk controller if the system can collect this information during the boot process. |
-| [_CM_KEYBOARD_DEVICE_DATA structure](..\pepevents\ns-wdm-_cm_keyboard_device_data.md) | The CM_KEYBOARD_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a keyboard peripheral if the system can collect this information during the boot process. |
-| [_CM_MCA_POS_DATA structure](..\pepevents\ns-wdm-_cm_mca_pos_data.md) | The CM_MCA_POS_DATA structure is obsolete. It defines IBM-compatible MCA POS configuration information for a slot. |
-| [_CM_PARTIAL_RESOURCE_DESCRIPTOR structure](..\pepevents\ns-wdm-_cm_partial_resource_descriptor.md) | The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device. |
-| [_CM_PARTIAL_RESOURCE_LIST structure](..\pepevents\ns-wdm-_cm_partial_resource_list.md) | The CM_PARTIAL_RESOURCE_LIST structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a CM_FULL_RESOURCE_DESCRIPTOR structure. |
-| [_CM_RESOURCE_LIST structure](..\pepevents\ns-wdm-_cm_resource_list.md) | The CM_RESOURCE_LIST structure specifies all of the system hardware resources assigned to a device. |
-| [_CM_SCSI_DEVICE_DATA structure](..\pepevents\ns-wdm-_cm_scsi_device_data.md) | The CM_SCSI_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a SCSI HBA if the system can collect this information during the boot process. |
-| [_CM_SERIAL_DEVICE_DATA structure](..\pepevents\ns-wdm-_cm_serial_device_data.md) | The CM_SERIAL_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a serial controller if the system can collect this information during the boot process. |
-| [_CONTROLLER_OBJECT structure](..\pepevents\ns-ntddk-_controller_object.md) | A controller object represents a hardware adapter or controller with homogenous devices that are the actual targets for I/O requests. |
-| [_COUNTED_REASON_CONTEXT structure](..\pepevents\ns-ntpoapi-_counted_reason_context.md) | The COUNTED_REASON_CONTEXT structure contains one or more strings that give reasons for a power request. |
-| [_COUNTED_REASON_CONTEXT structure](..\pepevents\ns-wdm-_counted_reason_context.md) | The COUNTED_REASON_CONTEXT structure contains one or more strings that give reasons for a power request. |
-| [_CPTABLEINFO structure](..\pepevents\ns-ntnls-_cptableinfo.md) | Stores the NLS file formats. |
-| [_D3COLD_SUPPORT_INTERFACE structure](..\pepevents\ns-wdm-_d3cold_support_interface.md) | The D3COLD_SUPPORT_INTERFACE interface structure contains pointers to the routines in the GUID_D3COLD_SUPPORT_INTERFACE driver interface. |
-| [_DEVICE_CAPABILITIES structure](..\pepevents\ns-wdm-_device_capabilities.md) | A DEVICE_CAPABILITIES structure describes PnP and power capabilities of a device. This structure is returned in response to an IRP_MN_QUERY_CAPABILITIES IRP. |
-| [_DEVICE_DESCRIPTION structure](..\pepevents\ns-wdm-_device_description.md) | The DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA adapter. |
-| [_DEVICE_INTERFACE_CHANGE_NOTIFICATION structure](..\pepevents\ns-wdm-_device_interface_change_notification.md) | The DEVICE_INTERFACE_CHANGE_NOTIFICATION structure describes a device interface that has been enabled (arrived) or disabled (removed). |
-| [_DEVICE_OBJECT structure](..\pepevents\ns-wdm-_device_object.md) | A device object represents a logical, virtual, or physical device for which a driver handles I/O requests. |
-| [_DEVICE_RESET_INTERFACE_STANDARD structure](..\pepevents\ns-wdm-_device_reset_interface_standard.md) | The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. |
-| [_DMA_ADAPTER structure](..\pepevents\ns-wdm-_dma_adapter.md) | The DMA_ADAPTER structure describes a system-defined interface to a DMA controller for a given device. A driver calls IoGetDmaAdapter to obtain this structure. |
-| [_DMA_ADAPTER_INFO structure](..\pepevents\ns-wdm-_dma_adapter_info.md) | The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INFO_XXX structure that describes the capabilities of a system DMA controller. |
-| [_DMA_ADAPTER_INFO_V1 structure](..\pepevents\ns-wdm-_dma_adapter_info_v1.md) | The DMA_ADAPTER_INFO_V1 structure describes the capabilities of the system DMA controller that is represented by an adapter object. |
-| [_DMA_OPERATIONS structure](..\pepevents\ns-wdm-_dma_operations.md) | The DMA_OPERATIONS structure provides a table of pointers to functions that control the operation of a DMA controller. |
-| [_DMA_TRANSFER_INFO structure](..\pepevents\ns-wdm-_dma_transfer_info.md) | The DMA_TRANSFER_INFO structure is a container for a DMA_TRANSFER_INFO_XXX structure that describes the allocation requirements for a scatter/gather list. |
-| [_DMA_TRANSFER_INFO_V1 structure](..\pepevents\ns-wdm-_dma_transfer_info_v1.md) | The DMA_TRANSFER_INFO_V1 structure contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer. |
-| [_DRIVER_OBJECT structure](..\pepevents\ns-wdm-_driver_object.md) | Each driver object represents the image of a loaded kernel-mode driver. |
-| [_ENLISTMENT_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_enlistment_basic_information.md) | The ENLISTMENT_BASIC_INFORMATION structure contains information about an enlistment object. |
-| [_EXT_DELETE_PARAMETERS structure](..\pepevents\ns-wdm-_ext_delete_parameters.md) | The EXT_DELETE_PARAMETERS structure contains an extended set of parameters for the ExDeleteTimer routine. |
-| [_EXT_SET_PARAMETERS_V0 structure](..\pepevents\ns-wdm-_ext_set_parameters_v0.md) | The EXT_SET_PARAMETERS structure contains an extended set of parameters for the ExSetTimer routine. |
-| [_FILE_ALIGNMENT_INFORMATION structure](..\pepevents\ns-ntddk-_file_alignment_information.md) | The FILE_ALIGNMENT_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine. |
-| [_FILE_ATTRIBUTE_TAG_INFORMATION structure](..\pepevents\ns-ntddk-_file_attribute_tag_information.md) | The FILE_ATTRIBUTE_TAG_INFORMATION structure is used as an argument to ZwQueryInformationFile. |
-| [_FILE_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_file_basic_information.md) | The FILE_BASIC_INFORMATION structure is used as an argument to routines that query or set file information. |
-| [_FILE_DISPOSITION_INFORMATION structure](..\pepevents\ns-ntddk-_file_disposition_information.md) | The FILE_DISPOSITION_INFORMATION structure is used as an argument to the ZwSetInformationFile routine. |
-| [_FILE_END_OF_FILE_INFORMATION structure](..\pepevents\ns-ntddk-_file_end_of_file_information.md) | The FILE_END_OF_FILE_INFORMATION structure is used as an argument to the ZwSetInformationFile routine. |
-| [_FILE_FS_DEVICE_INFORMATION structure](..\pepevents\ns-wdm-_file_fs_device_information.md) | The FILE_FS_DEVICE_INFORMATION structure provides file system device information about the type of device object associated with a file object. |
-| [_FILE_FULL_EA_INFORMATION structure](..\pepevents\ns-wdm-_file_full_ea_information.md) | The FILE_FULL_EA_INFORMATION structure provides extended attribute (EA) information. This structure is used primarily by network drivers. |
-| [_FILE_IO_PRIORITY_HINT_INFORMATION structure](..\pepevents\ns-wdm-_file_io_priority_hint_information.md) | The FILE_IO_PRIORITY_HINT_INFORMATION structure is used by the ZwQueryInformationFile and ZwSetInformationFile routines to query and set the default IRP priority hint for requests on the specified file handle. |
-| [_FILE_IS_REMOTE_DEVICE_INFORMATION structure](..\pepevents\ns-wdm-_file_is_remote_device_information.md) | The FILE_IS_REMOTE_DEVICE_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine. |
-| [_FILE_NAME_INFORMATION structure](..\pepevents\ns-ntddk-_file_name_information.md) | The FILE_NAME_INFORMATION structure is used as argument to the ZwQueryInformationFile and ZwSetInformationFile routines. |
-| [_FILE_NETWORK_OPEN_INFORMATION structure](..\pepevents\ns-wdm-_file_network_open_information.md) | The FILE_NETWORK_OPEN_INFORMATION structure is used as an argument to ZwQueryInformationFile. |
-| [_FILE_OBJECT structure](..\pepevents\ns-wdm-_file_object.md) | The FILE_OBJECT structure is used by the system to represent a file object. |
-| [_FILE_POSITION_INFORMATION structure](..\pepevents\ns-wdm-_file_position_information.md) | The FILE_POSITION_INFORMATION structure is used as an argument to routines that query or set file information. |
-| [_FILE_STANDARD_INFORMATION structure](..\pepevents\ns-wdm-_file_standard_information.md) | The FILE_STANDARD_INFORMATION structure is used as an argument to routines that query or set file information. |
-| [_FILE_STANDARD_INFORMATION_EX structure](..\pepevents\ns-wdm-_file_standard_information_ex.md) | The FILE_STANDARD_INFORMATION_EX structure is used as an argument to routines that query or set file information. |
-| [_FILE_VALID_DATA_LENGTH_INFORMATION structure](..\pepevents\ns-ntddk-_file_valid_data_length_information.md) | The FILE_VALID_DATA_LENGTH_INFORMATION structure is used as an argument to ZwSetInformationFile. |
-| [_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure](..\pepevents\ns-wdm-_function_level_device_reset_parameters.md) | The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an argument to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. |
-| [_GENERIC_MAPPING structure](..\pepevents\ns-wdm-_generic_mapping.md) | The GENERIC_MAPPING structure describes the ACCESS_MASK value of specific access rights associated with each type of generic access right. |
-| [_HARDWARE_COUNTER structure](..\pepevents\ns-ntddk-_hardware_counter.md) | The HARDWARE_COUNTER structure contains information about a hardware counter. |
-| [_HWPROFILE_CHANGE_NOTIFICATION structure](..\pepevents\ns-wdm-_hwprofile_change_notification.md) | The HWPROFILE_CHANGE_NOTIFICATION structure describes an event related to a hardware profile configuration change. |
-| [_IMAGE_INFO structure](..\pepevents\ns-ntddk-_image_info.md) | Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to specify image information. |
-| [_IMAGE_INFO_EX structure](..\pepevents\ns-ntddk-_image_info_ex.md) | Extended version of the image information structure (see IMAGE_INFO). |
-| [_IMAGE_POLICY_ENTRY structure](..\pepevents\ns-wdm-_image_policy_entry.md) | This structure is not supported. |
-| [_IMAGE_POLICY_METADATA structure](..\pepevents\ns-wdm-_image_policy_metadata.md) | This structure is not supported. |
-| [_INTERFACE structure](..\pepevents\ns-wdm-_interface.md) | The INTERFACE structure describes an interface that is exported by a driver for use by other drivers. |
-| [_IO_CONNECT_INTERRUPT_PARAMETERS structure](..\pepevents\ns-wdm-_io_connect_interrupt_parameters.md) | The IO_CONNECT_INTERRUPT_PARAMETERS structure contains the parameters that a driver supplies to the IoConnectInterruptEx routine to register an interrupt service routine (ISR). |
-| [_IO_DISCONNECT_INTERRUPT_PARAMETERS structure](..\pepevents\ns-wdm-_io_disconnect_interrupt_parameters.md) | The IO_DISCONNECT_INTERRUPT_PARAMETERS structure describes the parameters when unregistering an interrupt-handling routine with IoDisconnectInterruptEx. |
-| [_IO_ERROR_LOG_PACKET structure](..\pepevents\ns-wdm-_io_error_log_packet.md) | The IO_ERROR_LOG_PACKET structure serves as the header for an error log entry. |
-| [_IO_INTERRUPT_MESSAGE_INFO structure](..\pepevents\ns-wdm-_io_interrupt_message_info.md) | The IO_INTERRUPT_MESSAGE_INFO structure describes the driver's message-signaled interrupts. |
-| [_IO_INTERRUPT_MESSAGE_INFO_ENTRY structure](..\pepevents\ns-wdm-_io_interrupt_message_info_entry.md) | The IO_INTERRUPT_MESSAGE_INFO_ENTRY structure describes the properties of a single message-signaled interrupt. |
-| [_IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure](..\pepevents\ns-wdm-_io_report_interrupt_active_state_parameters.md) | The IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure contains the connection context for a registered interrupt service routine (ISR) that was connected to an interrupt or interrupts by a previous call to the IoConnectInterruptEx routine. |
-| [_IO_RESOURCE_DESCRIPTOR structure](..\pepevents\ns-wdm-_io_resource_descriptor.md) | The IO_RESOURCE_DESCRIPTOR structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of IO_RESOURCE_DESCRIPTOR structures is contained within each IO_RESOURCE_LIST structure. |
-| [_IO_RESOURCE_LIST structure](..\pepevents\ns-wdm-_io_resource_list.md) | The IO_RESOURCE_LIST structure describes a range of raw hardware resources, of various types, that can be used by a device. |
-| [_IO_RESOURCE_REQUIREMENTS_LIST structure](..\pepevents\ns-wdm-_io_resource_requirements_list.md) | The IO_RESOURCE_REQUIREMENTS_LIST structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device. |
-| [_IO_SECURITY_CONTEXT structure](..\pepevents\ns-wdm-_io_security_context.md) | The IO_SECURITY_CONTEXT structure represents the security context of an IRP_MJ_CREATE request. |
-| [_IO_SESSION_CONNECT_INFO structure](..\pepevents\ns-wdm-_io_session_connect_info.md) | The IO_SESSION_CONNECT_INFO structure provides information about a user session. |
-| [_IO_SESSION_STATE_INFORMATION structure](..\pepevents\ns-wdm-_io_session_state_information.md) | The IO_SESSION_STATE_INFORMATION structure contains information about the state of a user session. |
-| [_IO_SESSION_STATE_NOTIFICATION structure](..\pepevents\ns-wdm-_io_session_state_notification.md) | The IO_SESSION_STATE_NOTIFICATION structure contains information that a kernel-mode driver supplies to the IoRegisterContainerNotification routine when the driver registers to receive notifications of session events. |
-| [_IO_STACK_LOCATION structure](..\pepevents\ns-wdm-_io_stack_location.md) | The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP. |
-| [_IO_STATUS_BLOCK structure](..\pepevents\ns-wdm-_io_status_block.md) | A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling IoCompleteRequest for the IRP. |
-| [_IRP structure](..\pepevents\ns-wdm-_irp.md) | The IRP structure is a partially opaque structure that represents an I/O request packet. Drivers can use the following members of the IRP structure. |
-| [_KBUGCHECK_ADD_PAGES structure](..\pepevents\ns-wdm-_kbugcheck_add_pages.md) | The KBUGCHECK_ADD_PAGES structure describes one or more pages of driver-supplied data to be written by a BugCheckAddPagesCallback callback routine to the crash dump file. |
-| [_KBUGCHECK_DATA structure](..\pepevents\ns-aux_klib-_kbugcheck_data.md) | The KBUGCHECK_DATA structure contains bug check parameters. |
-| [_KBUGCHECK_DUMP_IO structure](..\pepevents\ns-wdm-_kbugcheck_dump_io.md) | The KBUGCHECK_DUMP_IO structure describes an I/O operation on the crash dump file. |
-| [_KBUGCHECK_SECONDARY_DUMP_DATA structure](..\pepevents\ns-wdm-_kbugcheck_secondary_dump_data.md) | The KBUGCHECK_SECONDARY_DUMP_DATA structure describes a section of driver-supplied data to be written by BugCheckSecondaryDumpDataCallback to the crash dump file. |
-| [_KDPC_WATCHDOG_INFORMATION structure](..\pepevents\ns-wdm-_kdpc_watchdog_information.md) | The KDPC_WATCHDOG_INFORMATION structure holds time-out information about the current deferred procedure call (DPC). |
-| [_KEY_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_key_basic_information.md) | The KEY_BASIC_INFORMATION structure defines a subset of the full information that is available for a registry key. |
-| [_KEY_CACHED_INFORMATION structure](..\pepevents\ns-ntddk-_key_cached_information.md) | The KEY_CACHED_INFORMATION structure holds the cached information available for a registry key or subkey. |
-| [_KEY_FULL_INFORMATION structure](..\pepevents\ns-wdm-_key_full_information.md) | The KEY_FULL_INFORMATION structure defines the information available for a registry key, including information about its subkeys and the maximum length for their names and value entries. |
-| [_KEY_NAME_INFORMATION structure](..\pepevents\ns-ntddk-_key_name_information.md) | The KEY_NAME_INFORMATION structure holds the name and name length of the key. |
-| [_KEY_NODE_INFORMATION structure](..\pepevents\ns-wdm-_key_node_information.md) | The KEY_NODE_INFORMATION structure defines the basic information available for a registry (sub)key. |
-| [_KEY_VALUE_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_key_value_basic_information.md) | The KEY_VALUE_BASIC_INFORMATION structure defines a subset of the full information available for a value entry of a registry key. |
-| [_KEY_VALUE_ENTRY structure](..\pepevents\ns-wdm-_key_value_entry.md) | The KEY_VALUE_ENTRY structure is used by the REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure to describe a single value entry for a registry key. |
-| [_KEY_VALUE_FULL_INFORMATION structure](..\pepevents\ns-wdm-_key_value_full_information.md) | The KEY_VALUE_FULL_INFORMATION structure defines information available for a value entry of a registry key. |
-| [_KEY_VALUE_PARTIAL_INFORMATION structure](..\pepevents\ns-wdm-_key_value_partial_information.md) | The KEY_VALUE_PARTIAL_INFORMATION structure defines a subset of the value information available for a value entry of a registry key. |
-| [_KEY_VIRTUALIZATION_INFORMATION structure](..\pepevents\ns-ntddk-_key_virtualization_information.md) | The KEY_VIRTUALIZATION_INFORMATION structure defines the basic information that is available for a registry key or subkey. |
-| [_KEY_WRITE_TIME_INFORMATION structure](..\pepevents\ns-wdm-_key_write_time_information.md) | The KEY_WRITE_TIME_INFORMATION structure is used by the system to set the last write time for a registry key. |
-| [_KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure](..\pepevents\ns-wdm-_ke_processor_change_notify_context.md) | The KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure describes the notification context that is passed to a registered callback function when a new processor is dynamically added to a hardware partition. |
-| [_KTMOBJECT_CURSOR structure](..\pepevents\ns-wdm-_ktmobject_cursor.md) | The KTMOBJECT_CURSOR structure receives enumeration information about KTM objects when a component calls ZwEnumerateTransactionObject. |
-| [_LINK_SHARE_ACCESS structure](..\pepevents\ns-wdm-_link_share_access.md) | The share access structure used by file systems for only link files. |
-| [_MDL structure](..\pepevents\ns-wdm-_mdl.md) | An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL). |
-| [_MM_COPY_ADDRESS structure](..\pepevents\ns-ntddk-_mm_copy_address.md) | The MM_COPY_ADDRESS structure contains either a virtual memory address or a physical memory address. |
-| [_MM_PHYSICAL_ADDRESS_LIST structure](..\pepevents\ns-wdm-_mm_physical_address_list.md) | The MM_PHYSICAL_ADDRESS_LIST structure specifies a range of physical addresses. |
-| [_NLSTABLEINFO structure](..\pepevents\ns-ntnls-_nlstableinfo.md) | Stores the NLS file formats . |
-| [_OB_CALLBACK_REGISTRATION structure](..\pepevents\ns-wdm-_ob_callback_registration.md) | The OB_CALLBACK_REGISTRATION structure specifies the parameters when the ObRegisterCallbacks routine registers ObjectPreCallback and ObjectPostCallback callback routines. |
-| [_OB_OPERATION_REGISTRATION structure](..\pepevents\ns-wdm-_ob_operation_registration.md) | The OB_OPERATION_REGISTRATION structure specifies ObjectPreCallback and ObjectPostCallback callback routines and the types of operations that the routines are called for. |
-| [_OB_POST_CREATE_HANDLE_INFORMATION structure](..\pepevents\ns-wdm-_ob_post_create_handle_information.md) | The OB_POST_CREATE_HANDLE_INFORMATION structure provides information to a ObjectPostCallback routine about a thread or process handle that has been opened. |
-| [_OB_POST_DUPLICATE_HANDLE_INFORMATION structure](..\pepevents\ns-wdm-_ob_post_duplicate_handle_information.md) | The OB_POST_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPostCallback routine about a thread or process handle that has been duplicated. |
-| [_OB_POST_OPERATION_INFORMATION structure](..\pepevents\ns-wdm-_ob_post_operation_information.md) | The OB_POST_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPostCallback routine. |
-| [_OB_POST_OPERATION_PARAMETERS structure](..\pepevents\ns-wdm-_ob_post_operation_parameters.md) | The OB_POST_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPostCallback routine. |
-| [_OB_PRE_CREATE_HANDLE_INFORMATION structure](..\pepevents\ns-wdm-_ob_pre_create_handle_information.md) | The OB_PRE_CREATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being opened. |
-| [_OB_PRE_DUPLICATE_HANDLE_INFORMATION structure](..\pepevents\ns-wdm-_ob_pre_duplicate_handle_information.md) | The OB_PRE_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being duplicated. |
-| [_OB_PRE_OPERATION_INFORMATION structure](..\pepevents\ns-wdm-_ob_pre_operation_information.md) | The OB_PRE_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPreCallback routine. |
-| [_OB_PRE_OPERATION_PARAMETERS structure](..\pepevents\ns-wdm-_ob_pre_operation_parameters.md) | The OB_PRE_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPreCallback routine. |
-| [_OSVERSIONINFOEXW structure](..\pepevents\ns-wdm-_osversioninfoexw.md) | The RTL_OSVERSIONINFOEXW structure contains operating system version information. |
-| [_OSVERSIONINFOW structure](..\pepevents\ns-wdm-_osversioninfow.md) | The RTL_OSVERSIONINFOW structure contains operating system version information. |
-| [_PCI_COMMON_CONFIG structure](..\pepevents\ns-wdm-_pci_common_config.md) | The PCI_COMMON_CONFIG structure is obsolete. |
-| [_PCI_MSIX_TABLE_CONFIG_INTERFACE structure](..\pepevents\ns-wdm-_pci_msix_table_config_interface.md) | The PCI_MSIX_TABLE_CONFIG_INTERFACE structure enables device drivers to modify their MSI-X interrupt settings. This structure describes the GUID_MSIX_TABLE_CONFIG_INTERFACE interface. |
-| [_PCI_SLOT_NUMBER structure](..\pepevents\ns-wdm-_pci_slot_number.md) | The PCI_SLOT_NUMBER structure is obsolete. |
-| [_PEP_ABANDON_DEVICE structure](..\pepevents\ns-pep_x-_pep_abandon_device.md) | The PEP_ABANDON_DEVICE structure identifies a device that has been abandoned and will no longer be used by the operating system. |
-| [_PEP_ABANDON_DEVICE structure](..\pepevents\ns-pepfx-_pep_abandon_device.md) | The PEP_ABANDON_DEVICE structure identifies a device that has been abandoned and will no longer be used by the operating system. |
-| [_PEP_ACPI_ABANDON_DEVICE structure](..\pepevents\ns-pep_x-_pep_acpi_abandon_device.md) | The PEP_ACPI_ABANDON_DEVICE structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device. |
-| [_PEP_ACPI_ABANDON_DEVICE structure](..\pepevents\ns-pepfx-_pep_acpi_abandon_device.md) | The PEP_ACPI_ABANDON_DEVICE structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device. |
-| [_PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure](..\pepevents\ns-pep_x-_pep_acpi_enumerate_device_namespace.md) | The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device. |
-| [_PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure](..\pepevents\ns-pepfx-_pep_acpi_enumerate_device_namespace.md) | The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device. |
-| [_PEP_ACPI_EVALUATE_CONTROL_METHOD structure](..\pepevents\ns-pep_x-_pep_acpi_evaluate_control_method.md) | The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation. |
-| [_PEP_ACPI_EVALUATE_CONTROL_METHOD structure](..\pepevents\ns-pepfx-_pep_acpi_evaluate_control_method.md) | The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation. |
-| [_PEP_ACPI_EXTENDED_ADDRESS structure](..\pepevents\ns-pep_x-_pep_acpi_extended_address.md) | The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO. |
-| [_PEP_ACPI_EXTENDED_ADDRESS structure](..\pepevents\ns-pepfx-_pep_acpi_extended_address.md) | The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO. |
-| [_PEP_ACPI_GPIO_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_gpio_resource.md) | The PEP_ACPI_GPIO_RESOURCE structure describes the ACPI configuration for a general purpose input/output (GPIO) resource. |
-| [_PEP_ACPI_GPIO_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_gpio_resource.md) | The PEP_ACPI_GPIO_RESOURCE structure describes the ACPI configuration for a general purpose input/output (GPIO) resource. |
-| [_PEP_ACPI_INTERRUPT_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_interrupt_resource.md) | The PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource. |
-| [_PEP_ACPI_INTERRUPT_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_interrupt_resource.md) | The PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource. |
-| [_PEP_ACPI_IO_MEMORY_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_io_memory_resource.md) | The PEP_ACPI_IO_MEMORY_RESOURCE structure describes an ACPI IO port descriptor resource. |
-| [_PEP_ACPI_IO_MEMORY_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_io_memory_resource.md) | The PEP_ACPI_IO_MEMORY_RESOURCE structure describes an ACPI IO port descriptor resource. |
-| [_PEP_ACPI_OBJECT_NAME structure](..\pepevents\ns-pep_x-_pep_acpi_object_name.md) | The PEP_ACPI_OBJECT_NAME union contains the four-character name of an ACPI object. |
-| [_PEP_ACPI_OBJECT_NAME structure](..\pepevents\ns-pepfx-_pep_acpi_object_name.md) | The PEP_ACPI_OBJECT_NAME union contains the four-character name of an ACPI object. |
-| [_PEP_ACPI_OBJECT_NAME_WITH_TYPE structure](..\pepevents\ns-pep_x-_pep_acpi_object_name_with_type.md) | The PEP_ACPI_OBJECT_NAME_WITH_TYPE structure that specifies both the path-relative name of an ACPI object and the type of this object. |
-| [_PEP_ACPI_OBJECT_NAME_WITH_TYPE structure](..\pepevents\ns-pepfx-_pep_acpi_object_name_with_type.md) | The PEP_ACPI_OBJECT_NAME_WITH_TYPE structure that specifies both the path-relative name of an ACPI object and the type of this object. |
-| [_PEP_ACPI_PREPARE_DEVICE structure](..\pepevents\ns-pep_x-_pep_acpi_prepare_device.md) | The PEP_ACPI_PREPARE_DEVICE structure indicates whether a platform extension plug-in (PEP) is prepared to provide ACPI services for the specified device. |
-| [_PEP_ACPI_PREPARE_DEVICE structure](..\pepevents\ns-pepfx-_pep_acpi_prepare_device.md) | The PEP_ACPI_PREPARE_DEVICE structure indicates whether a platform extension plug-in (PEP) is prepared to provide ACPI services for the specified device. |
-| [_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure](..\pepevents\ns-pep_x-_pep_acpi_query_device_control_resources.md) | The PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure contains a list of raw resources that are needed to control power to the device. |
-| [_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure](..\pepevents\ns-pepfx-_pep_acpi_query_device_control_resources.md) | The PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure contains a list of raw resources that are needed to control power to the device. |
-| [_PEP_ACPI_QUERY_OBJECT_INFORMATION structure](..\pepevents\ns-pep_x-_pep_acpi_query_object_information.md) | The PEP_ACPI_QUERY_OBJECT_INFORMATION structure contains information about an ACPI object. |
-| [_PEP_ACPI_QUERY_OBJECT_INFORMATION structure](..\pepevents\ns-pepfx-_pep_acpi_query_object_information.md) | The PEP_ACPI_QUERY_OBJECT_INFORMATION structure contains information about an ACPI object. |
-| [_PEP_ACPI_REGISTER_DEVICE structure](..\pepevents\ns-pep_x-_pep_acpi_register_device.md) | The PEP_ACPI_REGISTER_DEVICE structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services. |
-| [_PEP_ACPI_REGISTER_DEVICE structure](..\pepevents\ns-pepfx-_pep_acpi_register_device.md) | The PEP_ACPI_REGISTER_DEVICE structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services. |
-| [_PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure](..\pepevents\ns-pep_x-_pep_acpi_request_convert_to_bios_resources.md) | The PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure is used in the process of converting ACPI resources to BIOS resources by one of the PEP initialization functions. |
-| [_PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure](..\pepevents\ns-pepfx-_pep_acpi_request_convert_to_bios_resources.md) | The PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure is used in the process of converting ACPI resources to BIOS resources by one of the PEP initialization functions. |
-| [_PEP_ACPI_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_resource.md) | The PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource. |
-| [_PEP_ACPI_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_resource.md) | The PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource. |
-| [_PEP_ACPI_RESOURCE_FLAGS structure](..\pepevents\ns-pep_x-_pep_acpi_resource_flags.md) | The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource. |
-| [_PEP_ACPI_RESOURCE_FLAGS structure](..\pepevents\ns-pepfx-_pep_acpi_resource_flags.md) | The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource. |
-| [_PEP_ACPI_SPB_I2C_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_spb_i2c_resource.md) | The PEP_ACPI_SPB_I2C_RESOURCE structure describes an ACPI I2C serial bus resource. |
-| [_PEP_ACPI_SPB_I2C_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_spb_i2c_resource.md) | The PEP_ACPI_SPB_I2C_RESOURCE structure describes an ACPI I2C serial bus resource. |
-| [_PEP_ACPI_SPB_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_spb_resource.md) | The PEP_ACPI_SPB_RESOURCE structure describes an ACPI serial bus connection resource. |
-| [_PEP_ACPI_SPB_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_spb_resource.md) | The PEP_ACPI_SPB_RESOURCE structure describes an ACPI serial bus connection resource. |
-| [_PEP_ACPI_SPB_SPI_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_spb_spi_resource.md) | The PEP_ACPI_SPB_SPI_RESOURCE structure describes an ACPI SPI serial bus resource. |
-| [_PEP_ACPI_SPB_SPI_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_spb_spi_resource.md) | The PEP_ACPI_SPB_SPI_RESOURCE structure describes an ACPI SPI serial bus resource. |
-| [_PEP_ACPI_SPB_UART_RESOURCE structure](..\pepevents\ns-pep_x-_pep_acpi_spb_uart_resource.md) | The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource. |
-| [_PEP_ACPI_SPB_UART_RESOURCE structure](..\pepevents\ns-pepfx-_pep_acpi_spb_uart_resource.md) | The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource. |
-| [_PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure](..\pepevents\ns-pep_x-_pep_acpi_translated_device_control_resources.md) | The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use. |
-| [_PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure](..\pepevents\ns-pepfx-_pep_acpi_translated_device_control_resources.md) | The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use. |
-| [_PEP_ACPI_UNREGISTER_DEVICE structure](..\pepevents\ns-pep_x-_pep_acpi_unregister_device.md) | The PEP_ACPI_UNREGISTER_DEVICE structure contains information about a device that has been unregistered from ACPI services. |
-| [_PEP_ACPI_UNREGISTER_DEVICE structure](..\pepevents\ns-pepfx-_pep_acpi_unregister_device.md) | The PEP_ACPI_UNREGISTER_DEVICE structure contains information about a device that has been unregistered from ACPI services. |
-| [_PEP_COMPONENT_ACTIVE structure](..\pepevents\ns-pep_x-_pep_component_active.md) | The PEP_COMPONENT_ACTIVE structure identifies a component that is making a transition between the idle condition and the active condition. |
-| [_PEP_COMPONENT_PERF_INFO structure](..\pepevents\ns-pep_x-_pep_component_perf_info.md) | The PEP_COMPONENT_PERF_INFO structure describes the performance states (P-states) of a component. |
-| [_PEP_COMPONENT_PERF_INFO structure](..\pepevents\ns-pepfx-_pep_component_perf_info.md) | The PEP_COMPONENT_PERF_INFO structure describes the performance states (P-states) of a component. |
-| [_PEP_COMPONENT_PERF_SET structure](..\pepevents\ns-pep_x-_pep_component_perf_set.md) | The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set. |
-| [_PEP_COMPONENT_PERF_SET structure](..\pepevents\ns-pepfx-_pep_component_perf_set.md) | The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set. |
-| [_PEP_COMPONENT_PERF_STATE_REQUEST structure](..\pepevents\ns-pep_x-_pep_component_perf_state_request.md) | The PEP_COMPONENT_PERF_STATE_REQUEST structure specifies a performance state (P-state) set and a new performance level to assign to this set. |
-| [_PEP_COMPONENT_PERF_STATE_REQUEST structure](..\pepevents\ns-pepfx-_pep_component_perf_state_request.md) | The PEP_COMPONENT_PERF_STATE_REQUEST structure specifies a performance state (P-state) set and a new performance level to assign to this set. |
-| [_PEP_COMPONENT_PLATFORM_CONSTRAINTS structure](..\pepevents\ns-pep_x-_pep_component_platform_constraints.md) | The PEP_COMPONENT_PLATFORM_CONSTRAINTS structure describes the lowest-powered Fx state of that a component can be in when the platform is in a particular idle state. |
-| [_PEP_COMPONENT_PLATFORM_CONSTRAINTS structure](..\pepevents\ns-pepfx-_pep_component_platform_constraints.md) | The PEP_COMPONENT_PLATFORM_CONSTRAINTS structure describes the lowest-powered Fx state of that a component can be in when the platform is in a particular idle state. |
-| [_PEP_COMPONENT_V2 structure](..\pepevents\ns-pep_x-_pep_component_v2.md) | The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device. |
-| [_PEP_COMPONENT_V2 structure](..\pepevents\ns-pepfx-_pep_component_v2.md) | The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device. |
-| [_PEP_COORDINATED_DEPENDENCY_OPTION structure](..\pepevents\ns-pep_x-_pep_coordinated_dependency_option.md) | The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle stateâ€™s dependency to the OS. |
-| [_PEP_COORDINATED_DEPENDENCY_OPTION structure](..\pepevents\ns-pepfx-_pep_coordinated_dependency_option.md) | The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle stateâ€™s dependency to the OS. |
-| [_PEP_COORDINATED_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_coordinated_idle_state.md) | The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS. |
-| [_PEP_COORDINATED_IDLE_STATE structure](..\pepevents\ns-pepfx-_pep_coordinated_idle_state.md) | The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS. |
-| [_PEP_CRASHDUMP_INFORMATION structure](..\pepevents\ns-pep_x-_pep_crashdump_information.md) | The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device. |
-| [_PEP_CRASHDUMP_INFORMATION structure](..\pepevents\ns-pepfx-_pep_crashdump_information.md) | The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device. |
-| [_PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure](..\pepevents\ns-pep_x-_pep_debugger_transition_requirements.md) | The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the platform idle states for which the debugger device must be turned on. |
-| [_PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure](..\pepevents\ns-pepfx-_pep_debugger_transition_requirements.md) | The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the platform idle states for which the debugger device must be turned on. |
-| [_PEP_DEVICE_PLATFORM_CONSTRAINTS structure](..\pepevents\ns-pep_x-_pep_device_platform_constraints.md) | The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constraints for entry to the various Dx power states that are supported by a device. |
-| [_PEP_DEVICE_PLATFORM_CONSTRAINTS structure](..\pepevents\ns-pepfx-_pep_device_platform_constraints.md) | The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constraints for entry to the various Dx power states that are supported by a device. |
-| [_PEP_DEVICE_POWER_STATE structure](..\pepevents\ns-pep_x-_pep_device_power_state.md) | The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state. |
-| [_PEP_DEVICE_POWER_STATE structure](..\pepevents\ns-pepfx-_pep_device_power_state.md) | The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state. |
-| [_PEP_DEVICE_REGISTER_V2 structure](..\pepevents\ns-pep_x-_pep_device_register_v2.md) | The PEP_DEVICE_REGISTER structure describes all the components in a particular device. |
-| [_PEP_DEVICE_REGISTER_V2 structure](..\pepevents\ns-pepfx-_pep_device_register_v2.md) | The PEP_DEVICE_REGISTER structure describes all the components in a particular device. |
-| [_PEP_DEVICE_STARTED structure](..\pepevents\ns-pep_x-_pep_device_started.md) | The PEP_DEVICE_STARTED structure identifies a device whose driver has completed its registration with the Windows power management framework (PoFx). |
-| [_PEP_DEVICE_STARTED structure](..\pepevents\ns-pepfx-_pep_device_started.md) | The PEP_DEVICE_STARTED structure identifies a device whose driver has completed its registration with the Windows power management framework (PoFx). |
-| [_PEP_INFORMATION structure](..\pepevents\ns-pep_x-_pep_information.md) | The PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx). |
-| [_PEP_INFORMATION structure](..\pepevents\ns-pepfx-_pep_information.md) | The PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx). |
-| [_PEP_KERNEL_INFORMATION_STRUCT_V1 structure](..\pepevents\ns-pep_x-_pep_kernel_information_struct_v1.md) | The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
-| [_PEP_KERNEL_INFORMATION_STRUCT_V2 structure](..\pepevents\ns-pep_x-_pep_kernel_information_struct_v2.md) | The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
-| [_PEP_KERNEL_INFORMATION_STRUCT_V3 structure](..\pepevents\ns-pep_x-_pep_kernel_information_struct_v3.md) | The PEP_KERNEL_INFORMATION_STRUCT_V3 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
-| [_PEP_KERNEL_INFORMATION_STRUCT_V3 structure](..\pepevents\ns-pepfx-_pep_kernel_information_struct_v3.md) | The PEP_KERNEL_INFORMATION_STRUCT_V3 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
-| [_PEP_LOW_POWER_EPOCH structure](..\pepevents\ns-pep_x-_pep_low_power_epoch.md) | The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated). |
-| [_PEP_LOW_POWER_EPOCH structure](..\pepevents\ns-pepfx-_pep_low_power_epoch.md) | The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated). |
-| [_PEP_NOTIFY_COMPONENT_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_notify_component_idle_state.md) | The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state. |
-| [_PEP_NOTIFY_COMPONENT_IDLE_STATE structure](..\pepevents\ns-pepfx-_pep_notify_component_idle_state.md) | The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state. |
-| [_PEP_PERF_STATE structure](..\pepevents\ns-pep_x-_pep_perf_state.md) | The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values. |
-| [_PEP_PERF_STATE structure](..\pepevents\ns-pepfx-_pep_perf_state.md) | The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values. |
-| [_PEP_PLATFORM_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_platform_idle_state.md) | The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state. |
-| [_PEP_PLATFORM_IDLE_STATE structure](..\pepevents\ns-pepfx-_pep_platform_idle_state.md) | The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state. |
-| [_PEP_PLATFORM_IDLE_STATE_UPDATE structure](..\pepevents\ns-pep_x-_pep_platform_idle_state_update.md) | The PEP_PLATFORM_IDLE_STATE_UPDATE structure contains the updated properties of a platform idle state. |
-| [_PEP_PLATFORM_IDLE_STATE_UPDATE structure](..\pepevents\ns-pepfx-_pep_platform_idle_state_update.md) | The PEP_PLATFORM_IDLE_STATE_UPDATE structure contains the updated properties of a platform idle state. |
-| [_PEP_POWER_CONTROL_COMPLETE structure](..\pepevents\ns-pep_x-_pep_power_control_complete.md) | The PEP_POWER_CONTROL_COMPLETE structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed. |
-| [_PEP_POWER_CONTROL_COMPLETE structure](..\pepevents\ns-pepfx-_pep_power_control_complete.md) | The PEP_POWER_CONTROL_COMPLETE structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed. |
-| [_PEP_POWER_CONTROL_REQUEST structure](..\pepevents\ns-pep_x-_pep_power_control_request.md) | The PEP_POWER_CONTROL_REQUEST structure contains a request from a driver for a power control operation. |
-| [_PEP_POWER_CONTROL_REQUEST structure](..\pepevents\ns-pepfx-_pep_power_control_request.md) | The PEP_POWER_CONTROL_REQUEST structure contains a request from a driver for a power control operation. |
-| [_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure](..\pepevents\ns-pep_x-_pep_ppm_context_query_parking_page.md) | The PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure describes the parking page for a processor. |
-| [_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure](..\pepevents\ns-pepfx-_pep_ppm_context_query_parking_page.md) | The PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure describes the parking page for a processor. |
-| [_PEP_PPM_CST_STATE structure](..\pepevents\ns-pep_x-_pep_ppm_cst_state.md) | The PEP_PPM_CST_STATE structure specifies the properties of a C state (ACPI processor power state). |
-| [_PEP_PPM_CST_STATE structure](..\pepevents\ns-pepfx-_pep_ppm_cst_state.md) | The PEP_PPM_CST_STATE structure specifies the properties of a C state (ACPI processor power state). |
-| [_PEP_PPM_CST_STATES structure](..\pepevents\ns-pep_x-_pep_ppm_cst_states.md) | The PEP_PPM_CST_STATES structure specifies the properties of the C states (ACPI processor power states) that are supported for a processor. |
-| [_PEP_PPM_CST_STATES structure](..\pepevents\ns-pepfx-_pep_ppm_cst_states.md) | The PEP_PPM_CST_STATES structure specifies the properties of the C states (ACPI processor power states) that are supported for a processor. |
-| [_PEP_PPM_ENTER_SYSTEM_STATE structure](..\pepevents\ns-pep_x-_pep_ppm_enter_system_state.md) | Used in the PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE notification to notify PEP that the system is about to enter a system power state.  . |
-| [_PEP_PPM_ENTER_SYSTEM_STATE structure](..\pepevents\ns-pepfx-_pep_ppm_enter_system_state.md) | Used in the PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE notification to notify PEP that the system is about to enter a system power state.  . |
-| [_PEP_PPM_FEEDBACK_READ structure](..\pepevents\ns-pep_x-_pep_ppm_feedback_read.md) | The PEP_PPM_FEEDBACK_READ structure contains the value read from a processor performance feedback counter. |
-| [_PEP_PPM_FEEDBACK_READ structure](..\pepevents\ns-pepfx-_pep_ppm_feedback_read.md) | The PEP_PPM_FEEDBACK_READ structure contains the value read from a processor performance feedback counter. |
-| [_PEP_PPM_IDLE_CANCEL structure](..\pepevents\ns-pep_x-_pep_ppm_idle_cancel.md) | The PEP_PPM_IDLE_CANCEL structure indicates why the processor could not enter the previously selected idle state. |
-| [_PEP_PPM_IDLE_COMPLETE structure](..\pepevents\ns-pep_x-_pep_ppm_idle_complete.md) | The PEP_PPM_IDLE_COMPLETE structure describe the idle states from which the processor and hardware platform are waking. |
-| [_PEP_PPM_IDLE_COMPLETE structure](..\pepevents\ns-pepfx-_pep_ppm_idle_complete.md) | The PEP_PPM_IDLE_COMPLETE structure describe the idle states from which the processor and hardware platform are waking. |
-| [_PEP_PPM_IDLE_COMPLETE_V2 structure](..\pepevents\ns-pep_x-_pep_ppm_idle_complete_v2.md) | The PEP_PPM_IDLE_COMPLETE_V2 structure describe the idle states from which the processor and hardware platform are waking. |
-| [_PEP_PPM_IDLE_COMPLETE_V2 structure](..\pepevents\ns-pepfx-_pep_ppm_idle_complete_v2.md) | The PEP_PPM_IDLE_COMPLETE_V2 structure describe the idle states from which the processor and hardware platform are waking. |
-| [_PEP_PPM_IDLE_EXECUTE structure](..\pepevents\ns-pep_x-_pep_ppm_idle_execute.md) | The PEP_PPM_IDLE_EXECUTE structure specifies the idle state that the processor is to enter. |
-| [_PEP_PPM_IDLE_EXECUTE structure](..\pepevents\ns-pepfx-_pep_ppm_idle_execute.md) | The PEP_PPM_IDLE_EXECUTE structure specifies the idle state that the processor is to enter. |
-| [_PEP_PPM_IDLE_EXECUTE_V2 structure](..\pepevents\ns-pep_x-_pep_ppm_idle_execute_v2.md) | The PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter. |
-| [_PEP_PPM_IDLE_EXECUTE_V2 structure](..\pepevents\ns-pepfx-_pep_ppm_idle_execute_v2.md) | The PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter. |
-| [_PEP_PPM_IDLE_SELECT structure](..\pepevents\ns-pep_x-_pep_ppm_idle_select.md) | The PEP_PPM_IDLE_SELECT structure describes the most energy-efficient idle state that the processor can enter and still satisfy the constraints specified by the operating system. |
-| [_PEP_PPM_INITIATE_WAKE structure](..\pepevents\ns-pep_x-_pep_ppm_initiate_wake.md) | The PEP_PPM_INITIATE_WAKE structure indicates whether a processor requires an interrupt to wake up from an idle state. |
-| [_PEP_PPM_INITIATE_WAKE structure](..\pepevents\ns-pepfx-_pep_ppm_initiate_wake.md) | The PEP_PPM_INITIATE_WAKE structure indicates whether a processor requires an interrupt to wake up from an idle state. |
-| [_PEP_PPM_IS_PROCESSOR_HALTED structure](..\pepevents\ns-pep_x-_pep_ppm_is_processor_halted.md) | The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the processor is currently halted in its selected idle state. |
-| [_PEP_PPM_IS_PROCESSOR_HALTED structure](..\pepevents\ns-pepfx-_pep_ppm_is_processor_halted.md) | The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the processor is currently halted in its selected idle state. |
-| [_PEP_PPM_LPI_COMPLETE structure](..\pepevents\ns-pep_x-_pep_ppm_lpi_complete.md) | The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor. |
-| [_PEP_PPM_PARK_MASK structure](..\pepevents\ns-pep_x-_pep_ppm_park_mask.md) | The PEP_PROCESSOR_PARK_MASK structure contains the current core parking mask. |
-| [_PEP_PPM_PARK_MASK structure](..\pepevents\ns-pepfx-_pep_ppm_park_mask.md) | The PEP_PROCESSOR_PARK_MASK structure contains the current core parking mask. |
-| [_PEP_PPM_PARK_SELECTION structure](..\pepevents\ns-pep_x-_pep_ppm_park_selection.md) | The PEP_PPM_PARK_SELECTION structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption. |
-| [_PEP_PPM_PARK_SELECTION structure](..\pepevents\ns-pepfx-_pep_ppm_park_selection.md) | The PEP_PPM_PARK_SELECTION structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption. |
-| [_PEP_PPM_PARK_SELECTION_V2 structure](..\pepevents\ns-pep_x-_pep_ppm_park_selection_v2.md) | The PEP_PPM_PARK_SELECTION_V2 structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption. |
-| [_PEP_PPM_PARK_SELECTION_V2 structure](..\pepevents\ns-pepfx-_pep_ppm_park_selection_v2.md) | The PEP_PPM_PARK_SELECTION_V2 structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption. |
-| [_PEP_PPM_PERF_CHECK_COMPLETE structure](..\pepevents\ns-pep_x-_pep_ppm_perf_check_complete.md) | The PEP_PPM_PERF_CHECK_COMPLETE structure is used to inform the PEP of details regarding the completion of a periodic performance check evaluation. |
-| [_PEP_PPM_PERF_CHECK_COMPLETE structure](..\pepevents\ns-pepfx-_pep_ppm_perf_check_complete.md) | The PEP_PPM_PERF_CHECK_COMPLETE structure is used to inform the PEP of details regarding the completion of a periodic performance check evaluation. |
-| [_PEP_PPM_PERF_SET structure](..\pepevents\ns-pep_x-_pep_ppm_perf_set.md) | The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor. |
-| [_PEP_PPM_PERF_SET structure](..\pepevents\ns-pepfx-_pep_ppm_perf_set.md) | The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor. |
-| [_PEP_PPM_PERF_SET_STATE structure](..\pepevents\ns-pep_x-_pep_ppm_perf_set_state.md) | Used in the PEP_NOTIFY_PPM_PERF_SET notification at runtime to set the current operating performance of the processor.  . |
-| [_PEP_PPM_PERF_SET_STATE structure](..\pepevents\ns-pepfx-_pep_ppm_perf_set_state.md) | Used in the PEP_NOTIFY_PPM_PERF_SET notification at runtime to set the current operating performance of the processor.  . |
-| [_PEP_PPM_PLATFORM_STATE_RESIDENCIES structure](..\pepevents\ns-pep_x-_pep_ppm_platform_state_residencies.md) | The PEP_PPM_PLATFORM_STATE_RESIDENCIES structure contains the accumulated residency times and transition counts for the idle states that are supported by the hardware platform. |
-| [_PEP_PPM_PLATFORM_STATE_RESIDENCIES structure](..\pepevents\ns-pepfx-_pep_ppm_platform_state_residencies.md) | The PEP_PPM_PLATFORM_STATE_RESIDENCIES structure contains the accumulated residency times and transition counts for the idle states that are supported by the hardware platform. |
-| [_PEP_PPM_PLATFORM_STATE_RESIDENCY structure](..\pepevents\ns-pep_x-_pep_ppm_platform_state_residency.md) | The PEP_PPM_PLATFORM_STATE_RESIDENCY structure specifies the accumulated residency time and transition count for a particular platform idle state. |
-| [_PEP_PPM_PLATFORM_STATE_RESIDENCY structure](..\pepevents\ns-pepfx-_pep_ppm_platform_state_residency.md) | The PEP_PPM_PLATFORM_STATE_RESIDENCY structure specifies the accumulated residency time and transition count for a particular platform idle state. |
-| [_PEP_PPM_QUERY_CAPABILITIES structure](..\pepevents\ns-pep_x-_pep_ppm_query_capabilities.md) | The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP). |
-| [_PEP_PPM_QUERY_CAPABILITIES structure](..\pepevents\ns-pepfx-_pep_ppm_query_capabilities.md) | The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP). |
-| [_PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure](..\pepevents\ns-pep_x-_pep_ppm_query_coordinated_dependency.md) | The PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure describes dependencies for coordinated idle states. |
-| [_PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure](..\pepevents\ns-pepfx-_pep_ppm_query_coordinated_dependency.md) | The PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure describes dependencies for coordinated idle states. |
-| [_PEP_PPM_QUERY_COORDINATED_STATES structure](..\pepevents\ns-pep_x-_pep_ppm_query_coordinated_states.md) | The PEP_PPM_QUERY_COORDINATED_STATES structure contains information about each coordinated idle state that the platform extension plug-in (PEP) supports. |
-| [_PEP_PPM_QUERY_COORDINATED_STATES structure](..\pepevents\ns-pepfx-_pep_ppm_query_coordinated_states.md) | The PEP_PPM_QUERY_COORDINATED_STATES structure contains information about each coordinated idle state that the platform extension plug-in (PEP) supports. |
-| [_PEP_PPM_QUERY_DISCRETE_PERF_STATES structure](..\pepevents\ns-pep_x-_pep_ppm_query_discrete_perf_states.md) | Used in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES notification that stores the list of discrete performance states that PEP supports, if the PEP_NOTIFY_PPM_QUERY_CAPABILITIES notification indicates support for discrete performance states. . |
-| [_PEP_PPM_QUERY_DISCRETE_PERF_STATES structure](..\pepevents\ns-pepfx-_pep_ppm_query_discrete_perf_states.md) | Used in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES notification that stores the list of discrete performance states that PEP supports, if the PEP_NOTIFY_PPM_QUERY_CAPABILITIES notification indicates support for discrete performance states. . |
-| [_PEP_PPM_QUERY_DOMAIN_INFO structure](..\pepevents\ns-pep_x-_pep_ppm_query_domain_info.md) | Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. . |
-| [_PEP_PPM_QUERY_DOMAIN_INFO structure](..\pepevents\ns-pepfx-_pep_ppm_query_domain_info.md) | Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. . |
-| [_PEP_PPM_QUERY_FEEDBACK_COUNTERS structure](..\pepevents\ns-pep_x-_pep_ppm_query_feedback_counters.md) | The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor. |
-| [_PEP_PPM_QUERY_FEEDBACK_COUNTERS structure](..\pepevents\ns-pepfx-_pep_ppm_query_feedback_counters.md) | The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor. |
-| [_PEP_PPM_QUERY_IDLE_STATES structure](..\pepevents\ns-pep_x-_pep_ppm_query_idle_states.md) | The PEP_PPM_QUERY_IDLE_STATES structure describes the idle states of a particular processor. |
-| [_PEP_PPM_QUERY_IDLE_STATES_V2 structure](..\pepevents\ns-pep_x-_pep_ppm_query_idle_states_v2.md) | The PEP_PPM_QUERY_IDLE_STATES_V2 structure is used during processor initialization to query the platform extension plug-in (PEP) for a list of processor idle states that the processor supports. |
-| [_PEP_PPM_QUERY_IDLE_STATES_V2 structure](..\pepevents\ns-pepfx-_pep_ppm_query_idle_states_v2.md) | The PEP_PPM_QUERY_IDLE_STATES_V2 structure is used during processor initialization to query the platform extension plug-in (PEP) for a list of processor idle states that the processor supports. |
-| [_PEP_PPM_QUERY_LP_SETTINGS structure](..\pepevents\ns-pep_x-_pep_ppm_query_lp_settings.md) | The PEP_PPM_QUERY_LP_SETTINGS structure contains a kernel handle to the registry key that contains the power optimization settings that the platform extension plug-in (PEP) has defined for each power scenario. |
-| [_PEP_PPM_QUERY_PERF_CAPABILITIES structure](..\pepevents\ns-pep_x-_pep_ppm_query_perf_capabilities.md) | The PEP_PPM_QUERY_PERF_CAPABILITIES structure describes the performance capabilities of the processors in the specified processor performance domain. |
-| [_PEP_PPM_QUERY_PERF_CAPABILITIES structure](..\pepevents\ns-pepfx-_pep_ppm_query_perf_capabilities.md) | The PEP_PPM_QUERY_PERF_CAPABILITIES structure describes the performance capabilities of the processors in the specified processor performance domain. |
-| [_PEP_PPM_QUERY_PERF_CONSTRAINTS structure](..\pepevents\ns-pep_x-_pep_ppm_query_perf_constraints.md) | The PEP_PPM_PERF_CONSTRAINTS structure describes the performance limits to apply to the processor. |
-| [_PEP_PPM_QUERY_PERF_CONSTRAINTS structure](..\pepevents\ns-pepfx-_pep_ppm_query_perf_constraints.md) | The PEP_PPM_PERF_CONSTRAINTS structure describes the performance limits to apply to the processor. |
-| [_PEP_PPM_QUERY_PLATFORM_STATE structure](..\pepevents\ns-pep_x-_pep_ppm_query_platform_state.md) | The PEP_PPM_QUERY_PLATFORM_STATE structure contains information about a platform idle state. |
-| [_PEP_PPM_QUERY_PLATFORM_STATE structure](..\pepevents\ns-pepfx-_pep_ppm_query_platform_state.md) | The PEP_PPM_QUERY_PLATFORM_STATE structure contains information about a platform idle state. |
-| [_PEP_PPM_QUERY_PLATFORM_STATES structure](..\pepevents\ns-pep_x-_pep_ppm_query_platform_states.md) | The PEP_PPM_QUERY_PLATFORM_STATES structure specifies the number of platform idle states the hardware platform supports. |
-| [_PEP_PPM_QUERY_PLATFORM_STATES structure](..\pepevents\ns-pepfx-_pep_ppm_query_platform_states.md) | The PEP_PPM_QUERY_PLATFORM_STATES structure specifies the number of platform idle states the hardware platform supports. |
-| [_PEP_PPM_QUERY_STATE_NAME structure](..\pepevents\ns-pep_x-_pep_ppm_query_state_name.md) | The PEP_PPM_QUERY_STATE_NAME structure contains information about a specific coordinated or platform idle state. |
-| [_PEP_PPM_QUERY_STATE_NAME structure](..\pepevents\ns-pepfx-_pep_ppm_query_state_name.md) | The PEP_PPM_QUERY_STATE_NAME structure contains information about a specific coordinated or platform idle state. |
-| [_PEP_PPM_QUERY_VETO_REASON structure](..\pepevents\ns-pep_x-_pep_ppm_query_veto_reason.md) | The PEP_PPM_QUERY_VETO_REASON structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason. |
-| [_PEP_PPM_QUERY_VETO_REASON structure](..\pepevents\ns-pepfx-_pep_ppm_query_veto_reason.md) | The PEP_PPM_QUERY_VETO_REASON structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason. |
-| [_PEP_PPM_QUERY_VETO_REASONS structure](..\pepevents\ns-pep_x-_pep_ppm_query_veto_reasons.md) | The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines. |
-| [_PEP_PPM_QUERY_VETO_REASONS structure](..\pepevents\ns-pepfx-_pep_ppm_query_veto_reasons.md) | The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines. |
-| [_PEP_PPM_RESUME_FROM_SYSTEM_STATE structure](..\pepevents\ns-pep_x-_pep_ppm_resume_from_system_state.md) | Used by the PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE notification that notifies the PEP that the system has just resumed from a system power state. |
-| [_PEP_PPM_RESUME_FROM_SYSTEM_STATE structure](..\pepevents\ns-pepfx-_pep_ppm_resume_from_system_state.md) | Used by the PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE notification that notifies the PEP that the system has just resumed from a system power state. |
-| [_PEP_PPM_TEST_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_ppm_test_idle_state.md) | The PEP_PPM_TEST_IDLE_STATE structure contains information about whether the processor can immediately enter a processor idle state. |
-| [_PEP_PPM_TEST_IDLE_STATE structure](..\pepevents\ns-pepfx-_pep_ppm_test_idle_state.md) | The PEP_PPM_TEST_IDLE_STATE structure contains information about whether the processor can immediately enter a processor idle state. |
-| [_PEP_PREPARE_DEVICE structure](..\pepevents\ns-pep_x-_pep_prepare_device.md) | The PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system. |
-| [_PEP_PREPARE_DEVICE structure](..\pepevents\ns-pepfx-_pep_prepare_device.md) | The PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system. |
-| [_PEP_PROCESSOR_FEEDBACK_COUNTER structure](..\pepevents\ns-pep_x-_pep_processor_feedback_counter.md) | The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback counter to the operating system. |
-| [_PEP_PROCESSOR_FEEDBACK_COUNTER structure](..\pepevents\ns-pepfx-_pep_processor_feedback_counter.md) | The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback counter to the operating system. |
-| [_PEP_PROCESSOR_IDLE_CONSTRAINTS structure](..\pepevents\ns-pep_x-_pep_processor_idle_constraints.md) | The PEP_PROCESSOR_IDLE_CONSTRAINTS structure specifies a set of constraints that the PEP uses to select a processor idle state. |
-| [_PEP_PROCESSOR_IDLE_DEPENDENCY structure](..\pepevents\ns-pep_x-_pep_processor_idle_dependency.md) | The PEP_PROCESSOR_IDLE_DEPENDENCY structure specifies the dependencies of a platform idle state on the specified processor. |
-| [_PEP_PROCESSOR_IDLE_DEPENDENCY structure](..\pepevents\ns-pepfx-_pep_processor_idle_dependency.md) | The PEP_PROCESSOR_IDLE_DEPENDENCY structure specifies the dependencies of a platform idle state on the specified processor. |
-| [_PEP_PROCESSOR_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_processor_idle_state.md) | The PEP_PROCESSOR_IDLE_STATE structure describes the capabilities of a processor idle state. |
-| [_PEP_PROCESSOR_IDLE_STATE_UPDATE structure](..\pepevents\ns-pep_x-_pep_processor_idle_state_update.md) | The PEP_PROCESSOR_IDLE_STATE_UPDATE structure contains the updated properties of a processor idle state. |
-| [_PEP_PROCESSOR_IDLE_STATE_UPDATE structure](..\pepevents\ns-pepfx-_pep_processor_idle_state_update.md) | The PEP_PROCESSOR_IDLE_STATE_UPDATE structure contains the updated properties of a processor idle state. |
-| [_PEP_PROCESSOR_IDLE_STATE_V2 structure](..\pepevents\ns-pep_x-_pep_processor_idle_state_v2.md) | The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports. |
-| [_PEP_PROCESSOR_IDLE_STATE_V2 structure](..\pepevents\ns-pepfx-_pep_processor_idle_state_v2.md) | The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports. |
-| [_PEP_PROCESSOR_PARK_PREFERENCE structure](..\pepevents\ns-pep_x-_pep_processor_park_preference.md) | The PEP_PROCESSOR_PARK_PREFERENCE structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption. |
-| [_PEP_PROCESSOR_PARK_PREFERENCE structure](..\pepevents\ns-pepfx-_pep_processor_park_preference.md) | The PEP_PROCESSOR_PARK_PREFERENCE structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption. |
-| [_PEP_PROCESSOR_PARK_STATE structure](..\pepevents\ns-pep_x-_pep_processor_park_state.md) | The PEP_PROCESSOR_PARK_STATE structure describes the parking state for a single processor. |
-| [_PEP_PROCESSOR_PARK_STATE structure](..\pepevents\ns-pepfx-_pep_processor_park_state.md) | The PEP_PROCESSOR_PARK_STATE structure describes the parking state for a single processor. |
-| [_PEP_PROCESSOR_PERF_STATE structure](..\pepevents\ns-pep_x-_pep_processor_perf_state.md) | Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification. This structure describes the properties of a single performance state.  . |
-| [_PEP_PROCESSOR_PERF_STATE structure](..\pepevents\ns-pepfx-_pep_processor_perf_state.md) | Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification. This structure describes the properties of a single performance state.  . |
-| [_PEP_QUERY_COMPONENT_PERF_CAPABILITIES structure](..\pepevents\ns-pep_x-_pep_query_component_perf_capabilities.md) | The PEP_QUERY_COMPONENT_PERF_CAPABILITIES structure specifies the number of performance state (P-state) sets that are defined for a component. |
-| [_PEP_QUERY_COMPONENT_PERF_CAPABILITIES structure](..\pepevents\ns-pepfx-_pep_query_component_perf_capabilities.md) | The PEP_QUERY_COMPONENT_PERF_CAPABILITIES structure specifies the number of performance state (P-state) sets that are defined for a component. |
-| [_PEP_QUERY_COMPONENT_PERF_SET structure](..\pepevents\ns-pep_x-_pep_query_component_perf_set.md) | The PEP_QUERY_COMPONENT_PERF_SET structure contains query information about a set of performance state values (P-state set) for a component. |
-| [_PEP_QUERY_COMPONENT_PERF_SET structure](..\pepevents\ns-pepfx-_pep_query_component_perf_set.md) | The PEP_QUERY_COMPONENT_PERF_SET structure contains query information about a set of performance state values (P-state set) for a component. |
-| [_PEP_QUERY_COMPONENT_PERF_SET_NAME structure](..\pepevents\ns-pep_x-_pep_query_component_perf_set_name.md) | The PEP_QUERY_COMPONENT_PERF_SET_NAME structure contains query information about a set of performance state values (P-state set) for a component. |
-| [_PEP_QUERY_COMPONENT_PERF_SET_NAME structure](..\pepevents\ns-pepfx-_pep_query_component_perf_set_name.md) | The PEP_QUERY_COMPONENT_PERF_SET_NAME structure contains query information about a set of performance state values (P-state set) for a component. |
-| [_PEP_QUERY_COMPONENT_PERF_STATES structure](..\pepevents\ns-pep_x-_pep_query_component_perf_states.md) | The PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set. |
-| [_PEP_QUERY_COMPONENT_PERF_STATES structure](..\pepevents\ns-pepfx-_pep_query_component_perf_states.md) | The PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set. |
-| [_PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure](..\pepevents\ns-pep_x-_pep_query_current_component_perf_state.md) | The PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set. |
-| [_PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure](..\pepevents\ns-pepfx-_pep_query_current_component_perf_state.md) | The PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set. |
-| [_PEP_QUERY_SOC_SUBSYSTEM structure](..\pepevents\ns-pep_x-_pep_query_soc_subsystem.md) | The PEP_QUERY_SOC_SUBSYSTEM structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM notification to gather basic information about a particular system on a chip (SoC) subsystem. |
-| [_PEP_QUERY_SOC_SUBSYSTEM structure](..\pepevents\ns-pepfx-_pep_query_soc_subsystem.md) | The PEP_QUERY_SOC_SUBSYSTEM structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM notification to gather basic information about a particular system on a chip (SoC) subsystem. |
-| [_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure](..\pepevents\ns-pep_x-_pep_query_soc_subsystem_blocking_time.md) | The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem. |
-| [_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure](..\pepevents\ns-pepfx-_pep_query_soc_subsystem_blocking_time.md) | The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem. |
-| [_PEP_QUERY_SOC_SUBSYSTEM_COUNT structure](..\pepevents\ns-pep_x-_pep_query_soc_subsystem_count.md) | The PEP_QUERY_SOC_SUBSYSTEM_COUNT structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state. |
-| [_PEP_QUERY_SOC_SUBSYSTEM_COUNT structure](..\pepevents\ns-pepfx-_pep_query_soc_subsystem_count.md) | The PEP_QUERY_SOC_SUBSYSTEM_COUNT structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state. |
-| [_PEP_QUERY_SOC_SUBSYSTEM_METADATA structure](..\pepevents\ns-pep_x-_pep_query_soc_subsystem_metadata.md) | The PEP_QUERY_SOC_SUBSYSTEM_METADATA structure is used with the PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried. |
-| [_PEP_QUERY_SOC_SUBSYSTEM_METADATA structure](..\pepevents\ns-pepfx-_pep_query_soc_subsystem_metadata.md) | The PEP_QUERY_SOC_SUBSYSTEM_METADATA structure is used with the PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried. |
-| [_PEP_REGISTER_COMPONENT_PERF_STATES structure](..\pepevents\ns-pep_x-_pep_register_component_perf_states.md) | The PEP_REGISTER_COMPONENT_PERF_STATES structure describes the performance states (P-states) of the specified component. |
-| [_PEP_REGISTER_COMPONENT_PERF_STATES structure](..\pepevents\ns-pepfx-_pep_register_component_perf_states.md) | The PEP_REGISTER_COMPONENT_PERF_STATES structure describes the performance states (P-states) of the specified component. |
-| [_PEP_REGISTER_CRASHDUMP_DEVICE structure](..\pepevents\ns-pep_x-_pep_register_crashdump_device.md) | The PEP_REGISTER_CRASHDUMP_DEVICE structure provides a callback routine to turn on a crash-dump device. |
-| [_PEP_REGISTER_CRASHDUMP_DEVICE structure](..\pepevents\ns-pepfx-_pep_register_crashdump_device.md) | The PEP_REGISTER_CRASHDUMP_DEVICE structure provides a callback routine to turn on a crash-dump device. |
-| [_PEP_REGISTER_DEBUGGER structure](..\pepevents\ns-pep_x-_pep_register_debugger.md) | The PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport. |
-| [_PEP_REGISTER_DEBUGGER structure](..\pepevents\ns-pepfx-_pep_register_debugger.md) | The PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport. |
-| [_PEP_REGISTER_DEVICE_V2 structure](..\pepevents\ns-pep_x-_pep_register_device_v2.md) | The PEP_REGISTER_DEVICE_V2 structure describes a device whose driver stack has just registered with the Windows power management framework (PoFx). |
-| [_PEP_REGISTER_DEVICE_V2 structure](..\pepevents\ns-pepfx-_pep_register_device_v2.md) | The PEP_REGISTER_DEVICE_V2 structure describes a device whose driver stack has just registered with the Windows power management framework (PoFx). |
-| [_PEP_REQUEST_COMPONENT_PERF_STATE structure](..\pepevents\ns-pep_x-_pep_request_component_perf_state.md) | The PEP_REQUEST_COMPONENT_PERF_STATE structure contains a list of performance state (P-state) changes requested by the Windows power management framework (PoFx), plus status information about the handling of these requests by the platform extension plug-in (PEP). |
-| [_PEP_REQUEST_COMPONENT_PERF_STATE structure](..\pepevents\ns-pepfx-_pep_request_component_perf_state.md) | The PEP_REQUEST_COMPONENT_PERF_STATE structure contains a list of performance state (P-state) changes requested by the Windows power management framework (PoFx), plus status information about the handling of these requests by the platform extension plug-in (PEP). |
-| [_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure](..\pepevents\ns-pep_x-_pep_reset_soc_subsystem_accounting.md) | The PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure is provided to the platform extension plug-in (PEP) as part of a PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification. |
-| [_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure](..\pepevents\ns-pepfx-_pep_reset_soc_subsystem_accounting.md) | The PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure is provided to the platform extension plug-in (PEP) as part of a PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification. |
-| [_PEP_SOC_SUBSYSTEM_METADATA structure](..\pepevents\ns-pep_x-_pep_soc_subsystem_metadata.md) | The PEP_SOC_SUBSYSTEM_METADATA structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification sent to a platform extension plug-in (PEP). |
-| [_PEP_SOC_SUBSYSTEM_METADATA structure](..\pepevents\ns-pepfx-_pep_soc_subsystem_metadata.md) | The PEP_SOC_SUBSYSTEM_METADATA structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification sent to a platform extension plug-in (PEP). |
-| [_PEP_SYSTEM_LATENCY structure](..\pepevents\ns-pep_x-_pep_system_latency.md) | The PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance. |
-| [_PEP_SYSTEM_LATENCY structure](..\pepevents\ns-pepfx-_pep_system_latency.md) | The PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance. |
-| [_PEP_UNMASKED_INTERRUPT_FLAGS structure](..\pepevents\ns-pep_x-_pep_unmasked_interrupt_flags.md) | The PEP_UNMASKED_INTERRUPT_FLAGS union indicates whether an unmasked interrupt source is a primary interrupt or a secondary interrupt. |
-| [_PEP_UNMASKED_INTERRUPT_FLAGS structure](..\pepevents\ns-pepfx-_pep_unmasked_interrupt_flags.md) | The PEP_UNMASKED_INTERRUPT_FLAGS union indicates whether an unmasked interrupt source is a primary interrupt or a secondary interrupt. |
-| [_PEP_UNMASKED_INTERRUPT_INFORMATION structure](..\pepevents\ns-pep_x-_pep_unmasked_interrupt_information.md) | The PEP_UNMASKED_INTERRUPT_INFORMATION structure contains information about an interrupt source. |
-| [_PEP_UNMASKED_INTERRUPT_INFORMATION structure](..\pepevents\ns-pepfx-_pep_unmasked_interrupt_information.md) | The PEP_UNMASKED_INTERRUPT_INFORMATION structure contains information about an interrupt source. |
-| [_PEP_UNREGISTER_DEVICE structure](..\pepevents\ns-pep_x-_pep_unregister_device.md) | The PEP_UNREGISTER_DEVICE structure identifies a device whose registration is being removed from the Windows power management framework (PoFx). |
-| [_PEP_UNREGISTER_DEVICE structure](..\pepevents\ns-pepfx-_pep_unregister_device.md) | The PEP_UNREGISTER_DEVICE structure identifies a device whose registration is being removed from the Windows power management framework (PoFx). |
-| [_PEP_WORK structure](..\pepevents\ns-pep_x-_pep_work.md) | The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx). |
-| [_PEP_WORK structure](..\pepevents\ns-pepfx-_pep_work.md) | The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx). |
-| [_PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure](..\pepevents\ns-pep_x-_pep_work_acpi_evaluate_control_method_complete.md) | The PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure contains the results of an ACPI control method that was asynchronously evaluated by the platform extension plug-in (PEP). |
-| [_PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure](..\pepevents\ns-pepfx-_pep_work_acpi_evaluate_control_method_complete.md) | The PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure contains the results of an ACPI control method that was asynchronously evaluated by the platform extension plug-in (PEP). |
-| [_PEP_WORK_ACPI_NOTIFY structure](..\pepevents\ns-pep_x-_pep_work_acpi_notify.md) | The PEP_WORK_ACPI_NOTIFY structure contains the ACPI Notify code for a device that has generated a hardware event. |
-| [_PEP_WORK_ACPI_NOTIFY structure](..\pepevents\ns-pepfx-_pep_work_acpi_notify.md) | The PEP_WORK_ACPI_NOTIFY structure contains the ACPI Notify code for a device that has generated a hardware event. |
-| [_PEP_WORK_ACTIVE_COMPLETE structure](..\pepevents\ns-pep_x-_pep_work_active_complete.md) | The PEP_WORK_ACTIVE_COMPLETE structure identifies a component that is now in the active condition. |
-| [_PEP_WORK_COMPLETE_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_work_complete_idle_state.md) | The PEP_WORK_COMPLETE_IDLE_STATE structure identifies a component that the platform extension plug-in (PEP) has prepared for a transition to a new Fx power state. |
-| [_PEP_WORK_COMPLETE_IDLE_STATE structure](..\pepevents\ns-pepfx-_pep_work_complete_idle_state.md) | The PEP_WORK_COMPLETE_IDLE_STATE structure identifies a component that the platform extension plug-in (PEP) has prepared for a transition to a new Fx power state. |
-| [_PEP_WORK_COMPLETE_PERF_STATE structure](..\pepevents\ns-pep_x-_pep_work_complete_perf_state.md) | The PEP_WORK_COMPLETE_PERF_STATE structure describes the completion status of a previously requested update to the performance values assigned to a list of performance state (P-state) sets. |
-| [_PEP_WORK_COMPLETE_PERF_STATE structure](..\pepevents\ns-pepfx-_pep_work_complete_perf_state.md) | The PEP_WORK_COMPLETE_PERF_STATE structure describes the completion status of a previously requested update to the performance values assigned to a list of performance state (P-state) sets. |
-| [_PEP_WORK_DEVICE_IDLE structure](..\pepevents\ns-pep_x-_pep_work_device_idle.md) | The PEP_WORK_DEVICE_IDLE structure indicates whether to ignore the idle time-out for the specified device. |
-| [_PEP_WORK_DEVICE_POWER structure](..\pepevents\ns-pep_x-_pep_work_device_power.md) | The PEP_WORK_DEVICE_POWER structure describes the new power requirements for the specified device. |
-| [_PEP_WORK_IDLE_STATE structure](..\pepevents\ns-pep_x-_pep_work_idle_state.md) | The PEP_WORK_IDLE_STATE structure contains a request to transition a component to an Fx power state. |
-| [_PEP_WORK_INFORMATION structure](..\pepevents\ns-pep_x-_pep_work_information.md) | The PEP_WORK_INFORMATION structure describes a work item that the PEP is submitting to the Windows power management framework (PoFx). |
-| [_PEP_WORK_INFORMATION structure](..\pepevents\ns-pepfx-_pep_work_information.md) | The PEP_WORK_INFORMATION structure describes a work item that the PEP is submitting to the Windows power management framework (PoFx). |
-| [_PEP_WORK_POWER_CONTROL structure](..\pepevents\ns-pep_x-_pep_work_power_control.md) | The PEP_WORK_POWER_CONTROL structure contains the parameters for a power control request that the platform extension plug-in (PEP) sends directly to a processor driver. |
-| [_PEP_WORK_POWER_CONTROL structure](..\pepevents\ns-pepfx-_pep_work_power_control.md) | The PEP_WORK_POWER_CONTROL structure contains the parameters for a power control request that the platform extension plug-in (PEP) sends directly to a processor driver. |
-| [_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure](..\pepevents\ns-ntddk-_physical_counter_resource_descriptor.md) | The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure describes the counter resources available on the platform. |
-| [_PHYSICAL_COUNTER_RESOURCE_LIST structure](..\pepevents\ns-ntddk-_physical_counter_resource_list.md) | The PHYSICAL_COUNTER_RESOURCE_LIST structure describes an array of PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structures. |
-| [_PLUGPLAY_NOTIFICATION_HEADER structure](..\pepevents\ns-wdm-_plugplay_notification_header.md) | A PLUGPLAY_NOTIFICATION_HEADER structure is included at the beginning of each PnP notification structure, such as a DEVICE_INTERFACE_CHANGE_NOTIFICATION structure. |
-| [_PNP_BUS_INFORMATION structure](..\pepevents\ns-wdm-_pnp_bus_information.md) | The PNP_BUS_INFORMATION structure describes a bus. |
-| [_PNP_LOCATION_INTERFACE structure](..\pepevents\ns-ntddk-_pnp_location_interface.md) | The PNP_LOCATION_INTERFACE structure describes the GUID_PNP_LOCATION_INTERFACE interface. |
-| [_POWER_PLATFORM_INFORMATION structure](..\pepevents\ns-ntpoapi-_power_platform_information.md) | The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system. |
-| [_POWER_PLATFORM_INFORMATION structure](..\pepevents\ns-wdm-_power_platform_information.md) | The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system. |
-| [_POWER_STATE structure](..\pepevents\ns-ntpoapi-_power_state.md) | The POWER_STATE union specifies a system power state value or a device power state value. |
-| [_POWER_STATE structure](..\pepevents\ns-wdm-_power_state.md) | The POWER_STATE union specifies a system power state value or a device power state value. |
-| [_POWER_THROTTLING_PROCESS_STATE structure](..\pepevents\ns-ntddk-_power_throttling_process_state.md) | Stores the throttling policies and how to apply them to a target process when that process is subject to power management. |
-| [_POWER_THROTTLING_THREAD_STATE structure](..\pepevents\ns-ntddk-_power_throttling_thread_state.md) | Stores the throttling policies and how to apply them to a target thread when that thread is subject to power management. |
-| [_PO_FX_COMPONENT_IDLE_STATE structure](..\pepevents\ns-wdm-_po_fx_component_idle_state.md) | The PO_FX_COMPONENT_IDLE_STATE structure specifies the attributes of an Fx power state of a component in a device. |
-| [_PO_FX_COMPONENT_PERF_INFO structure](..\pepevents\ns-wdm-_po_fx_component_perf_info.md) | The PO_FX_COMPONENT_PERF_INFO structure describes all the sets of performance states for a single component within a device. |
-| [_PO_FX_COMPONENT_PERF_SET structure](..\pepevents\ns-wdm-_po_fx_component_perf_set.md) | The PO_FX_COMPONENT_PERF_SET structure represents a set of performance states for a single component within a device. |
-| [_PO_FX_COMPONENT_V1 structure](..\pepevents\ns-wdm-_po_fx_component_v1.md) | The PO_FX_COMPONENT structure describes the power state attributes of a component in a device. |
-| [_PO_FX_COMPONENT_V2 structure](..\pepevents\ns-wdm-_po_fx_component_v2.md) | The PO_FX_COMPONENT structure describes the power state attributes of a component in a device. |
-| [_PO_FX_CORE_DEVICE structure](..\pepevents\ns-pep_x-_po_fx_core_device.md) | The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components. |
-| [_PO_FX_CORE_DEVICE structure](..\pepevents\ns-pepfx-_po_fx_core_device.md) | The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components. |
-| [_PO_FX_DEVICE_V1 structure](..\pepevents\ns-wdm-_po_fx_device_v1.md) | The PO_FX_DEVICE structure describes the power attributes of a device to the power management framework (PoFx). |
-| [_PO_FX_DEVICE_V2 structure](..\pepevents\ns-wdm-_po_fx_device_v2.md) | The PO_FX_DEVICE structure describes the power attributes of a device to the power management framework (PoFx). |
-| [_PO_FX_PERF_STATE structure](..\pepevents\ns-wdm-_po_fx_perf_state.md) | The PO_FX_PERF_STATE structure represents a performance state for a single component within a device. |
-| [_PO_FX_PERF_STATE_CHANGE structure](..\pepevents\ns-wdm-_po_fx_perf_state_change.md) | The PO_FX_PERF_STATE_CHANGE structure contains information about a change to a performance state that is being requested by calling the PoFxIssueComponentPerfStateChange or PoFxIssueComponentPerfStateChangeMultiple routine. |
-| [_PRIVILEGE_SET structure](..\pepevents\ns-wdm-_privilege_set.md) | The PRIVILEGE_SET structure specifies a set of security privileges. For more information, see the reference page for PRIVILEGE_SET in the Microsoft Windows SDK documentation. |
-| [_PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure](..\pepevents\ns-ntddk-_process_mitigation_child_process_policy.md) | Stores policy information about creating child processes. |
-| [_PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure](..\pepevents\ns-ntddk-_process_mitigation_payload_restriction_policy.md) | Stores information about process mitigation policy. |
-| [_PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure](..\pepevents\ns-ntddk-_process_mitigation_system_call_filter_policy.md) | This structure is not supported. |
-| [_PROCESS_READWRITEVM_LOGGING_INFORMATION structure](..\pepevents\ns-ntddk-_process_readwritevm_logging_information.md) | Stores options for read/write access for telemetry per process. |
-| [_PS_CREATE_NOTIFY_INFO structure](..\pepevents\ns-ntddk-_ps_create_notify_info.md) | The PS_CREATE_NOTIFY_INFO structure provides information about a newly created process. |
-| [_REENUMERATE_SELF_INTERFACE_STANDARD structure](..\pepevents\ns-wdm-_reenumerate_self_interface_standard.md) | The REENUMERATE_SELF_INTERFACE_STANDARD interface structure enables a driver to request that its parent bus driver reenumerate the driver's device. This structure defines the GUID_REENUMERATE_SELF_INTERFACE_STANDARD interface. |
-| [_REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure](..\pepevents\ns-wdm-_reg_callback_context_cleanup_information.md) | The REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure contains information that a driver's RegistryCallback routine can use to free resources that the driver previously allocated for the context that is associated with a registry object. |
-| [_REG_CREATE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_create_key_information.md) | The REG_CREATE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key that is being created. |
-| [_REG_CREATE_KEY_INFORMATION_V1 structure](..\pepevents\ns-wdm-_reg_create_key_information_v1.md) | The REG_CREATE_KEY_INFORMATION_V1 structure contains information that a filter driver's RegistryCallback routine can use when a registry key is being created. |
-| [_REG_DELETE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_delete_key_information.md) | The REG_DELETE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key is being deleted. |
-| [_REG_DELETE_VALUE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_delete_value_key_information.md) | The REG_DELETE_VALUE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key's value is being deleted. |
-| [_REG_ENUMERATE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_enumerate_key_information.md) | The REG_ENUMERATE_KEY_INFORMATION structure describes one subkey of a key whose subkeys are being enumerated. |
-| [_REG_ENUMERATE_VALUE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_enumerate_value_key_information.md) | The REG_ENUMERATE_VALUE_KEY_INFORMATION structure describes one value entry of a key whose value entries are being enumerated. |
-| [_REG_KEY_HANDLE_CLOSE_INFORMATION structure](..\pepevents\ns-wdm-_reg_key_handle_close_information.md) | The REG_KEY_HANDLE_CLOSE_INFORMATION structure contains information about a registry key whose handle is about to be closed. |
-| [_REG_LOAD_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_load_key_information.md) | The REG_LOAD_KEY_INFORMATION structure contains information about a registry hive that is being loaded. |
-| [_REG_POST_CREATE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_post_create_key_information.md) | The REG_POST_CREATE_KEY_INFORMATION structure contains the result of an attempt to create a registry key. |
-| [_REG_POST_OPERATION_INFORMATION structure](..\pepevents\ns-wdm-_reg_post_operation_information.md) | The REG_POST_OPERATION_INFORMATION structure contains information about a completed registry operation that a RegistryCallback routine can use. |
-| [_REG_PRE_CREATE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_pre_create_key_information.md) | The REG_PRE_OPEN_KEY_INFORMATION structure contains the name of a registry key that is about to be opened. |
-| [_REG_QUERY_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_query_key_information.md) | The REG_QUERY_KEY_INFORMATION structure describes the metadata that is about to be queried for a key. |
-| [_REG_QUERY_KEY_NAME structure](..\pepevents\ns-wdm-_reg_query_key_name.md) | The REG_QUERY_KEY_NAME structure describes the full registry key name of an object being queried. |
-| [_REG_QUERY_KEY_SECURITY_INFORMATION structure](..\pepevents\ns-wdm-_reg_query_key_security_information.md) | The REG_QUERY_KEY_SECURITY_INFORMATION structure receives security information for a registry key object. |
-| [_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_query_multiple_value_key_information.md) | The REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure describes the multiple value entries that are being retrieved for a key. |
-| [_REG_QUERY_VALUE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_query_value_key_information.md) | The REG_QUERY_VALUE_KEY_INFORMATION structure contains information about a registry key's value entry that is being queried. |
-| [_REG_RENAME_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_rename_key_information.md) | The REG_RENAME_KEY_INFORMATION structure contains the new name for a registry key whose name is about to be changed. |
-| [_REG_REPLACE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_replace_key_information.md) | The REG_REPLACE_KEY_INFORMATION structure describes the metadata that is about to be replaced for a key. |
-| [_REG_RESTORE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_restore_key_information.md) | The REG_RESTORE_KEY_INFORMATION structure contains the information for a registry key that is about to be restored. |
-| [_REG_SAVE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_save_key_information.md) | The REG_SAVE_KEY_INFORMATION structure contains the information for a registry key that is about to be saved. |
-| [_REG_SET_INFORMATION_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_set_information_key_information.md) | The REG_SET_INFORMATION_KEY_INFORMATION structure describes a new setting for a key's metadata. |
-| [_REG_SET_KEY_SECURITY_INFORMATION structure](..\pepevents\ns-wdm-_reg_set_key_security_information.md) | The REG_SET_KEY_SECURITY_INFORMATION structure specifies security information for a registry key object. |
-| [_REG_SET_VALUE_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_set_value_key_information.md) | The REG_SET_VALUE_INFORMATION structure describes a new setting for a registry key's value entry. |
-| [_REG_UNLOAD_KEY_INFORMATION structure](..\pepevents\ns-wdm-_reg_unload_key_information.md) | The REG_UNLOAD_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry hive is unloaded. |
-| [_RESOURCEMANAGER_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_resourcemanager_basic_information.md) | The RESOURCEMANAGER_BASIC INFORMATION structure contains information about a resource manager object. |
-| [_RESOURCEMANAGER_COMPLETION_INFORMATION structure](..\pepevents\ns-wdm-_resourcemanager_completion_information.md) | The RESOURCEMANAGER_COMPLETION_INFORMATION structure is not used. |
-| [_SCATTER_GATHER_LIST structure](..\pepevents\ns-wdm-_scatter_gather_list.md) | The SCATTER_GATHER_LIST structure describes the scatter/gather list for a DMA operation. |
-| [_SDEV_IDENTIFIER_INTERFACE structure](..\pepevents\ns-wdm-_sdev_identifier_interface.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
-| [_SECTION_OBJECT_POINTERS structure](..\pepevents\ns-wdm-_section_object_pointers.md) | The SECTION_OBJECT_POINTERS structure, allocated by a file system or a redirector driver, is used by the memory manager and cache manager to store file-mapping and cache-related information for a file stream. |
-| [_SILO_MONITOR_REGISTRATION structure](..\pepevents\ns-ntddk-_silo_monitor_registration.md) | This structure specifies a server silo monitor that can receive notifications about server silo events. |
-| [_SLIST_ENTRY structure](..\pepevents\ns-wdm-_slist_entry.md) | An SLIST_ENTRY structure describes an entry in a sequenced singly linked list. |
-| [_SYSENV_VALUE structure](..\pepevents\ns-ntddsysenv-_sysenv_value.md) | Stores the value of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_GET_VARIABLE request. |
-| [_SYSENV_VARIABLE structure](..\pepevents\ns-ntddsysenv-_sysenv_variable.md) | Stores the name a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_GET_VARIABLE request. |
-| [_SYSENV_VARIABLE_INFO structure](..\pepevents\ns-ntddsysenv-_sysenv_variable_info.md) | Stores the information about a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_QUERY_VARIABLE_INFO request. |
-| [_SYSTEM_POWER_STATE_CONTEXT structure](..\pepevents\ns-ntpoapi-_system_power_state_context.md) | The SYSTEM_POWER_STATE_CONTEXT structure is a partially opaque system structure that contains information about the previous system power states of a computer. |
-| [_SYSTEM_POWER_STATE_CONTEXT structure](..\pepevents\ns-wdm-_system_power_state_context.md) | The SYSTEM_POWER_STATE_CONTEXT structure is a partially opaque system structure that contains information about the previous system power states of a computer. |
-| [_TARGET_DEVICE_CUSTOM_NOTIFICATION structure](..\pepevents\ns-wdm-_target_device_custom_notification.md) | The TARGET_DEVICE_CUSTOM_NOTIFICATION structure describes a custom device event. |
-| [_TARGET_DEVICE_REMOVAL_NOTIFICATION structure](..\pepevents\ns-wdm-_target_device_removal_notification.md) | The TARGET_DEVICE_REMOVAL_NOTIFICATION structure describes a device-removal event. The PnP manager sends this structure to a driver that registered a callback routine for notification of EventCategoryTargetDeviceChange events. |
-| [_THERMAL_COOLING_INTERFACE structure](..\pepevents\ns-poclass-_thermal_cooling_interface.md) | The THERMAL_COOLING_INTERFACE structure enables the operating system to control the thermal management settings of a device. |
-| [_TRANSACTIONMANAGER_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_transactionmanager_basic_information.md) | The TRANSACTIONMANAGER_BASIC_INFORMATION structure contains information about a transaction manager object. |
-| [_TRANSACTIONMANAGER_LOGPATH_INFORMATION structure](..\pepevents\ns-wdm-_transactionmanager_logpath_information.md) | The TRANSACTIONMANAGER_LOGPATH_INFORMATION structure contains information about a transaction manager object. |
-| [_TRANSACTIONMANAGER_LOG_INFORMATION structure](..\pepevents\ns-wdm-_transactionmanager_log_information.md) | The TRANSACTIONMANAGER_LOG_INFORMATION structure contains information about a transaction manager object. |
-| [_TRANSACTIONMANAGER_RECOVERY_INFORMATION structure](..\pepevents\ns-wdm-_transactionmanager_recovery_information.md) | The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a transaction manager object. |
-| [_TRANSACTION_BASIC_INFORMATION structure](..\pepevents\ns-wdm-_transaction_basic_information.md) | The TRANSACTION_BASIC_INFORMATION structure contains information about a transaction object. |
-| [_TRANSACTION_ENLISTMENTS_INFORMATION structure](..\pepevents\ns-wdm-_transaction_enlistments_information.md) | The TRANSACTION_ENLISTMENTS_INFORMATION structure contains information about the enlistments that are associated with a transaction object. |
-| [_TRANSACTION_ENLISTMENT_PAIR structure](..\pepevents\ns-wdm-_transaction_enlistment_pair.md) | The TRANSACTION_ENLISTMENT_PAIR structure contains information about an enlistment that is associated with a transaction object. |
-| [_TRANSACTION_PROPERTIES_INFORMATION structure](..\pepevents\ns-wdm-_transaction_properties_information.md) | The TRANSACTION_PROPERTIES_INFORMATION structure contains a transaction object's properties. |
-| [_VPCI_INVALIDATE_BLOCK_OUTPUT structure](..\pepevents\ns-vpci-_vpci_invalidate_block_output.md) | The VPCI_INVALIDATE_BLOCK_OUTPUT structure is used in an IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request. |
-| [_VPCI_READ_BLOCK_INPUT structure](..\pepevents\ns-vpci-_vpci_read_block_input.md) | The VPCI_READ_BLOCK_INPUT structure is used in an IOCTL_VPCI_READ_BLOCK IOCTL request to read data from a specified configuration block of data for a PCI Express (PCIe) virtual function (VF). |
-| [_VPCI_WRITE_BLOCK_INPUT structure](..\pepevents\ns-vpci-_vpci_write_block_input.md) | The VPCI_WRITE_BLOCK_INPUT structure is used in an IOCTL_VPCI_WRITE_BLOCK IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF). |
-| [_WMIGUIDREGINFO structure](..\pepevents\ns-wmilib-_wmiguidreginfo.md) | The WMIGUIDREGINFO structure contains registration information for a given data block or event block exposed by a driver that uses the WMI library support routines. |
-| [_WMILIB_CONTEXT structure](..\pepevents\ns-wmilib-_wmilib_context.md) | The WMILIB_CONTEXT structure provides registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines. |
-| [_WNODE_HEADER structure](..\pepevents\ns-wmistr-_wnode_header.md) | The WNODE_HEADER structure is the first member of all other WNODE_XXX structures. It contains information common to all such structures. |
-| [_XVARIABLE_NAME structure](..\pepevents\ns-ntddsysenv-_xvariable_name.md) | Stores the name of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES request. |
-| [_XVARIABLE_NAME_AND_VALUE structure](..\pepevents\ns-ntddsysenv-_xvariable_name_and_value.md) | Stores the name and value of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES and IOCTL_SYSENV_SET_VARIABLE requests. |
-| [tagWNODE_ALL_DATA structure](..\pepevents\ns-wmistr-tagwnode_all_data.md) | The WNODE_ALL_DATA structure contains data for all instances of a data block or event block. |
-| [tagWNODE_EVENT_ITEM structure](..\pepevents\ns-wmistr-tagwnode_event_item.md) | The WNODE_EVENT_ITEM structure contains data generated by a driver for an event. |
-| [tagWNODE_EVENT_REFERENCE structure](..\pepevents\ns-wmistr-tagwnode_event_reference.md) | The WNODE_EVENT_REFERENCE structure contains information that WMI can use to query for an event that exceeds the event size limit set in the registry. |
-| [tagWNODE_METHOD_ITEM structure](..\pepevents\ns-wmistr-tagwnode_method_item.md) | The WNODE_METHOD_ITEM structure indicates a method associated with an instance of a data block and contains any input data for the method. |
-| [tagWNODE_SINGLE_INSTANCE structure](..\pepevents\ns-wmistr-tagwnode_single_instance.md) | The WNODE_SINGLE_INSTANCE structure contains values for all data items in one instance of a data block. |
-| [tagWNODE_SINGLE_ITEM structure](..\pepevents\ns-wmistr-tagwnode_single_item.md) | The WNODE_SINGLE_ITEM structure contains the value of a single data item in an instance of a data block. |
-| [tagWNODE_TOO_SMALL structure](..\pepevents\ns-wmistr-tagwnode_too_small.md) | The WNODE_TOO_SMALL structure indicates the size of the buffer needed to receive output from a request. |
+| [IOCTL_SYSENV_ENUM_VARIABLES IOCTL](..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md) | Returns information about system environment variables using SysEnv device. |
+| [IOCTL_SYSENV_GET_VARIABLE IOCTL](..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_get_variable.md) | Gets the value of the specified system environment variables using SysEnv device. |
+| [IOCTL_SYSENV_QUERY_VARIABLE_INFO IOCTL](..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_query_variable_info.md) | Returns information about system environment variables using SysEnv device. |
+| [IOCTL_SYSENV_SET_VARIABLE IOCTL](..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_set_variable.md) | Sets the value of the specified system environment variables using SysEnv device. |
 
-## I/O control codes
+## Macros
 
 | Title   | Description   |
 | ---- |:---- |

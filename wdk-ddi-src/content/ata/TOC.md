@@ -1,6 +1,7 @@
 # [Storage](../_storage/index.md)
 ## [Ata.h](index.md)
 ### [_ATA_ZONE_DESCRIPTOR structure](../ata/ns-ata-_ata_zone_descriptor.md)
+### [_CURRENT_DEVICE_INTERNAL_STATUS_LOG structure](../ata/ns-ata-_current_device_internal_status_log.md)
 ### [_IDENTIFY_DEVICE_DATA structure](../ata/ns-ata-_identify_device_data.md)
 ### [_IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure](../ata/ns-ata-_identify_device_data_log_page_zoned_device_info.md)
 ### [_REPORT_ZONES_EXT_DATA structure](../ata/ns-ata-_report_zones_ext_data.md)

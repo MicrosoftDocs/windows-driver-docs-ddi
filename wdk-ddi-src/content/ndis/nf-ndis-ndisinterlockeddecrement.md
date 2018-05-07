@@ -65,17 +65,18 @@ The
 
 A pointer to the variable to be decremented.
 
+## -returns
+
+**NdisInterlockedDecrement** returns the decremented value.
 
 ## -remarks
-
-
 
 <b>NdisInterlockedDecrement</b> can safely be used on variables in pageable memory.
 
 <b>NdisInterlockedDecrement</b> is atomic only with respect to other 
     <b>NdisInterlocked<i>Xxx</i></b> calls.
 
-
+This macro is a wrapper around the [**InterlockedDecrement**](../wdm/nf-wdm-interlockeddecrement.md) macro.
 
 
 ## -see-also

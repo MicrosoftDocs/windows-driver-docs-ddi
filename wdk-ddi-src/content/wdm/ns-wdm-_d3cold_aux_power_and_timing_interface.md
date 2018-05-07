@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE, D3COLD_AUX_POWER_AND_TIMING_INTERFACE
+req.typenames: D3COLD_AUX_POWER_AND_TIMING_INTERFACE, *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE
 topictype: 
 -	apiref
 apitype: 

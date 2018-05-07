@@ -1,4 +1,4 @@
-# [gnss](index.md)
+# [Global Navigation Satellite System (GNSS)](index.md)
 ## [Gnssdriver.h](../gnssdriver/index.md)
 ### [GNSS_AGNSS_INJECT structure](../gnssdriver/ns-gnssdriver-gnss_agnss_inject.md)
 ### [GNSS_AGNSS_INJECTBLOB structure](../gnssdriver/ns-gnssdriver-gnss_agnss_injectblob.md)
