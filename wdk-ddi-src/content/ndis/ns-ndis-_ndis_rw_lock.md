@@ -51,7 +51,7 @@ req.typenames: NDIS_RW_LOCK, *PNDIS_RW_LOCK
 
 
 The <b>NDIS_RW_LOCK</b> structure defines the attributes of a read/write lock. This structure is opaque to
-   NDIS drivers.
+   NDIS drivers and is reserved for NDIS.
 
 
 ## -struct-fields
