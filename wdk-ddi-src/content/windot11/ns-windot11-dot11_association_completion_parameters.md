@@ -51,11 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association
-  operation performed by the 802.11 station with either an access point (AP) or peer station. The Native
-  802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes
-  an 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+
+The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association operation performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> status indication.
 
 
@@ -289,7 +287,6 @@ This offset is relative to the start of the buffer, which contains the
       always return the last received 802.11 Beacon frame and must not set the 
       <b>uBeaconOffset</b> and 
       <b>uBeaconSize</b> members to zero.</div>
-<div> </div>
 
 ### -field uBeaconSize
 
@@ -513,7 +510,7 @@ The miniport driver cannot determine whether the DS has changed after the associ
      <b>DOT11_DS_UNKNOWN</b> if the 
      <b>dot11DesiredBSSType</b> MIB object is set to 
      <b>dot11_BSS_type_independent</b>.</div>
-<div> </div>
+
 
 ### -field uEncapTableOffset
 
