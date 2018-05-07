@@ -2,7 +2,7 @@
 UID: TP:audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/07/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -27,7 +27,6 @@ To develop Audio, you need these headers:
  * [portcls.h](..\portcls\index.md)
  * [punknown.h](..\punknown\index.md)
  * [unknown.h](..\unknown\index.md)
- * [usbsidebandaudio.h](..\usbsidebandaudio\index.md)
 
 For the programming guide, see [Audio](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio).
 
